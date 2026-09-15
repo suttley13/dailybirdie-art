@@ -1,0 +1,28 @@
+{
+  "responseID": "resp_01ab3832fea360ae016aa94553f5f487d197093305784677df",
+  "model": "gpt-5.4-2026-03-05",
+  "usage": {
+    "input_tokens": 28982,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 7157,
+    "output_tokens_details": {
+      "reasoning_tokens": 6921
+    },
+    "total_tokens": 36139
+  },
+  "review": {
+    "candidate": 30,
+    "approved": true,
+    "scores": {
+      "strategy": 5,
+      "withinRoundVariety": 5,
+      "acrossDaysVariety": 5,
+      "fairDifficulty": 4
+    },
+    "reason": "Approved. Hole 1 is the standout: a long par 5 with a substantial right-side shoreline lake that stays in play for multiple shots, but the landing corridor is still present and the bunker placements keep it from becoming a simple slog. Hole 2 is a properly distinctive 192-yard island-green par 3; the target is demanding, yet the green is large enough to read as exacting rather than gimmicky. Hole 3 changes pace well with a short double-dogleg par 4 that offers abundant safe tee options and uses its center/right bunkering to make angle management matter instead of just brute length. Together these three holes give excellent par, shape, and hazard variety. With no recent published rounds to compare against, across-days variety is fully satisfied. The overall challenge is strong but remains fair because the round includes clear landing space and a lower-stress finishing hole after the two water-heavy openers.",
+    "edits": []
+  }
+}

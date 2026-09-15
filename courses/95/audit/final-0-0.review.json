@@ -1,0 +1,28 @@
+{
+  "responseID": "resp_056dd09b08c3776c016aa945fdad2c87d19cb547c897b2dae0",
+  "model": "gpt-5.4-2026-03-05",
+  "usage": {
+    "input_tokens": 6423,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 4088,
+    "output_tokens_details": {
+      "reasoning_tokens": 3845
+    },
+    "total_tokens": 10511
+  },
+  "review": {
+    "candidate": 30,
+    "approved": true,
+    "scores": {
+      "strategy": 4,
+      "withinRoundVariety": 5,
+      "acrossDaysVariety": 5,
+      "fairDifficulty": 4
+    },
+    "reason": "Candidate 30 is publishable as-is. The generated artwork maps confidently left-to-right to holes 1, 2, and 3, and its major features track the exact geometry closely enough: hole 1 is the narrow par 5 with the long substantial lake down the right, hole 2 is the island-green par 3 with surrounding water, and hole 3 is the short par 4 with no water, the green up left, and bunkering right/back of the green. Strategically the set works well: a three-shot water-lined par 5, a demanding one-shot island par 3, and a short drivable/placement par 4 give strong contrast within the round. With no recent published rounds supplied, across-days variety is also excellent. The challenge is stern but still fair from the previews and sim evidence, and I do not see a clear, safe geometry edit needed to reconcile the artwork with the authoritative hole geometry.",
+    "edits": []
+  }
+}

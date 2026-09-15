@@ -1,0 +1,28 @@
+{
+  "responseID": "resp_0861f924da438633016aa945d8985c87d191fc60b8fb6d2286",
+  "model": "gpt-5.4-2026-03-05",
+  "usage": {
+    "input_tokens": 6424,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 2443,
+    "output_tokens_details": {
+      "reasoning_tokens": 2211
+    },
+    "total_tokens": 8867
+  },
+  "review": {
+    "candidate": 30,
+    "approved": true,
+    "scores": {
+      "strategy": 5,
+      "withinRoundVariety": 5,
+      "acrossDaysVariety": 5,
+      "fairDifficulty": 4
+    },
+    "reason": "Approve candidate 30. The artwork maps confidently left-to-right to the supplied geometry: Hole 1 is the long par 5 with the substantial right-side shoreline lake, two left fairway bunkers, and a mixed back/right greenside bunker cluster; Hole 2 is the island-green par 3 with one front-right bunker on the lower approach land; Hole 3 is the short no-water par 4 with a sweeping fairway and right/back greenside bunkers. No clear bunker-side or water-extent contradiction is strong enough to justify geometry edits. As a round, it has excellent strategic and format variety: a positional lake-lined par 5, a full-carry island par 3, and a short attackable double-dogleg par 4. Difficulty is demanding but still fair from the sim evidence, with reasonable safe options on all three holes and good separation of shot types.",
+    "edits": []
+  }
+}
