@@ -1,0 +1,87 @@
+{
+  "course": 91,
+  "geometrySHA256": "480f0163a22c58d9fe4b91c79a0703e8fa9f5e937ebada83f4900491bc2fc90f",
+  "artworkSHA256": "35af0cbe5616a4322171314f7bc23c2fd47f7cae45e82d3b069ae4c9f86c35a8",
+  "holes": [
+    {
+      "bunkerCount": 4,
+      "fairwayArea": 13047.872614175658,
+      "par": 3,
+      "route": [
+        [
+          200,
+          40
+        ],
+        [
+          204.35970946745573,
+          304.11005397312397
+        ]
+      ],
+      "simulatedShotsToGreen": 1,
+      "teeSafeOptions": 65,
+      "type": "punchbowlGreen",
+      "waterArea": 0,
+      "yards": 219
+    },
+    {
+      "bunkerCount": 7,
+      "fairwayArea": 33478.99864720516,
+      "par": 5,
+      "route": [
+        [
+          200,
+          40
+        ],
+        [
+          198.0820934357815,
+          370.60648003732206
+        ],
+        [
+          193.67348269358712,
+          611.8168444001409
+        ]
+      ],
+      "simulatedShotsToGreen": 2,
+      "teeSafeOptions": 49,
+      "type": "reachablePar5",
+      "waterArea": 24940.478170682916,
+      "yards": 498
+    },
+    {
+      "bunkerCount": 4,
+      "fairwayArea": 15326.220226550593,
+      "par": 4,
+      "route": [
+        [
+          200,
+          40
+        ],
+        [
+          222.2360253277358,
+          391.6651414652322
+        ],
+        [
+          240.9245829595652,
+          492.908439458704
+        ]
+      ],
+      "simulatedShotsToGreen": 2,
+      "teeSafeOptions": 39,
+      "type": "capeHole",
+      "waterArea": 22509.379455531554,
+      "yards": 370
+    }
+  ],
+  "review": {
+    "candidate": 8,
+    "approved": true,
+    "scores": {
+      "strategy": 5,
+      "withinRoundVariety": 5,
+      "acrossDaysVariety": 5,
+      "fairDifficulty": 4
+    },
+    "reason": "Candidate 8 is publishable as-is. The artwork maps confidently left-to-right to the same holes as the numbered previews: Hole 1 is the no-water punchbowl par 3 with left-side bunkering, Hole 2 is the reachable par 5 with the long lake on the right, and Hole 3 is the cape par 4 with the long lake on the left. The lake extents and overall fairway/green proportions are close enough to the geometry, and I do not see a clear bunker-side contradiction that warrants a safe parameter change. Strategically, the set is strong: Hole 1 offers a sensible ground-based or direct play into a long punchbowl target, Hole 2 has a real safe-left versus aggressive-lake-side par-5 decision, and Hole 3 gives a classic cape choice with more water carry buying a shorter approach. Variety within the round is excellent with par 3/5/4 sequencing, one dry hole, then water right, then water left. With no recent published rounds supplied, across-days variety is also excellent. Difficulty is testing but fair: the hazards are meaningful, yet the simulated safe options remain solid on all three holes and the landing space is not unreasonably squeezed.",
+    "edits": []
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "responseID": "resp_0069d5d21ab13d9a016aa9e541181487d1a9a80ac827fc7968",
+  "model": "gpt-5.4-2026-03-05",
+  "usage": {
+    "input_tokens": 6646,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 3309,
+    "output_tokens_details": {
+      "reasoning_tokens": 2979
+    },
+    "total_tokens": 9955
+  },
+  "review": {
+    "candidate": 8,
+    "approved": true,
+    "scores": {
+      "strategy": 5,
+      "withinRoundVariety": 5,
+      "acrossDaysVariety": 5,
+      "fairDifficulty": 4
+    },
+    "reason": "Candidate 8 works as a publishable three-hole set, and the generated artwork can be mapped confidently left-to-right to holes 1, 2, and 3. Hole 1 is the dry 219-yard punchbowl par 3; the illustration keeps the no-water look, the broad receiving area, and the left-side bunkering around the green/approach. Hole 2 is the 498-yard reachable par 5 with one substantial fairway-side lake on the right; the art preserves the playable left landing corridor and the long water hazard, which supports a clear layup-versus-aggressive second-shot choice. Hole 3 is the 370-yard cape par 4 with water left/front and bunkering right of the green; the illustration matches that overall shape and side balance well enough. Across the round, the sequence has strong variety: one-shot punchbowl, reachable par 5 with right-side water, then a shorter cape par 4 with left-side water. Difficulty is assertive but fair because each water hole still leaves a credible safer route, and the dry par 3 gives the set a breather without becoming bland. I do not see a clear, safe geometry change that is needed to reconcile the artwork: water counts and hazard sides remain consistent with the authoritative geometry, and there is no obvious bunker-side mismatch severe enough to justify an edit.",
+    "edits": []
+  }
+}

@@ -1,0 +1,116 @@
+{
+  "schemaVersion": 1,
+  "course": 91,
+  "outcome": "published",
+  "error": null,
+  "startedAt": 1789519098,
+  "seconds": 155.99,
+  "reviewModel": "gpt-5.4",
+  "imageModel": "gpt-image-2.5-sunburst",
+  "candidatesRequested": 50,
+  "calls": [
+    {
+      "phase": "selection",
+      "kind": "review",
+      "model": "gpt-5.4-2026-03-05",
+      "responseID": "resp_003825ce74c34ff0016aa9e501ce5087d1ac21c4fa1aa06e3b",
+      "usage": {
+        "input_tokens": 29587,
+        "input_tokens_details": {
+          "cache_write_tokens": 0,
+          "cached_tokens": 0
+        },
+        "output_tokens": 3881,
+        "output_tokens_details": {
+          "reasoning_tokens": 3624
+        },
+        "total_tokens": 33468
+      },
+      "seconds": 45.78,
+      "imageCount": 8,
+      "approved": true,
+      "edits": [],
+      "scores": {
+        "strategy": 5,
+        "withinRoundVariety": 5,
+        "acrossDaysVariety": 5,
+        "fairDifficulty": 4
+      }
+    },
+    {
+      "phase": "artwork-0",
+      "kind": "image",
+      "model": "gpt-image-2.5-sunburst",
+      "usage": {
+        "input_tokens": 3500,
+        "input_tokens_details": {
+          "image_tokens": 2721,
+          "text_tokens": 779
+        },
+        "output_tokens": 343,
+        "output_tokens_details": {
+          "image_tokens": 343,
+          "text_tokens": 0
+        },
+        "total_tokens": 3843
+      },
+      "seconds": 18.09
+    },
+    {
+      "phase": "reconcile-0-0",
+      "kind": "review",
+      "model": "gpt-5.4-2026-03-05",
+      "responseID": "resp_0069d5d21ab13d9a016aa9e541181487d1a9a80ac827fc7968",
+      "usage": {
+        "input_tokens": 6646,
+        "input_tokens_details": {
+          "cache_write_tokens": 0,
+          "cached_tokens": 0
+        },
+        "output_tokens": 3309,
+        "output_tokens_details": {
+          "reasoning_tokens": 2979
+        },
+        "total_tokens": 9955
+      },
+      "seconds": 39.17,
+      "imageCount": 2,
+      "approved": true,
+      "edits": [],
+      "scores": {
+        "strategy": 5,
+        "withinRoundVariety": 5,
+        "acrossDaysVariety": 5,
+        "fairDifficulty": 4
+      }
+    },
+    {
+      "phase": "final-0-0",
+      "kind": "review",
+      "model": "gpt-5.4-2026-03-05",
+      "responseID": "resp_0ea9439907d5ce8b016aa9e5681f5487d19955bf7d7e766106",
+      "usage": {
+        "input_tokens": 6645,
+        "input_tokens_details": {
+          "cache_write_tokens": 0,
+          "cached_tokens": 0
+        },
+        "output_tokens": 3927,
+        "output_tokens_details": {
+          "reasoning_tokens": 3624
+        },
+        "total_tokens": 10572
+      },
+      "seconds": 46.46,
+      "imageCount": 2,
+      "approved": true,
+      "edits": [],
+      "scores": {
+        "strategy": 5,
+        "withinRoundVariety": 5,
+        "acrossDaysVariety": 5,
+        "fairDifficulty": 4
+      }
+    }
+  ]
+}

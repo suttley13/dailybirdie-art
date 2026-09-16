@@ -1,0 +1,37 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": 1789519254,
+  "runs": [
+    {
+      "file": "1789519098-course-91-published.json",
+      "course": 91,
+      "outcome": "published",
+      "error": null,
+      "startedAt": 1789519098,
+      "seconds": 155.99,
+      "reviewModel": "gpt-5.4",
+      "imageModel": "gpt-image-2.5-sunburst",
+      "callCount": 4,
+      "totals": {
+        "review": {
+          "calls": 3,
+          "tokens": {
+            "input_tokens": 42878,
+            "output_tokens": 11117,
+            "total_tokens": 53995
+          },
+          "unreported": 0
+        },
+        "image": {
+          "calls": 1,
+          "tokens": {
+            "input_tokens": 3500,
+            "output_tokens": 343,
+            "total_tokens": 3843
+          },
+          "unreported": 0
+        }
+      }
+    }
+  ]
+}

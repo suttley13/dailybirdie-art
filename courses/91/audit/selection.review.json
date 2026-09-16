@@ -1,0 +1,28 @@
+{
+  "responseID": "resp_003825ce74c34ff0016aa9e501ce5087d1ac21c4fa1aa06e3b",
+  "model": "gpt-5.4-2026-03-05",
+  "usage": {
+    "input_tokens": 29587,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 3881,
+    "output_tokens_details": {
+      "reasoning_tokens": 3624
+    },
+    "total_tokens": 33468
+  },
+  "review": {
+    "candidate": 8,
+    "approved": true,
+    "scores": {
+      "strategy": 5,
+      "withinRoundVariety": 5,
+      "acrossDaysVariety": 5,
+      "fairDifficulty": 4
+    },
+    "reason": "Candidate 8 is the strongest publishable round as drawn. Hole 1 is a solid 219-yard punchbowl par 3 with no water, a forgiving feeding approach area, and left-side bunkering that asks for precise distance without feeling punitive. Hole 2 is the standout: a reachable 498-yard par 5 with a substantial right-side lake through the layup and second-shot zone, a clear safer lane down the left, and mixed back-left/back-right greenside bunkering that creates a real risk-reward decision. Hole 3 complements it well: a 370-yard cape-style par 4 with a substantial left-side lake and right/back green bunkers, giving a different angle of challenge than hole 2 and a strong positional tee shot. The set has excellent par and shape variety, uses water meaningfully on two holes without overdoing it, and the difficulty looks demanding but fair from the safe-option counts and visible landing space. With no recent published rounds to avoid, this is an easy approval.",
+    "edits": []
+  }
+}
