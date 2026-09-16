@@ -1,0 +1,28 @@
+{
+  "responseID": "resp_00e18c52d5d38b0e016aaa96e1d0bc87d1abbb02e27b19233b",
+  "model": "gpt-6-astra",
+  "usage": {
+    "input_tokens": 7993,
+    "input_tokens_details": {
+      "cache_write_tokens": 7990,
+      "cached_tokens": 0
+    },
+    "output_tokens": 456,
+    "output_tokens_details": {
+      "reasoning_tokens": 53
+    },
+    "total_tokens": 8449
+  },
+  "review": {
+    "candidate": 9,
+    "approved": true,
+    "scores": {
+      "strategy": 4,
+      "withinRoundVariety": 5,
+      "acrossDaysVariety": 4,
+      "fairDifficulty": 4
+    },
+    "reason": "The artwork maps confidently left-to-right to numbered Holes 1, 2 and 3. The current geometry passes without edits. Hole 1 retains its substantial, nearly full-length left lake, slender bending fairway, left approach bunker and two back-right greenside bunkers. The illustration slightly enlarges the sand visually but preserves its sides and the overall fairway/green proportions. Its strategy is staged placement: favor the safer right side or accept shoreline exposure for better positioning through the bend. Hole 2 correctly shows one lake surrounding the island green and a separate forward landing area with a left bunker. Lake extent and island proportions are sufficiently consistent. The direct carry offers the scoring opportunity, while the forward landing area allows a conservative staged route. Hole 3 retains its long right-side lake, narrow fairway, staggered approach bunkers and greenside sand on both back-left and back-right. The artwork simplifies the individual greenside bunkers without introducing a clear side contradiction. Its safe-left positioning contrasts with the more aggressive lake-side line, although the upper fairway bunkers demand controlled placement. The par-5/3/4 sequence and contrasting shoreline, island and corridor challenges provide excellent within-round variety. Against the recent rounds, the island replaces repeated punchbowl targets and all three types are new, though a three-shot par 5 and lateral-water themes recur. The visible landing spaces remain playable; simulated 3/1/2 shots to green and 47/37/27 safe tee options support, but do not establish, fair difficulty. No clear illustrated feature warrants changing the supplied geometry.",
+    "edits": []
+  }
+}

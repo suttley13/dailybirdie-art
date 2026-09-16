@@ -1,0 +1,28 @@
+{
+  "responseID": "resp_01bc3a52c2a2856f016aaa97469f5c87d1b74d2c31e83f5501",
+  "model": "gpt-6-astra",
+  "usage": {
+    "input_tokens": 8569,
+    "input_tokens_details": {
+      "cache_write_tokens": 8566,
+      "cached_tokens": 0
+    },
+    "output_tokens": 540,
+    "output_tokens_details": {
+      "reasoning_tokens": 102
+    },
+    "total_tokens": 9109
+  },
+  "review": {
+    "candidate": 35,
+    "approved": true,
+    "scores": {
+      "strategy": 4,
+      "withinRoundVariety": 5,
+      "acrossDaysVariety": 4,
+      "fairDifficulty": 4
+    },
+    "reason": "The artwork maps confidently left-to-right to numbered Holes 1, 2 and 3. The current geometry passes without edits.\n\nHole 1: The dogleg-right par 5 retains its substantial left-side lake and right-side greenside bunkers in the illustration. The shoreline stops before the upper approach in both views. The playable corridor allows conservative staged advancement, while aggressive positioning toward the bend can shorten the next shot but brings sand and collision trees into play. The artwork stretches the upper approach and exaggerates sand, but preserves the important hazard sides and relatively narrow fairway proportions.\n\nHole 2: The dry split-fairway par 4 is clearly recognizable by its broad landing space and central tree divider. Both branches provide playable routes with different approach angles. Back-left greenside sand agrees with the geometry. The illustration shifts the fairway bunker away from the central divider, but the available side control would not safely correct that individual bunker; no speculative edit is warranted. The broad fairway and larger green remain consistent in relative scale.\n\nHole 3: The island par 3 matches the surrounding lake, isolated elongated green and separate foreground landing area with left-side sand. Lake and target proportions are sufficiently close. Center-green play offers a conservative alternative to attacking the left-positioned pin; the foreground area also permits a staged recovery strategy.\n\nThe par-5/4/3 sequence, bending shoreline corridor, dry branching fairway and island carry provide excellent within-round contrast. The island repeats course 93, but the shorter distance, split fairway and reachable-length dogleg provide enough change for across-days variety. The visible landing areas and simulated 55/148/26 safe tee options support fair difficulty, without treating the coarse search as proof.",
+    "edits": []
+  }
+}

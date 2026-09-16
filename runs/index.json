@@ -1,7 +1,124 @@
 {
   "schemaVersion": 1,
-  "generatedAt": 1789524513,
+  "generatedAt": 1789564872,
   "runs": [
+    {
+      "file": "1789564777-course-96-published.json",
+      "course": 96,
+      "outcome": "published",
+      "error": null,
+      "startedAt": 1789564777,
+      "seconds": 95.59,
+      "reviewModel": "gpt-6-astra",
+      "reviewEffort": "medium",
+      "imageModel": "gpt-image-2.5-sunburst",
+      "callCount": 5,
+      "totals": {
+        "review": {
+          "calls": 4,
+          "tokens": {
+            "input_tokens": 62784,
+            "input_cache_write_tokens": 62772,
+            "input_cached_tokens": 0,
+            "output_tokens": 2324,
+            "output_reasoning_tokens": 302,
+            "total_tokens": 65108
+          },
+          "unreported": 0
+        },
+        "image": {
+          "calls": 1,
+          "tokens": {
+            "input_tokens": 3449,
+            "input_image_tokens": 2721,
+            "input_text_tokens": 728,
+            "output_tokens": 343,
+            "output_image_tokens": 343,
+            "output_text_tokens": 0,
+            "total_tokens": 3792
+          },
+          "unreported": 0
+        }
+      }
+    },
+    {
+      "file": "1789564670-course-94-published.json",
+      "course": 94,
+      "outcome": "published",
+      "error": null,
+      "startedAt": 1789564670,
+      "seconds": 106.47,
+      "reviewModel": "gpt-6-astra",
+      "reviewEffort": "medium",
+      "imageModel": "gpt-image-2.5-sunburst",
+      "callCount": 5,
+      "totals": {
+        "review": {
+          "calls": 4,
+          "tokens": {
+            "input_tokens": 57856,
+            "input_cache_write_tokens": 57844,
+            "input_cached_tokens": 0,
+            "output_tokens": 2396,
+            "output_reasoning_tokens": 489,
+            "total_tokens": 60252
+          },
+          "unreported": 0
+        },
+        "image": {
+          "calls": 1,
+          "tokens": {
+            "input_tokens": 3456,
+            "input_image_tokens": 2721,
+            "input_text_tokens": 735,
+            "output_tokens": 343,
+            "output_image_tokens": 343,
+            "output_text_tokens": 0,
+            "total_tokens": 3799
+          },
+          "unreported": 0
+        }
+      }
+    },
+    {
+      "file": "1789564595-course-93-published.json",
+      "course": 93,
+      "outcome": "published",
+      "error": null,
+      "startedAt": 1789564595,
+      "seconds": 74.77,
+      "reviewModel": "gpt-6-astra",
+      "reviewEffort": "medium",
+      "imageModel": "gpt-image-2.5-sunburst",
+      "callCount": 4,
+      "totals": {
+        "review": {
+          "calls": 3,
+          "tokens": {
+            "input_tokens": 47611,
+            "input_cache_write_tokens": 47602,
+            "input_cached_tokens": 0,
+            "output_tokens": 1545,
+            "output_reasoning_tokens": 312,
+            "total_tokens": 49156
+          },
+          "unreported": 0
+        },
+        "image": {
+          "calls": 1,
+          "tokens": {
+            "input_tokens": 3478,
+            "input_image_tokens": 2721,
+            "input_text_tokens": 757,
+            "output_tokens": 343,
+            "output_image_tokens": 343,
+            "output_text_tokens": 0,
+            "total_tokens": 3821
+          },
+          "unreported": 0
+        }
+      }
+    },
     {
       "file": "1789524421-course-92-published.json",
       "course": 92,

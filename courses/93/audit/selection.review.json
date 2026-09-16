@@ -1,0 +1,28 @@
+{
+  "responseID": "resp_0302a95d709c3a18016aaa96bb2ea487d1b1824fab18f6f27b",
+  "model": "gpt-6-astra",
+  "usage": {
+    "input_tokens": 31626,
+    "input_tokens_details": {
+      "cache_write_tokens": 31623,
+      "cached_tokens": 0
+    },
+    "output_tokens": 556,
+    "output_tokens_details": {
+      "reasoning_tokens": 181
+    },
+    "total_tokens": 32182
+  },
+  "review": {
+    "candidate": 9,
+    "approved": true,
+    "scores": {
+      "strategy": 4,
+      "withinRoundVariety": 5,
+      "acrossDaysVariety": 5,
+      "fairDifficulty": 4
+    },
+    "reason": "Candidate 9 passes in its current numbered geometry. Hole 1 is a demanding three-shot par 5 beside one substantial left-side lake. The right half provides the safer route; advancing farther along the shoreline corridor buys a shorter approach but increases exposure to water and the late left fairway bunker. The green has an open front with small back-right bunkers, avoiding an excessively guarded finish. Hole 2 contrasts sharply: its single lake surrounds the island green, making carry and distance control decisive. The target offers room to aim centrally rather than attack the back-right pin, and the short landing area provides a bailout before the lake. Hole 3 reverses the lateral water pressure, with one broad right-side lake and a playable corridor to its left. Staggered approach bunkers reward choosing a landing distance rather than simply hitting maximum power; the lake ends before the green, so the final approach is not another compulsory water carry. Its seven bunkers make this the tightest test, but the visible landing space remains credible. The simulation's 3/1/2 shots to green and 47/37/27 safe tee options support, rather than prove, fair difficulty. Although all three holes contain water, the long shoreline, island carry and shorter opposite-side corridor produce distinct demands. All three hole types differ from courses 91 and 92, and the island target supplies a particularly meaningful change from their punchbowl par 3s. No geometry edits are necessary.",
+    "edits": []
+  }
+}

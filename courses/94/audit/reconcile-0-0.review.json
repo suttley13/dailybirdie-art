@@ -1,0 +1,35 @@
+{
+  "responseID": "resp_02bf670fcf673ee9016aaa9731f71487d1baf24de576d2b2e7",
+  "model": "gpt-6-astra",
+  "usage": {
+    "input_tokens": 8721,
+    "input_tokens_details": {
+      "cache_write_tokens": 8718,
+      "cached_tokens": 0
+    },
+    "output_tokens": 660,
+    "output_tokens_details": {
+      "reasoning_tokens": 126
+    },
+    "total_tokens": 9381
+  },
+  "review": {
+    "candidate": 35,
+    "approved": false,
+    "scores": {
+      "strategy": 4,
+      "withinRoundVariety": 5,
+      "acrossDaysVariety": 4,
+      "fairDifficulty": 4
+    },
+    "reason": "The artwork maps confidently left-to-right to Holes 1, 2 and 3. One clear greenside bunker-side mismatch needs correction before publication.\n\nHole 1: The illustration retains the right-bending par 5, substantial left-side lake and relatively narrow fairway. However, its greenside bunkers are clearly on the right, whereas the current geometry has sand on both the right and back-left. Move the greenside bunkering right to match. The shoreline extent and fairway/green proportions are otherwise sufficiently consistent. The lake and inside-corner trees make conservative placement versus an aggressive shortcut meaningful.\n\nHole 2: Both views show a dry, broad split fairway around a central tree island, a large green and back-left greenside sand. The illustration relocates the fairway bunker toward the left approach, but a general bunker-side adjustment is not a reliable independent correction for that feature. Preserve the playable split routes and currently matching greenside arrangement. The wider right branch offers forgiveness while the left branch provides a different approach angle.\n\nHole 3: Both views show a substantial lake surrounding the island target, with a separate foreground landing area and left-side bunker. Lake extent and target proportions are close enough to retain. Center-green play provides a sensible alternative to attacking the left-positioned pin, although this remains primarily a carry-control test.\n\nThe par-5/4/3 sequence, split routing and contrasting water arrangements provide excellent within-round variety. The island green repeats course 93, but the shorter carry, dry split-fairway hole and dogleg par 5 provide sufficient change. The visible landing spaces and simulated 55/148/26 safe tee options support fair difficulty; the coarse search does not establish it by itself. The requested geometry must be previewed again before approval.",
+    "edits": [
+      {
+        "hole": 0,
+        "control": "bunkerSide",
+        "value": "right",
+        "reason": "The leftmost illustrated green has clearly right-side sand, unlike the current right and back-left greenside clusters. Concentrate bunkering on the right to match this unambiguous feature while retaining an open left-side approach; leave the substantial left lake unchanged."
+      }
+    ]
+  }
+}

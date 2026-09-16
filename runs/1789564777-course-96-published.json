@@ -1,0 +1,156 @@
+{
+  "schemaVersion": 1,
+  "course": 96,
+  "outcome": "published",
+  "error": null,
+  "startedAt": 1789564777,
+  "seconds": 95.59,
+  "reviewModel": "gpt-6-astra",
+  "reviewEffort": "medium",
+  "imageModel": "gpt-image-2.5-sunburst",
+  "candidatesRequested": 50,
+  "calls": [
+    {
+      "phase": "selection",
+      "kind": "review",
+      "model": "gpt-6-astra",
+      "effort": "medium",
+      "responseID": "resp_049226256ff79174016aaa976e960887d1b10a2c39d05ef386",
+      "usage": {
+        "input_tokens": 32158,
+        "input_tokens_details": {
+          "cache_write_tokens": 32155,
+          "cached_tokens": 0
+        },
+        "output_tokens": 567,
+        "output_tokens_details": {
+          "reasoning_tokens": 90
+        },
+        "total_tokens": 32725
+      },
+      "seconds": 18.44,
+      "imageCount": 8,
+      "approved": true,
+      "edits": [],
+      "scores": {
+        "strategy": 4,
+        "withinRoundVariety": 5,
+        "acrossDaysVariety": 4,
+        "fairDifficulty": 4
+      }
+    },
+    {
+      "phase": "artwork-0",
+      "kind": "image",
+      "model": "gpt-image-2.5-sunburst",
+      "usage": {
+        "input_tokens": 3449,
+        "input_tokens_details": {
+          "image_tokens": 2721,
+          "text_tokens": 728
+        },
+        "output_tokens": 343,
+        "output_tokens_details": {
+          "image_tokens": 343,
+          "text_tokens": 0
+        },
+        "total_tokens": 3792
+      },
+      "seconds": 19.52
+    },
+    {
+      "phase": "reconcile-0-0",
+      "kind": "review",
+      "model": "gpt-6-astra",
+      "effort": "medium",
+      "responseID": "resp_0d514c55551624f4016aaa97946a3087d1a44228237fa8b443",
+      "usage": {
+        "input_tokens": 10209,
+        "input_tokens_details": {
+          "cache_write_tokens": 10206,
+          "cached_tokens": 0
+        },
+        "output_tokens": 605,
+        "output_tokens_details": {
+          "reasoning_tokens": 80
+        },
+        "total_tokens": 10814
+      },
+      "seconds": 16.97,
+      "imageCount": 2,
+      "approved": false,
+      "edits": [
+        {
+          "hole": 0,
+          "control": "bunkerSide",
+          "value": "left",
+          "reason": "Move Hole 1's greenside bunkering from the current back-right arrangement to the left, matching the illustration's clear left/back-left sand while preserving the dry dogleg and its playable landing route."
+        }
+      ],
+      "scores": {
+        "strategy": 4,
+        "withinRoundVariety": 5,
+        "acrossDaysVariety": 4,
+        "fairDifficulty": 4
+      }
+    },
+    {
+      "phase": "reconcile-0-1",
+      "kind": "review",
+      "model": "gpt-6-astra",
+      "effort": "medium",
+      "responseID": "resp_00976907b99dd479016aaa97a5e0d887d1acb0ccbe4d840f9e",
+      "usage": {
+        "input_tokens": 10209,
+        "input_tokens_details": {
+          "cache_write_tokens": 10206,
+          "cached_tokens": 0
+        },
+        "output_tokens": 574,
+        "output_tokens_details": {
+          "reasoning_tokens": 57
+        },
+        "total_tokens": 10783
+      },
+      "seconds": 17.36,
+      "imageCount": 2,
+      "approved": true,
+      "edits": [],
+      "scores": {
+        "strategy": 4,
+        "withinRoundVariety": 5,
+        "acrossDaysVariety": 4,
+        "fairDifficulty": 4
+      }
+    },
+    {
+      "phase": "final-0-1",
+      "kind": "review",
+      "model": "gpt-6-astra",
+      "effort": "medium",
+      "responseID": "resp_0236c0890f536122016aaa97b7c82887d183d2f99a45846925",
+      "usage": {
+        "input_tokens": 10208,
+        "input_tokens_details": {
+          "cache_write_tokens": 10205,
+          "cached_tokens": 0
+        },
+        "output_tokens": 578,
+        "output_tokens_details": {
+          "reasoning_tokens": 75
+        },
+        "total_tokens": 10786
+      },
+      "seconds": 17.13,
+      "imageCount": 2,
+      "approved": true,
+      "edits": [],
+      "scores": {
+        "strategy": 4,
+        "withinRoundVariety": 5,
+        "acrossDaysVariety": 4,
+        "fairDifficulty": 4
+      }
+    }
+  ]
+}

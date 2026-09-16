@@ -1,0 +1,35 @@
+{
+  "responseID": "resp_0d514c55551624f4016aaa97946a3087d1a44228237fa8b443",
+  "model": "gpt-6-astra",
+  "usage": {
+    "input_tokens": 10209,
+    "input_tokens_details": {
+      "cache_write_tokens": 10206,
+      "cached_tokens": 0
+    },
+    "output_tokens": 605,
+    "output_tokens_details": {
+      "reasoning_tokens": 80
+    },
+    "total_tokens": 10814
+  },
+  "review": {
+    "candidate": 12,
+    "approved": false,
+    "scores": {
+      "strategy": 4,
+      "withinRoundVariety": 5,
+      "acrossDaysVariety": 4,
+      "fairDifficulty": 4
+    },
+    "reason": "The illustration maps confidently left-to-right to Holes 1, 2 and 3, but Hole 1 needs a greenside bunker-side correction before publication.\n\nHole 1: The dry dogleg-left par 4 offers a bending placement route versus a shorter attack across collision trees. The preview has two small back-right greenside bunkers; the illustration clearly places greenside sand left and back-left. This is a safely correctable mismatch. The artwork also elongates the approach substantially, but changing the bend or fairway width would not reliably correct that artistic distortion.\n\nHole 2: The reachable par 5 matches the substantial, nearly fairway-length left lake, playable right-side corridor, lower right fairway bunker and back-right greenside sand. Lake-side aggression competes with safer right-side placement and a staged approach. The illustrated lake is somewhat slimmer, but its extent and relationship to the landing corridor remain consistent enough to preserve the current geometry.\n\nHole 3: The dry punchbowl par 3 retains left-front approach sand and right/back greenside bunkering. The illustration simplifies the bunker cluster and extends the approach, but preserves the relevant sides and a generous target. Conservative center-green play contrasts with attacking the pin; no clear proportional correction is warranted.\n\nThe par-4/5/3 sequence, wooded dogleg, long shoreline and dry one-shot target provide strong within-round variety. Reachable-par-5 and punchbowl types repeat older rounds, but this set breaks the recent run of island greens and long grinding par 5s. The simulation's 49/48/43 safe tee options and 1/2/1 shots to green support fair difficulty without proving it; the previews also show usable landing areas. The requested bunker relocation must be inspected in regenerated geometry before approval.",
+    "edits": [
+      {
+        "hole": 0,
+        "control": "bunkerSide",
+        "value": "left",
+        "reason": "Move Hole 1's greenside bunkering from the current back-right arrangement to the left, matching the illustration's clear left/back-left sand while preserving the dry dogleg and its playable landing route."
+      }
+    ]
+  }
+}

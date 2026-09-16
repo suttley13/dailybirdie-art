@@ -1,0 +1,28 @@
+{
+  "responseID": "resp_049226256ff79174016aaa976e960887d1b10a2c39d05ef386",
+  "model": "gpt-6-astra",
+  "usage": {
+    "input_tokens": 32158,
+    "input_tokens_details": {
+      "cache_write_tokens": 32155,
+      "cached_tokens": 0
+    },
+    "output_tokens": 567,
+    "output_tokens_details": {
+      "reasoning_tokens": 90
+    },
+    "total_tokens": 32725
+  },
+  "review": {
+    "candidate": 12,
+    "approved": true,
+    "scores": {
+      "strategy": 4,
+      "withinRoundVariety": 5,
+      "acrossDaysVariety": 4,
+      "fairDifficulty": 4
+    },
+    "reason": "Select candidate 12; its current numbered geometry passes without edits.\n\nHole 1: The dry 340-yard dogleg-left par 4 offers a genuine placement-versus-shortcut decision. Following the right-hand fairway to the bend avoids the dense inside-corner trees; attacking directly toward the green risks those collision trees. The bunker at the fairway's upper end complicates an overaggressive layup, while the right/back greenside pair leaves the front relatively open. The simulated one-shot finish suggests a reward route exists, not that cutting the corner is reliably safe.\n\nHole 2: The 481-yard reachable par 5 has one substantial, nearly fairway-length lake on the left and a credible continuous landing corridor on the right. Conservative right-side placement avoids the shoreline but must account for the early right fairway bunker. Advancing farther beside the lake offers a shorter second shot and a chance to reach in two. The lake stops short of the green, and the right/back greenside bunkers preserve an accessible front. Keep this substantial shoreline unchanged.\n\nHole 3: The dry 174-yard punchbowl par 3 provides a welcome change of scale. Its generous green and open front support conservative center-target play, while the left approach bunker and right/back greenside cluster punish different misses. Trees frame the target without visibly closing the direct tee-to-green route.\n\nThe par-4/5/3 sequence combines a wooded corner-cutting test, a water-lined scoring opportunity and a forgiving but defended short hole. Across recent days, the dogleg-left is fresh, the reachable par 5 returns after several longer grinding par 5s, and the dry punchbowl breaks the three-day island-green run. Some archetypes repeat earlier rounds, so novelty is good rather than maximal. The visible landing areas and 49/48/43 simulated safe tee options support fair difficulty; the coarse search remains evidence rather than proof.",
+    "edits": []
+  }
+}

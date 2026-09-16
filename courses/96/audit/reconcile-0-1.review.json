@@ -1,0 +1,28 @@
+{
+  "responseID": "resp_00976907b99dd479016aaa97a5e0d887d1acb0ccbe4d840f9e",
+  "model": "gpt-6-astra",
+  "usage": {
+    "input_tokens": 10209,
+    "input_tokens_details": {
+      "cache_write_tokens": 10206,
+      "cached_tokens": 0
+    },
+    "output_tokens": 574,
+    "output_tokens_details": {
+      "reasoning_tokens": 57
+    },
+    "total_tokens": 10783
+  },
+  "review": {
+    "candidate": 12,
+    "approved": true,
+    "scores": {
+      "strategy": 4,
+      "withinRoundVariety": 5,
+      "acrossDaysVariety": 4,
+      "fairDifficulty": 4
+    },
+    "reason": "The artwork maps confidently left-to-right to numbered Holes 1, 2 and 3. The current geometry passes without edits.\n\nHole 1: The dry 340-yard dogleg-left par 4 has left-side greenside bunkers and a fairway bunker right/front of the green. The illustration preserves the greenside sand placement but stretches the bend and depicts the approach bunker farther from the green. Those differences do not justify relocating all bunkers or forcing a geometry change with an unsuitable control. The actual preview offers a substantial landing area around the bend versus a more aggressive direct line across tree-guarded ground; the simulated one-shot result is not proof that this shortcut is reliably easy.\n\nHole 2: The 481-yard reachable par 5 clearly matches the central illustrated hole: one substantial, nearly fairway-length lake on the left, a playable corridor on the right, right-side lower fairway sand and back-right greenside bunkers. Lake extent and fairway-to-green proportions are sufficiently consistent. Conservative placement away from the shoreline contrasts with attacking in two, with right-side sand preventing that safer side from being entirely consequence-free.\n\nHole 3: The dry 174-yard punchbowl par 3 retains its broad foreground landing area, left approach bunker and right/back greenside bunker cluster. The illustration lengthens the connection toward the green and simplifies the sand, but does not reverse its sides. The actual target offers conservative center-green play versus a more precise pin attack, without requiring an unreasonable water carry.\n\nThe artwork exaggerates some bunker sizes and elongates the outer holes, but no clear, safely correctable side or proportion mismatch warrants an edit. The par-4/5/3 sequence, sharp dry bend, long shoreline and short target hole provide excellent within-round contrast. Punchbowl and reachable-par-5 types repeat older rounds, limiting novelty somewhat, but two dry holes and the left dogleg provide a meaningful change from the latest island-green rounds. Simulated safe tee options of 49/48/43 support fair difficulty; the visible landing areas also remain credible, while trees and shoreline preserve meaningful consequences.",
+    "edits": []
+  }
+}

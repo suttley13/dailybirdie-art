@@ -1,0 +1,28 @@
+{
+  "responseID": "resp_08fada731a13f79f016aaa9704e9d887d183bc39eee3f06843",
+  "model": "gpt-6-astra",
+  "usage": {
+    "input_tokens": 31998,
+    "input_tokens_details": {
+      "cache_write_tokens": 31995,
+      "cached_tokens": 0
+    },
+    "output_tokens": 589,
+    "output_tokens_details": {
+      "reasoning_tokens": 156
+    },
+    "total_tokens": 32587
+  },
+  "review": {
+    "candidate": 35,
+    "approved": true,
+    "scores": {
+      "strategy": 4,
+      "withinRoundVariety": 5,
+      "acrossDaysVariety": 4,
+      "fairDifficulty": 4
+    },
+    "reason": "Candidate 35 passes selection on its current numbered geometry.\n\nHole 1: The 481-yard par 5 combines a substantial left-side lake with a pronounced right turn and collision trees inside the corner. Following the fairway provides a credible staged route; attempting to shorten the hole brings the wooded corner and approach bunker into play. Greenside sand sits right and back-left, leaving the front accessible. The corridor is demanding without looking unreasonably squeezed.\n\nHole 2: The dry 413-yard par 4 has genuinely separate routes around a central tree strip, with a bunker near its lower end. The broader right branch offers forgiveness, while the left branch provides a different approach alignment. Both reconnect before the green, whose back-left bunkers leave an open front. The generous fairway makes this the round's recovery opportunity, but the collision-tree divider prevents it from being merely an undifferentiated wide hole.\n\nHole 3: The 174-yard par 3 has one substantial lake surrounding an elongated island green, plus a separate foreground landing area and left-side bunker. Center-green play offers a sensible alternative to attacking the left-positioned pin; the shorter length makes the forced carry reasonable.\n\nThe par-5/4/3 progression, wooded dogleg, dry split route and island target provide excellent within-round contrast. The island repeats course 93, but at a shorter distance; the dogleg-right and split-fairway holes introduce types absent from all three recent rounds. Simulated 2/2/1 shots to green and 55/148/26 safe tee options support, rather than prove, the visible playability. No geometry edits are needed at selection; artwork correspondence remains to be reviewed after generation.",
+    "edits": []
+  }
+}

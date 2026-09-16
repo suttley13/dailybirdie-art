@@ -1,0 +1,156 @@
+{
+  "schemaVersion": 1,
+  "course": 94,
+  "outcome": "published",
+  "error": null,
+  "startedAt": 1789564670,
+  "seconds": 106.47,
+  "reviewModel": "gpt-6-astra",
+  "reviewEffort": "medium",
+  "imageModel": "gpt-image-2.5-sunburst",
+  "candidatesRequested": 50,
+  "calls": [
+    {
+      "phase": "selection",
+      "kind": "review",
+      "model": "gpt-6-astra",
+      "effort": "medium",
+      "responseID": "resp_08fada731a13f79f016aaa9704e9d887d183bc39eee3f06843",
+      "usage": {
+        "input_tokens": 31998,
+        "input_tokens_details": {
+          "cache_write_tokens": 31995,
+          "cached_tokens": 0
+        },
+        "output_tokens": 589,
+        "output_tokens_details": {
+          "reasoning_tokens": 156
+        },
+        "total_tokens": 32587
+      },
+      "seconds": 19.54,
+      "imageCount": 8,
+      "approved": true,
+      "edits": [],
+      "scores": {
+        "strategy": 4,
+        "withinRoundVariety": 5,
+        "acrossDaysVariety": 4,
+        "fairDifficulty": 4
+      }
+    },
+    {
+      "phase": "artwork-0",
+      "kind": "image",
+      "model": "gpt-image-2.5-sunburst",
+      "usage": {
+        "input_tokens": 3456,
+        "input_tokens_details": {
+          "image_tokens": 2721,
+          "text_tokens": 735
+        },
+        "output_tokens": 343,
+        "output_tokens_details": {
+          "image_tokens": 343,
+          "text_tokens": 0
+        },
+        "total_tokens": 3799
+      },
+      "seconds": 25.53
+    },
+    {
+      "phase": "reconcile-0-0",
+      "kind": "review",
+      "model": "gpt-6-astra",
+      "effort": "medium",
+      "responseID": "resp_02bf670fcf673ee9016aaa9731f71487d1baf24de576d2b2e7",
+      "usage": {
+        "input_tokens": 8721,
+        "input_tokens_details": {
+          "cache_write_tokens": 8718,
+          "cached_tokens": 0
+        },
+        "output_tokens": 660,
+        "output_tokens_details": {
+          "reasoning_tokens": 126
+        },
+        "total_tokens": 9381
+      },
+      "seconds": 20.01,
+      "imageCount": 2,
+      "approved": false,
+      "edits": [
+        {
+          "hole": 0,
+          "control": "bunkerSide",
+          "value": "right",
+          "reason": "The leftmost illustrated green has clearly right-side sand, unlike the current right and back-left greenside clusters. Concentrate bunkering on the right to match this unambiguous feature while retaining an open left-side approach; leave the substantial left lake unchanged."
+        }
+      ],
+      "scores": {
+        "strategy": 4,
+        "withinRoundVariety": 5,
+        "acrossDaysVariety": 4,
+        "fairDifficulty": 4
+      }
+    },
+    {
+      "phase": "reconcile-0-1",
+      "kind": "review",
+      "model": "gpt-6-astra",
+      "effort": "medium",
+      "responseID": "resp_01bc3a52c2a2856f016aaa97469f5c87d1b74d2c31e83f5501",
+      "usage": {
+        "input_tokens": 8569,
+        "input_tokens_details": {
+          "cache_write_tokens": 8566,
+          "cached_tokens": 0
+        },
+        "output_tokens": 540,
+        "output_tokens_details": {
+          "reasoning_tokens": 102
+        },
+        "total_tokens": 9109
+      },
+      "seconds": 15.4,
+      "imageCount": 2,
+      "approved": true,
+      "edits": [],
+      "scores": {
+        "strategy": 4,
+        "withinRoundVariety": 5,
+        "acrossDaysVariety": 4,
+        "fairDifficulty": 4
+      }
+    },
+    {
+      "phase": "final-0-1",
+      "kind": "review",
+      "model": "gpt-6-astra",
+      "effort": "medium",
+      "responseID": "resp_07207a7b6d0b801d016aaa9755f31087d19b0fc8def39c9451",
+      "usage": {
+        "input_tokens": 8568,
+        "input_tokens_details": {
+          "cache_write_tokens": 8565,
+          "cached_tokens": 0
+        },
+        "output_tokens": 607,
+        "output_tokens_details": {
+          "reasoning_tokens": 105
+        },
+        "total_tokens": 9175
+      },
+      "seconds": 18.82,
+      "imageCount": 2,
+      "approved": true,
+      "edits": [],
+      "scores": {
+        "strategy": 4,
+        "withinRoundVariety": 5,
+        "acrossDaysVariety": 4,
+        "fairDifficulty": 4
+      }
+    }
+  ]
+}
