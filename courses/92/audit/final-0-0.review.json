@@ -1,0 +1,28 @@
+{
+  "responseID": "resp_04fe3eb0362eca1d016aa9fa12706887d197009a0782457d54",
+  "model": "gpt-6-astra",
+  "usage": {
+    "input_tokens": 7724,
+    "input_tokens_details": {
+      "cache_write_tokens": 7721,
+      "cached_tokens": 0
+    },
+    "output_tokens": 483,
+    "output_tokens_details": {
+      "reasoning_tokens": 104
+    },
+    "total_tokens": 8207
+  },
+  "review": {
+    "candidate": 29,
+    "approved": true,
+    "scores": {
+      "strategy": 4,
+      "withinRoundVariety": 5,
+      "acrossDaysVariety": 4,
+      "fairDifficulty": 4
+    },
+    "reason": "The artwork maps confidently left-to-right to numbered Holes 1, 2 and 3, and the current geometry is publishable. Hole 1 has one substantial left-side lake, a broad bending fairway, alternating fairway bunkers and greenside sand on both sides toward the back. The illustration preserves these relationships and the lake's long extent. Playing away from the shoreline offers safety, while lake-side positioning can improve the approach angle. Hole 2 is dry, with a large punchbowl target, staggered approach bunkers and back-left/back-right greenside sand. Its artwork retains that arrangement and its notably larger green; the open front provides a forgiving alternative to attacking the pin. Hole 3 is also dry: a long, narrower tree-lined corridor with staggered fairway bunkers and back-right greenside sand, all recognizable in the illustration. Its strategic interest is staged placement rather than a forced water carry. Fairway and green proportions are sufficiently consistent across both images; no clear side mismatch warrants an edit. The par-4/3/5 sequence, contrasting lengths and single wet hole give strong within-round variety. Against course 91, the punchbowl repeats, but the longer three-shot par 5 and reduced water emphasis provide meaningful change. The simulation's 2/1/3 shots to green and 57/34/46 safe tee options support fair playability without proving it; the visible landing corridors also remain reasonable despite trees and bunkers.",
+    "edits": []
+  }
+}

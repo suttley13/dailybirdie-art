@@ -1,0 +1,28 @@
+{
+  "responseID": "resp_094b1cdafb545fed016aa9f9ccd33887d19c64017729d8beb3",
+  "model": "gpt-6-astra",
+  "usage": {
+    "input_tokens": 29757,
+    "input_tokens_details": {
+      "cache_write_tokens": 29754,
+      "cached_tokens": 0
+    },
+    "output_tokens": 550,
+    "output_tokens_details": {
+      "reasoning_tokens": 219
+    },
+    "total_tokens": 30307
+  },
+  "review": {
+    "candidate": 29,
+    "approved": true,
+    "scores": {
+      "strategy": 4,
+      "withinRoundVariety": 5,
+      "acrossDaysVariety": 4,
+      "fairDifficulty": 4
+    },
+    "reason": "Candidate 29 passes on its current numbered geometry. Hole 1, the 353-yard par 4, combines a substantial left-side lake with a bending fairway and an upper-right fairway bunker: conservative placement preserves room away from water, while advancing farther through the bends earns a shorter approach but requires tighter positioning. Hole 2, the dry 179-yard par 3, provides a welcome change of scale, with a generous green, staggered short bunkers and back-side sand; aiming centrally is a credible alternative to attacking the left-of-center pin. Hole 3, the dry 588-yard par 5, creates a genuine three-shot progression through a tree-lined corridor, with alternating fairway bunkers influencing successive landing positions and a front-left bunker complicating the final approach. The previews show usable landing space rather than unavoidable tree or hazard barriers. Simulated safe-option counts of 57, 34 and 46 support fairness without proving it. Compared with course 91, the punchbowl concept repeats, but its shorter distance, the bending opening par 4, the three-shot finish and the shift from two wet holes to one provide sufficient freshness. No geometry edits are needed at selection; artwork correspondence remains to be reviewed after generation.",
+    "edits": []
+  }
+}

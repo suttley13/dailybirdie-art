@@ -1,0 +1,28 @@
+{
+  "responseID": "resp_03ad549e10762d11016aa9fa05d9ac87d1961cb96e0d3ffc67",
+  "model": "gpt-6-astra",
+  "usage": {
+    "input_tokens": 7725,
+    "input_tokens_details": {
+      "cache_write_tokens": 7722,
+      "cached_tokens": 0
+    },
+    "output_tokens": 438,
+    "output_tokens_details": {
+      "reasoning_tokens": 62
+    },
+    "total_tokens": 8163
+  },
+  "review": {
+    "candidate": 29,
+    "approved": true,
+    "scores": {
+      "strategy": 4,
+      "withinRoundVariety": 5,
+      "acrossDaysVariety": 4,
+      "fairDifficulty": 4
+    },
+    "reason": "The artwork maps confidently left-to-right to numbered Holes 1, 2 and 3. Hole 1 retains its substantial left-side lake, winding fairway, lower-left and upper-right fairway bunkers, and greenside sand on both sides. The illustrated shoreline extends along the same principal stretch of play; the generous right-side route preserves a safer alternative to challenging the lake edge. Hole 2 correctly has no water, a disproportionately large punchbowl green, alternating approach bunkers and greenside sand on both sides. Its direct aerial approach contrasts with Hole 1's positional play. Hole 3 also correctly has no water: the artwork preserves the long, relatively narrow fairway, left-right-left fairway bunker sequence and right/back greenside bunkers. Those staggered hazards provide useful layup-placement decisions on the three-shot par 5. Green and fairway proportions are sufficiently consistent after allowing for the illustration's perspective and stylization; no clear bunker-side mismatch warrants edits. The 353/179/588-yard par-4/3/5 sequence offers strong within-round variety. Against course 91, the punchbowl concept repeats, but at a shorter distance, while the double dogleg and dry three-shot par 5 meaningfully change the round's demands. The previews show playable corridors, and the simulated 57/34/46 safe tee options and 2/1/3 shots to green support fair difficulty without establishing it conclusively.",
+    "edits": []
+  }
+}

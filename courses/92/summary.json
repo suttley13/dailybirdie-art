@@ -1,0 +1,91 @@
+{
+  "course": 92,
+  "geometrySHA256": "04983cc1aa03271356418830363d83d2fc685f4916120cb9422a66c39b3e4e73",
+  "artworkSHA256": "a8c9c05e59c220e5838b15f54c923a44e3506d2978b9431971da8079a42c7647",
+  "holes": [
+    {
+      "bunkerCount": 8,
+      "fairwayArea": 22352.08485125172,
+      "par": 4,
+      "route": [
+        [
+          200,
+          40
+        ],
+        [
+          160.82980131014597,
+          386.46033074599666
+        ],
+        [
+          227.19090211704162,
+          462.4893118460873
+        ]
+      ],
+      "simulatedShotsToGreen": 2,
+      "teeSafeOptions": 57,
+      "type": "doubleDogleg",
+      "waterArea": 17945.39690861733,
+      "yards": 353
+    },
+    {
+      "bunkerCount": 6,
+      "fairwayArea": 5052.835629129658,
+      "par": 3,
+      "route": [
+        [
+          200,
+          40
+        ],
+        [
+          199.52020022560924,
+          250.8954585507039
+        ]
+      ],
+      "simulatedShotsToGreen": 1,
+      "teeSafeOptions": 34,
+      "type": "punchbowlGreen",
+      "waterArea": 0,
+      "yards": 179
+    },
+    {
+      "bunkerCount": 6,
+      "fairwayArea": 29693.623613404307,
+      "par": 5,
+      "route": [
+        [
+          200,
+          40
+        ],
+        [
+          221.89606455248028,
+          401.7167454118931
+        ],
+        [
+          225.52521919666145,
+          668.4254323790269
+        ],
+        [
+          201.8140411284621,
+          744.1199351844889
+        ]
+      ],
+      "simulatedShotsToGreen": 3,
+      "teeSafeOptions": 46,
+      "type": "threeShotPar5",
+      "waterArea": 0,
+      "yards": 588
+    }
+  ],
+  "review": {
+    "candidate": 29,
+    "approved": true,
+    "scores": {
+      "strategy": 4,
+      "withinRoundVariety": 5,
+      "acrossDaysVariety": 4,
+      "fairDifficulty": 4
+    },
+    "reason": "The artwork maps confidently left-to-right to numbered Holes 1, 2 and 3, and the current geometry is publishable. Hole 1 has one substantial left-side lake, a broad bending fairway, alternating fairway bunkers and greenside sand on both sides toward the back. The illustration preserves these relationships and the lake's long extent. Playing away from the shoreline offers safety, while lake-side positioning can improve the approach angle. Hole 2 is dry, with a large punchbowl target, staggered approach bunkers and back-left/back-right greenside sand. Its artwork retains that arrangement and its notably larger green; the open front provides a forgiving alternative to attacking the pin. Hole 3 is also dry: a long, narrower tree-lined corridor with staggered fairway bunkers and back-right greenside sand, all recognizable in the illustration. Its strategic interest is staged placement rather than a forced water carry. Fairway and green proportions are sufficiently consistent across both images; no clear side mismatch warrants an edit. The par-4/3/5 sequence, contrasting lengths and single wet hole give strong within-round variety. Against course 91, the punchbowl repeats, but the longer three-shot par 5 and reduced water emphasis provide meaningful change. The simulation's 2/1/3 shots to green and 57/34/46 safe tee options support fair playability without proving it; the visible landing corridors also remain reasonable despite trees and bunkers.",
+    "edits": []
+  }
+}
