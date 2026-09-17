@@ -1,0 +1,35 @@
+{
+  "responseID": "resp_096d140fd0380af9016aabe7a20d9887d19fea2b7e3f7b6169",
+  "model": "gpt-6-astra",
+  "usage": {
+    "input_tokens": 11701,
+    "input_tokens_details": {
+      "cache_write_tokens": 11698,
+      "cached_tokens": 0
+    },
+    "output_tokens": 728,
+    "output_tokens_details": {
+      "reasoning_tokens": 176
+    },
+    "total_tokens": 12429
+  },
+  "review": {
+    "candidate": 38,
+    "approved": false,
+    "scores": {
+      "strategy": 4,
+      "withinRoundVariety": 5,
+      "acrossDaysVariety": 4,
+      "fairDifficulty": 4
+    },
+    "reason": "The artwork maps confidently left-to-right to numbered Holes 1, 2 and 3. The round is strategically sound, but Hole 1 needs a clear greenside bunker-side correction before publication.\n\nHole 1: The dry 332-yard par 4 retains its wooded rightward bend and approach bunkering. Following the fairway offers a safer route than challenging the tree-lined inside corner. However, the exact geometry has greenside bunkers right and back-left, while the illustration clearly groups that sand on the right and back-right. Moving the greenside arrangement right is a supported, concrete reconciliation. The artwork also elongates the approach; that does not justify reshaping the entire hole.\n\nHole 2: The dry 217-yard par 3 matches the separate foreground landing area, open green front and sand around both back corners. The illustration understates the green's relative size, but retains a generous target and broad approach area. Preserve that forgiveness rather than shrinking a long-par-3 target merely to match stylization. Conservative center-green play contrasts with attacking the pin.\n\nHole 3: The 472-yard par 5 correctly retains one substantial right-side lake, stopping below the green, and greenside sand on both sides. Lake extent and fairway/green proportions are sufficiently consistent. The broad left portion provides a safe route, while a two-shot attempt demands more precise placement alongside the shoreline.\n\nThe short bending par 4, long dry par 3 and reachable shoreline par 5 provide excellent within-round contrast. Recent rounds include similar reachable par 5s, but the longer non-island par 3 and different opening bend provide sufficient freshness. Simulated 2/1/2 shots to green and 54/51/70 safe tee options support fair difficulty without proving it; the previews also show usable landing space. Approval remains withheld pending inspection of the bunker edit.",
+    "edits": [
+      {
+        "hole": 0,
+        "control": "bunkerSide",
+        "value": "right",
+        "reason": "The illustration places Hole 1's greenside sand on the right and back-right, whereas current geometry also places two greenside bunkers back-left. Shift the greenside arrangement right to match this clear feature while retaining the open front and existing wooded route."
+      }
+    ]
+  }
+}

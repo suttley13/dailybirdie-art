@@ -1,0 +1,156 @@
+{
+  "schemaVersion": 1,
+  "course": 97,
+  "outcome": "published",
+  "error": null,
+  "startedAt": 1789650804,
+  "seconds": 97.38,
+  "reviewModel": "gpt-6-astra",
+  "reviewEffort": "medium",
+  "imageModel": "gpt-image-2.5-sunburst",
+  "candidatesRequested": 50,
+  "calls": [
+    {
+      "phase": "selection",
+      "kind": "review",
+      "model": "gpt-6-astra",
+      "effort": "medium",
+      "responseID": "resp_0e8393be067983b3016aabe77bf91c87d193b5e8b3da89d04f",
+      "usage": {
+        "input_tokens": 33936,
+        "input_tokens_details": {
+          "cache_write_tokens": 33933,
+          "cached_tokens": 0
+        },
+        "output_tokens": 606,
+        "output_tokens_details": {
+          "reasoning_tokens": 164
+        },
+        "total_tokens": 34542
+      },
+      "seconds": 19.21,
+      "imageCount": 8,
+      "approved": true,
+      "edits": [],
+      "scores": {
+        "strategy": 4,
+        "withinRoundVariety": 5,
+        "acrossDaysVariety": 4,
+        "fairDifficulty": 4
+      }
+    },
+    {
+      "phase": "artwork-0",
+      "kind": "image",
+      "model": "gpt-image-2.5-sunburst",
+      "usage": {
+        "input_tokens": 3468,
+        "input_tokens_details": {
+          "image_tokens": 2721,
+          "text_tokens": 747
+        },
+        "output_tokens": 343,
+        "output_tokens_details": {
+          "image_tokens": 343,
+          "text_tokens": 0
+        },
+        "total_tokens": 3811
+      },
+      "seconds": 19.83
+    },
+    {
+      "phase": "reconcile-0-0",
+      "kind": "review",
+      "model": "gpt-6-astra",
+      "effort": "medium",
+      "responseID": "resp_096d140fd0380af9016aabe7a20d9887d19fea2b7e3f7b6169",
+      "usage": {
+        "input_tokens": 11701,
+        "input_tokens_details": {
+          "cache_write_tokens": 11698,
+          "cached_tokens": 0
+        },
+        "output_tokens": 728,
+        "output_tokens_details": {
+          "reasoning_tokens": 176
+        },
+        "total_tokens": 12429
+      },
+      "seconds": 17.58,
+      "imageCount": 2,
+      "approved": false,
+      "edits": [
+        {
+          "hole": 0,
+          "control": "bunkerSide",
+          "value": "right",
+          "reason": "The illustration places Hole 1's greenside sand on the right and back-right, whereas current geometry also places two greenside bunkers back-left. Shift the greenside arrangement right to match this clear feature while retaining the open front and existing wooded route."
+        }
+      ],
+      "scores": {
+        "strategy": 4,
+        "withinRoundVariety": 5,
+        "acrossDaysVariety": 4,
+        "fairDifficulty": 4
+      }
+    },
+    {
+      "phase": "reconcile-0-1",
+      "kind": "review",
+      "model": "gpt-6-astra",
+      "effort": "medium",
+      "responseID": "resp_0c1657d2858723ce016aabe7b4276487d1bea8c9f7318b86a4",
+      "usage": {
+        "input_tokens": 11551,
+        "input_tokens_details": {
+          "cache_write_tokens": 11548,
+          "cached_tokens": 0
+        },
+        "output_tokens": 637,
+        "output_tokens_details": {
+          "reasoning_tokens": 120
+        },
+        "total_tokens": 12188
+      },
+      "seconds": 15.54,
+      "imageCount": 2,
+      "approved": true,
+      "edits": [],
+      "scores": {
+        "strategy": 4,
+        "withinRoundVariety": 5,
+        "acrossDaysVariety": 4,
+        "fairDifficulty": 4
+      }
+    },
+    {
+      "phase": "final-0-1",
+      "kind": "review",
+      "model": "gpt-6-astra",
+      "effort": "medium",
+      "responseID": "resp_0837b0be26500c50016aabe7c3d9ac87d1892c0f81256c0c9b",
+      "usage": {
+        "input_tokens": 11550,
+        "input_tokens_details": {
+          "cache_write_tokens": 11547,
+          "cached_tokens": 0
+        },
+        "output_tokens": 673,
+        "output_tokens_details": {
+          "reasoning_tokens": 151
+        },
+        "total_tokens": 12223
+      },
+      "seconds": 18.08,
+      "imageCount": 2,
+      "approved": true,
+      "edits": [],
+      "scores": {
+        "strategy": 4,
+        "withinRoundVariety": 5,
+        "acrossDaysVariety": 4,
+        "fairDifficulty": 4
+      }
+    }
+  ]
+}

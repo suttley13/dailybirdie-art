@@ -1,0 +1,28 @@
+{
+  "responseID": "resp_0837b0be26500c50016aabe7c3d9ac87d1892c0f81256c0c9b",
+  "model": "gpt-6-astra",
+  "usage": {
+    "input_tokens": 11550,
+    "input_tokens_details": {
+      "cache_write_tokens": 11547,
+      "cached_tokens": 0
+    },
+    "output_tokens": 673,
+    "output_tokens_details": {
+      "reasoning_tokens": 151
+    },
+    "total_tokens": 12223
+  },
+  "review": {
+    "candidate": 38,
+    "approved": true,
+    "scores": {
+      "strategy": 4,
+      "withinRoundVariety": 5,
+      "acrossDaysVariety": 4,
+      "fairDifficulty": 4
+    },
+    "reason": "The artwork maps confidently left-to-right to numbered Holes 1, 2 and 3. The current geometry passes without edits.\n\nHole 1: The dry 332-yard par 4 has a pronounced rightward bend, collision trees inside the corner, three approach/fairway bunkers and two right-side greenside bunkers. The illustration preserves the wooded bend and right-side greenside sand, although it stretches the approach and redistributes the fairway bunkers. Those distortions do not justify changing the correctly placed greenside hazards. The geometry offers a meaningful choice between following the broad fairway around the corner and challenging the wooded shortcut; the small green demands a controlled approach.\n\nHole 2: The dry 217-yard par 3 matches the central illustration's separate elongated foreground landing area, substantial green and sand to both sides toward the back. The artwork brings some sand farther alongside the green but does not clearly reverse its placement. The open front and generous target support conservative distance control, while attacking the pin requires greater precision. This is primarily a long approach test rather than a route-choice hole.\n\nHole 3: The 472-yard par 5 retains its single substantial right-side lake, broad straight fairway and bilateral greenside bunker clusters. The illustration preserves the lake's long extent and its termination below the green. Fairway and green proportions are sufficiently consistent, allowing for perspective. Left-side placement offers safety from water, while pursuing greater distance along the shoreline can set up a two-shot attempt; the open green entrance preserves a sensible layup-and-approach alternative.\n\nThe short wooded par 4, long dry par 3 and reachable lakeside par 5 provide excellent within-round contrast. There is some resemblance to course 96's dry bending par 4 and shoreline par 5, but the opposite bend and lake sides, longer par 3 and changed sequence provide sufficient freshness. Simulated 2/1/2 shots to green and 54/51/70 safe tee options support fair difficulty without proving it; the previews also show usable landing space. No clear bunker-side reversal or safely correctable lake/proportion discrepancy warrants an edit.",
+    "edits": []
+  }
+}
