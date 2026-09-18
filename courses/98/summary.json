@@ -1,0 +1,91 @@
+{
+  "course": 98,
+  "geometrySHA256": "8f4685b1e99d34bc01e911ffadafe088eb74d9309a12219a6730060af4931d4f",
+  "artworkSHA256": "0808e4221b8500a5a38a1715644bd6a41cec88927fee76b950148a0c17b8d588",
+  "holes": [
+    {
+      "bunkerCount": 3,
+      "fairwayArea": 26286.384179018765,
+      "par": 4,
+      "route": [
+        [
+          200,
+          40
+        ],
+        [
+          181.72500944050526,
+          392.0374538206146
+        ],
+        [
+          172.57135601841702,
+          550.4210561267909
+        ]
+      ],
+      "simulatedShotsToGreen": 2,
+      "teeSafeOptions": 58,
+      "type": "capeHole",
+      "waterArea": 20581.856624209206,
+      "yards": 427
+    },
+    {
+      "bunkerCount": 6,
+      "fairwayArea": 29704.487701867332,
+      "par": 5,
+      "route": [
+        [
+          200,
+          40
+        ],
+        [
+          183.28581312430367,
+          384.14533767372194
+        ],
+        [
+          182.97380641452588,
+          635.7172578878863
+        ],
+        [
+          197.66208072152543,
+          710.5614899712778
+        ]
+      ],
+      "simulatedShotsToGreen": 3,
+      "teeSafeOptions": 40,
+      "type": "threeShotPar5",
+      "waterArea": 0,
+      "yards": 556
+    },
+    {
+      "bunkerCount": 1,
+      "fairwayArea": 5623.576118099616,
+      "par": 3,
+      "route": [
+        [
+          200,
+          40
+        ],
+        [
+          208.07263213743144,
+          298.2579721627556
+        ]
+      ],
+      "simulatedShotsToGreen": 1,
+      "teeSafeOptions": 40,
+      "type": "islandGreen",
+      "waterArea": 15903.113028869055,
+      "yards": 217
+    }
+  ],
+  "review": {
+    "candidate": 39,
+    "approved": true,
+    "scores": {
+      "strategy": 4,
+      "withinRoundVariety": 5,
+      "acrossDaysVariety": 4,
+      "fairDifficulty": 4
+    },
+    "reason": "The artwork maps confidently left-to-right to numbered Holes 1, 2 and 3. The current geometry passes without edits.\n\nHole 1: The 427-yard cape par 4 has one substantial right-side lake, a broad curving fairway, left approach sand and two back-right greenside bunkers. The illustration preserves these relationships, including the lake ending below the green. Fairway and green proportions are sufficiently consistent. Favoring the left provides water avoidance, while shoreline-side placement demands more precision; the left approach bunker prevents the conservative side from being entirely consequence-free.\n\nHole 2: The dry 556-yard par 5 matches the central illustration's long tree-lined corridor, staggered fairway bunkers and back-left greenside sand. The artwork enlarges and simplifies the small greenside cluster but does not reverse its side. Its narrower fairway contrasts with Hole 1, and successive landing-position decisions around sand give the three-shot route strategic substance. The open green entrance preserves a reasonable final approach.\n\nHole 3: The 217-yard island par 3 matches the surrounding lake, isolated target and separate foreground landing area with sand right of the green's centerline. Lake extent and target proportions remain sufficiently faithful. This is a demanding carry-and-distance-control hole: center-green play is the conservative choice, while attacking the upper pin reduces the margin for error. The foreground patch is staging or recovery space, not a dry route to the green.\n\nThe shoreline par 4, dry three-shot par 5 and island par 3 provide excellent within-round contrast. Island greens recur in the supplied history, limiting novelty, but the longer cape hole and return to a dry three-shot par 5 distinguish this round from the latest publications. Simulated 2/3/1 shots to green and 58/40/40 safe tee options support fair difficulty without proving it; the numbered previews also show credible landing space and playable targets. No clear bunker-side reversal or safely correctable lake or proportion mismatch warrants a geometry change.",
+    "edits": []
+  }
+}

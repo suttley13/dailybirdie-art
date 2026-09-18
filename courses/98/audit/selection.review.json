@@ -1,0 +1,28 @@
+{
+  "responseID": "resp_02d1a0bc520b4252016aad33501e9487d1bba0556d0679ea1c",
+  "model": "gpt-6-astra",
+  "usage": {
+    "input_tokens": 35198,
+    "input_tokens_details": {
+      "cache_write_tokens": 35195,
+      "cached_tokens": 0
+    },
+    "output_tokens": 617,
+    "output_tokens_details": {
+      "reasoning_tokens": 182
+    },
+    "total_tokens": 35815
+  },
+  "review": {
+    "candidate": 39,
+    "approved": true,
+    "scores": {
+      "strategy": 4,
+      "withinRoundVariety": 5,
+      "acrossDaysVariety": 4,
+      "fairDifficulty": 4
+    },
+    "reason": "Select candidate 39 without geometry edits. The numbered previews show three distinct, playable tests.\n\nHole 1: The 427-yard cape par 4 has a substantial right-side lake and a generous dry corridor to its left. Conservative leftward placement avoids water but brings the large left approach bunker into consideration; positioning nearer the shoreline offers a different approach angle at greater risk. The lake ends below the green, preserving a reasonable approach rather than forcing another water carry. Small back-right greenside bunkers complement the larger approach hazard.\n\nHole 2: The dry 556-yard par 5 provides a useful change of emphasis. Alternating fairway bunkers and dense flanking collision trees make staged placement meaningful, while the landing corridor remains usable. Its open green entrance and small back-left bunkers reward a controlled third shot rather than demanding an excessively narrow aerial landing.\n\nHole 3: The 217-yard island par 3 is demanding but has a credible target within a substantial surrounding lake. Center-green play offers a conservative alternative to attacking the back-right pin. The separate foreground fairway provides staging space, not a dry route onto the green; its right-front bunker adds a consideration for shorter play.\n\nThe par-4/5/3 sequence contrasts shoreline positioning, dry woodland placement and an island carry. Island greens recur in the supplied history, limiting novelty, but the longer island shot, returning cape hole and genuinely three-shot dry par 5 distinguish this round from the latest reachable-par-5 sets. Simulated 2/3/1 shots to green and 58/40/40 safe tee options support fair difficulty without proving it; the visible landing spaces also pass inspection. This approves the supplied selection geometry, not any future artwork.",
+    "edits": []
+  }
+}

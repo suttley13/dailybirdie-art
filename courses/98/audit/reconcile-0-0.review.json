@@ -1,0 +1,28 @@
+{
+  "responseID": "resp_0fad5e9b701d456a016aad3375ca2487d1b2c5506e736d7374",
+  "model": "gpt-6-astra",
+  "usage": {
+    "input_tokens": 12122,
+    "input_tokens_details": {
+      "cache_write_tokens": 12119,
+      "cached_tokens": 0
+    },
+    "output_tokens": 613,
+    "output_tokens_details": {
+      "reasoning_tokens": 84
+    },
+    "total_tokens": 12735
+  },
+  "review": {
+    "candidate": 39,
+    "approved": true,
+    "scores": {
+      "strategy": 4,
+      "withinRoundVariety": 5,
+      "acrossDaysVariety": 4,
+      "fairDifficulty": 4
+    },
+    "reason": "The artwork maps confidently left-to-right to numbered Holes 1, 2 and 3. The current geometry passes without edits.\n\nHole 1: The 427-yard cape par 4 has one substantial right-side lake, a broad curving fairway, left approach sand and two back-right greenside bunkers. The illustration preserves these sides and the lake's long extent, ending below the green. Fairway and green proportions are sufficiently consistent. The broad left portion provides a conservative landing route; shoreline-side positioning accepts greater water exposure, while the left approach bunker complicates an entirely risk-free approach.\n\nHole 2: The dry 556-yard par 5 matches the central wooded corridor, staggered fairway bunkers and back-left greenside sand. The artwork slightly exaggerates the small greenside cluster but does not reverse its side. Its narrower fairway and separate green remain recognizable. Strategic interest comes from staged placement between alternating sand hazards and choosing how much distance to pursue before the next approach. The landing corridor is usable rather than unreasonably pinched by collision trees.\n\nHole 3: The 217-yard island par 3 clearly matches the right-hand illustration's surrounding lake, isolated green and separate foreground landing area with right-side approach sand. Water extent and green-to-lake proportions are sufficiently close. This is primarily a carry-and-distance-control test: conservative center-green play contrasts with attacking the back-positioned pin. The foreground landing patch is not a dry route onto the island.\n\nThe shoreline par 4, dry three-shot par 5 and island carry provide excellent within-round contrast. Across recent days, the island type is familiar and the preceding round also had a 217-yard par 3, limiting novelty. Nevertheless, the return to a genuine three-shot dry par 5 and a longer cape par 4 changes the round substantially from the recent short par-4/reachable-par-5 combinations. Simulated 2/3/1 shots to green and 58/40/40 safe tee options support fair difficulty without proving it; the numbered previews also show credible landing space and targets. No clear bunker-side reversal or safely correctable lake/proportion mismatch warrants an edit.",
+    "edits": []
+  }
+}
