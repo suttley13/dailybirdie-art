@@ -1,0 +1,28 @@
+{
+  "responseID": "resp_05c485d0b1261826016aae7e73f77087d1a63b2beaf97f2136",
+  "model": "gpt-6-astra",
+  "usage": {
+    "input_tokens": 35326,
+    "input_tokens_details": {
+      "cache_write_tokens": 35323,
+      "cached_tokens": 0
+    },
+    "output_tokens": 582,
+    "output_tokens_details": {
+      "reasoning_tokens": 129
+    },
+    "total_tokens": 35908
+  },
+  "review": {
+    "candidate": 18,
+    "approved": true,
+    "scores": {
+      "strategy": 4,
+      "withinRoundVariety": 5,
+      "acrossDaysVariety": 4,
+      "fairDifficulty": 4
+    },
+    "reason": "Select candidate 18. Its current numbered geometry passes without edits.\n\nHole 1: The 369-yard double-dogleg par 4 has one substantial left-side lake following the bending fairway. The right half provides a credible water-avoidance route, while playing nearer the shoreline demands tighter placement. The small green and back-right bunkers make approach control important. The preview shows sufficient landing width; the lake is consequential without blocking the entire route.\n\nHole 2: The dry 173-yard punchbowl par 3 provides a welcome change in scale and pressure. Its elongated, generous green has right/back sand, leaving a clear front entrance and room for conservative center-green play. The left foreground bunker influences staging or recovery rather than creating an obligatory hazard carry. This is a distance-control test, not an artificial route-choice hole.\n\nHole 3: The dry 496-yard dogleg-left par 5 offers the strongest shortcut decision. Following the fairway around the wooded corner preserves a clear staged route; cutting toward the green challenges explicit collision trees. Sand near the upper fairway and left/back of the green adds placement demands without sealing the entrance. The simulated two-shot reach supports the reward opportunity, but does not make the wooded shortcut reliably safe.\n\nThe par-4/3/5 sequence combines a shoreline placement hole, a forgiving short target and a wooded attacking opportunity. Against recent publications, the punchbowl and double-dogleg recur, limiting novelty, but the dry bending par 5 and single-lake arrangement contrast meaningfully with course 98's cape, straight three-shot corridor and island finish. Simulated 2/1/2 shots to green and 55/43/54 safe tee options support fair difficulty; the visible landing areas independently look playable. No geometry changes are needed at selection.",
+    "edits": []
+  }
+}

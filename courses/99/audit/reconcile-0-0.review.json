@@ -1,0 +1,35 @@
+{
+  "responseID": "resp_064a63874f4b848d016aae7e9723b887d1b90e9062f6c800c7",
+  "model": "gpt-6-astra",
+  "usage": {
+    "input_tokens": 13255,
+    "input_tokens_details": {
+      "cache_write_tokens": 13252,
+      "cached_tokens": 0
+    },
+    "output_tokens": 647,
+    "output_tokens_details": {
+      "reasoning_tokens": 65
+    },
+    "total_tokens": 13902
+  },
+  "review": {
+    "candidate": 18,
+    "approved": false,
+    "scores": {
+      "strategy": 4,
+      "withinRoundVariety": 5,
+      "acrossDaysVariety": 4,
+      "fairDifficulty": 4
+    },
+    "reason": "The illustration maps confidently left-to-right to numbered Holes 1, 2 and 3, but Hole 3 needs a greenside bunker-side correction before publication.\n\nHole 1: The 369-yard par 4 retains its substantial left-side lake, bending fairway and right/back greenside sand. The illustrated lake follows a comparable length of fairway and stops below the green. Fairway and green proportions are sufficiently consistent. The broad right-side route offers water avoidance, while shoreline-side placement demands greater precision. No change is needed.\n\nHole 2: The dry 173-yard punchbowl matches the central illustration's left approach bunker and right/back greenside cluster. The artwork connects the foreground landing area to the green and reduces the apparent target-to-fairway proportion, but these presentation differences do not justify speculative geometry changes. The numbered preview provides a generous target and open front for conservative play.\n\nHole 3: The dry 496-yard dogleg-left is identifiable by its wooded inside corner and two fairway bunkers. Following the fairway offers a safer staged route; challenging the corner can shorten the hole but encounters explicit collision trees. The artwork softens the bend and stretches the final approach, yet the clear discrepancy is greenside sand: the geometry has three back/right bunkers plus two left bunkers, whereas the illustration groups the greenside sand entirely on the left. Set the greenside bunker side to left, preserving the existing fairway and landing space, then inspect the regenerated geometry.\n\nThe par-4/3/5 sequence, lakeside placement test, compact dry target and wooded dogleg provide strong within-round contrast. The combination recalls course 92 and repeats types seen elsewhere, limiting novelty, but differs sufficiently from the latest cape/three-shot/island round. Simulated 2/1/2 shots to green and 55/43/54 safe tee options support fair difficulty; the visible landing areas also remain credible. These scores describe the current playing design, not approval of unseen edits.",
+    "edits": [
+      {
+        "hole": 2,
+        "control": "bunkerSide",
+        "value": "left",
+        "reason": "The rightmost illustrated green has a clearly left-side bunker group, while the current geometry splits greenside sand between back/right and left. Move the greenside grouping to the left to match this unambiguous feature without altering the wooded dogleg or its playable landing corridor."
+      }
+    ]
+  }
+}

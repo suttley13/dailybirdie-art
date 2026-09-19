@@ -1,0 +1,28 @@
+{
+  "responseID": "resp_0222c3ae736a62ba016aae7ea5c20087d19a69d9122878e420",
+  "model": "gpt-6-astra",
+  "usage": {
+    "input_tokens": 13030,
+    "input_tokens_details": {
+      "cache_write_tokens": 13027,
+      "cached_tokens": 0
+    },
+    "output_tokens": 630,
+    "output_tokens_details": {
+      "reasoning_tokens": 96
+    },
+    "total_tokens": 13660
+  },
+  "review": {
+    "candidate": 18,
+    "approved": true,
+    "scores": {
+      "strategy": 4,
+      "withinRoundVariety": 5,
+      "acrossDaysVariety": 4,
+      "fairDifficulty": 4
+    },
+    "reason": "The artwork maps confidently left-to-right to numbered Holes 1, 2 and 3. The current geometry passes without edits.\n\nHole 1: The 369-yard par 4 has one substantial left-side lake, a bending fairway and three right/back greenside bunkers. The illustration preserves those relationships, including the lake ending below the green. Fairway width and lake extent are sufficiently consistent. Favoring the right avoids the shoreline, while more aggressive lake-side placement requires precision. The small, separate green adds an approach-control test without closing its entrance.\n\nHole 2: The dry 173-yard punchbowl par 3 matches the central illustration's larger target, left approach bunker and right/back greenside cluster. The artwork visually connects the foreground landing area to the green, unlike the separated patches in the preview, but this does not warrant altering the playable geometry. Conservative center-green play has ample room; attacking the pin demands tighter distance control. The target remains visibly larger than the other greens.\n\nHole 3: The dry 496-yard dogleg-left par 5 matches the right-hand illustration's wooded leftward turn, approach bunkers and left-side greenside sand. The artwork softens the sharp bend and enlarges the sand, but the important greenside placement now agrees with the supplied geometry. Neither the illustrated bunker count nor its exaggerated size warrants changing the current arrangement. Following the fairway offers a clear placement route, while challenging the wooded inside corner introduces meaningful collision-tree risk in pursuit of reaching in two.\n\nThe par-4/3/5 sequence, lakeside placement hole, compact dry approach test and wooded reachable par 5 provide excellent within-round contrast. The first two types repeat course 92, and the punchbowl also appeared on course 96, so novelty is good rather than exceptional. Compared with the latest round, the shorter dry par 3 and reachable turning par 5 materially change the demands. Simulated 2/1/2 shots to green and 55/43/54 safe tee options support fair difficulty without proving it; the numbered previews also show usable landing areas and open approach space. No clear hazard-side contradiction or safely correctable proportion mismatch requires an edit.",
+    "edits": []
+  }
+}

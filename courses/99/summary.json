@@ -1,0 +1,87 @@
+{
+  "course": 99,
+  "geometrySHA256": "fe416e5be46839b88c747f6a82df9c8aa2275ecee0f76ac0c29211bfa7947ab6",
+  "artworkSHA256": "9613b194632a178a49b888ce632116c41baf13f42d7850ea5efb3cb53f3a4162",
+  "holes": [
+    {
+      "bunkerCount": 3,
+      "fairwayArea": 24318.76634174425,
+      "par": 4,
+      "route": [
+        [
+          200,
+          40
+        ],
+        [
+          154.75544057836018,
+          367.76551193660265
+        ],
+        [
+          236.61498597595056,
+          478.5391813206724
+        ]
+      ],
+      "simulatedShotsToGreen": 2,
+      "teeSafeOptions": 55,
+      "type": "doubleDogleg",
+      "waterArea": 17468.296512519773,
+      "yards": 369
+    },
+    {
+      "bunkerCount": 4,
+      "fairwayArea": 5964.522440877079,
+      "par": 3,
+      "route": [
+        [
+          200,
+          40
+        ],
+        [
+          204.6507257407507,
+          249.71213345866207
+        ]
+      ],
+      "simulatedShotsToGreen": 1,
+      "teeSafeOptions": 43,
+      "type": "punchbowlGreen",
+      "waterArea": 0,
+      "yards": 173
+    },
+    {
+      "bunkerCount": 4,
+      "fairwayArea": 24099.69690793362,
+      "par": 5,
+      "route": [
+        [
+          280,
+          40
+        ],
+        [
+          193.7194974334484,
+          383.73437205330333
+        ],
+        [
+          103.27783102924407,
+          419.139969606359
+        ]
+      ],
+      "simulatedShotsToGreen": 2,
+      "teeSafeOptions": 54,
+      "type": "doglegLeft",
+      "waterArea": 0,
+      "yards": 496
+    }
+  ],
+  "review": {
+    "candidate": 18,
+    "approved": true,
+    "scores": {
+      "strategy": 4,
+      "withinRoundVariety": 5,
+      "acrossDaysVariety": 4,
+      "fairDifficulty": 4
+    },
+    "reason": "The artwork maps confidently left-to-right to numbered Holes 1, 2 and 3. The current geometry passes without edits.\n\nHole 1: The 369-yard par 4 has one substantial left-side lake, a bending fairway and three right/back greenside bunkers. The illustration preserves these features, including the lake ending below the green. Fairway and green proportions are sufficiently consistent. Playing toward the right provides water avoidance, while more assertive shoreline-side placement trades safety for positioning. The generous landing corridor keeps that choice playable.\n\nHole 2: The dry 173-yard punchbowl par 3 matches the central illustration's left approach bunker and right/back greenside cluster. The artwork visually connects the approach to the green and reduces the target's relative prominence, but retains a generous target and the correct hazard sides. These differences do not warrant narrowing the fairway or enlarging the green. Conservative center-green play contrasts with attacking the left-positioned pin; this is principally a distance-control test rather than a route-choice hole.\n\nHole 3: The dry 496-yard dogleg-left par 5 is identifiable by its wooded leftward turn, two fairway bunkers and left-side greenside sand. The illustration softens the bend and enlarges the greenside bunker cluster, but clearly preserves its current left-side placement. The numbered geometry offers a broad route around the bend versus a more aggressive attempt through or over the wooded inside corner. Collision trees make the simulated two-shot reach evidence of opportunity, not guaranteed ease. Landing and target proportions remain playable.\n\nThe par-4/3/5 sequence, substantial shoreline, compact dry target and wooded dogleg provide excellent within-round contrast. Across-days novelty is more modest: the opening types recall course 92, and the punchbowl resembles course 96, but the longer dogleg-left par 5 and return to only one wet hole distinguish this round from the latest publication. Simulated 2/1/2 shots to green and 55/43/54 safe tee options support fair difficulty without proving it; the actual previews also show credible landing space. No clear bunker-side reversal or safely correctable lake or proportion discrepancy requires a geometry change.",
+    "edits": []
+  }
+}

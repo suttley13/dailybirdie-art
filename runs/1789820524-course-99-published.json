@@ -1,0 +1,156 @@
+{
+  "schemaVersion": 1,
+  "course": 99,
+  "outcome": "published",
+  "error": null,
+  "startedAt": 1789820524,
+  "seconds": 83.39,
+  "reviewModel": "gpt-6-astra",
+  "reviewEffort": "medium",
+  "imageModel": "gpt-image-2.5-sunburst",
+  "candidatesRequested": 50,
+  "calls": [
+    {
+      "phase": "selection",
+      "kind": "review",
+      "model": "gpt-6-astra",
+      "effort": "medium",
+      "responseID": "resp_05c485d0b1261826016aae7e73f77087d1a63b2beaf97f2136",
+      "usage": {
+        "input_tokens": 35326,
+        "input_tokens_details": {
+          "cache_write_tokens": 35323,
+          "cached_tokens": 0
+        },
+        "output_tokens": 582,
+        "output_tokens_details": {
+          "reasoning_tokens": 129
+        },
+        "total_tokens": 35908
+      },
+      "seconds": 15.45,
+      "imageCount": 8,
+      "approved": true,
+      "edits": [],
+      "scores": {
+        "strategy": 4,
+        "withinRoundVariety": 5,
+        "acrossDaysVariety": 4,
+        "fairDifficulty": 4
+      }
+    },
+    {
+      "phase": "artwork-0",
+      "kind": "image",
+      "model": "gpt-image-2.5-sunburst",
+      "usage": {
+        "input_tokens": 3452,
+        "input_tokens_details": {
+          "image_tokens": 2721,
+          "text_tokens": 731
+        },
+        "output_tokens": 343,
+        "output_tokens_details": {
+          "image_tokens": 343,
+          "text_tokens": 0
+        },
+        "total_tokens": 3795
+      },
+      "seconds": 20.1
+    },
+    {
+      "phase": "reconcile-0-0",
+      "kind": "review",
+      "model": "gpt-6-astra",
+      "effort": "medium",
+      "responseID": "resp_064a63874f4b848d016aae7e9723b887d1b90e9062f6c800c7",
+      "usage": {
+        "input_tokens": 13255,
+        "input_tokens_details": {
+          "cache_write_tokens": 13252,
+          "cached_tokens": 0
+        },
+        "output_tokens": 647,
+        "output_tokens_details": {
+          "reasoning_tokens": 65
+        },
+        "total_tokens": 13902
+      },
+      "seconds": 14.58,
+      "imageCount": 2,
+      "approved": false,
+      "edits": [
+        {
+          "hole": 2,
+          "control": "bunkerSide",
+          "value": "left",
+          "reason": "The rightmost illustrated green has a clearly left-side bunker group, while the current geometry splits greenside sand between back/right and left. Move the greenside grouping to the left to match this unambiguous feature without altering the wooded dogleg or its playable landing corridor."
+        }
+      ],
+      "scores": {
+        "strategy": 4,
+        "withinRoundVariety": 5,
+        "acrossDaysVariety": 4,
+        "fairDifficulty": 4
+      }
+    },
+    {
+      "phase": "reconcile-0-1",
+      "kind": "review",
+      "model": "gpt-6-astra",
+      "effort": "medium",
+      "responseID": "resp_0222c3ae736a62ba016aae7ea5c20087d19a69d9122878e420",
+      "usage": {
+        "input_tokens": 13030,
+        "input_tokens_details": {
+          "cache_write_tokens": 13027,
+          "cached_tokens": 0
+        },
+        "output_tokens": 630,
+        "output_tokens_details": {
+          "reasoning_tokens": 96
+        },
+        "total_tokens": 13660
+      },
+      "seconds": 14.73,
+      "imageCount": 2,
+      "approved": true,
+      "edits": [],
+      "scores": {
+        "strategy": 4,
+        "withinRoundVariety": 5,
+        "acrossDaysVariety": 4,
+        "fairDifficulty": 4
+      }
+    },
+    {
+      "phase": "final-0-1",
+      "kind": "review",
+      "model": "gpt-6-astra",
+      "effort": "medium",
+      "responseID": "resp_0a6bc8f9523bcb3c016aae7eb4b5f887d18f7737f8b8cd789f",
+      "usage": {
+        "input_tokens": 13029,
+        "input_tokens_details": {
+          "cache_write_tokens": 13026,
+          "cached_tokens": 0
+        },
+        "output_tokens": 591,
+        "output_tokens_details": {
+          "reasoning_tokens": 58
+        },
+        "total_tokens": 13620
+      },
+      "seconds": 11.58,
+      "imageCount": 2,
+      "approved": true,
+      "edits": [],
+      "scores": {
+        "strategy": 4,
+        "withinRoundVariety": 5,
+        "acrossDaysVariety": 4,
+        "fairDifficulty": 4
+      }
+    }
+  ]
+}
