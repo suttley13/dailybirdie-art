@@ -1,7 +1,7 @@
 {
   "course": 96,
   "geometrySHA256": "a19c838082125a86996b6503259149ec10635b57bd38c9ac3713ef7653b87886",
-  "artworkSHA256": "2df358c5ee7ca1e630f4df0d336474c7c7f2463a95d58f6fe2ba56f0c0a4456a",
+  "artworkSHA256": "621f785e9e85d72b0a9b7ccf17d4e42e9873a6526243af9d5ea9bb28baecf0a1",
   "holes": [
     {
       "bunkerCount": 3,
@@ -79,5 +79,18 @@
     },
     "reason": "The artwork maps confidently left-to-right to numbered Holes 1, 2 and 3. The current geometry passes without edits.\n\nHole 1: The dry 340-yard dogleg-left offers a conservative route around the wooded bend versus an aggressive shortcut toward the green. The numbered preview shows meaningful collision trees across that shortcut, so the simulated one-shot reach is not evidence of an automatic birdie. The illustration correctly places greenside sand left of the green. It elongates the approach and relocates the fairway bunker farther down the hole; changing bunkerSide would not fix that isolated fairway-bunker discrepancy and would disrupt the correct greenside arrangement. The landing area and green remain reasonably proportioned for play.\n\nHole 2: The 481-yard reachable par 5 has one substantial lake along the left fairway, a right-side fairway bunker and back-right greenside sand. All these relationships are recognizable in the artwork. The long lake stops below the green in both views, and the fairway retains a usable right-side route. Conservative placement away from the shoreline contrasts with a more demanding attempt to reach in two. Lake, fairway and green proportions are sufficiently consistent without adjustment.\n\nHole 3: The dry 174-yard punchbowl par 3 matches the separate foreground landing area, left approach bunker and right/back greenside bunker cluster. The artwork simplifies the cluster and visually connects more of the approach, but does not reverse the hazard sides. The generous target and open front support conservative center-green play, while the surrounding sand penalizes less controlled attacks.\n\nThe par-4/5/3 sequence, wooded shortcut, long shoreline and compact dry target provide excellent within-round contrast. Across recent days, the punchbowl and reachable-par-5 types return, but the dry dogleg-left and retreat from repeated island greens keep this round sufficiently fresh. Simulated safe tee options of 49/48/43 support fair difficulty without proving it; the actual previews also show credible landing space. No clear, safely correctable artwork mismatch warrants a geometry change.",
     "edits": []
+  },
+  "artworkRevision": {
+    "course": 96,
+    "operation": "artwork-only refresh",
+    "tool": "Codex built-in image_gen",
+    "geometrySHA256": "a19c838082125a86996b6503259149ec10635b57bd38c9ac3713ef7653b87886",
+    "previousArtworkSHA256": "2df358c5ee7ca1e630f4df0d336474c7c7f2463a95d58f6fe2ba56f0c0a4456a",
+    "artworkSHA256": "621f785e9e85d72b0a9b7ccf17d4e42e9873a6526243af9d5ea9bb28baecf0a1",
+    "review": {
+      "method": "visual inspection against frozen-geometry routing reference",
+      "result": "accepted",
+      "notes": "Three identifiable holes with folded routing: dogleg par 4 at top, lake-side par 5 returning right-to-left at bottom, short par 3 on left. Three tees and flag-bearing greens. Approximate decorative illustration, not collision geometry. Shared grassy parcel, white exterior, landscape composition. Gameplay bytes and round identity unchanged."
+    }
   }
 }

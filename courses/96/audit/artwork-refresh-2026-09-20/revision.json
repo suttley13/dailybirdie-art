@@ -1,0 +1,13 @@
+{
+  "course": 96,
+  "operation": "artwork-only refresh",
+  "tool": "Codex built-in image_gen",
+  "geometrySHA256": "a19c838082125a86996b6503259149ec10635b57bd38c9ac3713ef7653b87886",
+  "previousArtworkSHA256": "2df358c5ee7ca1e630f4df0d336474c7c7f2463a95d58f6fe2ba56f0c0a4456a",
+  "artworkSHA256": "621f785e9e85d72b0a9b7ccf17d4e42e9873a6526243af9d5ea9bb28baecf0a1",
+  "review": {
+    "method": "visual inspection against frozen-geometry routing reference",
+    "result": "accepted",
+    "notes": "Three identifiable holes with folded routing: dogleg par 4 at top, lake-side par 5 returning right-to-left at bottom, short par 3 on left. Three tees and flag-bearing greens. Approximate decorative illustration, not collision geometry. Shared grassy parcel, white exterior, landscape composition. Gameplay bytes and round identity unchanged."
+  }
+}
