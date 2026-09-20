@@ -1,0 +1,1 @@
+{"model":"gpt-image-2.5-sunburst","usage":{"input_tokens":3465,"input_tokens_details":{"image_tokens":2721,"text_tokens":744},"output_tokens":343,"output_tokens_details":{"image_tokens":343,"text_tokens":0},"total_tokens":3808}}

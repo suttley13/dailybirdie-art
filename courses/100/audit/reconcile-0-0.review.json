@@ -1,0 +1,28 @@
+{
+  "responseID": "resp_0abddf688e64dd9d016aafd85a10d487d1bcbcbf3f85791e74",
+  "model": "gpt-6-astra",
+  "usage": {
+    "input_tokens": 14277,
+    "input_tokens_details": {
+      "cache_write_tokens": 14274,
+      "cached_tokens": 0
+    },
+    "output_tokens": 603,
+    "output_tokens_details": {
+      "reasoning_tokens": 68
+    },
+    "total_tokens": 14880
+  },
+  "review": {
+    "candidate": 42,
+    "approved": true,
+    "scores": {
+      "strategy": 4,
+      "withinRoundVariety": 5,
+      "acrossDaysVariety": 4,
+      "fairDifficulty": 4
+    },
+    "reason": "The artwork maps confidently left-to-right to numbered Holes 1, 2 and 3. The current geometry passes without edits.\n\nHole 1: The dry 429-yard split-fairway par 4 retains its central collision-tree divider, generous alternative lanes and greenside sand on both sides toward the back. The illustration simplifies the six bunkers into larger shapes but preserves their sides. Its broad fairway and relatively smaller green match the preview sufficiently well. Choosing a lane and securing an unobstructed approach provide strategic interest; the generous landing space makes this the forgiving opener rather than a precision driving test.\n\nHole 2: The 146-yard par 3 clearly matches the central island, its single surrounding lake and the separate foreground landing patch. Neither geometry nor artwork has bunkers here. Lake extent and island-to-water proportions are consistent. Conservative center-green play contrasts with attacking the upper-left pin; the foreground patch provides staging space, not a dry route onto the green. The short distance distinguishes this carry test from the longer island holes in recent rounds.\n\nHole 3: The 569-yard par 5 preserves its substantial, nearly fairway-length left lake, narrower bending corridor, two right-side fairway bunkers and bilateral back/side greenside sand. The artwork retains the lake's termination below the green and credible fairway and target proportions. Favoring the right avoids water, but the two upper fairway bunkers complicate that safe-side route on later shots. Staged placement offers a sensible alternative to pursuing maximum distance beside the shoreline.\n\nThe broad dry split route, compact island carry and long shoreline par 5 provide excellent within-round contrast. Across-days novelty is more modest because island greens recur frequently and the three-shot type appeared on course 98. Nevertheless, the much shorter island hole, return of the split fairway and wet rather than dry three-shot finish provide sufficient differentiation, especially from course 99.\n\nSimulated 2/1/3 shots to green and 129/32/53 safe tee options support fair difficulty without proving it. The numbered previews independently show usable landing lanes and reasonable targets. No clear bunker-side reversal or safely correctable lake or proportion mismatch warrants a geometry change.",
+    "edits": []
+  }
+}
