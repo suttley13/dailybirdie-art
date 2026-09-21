@@ -1,7 +1,46 @@
 {
   "schemaVersion": 1,
-  "generatedAt": 1789909107,
+  "generatedAt": 1790002866,
   "runs": [
+    {
+      "file": "1790002668-course-101-failed.json",
+      "course": 101,
+      "outcome": "failed",
+      "error": "Artwork reconciliation did not pass; nothing published",
+      "startedAt": 1790002668,
+      "seconds": 197.73,
+      "reviewModel": "gpt-6-astra",
+      "reviewEffort": "medium",
+      "imageModel": "gpt-image-2.5-sunburst",
+      "callCount": 6,
+      "totals": {
+        "review": {
+          "calls": 4,
+          "tokens": {
+            "input_tokens": 91621,
+            "input_cache_write_tokens": 91609,
+            "input_cached_tokens": 0,
+            "output_tokens": 3352,
+            "output_reasoning_tokens": 1320,
+            "total_tokens": 94973
+          },
+          "unreported": 0
+        },
+        "image": {
+          "calls": 2,
+          "tokens": {
+            "input_tokens": 7936,
+            "input_image_tokens": 5736,
+            "input_text_tokens": 2200,
+            "output_tokens": 686,
+            "output_image_tokens": 686,
+            "output_text_tokens": 0,
+            "total_tokens": 8622
+          },
+          "unreported": 0
+        }
+      }
+    },
     {
       "file": "1789909034-course-100-published.json",
       "course": 100,

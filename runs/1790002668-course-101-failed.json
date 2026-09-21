@@ -1,0 +1,168 @@
+{
+  "schemaVersion": 1,
+  "course": 101,
+  "outcome": "failed",
+  "error": "Artwork reconciliation did not pass; nothing published",
+  "startedAt": 1790002668,
+  "seconds": 197.73,
+  "reviewModel": "gpt-6-astra",
+  "reviewEffort": "medium",
+  "imageModel": "gpt-image-2.5-sunburst",
+  "candidatesRequested": 50,
+  "calls": [
+    {
+      "phase": "selection",
+      "kind": "review",
+      "model": "gpt-6-astra",
+      "effort": "medium",
+      "responseID": "resp_01c901e269d5936b016ab145fd9d8c87d2a9714387cbd4f310",
+      "usage": {
+        "input_tokens": 41327,
+        "input_tokens_details": {
+          "cache_write_tokens": 41324,
+          "cached_tokens": 0
+        },
+        "output_tokens": 958,
+        "output_tokens_details": {
+          "reasoning_tokens": 489
+        },
+        "total_tokens": 42285
+      },
+      "seconds": 38.39,
+      "imageCount": 8,
+      "approved": true,
+      "edits": [],
+      "scores": {
+        "strategy": 4,
+        "withinRoundVariety": 5,
+        "acrossDaysVariety": 4,
+        "fairDifficulty": 4
+      }
+    },
+    {
+      "phase": "artwork-0",
+      "kind": "image",
+      "model": "gpt-image-2.5-sunburst",
+      "usage": {
+        "input_tokens": 3968,
+        "input_tokens_details": {
+          "image_tokens": 2868,
+          "text_tokens": 1100
+        },
+        "output_tokens": 343,
+        "output_tokens_details": {
+          "image_tokens": 343,
+          "text_tokens": 0
+        },
+        "total_tokens": 4311
+      },
+      "seconds": 22.63
+    },
+    {
+      "phase": "reconcile-0-0",
+      "kind": "review",
+      "model": "gpt-6-astra",
+      "effort": "medium",
+      "responseID": "resp_06cca80735234b8a016ab14638ca3487d28c018a54069f4f6a",
+      "usage": {
+        "input_tokens": 16765,
+        "input_tokens_details": {
+          "cache_write_tokens": 16762,
+          "cached_tokens": 0
+        },
+        "output_tokens": 693,
+        "output_tokens_details": {
+          "reasoning_tokens": 168
+        },
+        "total_tokens": 17458
+      },
+      "seconds": 25.17,
+      "imageCount": 2,
+      "approved": false,
+      "edits": [],
+      "scores": {
+        "strategy": 4,
+        "withinRoundVariety": 5,
+        "acrossDaysVariety": 4,
+        "fairDifficulty": 4
+      }
+    },
+    {
+      "phase": "artwork-1",
+      "kind": "image",
+      "model": "gpt-image-2.5-sunburst",
+      "usage": {
+        "input_tokens": 3968,
+        "input_tokens_details": {
+          "image_tokens": 2868,
+          "text_tokens": 1100
+        },
+        "output_tokens": 343,
+        "output_tokens_details": {
+          "image_tokens": 343,
+          "text_tokens": 0
+        },
+        "total_tokens": 4311
+      },
+      "seconds": 24.25
+    },
+    {
+      "phase": "reconcile-1-0",
+      "kind": "review",
+      "model": "gpt-6-astra",
+      "effort": "medium",
+      "responseID": "resp_01e9292a0071d18a016ab1466a4f8487d2a2070c498ffa0f36",
+      "usage": {
+        "input_tokens": 16765,
+        "input_tokens_details": {
+          "cache_write_tokens": 16762,
+          "cached_tokens": 0
+        },
+        "output_tokens": 750,
+        "output_tokens_details": {
+          "reasoning_tokens": 196
+        },
+        "total_tokens": 17515
+      },
+      "seconds": 31.55,
+      "imageCount": 2,
+      "approved": true,
+      "edits": [],
+      "scores": {
+        "strategy": 4,
+        "withinRoundVariety": 5,
+        "acrossDaysVariety": 4,
+        "fairDifficulty": 4
+      }
+    },
+    {
+      "phase": "final-1-0",
+      "kind": "review",
+      "model": "gpt-6-astra",
+      "effort": "medium",
+      "responseID": "resp_07a2738f0da33e71016ab1468a426087d291c090300860af52",
+      "usage": {
+        "input_tokens": 16764,
+        "input_tokens_details": {
+          "cache_write_tokens": 16761,
+          "cached_tokens": 0
+        },
+        "output_tokens": 951,
+        "output_tokens_details": {
+          "reasoning_tokens": 467
+        },
+        "total_tokens": 17715
+      },
+      "seconds": 40.42,
+      "imageCount": 2,
+      "approved": false,
+      "edits": [],
+      "scores": {
+        "strategy": 4,
+        "withinRoundVariety": 4,
+        "acrossDaysVariety": 4,
+        "fairDifficulty": 4
+      }
+    }
+  ]
+}
