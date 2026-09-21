@@ -1,7 +1,7 @@
 {
   "course": 100,
   "geometrySHA256": "6f85d9923cf87676befe188cd51578f538c3f72a6bc23e48600a59dffdb1271b",
-  "artworkSHA256": "9a0b586a1b5f3f8e0f8c089408a196518aa387e89cc80833e8541059bf7f065e",
+  "artworkSHA256": "7578ed128a306311efd5aa79f2da2d50fad20011aadc9a597955ad86010c80db",
   "holes": [
     {
       "bunkerCount": 6,
@@ -88,12 +88,12 @@
     "reason": "The artwork maps confidently left-to-right to numbered Holes 1, 2 and 3. The current geometry passes without edits.\n\nHole 1: The dry 429-yard split-fairway par 4 retains its central tree divider, broad alternative lanes and greenside sand on both sides toward the back. The illustration consolidates the six small bunkers into larger shapes without reversing their sides. Fairway and green proportions remain sufficiently faithful. The generous landing space supplies forgiveness, but collision trees make choosing a lane and preserving an approach line meaningful.\n\nHole 2: The 146-yard par 3 matches the isolated green, single surrounding lake and separate foreground landing area. Both versions have no bunkers, and the target-to-lake proportions are consistent. This is primarily a carry-and-distance-control test: aiming toward the green's center provides more margin than attacking the upper-left pin. The foreground patch is not a dry route onto the island.\n\nHole 3: The 569-yard par 5 preserves its substantial left-side lake, narrower fairway, two right-side approach bunkers and bilateral back-of-green sand. The illustration correctly carries the shoreline along most of the fairway and stops it below the green. Its green and fairway proportions are credible. Playing away from the lake reduces water exposure, but the right-side bunkers complicate later placement; controlled staging offers a sensible alternative to chasing distance.\n\nThe broad split route, compact island carry and long shoreline corridor provide excellent within-round contrast. Across-days novelty is more modest because island greens recur frequently and the three-shot type appeared in course 98. Nevertheless, the much shorter island hole, return of the split fairway and wet rather than dry three-shot par 5 provide sufficient differentiation. Simulated 2/1/3 shots to green and 129/32/53 safe tee options support fair difficulty without proving it; the numbered previews also show usable landing space and targets. No clear bunker-side reversal or safely correctable lake or proportion mismatch warrants an edit.",
     "edits": []
   },
-  "artRulesVersion": "connected-landscape-v2",
+  "artRulesVersion": "natural-greens-v3",
   "artworkReview": {
     "approved": true,
     "edits": [],
-    "method": "Codex visual review against exact published geometry routing reference",
-    "generator": "built-in image_gen",
-    "reason": "Split fairway par 4 from lower-left to central green, island par 3 at upper-left, long lake-side par 5 to lower-right. Three tees and three flagged greens; island walking access included. Landscape framing, continuous grassy interior, selective groves, pure white exterior. Gameplay geometry remains byte-identical."
+    "reviewer": "Codex visual inspection",
+    "scope": "Putting-green turf appearance only; existing layout retained.",
+    "reason": "Three flag positions and course routing retained. Dark inset discs removed; putting surfaces are single natural light greens with subtle fringe. Fairways, bunkers, water and paths retain their arrangement. Gameplay geometry unchanged."
   }
 }

@@ -1,7 +1,7 @@
 {
   "course": 93,
   "geometrySHA256": "ea5b8fed4ecc4cbf1152d250d847c6948d378f20102fd914f16ab68b507ade28",
-  "artworkSHA256": "5dc3a30afb3abc1eeae631d7b8130a5dd147ffd641d1b88aa69311e500f12cc3",
+  "artworkSHA256": "4e501e2d05936bd1ce07e44effccdf2ceecf6572116bc8d660ab49bef3b7817d",
   "holes": [
     {
       "bunkerCount": 3,
@@ -87,5 +87,13 @@
     },
     "reason": "The artwork maps confidently left-to-right to numbered Holes 1, 2 and 3. The current geometry passes without edits.\n\nHole 1: The 563-yard par 5 has a substantial left-side lake, a long bending fairway, left approach sand and two back-right greenside bunkers. The illustration preserves these relationships and the lake\u2019s nearly full fairway-length extent. Right-side placement offers safety from water; more assertive positioning must balance the shoreline against the next approach. Landing space remains usable despite the relatively narrow corridor.\n\nHole 2: The 201-yard par 3 clearly matches the central island green, surrounding lake and separate foreground landing area with left-side sand. Lake and target proportions are sufficiently consistent. It is primarily a carry-and-distance-control test rather than a route-choice hole, with conservative center-green play contrasting with a pin attack.\n\nHole 3: The 347-yard par 4 retains its substantial right-side lake, narrow curving fairway, staggered approach bunkers and greenside sand on both sides toward the back. The artwork simplifies the small bunker clusters but does not clearly reverse their sides. The lake stops short of the green in both views. Safe-left placement competes with a more aggressive line near the shoreline, while approach sand discourages indiscriminate distance chasing.\n\nFairway and green proportions are close enough that no safe geometry correction is warranted. The par-5/3/4 sequence and left-lake/island/right-lake arrangement provide strong variety despite water on every hole. All three types differ from the two recent rounds, especially the island target. Simulated 3/1/2 shots to green and 47/37/27 safe tee options support fair difficulty; the visible landing areas also remain credible, although the island carry and final corridor demand precision.",
     "edits": []
+  },
+  "artRulesVersion": "natural-greens-v3",
+  "artworkReview": {
+    "approved": true,
+    "edits": [],
+    "reviewer": "Codex visual inspection",
+    "scope": "Putting-green turf appearance only; existing layout retained.",
+    "reason": "Three flag positions and course routing retained. Dark inset discs removed; putting surfaces are single natural light greens with subtle fringe. Fairways, bunkers, water and paths retain their arrangement. Gameplay geometry unchanged."
   }
 }

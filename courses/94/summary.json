@@ -1,7 +1,7 @@
 {
   "course": 94,
   "geometrySHA256": "f78ae77533e6699dafb457454fa0ebfc2450bd67ab08378fc8d2316ffdb21141",
-  "artworkSHA256": "038690fecc16a331b99901e911a2dee03c421039c4b99585ecaa5858f9a3df54",
+  "artworkSHA256": "c4ec5e83d771f0bafdb4392649f13388a78952a035d59756bf8c5d7e477b9483",
   "holes": [
     {
       "bunkerCount": 4,
@@ -83,5 +83,13 @@
     },
     "reason": "The artwork maps confidently left-to-right to numbered Holes 1, 2 and 3. The current geometry passes without edits.\n\nHole 1: The 481-yard dogleg-right par 5 has one substantial lake along the left of the lower fairway and two right-side greenside bunkers. The illustration preserves the shoreline's general extent and the greenside bunker side, although it exaggerates the sand and elongates the approach. The playable corridor remains credible: favoring the right avoids water but brings trees and fairway sand into consideration, while attacking the bend offers a shorter route toward the green.\n\nHole 2: The dry 413-yard split-fairway par 4 is identifiable by its central tree divider, generous alternative lanes and back-left greenside sand. These defining relationships survive in the artwork. The illustration relocates the fairway bunker toward the left approach, but the available bunker-side control is not a reliable correction for that isolated discrepancy. The broad landing space makes this the forgiving hole, while the tree island still demands a deliberate route and approach position rather than indiscriminate straight-line distance.\n\nHole 3: The 174-yard par 3 matches the surrounding lake, isolated green and separate foreground landing area with left-side sand. Lake extent and target-to-water proportions are sufficiently consistent. Center-green play provides a sensible conservative target; attacking the left-positioned pin accepts greater water risk. The foreground patch offers staging or recovery space, not a dry route onto the island.\n\nThe par-5/4/3 sequence, bending shoreline corridor, dry split route and island carry provide excellent within-round variety. The island repeats course 93, limiting across-days novelty, but its shorter distance and the other two contrasting hole types keep the round sufficiently fresh. Simulated 2/2/1 shots to green and 55/148/26 safe tee options support fair difficulty without proving it; the numbered previews also show usable landing lanes and reasonable targets. No clear greenside bunker reversal or safely correctable lake/proportion mismatch warrants a geometry edit.",
     "edits": []
+  },
+  "artRulesVersion": "natural-greens-v3",
+  "artworkReview": {
+    "approved": true,
+    "edits": [],
+    "reviewer": "Codex visual inspection",
+    "scope": "Putting-green turf appearance only; existing layout retained.",
+    "reason": "Three flag positions and course routing retained. Dark inset discs removed; putting surfaces are single natural light greens with subtle fringe. Fairways, bunkers, water and paths retain their arrangement. Gameplay geometry unchanged."
   }
 }

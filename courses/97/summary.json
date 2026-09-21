@@ -1,7 +1,7 @@
 {
   "course": 97,
   "geometrySHA256": "d3de1bf98129be74721a113ddc63312e065fb8a4dc7e36114472908ca1b235f4",
-  "artworkSHA256": "8f897b2f9488da78b4d5602d8e6caab928a36eec4eb8aaf0a6ea20adc0296723",
+  "artworkSHA256": "4006d785ff3c0fe7fceeb8a246696810e79c2bfd1af06b15c2723e597096fac7",
   "holes": [
     {
       "bunkerCount": 5,
@@ -84,12 +84,12 @@
     "reason": "The artwork maps confidently left-to-right to numbered Holes 1, 2 and 3. The current geometry passes without edits.\n\nHole 1: The dry 332-yard par 4 has a pronounced rightward bend, collision trees inside the corner, three approach/fairway bunkers and two right-side greenside bunkers. The illustration preserves the wooded bend and right-side greenside sand, although it stretches the approach and redistributes the fairway bunkers. Those distortions do not justify changing the correctly placed greenside hazards. The geometry offers a meaningful choice between following the broad fairway around the corner and challenging the wooded shortcut; the small green demands a controlled approach.\n\nHole 2: The dry 217-yard par 3 matches the central illustration's separate elongated foreground landing area, substantial green and sand to both sides toward the back. The artwork brings some sand farther alongside the green but does not clearly reverse its placement. The open front and generous target support conservative distance control, while attacking the pin requires greater precision. This is primarily a long approach test rather than a route-choice hole.\n\nHole 3: The 472-yard par 5 retains its single substantial right-side lake, broad straight fairway and bilateral greenside bunker clusters. The illustration preserves the lake's long extent and its termination below the green. Fairway and green proportions are sufficiently consistent, allowing for perspective. Left-side placement offers safety from water, while pursuing greater distance along the shoreline can set up a two-shot attempt; the open green entrance preserves a sensible layup-and-approach alternative.\n\nThe short wooded par 4, long dry par 3 and reachable lakeside par 5 provide excellent within-round contrast. There is some resemblance to course 96's dry bending par 4 and shoreline par 5, but the opposite bend and lake sides, longer par 3 and changed sequence provide sufficient freshness. Simulated 2/1/2 shots to green and 54/51/70 safe tee options support fair difficulty without proving it; the previews also show usable landing space. No clear bunker-side reversal or safely correctable lake/proportion discrepancy warrants an edit.",
     "edits": []
   },
-  "artRulesVersion": "connected-landscape-v2",
+  "artRulesVersion": "natural-greens-v3",
   "artworkReview": {
     "approved": true,
     "edits": [],
-    "method": "Codex visual review against exact published geometry routing reference",
-    "generator": "built-in image_gen",
-    "reason": "Par 4 dogleg at left, short par 3 in the middle, long par 5 and adjacent lake at right. Three tees and three flagged greens in connected routing. Landscape framing, continuous grassy interior, selective groves, pure white exterior. Gameplay geometry remains byte-identical."
+    "reviewer": "Codex visual inspection",
+    "scope": "Putting-green turf appearance only; existing layout retained.",
+    "reason": "Three flag positions and course routing retained. Dark inset discs removed; putting surfaces are single natural light greens with subtle fringe. Fairways, bunkers, water and paths retain their arrangement. Gameplay geometry unchanged."
   }
 }

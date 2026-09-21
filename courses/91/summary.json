@@ -1,7 +1,7 @@
 {
   "course": 91,
   "geometrySHA256": "480f0163a22c58d9fe4b91c79a0703e8fa9f5e937ebada83f4900491bc2fc90f",
-  "artworkSHA256": "35af0cbe5616a4322171314f7bc23c2fd47f7cae45e82d3b069ae4c9f86c35a8",
+  "artworkSHA256": "149e73b8b4af8fb40683e54289c8409d8d4b1b3082e873bded4f2eba6e04d1c2",
   "holes": [
     {
       "bunkerCount": 4,
@@ -83,5 +83,13 @@
     },
     "reason": "Candidate 8 is publishable as-is. The artwork maps confidently left-to-right to the same holes as the numbered previews: Hole 1 is the no-water punchbowl par 3 with left-side bunkering, Hole 2 is the reachable par 5 with the long lake on the right, and Hole 3 is the cape par 4 with the long lake on the left. The lake extents and overall fairway/green proportions are close enough to the geometry, and I do not see a clear bunker-side contradiction that warrants a safe parameter change. Strategically, the set is strong: Hole 1 offers a sensible ground-based or direct play into a long punchbowl target, Hole 2 has a real safe-left versus aggressive-lake-side par-5 decision, and Hole 3 gives a classic cape choice with more water carry buying a shorter approach. Variety within the round is excellent with par 3/5/4 sequencing, one dry hole, then water right, then water left. With no recent published rounds supplied, across-days variety is also excellent. Difficulty is testing but fair: the hazards are meaningful, yet the simulated safe options remain solid on all three holes and the landing space is not unreasonably squeezed.",
     "edits": []
+  },
+  "artRulesVersion": "natural-greens-v3",
+  "artworkReview": {
+    "approved": true,
+    "edits": [],
+    "reviewer": "Codex visual inspection",
+    "scope": "Putting-green turf appearance only; existing layout retained.",
+    "reason": "Three flag positions and course routing retained. Dark inset discs removed; putting surfaces are single natural light greens with subtle fringe. Fairways, bunkers, water and paths retain their arrangement. Gameplay geometry unchanged."
   }
 }

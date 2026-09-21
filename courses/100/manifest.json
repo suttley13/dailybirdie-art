@@ -2,6 +2,6 @@
   "schemaVersion": 1,
   "course": 100,
   "geometrySHA256": "6f85d9923cf87676befe188cd51578f538c3f72a6bc23e48600a59dffdb1271b",
-  "artworkSHA256": "9a0b586a1b5f3f8e0f8c089408a196518aa387e89cc80833e8541059bf7f065e",
-  "artRulesVersion": "connected-landscape-v2"
+  "artworkSHA256": "7578ed128a306311efd5aa79f2da2d50fad20011aadc9a597955ad86010c80db",
+  "artRulesVersion": "natural-greens-v3"
 }

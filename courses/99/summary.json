@@ -1,7 +1,7 @@
 {
   "course": 99,
   "geometrySHA256": "fe416e5be46839b88c747f6a82df9c8aa2275ecee0f76ac0c29211bfa7947ab6",
-  "artworkSHA256": "dcb0b37e0fd35562c1e82c633c860dbd02e329e3816b6697d6a40ac9a981e9f6",
+  "artworkSHA256": "0e8ef9c54f59c76e3285d5d6b77e8043df4f8bebd9fa4c5e0cb1d002ca5c8763",
   "holes": [
     {
       "bunkerCount": 3,
@@ -84,12 +84,12 @@
     "reason": "The artwork maps confidently left-to-right to numbered Holes 1, 2 and 3. The current geometry passes without edits.\n\nHole 1: The 369-yard par 4 has one substantial left-side lake, a bending fairway and three right/back greenside bunkers. The illustration preserves these features, including the lake ending below the green. Fairway and green proportions are sufficiently consistent. Playing toward the right provides water avoidance, while more assertive shoreline-side placement trades safety for positioning. The generous landing corridor keeps that choice playable.\n\nHole 2: The dry 173-yard punchbowl par 3 matches the central illustration's left approach bunker and right/back greenside cluster. The artwork visually connects the approach to the green and reduces the target's relative prominence, but retains a generous target and the correct hazard sides. These differences do not warrant narrowing the fairway or enlarging the green. Conservative center-green play contrasts with attacking the left-positioned pin; this is principally a distance-control test rather than a route-choice hole.\n\nHole 3: The dry 496-yard dogleg-left par 5 is identifiable by its wooded leftward turn, two fairway bunkers and left-side greenside sand. The illustration softens the bend and enlarges the greenside bunker cluster, but clearly preserves its current left-side placement. The numbered geometry offers a broad route around the bend versus a more aggressive attempt through or over the wooded inside corner. Collision trees make the simulated two-shot reach evidence of opportunity, not guaranteed ease. Landing and target proportions remain playable.\n\nThe par-4/3/5 sequence, substantial shoreline, compact dry target and wooded dogleg provide excellent within-round contrast. Across-days novelty is more modest: the opening types recall course 92, and the punchbowl resembles course 96, but the longer dogleg-left par 5 and return to only one wet hole distinguish this round from the latest publication. Simulated 2/1/2 shots to green and 55/43/54 safe tee options support fair difficulty without proving it; the actual previews also show credible landing space. No clear bunker-side reversal or safely correctable lake or proportion discrepancy requires a geometry change.",
     "edits": []
   },
-  "artRulesVersion": "connected-landscape-v2",
+  "artRulesVersion": "natural-greens-v3",
   "artworkReview": {
     "approved": true,
     "edits": [],
-    "method": "Codex visual review against exact published geometry routing reference",
-    "generator": "built-in image_gen",
-    "reason": "Lake-side dogleg from lower-left to central green, short central par 3 to upper green, returning par 5 down right. Removed a spurious fourth tee in a targeted refinement. Landscape framing, continuous grassy interior, selective groves, pure white exterior. Gameplay geometry remains byte-identical."
+    "reviewer": "Codex visual inspection",
+    "scope": "Putting-green turf appearance only; existing layout retained.",
+    "reason": "Three flag positions and course routing retained. Dark inset discs removed; putting surfaces are single natural light greens with subtle fringe. Fairways, bunkers, water and paths retain their arrangement. Gameplay geometry unchanged."
   }
 }
