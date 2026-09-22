@@ -1,7 +1,85 @@
 {
   "schemaVersion": 1,
-  "generatedAt": 1790002866,
+  "generatedAt": 1790083165,
   "runs": [
+    {
+      "file": "1790083022-course-102-failed.json",
+      "course": 102,
+      "outcome": "failed",
+      "error": "Artwork reconciliation did not pass; nothing published",
+      "startedAt": 1790083022,
+      "seconds": 142.26,
+      "reviewModel": "gpt-6-astra",
+      "reviewEffort": "medium",
+      "imageModel": "gpt-image-2.5-sunburst",
+      "callCount": 5,
+      "totals": {
+        "review": {
+          "calls": 3,
+          "tokens": {
+            "input_tokens": 72576,
+            "input_cache_write_tokens": 72567,
+            "input_cached_tokens": 0,
+            "output_tokens": 2176,
+            "output_reasoning_tokens": 672,
+            "total_tokens": 74752
+          },
+          "unreported": 0
+        },
+        "image": {
+          "calls": 2,
+          "tokens": {
+            "input_tokens": 7956,
+            "input_image_tokens": 5736,
+            "input_text_tokens": 2220,
+            "output_tokens": 686,
+            "output_image_tokens": 686,
+            "output_text_tokens": 0,
+            "total_tokens": 8642
+          },
+          "unreported": 0
+        }
+      }
+    },
+    {
+      "file": "1790082865-course-101-failed.json",
+      "course": 101,
+      "outcome": "failed",
+      "error": "Artwork reconciliation did not pass; nothing published",
+      "startedAt": 1790082865,
+      "seconds": 157.16,
+      "reviewModel": "gpt-6-astra",
+      "reviewEffort": "medium",
+      "imageModel": "gpt-image-2.5-sunburst",
+      "callCount": 5,
+      "totals": {
+        "review": {
+          "calls": 3,
+          "tokens": {
+            "input_tokens": 74571,
+            "input_cache_write_tokens": 74562,
+            "input_cached_tokens": 0,
+            "output_tokens": 2429,
+            "output_reasoning_tokens": 920,
+            "total_tokens": 77000
+          },
+          "unreported": 0
+        },
+        "image": {
+          "calls": 2,
+          "tokens": {
+            "input_tokens": 7980,
+            "input_image_tokens": 5736,
+            "input_text_tokens": 2244,
+            "output_tokens": 686,
+            "output_image_tokens": 686,
+            "output_text_tokens": 0,
+            "total_tokens": 8666
+          },
+          "unreported": 0
+        }
+      }
+    },
     {
       "file": "1790002668-course-101-failed.json",
       "course": 101,

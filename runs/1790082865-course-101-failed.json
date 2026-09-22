@@ -1,0 +1,139 @@
+{
+  "schemaVersion": 1,
+  "course": 101,
+  "outcome": "failed",
+  "error": "Artwork reconciliation did not pass; nothing published",
+  "startedAt": 1790082865,
+  "seconds": 157.16,
+  "reviewModel": "gpt-6-astra",
+  "reviewEffort": "medium",
+  "imageModel": "gpt-image-2.5-sunburst",
+  "candidatesRequested": 50,
+  "calls": [
+    {
+      "phase": "selection",
+      "kind": "review",
+      "model": "gpt-6-astra",
+      "effort": "medium",
+      "responseID": "resp_06088ba815f923bd016ab27f41cc9887d19321c61ffe0811bd",
+      "usage": {
+        "input_tokens": 41327,
+        "input_tokens_details": {
+          "cache_write_tokens": 41324,
+          "cached_tokens": 0
+        },
+        "output_tokens": 934,
+        "output_tokens_details": {
+          "reasoning_tokens": 432
+        },
+        "total_tokens": 42261
+      },
+      "seconds": 39.68,
+      "imageCount": 8,
+      "approved": true,
+      "edits": [],
+      "scores": {
+        "strategy": 4,
+        "withinRoundVariety": 5,
+        "acrossDaysVariety": 4,
+        "fairDifficulty": 4
+      }
+    },
+    {
+      "phase": "artwork-0",
+      "kind": "image",
+      "model": "gpt-image-2.5-sunburst",
+      "usage": {
+        "input_tokens": 3990,
+        "input_tokens_details": {
+          "image_tokens": 2868,
+          "text_tokens": 1122
+        },
+        "output_tokens": 343,
+        "output_tokens_details": {
+          "image_tokens": 343,
+          "text_tokens": 0
+        },
+        "total_tokens": 4333
+      },
+      "seconds": 20.93
+    },
+    {
+      "phase": "reconcile-0-0",
+      "kind": "review",
+      "model": "gpt-6-astra",
+      "effort": "medium",
+      "responseID": "resp_0a2aed2a062829cf016ab27f7de32487d1b15f845779475b40",
+      "usage": {
+        "input_tokens": 16622,
+        "input_tokens_details": {
+          "cache_write_tokens": 16619,
+          "cached_tokens": 0
+        },
+        "output_tokens": 767,
+        "output_tokens_details": {
+          "reasoning_tokens": 249
+        },
+        "total_tokens": 17389
+      },
+      "seconds": 30.28,
+      "imageCount": 2,
+      "approved": false,
+      "edits": [],
+      "scores": {
+        "strategy": 4,
+        "withinRoundVariety": 5,
+        "acrossDaysVariety": 4,
+        "fairDifficulty": 4
+      }
+    },
+    {
+      "phase": "artwork-1",
+      "kind": "image",
+      "model": "gpt-image-2.5-sunburst",
+      "usage": {
+        "input_tokens": 3990,
+        "input_tokens_details": {
+          "image_tokens": 2868,
+          "text_tokens": 1122
+        },
+        "output_tokens": 343,
+        "output_tokens_details": {
+          "image_tokens": 343,
+          "text_tokens": 0
+        },
+        "total_tokens": 4333
+      },
+      "seconds": 21.03
+    },
+    {
+      "phase": "reconcile-1-0",
+      "kind": "review",
+      "model": "gpt-6-astra",
+      "effort": "medium",
+      "responseID": "resp_0e4e5b1ef48a1d36016ab27fb1aea487d18acd74679e099d72",
+      "usage": {
+        "input_tokens": 16622,
+        "input_tokens_details": {
+          "cache_write_tokens": 16619,
+          "cached_tokens": 0
+        },
+        "output_tokens": 728,
+        "output_tokens_details": {
+          "reasoning_tokens": 239
+        },
+        "total_tokens": 17350
+      },
+      "seconds": 29.28,
+      "imageCount": 2,
+      "approved": false,
+      "edits": [],
+      "scores": {
+        "strategy": 4,
+        "withinRoundVariety": 5,
+        "acrossDaysVariety": 4,
+        "fairDifficulty": 4
+      }
+    }
+  ]
+}
