@@ -1,0 +1,28 @@
+{
+  "responseID": "resp_08f6f0135c6bd401016ab3d58766c487d18b1f9eb11337f98a",
+  "model": "gpt-6-astra",
+  "usage": {
+    "input_tokens": 16709,
+    "input_tokens_details": {
+      "cache_write_tokens": 16706,
+      "cached_tokens": 0
+    },
+    "output_tokens": 786,
+    "output_tokens_details": {
+      "reasoning_tokens": 260
+    },
+    "total_tokens": 17495
+  },
+  "review": {
+    "candidate": 5,
+    "approved": true,
+    "scores": {
+      "strategy": 4,
+      "withinRoundVariety": 5,
+      "acrossDaysVariety": 4,
+      "fairDifficulty": 4
+    },
+    "reason": "Candidate 5 passes without edits. The artwork maps confidently to the connected routing: T1\u2013G1 is the upper dogleg, T2\u2013G2 the short descending hole, and T3\u2013G3 the long return toward the opposite end of the property.\n\nHole 1: The 393-yard dogleg preserves its substantial left-side lake, bent fairway and two right-side greenside bunkers. The artwork retains the shoreline extent and credible fairway-to-green proportions. Following the fairway offers a safer alternative to challenging the wooded inside corner. Explicit collision trees make the simulated one-shot reach an opportunity, not proof that the hole is trivial.\n\nHole 2: The 211-yard punchbowl has one right-side approach lake, a separate landing patch and a large green with bilateral back-side sand. These relationships remain recognizable in the illustration; the small bunker clusters are simplified without a clear side reversal. Its open green entrance and generous target provide a conservative alternative to a precise pin attack, though this remains primarily a long approach test.\n\nHole 3: The 590-yard return preserves the long left shoreline, three right-side fairway bunkers and bilateral back-side greenside sand. The illustration maintains the lake's substantial extent while leaving a usable landing corridor. Avoiding water brings the right-side sand into consideration, giving successive placement shots purpose rather than merely demanding distance.\n\nThe par-4/3/5 sequence, wooded shortcut, generous one-shot target and sustained shoreline placement test provide strong within-round contrast. Across-days novelty is sufficient but not exceptional: the final hole resembles course 100's wet three-shot par 5, while the longer water-adjacent punchbowl and opening dogleg distinguish this round. Safe-option counts of 56/45/65 support fair difficulty without replacing visual inspection.\n\nThe landscape artwork retains the compact irregular shared property, folded routing, nearby green-to-next-tee transitions and continuous interior grass. Groves leave grassy breaks rather than enclosing every lane. Putting surfaces are single natural light-green areas with restrained fringes, not nested discs or raised platforms. No clear hazard-side, lake-extent or proportion mismatch warrants a geometry change.",
+    "edits": []
+  }
+}

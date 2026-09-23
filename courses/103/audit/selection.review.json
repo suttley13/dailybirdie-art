@@ -1,0 +1,28 @@
+{
+  "responseID": "resp_02e10aeea042228d016ab3d55641c087d1a3c054d88afbbd05",
+  "model": "gpt-6-astra",
+  "usage": {
+    "input_tokens": 39961,
+    "input_tokens_details": {
+      "cache_write_tokens": 39958,
+      "cached_tokens": 0
+    },
+    "output_tokens": 746,
+    "output_tokens_details": {
+      "reasoning_tokens": 249
+    },
+    "total_tokens": 40707
+  },
+  "review": {
+    "candidate": 5,
+    "approved": true,
+    "scores": {
+      "strategy": 4,
+      "withinRoundVariety": 5,
+      "acrossDaysVariety": 4,
+      "fairDifficulty": 4
+    },
+    "reason": "Select candidate 5 without geometry edits.\n\nHole 1, T1\u2013G1: The 393-yard dogleg-right offers a substantial left-side lake outside the bend and collision trees inside the shortcut. Following the fairway provides a credible conservative route; cutting toward the green trades distance for tree risk and a smaller target with right-side sand. The simulated one-shot reach indicates an aggressive possibility, not a reliably easy hole.\n\nHole 2, T2\u2013G2: The 211-yard punchbowl par 3 has one right-side approach lake, a generous green and back-left/back-right greenside bunkers. The water does not surround the target: players can favor the open front and center rather than chase the pin. Its broad target fairly offsets the long tee shot, and its compact approach lake contrasts with the extended shorelines elsewhere.\n\nHole 3, T3\u2013G3: The 590-yard three-shot par 5 has a substantial lake along the left and three right-side fairway bunkers. Avoiding water therefore still requires thoughtful placement around sand. Usable landing width and an open green entrance support staged play, while bilateral back-of-green bunkers discourage overshooting.\n\nThe numbered preview shows a compact irregular shared property with folded out-and-back routing, varied orientations, close G1\u2013T2 and G2\u2013T3 connections, continuous interior grass and selective groves separated by grassy breaks. It avoids a triangular loop and three parallel lanes. The putting-green footprints are single surfaces without nested discs or rings.\n\nThe bending par 4, generous long par 3 and sustained shoreline par 5 provide excellent within-round contrast despite water on all three holes. Across-days variety is good rather than exceptional: the three-shot finale repeats course 100's broad theme, but the dogleg-right opener and longer non-island par 3 substantially change the experience. Simulated safe tee options of 56/45/65 and the visible landing areas support fair difficulty; the coarse search is supporting evidence, not proof.",
+    "edits": []
+  }
+}

@@ -1,0 +1,87 @@
+{
+  "course": 103,
+  "geometrySHA256": "afc06b09bdc911471e7a7a834203e30565ae1cc5b8b1f15702ee7bff1c13f671",
+  "artworkSHA256": "ed91239bc4fbdee2780d34c57a6ff9959cd4083142244e503a0dc49315eaa3a8",
+  "holes": [
+    {
+      "bunkerCount": 2,
+      "fairwayArea": 20335.556408507877,
+      "par": 4,
+      "route": [
+        [
+          120,
+          40
+        ],
+        [
+          286.5457053855681,
+          366.60298043318545
+        ]
+      ],
+      "simulatedShotsToGreen": 1,
+      "teeSafeOptions": 56,
+      "type": "doglegRight",
+      "waterArea": 12128.971633051538,
+      "yards": 393
+    },
+    {
+      "bunkerCount": 5,
+      "fairwayArea": 7953.554324047203,
+      "par": 3,
+      "route": [
+        [
+          200,
+          40
+        ],
+        [
+          199.40768480610868,
+          282.9157886909191
+        ]
+      ],
+      "simulatedShotsToGreen": 1,
+      "teeSafeOptions": 45,
+      "type": "punchbowlGreen",
+      "waterArea": 5545.648223847556,
+      "yards": 211
+    },
+    {
+      "bunkerCount": 8,
+      "fairwayArea": 41707.42533621109,
+      "par": 5,
+      "route": [
+        [
+          200,
+          40
+        ],
+        [
+          200.32440319425365,
+          424.26622119859405
+        ],
+        [
+          200.57921795000573,
+          708.6474676787277
+        ],
+        [
+          200.7048899187039,
+          745.021134506632
+        ]
+      ],
+      "simulatedShotsToGreen": 3,
+      "teeSafeOptions": 65,
+      "type": "threeShotPar5",
+      "waterArea": 30596.240176458377,
+      "yards": 590
+    }
+  ],
+  "review": {
+    "candidate": 5,
+    "approved": true,
+    "scores": {
+      "strategy": 4,
+      "withinRoundVariety": 5,
+      "acrossDaysVariety": 4,
+      "fairDifficulty": 4
+    },
+    "reason": "Candidate 5 passes without edits. The artwork maps confidently to the connected numbered routing, rather than page order.\n\nHole 1, the 393-yard dogleg-right par 4, runs from the central tee through the upper bending fairway to G1 near T2. Its substantial left-side lake and two right-side greenside bunkers are preserved. Following the fairway offers a credible conservative route; challenging the wooded inside corner offers a shorter attack. The simulated one-shot reach is an opportunity, not proof that the shortcut is reliably safe.\n\nHole 2, the 211-yard punchbowl par 3, plays down the property's right-hand portion to G2 near T3. Both images retain one right-side approach lake, a separate elongated landing area, the larger green and back-side bunker groups on both sides. The artwork simplifies the bunker clusters without reversing their placement. This is chiefly a distance-control test, with a generous central target contrasting with a more demanding pin attack.\n\nHole 3, the 590-yard three-shot par 5, returns across the lower property toward the upper-left G3. The illustration preserves its long left-side lake, three right-side fairway bunkers and bilateral back-side greenside sand. Playing away from water brings the fairway bunkers into consideration, giving successive layups meaningful placement decisions. The shoreline remains substantial without consuming the playable corridor.\n\nLake extents and relative fairway and green proportions are sufficiently faithful. The 5:3 landscape artwork retains the compact irregular shared property, folded routing, short green-to-next-tee connections and continuous interior grass. Although tree cover is fuller than the collision-dot preview, grassy breaks remain and the composition does not become three isolated strips. Each green reads as a single apple-green putting surface with a restrained fringe, not a nested target or raised platform.\n\nThe bending par 4, long par 3 and extended shoreline par 5 provide strong within-round contrast. Across-days novelty is more modest: the wet three-shot finale resembles course 100, and punchbowl greens recur. Nevertheless, the longer non-island par 3, changed opening hole and water on all three holes sufficiently distinguish this round. The 56/45/65 safe tee options and simulated 1/1/3 shots to green support fair difficulty; the actual preview also shows usable landing areas. No clear hazard-side or proportion mismatch warrants a geometry change.",
+    "edits": []
+  }
+}
