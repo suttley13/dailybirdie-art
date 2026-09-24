@@ -1,0 +1,28 @@
+{
+  "responseID": "resp_029052d13f49254b016ab525981ab487d283ed8844d5b03eda",
+  "model": "gpt-6-astra",
+  "usage": {
+    "input_tokens": 16382,
+    "input_tokens_details": {
+      "cache_write_tokens": 16379,
+      "cached_tokens": 0
+    },
+    "output_tokens": 866,
+    "output_tokens_details": {
+      "reasoning_tokens": 319
+    },
+    "total_tokens": 17248
+  },
+  "review": {
+    "candidate": 25,
+    "approved": true,
+    "scores": {
+      "strategy": 4,
+      "withinRoundVariety": 5,
+      "acrossDaysVariety": 4,
+      "fairDifficulty": 4
+    },
+    "reason": "The current geometry passes, and the artwork maps confidently to the labeled connected routing rather than page order. No clear hazard-side or proportion mismatch warrants an edit.\n\nHole 1, T1\u2013G1: The dry 553-yard dogleg-right par 5 follows the long lower fairway before turning toward G1 near T2. The artwork retains both fairway bunkers and the small back-left greenside pair. Its broad landing area supports staged placement, while challenging the wooded inside of the bend offers a more aggressive route. The illustrated fairway and green remain reasonably proportioned to the preview.\n\nHole 2, T2\u2013G2: The dry 329-yard par 4 returns through the upper bending fairway to G2 near T3. The three larger fairway bunkers and two small bunkers beyond the green remain recognizable without a clear side reversal. Following the fairway offers a conservative alternative to challenging the collision-tree shortcut. The simulated one-shot reach indicates an opportunity, not an unobstructed drive.\n\nHole 3, T3\u2013G3: The 227-yard par 3 follows the elongated landing area toward the property\u2019s left-hand end. Its one substantial left-side lake, approach bunker and three back-left greenside bunkers are preserved. The lake\u2019s shoreline and extent closely track the preview; it is not an island hole or a compulsory full-water carry. The available landing space permits conservative staging, contrasting with a direct green attack.\n\nThe long dry dogleg, short risk-reward par 4 and lakeside long par 3 provide excellent within-round contrast. The latter two types appeared in course 97, but the changed sequence, longer par 5 and relocation of water to the par 3 provide sufficient freshness against recent rounds. Safe-option counts of 61/41/53 and simulated 2/1/1 shots support fair difficulty, alongside the visibly usable landing areas; they do not prove it.\n\nThe artwork preserves the compact irregular shared property, folded routing, varied orientations and continuous interior grass on a 5:3 landscape canvas. Groves retain grassy breaks rather than forming walls between every hole. Each putting green reads as a single natural light-green surface with a restrained fringe, without inset discs, broad collars or raised platforms.",
+    "edits": []
+  }
+}

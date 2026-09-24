@@ -1,0 +1,83 @@
+{
+  "course": 102,
+  "geometrySHA256": "58bc9f67ca7d8b0c1913748b7cbee97d97457a53b19662377f898c9bf9ff8b04",
+  "artworkSHA256": "8973cb0f1f048e9a100232374dee801be13f9222bf3d0523f655f1132b3f1bc6",
+  "holes": [
+    {
+      "bunkerCount": 4,
+      "fairwayArea": 33219.70233744694,
+      "par": 5,
+      "route": [
+        [
+          120,
+          40
+        ],
+        [
+          150.7731902883401,
+          384.107329451097
+        ],
+        [
+          280.16738811980747,
+          518.1840489350737
+        ]
+      ],
+      "simulatedShotsToGreen": 2,
+      "teeSafeOptions": 61,
+      "type": "doglegRight",
+      "waterArea": 0,
+      "yards": 553
+    },
+    {
+      "bunkerCount": 5,
+      "fairwayArea": 13015.24451531466,
+      "par": 4,
+      "route": [
+        [
+          200,
+          40
+        ],
+        [
+          38.21438205992168,
+          312.5482382798527
+        ]
+      ],
+      "simulatedShotsToGreen": 1,
+      "teeSafeOptions": 41,
+      "type": "riskRewardPar4",
+      "waterArea": 0,
+      "yards": 329
+    },
+    {
+      "bunkerCount": 4,
+      "fairwayArea": 10794.558654559401,
+      "par": 3,
+      "route": [
+        [
+          200,
+          40
+        ],
+        [
+          223.94366232616625,
+          305.4437111004048
+        ]
+      ],
+      "simulatedShotsToGreen": 1,
+      "teeSafeOptions": 53,
+      "type": "longPar3",
+      "waterArea": 6661.0880920073505,
+      "yards": 227
+    }
+  ],
+  "review": {
+    "candidate": 25,
+    "approved": true,
+    "scores": {
+      "strategy": 4,
+      "withinRoundVariety": 5,
+      "acrossDaysVariety": 4,
+      "fairDifficulty": 4
+    },
+    "reason": "Candidate 25 passes without geometry edits. The artwork maps confidently to the labeled connected routing, rather than to a left-to-right hole order.\n\nHole 1 is the 553-yard dry par 5 sweeping across the lower property from T1 to G1. Its broad landing area supports staged play, while challenging the wooded inside of the rightward bend offers a shorter route with meaningful tree and sand risk. The illustration retains the two fairway bunkers and small back-left greenside pair, judged relative to play, with credible fairway and green proportions.\n\nHole 2 is the 329-yard dry par 4 returning through the upper-right bend toward G2. Following the fairway provides a safer placement route; attacking directly toward the green challenges the interior collision-tree grove. The artwork preserves the three larger fairway bunkers and two small bunkers behind the green without a clear side reversal. The simulated one-shot reach indicates opportunity, not an unrestricted shortcut.\n\nHole 3 is the 227-yard par 3 from T3 toward G3 along the western side. Geometry lists one substantial lake, and the artwork faithfully retains its broad extent along the left side of play. The elongated landing area provides a conservative staging option, whereas the direct green attempt demands distance control. The approach bunker and three back-left greenside bunkers remain recognizable. This is a long approach test, but not an island-style forced carry.\n\nThe illustration preserves the compact irregular 5:3 property, folded routing, nearby green-to-next-tee connections and continuous interior grass. Groves are fuller than the collision-dot preview but retain grassy breaks rather than creating continuous lane walls. Putting surfaces remain single natural light greens with restrained fringes, not nested discs or broad collars.\n\nThe par-5/4/3 sequence, wooded attacking lines and lakeside finish provide excellent within-round contrast. The risk-reward par 4 and long par 3 repeat types from course 97, limiting novelty, but the longer dry dogleg opener and relocation of water to the finishing par 3 sufficiently distinguish this round. Safe tee-option counts of 61/41/53 support fair difficulty; the visible landing spaces independently remain credible. No clear hazard-side or proportion mismatch warrants an edit.",
+    "edits": []
+  }
+}

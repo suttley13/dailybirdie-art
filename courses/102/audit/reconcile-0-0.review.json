@@ -1,0 +1,28 @@
+{
+  "responseID": "resp_082a3603927259ca016ab5256781ac87d288a94a18c2d96eb8",
+  "model": "gpt-6-astra",
+  "usage": {
+    "input_tokens": 16382,
+    "input_tokens_details": {
+      "cache_write_tokens": 16379,
+      "cached_tokens": 0
+    },
+    "output_tokens": 727,
+    "output_tokens_details": {
+      "reasoning_tokens": 179
+    },
+    "total_tokens": 17109
+  },
+  "review": {
+    "candidate": 25,
+    "approved": false,
+    "scores": {
+      "strategy": 4,
+      "withinRoundVariety": 5,
+      "acrossDaysVariety": 4,
+      "fairDifficulty": 4
+    },
+    "reason": "The current geometry is strong, but the artwork needs regeneration rather than geometry changes.\n\nHole 1, the 553-yard dry par 5, follows T1 through the broad lower dogleg to G1 near T2. Its generous placement route contrasts with an aggressive line toward the bend, where collision trees and sand matter. The artwork preserves the fairway shape and two larger fairway bunkers, but renders G1 as a tee-like pad with a white marker rather than a flag-bearing putting green. Its two small greenside bunkers are also missing, with trees occupying that vicinity. Restore the mapped green footprint, pin and bunker cluster; clearly distinguish G1 from T2 and their connecting walk.\n\nHole 2, the 329-yard dry par 4, returns through the upper hooked fairway to central G2. The geometry supports laying up versus attempting the green, with approach sand and trees qualifying the simulated one-shot reach. The artwork retains the three larger bunkers and the small back-of-green cluster, without a clear side reversal. Its fairway and green proportions are reasonably faithful.\n\nHole 3, the 227-yard par 3, runs from upper T3 toward G3 beside the western property edge. It has one substantial lake on the left relative to play, not an island green. The artwork preserves that shoreline, the elongated landing area, approach bunker and greenside sand. The dry side provides a conservative miss while the long shot demands distance control.\n\nThe compact shared grassy property, folded routing, varied orientations and exterior-only white largely meet the composition requirements. Retain these strengths, but ensure all three greens are single natural sage/apple-green surfaces with only narrow, low-contrast fringes\u2014not outlined rims\u2014and show all three mapped flags and tees clearly.\n\nThe par-5/4/3 sequence and two dry holes followed by a lakeside long par 3 provide excellent within-round contrast. Some types repeat earlier rounds, especially course 97, but the longer dry dogleg and non-island water placement distinguish this set from the latest publications. Safe-option counts of 61/41/53 support fair difficulty without proving it. No safe parameter adjustment would fix the missing flag, tee/green confusion or omitted bunker artwork; regenerate the illustration against the unchanged geometry.",
+    "edits": []
+  }
+}

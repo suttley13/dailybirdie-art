@@ -1,0 +1,28 @@
+{
+  "responseID": "resp_09da2c78eaa4abb9016ab5253688d887d2b2fb9a5d76dd2dec",
+  "model": "gpt-6-astra",
+  "usage": {
+    "input_tokens": 39812,
+    "input_tokens_details": {
+      "cache_write_tokens": 39809,
+      "cached_tokens": 0
+    },
+    "output_tokens": 678,
+    "output_tokens_details": {
+      "reasoning_tokens": 199
+    },
+    "total_tokens": 40490
+  },
+  "review": {
+    "candidate": 25,
+    "approved": true,
+    "scores": {
+      "strategy": 4,
+      "withinRoundVariety": 5,
+      "acrossDaysVariety": 4,
+      "fairDifficulty": 4
+    },
+    "reason": "Select candidate 25 without geometry edits.\n\nHole 1: Following T1 to G1, the dry 553-yard dogleg-right has a generous initial landing corridor followed by a more demanding turn and approach. Fairway bunkers constrain distance chasing, while collision trees make the direct shortcut materially riskier than following the fairway. The two-shot simulation indicates an opportunity, not an automatic result.\n\nHole 2: T2 to G2 is the dry 329-yard par 4 folding back through the upper portion of the property. Its fairway bends around an inside grove, creating a credible placement route versus an aggressive direct attempt. Larger approach bunkers and the relatively compact green give the attacking option consequences. The simulated one-shot reach supports its risk/reward role.\n\nHole 3: T3 to G3 supplies a contrasting 227-yard approach test. Its single substantial lake lies left of play beside the foreground landing area; it does not surround the green. Favoring the dry right side provides a conservative staging option, while a direct green attack demands carry and distance control. Approach sand and back-side greenside bunkers discourage careless misses without closing the target entrance.\n\nThe numbered preview shows a compact, irregular shared property with folded routing, varied orientations, connected green-to-next-tee transitions and continuous interior grass. Groves have grassy breaks rather than forming uninterrupted walls between every hole. The putting surfaces are single unringed shapes.\n\nThe par-5/4/3 sequence and two dry holes followed by a lakeside long par 3 give excellent internal contrast. The par-4 and par-3 types recall course 97, but their changed hazard allocation, the longer bending par 5, and omission of the latest round's split fairway and island green provide sufficient freshness. Safe-option counts of 61/41/53 support fair difficulty alongside the visible landing space. Approval covers the supplied selection geometry; generated artwork still requires review.",
+    "edits": []
+  }
+}
