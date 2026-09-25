@@ -1,0 +1,28 @@
+{
+  "responseID": "resp_079df719323f0f6a016ab65e3dbc4c87d2a6680823080d3569",
+  "model": "gpt-6-astra",
+  "usage": {
+    "input_tokens": 20130,
+    "input_tokens_details": {
+      "cache_write_tokens": 20127,
+      "cached_tokens": 0
+    },
+    "output_tokens": 808,
+    "output_tokens_details": {
+      "reasoning_tokens": 215
+    },
+    "total_tokens": 20938
+  },
+  "review": {
+    "candidate": 22,
+    "approved": true,
+    "scores": {
+      "strategy": 4,
+      "withinRoundVariety": 5,
+      "acrossDaysVariety": 4,
+      "fairDifficulty": 4
+    },
+    "reason": "Candidate 22 passes as supplied. The artwork maps confidently to the numbered connected routing, and no clear hazard-side or proportion mismatch warrants a geometry change.\n\nHole 1: The 200-yard par 3 plays from T1 beside the central grove toward the island G1 near T2. The artwork preserves the surrounding lake, separate foreground landing patch and two approach bunkers on the player's right. The green-to-lake proportions remain credible. This is principally a carry-and-distance-control test: center-green play offers more margin than a precise pin attack. The foreground patch provides staging space, not a dry route onto the green.\n\nHole 2: The 592-yard par 5 follows the upper shoreline from T2 toward G2 beside the connection to T3. Its substantial left-side lake extends along almost the entire fairway in both views. The left approach bunker and small back-right greenside pair remain recognizable, although the illustration visually consolidates the pair. The broad landing corridor supports controlled three-shot play away from water; shoreline-side positioning accepts greater exposure. Fairway width, lake extent and green proportions remain sufficiently faithful.\n\nHole 3: The 308-yard par 4 returns from T3 through the bending lower fairway toward G3. Its substantial left-side lake and three right/back greenside bunkers are retained. Following the fairway offers a conservative placement route, while a direct green attempt must manage water, nearby collision trees and target control. The simulated one-shot reach demonstrates an attacking opportunity, not guaranteed safety. The illustration preserves the lake's termination short of the green and a usable landing corridor.\n\nThe island carry, long staged shoreline hole and short attacking par 4 provide excellent within-round contrast despite water on every hole. Across-days novelty is good rather than exceptional: island greens and wet three-shot par 5s recur in the history, but the changed sequence and return of a short wet par 4 distinguish this round from the latest publications. Safe tee-option counts of 30/40/52 and simulated 1/3/1 shots to green support fair difficulty; the actual preview also shows credible targets and landing space.\n\nThe artwork retains the 5:3 landscape canvas, compact irregular shared property, folded routing and nearby green-to-next-tee connections. Selective groves leave grassy breaks, with continuous interior grass and white confined to the exterior. Greens read as single natural apple-green putting surfaces with narrow, restrained fringes rather than nested discs or broad collars. No edits are needed.",
+    "edits": []
+  }
+}

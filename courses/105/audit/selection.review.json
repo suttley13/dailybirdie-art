@@ -1,0 +1,28 @@
+{
+  "responseID": "resp_0f92174b6a6efacf016ab65e125afc87d29ac4ac648870073e",
+  "model": "gpt-6-astra",
+  "usage": {
+    "input_tokens": 43594,
+    "input_tokens_details": {
+      "cache_write_tokens": 43591,
+      "cached_tokens": 0
+    },
+    "output_tokens": 784,
+    "output_tokens_details": {
+      "reasoning_tokens": 261
+    },
+    "total_tokens": 44378
+  },
+  "review": {
+    "candidate": 22,
+    "approved": true,
+    "scores": {
+      "strategy": 4,
+      "withinRoundVariety": 5,
+      "acrossDaysVariety": 4,
+      "fairDifficulty": 4
+    },
+    "reason": "Select candidate 22 without geometry edits. The numbered preview shows a compact, folded routing with usable landing areas and three distinct decisions.\n\nHole 1 \u2014 200-yard island par 3: T1 plays toward the isolated G1 beside T2. Geometry confirms one surrounding lake and two bunkers on the separate foreground landing area. The substantial lake makes distance control consequential. Center-green play is the conservative option; the foreground patch offers staging, not a dry route onto the green. Thirty simulated safe tee options support playability, although this remains a demanding opening carry.\n\nHole 2 \u2014 592-yard three-shot par 5: T2 plays across the upper property toward G2. One substantial left-side shoreline extends along almost the entire fairway while preserving a continuous dry corridor to its right. Successive shots require controlled placement rather than simply maximum distance. The left approach bunker and right/back greenside pair add a distinct final approach decision. The visible landing space and simulated three-shot route support fair difficulty.\n\nHole 3 \u2014 308-yard double-dogleg par 4: T3 returns toward G3 through the lower bending fairway. Its single left-side lake creates a genuine choice between following the dry fairway around the bend and challenging more water on a direct green attempt. Right/back greenside sand complicates the water-avoidance side. The simulated one-shot reach establishes attacking potential, not guaranteed safety; the fairway provides a credible two-shot alternative.\n\nThe island carry, extended shoreline placement hole and potentially drivable bending finish provide excellent within-round contrast. Against recent publications, the three-shot shoreline theme is familiar, but the island opener returns after four rounds without one, and the short wet par 4 differs substantially from course 104's dry split fairway. Across-days variety is sufficient rather than exceptional.\n\nThe 5:3 preview retains continuous interior grass, selective groves with ample breaks, varied orientations and nearby G1\u2013T2 and G2\u2013T3 connections. It avoids parallel isolated strips and forest padding. Approval covers the supplied selection geometry; generated artwork must still be reviewed for faithful hazards, proportions and single-surface natural greens.",
+    "edits": []
+  }
+}
