@@ -1,0 +1,28 @@
+{
+  "responseID": "resp_087104cc238132b6016ab65d6f077087d28449309f6aaab8a2",
+  "model": "gpt-6-astra",
+  "usage": {
+    "input_tokens": 19619,
+    "input_tokens_details": {
+      "cache_write_tokens": 19616,
+      "cached_tokens": 0
+    },
+    "output_tokens": 770,
+    "output_tokens_details": {
+      "reasoning_tokens": 238
+    },
+    "total_tokens": 20389
+  },
+  "review": {
+    "candidate": 44,
+    "approved": false,
+    "scores": {
+      "strategy": 4,
+      "withinRoundVariety": 5,
+      "acrossDaysVariety": 4,
+      "fairDifficulty": 4
+    },
+    "reason": "The current geometry is strategically publishable, but the artwork needs regeneration to remove an invented greenside hazard. No geometry changes are warranted.\n\nHole 1 is the 574-yard par 5 running from T1 across the lower property to G1 beside T2. The substantial right-side lake, two left-side fairway bunkers and back-right greenside cluster are recognizable. The broad landing corridor permits conservative placement away from water, while the left-side sand complicates that safe route. However, the artwork adds a separate back-left bunker beside G1, near the connection to T2. Geometry lists only three back-right greenside bunkers, already represented on the opposite side. Changing bunkerSide would move the correct cluster rather than safely resolve this extra hazard; remove the invented bunker from the rendering.\n\nHole 2 is the dry 305-yard par 4 returning from T2 through the broad split fairway to G2 near T3. The central collision-tree island, fairway bunker and bilateral rear greenside sand map well. Choosing a clear lane offers controlled placement, while a direct green attempt accepts tree and greenside-sand risk. The simulated one-shot reach indicates an opportunity, not guaranteed safe passage.\n\nHole 3 is the dry 149-yard par 3 from T3 toward G3, identifiable by its separate foreground landing patch and large punchbowl target. The illustration retains the green's footprint, flag position and bilateral rear bunkering. Its open front and generous target provide a conservative alternative to attacking the pin.\n\nThe three-shot shoreline opener, drivable split-route par 4 and short dry finish provide excellent within-round contrast. These types recur in recent history, but the shorter split fairway, reduced water exposure and much shorter punchbowl distinguish this round sufficiently. Safe-option counts of 59/121/44 support fair difficulty, and the preview independently shows credible landing space.\n\nThe artwork otherwise follows the 5:3 landscape direction: compact irregular shared property, folded routing, nearby green-to-next-tee connections, selective groves and continuous interior grass. Greens read as single natural light-green surfaces with narrow fringes. Preserve these features and the supplied geometry when regenerating the artwork.",
+    "edits": []
+  }
+}

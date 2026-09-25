@@ -1,0 +1,88 @@
+{
+  "course": 104,
+  "geometrySHA256": "1323956dd787d785b7f31384f95ec3b0f7a4de0569b47aa7dc0103fac5f54fd8",
+  "artworkSHA256": "050d98e9741a8eb91f350f97e7623b99972fa6b26bdd409b2eca39bd0b7c0d92",
+  "holes": [
+    {
+      "bunkerCount": 5,
+      "fairwayArea": 39274.56623520273,
+      "par": 5,
+      "route": [
+        [
+          200,
+          40
+        ],
+        [
+          166.75605649766717,
+          401.633877008285
+        ],
+        [
+          212.83536246117507,
+          658.8641082820945
+        ],
+        [
+          198.96623079990474,
+          726.5287492425562
+        ]
+      ],
+      "simulatedShotsToGreen": 3,
+      "teeSafeOptions": 59,
+      "type": "uphillGrinder",
+      "waterArea": 36364.6309280601,
+      "yards": 574
+    },
+    {
+      "bunkerCount": 6,
+      "fairwayArea": 42154.15450298647,
+      "par": 4,
+      "route": [
+        [
+          200,
+          40
+        ],
+        [
+          197.7298584546716,
+          395.6720178434107
+        ]
+      ],
+      "simulatedShotsToGreen": 1,
+      "teeSafeOptions": 121,
+      "type": "splitFairway",
+      "waterArea": 0,
+      "yards": 305
+    },
+    {
+      "bunkerCount": 6,
+      "fairwayArea": 4479.661658375262,
+      "par": 3,
+      "route": [
+        [
+          200,
+          40
+        ],
+        [
+          189.8249183050698,
+          221.14902506512027
+        ]
+      ],
+      "simulatedShotsToGreen": 1,
+      "teeSafeOptions": 44,
+      "type": "punchbowlGreen",
+      "waterArea": 0,
+      "yards": 149
+    }
+  ],
+  "review": {
+    "candidate": 44,
+    "approved": true,
+    "scores": {
+      "strategy": 4,
+      "withinRoundVariety": 5,
+      "acrossDaysVariety": 4,
+      "fairDifficulty": 4
+    },
+    "reason": "Candidate 44 passes as supplied. The artwork maps confidently to the numbered connected routing and preserves the important hazard relationships without requiring geometry changes.\n\nHole 1: The 574-yard uphill par 5 runs from T1 across the lower property to G1 beside T2. Its single substantial lake remains on the player's right, extending along nearly the whole fairway. The two left-side fairway bunkers and back-right greenside cluster are retained. The generous landing corridor supports conservative three-shot play away from water, but the left-side sand complicates simply favoring that side on every shot. The illustration preserves the shoreline extent and credible fairway-to-green proportions.\n\nHole 2: The dry 305-yard split-fairway par 4 returns from T2 through the broad upper fairway toward G2 near T3. The central collision-tree island, its fairway bunker and alternative landing lanes are clearly recognizable in the artwork. Choosing a lane offers a controlled placement route, while attacking the green directly introduces tree and target-control risk. Greenside sand remains on both sides toward the back. The illustration consolidates some small bunker shapes without a clear side reversal. Its simulated one-shot reach indicates an attacking opportunity, not an automatically safe drive.\n\nHole 3: The dry 149-yard punchbowl par 3 plays from T3 down toward G3, passing the separate foreground landing patch. Its relatively large green and bilateral back-side bunker groups are faithfully retained. The open entrance and generous central target provide a conservative alternative to a precise pin attack. This is principally a short distance-control test, appropriately contrasting with the two longer holes.\n\nThe long shoreline par 5, short split-route par 4 and compact dry par 3 provide excellent within-round variety. Across-days novelty is sufficient rather than exceptional: all three types have appeared before, but the much shorter, dry punchbowl contrasts with course 103's wet 211-yard version, and the drivable split fairway differs materially from course 100's 429-yard hole. Safe tee-option counts of 59/121/44 and simulated 3/1/1 shots to green support fair difficulty; the visible landing spaces independently remain usable.\n\nThe 5:3 landscape artwork retains a compact irregular shared property, folded out-and-back routing, varied orientations and short green-to-next-tee connections. Selective groves leave grassy breaks, with continuous interior grass and white confined to the exterior. Each putting green reads as one natural apple-green surface with a narrow, restrained fringe, not a nested disc or raised platform. No clear hazard-side, lake-extent or proportion mismatch warrants an edit.",
+    "edits": []
+  },
+  "artworkStatus": "approved"
+}

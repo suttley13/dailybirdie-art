@@ -1,0 +1,28 @@
+{
+  "responseID": "resp_046a47faf98ab331016ab65d97de7887d29bda5b049f42d248",
+  "model": "gpt-6-astra",
+  "usage": {
+    "input_tokens": 19619,
+    "input_tokens_details": {
+      "cache_write_tokens": 19616,
+      "cached_tokens": 0
+    },
+    "output_tokens": 698,
+    "output_tokens_details": {
+      "reasoning_tokens": 124
+    },
+    "total_tokens": 20317
+  },
+  "review": {
+    "candidate": 44,
+    "approved": true,
+    "scores": {
+      "strategy": 4,
+      "withinRoundVariety": 5,
+      "acrossDaysVariety": 4,
+      "fairDifficulty": 4
+    },
+    "reason": "Candidate 44 passes as supplied. The artwork maps confidently to the labeled connected routing and preserves the defining geometry of each hole.\n\nHole 1: The 574-yard par 5 runs across the lower property from T1 to G1 beside T2. Its single substantial right-side lake extends along nearly the entire fairway. The illustration preserves that shoreline, the two left-side fairway bunkers and the back-right greenside cluster. The broad landing corridor supports conservative staged play away from water, but the opposing fairway sand prevents that choice from being consequence-free. Fairway and green proportions remain faithful.\n\nHole 2: The dry 305-yard par 4 returns from T2 through the broad split fairway toward G2 near T3. The illustrated central tree island and its bunker retain the meaningful choice between alternative landing lanes and an aggressive direct attack. Greenside sand remains on both sides toward the back; small clusters are simplified without a clear side reversal. The simulated one-shot reach indicates an attacking opportunity, not a guaranteed clear route through the collision trees.\n\nHole 3: The dry 149-yard par 3 plays from T3 toward the larger G3, with a separate foreground landing patch. The illustration preserves the generous target and bilateral back-side bunker groups. Its open entrance allows conservative center-green play, contrasting with a more precise pin attack. This is a short distance-control test rather than another shoreline or split-route hole.\n\nThe three-shot shoreline opener, drivable split-fairway par 4 and short dry par 3 provide excellent within-round contrast. Across-days variety is good rather than exceptional: punchbowl greens and wet three-shot par 5s recur in the history, but the much shorter dry finish, return of the split route and reduced water emphasis distinguish this round from course 103. Safe tee-option counts of 59/121/44 and simulated 3/1/1 shots to green support fair difficulty; the visible landing spaces independently remain credible.\n\nThe artwork retains a 5:3 landscape canvas, compact irregular shared property, folded out-and-back routing and nearby green-to-next-tee connections. Selective groves leave grassy breaks and continuous interior grass, with white only outside. Each putting green reads as one natural light apple-green surface with a narrow restrained fringe, without nested discs or broad collars. No clear hazard-side, lake-extent or proportion mismatch warrants an edit.",
+    "edits": []
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "responseID": "resp_07399adf034bd3cb016ab65d48a0f887d2bc64b8e77c59acc8",
+  "model": "gpt-6-astra",
+  "usage": {
+    "input_tokens": 44186,
+    "input_tokens_details": {
+      "cache_write_tokens": 44183,
+      "cached_tokens": 0
+    },
+    "output_tokens": 668,
+    "output_tokens_details": {
+      "reasoning_tokens": 181
+    },
+    "total_tokens": 44854
+  },
+  "review": {
+    "candidate": 44,
+    "approved": true,
+    "scores": {
+      "strategy": 4,
+      "withinRoundVariety": 5,
+      "acrossDaysVariety": 4,
+      "fairDifficulty": 4
+    },
+    "reason": "Select candidate 44 without geometry edits. The numbered preview shows three distinct, playable holes within a compact folded routing.\n\nHole 1: The 574-yard par 5 runs across the lower property from T1 to G1. Its substantial right-side lake creates sustained placement pressure, while two left-side fairway bunkers complicate simply aiming away from water. The fairway retains ample staging space, and the lake does not block the green entrance. Right/back greenside sand rewards a controlled final approach rather than indiscriminate distance chasing.\n\nHole 2: The dry 305-yard split-fairway par 4 returns from T2 through the upper property toward G2. The visible central tree-and-sand divider gives the alternative lanes a genuine purpose. Conservative placement around it competes with a more direct green attack; the relatively small target and greenside sand constrain that attack. The simulated one-shot reach indicates an opportunity, not guaranteed safety.\n\nHole 3: The dry 149-yard punchbowl par 3 plays from T3 toward the larger G3. Its separate foreground landing patch, open green entrance and bilateral rear bunkering provide a forgiving distance-control finish. Center-green play offers more margin than attacking the pin.\n\nThe long shoreline par 5, short split-route par 4 and compact dry par 3 provide excellent contrast. Against recent publications, the punchbowl repeats, but its much shorter distance and dry setting differ substantially from course 103. The split fairway and return of the uphill-grinder type add sufficient freshness.\n\nSimulated 3/1/1 shots to green and 59/121/44 safe tee options support fair difficulty; the visible landing spaces independently look credible. The 5:3 preview has varied orientations, nearby G1\u2013T2 and G2\u2013T3 connections, selective trees and continuous interior grass rather than isolated parallel strips. This approves the supplied geometry; generated artwork still requires a separate fidelity and natural-green review.",
+    "edits": []
+  }
+}
