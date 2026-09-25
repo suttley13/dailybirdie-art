@@ -1,0 +1,28 @@
+{
+  "responseID": "resp_04e7e3c919131b96016ab65bb525e887d1ab4d23c04bc7b145",
+  "model": "gpt-6-astra",
+  "usage": {
+    "input_tokens": 16865,
+    "input_tokens_details": {
+      "cache_write_tokens": 16862,
+      "cached_tokens": 0
+    },
+    "output_tokens": 776,
+    "output_tokens_details": {
+      "reasoning_tokens": 225
+    },
+    "total_tokens": 17641
+  },
+  "review": {
+    "candidate": 34,
+    "approved": false,
+    "scores": {
+      "strategy": 4,
+      "withinRoundVariety": 4,
+      "acrossDaysVariety": 4,
+      "fairDifficulty": 4
+    },
+    "reason": "The current geometry is strategically acceptable, but the artwork needs regeneration before publication. No geometry changes are requested.\n\nHole 1 is the dry 194-yard diagonal route from T1 to the upper-left G1. Its staggered approach bunkers and bilateral back-of-green sand preserve an open-front target, offering conservative center-green play versus a more precise pin attack. The artwork retains that basic arrangement and the relatively large green.\n\nHole 2 follows the upper shoreline from T2 toward G2 on the right. Its substantial lake is on the player's left, with greenside sand on both sides toward the back. The narrow landing corridor makes water avoidance meaningful without eliminating a playable route. The artwork preserves the lake side and general extent, but makes the fairway noticeably fuller; regeneration should follow the mapped corridor more closely rather than widening the gameplay geometry to fit the illustration.\n\nHole 3 returns from T3 at the right to G3 at the lower left. The long left-side lake, broad landing area, two right-side fairway bunkers and bilateral rear greenside clusters are recognizable in the artwork. The generous fairway supports staged three-shot play, while right-side sand complicates simply playing as far from water as possible.\n\nThe dry par 3, tighter shoreline par 4 and broad three-shot par 5 provide sufficient within-round contrast, although both longer holes put water on the same playing side. The final hole resembles course 100's wet three-shot par 5, limiting novelty, but the dry opening and narrow par 4 provide enough change. Simulated 1/2/3 shots to green and 42/24/74 safe tee options support fair difficulty without proving it; the preview also shows usable targets and landing space.\n\nThe artwork successfully retains the folded routing, nearby green-to-next-tee connections, shared grassy property and substantial lakes. However, the putting greens have conspicuous dark outlined rims and layered surrounding bands, particularly G3, rather than a single natural sage/apple-green surface with only a narrow low-contrast fringe. Regenerate those surfaces while retaining their mapped footprints and flag positions. Also preserve clearly visible tee markers at the mapped T1 and T3 positions; these are not clearly identifiable in the supplied artwork. These are rendering corrections, not reasons to alter otherwise playable geometry.",
+    "edits": []
+  }
+}

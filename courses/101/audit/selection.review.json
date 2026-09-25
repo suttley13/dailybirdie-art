@@ -1,0 +1,28 @@
+{
+  "responseID": "resp_0e6c72020a22d034016ab65b85ae3487d188888f86425bdd37",
+  "model": "gpt-6-astra",
+  "usage": {
+    "input_tokens": 41327,
+    "input_tokens_details": {
+      "cache_write_tokens": 41324,
+      "cached_tokens": 0
+    },
+    "output_tokens": 880,
+    "output_tokens_details": {
+      "reasoning_tokens": 453
+    },
+    "total_tokens": 42207
+  },
+  "review": {
+    "candidate": 34,
+    "approved": true,
+    "scores": {
+      "strategy": 4,
+      "withinRoundVariety": 4,
+      "acrossDaysVariety": 4,
+      "fairDifficulty": 4
+    },
+    "reason": "Select candidate 34 unchanged after inspecting its labeled connected geometry.\n\nHole 1, the 194-yard par 3 from T1 toward G1, provides a substantial dry target with bilateral greenside sand. The staggered approach bunkers reward controlled carry and make the foreground landing patch less automatic. Conservative center-green play remains credible; this is principally a distance-control test.\n\nHole 2, the 416-yard par 4 from T2 toward G2, follows a substantial left-side lake through a narrow, gently bending corridor. Favoring the right reduces water exposure, while shoreline-side placement accepts greater risk. The lake ends before the green, preserving a playable final approach. Its 24 simulated safe tee options warrant scrutiny, but the preview shows a continuous usable landing lane rather than an unreasonable pinch.\n\nHole 3, the 578-yard returning par 5 from T3 toward G3, combines a long left shoreline with right-side fairway bunkers. Its much broader landing space permits conservative staging, while the opposing sand prevents simply aiming away from water on every shot. The simulated three-shot route supports its intended pacing.\n\nThe compact shared property has folded out-and-back routing, a diagonal opening hole, nearby green-to-next-tee connections, continuous interior grass and selective groves with open breaks. The greens are single surfaces without inset discs or rings. Both long holes have left-side water, limiting maximum variety, but their contrasting widths, lengths and shot demands provide sufficient differentiation. Compared with recent rounds, the dry opening par 3 and demanding shoreline corridor replace the frequently repeated island and broad split-fairway experiences. Simulation results support, rather than establish, fairness. No geometry edits are necessary.",
+    "edits": []
+  }
+}

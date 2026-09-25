@@ -1,7 +1,46 @@
 {
   "schemaVersion": 1,
-  "generatedAt": 1790256727,
+  "generatedAt": 1790336093,
   "runs": [
+    {
+      "file": "1790335863-course-101-published.json",
+      "course": 101,
+      "outcome": "published",
+      "error": null,
+      "startedAt": 1790335863,
+      "seconds": 230.08,
+      "reviewModel": "gpt-6-astra",
+      "reviewEffort": "medium",
+      "imageModel": "gpt-image-2.5-sunburst",
+      "callCount": 10,
+      "totals": {
+        "review": {
+          "calls": 6,
+          "tokens": {
+            "input_tokens": 125651,
+            "input_cache_write_tokens": 125633,
+            "input_cached_tokens": 0,
+            "output_tokens": 4706,
+            "output_reasoning_tokens": 1656,
+            "total_tokens": 130357
+          },
+          "unreported": 0
+        },
+        "image": {
+          "calls": 4,
+          "tokens": {
+            "input_tokens": 17748,
+            "input_image_tokens": 11472,
+            "input_text_tokens": 6276,
+            "output_tokens": 1372,
+            "output_image_tokens": 1372,
+            "output_text_tokens": 0,
+            "total_tokens": 19120
+          },
+          "unreported": 0
+        }
+      }
+    },
     {
       "file": "1790256594-course-104-failed.json",
       "course": 104,

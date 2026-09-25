@@ -1,0 +1,28 @@
+{
+  "responseID": "resp_039a138e379cd2a5016ab65c3435e087d1a9f56e5f470a9ed3",
+  "model": "gpt-6-astra",
+  "usage": {
+    "input_tokens": 16865,
+    "input_tokens_details": {
+      "cache_write_tokens": 16862,
+      "cached_tokens": 0
+    },
+    "output_tokens": 666,
+    "output_tokens_details": {
+      "reasoning_tokens": 161
+    },
+    "total_tokens": 17531
+  },
+  "review": {
+    "candidate": 34,
+    "approved": true,
+    "scores": {
+      "strategy": 4,
+      "withinRoundVariety": 5,
+      "acrossDaysVariety": 4,
+      "fairDifficulty": 4
+    },
+    "reason": "The current geometry passes, and the artwork maps confidently to the connected routing without requiring edits.\n\nHole 1 runs from the interior T1 toward the large upper-left G1. This dry 194-yard par 3 retains its separate approach landing area, staggered approach bunkers and bilateral back/side greenside sand. The illustration preserves the notably generous green footprint and mapped flag position. Conservative center-green play offers more margin than attacking the pin; the approach sand makes a short miss consequential without imposing a forced water carry.\n\nHole 2 follows the upper corridor from T2 toward G2 on the right. Its single substantial lake remains on the player's left and ends before the green. The narrower fairway and bilateral back-of-green bunkering are faithfully recognizable. Favoring the right reduces water exposure, while shoreline-side placement demands more precision. The artwork preserves the usable landing corridor rather than allowing the lake to consume it.\n\nHole 3 returns from T3 on the right toward the lower-left G3. Its single long left-side lake, broad fairway, two right-side fairway bunkers and bilateral back greenside sand match the illustration. The substantial width supports conservative staged play over 578 yards, while right-side sand complicates simply aiming away from the shoreline. Illustrated bunker enlargement does not create a clear side contradiction.\n\nThe compact 5:3 property preserves folded out-and-back routing, short green-to-next-tee connections, continuous interior grass and selective groves with grassy breaks. The greens are single light apple-green surfaces with restrained fringes, not nested targets or dark inset discs.\n\nThe dry par 3, narrow shoreline par 4 and broad three-shot par 5 provide strong within-round contrast. Across-days novelty is sufficient but not exceptional: the wet three-shot finisher recalls course 100, while the dry opening and narrow par 4 change the sequence and demands. Simulated 1/2/3 shots to green and 42/24/74 safe tee options support fair difficulty; the visible landing spaces also remain credible. No geometry correction is warranted.",
+    "edits": []
+  }
+}

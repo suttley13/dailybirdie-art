@@ -1,0 +1,92 @@
+{
+  "course": 101,
+  "geometrySHA256": "f06eeefdd65f68781a0ef4614e5edfeba8bd9d4b395a3262219a118a8ce9a2b0",
+  "artworkSHA256": "443ba78fdf2dfd613dd35f3dcf0d6c4d1dfe2da469c12de18bdc00c5321bb63c",
+  "holes": [
+    {
+      "bunkerCount": 7,
+      "fairwayArea": 5561.305593328272,
+      "par": 3,
+      "route": [
+        [
+          200,
+          40
+        ],
+        [
+          215.245041209278,
+          271.85607907214137
+        ]
+      ],
+      "simulatedShotsToGreen": 1,
+      "teeSafeOptions": 42,
+      "type": "straight",
+      "waterArea": 0,
+      "yards": 194
+    },
+    {
+      "bunkerCount": 4,
+      "fairwayArea": 13441.547826055003,
+      "par": 4,
+      "route": [
+        [
+          200,
+          40
+        ],
+        [
+          201.6379799434947,
+          390.9437033250686
+        ],
+        [
+          206.1039725639151,
+          542.0135265832487
+        ]
+      ],
+      "simulatedShotsToGreen": 2,
+      "teeSafeOptions": 24,
+      "type": "narrowCorridor",
+      "waterArea": 21392.39213769557,
+      "yards": 416
+    },
+    {
+      "bunkerCount": 7,
+      "fairwayArea": 46001.532669434346,
+      "par": 5,
+      "route": [
+        [
+          200,
+          40
+        ],
+        [
+          189.15570219879666,
+          415.28961666279986
+        ],
+        [
+          189.93751974685713,
+          692.6622943820629
+        ],
+        [
+          204.3597120987012,
+          731.1774438574122
+        ]
+      ],
+      "simulatedShotsToGreen": 3,
+      "teeSafeOptions": 74,
+      "type": "threeShotPar5",
+      "waterArea": 38298.69207638122,
+      "yards": 578
+    }
+  ],
+  "review": {
+    "candidate": 34,
+    "approved": true,
+    "scores": {
+      "strategy": 4,
+      "withinRoundVariety": 4,
+      "acrossDaysVariety": 4,
+      "fairDifficulty": 4
+    },
+    "reason": "Candidate 34 passes as supplied. The artwork maps confidently to the connected numbered routing, with no clear hazard-side or proportion mismatch requiring correction.\n\nHole 1: The dry 194-yard par 3 runs from T1 diagonally toward the large G1 beside T2. The illustration retains its separate approach landing area, staggered approach bunkers and greenside sand on both sides toward the back. The generous putting target offers a conservative center-green option against a more precise pin attack. Its larger green relative to the other holes is preserved.\n\nHole 2: The 416-yard par 4 follows the upper shoreline from T2 toward G2. Its single substantial lake remains on the player's left, with a narrower fairway and bilateral back-of-green bunkering. The illustration preserves the lake's extent and termination short of the green. Favoring the right avoids water but leaves less room around the scattered trees; the shoreline demands controlled placement without imposing an unreasonable forced carry.\n\nHole 3: The 578-yard par 5 returns from T3 toward G3 along the lower property. Its single long left-side lake, broad landing corridor, two right-side fairway bunkers and bilateral rear greenside clusters remain recognizable. The wider fairway provides a safe staged route, while the right-side sand complicates simply playing as far from water as possible. Lake, fairway and green proportions are sufficiently faithful.\n\nThe dry one-shot opener, narrow two-shot shoreline hole and broad three-shot finish provide good contrast, although the two longer holes share left-side water and relatively straight routing. Compared with recent rounds, the wet three-shot finish repeats a familiar theme, but the dry straight par 3, return of a longer narrow-corridor par 4 and changed sequence provide sufficient freshness. Simulated 1/2/3 shots to green and 42/24/74 safe tee options support fair difficulty; the visible landing areas corroborate that evidence without making it conclusive.\n\nThe artwork uses a 5:3 landscape canvas, compact irregular shared property and folded out-and-back routing, with G1 near T2 and G2 connected to T3. Selective groves retain grassy breaks, and grass remains continuous inside the property with white only outside. Each green reads as a single natural light-green putting surface with a restrained fringe, rather than a nested disc or raised platform. No edits are needed.",
+    "edits": []
+  },
+  "artworkStatus": "approved"
+}
