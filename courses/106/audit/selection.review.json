@@ -1,0 +1,28 @@
+{
+  "responseID": "resp_0b694214560e316f016ab7bf6b82b887d1a557179580f5e69b",
+  "model": "gpt-6-astra",
+  "usage": {
+    "input_tokens": 45720,
+    "input_tokens_details": {
+      "cache_write_tokens": 45717,
+      "cached_tokens": 0
+    },
+    "output_tokens": 916,
+    "output_tokens_details": {
+      "reasoning_tokens": 417
+    },
+    "total_tokens": 46636
+  },
+  "review": {
+    "candidate": 49,
+    "approved": true,
+    "scores": {
+      "strategy": 4,
+      "withinRoundVariety": 5,
+      "acrossDaysVariety": 4,
+      "fairDifficulty": 4
+    },
+    "reason": "Select candidate 49 without geometry edits. The numbered preview shows three distinct, playable tests within a compact shared property.\n\nHole 1: The dry 148-yard punchbowl par 3 runs from T1 toward G1 beside T2. Staggered approach bunkers and small rear greenside clusters reward distance control, while the generous green and open entrance preserve a conservative central target. It provides a forgiving opening without being hazard-free.\n\nHole 2: The 486-yard reachable par 5 returns across the upper property toward G2. Its single substantial left-side lake follows much of the fairway without blocking the right-side landing route. Players can stage safely away from the shoreline or pursue a two-shot green attempt with less margin near water. The broad landing area and unobstructed green entrance keep that attacking opportunity reasonable.\n\nHole 3: The 444-yard dogleg-left finishes around the lower property. Geometry and preview both show one substantial right-side lake, fairway sand and a wooded inside corner. Following the bent fairway preserves a credible two-shot route; cutting the corner challenges explicit collision trees. Its smaller target and approach bunkering make positioning matter beyond simply maximizing drive distance.\n\nThe short dry opener, reachable shoreline par 5 and longer wooded dogleg give excellent within-round contrast. Punchbowl greens recur recently, but replacing course 105's island carry and three-shot par 5 with a dry short target and reachable par 5 materially changes the rhythm. The longer dogleg finish also differs from recent short attacking par 4s.\n\nSimulated 1/2/2 shots to green and 58/62/51 safe tee options support, rather than establish, fair difficulty; the visible landing spaces independently remain usable. The 5:3 preview has folded routing, varied orientations, nearby successive green-to-tee connections and continuous interior grass. The interior grove guards the dogleg shortcut rather than separating every hole with tree walls. This approves the supplied geometry at selection; generated artwork still requires a faithful-rendering review.",
+    "edits": []
+  }
+}

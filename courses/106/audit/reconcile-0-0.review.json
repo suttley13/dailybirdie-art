@@ -1,0 +1,28 @@
+{
+  "responseID": "resp_0da5f5650931f243016ab7bf979b6087d187a1aa4110bd1ebd",
+  "model": "gpt-6-astra",
+  "usage": {
+    "input_tokens": 21974,
+    "input_tokens_details": {
+      "cache_write_tokens": 21971,
+      "cached_tokens": 0
+    },
+    "output_tokens": 882,
+    "output_tokens_details": {
+      "reasoning_tokens": 251
+    },
+    "total_tokens": 22856
+  },
+  "review": {
+    "candidate": 49,
+    "approved": true,
+    "scores": {
+      "strategy": 4,
+      "withinRoundVariety": 5,
+      "acrossDaysVariety": 4,
+      "fairDifficulty": 4
+    },
+    "reason": "Candidate 49 passes as supplied. The artwork maps confidently to the numbered connected routing through hole shapes, lengths, green locations and hazards. No clear hazard-side or proportion mismatch warrants a geometry edit.\n\nHole 1: The dry 148-yard punchbowl par 3 plays diagonally from T1 toward the large G1 beside T2. The artwork preserves its separate approach patch, two substantial approach bunkers and small rear greenside clusters on both sides. The generous green and open entrance support conservative center-green play rather than requiring a precise pin attack. This is primarily a short distance-control test, not a complex route-choice hole.\n\nHole 2: The 486-yard reachable par 5 runs from T2 across the upper property toward G2. Its single substantial lake remains on the player's left, extending along most of the fairway but ending short of the green. The illustration retains the broad landing corridor and bilateral rear greenside sand. Playing farther right offers water avoidance; pursuing an aggressive two-shot attempt requires balancing distance and shoreline exposure. A staged layup route remains credible. Lake extent and fairway-to-green proportions closely follow the preview.\n\nHole 3: The 444-yard dogleg-left par 4 returns from T3 around the lower wooded bend toward G3. Its single substantial lake remains on the player's right, outside the main bend, while collision trees occupy the inside shortcut. Following the fairway avoids that wooded shortcut but requires controlled placement around the two larger fairway bunkers. The illustration preserves both those bunkers, the smaller greenside clusters and the lake's termination well before the green. The longer approach makes this materially different from recent short attacking par 4s.\n\nThe short dry opener, reachable shoreline par 5 and longer wooded dogleg provide excellent within-round contrast, including opposite water sides on the longer holes. Across-days novelty is sufficient rather than exceptional: the opener closely resembles course 104's short dry punchbowl, and the three types appeared together in course 96. However, the substantially longer, wet dogleg finish and changed sequence provide meaningful differentiation. Simulated 1/2/2 shots to green and 58/62/51 safe tee options support fair difficulty without proving it; the visible landing areas independently remain usable.\n\nThe 5:3 landscape artwork retains a compact irregular shared property, folded out-and-back routing, varied orientations and nearby green-to-next-tee connections. The central grove follows the mapped collision-tree concentration, with grassy breaks elsewhere rather than walls dividing every lane. Interior grass remains continuous and white stays outside. Greens read as single natural apple-green putting surfaces with restrained narrow fringes, not dark inset discs or broad bright collars.",
+    "edits": []
+  }
+}
