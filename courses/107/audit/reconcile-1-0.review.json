@@ -1,0 +1,28 @@
+{
+  "responseID": "resp_00b1d4870e41b82d016aba980c90a087d28cd5cee983de54b2",
+  "model": "gpt-6-astra",
+  "usage": {
+    "input_tokens": 22388,
+    "input_tokens_details": {
+      "cache_write_tokens": 22385,
+      "cached_tokens": 0
+    },
+    "output_tokens": 740,
+    "output_tokens_details": {
+      "reasoning_tokens": 206
+    },
+    "total_tokens": 23128
+  },
+  "review": {
+    "candidate": 37,
+    "approved": false,
+    "scores": {
+      "strategy": 4,
+      "withinRoundVariety": 5,
+      "acrossDaysVariety": 4,
+      "fairDifficulty": 4
+    },
+    "reason": "The current geometry passes the four course-design criteria, but the artwork needs regeneration to meet the putting-green treatment requirements. No geometry edits are warranted.\n\nHole 1: The 300-yard par 4 follows the narrow lower shoreline from T1 to G1 near T2. The illustration preserves its substantial left-side lake, right approach bunker and two back-left greenside bunkers. Conservative placement away from water competes with a direct green attempt, with the approach bunker complicating the safer side. The narrow landing corridor deserves caution, but the preview shows usable space; 20 simulated safe tee options support, rather than prove, fairness.\n\nHole 2: The 229-yard punchbowl par 3 runs from T2 toward the large G2 beside T3. Its right-side lake, separate approach landing area, left approach bunker and three back-left greenside bunkers remain recognizable. Lake extent and the larger target are sufficiently faithful. This is primarily a long distance-control test, with a generous central target and staging space rather than an island-style compulsory carry.\n\nHole 3: The dry 584-yard dogleg-right returns from T3 through the broad bending fairway to G3. The artwork retains the large left approach bunker and small greenside bunkers on both sides toward the back. Following the fairway offers staged placement; challenging the wooded inside corner offers a shorter attack. The simulated two-shot reach is an opportunity, not assurance of a safe shortcut.\n\nThe short shoreline par 4, long wet par 3 and broad dry dogleg provide excellent within-round contrast. Punchbowl greens recur frequently in recent rounds, but this longer version, the short narrow opener and dry dogleg finish provide sufficient differentiation.\n\nThe artwork otherwise preserves the compact irregular landscape property, folded routing, nearby green-to-next-tee connections and continuous interior grass. However, the putting surfaces are surrounded by conspicuous layered mowing bands and outlined rims, especially at G2 and G3. These read as concentric collars rather than narrow, low-contrast fringes. Regenerate the artwork with each green rendered as one natural sage/apple-green surface and a single restrained fringe, preserving its mapped footprint, flag position and all current hazard geometry.",
+    "edits": []
+  }
+}

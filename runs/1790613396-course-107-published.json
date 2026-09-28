@@ -1,0 +1,264 @@
+{
+  "schemaVersion": 1,
+  "course": 107,
+  "outcome": "published",
+  "error": null,
+  "startedAt": 1790613396,
+  "seconds": 265.42,
+  "reviewModel": "gpt-6-astra",
+  "reviewEffort": "medium",
+  "imageModel": "gpt-image-2.5-sunburst",
+  "candidatesRequested": 50,
+  "calls": [
+    {
+      "phase": "selection",
+      "kind": "review",
+      "model": "gpt-6-astra",
+      "effort": "medium",
+      "responseID": "resp_00a3599a30dce822016aba97a4a28c87d296c170206178f796",
+      "usage": {
+        "input_tokens": 45975,
+        "input_tokens_details": {
+          "cache_write_tokens": 45972,
+          "cached_tokens": 0
+        },
+        "output_tokens": 908,
+        "output_tokens_details": {
+          "reasoning_tokens": 361
+        },
+        "total_tokens": 46883
+      },
+      "seconds": 33.23,
+      "imageCount": 8,
+      "approved": true,
+      "edits": [],
+      "scores": {
+        "strategy": 4,
+        "withinRoundVariety": 5,
+        "acrossDaysVariety": 4,
+        "fairDifficulty": 4
+      }
+    },
+    {
+      "phase": "artwork-0",
+      "kind": "image",
+      "model": "gpt-image-2.5-sunburst",
+      "usage": {
+        "input_tokens": 4049,
+        "input_tokens_details": {
+          "image_tokens": 2863,
+          "text_tokens": 1186
+        },
+        "output_tokens": 343,
+        "output_tokens_details": {
+          "image_tokens": 343,
+          "text_tokens": 0
+        },
+        "total_tokens": 4392
+      },
+      "seconds": 18.8
+    },
+    {
+      "phase": "reconcile-0-0",
+      "kind": "review",
+      "model": "gpt-6-astra",
+      "effort": "medium",
+      "responseID": "resp_0a8d165e40dfd624016aba97d7fd5487d2b0359d9c2ddf8719",
+      "usage": {
+        "input_tokens": 22388,
+        "input_tokens_details": {
+          "cache_write_tokens": 22385,
+          "cached_tokens": 0
+        },
+        "output_tokens": 877,
+        "output_tokens_details": {
+          "reasoning_tokens": 386
+        },
+        "total_tokens": 23265
+      },
+      "seconds": 33.95,
+      "imageCount": 2,
+      "approved": false,
+      "edits": [],
+      "scores": {
+        "strategy": 4,
+        "withinRoundVariety": 5,
+        "acrossDaysVariety": 4,
+        "fairDifficulty": 4
+      }
+    },
+    {
+      "phase": "artwork-1",
+      "kind": "image",
+      "model": "gpt-image-2.5-sunburst",
+      "usage": {
+        "input_tokens": 4480,
+        "input_tokens_details": {
+          "image_tokens": 2863,
+          "text_tokens": 1617
+        },
+        "output_tokens": 343,
+        "output_tokens_details": {
+          "image_tokens": 343,
+          "text_tokens": 0
+        },
+        "total_tokens": 4823
+      },
+      "seconds": 18.29
+    },
+    {
+      "phase": "reconcile-1-0",
+      "kind": "review",
+      "model": "gpt-6-astra",
+      "effort": "medium",
+      "responseID": "resp_00b1d4870e41b82d016aba980c90a087d28cd5cee983de54b2",
+      "usage": {
+        "input_tokens": 22388,
+        "input_tokens_details": {
+          "cache_write_tokens": 22385,
+          "cached_tokens": 0
+        },
+        "output_tokens": 740,
+        "output_tokens_details": {
+          "reasoning_tokens": 206
+        },
+        "total_tokens": 23128
+      },
+      "seconds": 26.89,
+      "imageCount": 2,
+      "approved": false,
+      "edits": [],
+      "scores": {
+        "strategy": 4,
+        "withinRoundVariety": 5,
+        "acrossDaysVariety": 4,
+        "fairDifficulty": 4
+      }
+    },
+    {
+      "phase": "artwork-2",
+      "kind": "image",
+      "model": "gpt-image-2.5-sunburst",
+      "usage": {
+        "input_tokens": 4523,
+        "input_tokens_details": {
+          "image_tokens": 2863,
+          "text_tokens": 1660
+        },
+        "output_tokens": 343,
+        "output_tokens_details": {
+          "image_tokens": 343,
+          "text_tokens": 0
+        },
+        "total_tokens": 4866
+      },
+      "seconds": 19.03
+    },
+    {
+      "phase": "reconcile-2-0",
+      "kind": "review",
+      "model": "gpt-6-astra",
+      "effort": "medium",
+      "responseID": "resp_0f8ef0c6a175e152016aba983ac4cc87d2898b08043dfc8609",
+      "usage": {
+        "input_tokens": 22388,
+        "input_tokens_details": {
+          "cache_write_tokens": 22385,
+          "cached_tokens": 0
+        },
+        "output_tokens": 799,
+        "output_tokens_details": {
+          "reasoning_tokens": 266
+        },
+        "total_tokens": 23187
+      },
+      "seconds": 31.31,
+      "imageCount": 2,
+      "approved": false,
+      "edits": [],
+      "scores": {
+        "strategy": 4,
+        "withinRoundVariety": 5,
+        "acrossDaysVariety": 4,
+        "fairDifficulty": 4
+      }
+    },
+    {
+      "phase": "artwork-3",
+      "kind": "image",
+      "model": "gpt-image-2.5-sunburst",
+      "usage": {
+        "input_tokens": 4522,
+        "input_tokens_details": {
+          "image_tokens": 2863,
+          "text_tokens": 1659
+        },
+        "output_tokens": 343,
+        "output_tokens_details": {
+          "image_tokens": 343,
+          "text_tokens": 0
+        },
+        "total_tokens": 4865
+      },
+      "seconds": 19.23
+    },
+    {
+      "phase": "reconcile-3-0",
+      "kind": "review",
+      "model": "gpt-6-astra",
+      "effort": "medium",
+      "responseID": "resp_03ef4e038c635757016aba986dc19887d2be036be83b2cef8c",
+      "usage": {
+        "input_tokens": 22388,
+        "input_tokens_details": {
+          "cache_write_tokens": 22385,
+          "cached_tokens": 0
+        },
+        "output_tokens": 732,
+        "output_tokens_details": {
+          "reasoning_tokens": 114
+        },
+        "total_tokens": 23120
+      },
+      "seconds": 24.72,
+      "imageCount": 2,
+      "approved": true,
+      "edits": [],
+      "scores": {
+        "strategy": 4,
+        "withinRoundVariety": 5,
+        "acrossDaysVariety": 4,
+        "fairDifficulty": 4
+      }
+    },
+    {
+      "phase": "final-3-0",
+      "kind": "review",
+      "model": "gpt-6-astra",
+      "effort": "medium",
+      "responseID": "resp_028680ebe3280fa4016aba9886b92887d2ba846483eb3a9423",
+      "usage": {
+        "input_tokens": 22387,
+        "input_tokens_details": {
+          "cache_write_tokens": 22384,
+          "cached_tokens": 0
+        },
+        "output_tokens": 759,
+        "output_tokens_details": {
+          "reasoning_tokens": 128
+        },
+        "total_tokens": 23146
+      },
+      "seconds": 23.32,
+      "imageCount": 2,
+      "approved": true,
+      "edits": [],
+      "scores": {
+        "strategy": 4,
+        "withinRoundVariety": 5,
+        "acrossDaysVariety": 4,
+        "fairDifficulty": 4
+      }
+    }
+  ]
+}

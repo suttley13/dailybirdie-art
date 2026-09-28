@@ -1,0 +1,28 @@
+{
+  "responseID": "resp_0b31304f753fddbc016aba98a9209887d2b36ceb4a49515ca1",
+  "model": "gpt-6-astra",
+  "usage": {
+    "input_tokens": 45911,
+    "input_tokens_details": {
+      "cache_write_tokens": 45908,
+      "cached_tokens": 0
+    },
+    "output_tokens": 782,
+    "output_tokens_details": {
+      "reasoning_tokens": 223
+    },
+    "total_tokens": 46693
+  },
+  "review": {
+    "candidate": 49,
+    "approved": true,
+    "scores": {
+      "strategy": 4,
+      "withinRoundVariety": 5,
+      "acrossDaysVariety": 4,
+      "fairDifficulty": 4
+    },
+    "reason": "Select candidate 49 without geometry edits. Its numbered preview provides the best balance of playable shoreline strategy, contrasting targets and compact connected routing.\n\nHole 1: The 482-yard reachable par 5 runs from T1 across the lower property to G1 beside T2. One substantial right-side lake follows most of the fairway, leaving a generous dry route to the left. Players can stage a conservative approach or pursue a two-shot attempt with tighter distance and directional control. The relatively small green and two back-left greenside bunkers give the otherwise forgiving hole a meaningful finishing demand.\n\nHole 2: The 407-yard double-dogleg par 4 returns from T2 through the upper bending corridor to G2 near T3. Its substantial left-side lake challenges the shorter inside line; following the fairway farther right avoids water but brings the two outside fairway bunkers into consideration. Bilateral rear greenside sand and a larger target balance that placement test. The visible corridor remains usable rather than being pinched between water and trees.\n\nHole 3: The dry 162-yard par 3 plays from T3 toward G3 through the separate foreground landing area. Two substantial approach bunkers and three left-side greenside bunkers reward controlled carry and direction. A conservative central or right-central target offers more margin than attacking toward the sand. This compact one-shot finish contrasts well with both shoreline holes.\n\nWithin-round variety is excellent: par 5/4/3, opposite shoreline sides, different fairway shapes and a dry precision finish. Across-days novelty is sufficient rather than exceptional. The reachable par 5 recalls course 106, but the longer double-dogleg differs materially from course 105's 308-yard version, and the short dry straight par 3 breaks the recent run of punchbowls and longer water-influenced targets.\n\nThe simulation's 2/2/1 shots to green and 65/40/30 safe tee options support fair difficulty without proving it; the preview independently shows credible landing space. The 5:3 layout has folded out-and-back routing, nearby green-to-next-tee connections, selective groves and continuous interior grass, without excessive forest padding or lane-dividing tree walls. This approval covers the supplied selection geometry; generated artwork still requires a separate fidelity and natural-green-surface review.",
+    "edits": []
+  }
+}

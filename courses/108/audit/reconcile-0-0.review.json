@@ -1,0 +1,28 @@
+{
+  "responseID": "resp_03761b698266a048016aba98dc6ee487d28a182cc741b844f1",
+  "model": "gpt-6-astra",
+  "usage": {
+    "input_tokens": 23488,
+    "input_tokens_details": {
+      "cache_write_tokens": 23485,
+      "cached_tokens": 0
+    },
+    "output_tokens": 755,
+    "output_tokens_details": {
+      "reasoning_tokens": 128
+    },
+    "total_tokens": 24243
+  },
+  "review": {
+    "candidate": 49,
+    "approved": true,
+    "scores": {
+      "strategy": 4,
+      "withinRoundVariety": 5,
+      "acrossDaysVariety": 4,
+      "fairDifficulty": 4
+    },
+    "reason": "Candidate 49 passes as supplied. The artwork maps confidently to the labeled connected routing and preserves the important geometry relationships.\n\nHole 1: The 482-yard reachable par 5 runs from T1 across the lower property toward G1 beside T2. Its single substantial right-side lake extends along most of the fairway, stopping short of the green. The illustration retains the broad landing corridor and back-left greenside bunker pair, combining the small sand shapes without reversing their side. Playing left offers water avoidance; pursuing a two-shot green attempt demands greater control near the shoreline. A staged layup remains credible.\n\nHole 2: The 407-yard par 4 returns from T2 along the upper bending fairway toward G2 near T3. Its substantial left-side lake, two right-side fairway bunkers and bilateral rear greenside sand remain recognizable. Playing away from water brings the fairway bunkers into consideration, giving placement more substance than simply favoring the dry side. The illustration preserves the lake's long extent, usable landing space and notably larger green relative to Hole 1.\n\nHole 3: The dry 162-yard par 3 plays from T3 through the separate foreground landing area toward G3. Both views retain two substantial approach bunkers and the small left-side greenside cluster, judged relative to play. The artwork merges some small bunker shapes but keeps their placement. Conservative center-green play contrasts with a precise pin attack; this is primarily a distance-control test rather than a route-choice hole.\n\nThe reachable shoreline par 5, bending two-shot par 4 and compact dry par 3 provide excellent within-round contrast, including opposite water sides on the longer holes. Across-days novelty is sufficient rather than exceptional: the opener resembles course 106's reachable par 5 in length, and double doglegs recur. However, the reversed par-5 shoreline, longer placement-oriented par 4 and short straight rather than punchbowl or island finish distinguish the set from the latest rounds. Simulated 2/2/1 shots to green and 65/40/30 safe tee options support fair difficulty without proving it; the preview independently shows credible landing areas and targets.\n\nThe 5:3 landscape artwork retains the compact irregular shared property, folded out-and-back routing, varied orientations and nearby green-to-next-tee connections. Selective groves leave grassy breaks rather than continuous lane walls. Interior grass remains continuous, with white outside only. Each putting green reads as one natural apple-green surface with a narrow, restrained fringe, without nested discs or broad collars. Lake extents, hazard sides and relative fairway and green proportions are sufficiently faithful; no edits are warranted.",
+    "edits": []
+  }
+}

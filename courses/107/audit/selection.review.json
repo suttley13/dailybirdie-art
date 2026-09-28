@@ -1,0 +1,28 @@
+{
+  "responseID": "resp_00a3599a30dce822016aba97a4a28c87d296c170206178f796",
+  "model": "gpt-6-astra",
+  "usage": {
+    "input_tokens": 45975,
+    "input_tokens_details": {
+      "cache_write_tokens": 45972,
+      "cached_tokens": 0
+    },
+    "output_tokens": 908,
+    "output_tokens_details": {
+      "reasoning_tokens": 361
+    },
+    "total_tokens": 46883
+  },
+  "review": {
+    "candidate": 37,
+    "approved": true,
+    "scores": {
+      "strategy": 4,
+      "withinRoundVariety": 5,
+      "acrossDaysVariety": 4,
+      "fairDifficulty": 4
+    },
+    "reason": "Select candidate 37 without geometry edits. The numbered preview supports three distinct, playable tests.\n\nHole 1: The 300-yard par 4 runs from T1 along the narrow lower shoreline toward G1 near T2. Its substantial left-side lake makes an aggressive green attempt consequential, while the right-side fairway bunker complicates simply aiming away from water. A controlled placement shot remains a credible alternative. The small target and back-left greenside sand demand precision. Twenty simulated safe tee options indicate the round's tightest test, but its short length and visible dry landing corridor keep it reasonable.\n\nHole 2: The 229-yard punchbowl par 3 plays from T2 toward the larger G2 near T3. Geometry and preview both show one right-side approach lake, left approach sand and back-left greenside bunkers. The lake does not force an island-style carry. The generous target allows conservative center-green play rather than requiring a pin attack; this is primarily a long-club distance-control test, not a complex route-choice hole.\n\nHole 3: The dry 584-yard dogleg-right par 5 folds back through the broad bending fairway toward G3. Following the fairway provides staged landing space, whereas shortening the route challenges the substantial collision-tree grove inside the bend. Approach sand and greenside bunkers on both sides retain consequences near the finish. The simulated two-shot reach is an attacking opportunity, not proof that the wooded shortcut is reliably safe.\n\nThe short attacking par 4, long one-shot target and extended dry dogleg provide excellent within-round contrast. Compared with course 106, the punchbowl changes from a short dry opener to a long lakeside middle hole, while the narrow attacking opener and long dry finish materially change the round's rhythm. Familiar types limit novelty to 4.\n\nThe 5:3 preview has a compact irregular shared property, folded routing, varied orientations, nearby green-to-next-tee connections and continuous interior grass. Groves guard strategic lines while retaining grassy breaks. Simulated 1/1/2 shots to green and 20/62/62 safe tee options support, but do not establish, fair difficulty. This approval covers the supplied selection geometry; generated artwork still requires a separate fidelity and style review.",
+    "edits": []
+  }
+}

@@ -1,0 +1,88 @@
+{
+  "course": 108,
+  "geometrySHA256": "9a2c5a9c79c48cb7656f8092acc76002594f7f6b846b5af55d7085863e7c57d8",
+  "artworkSHA256": "9b220cf45133f0fa447086875e754126ebdbc6aff8f84838f78295a2dbf94d58",
+  "holes": [
+    {
+      "bunkerCount": 2,
+      "fairwayArea": 35774.76815730061,
+      "par": 5,
+      "route": [
+        [
+          200,
+          40
+        ],
+        [
+          197.8234221849792,
+          392.08381041325435
+        ],
+        [
+          182.21888831845766,
+          612.7209831731236
+        ]
+      ],
+      "simulatedShotsToGreen": 2,
+      "teeSafeOptions": 65,
+      "type": "reachablePar5",
+      "waterArea": 24571.94365654772,
+      "yards": 482
+    },
+    {
+      "bunkerCount": 6,
+      "fairwayArea": 18552.09701348137,
+      "par": 4,
+      "route": [
+        [
+          200,
+          40
+        ],
+        [
+          141.8671930906906,
+          392.3415519314925
+        ],
+        [
+          229.15164213482174,
+          550.9708231136822
+        ]
+      ],
+      "simulatedShotsToGreen": 2,
+      "teeSafeOptions": 40,
+      "type": "doubleDogleg",
+      "waterArea": 22797.246379867036,
+      "yards": 407
+    },
+    {
+      "bunkerCount": 5,
+      "fairwayArea": 4291.75802143723,
+      "par": 3,
+      "route": [
+        [
+          200,
+          40
+        ],
+        [
+          181.97280973470419,
+          232.2959371401999
+        ]
+      ],
+      "simulatedShotsToGreen": 1,
+      "teeSafeOptions": 30,
+      "type": "straight",
+      "waterArea": 0,
+      "yards": 162
+    }
+  ],
+  "review": {
+    "candidate": 49,
+    "approved": true,
+    "scores": {
+      "strategy": 4,
+      "withinRoundVariety": 5,
+      "acrossDaysVariety": 4,
+      "fairDifficulty": 4
+    },
+    "reason": "Candidate 49 passes as supplied. The artwork maps confidently to the labeled connected routing and preserves the geometry's important hazard relationships.\n\nHole 1: The 482-yard reachable par 5 plays from T1 across the lower property toward G1 beside T2. Its substantial right-side lake, broad landing corridor and two small back-left greenside bunkers are retained, judging sides relative to play. The illustration joins the bunker pair visually without reversing its placement. Conservative positioning away from the shoreline and a staged approach provide an alternative to attempting the green in two. The lake ends short of the green, preserving a playable approach.\n\nHole 2: The 407-yard double-dogleg par 4 returns from T2 through the upper bending fairway toward G2 near T3. Its single substantial left-side lake, two right-side fairway bunkers and bilateral rear greenside bunker groups remain recognizable. The artwork simplifies the small greenside clusters but retains their sides. Playing away from water brings the fairway sand into consideration, while shoreline-side placement demands greater control. The narrower corridor and bending approach distinguish it from the opening hole.\n\nHole 3: The dry 162-yard par 3 plays from T3 through the separate foreground landing patch toward G3. Both views retain two substantial approach bunkers and the three small left-side greenside bunkers. The illustration consolidates part of that greenside cluster without changing its relationship to play. The elongated target supports conservative center-green play versus a more precise pin attack. This is primarily a distance-control test rather than a route-choice hole.\n\nLake extents and relative fairway and green proportions are sufficiently faithful. The 5:3 landscape artwork retains the compact irregular shared property, folded out-and-back routing, varied orientations and short green-to-next-tee connections. Selective groves leave grassy breaks rather than continuous lane walls. Interior grass is continuous, with white outside only. Each putting green reads as one natural apple-green surface with a narrow, restrained fringe, without nested discs or broad bright collars.\n\nThe reachable shoreline par 5, longer bending par 4 and short dry par 3 provide excellent within-round contrast, including opposite lake sides. Across-days novelty is sufficient rather than exceptional: reachable par 5s and double doglegs recur, but the longer two-shot par 4 and dry straight finishing hole distinguish this round from the latest publications. Simulated 2/2/1 shots to green and 65/40/30 safe tee options support fair difficulty without proving it; the actual preview independently shows usable landing areas and targets. No geometry edits are needed.",
+    "edits": []
+  },
+  "artworkStatus": "approved"
+}
