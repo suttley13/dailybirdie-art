@@ -1,0 +1,28 @@
+{
+  "responseID": "resp_06bdcb4d1e6c9d42016abbcf37142c87d2a0ccb1b60689645f",
+  "model": "gpt-6-luna",
+  "usage": {
+    "input_tokens": 24610,
+    "input_tokens_details": {
+      "cache_write_tokens": 24607,
+      "cached_tokens": 0
+    },
+    "output_tokens": 1252,
+    "output_tokens_details": {
+      "reasoning_tokens": 1000
+    },
+    "total_tokens": 25862
+  },
+  "review": {
+    "candidate": 14,
+    "approved": false,
+    "scores": {
+      "strategy": 5,
+      "withinRoundVariety": 5,
+      "acrossDaysVariety": 5,
+      "fairDifficulty": 4
+    },
+    "reason": "The numbered routing maps confidently to the artwork: Hole 1 runs from T1 to the upper-left G1, Hole 2 from T2 along the shoreline to G2, and Hole 3 returns from T3 along the lower fairway to G3. The hazard placements and substantial lake extents are broadly consistent with the geometry. The round itself has strong strategic and difficulty balance: the 220-yard par 3 offers a demanding target, the cape par 4 presents a meaningful shoreline risk-reward choice, and the long par 5 offers staged placement around its water hazard. The sequence and hole types also contrast well with recent rounds. However, the putting greens in the supplied artwork do not meet the required treatment: each appears as a bright inset surface surrounded by a conspicuous darker ring, creating a nested/bullseye effect rather than one natural light-to-medium sage or apple-green surface with a narrow, low-contrast fringe. Reject for artwork regeneration; no geometry edits are appropriate.",
+    "edits": []
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "responseID": "resp_08d5bbbb958fee50016abbd032898887d29c81a36c21a9f6e7",
+  "model": "gpt-6-luna",
+  "usage": {
+    "input_tokens": 24610,
+    "input_tokens_details": {
+      "cache_write_tokens": 24607,
+      "cached_tokens": 0
+    },
+    "output_tokens": 2556,
+    "output_tokens_details": {
+      "reasoning_tokens": 2170
+    },
+    "total_tokens": 27166
+  },
+  "review": {
+    "candidate": 14,
+    "approved": true,
+    "scores": {
+      "strategy": 4,
+      "withinRoundVariety": 5,
+      "acrossDaysVariety": 4,
+      "fairDifficulty": 4
+    },
+    "reason": "Candidate 14 passes as supplied. The artwork maps confidently by connected routing: Hole 1 is the upper long par 3, Hole 2 runs from near G1 down the right side to G2 beside T3, and Hole 3 returns across the bottom to G3. It preserves the compact irregular 5:3 property, folded routing, varied hole orientations, nearby green-to-next-tee connections, and continuous interior grass. The three putting surfaces read as single natural light-green surfaces with restrained fringes, not nested discs or raised platforms.\n\nHole 1 is dry, with a long approach and a sensible center-green option against a more demanding pin attack. Its right/front fairway bunker and right/back greenside sand are recognizable. Hole 2 has one substantial lake along the left side of play; the artwork preserves its long extent and a usable landing corridor. Favoring the dry side offers safety, while shoreline-side positioning can improve the approach. Hole 3 retains its substantial lake to the right of play and the long return fairway. Staged placement away from water remains credible, with bunkers complicating an overly simple safe-side strategy. Lake extents and the relative fairway and green proportions are consistent enough; no clear hazard-side mismatch calls for an edit.\n\nThe par-3/4/5 sequence, dry opener, shoreline cape hole, and long return provide excellent variety within the round. Some hole types resemble recent publications, but the combination and routing remain sufficiently fresh. Simulated shots to green and safe-option counts support fair difficulty; the visible landing corridors and targets also look playable, though the simulation is not conclusive.",
+    "edits": []
+  }
+}

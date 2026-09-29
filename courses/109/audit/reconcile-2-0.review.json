@@ -1,0 +1,35 @@
+{
+  "responseID": "resp_057ff6bc78053988016abbcf5c521087d28798e8e3f92b5650",
+  "model": "gpt-6-luna",
+  "usage": {
+    "input_tokens": 24610,
+    "input_tokens_details": {
+      "cache_write_tokens": 24607,
+      "cached_tokens": 0
+    },
+    "output_tokens": 3475,
+    "output_tokens_details": {
+      "reasoning_tokens": 3155
+    },
+    "total_tokens": 28085
+  },
+  "review": {
+    "candidate": 14,
+    "approved": false,
+    "scores": {
+      "strategy": 4,
+      "withinRoundVariety": 5,
+      "acrossDaysVariety": 4,
+      "fairDifficulty": 4
+    },
+    "reason": "The numbered routing maps confidently: Hole 1 is the dry 220-yard par 3 to G1 near T2; Hole 2 is the 400-yard cape par 4 from T2 to G2 near T3, with the lake alongside the route; Hole 3 is the 573-yard par 5 returning toward G3 with a substantial shoreline. Their dry target, cape choice and long water-lined par 5 give the round strong variety. The tee-option counts and simulated shots support fair playability, though they do not prove it. The artwork is not publishable as shown: its putting greens have broad, high-contrast dark rings around lighter inset surfaces, contrary to the required single natural surface with a narrow, subtle fringe. In addition, Hole 2's illustrated greenside sand is clearly left of G2, while the current geometry places its paired greenside bunkers right/back. Make the safe side correction, then regenerate and review the artwork; this is not approval of unseen changes.",
+    "edits": [
+      {
+        "hole": 1,
+        "control": "bunkerSide",
+        "value": "left",
+        "reason": "The illustrated Hole 2 greenside sand is on the left of G2 relative to play, while the current geometry facts place the paired greenside bunkers right/back. Set the greenside bunker side to match the clear illustrated feature."
+      }
+    ]
+  }
+}

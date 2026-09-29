@@ -1,0 +1,28 @@
+{
+  "responseID": "resp_027208851f40ba29016abbcebdd4f887d295b87d18781496d2",
+  "model": "gpt-6-luna",
+  "usage": {
+    "input_tokens": 47323,
+    "input_tokens_details": {
+      "cache_write_tokens": 47320,
+      "cached_tokens": 0
+    },
+    "output_tokens": 4438,
+    "output_tokens_details": {
+      "reasoning_tokens": 4142
+    },
+    "total_tokens": 51761
+  },
+  "review": {
+    "candidate": 14,
+    "approved": true,
+    "scores": {
+      "strategy": 4,
+      "withinRoundVariety": 5,
+      "acrossDaysVariety": 4,
+      "fairDifficulty": 4
+    },
+    "reason": "Candidate 14 is the strongest balanced round. The numbered geometry shows a compact irregular shared property, folded routing with varied orientations, G1 near T2 and G2 near T3, selective groves with grassy breaks, and continuous interior grass. Hole 1 is a 220-yard long par 3 with a substantial target and greenside bunkering; it offers a controlled center-green option against a more exacting pin attack. Hole 2 is a 400-yard cape par 4 with a substantial shoreline and fairway and greenside bunkers, creating a meaningful choice between a safer line and more assertive positioning. Hole 3 is a 573-yard par 5 with a long lake beside the route and multiple bunkers, giving staged placement real consequences while retaining playable landing space. The par-3/4/5 sequence and contrasting hazard patterns make for excellent within-round variety. Long par 3s, cape holes, and water-lined par 5s have appeared recently, so novelty is not exceptional, but the combination and routing distinguish this set sufficiently. Simulated safe tee options of 52/62/48 support fair difficulty, and the previews show credible landing corridors. No geometry correction is needed.",
+    "edits": []
+  }
+}

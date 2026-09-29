@@ -1,0 +1,28 @@
+{
+  "responseID": "resp_0546c5f5605fcb4a016abbcfaa18c487d2b31b4071af7e7f2f",
+  "model": "gpt-6-luna",
+  "usage": {
+    "input_tokens": 24609,
+    "input_tokens_details": {
+      "cache_write_tokens": 24606,
+      "cached_tokens": 0
+    },
+    "output_tokens": 5857,
+    "output_tokens_details": {
+      "reasoning_tokens": 5635
+    },
+    "total_tokens": 30466
+  },
+  "review": {
+    "candidate": 14,
+    "approved": false,
+    "scores": {
+      "strategy": 4,
+      "withinRoundVariety": 5,
+      "acrossDaysVariety": 4,
+      "fairDifficulty": 4
+    },
+    "reason": "The connected routing is recognizable: Hole 1 is the dry long par 3 with G1 beside T2; Hole 2 is the cape par 4 with a substantial lake and G2 near T3; Hole 3 returns along the lower shoreline to G3. The lake extents and bunker relationships broadly match. The artwork also has a compact irregular property, folded routing, continuous interior grass and a 5:3 landscape composition. However, only two teeing areas are clearly identifiable: the one beside G1 (T2) and the one beside G2 (T3). The geometry places T1 centrally, at the start of Hole 1\u2019s route to G1, but the artwork does not show a clear third tee there. Regenerate the artwork to make that tee and the three-hole routing legible; geometry is unchanged.",
+    "edits": []
+  }
+}

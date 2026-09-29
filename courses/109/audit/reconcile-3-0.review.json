@@ -1,0 +1,28 @@
+{
+  "responseID": "resp_0ab74421700b4e34016abbcffc757087d288f1987a51a81521",
+  "model": "gpt-6-luna",
+  "usage": {
+    "input_tokens": 24610,
+    "input_tokens_details": {
+      "cache_write_tokens": 24607,
+      "cached_tokens": 0
+    },
+    "output_tokens": 2797,
+    "output_tokens_details": {
+      "reasoning_tokens": 2553
+    },
+    "total_tokens": 27407
+  },
+  "review": {
+    "candidate": 14,
+    "approved": false,
+    "scores": {
+      "strategy": 5,
+      "withinRoundVariety": 5,
+      "acrossDaysVariety": 4,
+      "fairDifficulty": 4
+    },
+    "reason": "The connected routing maps confidently: Hole 1 is the dry 220-yard par 3 from T1 to G1 near T2; Hole 2 is the 400-yard cape par 4 from T2 to G2 near T3, with a substantial lake along the left of play; Hole 3 returns across the property as a 573-yard par 5, with its substantial lake along the right of play. The artwork broadly preserves the fairways, lake extents and hazard relationships. Strategically, the dry long par 3, water-side choice on the cape hole and staged par 5 make a varied, playable round. However, the current artwork does not meet the green-treatment requirement: all three greens have conspicuous nested color bands or ring-like collars, particularly G2 and G3, rather than one natural close-mown surface with a narrow, low-contrast fringe. Reject and regenerate the artwork; no geometry edits are warranted.",
+    "edits": []
+  }
+}

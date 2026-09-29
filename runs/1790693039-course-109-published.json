@@ -1,0 +1,377 @@
+{
+  "schemaVersion": 1,
+  "course": 109,
+  "outcome": "published",
+  "error": null,
+  "startedAt": 1790693039,
+  "seconds": 456.0,
+  "reviewModel": "gpt-6-luna",
+  "reviewEffort": "medium",
+  "imageModel": "gpt-image-2.5-sunburst",
+  "candidatesRequested": 50,
+  "calls": [
+    {
+      "phase": "selection",
+      "kind": "review",
+      "model": "gpt-6-luna",
+      "effort": "medium",
+      "responseID": "resp_027208851f40ba29016abbcebdd4f887d295b87d18781496d2",
+      "usage": {
+        "input_tokens": 47323,
+        "input_tokens_details": {
+          "cache_write_tokens": 47320,
+          "cached_tokens": 0
+        },
+        "output_tokens": 4438,
+        "output_tokens_details": {
+          "reasoning_tokens": 4142
+        },
+        "total_tokens": 51761
+      },
+      "seconds": 51.28,
+      "imageCount": 8,
+      "approved": true,
+      "edits": [],
+      "scores": {
+        "strategy": 4,
+        "withinRoundVariety": 5,
+        "acrossDaysVariety": 4,
+        "fairDifficulty": 4
+      }
+    },
+    {
+      "phase": "artwork-0",
+      "kind": "image",
+      "model": "gpt-image-2.5-sunburst",
+      "usage": {
+        "input_tokens": 4062,
+        "input_tokens_details": {
+          "image_tokens": 2863,
+          "text_tokens": 1199
+        },
+        "output_tokens": 343,
+        "output_tokens_details": {
+          "image_tokens": 343,
+          "text_tokens": 0
+        },
+        "total_tokens": 4405
+      },
+      "seconds": 20.43
+    },
+    {
+      "phase": "reconcile-0-0",
+      "kind": "review",
+      "model": "gpt-6-luna",
+      "effort": "medium",
+      "responseID": "resp_0b13044a26628348016abbcf05451087d2b655bf1af512069f",
+      "usage": {
+        "input_tokens": 24610,
+        "input_tokens_details": {
+          "cache_write_tokens": 24607,
+          "cached_tokens": 0
+        },
+        "output_tokens": 2420,
+        "output_tokens_details": {
+          "reasoning_tokens": 2198
+        },
+        "total_tokens": 27030
+      },
+      "seconds": 32.11,
+      "imageCount": 2,
+      "approved": false,
+      "edits": [],
+      "scores": {
+        "strategy": 4,
+        "withinRoundVariety": 5,
+        "acrossDaysVariety": 4,
+        "fairDifficulty": 4
+      }
+    },
+    {
+      "phase": "artwork-1",
+      "kind": "image",
+      "model": "gpt-image-2.5-sunburst",
+      "usage": {
+        "input_tokens": 4262,
+        "input_tokens_details": {
+          "image_tokens": 2863,
+          "text_tokens": 1399
+        },
+        "output_tokens": 343,
+        "output_tokens_details": {
+          "image_tokens": 343,
+          "text_tokens": 0
+        },
+        "total_tokens": 4605
+      },
+      "seconds": 17.37
+    },
+    {
+      "phase": "reconcile-1-0",
+      "kind": "review",
+      "model": "gpt-6-luna",
+      "effort": "medium",
+      "responseID": "resp_06bdcb4d1e6c9d42016abbcf37142c87d2a0ccb1b60689645f",
+      "usage": {
+        "input_tokens": 24610,
+        "input_tokens_details": {
+          "cache_write_tokens": 24607,
+          "cached_tokens": 0
+        },
+        "output_tokens": 1252,
+        "output_tokens_details": {
+          "reasoning_tokens": 1000
+        },
+        "total_tokens": 25862
+      },
+      "seconds": 17.24,
+      "imageCount": 2,
+      "approved": false,
+      "edits": [],
+      "scores": {
+        "strategy": 5,
+        "withinRoundVariety": 5,
+        "acrossDaysVariety": 5,
+        "fairDifficulty": 4
+      }
+    },
+    {
+      "phase": "artwork-2",
+      "kind": "image",
+      "model": "gpt-image-2.5-sunburst",
+      "usage": {
+        "input_tokens": 4292,
+        "input_tokens_details": {
+          "image_tokens": 2863,
+          "text_tokens": 1429
+        },
+        "output_tokens": 343,
+        "output_tokens_details": {
+          "image_tokens": 343,
+          "text_tokens": 0
+        },
+        "total_tokens": 4635
+      },
+      "seconds": 19.36
+    },
+    {
+      "phase": "reconcile-2-0",
+      "kind": "review",
+      "model": "gpt-6-luna",
+      "effort": "medium",
+      "responseID": "resp_057ff6bc78053988016abbcf5c521087d28798e8e3f92b5650",
+      "usage": {
+        "input_tokens": 24610,
+        "input_tokens_details": {
+          "cache_write_tokens": 24607,
+          "cached_tokens": 0
+        },
+        "output_tokens": 3475,
+        "output_tokens_details": {
+          "reasoning_tokens": 3155
+        },
+        "total_tokens": 28085
+      },
+      "seconds": 41.66,
+      "imageCount": 2,
+      "approved": false,
+      "edits": [
+        {
+          "hole": 1,
+          "control": "bunkerSide",
+          "value": "left",
+          "reason": "The illustrated Hole 2 greenside sand is on the left of G2 relative to play, while the current geometry facts place the paired greenside bunkers right/back. Set the greenside bunker side to match the clear illustrated feature."
+        }
+      ],
+      "scores": {
+        "strategy": 4,
+        "withinRoundVariety": 5,
+        "acrossDaysVariety": 4,
+        "fairDifficulty": 4
+      }
+    },
+    {
+      "phase": "reconcile-2-1",
+      "kind": "review",
+      "model": "gpt-6-luna",
+      "effort": "medium",
+      "responseID": "resp_098f9d389e44d470016abbcf8714bc87d295d751ffdafe2d76",
+      "usage": {
+        "input_tokens": 24610,
+        "input_tokens_details": {
+          "cache_write_tokens": 24607,
+          "cached_tokens": 0
+        },
+        "output_tokens": 3018,
+        "output_tokens_details": {
+          "reasoning_tokens": 2648
+        },
+        "total_tokens": 27628
+      },
+      "seconds": 34.45,
+      "imageCount": 2,
+      "approved": true,
+      "edits": [],
+      "scores": {
+        "strategy": 4,
+        "withinRoundVariety": 5,
+        "acrossDaysVariety": 4,
+        "fairDifficulty": 4
+      }
+    },
+    {
+      "phase": "final-2-1",
+      "kind": "review",
+      "model": "gpt-6-luna",
+      "effort": "medium",
+      "responseID": "resp_0546c5f5605fcb4a016abbcfaa18c487d2b31b4071af7e7f2f",
+      "usage": {
+        "input_tokens": 24609,
+        "input_tokens_details": {
+          "cache_write_tokens": 24606,
+          "cached_tokens": 0
+        },
+        "output_tokens": 5857,
+        "output_tokens_details": {
+          "reasoning_tokens": 5635
+        },
+        "total_tokens": 30466
+      },
+      "seconds": 63.14,
+      "imageCount": 2,
+      "approved": false,
+      "edits": [],
+      "scores": {
+        "strategy": 4,
+        "withinRoundVariety": 5,
+        "acrossDaysVariety": 4,
+        "fairDifficulty": 4
+      }
+    },
+    {
+      "phase": "artwork-3",
+      "kind": "image",
+      "model": "gpt-image-2.5-sunburst",
+      "usage": {
+        "input_tokens": 4262,
+        "input_tokens_details": {
+          "image_tokens": 2863,
+          "text_tokens": 1399
+        },
+        "output_tokens": 343,
+        "output_tokens_details": {
+          "image_tokens": 343,
+          "text_tokens": 0
+        },
+        "total_tokens": 4605
+      },
+      "seconds": 18.75
+    },
+    {
+      "phase": "reconcile-3-0",
+      "kind": "review",
+      "model": "gpt-6-luna",
+      "effort": "medium",
+      "responseID": "resp_0ab74421700b4e34016abbcffc757087d288f1987a51a81521",
+      "usage": {
+        "input_tokens": 24610,
+        "input_tokens_details": {
+          "cache_write_tokens": 24607,
+          "cached_tokens": 0
+        },
+        "output_tokens": 2797,
+        "output_tokens_details": {
+          "reasoning_tokens": 2553
+        },
+        "total_tokens": 27407
+      },
+      "seconds": 29.94,
+      "imageCount": 2,
+      "approved": false,
+      "edits": [],
+      "scores": {
+        "strategy": 5,
+        "withinRoundVariety": 5,
+        "acrossDaysVariety": 4,
+        "fairDifficulty": 4
+      }
+    },
+    {
+      "phase": "artwork-4",
+      "kind": "image",
+      "model": "gpt-image-2.5-sunburst",
+      "usage": {
+        "input_tokens": 4284,
+        "input_tokens_details": {
+          "image_tokens": 2863,
+          "text_tokens": 1421
+        },
+        "output_tokens": 343,
+        "output_tokens_details": {
+          "image_tokens": 343,
+          "text_tokens": 0
+        },
+        "total_tokens": 4627
+      },
+      "seconds": 23.75
+    },
+    {
+      "phase": "reconcile-4-0",
+      "kind": "review",
+      "model": "gpt-6-luna",
+      "effort": "medium",
+      "responseID": "resp_08d5bbbb958fee50016abbd032898887d29c81a36c21a9f6e7",
+      "usage": {
+        "input_tokens": 24610,
+        "input_tokens_details": {
+          "cache_write_tokens": 24607,
+          "cached_tokens": 0
+        },
+        "output_tokens": 2556,
+        "output_tokens_details": {
+          "reasoning_tokens": 2170
+        },
+        "total_tokens": 27166
+      },
+      "seconds": 30.69,
+      "imageCount": 2,
+      "approved": true,
+      "edits": [],
+      "scores": {
+        "strategy": 4,
+        "withinRoundVariety": 5,
+        "acrossDaysVariety": 4,
+        "fairDifficulty": 4
+      }
+    },
+    {
+      "phase": "final-4-0",
+      "kind": "review",
+      "model": "gpt-6-luna",
+      "effort": "medium",
+      "responseID": "resp_082458e1099ff83a016abbd051cad087d281de00e16659b310",
+      "usage": {
+        "input_tokens": 24609,
+        "input_tokens_details": {
+          "cache_write_tokens": 24606,
+          "cached_tokens": 0
+        },
+        "output_tokens": 3531,
+        "output_tokens_details": {
+          "reasoning_tokens": 3106
+        },
+        "total_tokens": 28140
+      },
+      "seconds": 37.52,
+      "imageCount": 2,
+      "approved": true,
+      "edits": [],
+      "scores": {
+        "strategy": 4,
+        "withinRoundVariety": 5,
+        "acrossDaysVariety": 4,
+        "fairDifficulty": 4
+      }
+    }
+  ]
+}

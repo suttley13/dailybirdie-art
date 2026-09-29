@@ -1,0 +1,28 @@
+{
+  "responseID": "resp_0b13044a26628348016abbcf05451087d2b655bf1af512069f",
+  "model": "gpt-6-luna",
+  "usage": {
+    "input_tokens": 24610,
+    "input_tokens_details": {
+      "cache_write_tokens": 24607,
+      "cached_tokens": 0
+    },
+    "output_tokens": 2420,
+    "output_tokens_details": {
+      "reasoning_tokens": 2198
+    },
+    "total_tokens": 27030
+  },
+  "review": {
+    "candidate": 14,
+    "approved": false,
+    "scores": {
+      "strategy": 4,
+      "withinRoundVariety": 5,
+      "acrossDaysVariety": 4,
+      "fairDifficulty": 4
+    },
+    "reason": "The artwork maps confidently by labeled routing: the dry long par 3 is T1 to G1, the cape par 4 is T2 to G2, and the water-lined par 5 is T3 to G3. The lake placements and broad extents, landing corridors, and major bunker relationships are generally consistent with the numbered geometry. The par-3/4/5 sequence and dry-versus-wet contrast make a varied, strategically credible round; the cape hole offers a shoreline-side positioning choice, while the long par 3 and par 5 have usable alternatives. The simulated safe options also support fair playability. However, the putting greens visibly violate the required treatment: all three appear as dark outlined or inset discs on larger light-green circles, with conspicuous rings. Reject this rendering for regeneration; no geometry edits are appropriate.",
+    "edits": []
+  }
+}

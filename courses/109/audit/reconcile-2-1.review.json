@@ -1,0 +1,28 @@
+{
+  "responseID": "resp_098f9d389e44d470016abbcf8714bc87d295d751ffdafe2d76",
+  "model": "gpt-6-luna",
+  "usage": {
+    "input_tokens": 24610,
+    "input_tokens_details": {
+      "cache_write_tokens": 24607,
+      "cached_tokens": 0
+    },
+    "output_tokens": 3018,
+    "output_tokens_details": {
+      "reasoning_tokens": 2648
+    },
+    "total_tokens": 27628
+  },
+  "review": {
+    "candidate": 14,
+    "approved": true,
+    "scores": {
+      "strategy": 4,
+      "withinRoundVariety": 5,
+      "acrossDaysVariety": 4,
+      "fairDifficulty": 4
+    },
+    "reason": "Candidate 14 passes as supplied. The artwork maps confidently to the connected routing: Hole 1 runs from the central tee to the upper-left green, Hole 2 follows the upper-right shoreline to the right-side green, and Hole 3 returns along the lower property to the lower-left green. The substantial vertical and horizontal lakes match the geometry\u2019s separate water hazards, and the bunker placements, fairway proportions, and green footprints are sufficiently faithful. The landscape has a compact irregular property, folded routing, varied orientations, grassy breaks between selective groves, continuous interior grass, and white only outside. The greens read as single natural putting surfaces with restrained fringes.\n\nHole 1 is a dry 220-yard par 3 with a generous landing area and bunkers that make pin attacks more demanding than a conservative center-green line. Hole 2 offers a genuine shoreline-side versus safer placement choice, with the lake and fairway bunkers shaping the route. Hole 3 is a long par 5 with substantial water beside the fairway and multiple bunkers; staged play remains credible, while advancing near the lake increases risk. The par-3/4/5 sequence and dry/wet/wet hazard pattern provide excellent variety within the round. Recent rounds have featured several wet long holes and cape designs, but this combination, its dry long par 3, and the different water arrangement offer sufficient freshness. The simulation\u2019s 1/2/3 shots to green and 52/62/48 safe tee options support a testing but playable round; the visible landing corridors also remain usable.",
+    "edits": []
+  }
+}

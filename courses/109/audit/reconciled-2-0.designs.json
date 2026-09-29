@@ -1,0 +1,47 @@
+[
+  {
+    "bendScale": 1,
+    "bunkerScale": 1,
+    "bunkerSide": "automatic",
+    "fairwayScale": 1.16280900343869,
+    "greenScale": 1,
+    "landingZone": 1.456356051004725,
+    "neckWidth": 0.85,
+    "seed": 289333512075,
+    "type": "longPar3",
+    "waterLength": 1.2213146917221696,
+    "waterSide": "automatic",
+    "waterStyle": "automatic",
+    "waterWidth": 0.9491753915452823
+  },
+  {
+    "bendScale": 1,
+    "bunkerScale": 1,
+    "bunkerSide": "left",
+    "fairwayScale": 1.147678263183888,
+    "greenScale": 1,
+    "landingZone": 1.437475432974476,
+    "neckWidth": 0.85,
+    "seed": 289333512076,
+    "type": "capeHole",
+    "waterLength": 1.2623866476567396,
+    "waterSide": "automatic",
+    "waterStyle": "automatic",
+    "waterWidth": 0.9060884942950305
+  },
+  {
+    "bendScale": 1,
+    "bunkerScale": 1,
+    "bunkerSide": "automatic",
+    "fairwayScale": 1.0318431981245195,
+    "greenScale": 1,
+    "landingZone": 1.25797671996013,
+    "neckWidth": 0.85,
+    "seed": 289333512077,
+    "type": "uphillGrinder",
+    "waterLength": 0.9358171675101155,
+    "waterSide": "automatic",
+    "waterStyle": "automatic",
+    "waterWidth": 1.097427991164897
+  }
+]

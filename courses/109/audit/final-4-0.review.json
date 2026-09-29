@@ -1,0 +1,28 @@
+{
+  "responseID": "resp_082458e1099ff83a016abbd051cad087d281de00e16659b310",
+  "model": "gpt-6-luna",
+  "usage": {
+    "input_tokens": 24609,
+    "input_tokens_details": {
+      "cache_write_tokens": 24606,
+      "cached_tokens": 0
+    },
+    "output_tokens": 3531,
+    "output_tokens_details": {
+      "reasoning_tokens": 3106
+    },
+    "total_tokens": 28140
+  },
+  "review": {
+    "candidate": 14,
+    "approved": true,
+    "scores": {
+      "strategy": 4,
+      "withinRoundVariety": 5,
+      "acrossDaysVariety": 4,
+      "fairDifficulty": 4
+    },
+    "reason": "Candidate 14 passes as supplied. The artwork maps to the numbered routing: the dry 220-yard par 3 runs from T1 to G1 near T2; the 400-yard cape par 4 runs from T2 to G2 near T3; and the 573-yard par 5 returns from T3 to G3. The 5:3 landscape keeps a compact irregular property, folded routing, varied hole orientations, grassy breaks, and continuous interior grass. The greens read as single natural putting surfaces with restrained fringes.\n\nHole 1 is a long, dry par 3 with a usable approach corridor and bunkers concentrated to the right and back of the green. It offers less route-choice strategy than the other holes, but center-green play provides a reasonable conservative option against a more precise pin attack. Hole 2 has a substantial lake along the left side of play and a playable fairway beside it. Favoring the safer line trades away an aggressive position; the fairway and greenside bunkers add further placement choices. Hole 3 has a substantial shoreline beside the long fairway, while leaving room for staged play. Its fairway bunkers and greenside sand make simply avoiding the water insufficient as a strategy. The illustrated lake extents, bunker relationships, and fairway-to-green proportions are consistent with the geometry.\n\nThe par-3/4/5 sequence, dry opener, cape decision, and long water-side finish make for strong within-round contrast. Cape holes and long, water-influenced par 5s recur in recent rounds, so novelty is good rather than exceptional, but this combination and sequence remain distinct. Simulated shots-to-green of 1/2/3 and 52/62/48 safe tee options support a testing but playable round; the previews also show credible landing areas.",
+    "edits": []
+  }
+}
