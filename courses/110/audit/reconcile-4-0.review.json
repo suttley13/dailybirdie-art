@@ -1,0 +1,28 @@
+{
+  "responseID": "resp_020f36800f088519016abd220dc30887d2805bb946673bd464",
+  "model": "gpt-6-luna",
+  "usage": {
+    "input_tokens": 25386,
+    "input_tokens_details": {
+      "cache_write_tokens": 25383,
+      "cached_tokens": 0
+    },
+    "output_tokens": 1830,
+    "output_tokens_details": {
+      "reasoning_tokens": 1552
+    },
+    "total_tokens": 27216
+  },
+  "review": {
+    "candidate": 23,
+    "approved": false,
+    "scores": {
+      "strategy": 4,
+      "withinRoundVariety": 5,
+      "acrossDaysVariety": 4,
+      "fairDifficulty": 4
+    },
+    "reason": "The numbered routing maps confidently: Hole 1 is the upper, nearly straight reachable par 5 with its substantial lake above the fairway; Hole 2 is the island-green par 3 near T3; and Hole 3 is the dry dogleg-left par 4 returning to G3. Lake extents, bunker relationships, playable landing areas, and the compact folded property are generally consistent with the geometry. The round has strong contrast in length and routing, and the par-5 / island par-3 / dry dogleg sequence is playable and varied. Some hole types recur in recent rounds, but the combination and hazard arrangement remain sufficiently fresh. However, the putting greens do not meet the required art direction: all three have conspicuous dark, defined rims and surrounding rings rather than a single natural close-mown surface with a narrow, low-contrast fringe. This is an artwork issue, not one that can be corrected safely with geometry controls, so the current artwork is not approved.",
+    "edits": []
+  }
+}

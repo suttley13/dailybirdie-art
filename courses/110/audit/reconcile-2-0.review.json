@@ -1,0 +1,28 @@
+{
+  "responseID": "resp_0c01c1b8abf75ebd016abd21731dd887d281397ed408530366",
+  "model": "gpt-6-luna",
+  "usage": {
+    "input_tokens": 25386,
+    "input_tokens_details": {
+      "cache_write_tokens": 25383,
+      "cached_tokens": 0
+    },
+    "output_tokens": 2732,
+    "output_tokens_details": {
+      "reasoning_tokens": 2529
+    },
+    "total_tokens": 28118
+  },
+  "review": {
+    "candidate": 23,
+    "approved": false,
+    "scores": {
+      "strategy": 4,
+      "withinRoundVariety": 5,
+      "acrossDaysVariety": 4,
+      "fairDifficulty": 4
+    },
+    "reason": "The round\u2019s geometry is promising: Hole 1 offers a long lake-side par-5 placement choice, Hole 2 is a distinct island-green carry, and Hole 3 is a dry dogleg. The par-5/3/4 sequence and safe-option counts of 55/44/55 support variety and playable difficulty. However, the current artwork is not publishable. Its canvas is approximately 16:9 rather than the required 5:3, and it draws a walkway across Hole 2\u2019s surrounding water onto the island green. The routing reference shows the walk-to-next-tee path ending at the shoreline, not a bridge that visually undermines the island carry. Reject for artwork regeneration; geometry is frozen and no edits are requested.",
+    "edits": []
+  }
+}

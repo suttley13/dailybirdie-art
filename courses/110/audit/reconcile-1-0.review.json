@@ -1,0 +1,28 @@
+{
+  "responseID": "resp_058f14e6c22328ff016abd2141601087d2a18375936fd8609e",
+  "model": "gpt-6-luna",
+  "usage": {
+    "input_tokens": 25386,
+    "input_tokens_details": {
+      "cache_write_tokens": 25383,
+      "cached_tokens": 0
+    },
+    "output_tokens": 2686,
+    "output_tokens_details": {
+      "reasoning_tokens": 2399
+    },
+    "total_tokens": 28072
+  },
+  "review": {
+    "candidate": 23,
+    "approved": false,
+    "scores": {
+      "strategy": 4,
+      "withinRoundVariety": 5,
+      "acrossDaysVariety": 4,
+      "fairDifficulty": 4
+    },
+    "reason": "The numbered routing maps clearly to the artwork: Hole 1 is the long lakeside par 5, Hole 2 the island-green par 3, and Hole 3 the dry dogleg-left par 4. The geometry is strategically sound and playable. Hole 1 balances a safer line away from its substantial lake against an aggressive reachable-in-two attempt; Hole 2 is a distinct carry and distance-control test; Hole 3 offers a wooded shortcut against a safer route around the bend. The par-5/3/4 sequence and mix of wet and dry holes give strong within-round variety. Island greens and reachable par 5s recur in the recent history, but the dry dogleg finish and this particular sequence provide adequate freshness. Safe-option counts and landing areas support fair difficulty, with the island carry appropriately the most demanding. However, the supplied artwork is 1707\u00d7960 (about 16:9), not the required 5:3 landscape canvas. It also renders the central tree grouping as a nearly continuous divider between lanes, rather than the required selective groves with clear grassy breaks. Reject the current artwork for regeneration; no geometry edits are warranted.",
+    "edits": []
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "responseID": "resp_029a4e12930940d1016abd227cc78087d29922e53fcf7deb7b",
+  "model": "gpt-6-luna",
+  "usage": {
+    "input_tokens": 25386,
+    "input_tokens_details": {
+      "cache_write_tokens": 25383,
+      "cached_tokens": 0
+    },
+    "output_tokens": 3029,
+    "output_tokens_details": {
+      "reasoning_tokens": 2766
+    },
+    "total_tokens": 28415
+  },
+  "review": {
+    "candidate": 23,
+    "approved": false,
+    "scores": {
+      "strategy": 4,
+      "withinRoundVariety": 5,
+      "acrossDaysVariety": 4,
+      "fairDifficulty": 4
+    },
+    "reason": "Candidate 23 has a strong, playable mix: Hole 1 offers a broad lakeside par-5 route, Hole 2 is a distinct island-green carry, and Hole 3 is a dry dogleg. The landing-option counts and visible corridors support fair difficulty. The illustration maps confidently to the labeled routing and generally preserves the shoreline and fairway shapes. However, Hole 2\u2019s only bunker is shown to the right of the approach landing patch, while geometryFacts places it left relative to play from T3 toward G2. The present geometry therefore does not match that clear illustrated feature. The putting greens also have conspicuous dark rims; they should be rendered as single natural close-mown surfaces with a narrow, low-contrast fringe. Not approved pending correction.",
+    "edits": [
+      {
+        "hole": 1,
+        "control": "bunkerSide",
+        "value": "right",
+        "reason": "Hole 2\u2019s illustrated approach bunker is on the right relative to play from T3 toward G2, but the current geometry places its bunker left. Set the side to match the clear illustrated placement."
+      }
+    ]
+  }
+}

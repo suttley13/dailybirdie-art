@@ -1,0 +1,28 @@
+{
+  "responseID": "resp_070079eb2cfc6c82016abd21c8c28887d2be190eb20cd03915",
+  "model": "gpt-6-luna",
+  "usage": {
+    "input_tokens": 25385,
+    "input_tokens_details": {
+      "cache_write_tokens": 25382,
+      "cached_tokens": 0
+    },
+    "output_tokens": 2551,
+    "output_tokens_details": {
+      "reasoning_tokens": 2292
+    },
+    "total_tokens": 27936
+  },
+  "review": {
+    "candidate": 23,
+    "approved": false,
+    "scores": {
+      "strategy": 4,
+      "withinRoundVariety": 5,
+      "acrossDaysVariety": 3,
+      "fairDifficulty": 4
+    },
+    "reason": "Candidate 23 has a varied, playable set: the reachable par 5 offers a choice between advancing and staging, the island par 3 tests carry and distance control, and the dry dogleg-left par 4 provides a contrasting route choice. Safe tee options are ample, though the par 5\u2019s simulated two-shot reach should be treated as an opportunity rather than a guarantee. Across recent rounds, island greens and reachable or water-influenced par 5s recur, so novelty is more limited. The current artwork is not faithful enough to approve: it omits the clearly mapped T1 and T2 tee markers, and the putting greens\u2014especially G2 and G3\u2014read as bright inset surfaces with pronounced dark rims rather than single natural sage/apple-green surfaces with a narrow, low-contrast fringe. The numbered routing and major lake placements otherwise map clearly: Hole 1 has its long shoreline, Hole 2 is the island green, and Hole 3 is dry. Regenerate the artwork; no geometry edits are requested.",
+    "edits": []
+  }
+}

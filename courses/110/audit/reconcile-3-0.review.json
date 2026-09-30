@@ -1,0 +1,28 @@
+{
+  "responseID": "resp_03ee30855bcde022016abd21a4468087d28692a2b5e9556eff",
+  "model": "gpt-6-luna",
+  "usage": {
+    "input_tokens": 25386,
+    "input_tokens_details": {
+      "cache_write_tokens": 25383,
+      "cached_tokens": 0
+    },
+    "output_tokens": 3658,
+    "output_tokens_details": {
+      "reasoning_tokens": 3306
+    },
+    "total_tokens": 29044
+  },
+  "review": {
+    "candidate": 23,
+    "approved": true,
+    "scores": {
+      "strategy": 4,
+      "withinRoundVariety": 5,
+      "acrossDaysVariety": 4,
+      "fairDifficulty": 4
+    },
+    "reason": "Candidate 23 passes as supplied. The artwork maps confidently by connected routing: Hole 1 is the upper reachable par 5 from T1 to G1 near T2; Hole 2 is the island-green par 3 from T3 to G2; Hole 3 is the dry dogleg-left par 4 returning to G3. The substantial upper shoreline on Hole 1, island lake on Hole 2, and absence of water on Hole 3 match the authoritative geometry. Bunker placement and the landing areas are also consistent, including the separated greenside clusters around G3. Fairway, lake, and green proportions are credible, and the greens read as single natural putting surfaces with restrained fringes. The 5:3 artwork retains a compact irregular property, folded routing, varied orientations, grassy breaks within selective groves, and continuous interior grass. Strategically, the par 5 offers staged play versus a more aggressive reach, the island par 3 tests carry and distance control, and the dogleg par 4 offers a safer fairway route versus an inside-corner attack. The par-5/3/4 sequence and dry finish give excellent within-round variety. Island greens recur in recent rounds, so across-days novelty is good rather than exceptional, but the combination and routing remain distinct. Simulated shots-to-green of 2/1/1 and 55/44/55 safe tee options support a testing but playable round; the visible landing areas also remain reasonable.",
+    "edits": []
+  }
+}

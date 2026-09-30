@@ -1,0 +1,28 @@
+{
+  "responseID": "resp_0f33c658f283e214016abd22388bd887d2a6164ef1346aa84a",
+  "model": "gpt-6-luna",
+  "usage": {
+    "input_tokens": 25386,
+    "input_tokens_details": {
+      "cache_write_tokens": 25383,
+      "cached_tokens": 0
+    },
+    "output_tokens": 4288,
+    "output_tokens_details": {
+      "reasoning_tokens": 3994
+    },
+    "total_tokens": 29674
+  },
+  "review": {
+    "candidate": 23,
+    "approved": false,
+    "scores": {
+      "strategy": 4,
+      "withinRoundVariety": 5,
+      "acrossDaysVariety": 4,
+      "fairDifficulty": 4
+    },
+    "reason": "The round has good strategic contrast: Hole 1 offers a safe staged route versus a more aggressive attempt to reach in two beside the substantial lake; Hole 2 is a demanding island-green carry with a more conservative center target; and Hole 3 offers a route around the dogleg versus a more aggressive line. The par-5/3/4 sequence and the mix of a long shoreline, island target and dry dogleg provide strong within-round variety. Island greens and reachable par 5s recur in recent rounds, but this combination and sequence remain sufficiently distinct. The simulation and geometry show credible difficulty: safe tee options are 55/44/55, and the island carry is balanced by usable landing space on the other holes.\n\nThe artwork otherwise maps to the numbered routing and preserves Hole 1's long lake, Hole 2's surrounding water, and Hole 3's dry dogleg. However, on Hole 3 the illustrated fairway visibly stops short of G3, with rough separating the fairway from the green and its greenside bunkers. That breaks the apparent playable route and does not faithfully render the connected geometry. Reject the current artwork for regeneration; no geometry edits are warranted.",
+    "edits": []
+  }
+}

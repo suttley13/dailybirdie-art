@@ -1,7 +1,46 @@
 {
   "schemaVersion": 1,
-  "generatedAt": 1790693495,
+  "generatedAt": 1790780143,
   "runs": [
+    {
+      "file": "1790779556-course-110-published.json",
+      "course": 110,
+      "outcome": "published",
+      "error": null,
+      "startedAt": 1790779556,
+      "seconds": 586.82,
+      "reviewModel": "gpt-6-luna",
+      "reviewEffort": "medium",
+      "imageModel": "gpt-image-2.5-sunburst",
+      "callCount": 19,
+      "totals": {
+        "review": {
+          "calls": 12,
+          "tokens": {
+            "input_tokens": 327478,
+            "input_cache_write_tokens": 327442,
+            "input_cached_tokens": 0,
+            "output_tokens": 38142,
+            "output_reasoning_tokens": 34256,
+            "total_tokens": 365620
+          },
+          "unreported": 0
+        },
+        "image": {
+          "calls": 7,
+          "tokens": {
+            "input_tokens": 29751,
+            "input_image_tokens": 20041,
+            "input_text_tokens": 9710,
+            "output_tokens": 2401,
+            "output_image_tokens": 2401,
+            "output_text_tokens": 0,
+            "total_tokens": 32152
+          },
+          "unreported": 0
+        }
+      }
+    },
     {
       "file": "1790693039-course-109-published.json",
       "course": 109,

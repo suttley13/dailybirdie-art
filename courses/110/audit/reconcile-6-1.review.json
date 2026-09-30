@@ -1,0 +1,28 @@
+{
+  "responseID": "resp_066113e71b05a252016abd229d568c87d2985f46377511d3da",
+  "model": "gpt-6-luna",
+  "usage": {
+    "input_tokens": 25385,
+    "input_tokens_details": {
+      "cache_write_tokens": 25382,
+      "cached_tokens": 0
+    },
+    "output_tokens": 3255,
+    "output_tokens_details": {
+      "reasoning_tokens": 2849
+    },
+    "total_tokens": 28640
+  },
+  "review": {
+    "candidate": 23,
+    "approved": true,
+    "scores": {
+      "strategy": 4,
+      "withinRoundVariety": 5,
+      "acrossDaysVariety": 4,
+      "fairDifficulty": 4
+    },
+    "reason": "Candidate 23 passes as supplied. The artwork maps confidently to the numbered routing: Hole 1 is the long upper fairway from T1 to G1 near T2, Hole 2 is the island green reached from T3, and Hole 3 is the dry bending route to G3. The 5:3 illustration has a compact irregular property and folded routing, with continuous interior grass, selective groves with breaks, and single natural-looking greens with restrained fringes. Lake extents, bunker relationships, and fairway-to-green proportions are sufficiently consistent with the geometry.\n\nHole 1 offers a substantial lake-side par-5 choice: favoring the broad fairway away from the shoreline supports a safer staged route, while advancing aggressively along the lake offers a chance to reach in two. Hole 2 is a clear carry-and-distance-control test; the island is demanding, but the 176-yard length and available tee options make it reasonable. Hole 3 provides a dry dogleg contrast, with fairway and greenside bunkers adding consequence to the direct line. Its simulated one-shot reach is an opportunity signal, not proof of an effortless drive; the visible route remains playable.\n\nThe par-5/3/4 sequence and contrast between a broad lakeside hole, an island target, and a dry dogleg give strong variety within the round. Island greens and reachable lakeside par 5s recur in recent rounds, so novelty is moderate, but the changed sequence and dry dogleg finish distinguish this set from the latest courses. The 55/44/55 safe tee options and simulated 2/1/1 shots to green support fair difficulty, alongside credible landing areas in the previews. No clear artwork mismatch warrants a geometry edit.",
+    "edits": []
+  }
+}

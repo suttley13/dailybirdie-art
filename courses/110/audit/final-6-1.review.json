@@ -1,0 +1,28 @@
+{
+  "responseID": "resp_07501c9f9ef438cb016abd22bf77d087d2b59bce93c9468dbd",
+  "model": "gpt-6-luna",
+  "usage": {
+    "input_tokens": 25384,
+    "input_tokens_details": {
+      "cache_write_tokens": 25381,
+      "cached_tokens": 0
+    },
+    "output_tokens": 4472,
+    "output_tokens_details": {
+      "reasoning_tokens": 4069
+    },
+    "total_tokens": 29856
+  },
+  "review": {
+    "candidate": 23,
+    "approved": true,
+    "scores": {
+      "strategy": 4,
+      "withinRoundVariety": 5,
+      "acrossDaysVariety": 4,
+      "fairDifficulty": 4
+    },
+    "reason": "Candidate 23 passes as supplied. The artwork maps confidently to the labeled routing: Hole 1 runs from T1 across the upper fairway to G1 near T2, Hole 2 is the island-green par 3 from T2 to G2, and Hole 3 bends from T3 toward G3. The compact irregular 5:3 property, folded routing, grassy breaks, and continuous interior grass are preserved. The greens read as single natural surfaces with restrained fringes, not nested discs or raised platforms.\n\nHole 1 has a substantial lake alongside the long par-5 fairway, with usable landing space and greenside bunkers near G1. Playing away from the lake offers a safer staged route; taking on distance for a chance to reach in two carries greater risk. Hole 2\u2019s surrounding water makes the 176-yard par 3 a genuine carry and distance-control test, while the target remains substantial enough for a sensible center-green aim. Hole 3 is dry and bends left, with a broad route around the wooded interior and a more aggressive shortcut; its bunkering adds consequence without closing off the playable line. The artwork retains the major lake extents and hazard relationships, and I see no unambiguous, safely correctable geometry mismatch.\n\nThe par-5/3/4 sequence contrasts a lakeside scoring opportunity, an island carry, and a dry dogleg. Island greens and water-lined longer holes recur in recent rounds, but this combination and the dry finishing dogleg provide sufficient freshness. Simulated shots-to-green of 2/1/1 and 55/44/55 safe tee options support a testing but playable round; the illustrated landing corridors also look credible. No edits are needed.",
+    "edits": []
+  }
+}

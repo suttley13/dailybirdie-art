@@ -1,0 +1,28 @@
+{
+  "responseID": "resp_0e494abc24e150f0016abd20b2ff6c87d2919269f1671f7d4a",
+  "model": "gpt-6-luna",
+  "usage": {
+    "input_tokens": 48237,
+    "input_tokens_details": {
+      "cache_write_tokens": 48234,
+      "cached_tokens": 0
+    },
+    "output_tokens": 4282,
+    "output_tokens_details": {
+      "reasoning_tokens": 3898
+    },
+    "total_tokens": 52519
+  },
+  "review": {
+    "candidate": 23,
+    "approved": true,
+    "scores": {
+      "strategy": 4,
+      "withinRoundVariety": 5,
+      "acrossDaysVariety": 4,
+      "fairDifficulty": 4
+    },
+    "reason": "Candidate 23 passes as supplied. The numbered routing maps clearly: Hole 1 runs from T1 across the upper property to G1 near T2; Hole 2 plays from T2 to the island G2 near T3; Hole 3 returns across the lower property to G3. The compact irregular landscape, folded routing, varied orientations, grassy breaks, and continuous interior grass meet the current art direction. The green surfaces are single natural light-green areas, and white is confined to the exterior.\n\nHole 1 is a 483-yard reachable par 5 with a substantial lake along the fairway and a usable landing corridor. Favoring the safer side contrasts with advancing aggressively for a possible two-shot finish. Hole 2 is a 176-yard island par 3: the carry is demanding, but the separate foreground landing area and 44 simulated safe options support a playable conservative target. Hole 3 is a dry 371-yard dogleg-left par 4. The bend and fairway bunkers make cutting toward the green a meaningful risk-reward choice; the simulated one-shot reach indicates an opportunity, not a guaranteed easy score.\n\nThe par-5/3/4 sequence, substantial shoreline, island carry, and dry dogleg provide strong within-round variety. Island greens and reachable par 5s recur in recent rounds, but this combination, the dry dogleg finish, and the hole sequence give sufficient freshness. The safe-option counts of 55/44/55 support fair difficulty, alongside credible landing areas in the previews. Lake extents and relative fairway and green proportions are sufficiently faithful; no geometry edits are warranted.",
+    "edits": []
+  }
+}

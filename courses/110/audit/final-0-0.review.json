@@ -1,0 +1,28 @@
+{
+  "responseID": "resp_0bb8c4e668d8eb43016abd2111b80487d2a6e2f68c386cf5d2",
+  "model": "gpt-6-luna",
+  "usage": {
+    "input_tokens": 25385,
+    "input_tokens_details": {
+      "cache_write_tokens": 25382,
+      "cached_tokens": 0
+    },
+    "output_tokens": 2305,
+    "output_tokens_details": {
+      "reasoning_tokens": 2014
+    },
+    "total_tokens": 27690
+  },
+  "review": {
+    "candidate": 23,
+    "approved": false,
+    "scores": {
+      "strategy": 4,
+      "withinRoundVariety": 5,
+      "acrossDaysVariety": 4,
+      "fairDifficulty": 4
+    },
+    "reason": "The numbered routing maps confidently to the artwork: Hole 1 is the upper cross-property par 5 with a substantial lake alongside the fairway, Hole 2 is the island-green par 3, and Hole 3 is the dry dogleg-left par 4. The geometry is strategically varied and playable: the par-5 shoreline offers safer staged play versus a more aggressive line, the island is a distinct carry test, and the final dogleg has a different, dry challenge. The 5/3/4 sequence provides strong within-round contrast. Island greens have appeared in recent rounds, but this combination and the dry final hole retain sufficient freshness. Safe tee options are plentiful; Hole 3\u2019s simulated one-shot reach merits attention but does not alone establish an unfair hole given its dogleg and trees. Do not publish the current artwork: its 1707\u00d7960 canvas is 16:9, not the required 5:3 landscape. Also, the geometry lists a bunker left/front of Hole 2\u2019s green, which is not clearly represented around the island in the artwork. Regenerate the artwork rather than altering geometry to compensate for an omitted feature; no geometry edits are requested.",
+    "edits": []
+  }
+}

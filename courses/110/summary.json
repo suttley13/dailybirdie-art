@@ -1,0 +1,84 @@
+{
+  "course": 110,
+  "geometrySHA256": "eceed818a622baba719b1f741d95b7a88a426a006a0ad990a8ce5ff7902d0bbf",
+  "artworkSHA256": "b280d482c1745d5509e5261ffe0380e6ec85f502946c1591b019f27f1caa5473",
+  "holes": [
+    {
+      "bunkerCount": 5,
+      "fairwayArea": 31672.956780864744,
+      "par": 5,
+      "route": [
+        [
+          200,
+          40
+        ],
+        [
+          201.34022415757764,
+          386.24936639849517
+        ],
+        [
+          201.47458657368296,
+          608.6801091697184
+        ]
+      ],
+      "simulatedShotsToGreen": 2,
+      "teeSafeOptions": 55,
+      "type": "reachablePar5",
+      "waterArea": 22109.46411110318,
+      "yards": 483
+    },
+    {
+      "bunkerCount": 1,
+      "fairwayArea": 4867.308335597868,
+      "par": 3,
+      "route": [
+        [
+          200,
+          40
+        ],
+        [
+          200.09073193123126,
+          244.4726606471552
+        ]
+      ],
+      "simulatedShotsToGreen": 1,
+      "teeSafeOptions": 44,
+      "type": "islandGreen",
+      "waterArea": 22725.041100780312,
+      "yards": 176
+    },
+    {
+      "bunkerCount": 7,
+      "fairwayArea": 17166.363003523547,
+      "par": 4,
+      "route": [
+        [
+          280,
+          40
+        ],
+        [
+          140.23686432376743,
+          365.03992768317835
+        ]
+      ],
+      "simulatedShotsToGreen": 1,
+      "teeSafeOptions": 55,
+      "type": "doglegLeft",
+      "waterArea": 0,
+      "yards": 371
+    }
+  ],
+  "review": {
+    "candidate": 23,
+    "approved": true,
+    "scores": {
+      "strategy": 4,
+      "withinRoundVariety": 5,
+      "acrossDaysVariety": 4,
+      "fairDifficulty": 4
+    },
+    "reason": "Candidate 23 passes as supplied. The artwork maps confidently to the labeled routing: Hole 1 runs from T1 across the upper fairway to G1 near T2, Hole 2 is the island-green par 3 from T2 to G2, and Hole 3 bends from T3 toward G3. The compact irregular 5:3 property, folded routing, grassy breaks, and continuous interior grass are preserved. The greens read as single natural surfaces with restrained fringes, not nested discs or raised platforms.\n\nHole 1 has a substantial lake alongside the long par-5 fairway, with usable landing space and greenside bunkers near G1. Playing away from the lake offers a safer staged route; taking on distance for a chance to reach in two carries greater risk. Hole 2\u2019s surrounding water makes the 176-yard par 3 a genuine carry and distance-control test, while the target remains substantial enough for a sensible center-green aim. Hole 3 is dry and bends left, with a broad route around the wooded interior and a more aggressive shortcut; its bunkering adds consequence without closing off the playable line. The artwork retains the major lake extents and hazard relationships, and I see no unambiguous, safely correctable geometry mismatch.\n\nThe par-5/3/4 sequence contrasts a lakeside scoring opportunity, an island carry, and a dry dogleg. Island greens and water-lined longer holes recur in recent rounds, but this combination and the dry finishing dogleg provide sufficient freshness. Simulated shots-to-green of 2/1/1 and 55/44/55 safe tee options support a testing but playable round; the illustrated landing corridors also look credible. No edits are needed.",
+    "edits": []
+  },
+  "artworkStatus": "approved"
+}
