@@ -1,0 +1,28 @@
+{
+  "responseID": "resp_0d936f4562862cf1016abe7a142a0487d1b2ba1365c9697328",
+  "model": "gpt-6-luna",
+  "usage": {
+    "input_tokens": 26225,
+    "input_tokens_details": {
+      "cache_write_tokens": 26222,
+      "cached_tokens": 0
+    },
+    "output_tokens": 3240,
+    "output_tokens_details": {
+      "reasoning_tokens": 2950
+    },
+    "total_tokens": 29465
+  },
+  "review": {
+    "candidate": 40,
+    "approved": false,
+    "scores": {
+      "strategy": 4,
+      "withinRoundVariety": 5,
+      "acrossDaysVariety": 4,
+      "fairDifficulty": 4
+    },
+    "reason": "Reject the current artwork for regeneration; no geometry edits are warranted. The labeled routing maps confidently: Hole 1 is the lakeside reachable par 5, Hole 2 is the bending par 4 with the lower-left lake, and Hole 3 is the dry long par 3. The substantial lake extents, bunker relationships, compact irregular property, folded routing, and grassy breaks are broadly consistent with the geometry. However, the putting greens\u2014most noticeably G2 and G3\u2014read as bright inset surfaces with pronounced dark outlined rims, rather than single natural sage/apple-green surfaces with a narrow, low-contrast fringe. That violates the required green treatment and cannot be corrected through geometry controls. Strategically, the reachable par 5 offers a water-risk versus staged-play choice, the dogleg par 4 contrasts with it, and the dry long par 3 rounds out the set. Recent rounds have repeated water-lined longer holes and island targets, but this combination remains distinct. The simulation and visible landing areas support a testing but playable round; the possible one-shot reach on the 397-yard par 4 deserves awareness, but does not alone establish unfairness or require a geometry change.",
+    "edits": []
+  }
+}

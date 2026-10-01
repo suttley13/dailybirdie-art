@@ -1,0 +1,28 @@
+{
+  "responseID": "resp_01c90fd29bfd1aa9016abe7a5fff4c87d1a6395bcc63390c0b",
+  "model": "gpt-6-luna",
+  "usage": {
+    "input_tokens": 26224,
+    "input_tokens_details": {
+      "cache_write_tokens": 26221,
+      "cached_tokens": 0
+    },
+    "output_tokens": 3457,
+    "output_tokens_details": {
+      "reasoning_tokens": 3078
+    },
+    "total_tokens": 29681
+  },
+  "review": {
+    "candidate": 40,
+    "approved": true,
+    "scores": {
+      "strategy": 4,
+      "withinRoundVariety": 5,
+      "acrossDaysVariety": 4,
+      "fairDifficulty": 4
+    },
+    "reason": "Candidate 40 passes as supplied. The artwork maps confidently to the labeled routing: the long upper fairway is Hole 1, the bending lower-left route is Hole 2, and the dry par 3 finishes at G3 on the right. Hole 1 retains its substantial shoreline, playable fairway, fairway bunker opposite the water, and greenside bunkers. Safer placement away from the lake contrasts with trying to advance for a chance to reach in two. Hole 2 preserves the dogleg, its single shoreline hazard and greenside sand; following the bend is the safer option, while a more direct line calls for control. Hole 3 is dry, with the greenside bunker groups visible around the target, making the 227-yard shot a distance-control test rather than a water carry. The putting surfaces read as single natural greens with restrained fringes. The 5:3 canvas, compact irregular property, folded routing, nearby G1/T2 and G2/T3 connections, and continuous interior grass are retained; the central grove has grassy breaks rather than forming a wall across every lane. The par-5/4/3 sequence and two contrasting wet holes give strong within-round variety. Recent rounds feature many water holes and reachable par 5s, so novelty is good rather than exceptional, but the dry long par 3 and changed sequence provide sufficient distinction. Simulated shots-to-green of 2/1/1 and 43/43/55 safe tee options support a challenging but playable round; the previews also show credible landing space. No clear hazard-side or proportion mismatch requires a safe geometry change.",
+    "edits": []
+  }
+}

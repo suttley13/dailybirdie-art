@@ -1,0 +1,28 @@
+{
+  "responseID": "resp_0981d5f4832d8440016abe793cf3a487d1938bae799d7bf94f",
+  "model": "gpt-6-luna",
+  "usage": {
+    "input_tokens": 49887,
+    "input_tokens_details": {
+      "cache_write_tokens": 49884,
+      "cached_tokens": 0
+    },
+    "output_tokens": 4222,
+    "output_tokens_details": {
+      "reasoning_tokens": 3889
+    },
+    "total_tokens": 54109
+  },
+  "review": {
+    "candidate": 40,
+    "approved": true,
+    "scores": {
+      "strategy": 4,
+      "withinRoundVariety": 5,
+      "acrossDaysVariety": 4,
+      "fairDifficulty": 4
+    },
+    "reason": "Candidate 40 is the strongest balanced choice. The numbered preview shows a compact, irregular property with folded routing: G1 sits near T2 and G2 near T3, with varied hole orientations and playable grass between selective groves. Hole 1 is a 483-yard reachable par 5 with substantial water alongside the route; a staged line away from the shoreline is credible, while chasing a chance to reach in two carries more risk. Hole 2 is a 397-yard dogleg-left par 4 with a meaningful choice between following the bend and taking a more aggressive line near its substantial lake. The one-shot simulated reach is evidence of an opportunity, not proof that the shortcut is reliably safe. Hole 3 is a dry 227-yard par 3, offering a long distance-control test without another forced water carry. The par-5/4/3 sequence and mix of two shoreline decisions with a dry long par 3 provide excellent within-round variety. Reachable water-side par 5s recur in recent rounds, including course 110, so novelty is good rather than exceptional; the added wet dogleg and dry par 3 make this combination meaningfully different. Simulated shots-to-green of 2/1/1 and 43/43/55 safe tee options support a challenging but playable round, while the preview shows usable landing routes. No clearly warranted geometry change is needed.",
+    "edits": []
+  }
+}

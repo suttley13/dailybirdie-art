@@ -1,0 +1,28 @@
+{
+  "responseID": "resp_01c4b22232c08f6b016abe79d54ea087d18ffe1dfe3d45ec50",
+  "model": "gpt-6-luna",
+  "usage": {
+    "input_tokens": 26225,
+    "input_tokens_details": {
+      "cache_write_tokens": 26222,
+      "cached_tokens": 0
+    },
+    "output_tokens": 3716,
+    "output_tokens_details": {
+      "reasoning_tokens": 3478
+    },
+    "total_tokens": 29941
+  },
+  "review": {
+    "candidate": 40,
+    "approved": false,
+    "scores": {
+      "strategy": 4,
+      "withinRoundVariety": 4,
+      "acrossDaysVariety": 4,
+      "fairDifficulty": 4
+    },
+    "reason": "The numbered routing maps confidently: Hole 1 runs from T1 across the upper fairway to G1 near T2, Hole 2 returns from T2 to G2 near T3, and Hole 3 runs from T3 to G3. The substantial upper lake, smaller Hole 2 lake, dry Hole 3, and bunker placements generally track the geometry; the landing corridors remain playable. The par-5/4/3 sequence and wet/wet/dry pattern give useful variety. Reachable opportunities on the par 5 and dogleg par 4 are balanced by meaningful hazards, with the safe-option counts supporting fair playability. However, the artwork does not meet the required putting-green treatment: all three greens have conspicuous dark outlined rims and layered-looking collars, rather than a single natural close-mown surface with a narrow, low-contrast fringe. Reject for artwork regeneration; no geometry edits are requested.",
+    "edits": []
+  }
+}

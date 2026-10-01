@@ -1,0 +1,28 @@
+{
+  "responseID": "resp_00c5ff267caaa306016abe798042fc87d1909c51d8862f32a7",
+  "model": "gpt-6-luna",
+  "usage": {
+    "input_tokens": 26225,
+    "input_tokens_details": {
+      "cache_write_tokens": 26222,
+      "cached_tokens": 0
+    },
+    "output_tokens": 3301,
+    "output_tokens_details": {
+      "reasoning_tokens": 2807
+    },
+    "total_tokens": 29526
+  },
+  "review": {
+    "candidate": 40,
+    "approved": true,
+    "scores": {
+      "strategy": 4,
+      "withinRoundVariety": 5,
+      "acrossDaysVariety": 4,
+      "fairDifficulty": 4
+    },
+    "reason": "Candidate 40 passes as supplied. The artwork maps to the numbered connected routing: Hole 1 is the long upper fairway from the right-side tee to G1 beside T2; Hole 2 bends from T2 toward G2 beside T3; and Hole 3 runs from T3 to the right-side G3. Hazard relationships are consistent with the geometry. Hole 1 retains its substantial lake along the right side of play, fairway sand, and greenside bunker groups. Hole 2 preserves the lake along the safer-side alternative and the bunker cluster beside G2. Hole 3 is dry and retains bunker groups at the back of the green. The lake extents and relative fairway and green proportions are credible.\n\nStrategically, Hole 1 offers a meaningful choice between a safer route away from the long shoreline and an aggressive attempt to advance toward the green in two. Hole 2's bending route and lake create a placement decision, with bunkers adding consequences near the target. Hole 3 is a long par 3 with a generous target but several greenside bunkers, making center-green play a sensible alternative to a pin attack. The simulated one-shot reach on Hole 2 signals an attacking possibility, not a guaranteed easy result.\n\nThe par-5/par-4/par-3 sequence, two shoreline holes followed by a dry finish, and contrasting bending and long-par-3 challenges provide excellent variety within the round. Recent rounds repeat some elements, including a dogleg-left par 4 and reachable par 5, but the combination of water on the first two holes and a dry long-par-3 finish remains distinct. Simulated shots to green and safe tee options support fair difficulty; the visible landing areas and targets also look playable.\n\nThe artwork follows the current direction: a landscape 5:3 canvas, compact irregular shared property, folded routing with varied orientations, and G1 near T2 and G2 near T3. Grassy gaps remain among the groves, and grass is continuous inside the property with white outside. The greens read as single natural apple-green surfaces with restrained fringes. No clear hazard-side or proportion mismatch warrants an edit.",
+    "edits": []
+  }
+}

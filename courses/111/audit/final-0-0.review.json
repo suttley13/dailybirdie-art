@@ -1,0 +1,28 @@
+{
+  "responseID": "resp_0c2b7a271103c450016abe79a379bc87d1a7b58ed3c8ea1a28",
+  "model": "gpt-6-luna",
+  "usage": {
+    "input_tokens": 26224,
+    "input_tokens_details": {
+      "cache_write_tokens": 26221,
+      "cached_tokens": 0
+    },
+    "output_tokens": 2403,
+    "output_tokens_details": {
+      "reasoning_tokens": 2068
+    },
+    "total_tokens": 28627
+  },
+  "review": {
+    "candidate": 40,
+    "approved": false,
+    "scores": {
+      "strategy": 4,
+      "withinRoundVariety": 5,
+      "acrossDaysVariety": 3,
+      "fairDifficulty": 3
+    },
+    "reason": "Reject the current artwork for regeneration; no geometry edits are requested. The numbered routing is identifiable: Hole 1 is the upper shoreline par 5 ending at G1 near T2, Hole 2 bends from T2 toward G2 near T3, and Hole 3 is the dry long par 3 to G3. The two illustrated lakes are consistent with the geometry's water counts. However, the artwork canvas is much wider than the required 5:3 landscape, the putting greens have conspicuous thick dark rings rather than a narrow low-contrast fringe, and the dense central tree mass reads as a wall dividing the lanes. The extra-looking lower-right fairway also makes the routing less clear than the mapped three-hole layout. Hole-by-hole strategy is sound: Hole 1 offers a broad route alongside a substantial lake, Hole 2 combines a dogleg and water with a safer route, and Hole 3 offers a dry, bunker-guarded target. The par-5/4/3 sequence provides strong variety within the round. Across recent publications, though, reachable par 5s and bending par 4s recur, limiting novelty. Difficulty is borderline: safe tee options are reasonable, but the 397-yard par 4 is simulated as reaching the green in one shot, alongside a two-shot reachable par 5; the hazards help, but this still looks overly attackable overall.",
+    "edits": []
+  }
+}

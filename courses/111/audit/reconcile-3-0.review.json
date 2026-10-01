@@ -1,0 +1,28 @@
+{
+  "responseID": "resp_0a2c56b706eb0b04016abe7a4be38887d18c742188bb0df849",
+  "model": "gpt-6-luna",
+  "usage": {
+    "input_tokens": 26225,
+    "input_tokens_details": {
+      "cache_write_tokens": 26222,
+      "cached_tokens": 0
+    },
+    "output_tokens": 1723,
+    "output_tokens_details": {
+      "reasoning_tokens": 1396
+    },
+    "total_tokens": 27948
+  },
+  "review": {
+    "candidate": 40,
+    "approved": true,
+    "scores": {
+      "strategy": 4,
+      "withinRoundVariety": 5,
+      "acrossDaysVariety": 4,
+      "fairDifficulty": 4
+    },
+    "reason": "Candidate 40 passes as supplied. The artwork maps confidently to the labeled routing: Hole 1 is the upper lakeside par 5, Hole 2 is the winding return toward the lower-center green, and Hole 3 is the dry par 3 to the right-side green. It preserves the substantial lake extents, playable fairway corridors, and greenside bunker relationships. The 5:3 landscape shows a compact irregular shared property, folded routing, grassy breaks between selective groves, continuous interior grass, and putting surfaces rendered as single natural greens with restrained fringes.\n\nHole 1 offers a credible safer route away from the long right-side lake and a more aggressive chance to reach in two; the landing corridor remains usable. Hole 2's dogleg and fairway water create a meaningful line choice, with room to play conservatively. Hole 3 provides a dry, bunker-guarded long-par-3 contrast, with a generous safe-options count supporting playability. The par-5/4/3 sequence and different hazard emphasis give strong within-round variety. Reachable par 5s and doglegs recur in recent rounds, but this combination, sequence, and dry par 3 provide sufficient novelty. Simulation results are supportive rather than conclusive, and the previews show credible landing space. No clear, safely correctable geometry mismatch warrants an edit.",
+    "edits": []
+  }
+}
