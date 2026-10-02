@@ -1,0 +1,28 @@
+{
+  "responseID": "resp_013549d3bb237f3c016abfc297b81887d298e2ec7ae914a2c9",
+  "model": "gpt-6-luna",
+  "usage": {
+    "input_tokens": 26974,
+    "input_tokens_details": {
+      "cache_write_tokens": 26971,
+      "cached_tokens": 0
+    },
+    "output_tokens": 2858,
+    "output_tokens_details": {
+      "reasoning_tokens": 2588
+    },
+    "total_tokens": 29832
+  },
+  "review": {
+    "candidate": 23,
+    "approved": false,
+    "scores": {
+      "strategy": 4,
+      "withinRoundVariety": 5,
+      "acrossDaysVariety": 4,
+      "fairDifficulty": 4
+    },
+    "reason": "The numbered routing maps confidently: the upper straight corridor is the dry 576-yard par 5, the lower cape is the 324-yard par 4, and the surrounded target is the 204-yard island par 3. Geometry facts confirm water on holes 1 and 3, not hole 2. The set offers sensible contrast: Hole 1 balances shoreline risk against safer placement, Hole 2 provides a dry staged par-5 route, and Hole 3 is a demanding but playable carry. Recent rounds have featured many island greens, so novelty is not exceptional, but the cape and dry par 5 make this combination sufficiently distinct. Safe-option counts of 51/46/46 support fair difficulty.\n\nReject the artwork, with no geometry edits. All three putting surfaces have prominent dark outlined rims or thick rings rather than a single natural light-green surface with a restrained fringe. The two long corridors also read as parallel strips, contrary to the required art direction. These are rendering/composition issues, not clear geometry mismatches; regenerate the artwork while preserving the geometry.",
+    "edits": []
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "responseID": "resp_02a073559bab2f9b016abfc2fed1d087d2aa07e430e78d1fe2",
+  "model": "gpt-6-luna",
+  "usage": {
+    "input_tokens": 26974,
+    "input_tokens_details": {
+      "cache_write_tokens": 26971,
+      "cached_tokens": 0
+    },
+    "output_tokens": 3138,
+    "output_tokens_details": {
+      "reasoning_tokens": 2880
+    },
+    "total_tokens": 30112
+  },
+  "review": {
+    "candidate": 23,
+    "approved": false,
+    "scores": {
+      "strategy": 4,
+      "withinRoundVariety": 5,
+      "acrossDaysVariety": 4,
+      "fairDifficulty": 4
+    },
+    "reason": "The labeled routing maps confidently: Hole 1 runs from T1 to G1, Hole 2 from T2 to G2, and Hole 3 from T3 to the island green G3. The shared property, folded routing, water placement and major bunker relationships are generally recognizable. The geometry offers distinct play: Hole 1 is a short cape par 4 with a meaningful shoreline choice, Hole 2 is a dry three-shot par 5 with staged placement, and Hole 3 is an island par 3. The 51/46/46 safe tee options and simulated 1/3/1 shots to green support playable difficulty, while recent rounds include enough differing hole types and sequences for adequate freshness. However, the artwork does not satisfy the required putting-green treatment: G3 reads as a bright inset disc with a dark concentric rim, creating a bullseye/nested-green appearance. Since this is an artwork reconciliation, the geometry is frozen; reject with no geometry edits so the artwork can be regenerated.",
+    "edits": []
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "responseID": "resp_0097fbd5d3dc08a6016abfc18e985887d2addfc66ac34d13b6",
+  "model": "gpt-6-luna",
+  "usage": {
+    "input_tokens": 26974,
+    "input_tokens_details": {
+      "cache_write_tokens": 26971,
+      "cached_tokens": 0
+    },
+    "output_tokens": 1796,
+    "output_tokens_details": {
+      "reasoning_tokens": 1523
+    },
+    "total_tokens": 28770
+  },
+  "review": {
+    "candidate": 23,
+    "approved": false,
+    "scores": {
+      "strategy": 4,
+      "withinRoundVariety": 5,
+      "acrossDaysVariety": 4,
+      "fairDifficulty": 4
+    },
+    "reason": "The numbered routing maps confidently: Hole 1 runs from the lower-right tee to the left green beside a substantial lake; Hole 2 is the dry upper par 5; Hole 3 is the water-surrounded island-green par 3. The geometry offers meaningful water-side choices on Hole 1, staged placement on Hole 2, and a fair but demanding island carry on Hole 3. Its par-4/5/3 sequence and dry/wet contrast give good round variety. Island greens recur in recent rounds, but the combination and sequence remain sufficiently distinct. Simulation and visible landing areas support challenging, playable difficulty.\n\nThe CURRENT artwork is not publishable. Its canvas is much wider than the required 5:3 landscape, and the two long fairways read as parallel strips rather than folded, varied routing. Most importantly, the putting greens have conspicuous dark outlined rims and inset/concentric-looking surfaces rather than the required single natural green with a narrow, low-contrast fringe. Regenerate the artwork to meet the current art direction while preserving the geometry. No geometry edits are requested.",
+    "edits": []
+  }
+}

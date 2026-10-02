@@ -1,0 +1,28 @@
+{
+  "responseID": "resp_0ca807d27283df46016abfc1ddd9e487d285ae22abb1a62779",
+  "model": "gpt-6-luna",
+  "usage": {
+    "input_tokens": 26974,
+    "input_tokens_details": {
+      "cache_write_tokens": 26971,
+      "cached_tokens": 0
+    },
+    "output_tokens": 3092,
+    "output_tokens_details": {
+      "reasoning_tokens": 2892
+    },
+    "total_tokens": 30066
+  },
+  "review": {
+    "candidate": 23,
+    "approved": false,
+    "scores": {
+      "strategy": 4,
+      "withinRoundVariety": 4,
+      "acrossDaysVariety": 4,
+      "fairDifficulty": 4
+    },
+    "reason": "The geometry is sound, but the current artwork is not publishable. Its putting greens\u2014most clearly the island green\u2014read as concentric target-like rings rather than one natural close-mown surface with a narrow, low-contrast fringe. The bridge to the island also suggests a dry route onto a hole whose geometry is an island-green par 3. These are artwork issues, not reasons to alter playable geometry, so no geometry edits are requested. The course itself offers a cape par 4, a dry three-shot par 5 and an island par 3, with credible safe options and a fair challenge. Island greens and related water-hole themes recur in the recent rounds, but the dry middle hole and this sequence provide sufficient variety.",
+    "edits": []
+  }
+}

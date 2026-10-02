@@ -1,0 +1,35 @@
+{
+  "responseID": "resp_0119340e74b7ec42016abfc169487087d2be3667455a3d0f9e",
+  "model": "gpt-6-luna",
+  "usage": {
+    "input_tokens": 26974,
+    "input_tokens_details": {
+      "cache_write_tokens": 26971,
+      "cached_tokens": 0
+    },
+    "output_tokens": 3678,
+    "output_tokens_details": {
+      "reasoning_tokens": 3394
+    },
+    "total_tokens": 30652
+  },
+  "review": {
+    "candidate": 23,
+    "approved": false,
+    "scores": {
+      "strategy": 4,
+      "withinRoundVariety": 5,
+      "acrossDaysVariety": 3,
+      "fairDifficulty": 4
+    },
+    "reason": "Candidate 23 has good variety within the round and appears playable, but it is not ready to publish. Against the supplied history, the cape par 4, three-shot par 5, and island-green par 3 all repeat familiar hole types, so across-days novelty is limited. The artwork also misses the required 5:3 landscape format and depicts a footbridge from the tee area to the island green, suggesting an unintended dry route across the water. Regenerate the artwork without that bridge. The labeled routing is otherwise recognizable: the top fairway is Hole 2, the lower-left route is Hole 1, and the island target is Hole 3. Hole 3 has one clear bunker-side discrepancy: the artwork places its approach bunker on the right side of play, while the geometry lists it on the left. Requesting that side correction; this is not final approval.",
+    "edits": [
+      {
+        "hole": 2,
+        "control": "bunkerSide",
+        "value": "right",
+        "reason": "Hole 3\u2019s approach bunker is clearly shown on the right side of play in the artwork, but geometryFacts lists it on the left. Align the geometry with the illustrated hazard side."
+      }
+    ]
+  }
+}

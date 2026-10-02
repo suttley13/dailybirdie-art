@@ -1,0 +1,28 @@
+{
+  "responseID": "resp_0dd6bc546592418e016abfc21378c487d2b545ecd61aedef00",
+  "model": "gpt-6-luna",
+  "usage": {
+    "input_tokens": 26974,
+    "input_tokens_details": {
+      "cache_write_tokens": 26971,
+      "cached_tokens": 0
+    },
+    "output_tokens": 1416,
+    "output_tokens_details": {
+      "reasoning_tokens": 1129
+    },
+    "total_tokens": 28390
+  },
+  "review": {
+    "candidate": 23,
+    "approved": false,
+    "scores": {
+      "strategy": 4,
+      "withinRoundVariety": 5,
+      "acrossDaysVariety": 4,
+      "fairDifficulty": 4
+    },
+    "reason": "Candidate 23 has a sound round, but the current artwork is not ready for publication. The numbered routing maps confidently: Hole 1 is the lower route from T1 to G1 near T2, with its substantial lake alongside; Hole 2 is the dry upper par 5 from T2 to G2 near T3; Hole 3 is the island-green par 3 from T3 to G3. The artwork broadly preserves those routes and major hazard extents. Strategically, the cape par 4, dry three-shot par 5, and island carry offer distinct choices and good contrast; the recent rounds make the island and water themes familiar, but the combination remains sufficiently varied. The simulation and visible landing areas support challenging but fair play.\n\nReject the artwork for regeneration: its canvas is approximately 1.9:1 rather than the required 5:3 and leaves excessive blank space below the property. More importantly, all three putting greens read as vivid inset discs with conspicuous dark rings/collars, not single natural sage/apple-green surfaces with narrow, low-contrast fringe. The property and routing are otherwise identifiable. No geometry edits are requested.",
+    "edits": []
+  }
+}

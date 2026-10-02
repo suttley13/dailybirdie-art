@@ -1,0 +1,28 @@
+{
+  "responseID": "resp_0c1d232b24c5712f016abfc3ec9cb887d2a179107ccd4ead03",
+  "model": "gpt-6-luna",
+  "usage": {
+    "input_tokens": 26974,
+    "input_tokens_details": {
+      "cache_write_tokens": 26971,
+      "cached_tokens": 0
+    },
+    "output_tokens": 2433,
+    "output_tokens_details": {
+      "reasoning_tokens": 2205
+    },
+    "total_tokens": 29407
+  },
+  "review": {
+    "candidate": 23,
+    "approved": false,
+    "scores": {
+      "strategy": 4,
+      "withinRoundVariety": 4,
+      "acrossDaysVariety": 3,
+      "fairDifficulty": 4
+    },
+    "reason": "Reject the current artwork; no geometry edits are requested. The labeled routing maps clearly: Hole 1 is the lower cape par 4 with water on the right relative to play, Hole 2 is the dry upper par 5, and Hole 3 is the island-green par 3. Their lake extents, bunker relationships, landing areas, and compact folded routing are broadly consistent with the geometry. However, all three putting surfaces have conspicuous dark outlining or ring-like edging; the island green is especially bullseye-like. This does not meet the required single natural sage/apple-green surface with only a narrow, low-contrast fringe. The par-4/5/3 sequence and dry par 5 give solid within-round contrast, and the hazards leave playable options. Across recent rounds, island greens recur frequently, so novelty is insufficient for publication under the required score threshold.",
+    "edits": []
+  }
+}

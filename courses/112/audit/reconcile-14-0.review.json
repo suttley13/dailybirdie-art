@@ -1,0 +1,28 @@
+{
+  "responseID": "resp_0b5337f8f993c196016abfc41a440c87d290efb0895c7890a3",
+  "model": "gpt-6-luna",
+  "usage": {
+    "input_tokens": 26974,
+    "input_tokens_details": {
+      "cache_write_tokens": 26971,
+      "cached_tokens": 0
+    },
+    "output_tokens": 1658,
+    "output_tokens_details": {
+      "reasoning_tokens": 1456
+    },
+    "total_tokens": 28632
+  },
+  "review": {
+    "candidate": 23,
+    "approved": false,
+    "scores": {
+      "strategy": 4,
+      "withinRoundVariety": 5,
+      "acrossDaysVariety": 4,
+      "fairDifficulty": 4
+    },
+    "reason": "The numbered geometry is a promising, playable round: the cape par 4 offers a shoreline-side risk choice, the dry three-shot par 5 adds staged placement, and the island par 3 provides a distinct carry test. The par 4/5/3 sequence gives strong variety; island greens and three-shot par 5s recur in recent rounds, but the combination remains sufficiently fresh. The artwork broadly reflects the routing and major water features, but it is not faithful enough to approve: it adds a bridge or path to the island green that is absent from the geometry, and the greens have conspicuous dark outlined rims rather than single natural putting surfaces with narrow, low-contrast fringes. Reject for artwork regeneration; no geometry edits are warranted.",
+    "edits": []
+  }
+}

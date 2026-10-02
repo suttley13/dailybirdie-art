@@ -1,0 +1,28 @@
+{
+  "responseID": "resp_015eb02a3c70c5b3016abfc3884d7887d29a050199108141a3",
+  "model": "gpt-6-luna",
+  "usage": {
+    "input_tokens": 26974,
+    "input_tokens_details": {
+      "cache_write_tokens": 26971,
+      "cached_tokens": 0
+    },
+    "output_tokens": 1560,
+    "output_tokens_details": {
+      "reasoning_tokens": 1304
+    },
+    "total_tokens": 28534
+  },
+  "review": {
+    "candidate": 23,
+    "approved": false,
+    "scores": {
+      "strategy": 4,
+      "withinRoundVariety": 5,
+      "acrossDaysVariety": 4,
+      "fairDifficulty": 4
+    },
+    "reason": "The artwork maps confidently to the supplied routing: the lower shoreline hole is the 324-yard par 4, the upper dry route is the 576-yard par 5, and the lower-right island target is the 204-yard par 3. The hazard extents and general fairway layout are broadly consistent with the geometry. The strategic mix is good: the cape hole offers a safer line away from its substantial lake versus a more assertive shoreline route, the dry par 5 supports staged placement, and the island par 3 is a distinct carry test. Safe tee options and simulated shots-to-green counts support a challenging but playable round. However, the current artwork does not meet the required green treatment: all three putting surfaces have conspicuous concentric rings or collars, and the island green especially reads as a small inset disc within a larger outlined target. The canvas is also noticeably wider than the required 5:3 landscape. These are artwork defects, not geometry corrections; regenerate the artwork while retaining the supplied geometry.",
+    "edits": []
+  }
+}

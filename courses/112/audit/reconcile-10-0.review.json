@@ -1,0 +1,28 @@
+{
+  "responseID": "resp_005cd3dd742e178b016abfc356854887d2bd85651eaa6ead3c",
+  "model": "gpt-6-luna",
+  "usage": {
+    "input_tokens": 26974,
+    "input_tokens_details": {
+      "cache_write_tokens": 26971,
+      "cached_tokens": 0
+    },
+    "output_tokens": 2822,
+    "output_tokens_details": {
+      "reasoning_tokens": 2483
+    },
+    "total_tokens": 29796
+  },
+  "review": {
+    "candidate": 23,
+    "approved": false,
+    "scores": {
+      "strategy": 4,
+      "withinRoundVariety": 5,
+      "acrossDaysVariety": 4,
+      "fairDifficulty": 4
+    },
+    "reason": "The numbered routing maps confidently: Hole 1 is the lower cape route to G1, Hole 2 is the long dry upper par 5 from T2 to G2, and Hole 3 is the island-green par 3 at G3. The major hazard relationships are broadly faithful: Hole 1's substantial lake lies to the right of play, Hole 2 is dry, and Hole 3 has the surrounding lake. The routing and green-to-next-tee connections are recognizable. However, the current artwork is not publishable: its 1707\u00d7900 canvas is not the required 5:3 landscape, and the property is pushed high with excessive blank white space below. The putting greens also have conspicuous dark, high-contrast rims/fringes rather than a narrow, low-contrast fringe. These are artwork-direction problems, not geometry mismatches, so no geometry edits are requested. Strategically, the cape par 4 offers a shoreline-side positioning tradeoff, the dry par 5 provides staged placement, and the island par 3 tests carry and distance control. The par-4/5/3 sequence gives strong round variety. Island greens and three-shot par 5s recur in recent rounds, but the dry par 5 and this combination provide adequate freshness. Simulated shots-to-green and safe-option counts indicate a challenging but playable set; the island carry warrants care but is not unreasonable.",
+    "edits": []
+  }
+}

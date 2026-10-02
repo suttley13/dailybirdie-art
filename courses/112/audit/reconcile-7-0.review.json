@@ -1,0 +1,28 @@
+{
+  "responseID": "resp_099159d120e8af65016abfc2ca6f1087d2806b9ebc21ba1065",
+  "model": "gpt-6-luna",
+  "usage": {
+    "input_tokens": 26974,
+    "input_tokens_details": {
+      "cache_write_tokens": 26971,
+      "cached_tokens": 0
+    },
+    "output_tokens": 3132,
+    "output_tokens_details": {
+      "reasoning_tokens": 2895
+    },
+    "total_tokens": 30106
+  },
+  "review": {
+    "candidate": 23,
+    "approved": false,
+    "scores": {
+      "strategy": 4,
+      "withinRoundVariety": 5,
+      "acrossDaysVariety": 3,
+      "fairDifficulty": 4
+    },
+    "reason": "The geometry offers sound strategic contrasts: Hole 1's cape line rewards assertive positioning, Hole 2 supports staged three-shot play, and Hole 3 is a genuine island-green carry. The par-4/5/3 sequence and mix of wet and dry play vary well within the round. Difficulty appears fair given the available landing options and simulated results, though the island carry and potential one-shot attacks need precision. Across-days novelty is weaker: this repeats the cape par 4 / three-shot par 5 / island par 3 sequence already seen in course 98, and island greens recur throughout the recent rounds. The current artwork is not publishable: it adds a bridge onto the island green, implying a dry connection that the geometry does not have, and presents the long holes as nearly parallel strips rather than clearly folded routing. Rejecting without geometry edits allows the artwork to be regenerated while preserving the supplied course design.",
+    "edits": []
+  }
+}

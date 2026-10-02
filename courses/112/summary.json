@@ -1,0 +1,88 @@
+{
+  "course": 112,
+  "geometrySHA256": "08ec4e71922af8cb762a7a29ede887db564a06e035119968ba9210d1afd7bbfc",
+  "artworkSHA256": "0da6a79a7152729e859bdc199e5ae6f023ddc228d13dc284e223f63456fd0aa7",
+  "holes": [
+    {
+      "bunkerCount": 4,
+      "fairwayArea": 15269.639228896169,
+      "par": 4,
+      "route": [
+        [
+          200,
+          40
+        ],
+        [
+          170.3772807891406,
+          402.38425293684037
+        ]
+      ],
+      "simulatedShotsToGreen": 1,
+      "teeSafeOptions": 51,
+      "type": "capeHole",
+      "waterArea": 11364.50582374234,
+      "yards": 324
+    },
+    {
+      "bunkerCount": 7,
+      "fairwayArea": 33907.50220969913,
+      "par": 5,
+      "route": [
+        [
+          200,
+          40
+        ],
+        [
+          202.17525282926889,
+          393.8750816250805
+        ],
+        [
+          203.3323147551715,
+          654.0876817863283
+        ],
+        [
+          202.49472633812738,
+          726.6030991848102
+        ]
+      ],
+      "simulatedShotsToGreen": 3,
+      "teeSafeOptions": 46,
+      "type": "threeShotPar5",
+      "waterArea": 0,
+      "yards": 576
+    },
+    {
+      "bunkerCount": 1,
+      "fairwayArea": 6346.285246971539,
+      "par": 3,
+      "route": [
+        [
+          200,
+          40
+        ],
+        [
+          188.70638552839972,
+          300.2211748012291
+        ]
+      ],
+      "simulatedShotsToGreen": 1,
+      "teeSafeOptions": 46,
+      "type": "islandGreen",
+      "waterArea": 13760.153878896279,
+      "yards": 204
+    }
+  ],
+  "review": {
+    "candidate": 23,
+    "approved": true,
+    "scores": {
+      "strategy": 4,
+      "withinRoundVariety": 5,
+      "acrossDaysVariety": 4,
+      "fairDifficulty": 4
+    },
+    "reason": "Candidate 23 passes as supplied. The numbered geometry shows a 324-yard cape par 4 with a meaningful water-side positioning choice, a dry 576-yard three-shot par 5, and a 204-yard island-green par 3. The par-4 route rewards a bolder line near the lake while preserving a safer route; the par 5 offers staged placement with fairway bunkers to shape decisions; and the island hole provides a distinct carry-and-distance-control finish. The broad landing areas and 51/46/46 safe tee options support playability, while the par-5 simulation of three shots to the green and the island carry help keep the challenge credible. Island greens and cape holes recur in recent rounds, but this combination and sequence, especially the dry three-shot par 5 between them, provide sufficient freshness. The geometry is publishable without parameter changes.",
+    "edits": []
+  },
+  "artworkStatus": "geometry-preview"
+}
