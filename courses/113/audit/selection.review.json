@@ -1,0 +1,28 @@
+{
+  "responseID": "resp_04b09bab154f20db016ac1010ff0d487d1bf57a98c8db5087e",
+  "model": "gpt-6-luna",
+  "usage": {
+    "input_tokens": 52266,
+    "input_tokens_details": {
+      "cache_write_tokens": 52263,
+      "cached_tokens": 0
+    },
+    "output_tokens": 3576,
+    "output_tokens_details": {
+      "reasoning_tokens": 3252
+    },
+    "total_tokens": 55842
+  },
+  "review": {
+    "candidate": 20,
+    "approved": true,
+    "scores": {
+      "strategy": 4,
+      "withinRoundVariety": 5,
+      "acrossDaysVariety": 4,
+      "fairDifficulty": 4
+    },
+    "reason": "Candidate 20 passes as supplied. The labeled routing shows a compact, irregular property with folded play and nearby G1/T2 and G2/T3 connections. Hole 1 runs from T1 on the right toward G1 on the left: its broad landing corridor offers a staged route beside a substantial lake, while pressing for distance brings more shoreline risk into play. Hole 2 returns from T2 toward G2 as a dry dogleg; the interior tree grove gives the aggressive line consequence, while the fairway provides a playable route around it. Hole 3 plays from T3 toward G3, with water alongside the approach and a credible center-green target for this 179-yard par 3. The par-5/4/3 sequence and contrast between the long lakeside hole, dry wooded bend and shorter water-influenced target make for strong within-round variety. Water-lined par 5s and water-influenced par 3s recur in recent rounds, so novelty is good rather than exceptional; the dry dogleg and changed sequence provide meaningful distinction. Simulated shots-to-green of 3/1/1 and 67/54/53 safe tee options support a testing but playable set. The geometry preview retains useful landing space, and the greens are single natural surfaces. No clear hazard-side or proportion mismatch calls for a geometry edit.",
+    "edits": []
+  }
+}

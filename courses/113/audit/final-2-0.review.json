@@ -1,0 +1,28 @@
+{
+  "responseID": "resp_05f0b8ae8d4ccb7c016ac101b0dd7887d1ad9534be8b3cf738",
+  "model": "gpt-6-luna",
+  "usage": {
+    "input_tokens": 27878,
+    "input_tokens_details": {
+      "cache_write_tokens": 27875,
+      "cached_tokens": 0
+    },
+    "output_tokens": 2349,
+    "output_tokens_details": {
+      "reasoning_tokens": 2070
+    },
+    "total_tokens": 30227
+  },
+  "review": {
+    "candidate": 20,
+    "approved": false,
+    "scores": {
+      "strategy": 4,
+      "withinRoundVariety": 5,
+      "acrossDaysVariety": 4,
+      "fairDifficulty": 4
+    },
+    "reason": "The numbered routing maps confidently: Hole 1 runs from T1 on the right to G1 beside T2, Hole 2 from T2 to G2 beside T3, and Hole 3 from T3 to G3 on the right. The artwork retains both substantial lakes in the geometry and their relative placement, along with the folded routing and compact shared property. The geometry offers good strategic contrast: Hole 1 balances a long water-side par 5 against safer staged play, Hole 2 is a dry wooded dogleg, and Hole 3 tests a par-3 approach beside water. The par-5/4/3 sequence also differs sufficiently from recent rounds. Safe-option counts of 67/54/53 and simulated shots to green of 3/1/1 support fair difficulty. However, the putting greens do not meet the required artwork treatment: each has a conspicuous dark, outlined-looking rim around the lighter surface, reading as a thick ring rather than a narrow, low-contrast fringe. Artwork-refresh geometry is frozen, so no geometry edits are requested; regenerate the artwork and review the current rendering again.",
+    "edits": []
+  }
+}

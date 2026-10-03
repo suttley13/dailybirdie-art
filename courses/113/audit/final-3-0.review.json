@@ -1,0 +1,28 @@
+{
+  "responseID": "resp_0fdede92db668cdd016ac101e997e487d1b68fb9921ec1d008",
+  "model": "gpt-6-luna",
+  "usage": {
+    "input_tokens": 27878,
+    "input_tokens_details": {
+      "cache_write_tokens": 27875,
+      "cached_tokens": 0
+    },
+    "output_tokens": 2459,
+    "output_tokens_details": {
+      "reasoning_tokens": 2234
+    },
+    "total_tokens": 30337
+  },
+  "review": {
+    "candidate": 20,
+    "approved": false,
+    "scores": {
+      "strategy": 4,
+      "withinRoundVariety": 4,
+      "acrossDaysVariety": 4,
+      "fairDifficulty": 4
+    },
+    "reason": "The geometry is strategically sound: Hole 1 is a long par 5 with a substantial fairway lake and usable landing space; Hole 2 is a dry dogleg-left par 4 with a meaningful wooded-route choice; Hole 3 is a water-influenced par 3, consistent with its listed water hazard. The differing pars, lengths, and hazard patterns support a varied, reasonably playable round. Across-days novelty is adequate, though uphill grinders and punchbowl greens recur in recent rounds. The artwork maps to the routing, but does not meet the current art direction: its canvas is approximately 1.9:1 rather than 5:3, and the property reads as an overly broad oval with a dense central tree wall separating lanes. Since these are artwork problems, geometry edits are not appropriate. Reject without edits so the artwork can be regenerated.",
+    "edits": []
+  }
+}

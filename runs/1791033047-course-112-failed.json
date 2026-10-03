@@ -1,0 +1,734 @@
+{
+  "schemaVersion": 1,
+  "course": 112,
+  "outcome": "failed",
+  "error": "Artwork review failed; previous live artwork preserved",
+  "startedAt": 1791033047,
+  "seconds": 558.38,
+  "reviewModel": "gpt-6-luna",
+  "reviewEffort": "medium",
+  "imageModel": "gpt-image-2.5-sunburst",
+  "candidatesRequested": 0,
+  "calls": [
+    {
+      "phase": "artwork-refresh-0",
+      "kind": "image",
+      "model": "gpt-image-2.5-sunburst",
+      "usage": {
+        "input_tokens": 4045,
+        "input_tokens_details": {
+          "image_tokens": 2863,
+          "text_tokens": 1182
+        },
+        "output_tokens": 343,
+        "output_tokens_details": {
+          "image_tokens": 343,
+          "text_tokens": 0
+        },
+        "total_tokens": 4388
+      },
+      "seconds": 18.85
+    },
+    {
+      "phase": "artwork-refresh-0",
+      "kind": "review",
+      "model": "gpt-6-luna",
+      "effort": "medium",
+      "responseID": "resp_0de24113fbe8909b016ac0feeb91a487d1bc4cc7c0d11267d0",
+      "usage": {
+        "input_tokens": 27005,
+        "input_tokens_details": {
+          "cache_write_tokens": 27002,
+          "cached_tokens": 0
+        },
+        "output_tokens": 1573,
+        "output_tokens_details": {
+          "reasoning_tokens": 1384
+        },
+        "total_tokens": 28578
+      },
+      "seconds": 17.48,
+      "imageCount": 2,
+      "approved": false,
+      "edits": [],
+      "scores": {
+        "strategy": 4,
+        "withinRoundVariety": 5,
+        "acrossDaysVariety": 4,
+        "fairDifficulty": 4
+      }
+    },
+    {
+      "phase": "artwork-refresh-1",
+      "kind": "image",
+      "model": "gpt-image-2.5-sunburst",
+      "usage": {
+        "input_tokens": 4212,
+        "input_tokens_details": {
+          "image_tokens": 2863,
+          "text_tokens": 1349
+        },
+        "output_tokens": 343,
+        "output_tokens_details": {
+          "image_tokens": 343,
+          "text_tokens": 0
+        },
+        "total_tokens": 4555
+      },
+      "seconds": 18.43
+    },
+    {
+      "phase": "artwork-refresh-1",
+      "kind": "review",
+      "model": "gpt-6-luna",
+      "effort": "medium",
+      "responseID": "resp_00909feab652b586016ac0ff0ee5e487d1bb80916b9105b083",
+      "usage": {
+        "input_tokens": 27189,
+        "input_tokens_details": {
+          "cache_write_tokens": 27186,
+          "cached_tokens": 0
+        },
+        "output_tokens": 1785,
+        "output_tokens_details": {
+          "reasoning_tokens": 1552
+        },
+        "total_tokens": 28974
+      },
+      "seconds": 17.88,
+      "imageCount": 2,
+      "approved": false,
+      "edits": [],
+      "scores": {
+        "strategy": 4,
+        "withinRoundVariety": 5,
+        "acrossDaysVariety": 4,
+        "fairDifficulty": 4
+      }
+    },
+    {
+      "phase": "artwork-refresh-2",
+      "kind": "image",
+      "model": "gpt-image-2.5-sunburst",
+      "usage": {
+        "input_tokens": 4256,
+        "input_tokens_details": {
+          "image_tokens": 2863,
+          "text_tokens": 1393
+        },
+        "output_tokens": 343,
+        "output_tokens_details": {
+          "image_tokens": 343,
+          "text_tokens": 0
+        },
+        "total_tokens": 4599
+      },
+      "seconds": 16.71
+    },
+    {
+      "phase": "artwork-refresh-2",
+      "kind": "review",
+      "model": "gpt-6-luna",
+      "effort": "medium",
+      "responseID": "resp_075a1751f86a2800016ac0ff325e0087d1bd3e3c5ed4dfd616",
+      "usage": {
+        "input_tokens": 27236,
+        "input_tokens_details": {
+          "cache_write_tokens": 27233,
+          "cached_tokens": 0
+        },
+        "output_tokens": 2030,
+        "output_tokens_details": {
+          "reasoning_tokens": 1810
+        },
+        "total_tokens": 29266
+      },
+      "seconds": 20.5,
+      "imageCount": 2,
+      "approved": false,
+      "edits": [],
+      "scores": {
+        "strategy": 4,
+        "withinRoundVariety": 5,
+        "acrossDaysVariety": 4,
+        "fairDifficulty": 4
+      }
+    },
+    {
+      "phase": "artwork-refresh-3",
+      "kind": "image",
+      "model": "gpt-image-2.5-sunburst",
+      "usage": {
+        "input_tokens": 4243,
+        "input_tokens_details": {
+          "image_tokens": 2863,
+          "text_tokens": 1380
+        },
+        "output_tokens": 343,
+        "output_tokens_details": {
+          "image_tokens": 343,
+          "text_tokens": 0
+        },
+        "total_tokens": 4586
+      },
+      "seconds": 18.55
+    },
+    {
+      "phase": "artwork-refresh-3",
+      "kind": "review",
+      "model": "gpt-6-luna",
+      "effort": "medium",
+      "responseID": "resp_0f7561cb1d75389a016ac0ff59112c87d185faf9488c2a8e33",
+      "usage": {
+        "input_tokens": 27220,
+        "input_tokens_details": {
+          "cache_write_tokens": 27217,
+          "cached_tokens": 0
+        },
+        "output_tokens": 1908,
+        "output_tokens_details": {
+          "reasoning_tokens": 1602
+        },
+        "total_tokens": 29128
+      },
+      "seconds": 18.46,
+      "imageCount": 2,
+      "approved": false,
+      "edits": [],
+      "scores": {
+        "strategy": 4,
+        "withinRoundVariety": 5,
+        "acrossDaysVariety": 3,
+        "fairDifficulty": 4
+      }
+    },
+    {
+      "phase": "artwork-refresh-4",
+      "kind": "image",
+      "model": "gpt-image-2.5-sunburst",
+      "usage": {
+        "input_tokens": 4329,
+        "input_tokens_details": {
+          "image_tokens": 2863,
+          "text_tokens": 1466
+        },
+        "output_tokens": 343,
+        "output_tokens_details": {
+          "image_tokens": 343,
+          "text_tokens": 0
+        },
+        "total_tokens": 4672
+      },
+      "seconds": 18.82
+    },
+    {
+      "phase": "artwork-refresh-4",
+      "kind": "review",
+      "model": "gpt-6-luna",
+      "effort": "medium",
+      "responseID": "resp_02afb87d2f7206b2016ac0ff7eb45487d1a649d84cdd6eace3",
+      "usage": {
+        "input_tokens": 27306,
+        "input_tokens_details": {
+          "cache_write_tokens": 27303,
+          "cached_tokens": 0
+        },
+        "output_tokens": 1679,
+        "output_tokens_details": {
+          "reasoning_tokens": 1447
+        },
+        "total_tokens": 28985
+      },
+      "seconds": 16.78,
+      "imageCount": 2,
+      "approved": false,
+      "edits": [],
+      "scores": {
+        "strategy": 4,
+        "withinRoundVariety": 5,
+        "acrossDaysVariety": 3,
+        "fairDifficulty": 4
+      }
+    },
+    {
+      "phase": "artwork-refresh-5",
+      "kind": "image",
+      "model": "gpt-image-2.5-sunburst",
+      "usage": {
+        "input_tokens": 4255,
+        "input_tokens_details": {
+          "image_tokens": 2863,
+          "text_tokens": 1392
+        },
+        "output_tokens": 343,
+        "output_tokens_details": {
+          "image_tokens": 343,
+          "text_tokens": 0
+        },
+        "total_tokens": 4598
+      },
+      "seconds": 17.35
+    },
+    {
+      "phase": "artwork-refresh-5",
+      "kind": "review",
+      "model": "gpt-6-luna",
+      "effort": "medium",
+      "responseID": "resp_04cbfe2b74e2fa87016ac0ffa0ffc087d1bcdd8cf700f6020c",
+      "usage": {
+        "input_tokens": 27232,
+        "input_tokens_details": {
+          "cache_write_tokens": 27229,
+          "cached_tokens": 0
+        },
+        "output_tokens": 1342,
+        "output_tokens_details": {
+          "reasoning_tokens": 1150
+        },
+        "total_tokens": 28574
+      },
+      "seconds": 14.22,
+      "imageCount": 2,
+      "approved": false,
+      "edits": [],
+      "scores": {
+        "strategy": 4,
+        "withinRoundVariety": 5,
+        "acrossDaysVariety": 3,
+        "fairDifficulty": 4
+      }
+    },
+    {
+      "phase": "artwork-refresh-6",
+      "kind": "image",
+      "model": "gpt-image-2.5-sunburst",
+      "usage": {
+        "input_tokens": 4214,
+        "input_tokens_details": {
+          "image_tokens": 2863,
+          "text_tokens": 1351
+        },
+        "output_tokens": 343,
+        "output_tokens_details": {
+          "image_tokens": 343,
+          "text_tokens": 0
+        },
+        "total_tokens": 4557
+      },
+      "seconds": 17.8
+    },
+    {
+      "phase": "artwork-refresh-6",
+      "kind": "review",
+      "model": "gpt-6-luna",
+      "effort": "medium",
+      "responseID": "resp_06788de8148797ec016ac0ffc14ac887d191f98e2e55f3dc9d",
+      "usage": {
+        "input_tokens": 27191,
+        "input_tokens_details": {
+          "cache_write_tokens": 27188,
+          "cached_tokens": 0
+        },
+        "output_tokens": 1671,
+        "output_tokens_details": {
+          "reasoning_tokens": 1451
+        },
+        "total_tokens": 28862
+      },
+      "seconds": 16.85,
+      "imageCount": 2,
+      "approved": false,
+      "edits": [],
+      "scores": {
+        "strategy": 4,
+        "withinRoundVariety": 5,
+        "acrossDaysVariety": 3,
+        "fairDifficulty": 4
+      }
+    },
+    {
+      "phase": "artwork-refresh-7",
+      "kind": "image",
+      "model": "gpt-image-2.5-sunburst",
+      "usage": {
+        "input_tokens": 4243,
+        "input_tokens_details": {
+          "image_tokens": 2863,
+          "text_tokens": 1380
+        },
+        "output_tokens": 343,
+        "output_tokens_details": {
+          "image_tokens": 343,
+          "text_tokens": 0
+        },
+        "total_tokens": 4586
+      },
+      "seconds": 17.31
+    },
+    {
+      "phase": "artwork-refresh-7",
+      "kind": "review",
+      "model": "gpt-6-luna",
+      "effort": "medium",
+      "responseID": "resp_0edaa4379c9e37fb016ac0ffe3a79887d1a0de0efffbbfeb6b",
+      "usage": {
+        "input_tokens": 27220,
+        "input_tokens_details": {
+          "cache_write_tokens": 27217,
+          "cached_tokens": 0
+        },
+        "output_tokens": 1386,
+        "output_tokens_details": {
+          "reasoning_tokens": 1131
+        },
+        "total_tokens": 28606
+      },
+      "seconds": 13.99,
+      "imageCount": 2,
+      "approved": false,
+      "edits": [],
+      "scores": {
+        "strategy": 4,
+        "withinRoundVariety": 5,
+        "acrossDaysVariety": 3,
+        "fairDifficulty": 4
+      }
+    },
+    {
+      "phase": "artwork-refresh-8",
+      "kind": "image",
+      "model": "gpt-image-2.5-sunburst",
+      "usage": {
+        "input_tokens": 4278,
+        "input_tokens_details": {
+          "image_tokens": 2863,
+          "text_tokens": 1415
+        },
+        "output_tokens": 343,
+        "output_tokens_details": {
+          "image_tokens": 343,
+          "text_tokens": 0
+        },
+        "total_tokens": 4621
+      },
+      "seconds": 20.86
+    },
+    {
+      "phase": "artwork-refresh-8",
+      "kind": "review",
+      "model": "gpt-6-luna",
+      "effort": "medium",
+      "responseID": "resp_0926ee80fc7f235b016ac10006cfd487d1a50afa3fd79301be",
+      "usage": {
+        "input_tokens": 27255,
+        "input_tokens_details": {
+          "cache_write_tokens": 27252,
+          "cached_tokens": 0
+        },
+        "output_tokens": 2234,
+        "output_tokens_details": {
+          "reasoning_tokens": 1970
+        },
+        "total_tokens": 29489
+      },
+      "seconds": 21.03,
+      "imageCount": 2,
+      "approved": false,
+      "edits": [],
+      "scores": {
+        "strategy": 4,
+        "withinRoundVariety": 5,
+        "acrossDaysVariety": 3,
+        "fairDifficulty": 4
+      }
+    },
+    {
+      "phase": "artwork-refresh-9",
+      "kind": "image",
+      "model": "gpt-image-2.5-sunburst",
+      "usage": {
+        "input_tokens": 4287,
+        "input_tokens_details": {
+          "image_tokens": 2863,
+          "text_tokens": 1424
+        },
+        "output_tokens": 343,
+        "output_tokens_details": {
+          "image_tokens": 343,
+          "text_tokens": 0
+        },
+        "total_tokens": 4630
+      },
+      "seconds": 17.15
+    },
+    {
+      "phase": "artwork-refresh-9",
+      "kind": "review",
+      "model": "gpt-6-luna",
+      "effort": "medium",
+      "responseID": "resp_0900cc8d2e28b57b016ac1002d1c3487d1aa1b9dfdb60c4ae3",
+      "usage": {
+        "input_tokens": 27264,
+        "input_tokens_details": {
+          "cache_write_tokens": 27261,
+          "cached_tokens": 0
+        },
+        "output_tokens": 1626,
+        "output_tokens_details": {
+          "reasoning_tokens": 1359
+        },
+        "total_tokens": 28890
+      },
+      "seconds": 17.44,
+      "imageCount": 2,
+      "approved": false,
+      "edits": [],
+      "scores": {
+        "strategy": 4,
+        "withinRoundVariety": 5,
+        "acrossDaysVariety": 3,
+        "fairDifficulty": 4
+      }
+    },
+    {
+      "phase": "artwork-refresh-10",
+      "kind": "image",
+      "model": "gpt-image-2.5-sunburst",
+      "usage": {
+        "input_tokens": 4290,
+        "input_tokens_details": {
+          "image_tokens": 2863,
+          "text_tokens": 1427
+        },
+        "output_tokens": 343,
+        "output_tokens_details": {
+          "image_tokens": 343,
+          "text_tokens": 0
+        },
+        "total_tokens": 4633
+      },
+      "seconds": 18.61
+    },
+    {
+      "phase": "artwork-refresh-10",
+      "kind": "review",
+      "model": "gpt-6-luna",
+      "effort": "medium",
+      "responseID": "resp_00b804a5806ca63d016ac1005180d887d1ae023459d77311a1",
+      "usage": {
+        "input_tokens": 27270,
+        "input_tokens_details": {
+          "cache_write_tokens": 27267,
+          "cached_tokens": 0
+        },
+        "output_tokens": 1704,
+        "output_tokens_details": {
+          "reasoning_tokens": 1427
+        },
+        "total_tokens": 28974
+      },
+      "seconds": 17.83,
+      "imageCount": 2,
+      "approved": false,
+      "edits": [],
+      "scores": {
+        "strategy": 4,
+        "withinRoundVariety": 5,
+        "acrossDaysVariety": 3,
+        "fairDifficulty": 4
+      }
+    },
+    {
+      "phase": "artwork-refresh-11",
+      "kind": "image",
+      "model": "gpt-image-2.5-sunburst",
+      "usage": {
+        "input_tokens": 4300,
+        "input_tokens_details": {
+          "image_tokens": 2863,
+          "text_tokens": 1437
+        },
+        "output_tokens": 343,
+        "output_tokens_details": {
+          "image_tokens": 343,
+          "text_tokens": 0
+        },
+        "total_tokens": 4643
+      },
+      "seconds": 20.49
+    },
+    {
+      "phase": "artwork-refresh-11",
+      "kind": "review",
+      "model": "gpt-6-luna",
+      "effort": "medium",
+      "responseID": "resp_0c1f833fbdbe6122016ac10077f85087d19afd1b1375388b6b",
+      "usage": {
+        "input_tokens": 27283,
+        "input_tokens_details": {
+          "cache_write_tokens": 27280,
+          "cached_tokens": 0
+        },
+        "output_tokens": 1999,
+        "output_tokens_details": {
+          "reasoning_tokens": 1759
+        },
+        "total_tokens": 29282
+      },
+      "seconds": 18.5,
+      "imageCount": 2,
+      "approved": false,
+      "edits": [],
+      "scores": {
+        "strategy": 4,
+        "withinRoundVariety": 5,
+        "acrossDaysVariety": 3,
+        "fairDifficulty": 4
+      }
+    },
+    {
+      "phase": "artwork-refresh-12",
+      "kind": "image",
+      "model": "gpt-image-2.5-sunburst",
+      "usage": {
+        "input_tokens": 4263,
+        "input_tokens_details": {
+          "image_tokens": 2863,
+          "text_tokens": 1400
+        },
+        "output_tokens": 343,
+        "output_tokens_details": {
+          "image_tokens": 343,
+          "text_tokens": 0
+        },
+        "total_tokens": 4606
+      },
+      "seconds": 19.27
+    },
+    {
+      "phase": "artwork-refresh-12",
+      "kind": "review",
+      "model": "gpt-6-luna",
+      "effort": "medium",
+      "responseID": "resp_014bf9cba4b76144016ac1009e1bd887d19e7efb05def00b05",
+      "usage": {
+        "input_tokens": 27243,
+        "input_tokens_details": {
+          "cache_write_tokens": 27240,
+          "cached_tokens": 0
+        },
+        "output_tokens": 3048,
+        "output_tokens_details": {
+          "reasoning_tokens": 2767
+        },
+        "total_tokens": 30291
+      },
+      "seconds": 29.56,
+      "imageCount": 2,
+      "approved": false,
+      "edits": [],
+      "scores": {
+        "strategy": 4,
+        "withinRoundVariety": 5,
+        "acrossDaysVariety": 3,
+        "fairDifficulty": 4
+      }
+    },
+    {
+      "phase": "artwork-refresh-13",
+      "kind": "image",
+      "model": "gpt-image-2.5-sunburst",
+      "usage": {
+        "input_tokens": 4304,
+        "input_tokens_details": {
+          "image_tokens": 2863,
+          "text_tokens": 1441
+        },
+        "output_tokens": 343,
+        "output_tokens_details": {
+          "image_tokens": 343,
+          "text_tokens": 0
+        },
+        "total_tokens": 4647
+      },
+      "seconds": 18.15
+    },
+    {
+      "phase": "artwork-refresh-13",
+      "kind": "review",
+      "model": "gpt-6-luna",
+      "effort": "medium",
+      "responseID": "resp_079b308b87012cab016ac100cde25c87d1bdf8bfb54bb8db59",
+      "usage": {
+        "input_tokens": 27281,
+        "input_tokens_details": {
+          "cache_write_tokens": 27278,
+          "cached_tokens": 0
+        },
+        "output_tokens": 2330,
+        "output_tokens_details": {
+          "reasoning_tokens": 2066
+        },
+        "total_tokens": 29611
+      },
+      "seconds": 24.3,
+      "imageCount": 2,
+      "approved": false,
+      "edits": [],
+      "scores": {
+        "strategy": 4,
+        "withinRoundVariety": 5,
+        "acrossDaysVariety": 3,
+        "fairDifficulty": 4
+      }
+    },
+    {
+      "phase": "artwork-refresh-14",
+      "kind": "image",
+      "model": "gpt-image-2.5-sunburst",
+      "usage": {
+        "input_tokens": 4287,
+        "input_tokens_details": {
+          "image_tokens": 2863,
+          "text_tokens": 1424
+        },
+        "output_tokens": 343,
+        "output_tokens_details": {
+          "image_tokens": 343,
+          "text_tokens": 0
+        },
+        "total_tokens": 4630
+      },
+      "seconds": 16.74
+    },
+    {
+      "phase": "artwork-refresh-14",
+      "kind": "review",
+      "model": "gpt-6-luna",
+      "effort": "medium",
+      "responseID": "resp_08ac246b076763bf016ac100f7471c87d1a531f89605611002",
+      "usage": {
+        "input_tokens": 27270,
+        "input_tokens_details": {
+          "cache_write_tokens": 27267,
+          "cached_tokens": 0
+        },
+        "output_tokens": 1535,
+        "output_tokens_details": {
+          "reasoning_tokens": 1328
+        },
+        "total_tokens": 28805
+      },
+      "seconds": 14.35,
+      "imageCount": 2,
+      "approved": false,
+      "edits": [],
+      "scores": {
+        "strategy": 4,
+        "withinRoundVariety": 5,
+        "acrossDaysVariety": 3,
+        "fairDifficulty": 4
+      }
+    }
+  ]
+}

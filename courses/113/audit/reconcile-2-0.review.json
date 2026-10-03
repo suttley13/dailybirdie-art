@@ -1,0 +1,28 @@
+{
+  "responseID": "resp_0c8e3baca883c761016ac1019394a087d1a070cf1ec5949983",
+  "model": "gpt-6-luna",
+  "usage": {
+    "input_tokens": 27879,
+    "input_tokens_details": {
+      "cache_write_tokens": 27876,
+      "cached_tokens": 0
+    },
+    "output_tokens": 3360,
+    "output_tokens_details": {
+      "reasoning_tokens": 2891
+    },
+    "total_tokens": 31239
+  },
+  "review": {
+    "candidate": 20,
+    "approved": true,
+    "scores": {
+      "strategy": 4,
+      "withinRoundVariety": 5,
+      "acrossDaysVariety": 4,
+      "fairDifficulty": 4
+    },
+    "reason": "Candidate 20 passes as supplied. The artwork maps to the connected routing: Hole 1 is the long upper par 5 from T1 to G1 near T2; Hole 2 bends through the lower-left fairway to G2 near T3; Hole 3 is the short lower-right par 3. The rendering preserves the compact irregular property, folded routing, varied orientations and continuous interior grass. Tree groups are dense in places but retain grassy breaks. Each green reads as a single natural putting surface with a restrained fringe, not a nested target or raised platform.\n\nHole 1 has a substantial lake along the right side of play, with ample fairway remaining for a staged route. Playing safely away from the water contrasts with advancing along the shoreline, and the fairway and greenside bunkers add placement decisions. The artwork retains the lake's extent and the playable corridor.\n\nHole 2 is dry, with a dogleg-left route, fairway sand and a potentially aggressive line toward the green. Following the bend is the safer option; the simulated one-shot reach is an opportunity, not proof that the shortcut is reliably safe. The illustration retains the bend and the general hazard arrangement.\n\nHole 3 is a 179-yard punchbowl par 3 with one substantial water hazard left and in front of the approach. The artwork shows the lake in that relationship and keeps a separate playable approach area. The carry and pin attack reward control, while a safer target remains available.\n\nThe par-5/4/3 sequence, dry dogleg and contrasting shoreline hazards provide strong variety within the round. Recent rounds include frequent punchbowls and water, so novelty is good rather than exceptional; the uphill par 5 and dry dogleg-left par 4 distinguish this combination. Simulated shots to green of 3/1/1 and 67/54/53 safe tee options support a challenging but playable round, with the previews showing credible landing areas. No clear hazard-side, lake-extent or green-proportion mismatch warrants an edit.",
+    "edits": []
+  }
+}

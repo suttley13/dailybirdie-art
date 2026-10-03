@@ -1,0 +1,28 @@
+{
+  "responseID": "resp_05b2fb719f6e1a6e016ac10230a2d887d18ea0b055af38d981",
+  "model": "gpt-6-luna",
+  "usage": {
+    "input_tokens": 27878,
+    "input_tokens_details": {
+      "cache_write_tokens": 27875,
+      "cached_tokens": 0
+    },
+    "output_tokens": 3559,
+    "output_tokens_details": {
+      "reasoning_tokens": 3086
+    },
+    "total_tokens": 31437
+  },
+  "review": {
+    "candidate": 20,
+    "approved": true,
+    "scores": {
+      "strategy": 4,
+      "withinRoundVariety": 5,
+      "acrossDaysVariety": 4,
+      "fairDifficulty": 4
+    },
+    "reason": "Candidate 20 passes as supplied. The artwork maps confidently to the numbered routing: Hole 1 runs from T1 at the right to G1 near T2; Hole 2 returns from T2 to G2 near T3; Hole 3 runs from T3 to G3 on the right. The 5:3 landscape, compact irregular property, folded routing, selective groves with grassy breaks, continuous interior grass, and white-only exterior all meet the art direction. The three putting greens appear as single natural light-green surfaces with restrained edges, not nested discs or raised platforms.\n\nHole 1 is a 581-yard uphill par 5 with a substantial lake along the right side of the fairway. Its long extent, broad playable corridor, fairway bunker, and greenside sand are recognizable in the artwork. Favoring the safer side supports staged play; advancing nearer the shoreline offers a more aggressive line. Hole 2 is a dry 384-yard dogleg-left par 4. The artwork preserves its bending fairway and approach/greenside bunkering, while the tree grove near the inside line gives the shortcut a meaningful risk. Hole 3 is a 179-yard par 3 with a substantial left/front lake, a separate landing area, and sand around the target. The artwork retains these relationships; the landing area does not read as a dry route to the green, so this remains a carry and distance-control test.\n\nThe par-5/4/3 sequence and contrast between a staged wet par 5, dry wooded dogleg, and water-influenced par 3 provide excellent within-round variety. Wet holes and punchbowl targets have appeared in recent rounds, but this combination and routing differ sufficiently from the latest publication. Simulated shots to green of 3/1/1 and 67/54/53 safe tee options support a challenging but playable set; the visible landing corridors and targets also look credible. The lake extents, hazard sides, and relative fairway and green proportions are sufficiently consistent with the geometry. No edits are needed.",
+    "edits": []
+  }
+}

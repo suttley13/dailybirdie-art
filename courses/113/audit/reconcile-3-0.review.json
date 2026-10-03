@@ -1,0 +1,28 @@
+{
+  "responseID": "resp_018ac329a655ab80016ac101d6c0f887d196cd82af2a974a01",
+  "model": "gpt-6-luna",
+  "usage": {
+    "input_tokens": 27879,
+    "input_tokens_details": {
+      "cache_write_tokens": 27876,
+      "cached_tokens": 0
+    },
+    "output_tokens": 2186,
+    "output_tokens_details": {
+      "reasoning_tokens": 1745
+    },
+    "total_tokens": 30065
+  },
+  "review": {
+    "candidate": 20,
+    "approved": true,
+    "scores": {
+      "strategy": 4,
+      "withinRoundVariety": 5,
+      "acrossDaysVariety": 4,
+      "fairDifficulty": 4
+    },
+    "reason": "Candidate 20 passes as supplied. The artwork maps confidently to the numbered connected routing: Hole 1 is the long upper fairway from T1 to G1 near T2; Hole 2 bends through the lower-left property from T2 to G2 near T3; Hole 3 runs from T3 toward the lower-right G3. The illustration preserves the geometry\u2019s two water hazards\u2014one alongside Hole 1 and one beside Hole 3\u2014with Hole 2 dry. Lake extents, bunker relationships, and fairway-to-green proportions are sufficiently faithful, and all three greens read as single natural putting surfaces with restrained fringes.\n\nHole 1 is a 581-yard par 5 with a substantial lake beside the long fairway and greenside bunkers around the target. The broad corridor leaves a safer staged route, while advancing closer to the shoreline offers a more demanding line. Hole 2\u2019s 384-yard dry dogleg-left par 4 contrasts with that open water-side hole: following the bend is the safer option, while cutting toward the green asks for a more aggressive line. Hole 3 is a 179-yard par 3 with water beside the approach and bunkers near the green; it provides a distinct carry-and-distance-control test without being an island green.\n\nThe par-5/4/3 sequence and the contrast between the long shoreline hole, dry dogleg, and short water-side par 3 give strong variety within the round. Some types recur in recent rounds, especially doglegs and punchbowl greens, but this particular mix and sequence remain fresh enough. Simulated shots-to-green of 3/1/1 and 67/54/53 safe tee options support a challenging but playable round; the previews also show credible landing space. The artwork has the required compact landscape property, folded routing, grassy interior, and no interior white void. No clear geometry mismatch warrants an edit.",
+    "edits": []
+  }
+}

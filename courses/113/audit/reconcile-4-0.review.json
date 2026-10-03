@@ -1,0 +1,28 @@
+{
+  "responseID": "resp_02da7d96e4b19cc0016ac10211058887d19ea87d57801ed60a",
+  "model": "gpt-6-luna",
+  "usage": {
+    "input_tokens": 27879,
+    "input_tokens_details": {
+      "cache_write_tokens": 27876,
+      "cached_tokens": 0
+    },
+    "output_tokens": 3759,
+    "output_tokens_details": {
+      "reasoning_tokens": 3207
+    },
+    "total_tokens": 31638
+  },
+  "review": {
+    "candidate": 20,
+    "approved": true,
+    "scores": {
+      "strategy": 4,
+      "withinRoundVariety": 5,
+      "acrossDaysVariety": 4,
+      "fairDifficulty": 4
+    },
+    "reason": "Candidate 20 passes as supplied. The artwork maps confidently to the numbered connected routing: Hole 1 is the long upper par 5 from the right-side tee to G1 near T2; Hole 2 is the dry dogleg-left par 4 returning to G2 near T3; and Hole 3 is the short par 3 from T3 to the right-side G3. The 5:3 canvas, compact irregular property, folded routing, grassy interior, and nearby green-to-next-tee connections are retained. Tree groups are dense in places but have visible grassy breaks rather than forming continuous walls. Each putting surface reads as a single natural light-green area with a restrained edge, not a nested target or raised platform.\n\nHole 1 has one substantial lake along the player's right, extending beside the long fairway, with usable landing space away from the shoreline. The artwork preserves the lake's extent and the greenside bunker arrangement. Safer placement away from water offers a credible staged route; taking a more assertive line can improve position but carries greater shoreline risk.\n\nHole 2 is dry and has a meaningful bend, fairway bunkers, and greenside sand. The illustration retains the curved landing corridor and the green-to-tee relationship, with no clear hazard-side reversal. Following the bend is the safer route, while cutting the corner provides an aggressive alternative. Its simulated one-shot reach is an opportunity rather than proof that the direct line is reliably clear.\n\nHole 3 has one substantial lake on the left-front side and a fairway bunker and greenside sand on the right. The artwork preserves these relationships and leaves playable room beside the water. The 179-yard shot offers a conservative center-green option versus a more demanding pin attack.\n\nThe par-5/4/3 sequence, dry dogleg between two differently oriented water holes, and contrast between placement play and a short carry make for strong within-round variety. Punchbowl and water-influenced holes recur in recent rounds, so novelty is good rather than exceptional; the dry dogleg and this sequence provide sufficient distinction. Simulated shots-to-green of 3/1/1 and 67/54/53 safe tee options support a challenging but playable round, with the previews showing credible landing areas. No clear geometry correction is warranted.",
+    "edits": []
+  }
+}
