@@ -1,0 +1,28 @@
+{
+  "responseID": "resp_0da3c9d33f1ff662016ac25bc60da887d1a77bb84ec0f41a94",
+  "model": "gpt-6-luna",
+  "usage": {
+    "input_tokens": 28709,
+    "input_tokens_details": {
+      "cache_write_tokens": 28706,
+      "cached_tokens": 0
+    },
+    "output_tokens": 2151,
+    "output_tokens_details": {
+      "reasoning_tokens": 1729
+    },
+    "total_tokens": 30860
+  },
+  "review": {
+    "candidate": 33,
+    "approved": true,
+    "scores": {
+      "strategy": 4,
+      "withinRoundVariety": 5,
+      "acrossDaysVariety": 4,
+      "fairDifficulty": 4
+    },
+    "reason": "Candidate 33 is publishable as supplied. The artwork maps confidently to the labeled routing: Hole 1 is the dry 141-yard punchbowl par 3 from T1 to G1 near T2; Hole 2 is the dry 565-yard dogleg-right par 5 from T2 to G2 near T3; Hole 3 is the dry 374-yard double-dogleg par 4 returning from T3 to G3. The illustrated bunker groupings and fairway shapes are consistent with the geometry, and the absence of water is confirmed by the geometry facts.\n\nHole 1 is a compact target with greenside sand on both sides, offering a reasonable center-green play against a more exacting pin attack. Hole 2 supplies the main risk-reward choice: a staged route through the dogleg versus a more aggressive line, with the fairway bunkers and trees shaping that decision. Hole 3 adds a distinct bending par-4 placement challenge, with a playable landing corridor and bunkering near the green. The par-3/5/4 sequence and contrasting lengths and routes give the round strong variety. Compared with the recent rounds, the punchbowl repeats, but the all-dry set and dogleg-right par 5/double-dogleg par 4 combination distinguish it sufficiently. Simulated shots to green and safe-option counts support a challenging but fair set; the previews show credible landing space.\n\nThe artwork follows the compact irregular 5:3 property and folded routing, places G1 near T2 and G2 near T3, and keeps grass continuous inside the property. Tree groups are selective enough to leave grassy breaks, and the putting surfaces read as single natural greens with restrained edges. No clear hazard-side, lake, green-proportion, or routing mismatch warrants an edit.",
+    "edits": []
+  }
+}

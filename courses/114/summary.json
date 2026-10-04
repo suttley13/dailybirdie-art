@@ -1,0 +1,88 @@
+{
+  "course": 114,
+  "geometrySHA256": "0fe4ad4a1751df41146849e3360b29818a0b93d8e246208a455024a02127bff6",
+  "artworkSHA256": "f8c54c91004ae67a1767860d0b03e9bc334d59f4be21345410fe737966d51b02",
+  "holes": [
+    {
+      "bunkerCount": 5,
+      "fairwayArea": 2537.9384439851674,
+      "par": 3,
+      "route": [
+        [
+          200,
+          40
+        ],
+        [
+          186.89505403274651,
+          209.48340699516461
+        ]
+      ],
+      "simulatedShotsToGreen": 1,
+      "teeSafeOptions": 33,
+      "type": "punchbowlGreen",
+      "waterArea": 0,
+      "yards": 141
+    },
+    {
+      "bunkerCount": 7,
+      "fairwayArea": 33094.820662658116,
+      "par": 5,
+      "route": [
+        [
+          120,
+          40
+        ],
+        [
+          232.82872158887983,
+          348.46098249629466
+        ],
+        [
+          302.4867665922989,
+          519.4263584558332
+        ]
+      ],
+      "simulatedShotsToGreen": 2,
+      "teeSafeOptions": 58,
+      "type": "doglegRight",
+      "waterArea": 0,
+      "yards": 565
+    },
+    {
+      "bunkerCount": 4,
+      "fairwayArea": 17296.37561037173,
+      "par": 4,
+      "route": [
+        [
+          200,
+          40
+        ],
+        [
+          201.38419528868823,
+          391.62168669584776
+        ],
+        [
+          196.31013903813727,
+          485.01997234051424
+        ]
+      ],
+      "simulatedShotsToGreen": 2,
+      "teeSafeOptions": 42,
+      "type": "doubleDogleg",
+      "waterArea": 0,
+      "yards": 374
+    }
+  ],
+  "review": {
+    "candidate": 33,
+    "approved": true,
+    "scores": {
+      "strategy": 4,
+      "withinRoundVariety": 4,
+      "acrossDaysVariety": 5,
+      "fairDifficulty": 4
+    },
+    "reason": "Candidate 33 is publishable as supplied. The artwork maps to the labeled routing: Hole 1 runs from the central T1 to G1 near T2; Hole 2 follows the long upper/right dogleg from T2 to G2 near T3; Hole 3 returns along the lower fairway from T3 to G3. The compact irregular property, folded routing, varied orientations, and continuous interior grass are retained. Tree groups leave grassy breaks, and the putting greens read as single natural surfaces with restrained fringes. All three holes are dry, consistent with geometryFacts; the artwork introduces no water. Hole 1 is a short punchbowl par 3 with greenside sand offering a controlled center target against a more exacting pin attack. Hole 2 provides the strongest route choice: safer staged play around the dogleg contrasts with challenging the bend for a shorter line. Hole 3 is a longer par 4 with a playable corridor and bunkering that adds approach-placement consequences, though it offers less strategic contrast than Hole 2. The par-3/5/4 sequence and different lengths and routing shapes give good within-round variety. This water-free set is a welcome contrast with recent water-heavy rounds. Simulated shots-to-green of 1/2/2 and 33/58/42 safe tee options support a testing but playable round; the previews also show usable landing space. The two-shot par-5 simulation is evidence of an aggressive possibility, not proof of an effortless hole. No clear hazard-side or proportion mismatch warrants a geometry edit.",
+    "edits": []
+  },
+  "artworkStatus": "approved"
+}

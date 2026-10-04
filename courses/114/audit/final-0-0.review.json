@@ -1,0 +1,28 @@
+{
+  "responseID": "resp_0e1747f025f48d21016ac25bd871c887d181c8c922e6878ec6",
+  "model": "gpt-6-luna",
+  "usage": {
+    "input_tokens": 28708,
+    "input_tokens_details": {
+      "cache_write_tokens": 28705,
+      "cached_tokens": 0
+    },
+    "output_tokens": 3207,
+    "output_tokens_details": {
+      "reasoning_tokens": 2839
+    },
+    "total_tokens": 31915
+  },
+  "review": {
+    "candidate": 33,
+    "approved": true,
+    "scores": {
+      "strategy": 4,
+      "withinRoundVariety": 4,
+      "acrossDaysVariety": 5,
+      "fairDifficulty": 4
+    },
+    "reason": "Candidate 33 is publishable as supplied. The artwork maps to the labeled routing: Hole 1 runs from the central T1 to G1 near T2; Hole 2 follows the long upper/right dogleg from T2 to G2 near T3; Hole 3 returns along the lower fairway from T3 to G3. The compact irregular property, folded routing, varied orientations, and continuous interior grass are retained. Tree groups leave grassy breaks, and the putting greens read as single natural surfaces with restrained fringes. All three holes are dry, consistent with geometryFacts; the artwork introduces no water. Hole 1 is a short punchbowl par 3 with greenside sand offering a controlled center target against a more exacting pin attack. Hole 2 provides the strongest route choice: safer staged play around the dogleg contrasts with challenging the bend for a shorter line. Hole 3 is a longer par 4 with a playable corridor and bunkering that adds approach-placement consequences, though it offers less strategic contrast than Hole 2. The par-3/5/4 sequence and different lengths and routing shapes give good within-round variety. This water-free set is a welcome contrast with recent water-heavy rounds. Simulated shots-to-green of 1/2/2 and 33/58/42 safe tee options support a testing but playable round; the previews also show usable landing space. The two-shot par-5 simulation is evidence of an aggressive possibility, not proof of an effortless hole. No clear hazard-side or proportion mismatch warrants a geometry edit.",
+    "edits": []
+  }
+}

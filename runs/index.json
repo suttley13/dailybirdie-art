@@ -1,7 +1,85 @@
 {
   "schemaVersion": 1,
-  "generatedAt": 1791033935,
+  "generatedAt": 1791122420,
   "runs": [
+    {
+      "file": "1791122309-course-114-published.json",
+      "course": 114,
+      "outcome": "published",
+      "error": null,
+      "startedAt": 1791122309,
+      "seconds": 111.68,
+      "reviewModel": "gpt-6-luna",
+      "reviewEffort": "medium",
+      "imageModel": "gpt-image-2.5-sunburst",
+      "callCount": 4,
+      "totals": {
+        "review": {
+          "calls": 3,
+          "tokens": {
+            "input_tokens": 110619,
+            "input_cache_write_tokens": 110610,
+            "input_cached_tokens": 0,
+            "output_tokens": 10028,
+            "output_reasoning_tokens": 9023,
+            "total_tokens": 120647
+          },
+          "unreported": 0
+        },
+        "image": {
+          "calls": 1,
+          "tokens": {
+            "input_tokens": 4020,
+            "input_image_tokens": 2863,
+            "input_text_tokens": 1157,
+            "output_tokens": 343,
+            "output_image_tokens": 343,
+            "output_text_tokens": 0,
+            "total_tokens": 4363
+          },
+          "unreported": 0
+        }
+      }
+    },
+    {
+      "file": "1791121785-course-112-failed.json",
+      "course": 112,
+      "outcome": "failed",
+      "error": "Artwork review failed; previous live artwork preserved",
+      "startedAt": 1791121785,
+      "seconds": 523.42,
+      "reviewModel": "gpt-6-luna",
+      "reviewEffort": "medium",
+      "imageModel": "gpt-image-2.5-sunburst",
+      "callCount": 30,
+      "totals": {
+        "image": {
+          "calls": 15,
+          "tokens": {
+            "input_tokens": 64146,
+            "input_image_tokens": 42945,
+            "input_text_tokens": 21201,
+            "output_tokens": 5145,
+            "output_image_tokens": 5145,
+            "output_text_tokens": 0,
+            "total_tokens": 69291
+          },
+          "unreported": 0
+        },
+        "review": {
+          "calls": 15,
+          "tokens": {
+            "input_tokens": 408815,
+            "input_cache_write_tokens": 408770,
+            "input_cached_tokens": 0,
+            "output_tokens": 26147,
+            "output_reasoning_tokens": 22076,
+            "total_tokens": 434962
+          },
+          "unreported": 0
+        }
+      }
+    },
     {
       "file": "1791033605-course-113-published.json",
       "course": 113,

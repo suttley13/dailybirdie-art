@@ -1,0 +1,120 @@
+{
+  "schemaVersion": 1,
+  "course": 114,
+  "outcome": "published",
+  "error": null,
+  "startedAt": 1791122309,
+  "seconds": 111.68,
+  "reviewModel": "gpt-6-luna",
+  "reviewEffort": "medium",
+  "imageModel": "gpt-image-2.5-sunburst",
+  "candidatesRequested": 50,
+  "calls": [
+    {
+      "phase": "selection",
+      "kind": "review",
+      "model": "gpt-6-luna",
+      "effort": "medium",
+      "responseID": "resp_032972a3f2296466016ac25b8e7f9087d197bdcefc8a27b123",
+      "usage": {
+        "input_tokens": 53202,
+        "input_tokens_details": {
+          "cache_write_tokens": 53199,
+          "cached_tokens": 0
+        },
+        "output_tokens": 4670,
+        "output_tokens_details": {
+          "reasoning_tokens": 4455
+        },
+        "total_tokens": 57872
+      },
+      "seconds": 37.45,
+      "imageCount": 8,
+      "approved": true,
+      "edits": [],
+      "scores": {
+        "strategy": 4,
+        "withinRoundVariety": 5,
+        "acrossDaysVariety": 4,
+        "fairDifficulty": 4
+      }
+    },
+    {
+      "phase": "artwork-0",
+      "kind": "image",
+      "model": "gpt-image-2.5-sunburst",
+      "usage": {
+        "input_tokens": 4020,
+        "input_tokens_details": {
+          "image_tokens": 2863,
+          "text_tokens": 1157
+        },
+        "output_tokens": 343,
+        "output_tokens_details": {
+          "image_tokens": 343,
+          "text_tokens": 0
+        },
+        "total_tokens": 4363
+      },
+      "seconds": 17.6
+    },
+    {
+      "phase": "reconcile-0-0",
+      "kind": "review",
+      "model": "gpt-6-luna",
+      "effort": "medium",
+      "responseID": "resp_0da3c9d33f1ff662016ac25bc60da887d1a77bb84ec0f41a94",
+      "usage": {
+        "input_tokens": 28709,
+        "input_tokens_details": {
+          "cache_write_tokens": 28706,
+          "cached_tokens": 0
+        },
+        "output_tokens": 2151,
+        "output_tokens_details": {
+          "reasoning_tokens": 1729
+        },
+        "total_tokens": 30860
+      },
+      "seconds": 18.49,
+      "imageCount": 2,
+      "approved": true,
+      "edits": [],
+      "scores": {
+        "strategy": 4,
+        "withinRoundVariety": 5,
+        "acrossDaysVariety": 4,
+        "fairDifficulty": 4
+      }
+    },
+    {
+      "phase": "final-0-0",
+      "kind": "review",
+      "model": "gpt-6-luna",
+      "effort": "medium",
+      "responseID": "resp_0e1747f025f48d21016ac25bd871c887d181c8c922e6878ec6",
+      "usage": {
+        "input_tokens": 28708,
+        "input_tokens_details": {
+          "cache_write_tokens": 28705,
+          "cached_tokens": 0
+        },
+        "output_tokens": 3207,
+        "output_tokens_details": {
+          "reasoning_tokens": 2839
+        },
+        "total_tokens": 31915
+      },
+      "seconds": 28.2,
+      "imageCount": 2,
+      "approved": true,
+      "edits": [],
+      "scores": {
+        "strategy": 4,
+        "withinRoundVariety": 4,
+        "acrossDaysVariety": 5,
+        "fairDifficulty": 4
+      }
+    }
+  ]
+}

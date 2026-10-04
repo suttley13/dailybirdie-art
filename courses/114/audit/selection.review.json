@@ -1,0 +1,28 @@
+{
+  "responseID": "resp_032972a3f2296466016ac25b8e7f9087d197bdcefc8a27b123",
+  "model": "gpt-6-luna",
+  "usage": {
+    "input_tokens": 53202,
+    "input_tokens_details": {
+      "cache_write_tokens": 53199,
+      "cached_tokens": 0
+    },
+    "output_tokens": 4670,
+    "output_tokens_details": {
+      "reasoning_tokens": 4455
+    },
+    "total_tokens": 57872
+  },
+  "review": {
+    "candidate": 33,
+    "approved": true,
+    "scores": {
+      "strategy": 4,
+      "withinRoundVariety": 5,
+      "acrossDaysVariety": 4,
+      "fairDifficulty": 4
+    },
+    "reason": "Candidate 33 passes as supplied. In the numbered routing preview, Hole 1 is a compact 141-yard punchbowl par 3, Hole 2 a long 565-yard dogleg-right par 5 with fairway bunkers shaping placement, and Hole 3 a 374-yard double-dogleg par 4 with a fairway bunker influencing the route. The par 3/5/4 sequence gives strong length and shot-type contrast. The round is dry, a welcome change from the many water-heavy recent rounds; punchbowls and doglegs have appeared before, so novelty is good rather than exceptional. The simulation shows a reachable par 5, but its bunkers and staged routing provide meaningful choices, while the safe-option counts and usable corridors support fair difficulty. No geometry change is needed.",
+    "edits": []
+  }
+}
