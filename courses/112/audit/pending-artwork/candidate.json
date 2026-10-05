@@ -1,6 +1,6 @@
 {
   "geometrySHA256": "08ec4e71922af8cb762a7a29ede887db564a06e035119968ba9210d1afd7bbfc",
-  "artworkSHA256": "edf82bb249d28976202050d03f7ae99606c4cb16070a6ea574d164d9ce4e43a3",
+  "artworkSHA256": "d8d580ad3e3d2ac1d35a2410f6c3aa9ea4b7cb742db812d5d21b3de7467bb7d8",
   "review": {
     "reviewKind": "artwork-only-v1",
     "candidate": 0,
@@ -11,17 +11,22 @@
       "visualClarity": 4,
       "styleConsistency": 5
     },
-    "reason": "The hole layout and overall illustration style are clear, but the putting greens read as nested surfaces because of their prominent dark collars.",
+    "reason": "The course layout is generally faithful and the illustration matches the reference style, but the putting greens have conspicuous dark surrounding collars that make them read as nested surfaces rather than single continuous greens.",
     "issues": [
       {
         "code": "green-treatment",
         "hole": 1,
-        "detail": "The green has a strong dark concentric ring that makes the putting surface look nested. Use one continuous natural sage/apple-green surface with only a narrow, subtle fringe."
+        "detail": "Reduce the broad, dark ring around G1 so it reads as one continuous natural putting surface with only a subtle fringe."
       },
       {
         "code": "green-treatment",
         "hole": 2,
-        "detail": "The putting surface is surrounded by a conspicuous dark ring. Reduce the collar so the green reads as one continuous natural surface."
+        "detail": "Soften the dark perimeter collar around G2; keep the green as one continuous surface."
+      },
+      {
+        "code": "green-treatment",
+        "hole": 3,
+        "detail": "Soften the dark ring immediately around the island green at G3, while retaining the distinct water-to-island shoreline."
       }
     ]
   }

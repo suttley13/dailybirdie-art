@@ -1,7 +1,48 @@
 {
   "schemaVersion": 1,
-  "generatedAt": 1791214063,
+  "generatedAt": 1791214810,
   "runs": [
+    {
+      "file": "1791214530-course-112-failed.json",
+      "course": 112,
+      "outcome": "failed",
+      "error": "Artwork not approved; previous live artwork preserved. The illustration has a polished, consistent style and the greens read as continuous surfaces, but the tee routing does not match the numbered diagram and makes the hole connections unclear.; Artwork attempt limit reached (5)",
+      "startedAt": 1791214530,
+      "seconds": 280.4,
+      "reviewModel": "gpt-6-luna",
+      "reviewEffort": "medium",
+      "imageModel": "gpt-image-2.5-sunburst",
+      "artworkStatus": null,
+      "artworkFailure": "The illustration has a polished, consistent style and the greens read as continuous surfaces, but the tee routing does not match the numbered diagram and makes the hole connections unclear.; Artwork attempt limit reached (5)",
+      "callCount": 10,
+      "totals": {
+        "review": {
+          "calls": 6,
+          "tokens": {
+            "input_tokens": 46452,
+            "input_cache_write_tokens": 46434,
+            "input_cached_tokens": 0,
+            "output_tokens": 17069,
+            "output_reasoning_tokens": 15867,
+            "total_tokens": 63521
+          },
+          "unreported": 0
+        },
+        "image": {
+          "calls": 4,
+          "tokens": {
+            "input_tokens": 23793,
+            "input_image_tokens": 17452,
+            "input_text_tokens": 6341,
+            "output_tokens": 1372,
+            "output_image_tokens": 1372,
+            "output_text_tokens": 0,
+            "total_tokens": 25165
+          },
+          "unreported": 0
+        }
+      }
+    },
     {
       "file": "1791213811-course-112-failed.json",
       "course": 112,
