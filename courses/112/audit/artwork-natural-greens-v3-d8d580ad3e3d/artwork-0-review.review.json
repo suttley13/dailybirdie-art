@@ -1,0 +1,29 @@
+{
+  "responseID": "resp_0a73c3543b7de0fd016ac3c65a729087d19c7b85c8ee41f86a",
+  "model": "gpt-6-luna",
+  "usage": {
+    "input_tokens": 7924,
+    "input_tokens_details": {
+      "cache_write_tokens": 7921,
+      "cached_tokens": 0
+    },
+    "output_tokens": 2077,
+    "output_tokens_details": {
+      "reasoning_tokens": 1974
+    },
+    "total_tokens": 10001
+  },
+  "review": {
+    "reviewKind": "artwork-only-v1",
+    "candidate": 0,
+    "approved": true,
+    "scores": {
+      "geometryFidelity": 4,
+      "naturalGreens": 4,
+      "visualClarity": 4,
+      "styleConsistency": 5
+    },
+    "reason": "The illustration preserves the mapped fairways, greens, hazards, island lake, and green-to-next-tee walking connectors. The putting surfaces read as continuous natural greens, and the textured rendering is consistent with the reference style.",
+    "issues": []
+  }
+}

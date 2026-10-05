@@ -1,7 +1,5 @@
 {
-  "schemaVersion": 1,
-  "course": 112,
   "geometrySHA256": "08ec4e71922af8cb762a7a29ede887db564a06e035119968ba9210d1afd7bbfc",
   "artworkSHA256": "d8d580ad3e3d2ac1d35a2410f6c3aa9ea4b7cb742db812d5d21b3de7467bb7d8",
-  "artRulesVersion": "natural-greens-v3"
+  "sourceFile": "artwork-3.jpg"
 }

@@ -1,0 +1,29 @@
+{
+  "responseID": "resp_019074b4cee4f4f5016ac3c675ed5c87d1bd65d1a2a94795c6",
+  "model": "gpt-6-luna",
+  "usage": {
+    "input_tokens": 7924,
+    "input_tokens_details": {
+      "cache_write_tokens": 7921,
+      "cached_tokens": 0
+    },
+    "output_tokens": 2884,
+    "output_tokens_details": {
+      "reasoning_tokens": 2777
+    },
+    "total_tokens": 10808
+  },
+  "review": {
+    "reviewKind": "artwork-only-v1",
+    "candidate": 0,
+    "approved": true,
+    "scores": {
+      "geometryFidelity": 4,
+      "naturalGreens": 4,
+      "visualClarity": 5,
+      "styleConsistency": 5
+    },
+    "reason": "The illustration preserves the numbered tee-to-green layout, mapped fairways, bunkers, water, and walking connectors. The putting surfaces read as continuous greens with only narrow edge transitions, and the rendering is clear and consistent with the style reference.",
+    "issues": []
+  }
+}

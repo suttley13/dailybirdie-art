@@ -1,0 +1,80 @@
+{
+  "schemaVersion": 1,
+  "course": 112,
+  "outcome": "published",
+  "error": null,
+  "startedAt": 1791215193,
+  "seconds": 64.5,
+  "reviewModel": "gpt-6-luna",
+  "reviewEffort": "medium",
+  "imageModel": "gpt-image-2.5-sunburst",
+  "candidatesRequested": 0,
+  "calls": [
+    {
+      "phase": "artwork-0-review",
+      "kind": "review",
+      "model": "gpt-6-luna",
+      "effort": "medium",
+      "responseID": "resp_0a73c3543b7de0fd016ac3c65a729087d19c7b85c8ee41f86a",
+      "usage": {
+        "input_tokens": 7924,
+        "input_tokens_details": {
+          "cache_write_tokens": 7921,
+          "cached_tokens": 0
+        },
+        "output_tokens": 2077,
+        "output_tokens_details": {
+          "reasoning_tokens": 1974
+        },
+        "total_tokens": 10001
+      },
+      "seconds": 26.84,
+      "imageCount": 3,
+      "approved": true,
+      "reviewKind": "artwork-only-v1",
+      "reason": "The illustration preserves the mapped fairways, greens, hazards, island lake, and green-to-next-tee walking connectors. The putting surfaces read as continuous natural greens, and the textured rendering is consistent with the reference style.",
+      "issues": [],
+      "edits": [],
+      "scores": {
+        "geometryFidelity": 4,
+        "naturalGreens": 4,
+        "visualClarity": 4,
+        "styleConsistency": 5
+      }
+    },
+    {
+      "phase": "artwork-0-final",
+      "kind": "review",
+      "model": "gpt-6-luna",
+      "effort": "medium",
+      "responseID": "resp_019074b4cee4f4f5016ac3c675ed5c87d1bd65d1a2a94795c6",
+      "usage": {
+        "input_tokens": 7924,
+        "input_tokens_details": {
+          "cache_write_tokens": 7921,
+          "cached_tokens": 0
+        },
+        "output_tokens": 2884,
+        "output_tokens_details": {
+          "reasoning_tokens": 2777
+        },
+        "total_tokens": 10808
+      },
+      "seconds": 36.41,
+      "imageCount": 3,
+      "approved": true,
+      "reviewKind": "artwork-only-v1",
+      "reason": "The illustration preserves the numbered tee-to-green layout, mapped fairways, bunkers, water, and walking connectors. The putting surfaces read as continuous greens with only narrow edge transitions, and the rendering is clear and consistent with the style reference.",
+      "issues": [],
+      "edits": [],
+      "scores": {
+        "geometryFidelity": 4,
+        "naturalGreens": 4,
+        "visualClarity": 5,
+        "styleConsistency": 5
+      }
+    }
+  ],
+  "artworkStatus": "approved",
+  "artworkFailure": null
+}

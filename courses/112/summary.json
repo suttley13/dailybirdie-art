@@ -1,7 +1,7 @@
 {
   "course": 112,
   "geometrySHA256": "08ec4e71922af8cb762a7a29ede887db564a06e035119968ba9210d1afd7bbfc",
-  "artworkSHA256": "0da6a79a7152729e859bdc199e5ae6f023ddc228d13dc284e223f63456fd0aa7",
+  "artworkSHA256": "d8d580ad3e3d2ac1d35a2410f6c3aa9ea4b7cb742db812d5d21b3de7467bb7d8",
   "holes": [
     {
       "bunkerCount": 4,
@@ -84,5 +84,19 @@
     "reason": "Candidate 23 passes as supplied. The numbered geometry shows a 324-yard cape par 4 with a meaningful water-side positioning choice, a dry 576-yard three-shot par 5, and a 204-yard island-green par 3. The par-4 route rewards a bolder line near the lake while preserving a safer route; the par 5 offers staged placement with fairway bunkers to shape decisions; and the island hole provides a distinct carry-and-distance-control finish. The broad landing areas and 51/46/46 safe tee options support playability, while the par-5 simulation of three shots to the green and the island carry help keep the challenge credible. Island greens and cape holes recur in recent rounds, but this combination and sequence, especially the dry three-shot par 5 between them, provide sufficient freshness. The geometry is publishable without parameter changes.",
     "edits": []
   },
-  "artworkStatus": "geometry-preview"
+  "artworkStatus": "approved",
+  "artRulesVersion": "natural-greens-v3",
+  "artworkReview": {
+    "reviewKind": "artwork-only-v1",
+    "candidate": 0,
+    "approved": true,
+    "scores": {
+      "geometryFidelity": 4,
+      "naturalGreens": 4,
+      "visualClarity": 5,
+      "styleConsistency": 5
+    },
+    "reason": "The illustration preserves the numbered tee-to-green layout, mapped fairways, bunkers, water, and walking connectors. The putting surfaces read as continuous greens with only narrow edge transitions, and the rendering is clear and consistent with the style reference.",
+    "issues": []
+  }
 }
