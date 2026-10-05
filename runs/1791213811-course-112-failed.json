@@ -1,0 +1,312 @@
+{
+  "schemaVersion": 1,
+  "course": 112,
+  "outcome": "failed",
+  "error": "Artwork not approved; previous live artwork preserved. The illustration follows the supplied rendering style and depicts the mapped greens, fairways, and water well, but the tee for hole 1 is not visibly represented at its mapped position near the lower-center of the course.; Artwork attempt limit reached (5)",
+  "startedAt": 1791213811,
+  "seconds": 252.33,
+  "reviewModel": "gpt-6-luna",
+  "reviewEffort": "medium",
+  "imageModel": "gpt-image-2.5-sunburst",
+  "candidatesRequested": 0,
+  "calls": [
+    {
+      "phase": "artwork-0-review",
+      "kind": "review",
+      "model": "gpt-6-luna",
+      "effort": "medium",
+      "responseID": "resp_015b429df083dda6016ac3c0f534b487d1b9ff2a443d3cc218",
+      "usage": {
+        "input_tokens": 7737,
+        "input_tokens_details": {
+          "cache_write_tokens": 7734,
+          "cached_tokens": 0
+        },
+        "output_tokens": 2220,
+        "output_tokens_details": {
+          "reasoning_tokens": 2053
+        },
+        "total_tokens": 9957
+      },
+      "seconds": 28.31,
+      "imageCount": 3,
+      "approved": false,
+      "reviewKind": "artwork-only-v1",
+      "reason": "The hole layout and overall illustration style are clear, but the putting greens read as nested surfaces because of their prominent dark collars.",
+      "issues": [
+        {
+          "code": "green-treatment",
+          "hole": 1,
+          "detail": "The green has a strong dark concentric ring that makes the putting surface look nested. Use one continuous natural sage/apple-green surface with only a narrow, subtle fringe."
+        },
+        {
+          "code": "green-treatment",
+          "hole": 2,
+          "detail": "The putting surface is surrounded by a conspicuous dark ring. Reduce the collar so the green reads as one continuous natural surface."
+        }
+      ],
+      "edits": [],
+      "scores": {
+        "geometryFidelity": 4,
+        "naturalGreens": 3,
+        "visualClarity": 4,
+        "styleConsistency": 5
+      }
+    },
+    {
+      "phase": "artwork-1",
+      "kind": "image",
+      "model": "gpt-image-2.5-sunburst",
+      "usage": {
+        "input_tokens": 5729,
+        "input_tokens_details": {
+          "image_tokens": 4363,
+          "text_tokens": 1366
+        },
+        "output_tokens": 343,
+        "output_tokens_details": {
+          "image_tokens": 343,
+          "text_tokens": 0
+        },
+        "total_tokens": 6072
+      },
+      "seconds": 22.12
+    },
+    {
+      "phase": "artwork-1-review",
+      "kind": "review",
+      "model": "gpt-6-luna",
+      "effort": "medium",
+      "responseID": "resp_0537a420b68229dc016ac3c1274bfc87d193c791b5eed4239c",
+      "usage": {
+        "input_tokens": 7739,
+        "input_tokens_details": {
+          "cache_write_tokens": 7736,
+          "cached_tokens": 0
+        },
+        "output_tokens": 2527,
+        "output_tokens_details": {
+          "reasoning_tokens": 2286
+        },
+        "total_tokens": 10266
+      },
+      "seconds": 34.79,
+      "imageCount": 3,
+      "approved": false,
+      "reviewKind": "artwork-only-v1",
+      "reason": "The mapped fairways, greens, water, and property silhouette are substantially faithful, and the illustration matches the supplied style. The putting greens have overly prominent dark, nested collars that make them read as multiple concentric surfaces rather than one continuous close-mown green.",
+      "issues": [
+        {
+          "code": "green-treatment",
+          "hole": 1,
+          "detail": "The G1 surface is encircled by a conspicuous dark, broad ring. Reduce the contrast and width so the green reads as one continuous putting surface with only a subtle fringe."
+        },
+        {
+          "code": "green-treatment",
+          "hole": 2,
+          "detail": "The G2 surface has visible nested dark rings. Simplify these to one natural green surface and a narrow, subtle edge."
+        },
+        {
+          "code": "green-treatment",
+          "hole": 3,
+          "detail": "The island green has a dark ring around its putting surface in addition to the water shoreline. Soften or remove the inner ring; retain the shoreline boundary."
+        }
+      ],
+      "edits": [],
+      "scores": {
+        "geometryFidelity": 4,
+        "naturalGreens": 3,
+        "visualClarity": 4,
+        "styleConsistency": 5
+      }
+    },
+    {
+      "phase": "artwork-2",
+      "kind": "image",
+      "model": "gpt-image-2.5-sunburst",
+      "usage": {
+        "input_tokens": 5729,
+        "input_tokens_details": {
+          "image_tokens": 4363,
+          "text_tokens": 1366
+        },
+        "output_tokens": 343,
+        "output_tokens_details": {
+          "image_tokens": 343,
+          "text_tokens": 0
+        },
+        "total_tokens": 6072
+      },
+      "seconds": 24.57
+    },
+    {
+      "phase": "artwork-2-review",
+      "kind": "review",
+      "model": "gpt-6-luna",
+      "effort": "medium",
+      "responseID": "resp_0077c3a02f56effe016ac3c1633a4887d195a883bff2209f3e",
+      "usage": {
+        "input_tokens": 7737,
+        "input_tokens_details": {
+          "cache_write_tokens": 7734,
+          "cached_tokens": 0
+        },
+        "output_tokens": 2632,
+        "output_tokens_details": {
+          "reasoning_tokens": 2486
+        },
+        "total_tokens": 10369
+      },
+      "seconds": 32.0,
+      "imageCount": 3,
+      "approved": false,
+      "reviewKind": "artwork-only-v1",
+      "reason": "The illustration broadly follows the course layout and style, but the tee marker at T1 is missing, so the approved tee-to-green routing cannot be faithfully verified.",
+      "issues": [
+        {
+          "code": "geometry-mismatch",
+          "hole": 3,
+          "detail": "The diagram shows a tee at T1 near the island-green area, but no corresponding tee marker or tee pad is visible in the illustration. Add the marker at the mapped location without changing the course geometry."
+        }
+      ],
+      "edits": [],
+      "scores": {
+        "geometryFidelity": 3,
+        "naturalGreens": 4,
+        "visualClarity": 4,
+        "styleConsistency": 5
+      }
+    },
+    {
+      "phase": "artwork-3",
+      "kind": "image",
+      "model": "gpt-image-2.5-sunburst",
+      "usage": {
+        "input_tokens": 5729,
+        "input_tokens_details": {
+          "image_tokens": 4363,
+          "text_tokens": 1366
+        },
+        "output_tokens": 343,
+        "output_tokens_details": {
+          "image_tokens": 343,
+          "text_tokens": 0
+        },
+        "total_tokens": 6072
+      },
+      "seconds": 18.38
+    },
+    {
+      "phase": "artwork-3-review",
+      "kind": "review",
+      "model": "gpt-6-luna",
+      "effort": "medium",
+      "responseID": "resp_0bc772f63f9af239016ac3c19633a087d1ac33c2e29ff70f31",
+      "usage": {
+        "input_tokens": 7739,
+        "input_tokens_details": {
+          "cache_write_tokens": 7736,
+          "cached_tokens": 0
+        },
+        "output_tokens": 2909,
+        "output_tokens_details": {
+          "reasoning_tokens": 2623
+        },
+        "total_tokens": 10648
+      },
+      "seconds": 34.23,
+      "imageCount": 3,
+      "approved": false,
+      "reviewKind": "artwork-only-v1",
+      "reason": "The overall course layout and illustration style are recognizable, but the current image has visibly heavy nested-looking collars around the greens, and the T1 tee shown in the authoritative diagram is not clearly depicted.",
+      "issues": [
+        {
+          "code": "green-treatment",
+          "hole": 1,
+          "detail": "G1 has a broad, dark, high-contrast ring around the putting surface. Use one continuous natural sage/apple-green surface with only a narrow, subtle fringe."
+        },
+        {
+          "code": "green-treatment",
+          "hole": 2,
+          "detail": "G2 has a pronounced dark outer ring that reads as a separate turf collar. Reduce it to a narrow, subtle fringe so the putting surface reads as one natural green."
+        },
+        {
+          "code": "green-treatment",
+          "hole": 3,
+          "detail": "G3 has a strong dark ring around the putting surface, inside the island shoreline, creating a nested-surface appearance. Keep the island boundary distinct from the green and make any green fringe narrow and subtle."
+        },
+        {
+          "code": "geometry-mismatch",
+          "hole": 1,
+          "detail": "The T1 tee shown near the lower-middle area of the diagram is not clearly marked in the illustration. Depict the tee at its mapped position."
+        }
+      ],
+      "edits": [],
+      "scores": {
+        "geometryFidelity": 3,
+        "naturalGreens": 2,
+        "visualClarity": 4,
+        "styleConsistency": 4
+      }
+    },
+    {
+      "phase": "artwork-4",
+      "kind": "image",
+      "model": "gpt-image-2.5-sunburst",
+      "usage": {
+        "input_tokens": 5729,
+        "input_tokens_details": {
+          "image_tokens": 4363,
+          "text_tokens": 1366
+        },
+        "output_tokens": 343,
+        "output_tokens_details": {
+          "image_tokens": 343,
+          "text_tokens": 0
+        },
+        "total_tokens": 6072
+      },
+      "seconds": 19.1
+    },
+    {
+      "phase": "artwork-4-review",
+      "kind": "review",
+      "model": "gpt-6-luna",
+      "effort": "medium",
+      "responseID": "resp_0a960401c6657be4016ac3c1cc1e1c87d1b3d1164b2f6b48c4",
+      "usage": {
+        "input_tokens": 7739,
+        "input_tokens_details": {
+          "cache_write_tokens": 7736,
+          "cached_tokens": 0
+        },
+        "output_tokens": 3008,
+        "output_tokens_details": {
+          "reasoning_tokens": 2857
+        },
+        "total_tokens": 10747
+      },
+      "seconds": 35.19,
+      "imageCount": 3,
+      "approved": false,
+      "reviewKind": "artwork-only-v1",
+      "reason": "The illustration follows the supplied rendering style and depicts the mapped greens, fairways, and water well, but the tee for hole 1 is not visibly represented at its mapped position near the lower-center of the course.",
+      "issues": [
+        {
+          "code": "geometry-mismatch",
+          "hole": 1,
+          "detail": "Add a visible tee marker at the mapped T1 position near the lower-center of the course; the illustration shows tee markers for the other mapped tees, but not this one."
+        }
+      ],
+      "edits": [],
+      "scores": {
+        "geometryFidelity": 3,
+        "naturalGreens": 4,
+        "visualClarity": 4,
+        "styleConsistency": 5
+      }
+    }
+  ],
+  "artworkStatus": null,
+  "artworkFailure": "The illustration follows the supplied rendering style and depicts the mapped greens, fairways, and water well, but the tee for hole 1 is not visibly represented at its mapped position near the lower-center of the course.; Artwork attempt limit reached (5)"
+}

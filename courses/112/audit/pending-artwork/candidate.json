@@ -1,0 +1,28 @@
+{
+  "geometrySHA256": "08ec4e71922af8cb762a7a29ede887db564a06e035119968ba9210d1afd7bbfc",
+  "artworkSHA256": "edf82bb249d28976202050d03f7ae99606c4cb16070a6ea574d164d9ce4e43a3",
+  "review": {
+    "reviewKind": "artwork-only-v1",
+    "candidate": 0,
+    "approved": false,
+    "scores": {
+      "geometryFidelity": 4,
+      "naturalGreens": 3,
+      "visualClarity": 4,
+      "styleConsistency": 5
+    },
+    "reason": "The hole layout and overall illustration style are clear, but the putting greens read as nested surfaces because of their prominent dark collars.",
+    "issues": [
+      {
+        "code": "green-treatment",
+        "hole": 1,
+        "detail": "The green has a strong dark concentric ring that makes the putting surface look nested. Use one continuous natural sage/apple-green surface with only a narrow, subtle fringe."
+      },
+      {
+        "code": "green-treatment",
+        "hole": 2,
+        "detail": "The putting surface is surrounded by a conspicuous dark ring. Reduce the collar so the green reads as one continuous natural surface."
+      }
+    ]
+  }
+}

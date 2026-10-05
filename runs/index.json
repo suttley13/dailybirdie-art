@@ -1,7 +1,48 @@
 {
   "schemaVersion": 1,
-  "generatedAt": 1791122420,
+  "generatedAt": 1791214063,
   "runs": [
+    {
+      "file": "1791213811-course-112-failed.json",
+      "course": 112,
+      "outcome": "failed",
+      "error": "Artwork not approved; previous live artwork preserved. The illustration follows the supplied rendering style and depicts the mapped greens, fairways, and water well, but the tee for hole 1 is not visibly represented at its mapped position near the lower-center of the course.; Artwork attempt limit reached (5)",
+      "startedAt": 1791213811,
+      "seconds": 252.33,
+      "reviewModel": "gpt-6-luna",
+      "reviewEffort": "medium",
+      "imageModel": "gpt-image-2.5-sunburst",
+      "artworkStatus": null,
+      "artworkFailure": "The illustration follows the supplied rendering style and depicts the mapped greens, fairways, and water well, but the tee for hole 1 is not visibly represented at its mapped position near the lower-center of the course.; Artwork attempt limit reached (5)",
+      "callCount": 9,
+      "totals": {
+        "review": {
+          "calls": 5,
+          "tokens": {
+            "input_tokens": 38691,
+            "input_cache_write_tokens": 38676,
+            "input_cached_tokens": 0,
+            "output_tokens": 13296,
+            "output_reasoning_tokens": 12305,
+            "total_tokens": 51987
+          },
+          "unreported": 0
+        },
+        "image": {
+          "calls": 4,
+          "tokens": {
+            "input_tokens": 22916,
+            "input_image_tokens": 17452,
+            "input_text_tokens": 5464,
+            "output_tokens": 1372,
+            "output_image_tokens": 1372,
+            "output_text_tokens": 0,
+            "total_tokens": 24288
+          },
+          "unreported": 0
+        }
+      }
+    },
     {
       "file": "1791122309-course-114-published.json",
       "course": 114,
@@ -12,6 +53,8 @@
       "reviewModel": "gpt-6-luna",
       "reviewEffort": "medium",
       "imageModel": "gpt-image-2.5-sunburst",
+      "artworkStatus": null,
+      "artworkFailure": null,
       "callCount": 4,
       "totals": {
         "review": {
@@ -51,6 +94,8 @@
       "reviewModel": "gpt-6-luna",
       "reviewEffort": "medium",
       "imageModel": "gpt-image-2.5-sunburst",
+      "artworkStatus": null,
+      "artworkFailure": null,
       "callCount": 30,
       "totals": {
         "image": {
@@ -90,6 +135,8 @@
       "reviewModel": "gpt-6-luna",
       "reviewEffort": "medium",
       "imageModel": "gpt-image-2.5-sunburst",
+      "artworkStatus": null,
+      "artworkFailure": null,
       "callCount": 14,
       "totals": {
         "review": {
@@ -129,6 +176,8 @@
       "reviewModel": "gpt-6-luna",
       "reviewEffort": "medium",
       "imageModel": "gpt-image-2.5-sunburst",
+      "artworkStatus": null,
+      "artworkFailure": null,
       "callCount": 30,
       "totals": {
         "image": {
@@ -168,6 +217,8 @@
       "reviewModel": "gpt-6-luna",
       "reviewEffort": "medium",
       "imageModel": "gpt-image-2.5-sunburst",
+      "artworkStatus": null,
+      "artworkFailure": null,
       "callCount": 32,
       "totals": {
         "review": {
@@ -207,6 +258,8 @@
       "reviewModel": "gpt-6-luna",
       "reviewEffort": "medium",
       "imageModel": "gpt-image-2.5-sunburst",
+      "artworkStatus": null,
+      "artworkFailure": null,
       "callCount": 11,
       "totals": {
         "review": {
@@ -246,6 +299,8 @@
       "reviewModel": "gpt-6-luna",
       "reviewEffort": "medium",
       "imageModel": "gpt-image-2.5-sunburst",
+      "artworkStatus": null,
+      "artworkFailure": null,
       "callCount": 19,
       "totals": {
         "review": {
@@ -285,6 +340,8 @@
       "reviewModel": "gpt-6-luna",
       "reviewEffort": "medium",
       "imageModel": "gpt-image-2.5-sunburst",
+      "artworkStatus": null,
+      "artworkFailure": null,
       "callCount": 14,
       "totals": {
         "review": {
@@ -324,6 +381,8 @@
       "reviewModel": "gpt-6-astra",
       "reviewEffort": "medium",
       "imageModel": "gpt-image-2.5-sunburst",
+      "artworkStatus": null,
+      "artworkFailure": null,
       "callCount": 4,
       "totals": {
         "review": {
@@ -363,6 +422,8 @@
       "reviewModel": "gpt-6-astra",
       "reviewEffort": "medium",
       "imageModel": "gpt-image-2.5-sunburst",
+      "artworkStatus": null,
+      "artworkFailure": null,
       "callCount": 10,
       "totals": {
         "review": {
@@ -402,6 +463,8 @@
       "reviewModel": "gpt-6-astra",
       "reviewEffort": "medium",
       "imageModel": "gpt-image-2.5-sunburst",
+      "artworkStatus": null,
+      "artworkFailure": null,
       "callCount": 4,
       "totals": {
         "review": {
@@ -441,6 +504,8 @@
       "reviewModel": "gpt-6-astra",
       "reviewEffort": "medium",
       "imageModel": "gpt-image-2.5-sunburst",
+      "artworkStatus": null,
+      "artworkFailure": null,
       "callCount": 4,
       "totals": {
         "review": {
@@ -480,6 +545,8 @@
       "reviewModel": "gpt-6-astra",
       "reviewEffort": "medium",
       "imageModel": "gpt-image-2.5-sunburst",
+      "artworkStatus": null,
+      "artworkFailure": null,
       "callCount": 6,
       "totals": {
         "review": {
@@ -519,6 +586,8 @@
       "reviewModel": "gpt-6-astra",
       "reviewEffort": "medium",
       "imageModel": "gpt-image-2.5-sunburst",
+      "artworkStatus": null,
+      "artworkFailure": null,
       "callCount": 10,
       "totals": {
         "review": {
@@ -558,6 +627,8 @@
       "reviewModel": "gpt-6-astra",
       "reviewEffort": "medium",
       "imageModel": "gpt-image-2.5-sunburst",
+      "artworkStatus": null,
+      "artworkFailure": null,
       "callCount": 5,
       "totals": {
         "review": {
@@ -597,6 +668,8 @@
       "reviewModel": "gpt-6-astra",
       "reviewEffort": "medium",
       "imageModel": "gpt-image-2.5-sunburst",
+      "artworkStatus": null,
+      "artworkFailure": null,
       "callCount": 6,
       "totals": {
         "review": {
@@ -636,6 +709,8 @@
       "reviewModel": "gpt-6-astra",
       "reviewEffort": "medium",
       "imageModel": "gpt-image-2.5-sunburst",
+      "artworkStatus": null,
+      "artworkFailure": null,
       "callCount": 5,
       "totals": {
         "review": {
@@ -675,6 +750,8 @@
       "reviewModel": "gpt-6-astra",
       "reviewEffort": "medium",
       "imageModel": "gpt-image-2.5-sunburst",
+      "artworkStatus": null,
+      "artworkFailure": null,
       "callCount": 4,
       "totals": {
         "review": {
@@ -714,6 +791,8 @@
       "reviewModel": "gpt-6-astra",
       "reviewEffort": "medium",
       "imageModel": "gpt-image-2.5-sunburst",
+      "artworkStatus": null,
+      "artworkFailure": null,
       "callCount": 5,
       "totals": {
         "review": {
@@ -753,6 +832,8 @@
       "reviewModel": "gpt-6-astra",
       "reviewEffort": "medium",
       "imageModel": "gpt-image-2.5-sunburst",
+      "artworkStatus": null,
+      "artworkFailure": null,
       "callCount": 5,
       "totals": {
         "review": {
@@ -792,6 +873,8 @@
       "reviewModel": "gpt-6-astra",
       "reviewEffort": "medium",
       "imageModel": "gpt-image-2.5-sunburst",
+      "artworkStatus": null,
+      "artworkFailure": null,
       "callCount": 5,
       "totals": {
         "review": {
@@ -831,6 +914,8 @@
       "reviewModel": "gpt-6-astra",
       "reviewEffort": "medium",
       "imageModel": "gpt-image-2.5-sunburst",
+      "artworkStatus": null,
+      "artworkFailure": null,
       "callCount": 5,
       "totals": {
         "review": {
@@ -870,6 +955,8 @@
       "reviewModel": "gpt-6-astra",
       "reviewEffort": "medium",
       "imageModel": "gpt-image-2.5-sunburst",
+      "artworkStatus": null,
+      "artworkFailure": null,
       "callCount": 6,
       "totals": {
         "review": {
@@ -909,6 +996,8 @@
       "reviewModel": "gpt-6-astra",
       "reviewEffort": "medium",
       "imageModel": "gpt-image-2.5-sunburst",
+      "artworkStatus": null,
+      "artworkFailure": null,
       "callCount": 4,
       "totals": {
         "review": {
@@ -948,6 +1037,8 @@
       "reviewModel": "gpt-6-astra",
       "reviewEffort": "medium",
       "imageModel": "gpt-image-2.5-sunburst",
+      "artworkStatus": null,
+      "artworkFailure": null,
       "callCount": 5,
       "totals": {
         "review": {
@@ -987,6 +1078,8 @@
       "reviewModel": "gpt-6-astra",
       "reviewEffort": "medium",
       "imageModel": "gpt-image-2.5-sunburst",
+      "artworkStatus": null,
+      "artworkFailure": null,
       "callCount": 4,
       "totals": {
         "review": {
@@ -1026,6 +1119,8 @@
       "reviewModel": "gpt-6-astra",
       "reviewEffort": "medium",
       "imageModel": "gpt-image-2.5-sunburst",
+      "artworkStatus": null,
+      "artworkFailure": null,
       "callCount": 5,
       "totals": {
         "review": {
@@ -1065,6 +1160,8 @@
       "reviewModel": "gpt-6-astra",
       "reviewEffort": "medium",
       "imageModel": "gpt-image-2.5-sunburst",
+      "artworkStatus": null,
+      "artworkFailure": null,
       "callCount": 5,
       "totals": {
         "review": {
@@ -1104,6 +1201,8 @@
       "reviewModel": "gpt-6-astra",
       "reviewEffort": "medium",
       "imageModel": "gpt-image-2.5-sunburst",
+      "artworkStatus": null,
+      "artworkFailure": null,
       "callCount": 5,
       "totals": {
         "review": {
@@ -1143,6 +1242,8 @@
       "reviewModel": "gpt-6-astra",
       "reviewEffort": "medium",
       "imageModel": "gpt-image-2.5-sunburst",
+      "artworkStatus": null,
+      "artworkFailure": null,
       "callCount": 4,
       "totals": {
         "review": {
@@ -1182,6 +1283,8 @@
       "reviewModel": "gpt-6-astra",
       "reviewEffort": "medium",
       "imageModel": "gpt-image-2.5-sunburst",
+      "artworkStatus": null,
+      "artworkFailure": null,
       "callCount": 4,
       "totals": {
         "review": {
@@ -1221,6 +1324,8 @@
       "reviewModel": "gpt-5.4",
       "reviewEffort": null,
       "imageModel": "gpt-image-2.5-sunburst",
+      "artworkStatus": null,
+      "artworkFailure": null,
       "callCount": 4,
       "totals": {
         "review": {
