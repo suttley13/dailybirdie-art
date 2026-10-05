@@ -1,0 +1,29 @@
+{
+  "responseID": "resp_02f39be83d3e9d98016ac3d844816c87d28f5fa6d8ba08e04f",
+  "model": "gpt-6-luna",
+  "usage": {
+    "input_tokens": 8587,
+    "input_tokens_details": {
+      "cache_write_tokens": 8584,
+      "cached_tokens": 0
+    },
+    "output_tokens": 2084,
+    "output_tokens_details": {
+      "reasoning_tokens": 1966
+    },
+    "total_tokens": 10671
+  },
+  "review": {
+    "reviewKind": "artwork-only-v1",
+    "candidate": 11,
+    "approved": true,
+    "scores": {
+      "geometryFidelity": 4,
+      "naturalGreens": 5,
+      "visualClarity": 4,
+      "styleConsistency": 4
+    },
+    "reason": "The illustration preserves the mapped course silhouette, three fairway directions, greens, mapped water and bunker placements, and both walking connectors. All three greens read as continuous natural putting surfaces with only narrow edge transitions. The textured turf, trees, water and overall rendering are consistent with the supplied style reference.",
+    "issues": []
+  }
+}

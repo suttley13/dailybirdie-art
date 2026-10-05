@@ -1,0 +1,45 @@
+{
+  "responseID": "resp_0eca5a68aaba7184016ac3d81550f087d2a79bd9c4e3a969f2",
+  "model": "gpt-6-luna",
+  "usage": {
+    "input_tokens": 8593,
+    "input_tokens_details": {
+      "cache_write_tokens": 8590,
+      "cached_tokens": 0
+    },
+    "output_tokens": 1728,
+    "output_tokens_details": {
+      "reasoning_tokens": 1504
+    },
+    "total_tokens": 10321
+  },
+  "review": {
+    "reviewKind": "artwork-only-v1",
+    "candidate": 11,
+    "approved": false,
+    "scores": {
+      "geometryFidelity": 4,
+      "naturalGreens": 3,
+      "visualClarity": 4,
+      "styleConsistency": 5
+    },
+    "reason": "The course layout, mapped fairways and hazards, and walking connectors generally correspond to the numbered diagram. However, all three greens are rendered as inset light-green discs surrounded by broad, contrasting dark rings, rather than as single continuous natural putting surfaces.",
+    "issues": [
+      {
+        "code": "green-treatment",
+        "hole": 1,
+        "detail": "G1 has a conspicuous multi-band dark ring around the putting surface; reduce it to a narrow natural fringe and ordinary edge shading."
+      },
+      {
+        "code": "green-treatment",
+        "hole": 2,
+        "detail": "G2 reads as a separate inset disc within a broad dark circular band, giving it a ringed-platform appearance; render one continuous putting surface."
+      },
+      {
+        "code": "green-treatment",
+        "hole": 3,
+        "detail": "G3 has a broad contrasting surround that makes the green look nested; make the edge transition narrower and more natural."
+      }
+    ]
+  }
+}

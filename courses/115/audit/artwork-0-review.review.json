@@ -1,0 +1,45 @@
+{
+  "responseID": "resp_011197fe3368a570016ac3d75eb74887d2b93daaa948675e90",
+  "model": "gpt-6-luna",
+  "usage": {
+    "input_tokens": 8592,
+    "input_tokens_details": {
+      "cache_write_tokens": 8589,
+      "cached_tokens": 0
+    },
+    "output_tokens": 2195,
+    "output_tokens_details": {
+      "reasoning_tokens": 1961
+    },
+    "total_tokens": 10787
+  },
+  "review": {
+    "reviewKind": "artwork-only-v1",
+    "candidate": 11,
+    "approved": false,
+    "scores": {
+      "geometryFidelity": 4,
+      "naturalGreens": 3,
+      "visualClarity": 4,
+      "styleConsistency": 5
+    },
+    "reason": "The overall layout, mapped water, fairways, and walking connectors are recognizable, and the illustration matches the reference style. The putting greens read as inset bright discs surrounded by broad, contrasting rings rather than one continuous close-mown surface.",
+    "issues": [
+      {
+        "code": "green-treatment",
+        "hole": 1,
+        "detail": "The lower-left green has a visibly separate bright inset surface and broad dark surrounding ring. Render it as one continuous natural sage/apple-green putting surface with only a narrow fringe."
+      },
+      {
+        "code": "green-treatment",
+        "hole": 2,
+        "detail": "The bottom green reads as a bright inset disc within a contrasting ring. Reduce the ring so the putting surface reads as one continuous close-mown area."
+      },
+      {
+        "code": "green-treatment",
+        "hole": 3,
+        "detail": "The upper-right green also has a pronounced dark ring around its bright center. Use a continuous natural-green surface with only narrow edge shading."
+      }
+    ]
+  }
+}

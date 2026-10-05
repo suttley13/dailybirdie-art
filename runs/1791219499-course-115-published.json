@@ -1,0 +1,421 @@
+{
+  "schemaVersion": 1,
+  "course": 115,
+  "outcome": "published",
+  "error": null,
+  "startedAt": 1791219499,
+  "seconds": 333.07,
+  "reviewModel": "gpt-6-luna",
+  "reviewEffort": "medium",
+  "imageModel": "gpt-image-2.5-sunburst",
+  "candidatesRequested": 50,
+  "calls": [
+    {
+      "phase": "selection",
+      "kind": "review",
+      "model": "gpt-6-luna",
+      "effort": "medium",
+      "responseID": "resp_0e66e18f67f1c711016ac3d738dfbc87d2911c12405e11a084",
+      "usage": {
+        "input_tokens": 53201,
+        "input_tokens_details": {
+          "cache_write_tokens": 53198,
+          "cached_tokens": 0
+        },
+        "output_tokens": 1229,
+        "output_tokens_details": {
+          "reasoning_tokens": 948
+        },
+        "total_tokens": 54430
+      },
+      "seconds": 18.91,
+      "imageCount": 8,
+      "approved": true,
+      "reviewKind": "course-design",
+      "reason": "Candidate 11 passes as supplied. Hole 1 is a dry 379-yard narrow-corridor par 4 with a playable, if relatively tight, route and meaningful fairway bunkering; its 25 safe tee options merit attention but do not suggest an unfair squeeze. Hole 2 is a 230-yard punchbowl par 3 with a substantial right-front lake and a generous target, offering a center-green option against a more demanding pin attack. Hole 3 is a 538-yard dogleg-left par 5 with a substantial right-front lake; players can stage safely or pursue a more aggressive line around the bend. The 25/63/57 safe tee options and simulated 2/1/2 shots to green support a challenging but playable set. Par 4/3/5 sequencing, dry-to-wet contrast, and distinct corridor, punchbowl, and dogleg layouts give strong variety within the round. Recent rounds frequently feature island greens and water-lined holes; this set avoids an island carry and uses its water as shoreline hazards, making it a notably fresh choice. The current geometry is publishable without edits.",
+      "issues": [],
+      "edits": [],
+      "scores": {
+        "strategy": 5,
+        "withinRoundVariety": 5,
+        "acrossDaysVariety": 5,
+        "fairDifficulty": 4
+      }
+    },
+    {
+      "phase": "artwork-0",
+      "kind": "image",
+      "model": "gpt-image-2.5-sunburst",
+      "usage": {
+        "input_tokens": 4241,
+        "input_tokens_details": {
+          "image_tokens": 2863,
+          "text_tokens": 1378
+        },
+        "output_tokens": 343,
+        "output_tokens_details": {
+          "image_tokens": 343,
+          "text_tokens": 0
+        },
+        "total_tokens": 4584
+      },
+      "seconds": 19.27
+    },
+    {
+      "phase": "artwork-0-review",
+      "kind": "review",
+      "model": "gpt-6-luna",
+      "effort": "medium",
+      "responseID": "resp_011197fe3368a570016ac3d75eb74887d2b93daaa948675e90",
+      "usage": {
+        "input_tokens": 8592,
+        "input_tokens_details": {
+          "cache_write_tokens": 8589,
+          "cached_tokens": 0
+        },
+        "output_tokens": 2195,
+        "output_tokens_details": {
+          "reasoning_tokens": 1961
+        },
+        "total_tokens": 10787
+      },
+      "seconds": 28.25,
+      "imageCount": 3,
+      "approved": false,
+      "reviewKind": "artwork-only-v1",
+      "reason": "The overall layout, mapped water, fairways, and walking connectors are recognizable, and the illustration matches the reference style. The putting greens read as inset bright discs surrounded by broad, contrasting rings rather than one continuous close-mown surface.",
+      "issues": [
+        {
+          "code": "green-treatment",
+          "hole": 1,
+          "detail": "The lower-left green has a visibly separate bright inset surface and broad dark surrounding ring. Render it as one continuous natural sage/apple-green putting surface with only a narrow fringe."
+        },
+        {
+          "code": "green-treatment",
+          "hole": 2,
+          "detail": "The bottom green reads as a bright inset disc within a contrasting ring. Reduce the ring so the putting surface reads as one continuous close-mown area."
+        },
+        {
+          "code": "green-treatment",
+          "hole": 3,
+          "detail": "The upper-right green also has a pronounced dark ring around its bright center. Use a continuous natural-green surface with only narrow edge shading."
+        }
+      ],
+      "edits": [],
+      "scores": {
+        "geometryFidelity": 4,
+        "naturalGreens": 3,
+        "visualClarity": 4,
+        "styleConsistency": 5
+      }
+    },
+    {
+      "phase": "artwork-1",
+      "kind": "image",
+      "model": "gpt-image-2.5-sunburst",
+      "usage": {
+        "input_tokens": 6050,
+        "input_tokens_details": {
+          "image_tokens": 4363,
+          "text_tokens": 1687
+        },
+        "output_tokens": 343,
+        "output_tokens_details": {
+          "image_tokens": 343,
+          "text_tokens": 0
+        },
+        "total_tokens": 6393
+      },
+      "seconds": 20.52
+    },
+    {
+      "phase": "artwork-1-review",
+      "kind": "review",
+      "model": "gpt-6-luna",
+      "effort": "medium",
+      "responseID": "resp_01c54a015701bb26016ac3d7903c3487d298288f0755fe0d05",
+      "usage": {
+        "input_tokens": 8594,
+        "input_tokens_details": {
+          "cache_write_tokens": 8591,
+          "cached_tokens": 0
+        },
+        "output_tokens": 1984,
+        "output_tokens_details": {
+          "reasoning_tokens": 1867
+        },
+        "total_tokens": 10578
+      },
+      "seconds": 28.34,
+      "imageCount": 3,
+      "approved": true,
+      "reviewKind": "artwork-only-v1",
+      "reason": "The illustration preserves the three numbered tee-to-green fairway directions, mapped lakes and bunkers, property silhouette, and the two walking connectors. Each putting green reads as one continuous surface with only a narrow edge transition. The rendering is clear and consistent with the supplied painterly golf-course style.",
+      "issues": [],
+      "edits": [],
+      "scores": {
+        "geometryFidelity": 4,
+        "naturalGreens": 4,
+        "visualClarity": 4,
+        "styleConsistency": 5
+      }
+    },
+    {
+      "phase": "artwork-1-final",
+      "kind": "review",
+      "model": "gpt-6-luna",
+      "effort": "medium",
+      "responseID": "resp_0e08d33d768f322f016ac3d7acef9487d28a8d9446309ece89",
+      "usage": {
+        "input_tokens": 8594,
+        "input_tokens_details": {
+          "cache_write_tokens": 8591,
+          "cached_tokens": 0
+        },
+        "output_tokens": 2232,
+        "output_tokens_details": {
+          "reasoning_tokens": 2093
+        },
+        "total_tokens": 10826
+      },
+      "seconds": 31.26,
+      "imageCount": 3,
+      "approved": false,
+      "reviewKind": "artwork-only-v1",
+      "reason": "The illustration closely follows the course layout and style reference, but one mapped hazard does not read as the correct terrain.",
+      "issues": [
+        {
+          "code": "geometry-mismatch",
+          "hole": 1,
+          "detail": "The small mapped fairway bunker near the left end of Hole 1's upper fairway appears as a grassy green ring rather than a tan sand bunker. Render it as a bunker matching the other mapped sand hazards."
+        }
+      ],
+      "edits": [],
+      "scores": {
+        "geometryFidelity": 3,
+        "naturalGreens": 5,
+        "visualClarity": 4,
+        "styleConsistency": 5
+      }
+    },
+    {
+      "phase": "artwork-2",
+      "kind": "image",
+      "model": "gpt-image-2.5-sunburst",
+      "usage": {
+        "input_tokens": 5943,
+        "input_tokens_details": {
+          "image_tokens": 4363,
+          "text_tokens": 1580
+        },
+        "output_tokens": 343,
+        "output_tokens_details": {
+          "image_tokens": 343,
+          "text_tokens": 0
+        },
+        "total_tokens": 6286
+      },
+      "seconds": 21.16
+    },
+    {
+      "phase": "artwork-2-review",
+      "kind": "review",
+      "model": "gpt-6-luna",
+      "effort": "medium",
+      "responseID": "resp_018c3248936367f6016ac3d7e2215887d2baed5dcaedd01b69",
+      "usage": {
+        "input_tokens": 8591,
+        "input_tokens_details": {
+          "cache_write_tokens": 8588,
+          "cached_tokens": 0
+        },
+        "output_tokens": 2079,
+        "output_tokens_details": {
+          "reasoning_tokens": 1836
+        },
+        "total_tokens": 10670
+      },
+      "seconds": 30.08,
+      "imageCount": 3,
+      "approved": false,
+      "reviewKind": "artwork-only-v1",
+      "reason": "The hole layout, mapped fairways, water, bunkers, and walking connectors read consistently with the numbered diagram. The putting greens are too saturated and each has a conspicuous contrasting ring that makes the surface look artificial rather than like one natural close-mown green.",
+      "issues": [
+        {
+          "code": "green-treatment",
+          "hole": 1,
+          "detail": "The bright lime putting surface is surrounded by a pronounced dark ring. Reduce the saturation and soften the edge transition so the green reads as one continuous natural surface."
+        },
+        {
+          "code": "green-treatment",
+          "hole": 2,
+          "detail": "The small bright green has a strong circular ring that gives it a bullseye/platform appearance. Use a natural sage/apple-green surface with only a narrow, subtle fringe."
+        },
+        {
+          "code": "green-treatment",
+          "hole": 3,
+          "detail": "The putting surface is intensely yellow-green and separated from its surroundings by a distinct band. Tone down the color and make the edge transition more natural."
+        }
+      ],
+      "edits": [],
+      "scores": {
+        "geometryFidelity": 5,
+        "naturalGreens": 3,
+        "visualClarity": 4,
+        "styleConsistency": 5
+      }
+    },
+    {
+      "phase": "artwork-3",
+      "kind": "image",
+      "model": "gpt-image-2.5-sunburst",
+      "usage": {
+        "input_tokens": 5943,
+        "input_tokens_details": {
+          "image_tokens": 4363,
+          "text_tokens": 1580
+        },
+        "output_tokens": 343,
+        "output_tokens_details": {
+          "image_tokens": 343,
+          "text_tokens": 0
+        },
+        "total_tokens": 6286
+      },
+      "seconds": 20.67
+    },
+    {
+      "phase": "artwork-3-review",
+      "kind": "review",
+      "model": "gpt-6-luna",
+      "effort": "medium",
+      "responseID": "resp_0eca5a68aaba7184016ac3d81550f087d2a79bd9c4e3a969f2",
+      "usage": {
+        "input_tokens": 8593,
+        "input_tokens_details": {
+          "cache_write_tokens": 8590,
+          "cached_tokens": 0
+        },
+        "output_tokens": 1728,
+        "output_tokens_details": {
+          "reasoning_tokens": 1504
+        },
+        "total_tokens": 10321
+      },
+      "seconds": 23.73,
+      "imageCount": 3,
+      "approved": false,
+      "reviewKind": "artwork-only-v1",
+      "reason": "The course layout, mapped fairways and hazards, and walking connectors generally correspond to the numbered diagram. However, all three greens are rendered as inset light-green discs surrounded by broad, contrasting dark rings, rather than as single continuous natural putting surfaces.",
+      "issues": [
+        {
+          "code": "green-treatment",
+          "hole": 1,
+          "detail": "G1 has a conspicuous multi-band dark ring around the putting surface; reduce it to a narrow natural fringe and ordinary edge shading."
+        },
+        {
+          "code": "green-treatment",
+          "hole": 2,
+          "detail": "G2 reads as a separate inset disc within a broad dark circular band, giving it a ringed-platform appearance; render one continuous putting surface."
+        },
+        {
+          "code": "green-treatment",
+          "hole": 3,
+          "detail": "G3 has a broad contrasting surround that makes the green look nested; make the edge transition narrower and more natural."
+        }
+      ],
+      "edits": [],
+      "scores": {
+        "geometryFidelity": 4,
+        "naturalGreens": 3,
+        "visualClarity": 4,
+        "styleConsistency": 5
+      }
+    },
+    {
+      "phase": "artwork-4",
+      "kind": "image",
+      "model": "gpt-image-2.5-sunburst",
+      "usage": {
+        "input_tokens": 5943,
+        "input_tokens_details": {
+          "image_tokens": 4363,
+          "text_tokens": 1580
+        },
+        "output_tokens": 343,
+        "output_tokens_details": {
+          "image_tokens": 343,
+          "text_tokens": 0
+        },
+        "total_tokens": 6286
+      },
+      "seconds": 22.88
+    },
+    {
+      "phase": "artwork-4-review",
+      "kind": "review",
+      "model": "gpt-6-luna",
+      "effort": "medium",
+      "responseID": "resp_02f39be83d3e9d98016ac3d844816c87d28f5fa6d8ba08e04f",
+      "usage": {
+        "input_tokens": 8587,
+        "input_tokens_details": {
+          "cache_write_tokens": 8584,
+          "cached_tokens": 0
+        },
+        "output_tokens": 2084,
+        "output_tokens_details": {
+          "reasoning_tokens": 1966
+        },
+        "total_tokens": 10671
+      },
+      "seconds": 28.62,
+      "imageCount": 3,
+      "approved": true,
+      "reviewKind": "artwork-only-v1",
+      "reason": "The illustration preserves the mapped course silhouette, three fairway directions, greens, mapped water and bunker placements, and both walking connectors. All three greens read as continuous natural putting surfaces with only narrow edge transitions. The textured turf, trees, water and overall rendering are consistent with the supplied style reference.",
+      "issues": [],
+      "edits": [],
+      "scores": {
+        "geometryFidelity": 4,
+        "naturalGreens": 5,
+        "visualClarity": 4,
+        "styleConsistency": 4
+      }
+    },
+    {
+      "phase": "artwork-4-final",
+      "kind": "review",
+      "model": "gpt-6-luna",
+      "effort": "medium",
+      "responseID": "resp_07d38e73645a6670016ac3d861a9ac87d2aba97ea682c22173",
+      "usage": {
+        "input_tokens": 8587,
+        "input_tokens_details": {
+          "cache_write_tokens": 8584,
+          "cached_tokens": 0
+        },
+        "output_tokens": 1500,
+        "output_tokens_details": {
+          "reasoning_tokens": 1387
+        },
+        "total_tokens": 10087
+      },
+      "seconds": 22.32,
+      "imageCount": 3,
+      "approved": true,
+      "reviewKind": "artwork-only-v1",
+      "reason": "The illustration preserves the mapped three-hole routing, property silhouette, fairways, lakes, bunkers, and both walking connectors. Each green reads as one continuous natural putting surface with only a narrow edge transition, and the image is clear and consistent with the supplied style reference.",
+      "issues": [],
+      "edits": [],
+      "scores": {
+        "geometryFidelity": 5,
+        "naturalGreens": 4,
+        "visualClarity": 5,
+        "styleConsistency": 5
+      }
+    }
+  ],
+  "artworkStatus": "approved",
+  "artworkFailure": null
+}

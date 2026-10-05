@@ -1,0 +1,28 @@
+{
+  "responseID": "resp_0e66e18f67f1c711016ac3d738dfbc87d2911c12405e11a084",
+  "model": "gpt-6-luna",
+  "usage": {
+    "input_tokens": 53201,
+    "input_tokens_details": {
+      "cache_write_tokens": 53198,
+      "cached_tokens": 0
+    },
+    "output_tokens": 1229,
+    "output_tokens_details": {
+      "reasoning_tokens": 948
+    },
+    "total_tokens": 54430
+  },
+  "review": {
+    "candidate": 11,
+    "approved": true,
+    "scores": {
+      "strategy": 5,
+      "withinRoundVariety": 5,
+      "acrossDaysVariety": 5,
+      "fairDifficulty": 4
+    },
+    "reason": "Candidate 11 passes as supplied. Hole 1 is a dry 379-yard narrow-corridor par 4 with a playable, if relatively tight, route and meaningful fairway bunkering; its 25 safe tee options merit attention but do not suggest an unfair squeeze. Hole 2 is a 230-yard punchbowl par 3 with a substantial right-front lake and a generous target, offering a center-green option against a more demanding pin attack. Hole 3 is a 538-yard dogleg-left par 5 with a substantial right-front lake; players can stage safely or pursue a more aggressive line around the bend. The 25/63/57 safe tee options and simulated 2/1/2 shots to green support a challenging but playable set. Par 4/3/5 sequencing, dry-to-wet contrast, and distinct corridor, punchbowl, and dogleg layouts give strong variety within the round. Recent rounds frequently feature island greens and water-lined holes; this set avoids an island carry and uses its water as shoreline hazards, making it a notably fresh choice. The current geometry is publishable without edits.",
+    "edits": []
+  }
+}

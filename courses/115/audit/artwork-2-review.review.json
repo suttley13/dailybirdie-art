@@ -1,0 +1,45 @@
+{
+  "responseID": "resp_018c3248936367f6016ac3d7e2215887d2baed5dcaedd01b69",
+  "model": "gpt-6-luna",
+  "usage": {
+    "input_tokens": 8591,
+    "input_tokens_details": {
+      "cache_write_tokens": 8588,
+      "cached_tokens": 0
+    },
+    "output_tokens": 2079,
+    "output_tokens_details": {
+      "reasoning_tokens": 1836
+    },
+    "total_tokens": 10670
+  },
+  "review": {
+    "reviewKind": "artwork-only-v1",
+    "candidate": 11,
+    "approved": false,
+    "scores": {
+      "geometryFidelity": 5,
+      "naturalGreens": 3,
+      "visualClarity": 4,
+      "styleConsistency": 5
+    },
+    "reason": "The hole layout, mapped fairways, water, bunkers, and walking connectors read consistently with the numbered diagram. The putting greens are too saturated and each has a conspicuous contrasting ring that makes the surface look artificial rather than like one natural close-mown green.",
+    "issues": [
+      {
+        "code": "green-treatment",
+        "hole": 1,
+        "detail": "The bright lime putting surface is surrounded by a pronounced dark ring. Reduce the saturation and soften the edge transition so the green reads as one continuous natural surface."
+      },
+      {
+        "code": "green-treatment",
+        "hole": 2,
+        "detail": "The small bright green has a strong circular ring that gives it a bullseye/platform appearance. Use a natural sage/apple-green surface with only a narrow, subtle fringe."
+      },
+      {
+        "code": "green-treatment",
+        "hole": 3,
+        "detail": "The putting surface is intensely yellow-green and separated from its surroundings by a distinct band. Tone down the color and make the edge transition more natural."
+      }
+    ]
+  }
+}

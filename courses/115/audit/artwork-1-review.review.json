@@ -1,0 +1,29 @@
+{
+  "responseID": "resp_01c54a015701bb26016ac3d7903c3487d298288f0755fe0d05",
+  "model": "gpt-6-luna",
+  "usage": {
+    "input_tokens": 8594,
+    "input_tokens_details": {
+      "cache_write_tokens": 8591,
+      "cached_tokens": 0
+    },
+    "output_tokens": 1984,
+    "output_tokens_details": {
+      "reasoning_tokens": 1867
+    },
+    "total_tokens": 10578
+  },
+  "review": {
+    "reviewKind": "artwork-only-v1",
+    "candidate": 11,
+    "approved": true,
+    "scores": {
+      "geometryFidelity": 4,
+      "naturalGreens": 4,
+      "visualClarity": 4,
+      "styleConsistency": 5
+    },
+    "reason": "The illustration preserves the three numbered tee-to-green fairway directions, mapped lakes and bunkers, property silhouette, and the two walking connectors. Each putting green reads as one continuous surface with only a narrow edge transition. The rendering is clear and consistent with the supplied painterly golf-course style.",
+    "issues": []
+  }
+}

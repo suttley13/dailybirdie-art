@@ -1,0 +1,35 @@
+{
+  "responseID": "resp_0e08d33d768f322f016ac3d7acef9487d28a8d9446309ece89",
+  "model": "gpt-6-luna",
+  "usage": {
+    "input_tokens": 8594,
+    "input_tokens_details": {
+      "cache_write_tokens": 8591,
+      "cached_tokens": 0
+    },
+    "output_tokens": 2232,
+    "output_tokens_details": {
+      "reasoning_tokens": 2093
+    },
+    "total_tokens": 10826
+  },
+  "review": {
+    "reviewKind": "artwork-only-v1",
+    "candidate": 11,
+    "approved": false,
+    "scores": {
+      "geometryFidelity": 3,
+      "naturalGreens": 5,
+      "visualClarity": 4,
+      "styleConsistency": 5
+    },
+    "reason": "The illustration closely follows the course layout and style reference, but one mapped hazard does not read as the correct terrain.",
+    "issues": [
+      {
+        "code": "geometry-mismatch",
+        "hole": 1,
+        "detail": "The small mapped fairway bunker near the left end of Hole 1's upper fairway appears as a grassy green ring rather than a tan sand bunker. Render it as a bunker matching the other mapped sand hazards."
+      }
+    ]
+  }
+}
