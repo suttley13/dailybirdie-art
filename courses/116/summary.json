@@ -1,0 +1,105 @@
+{
+  "course": 116,
+  "geometrySHA256": "fca2f2bc7df8241577fe82b1e4951d27134a0c008fc62e784706841a0c4390e2",
+  "artworkSHA256": "b8b65e4024f923422658af5cccad030efeecbb1be457aea4d62c6f42bf7ab365",
+  "holes": [
+    {
+      "bunkerCount": 4,
+      "fairwayArea": 18393.826493631226,
+      "par": 4,
+      "route": [
+        [
+          200,
+          40
+        ],
+        [
+          202.6443017073967,
+          367.60272786976526
+        ],
+        [
+          195.06901986569608,
+          458.77522888343236
+        ]
+      ],
+      "simulatedShotsToGreen": 2,
+      "teeSafeOptions": 46,
+      "type": "doubleDogleg",
+      "waterArea": 0,
+      "yards": 348
+    },
+    {
+      "bunkerCount": 6,
+      "fairwayArea": 7081.4462693398855,
+      "par": 3,
+      "route": [
+        [
+          200,
+          40
+        ],
+        [
+          196.86486548395987,
+          282.03459675119046
+        ]
+      ],
+      "simulatedShotsToGreen": 1,
+      "teeSafeOptions": 37,
+      "type": "longPar3",
+      "waterArea": 0,
+      "yards": 209
+    },
+    {
+      "bunkerCount": 7,
+      "fairwayArea": 30045.189874726897,
+      "par": 5,
+      "route": [
+        [
+          200,
+          40
+        ],
+        [
+          171.88001693853926,
+          390.3666920200243
+        ],
+        [
+          170.82460420207067,
+          644.8409824066654
+        ],
+        [
+          202.58113522561237,
+          702.8925875532101
+        ]
+      ],
+      "simulatedShotsToGreen": 3,
+      "teeSafeOptions": 47,
+      "type": "threeShotPar5",
+      "waterArea": 12116.588212286413,
+      "yards": 551
+    }
+  ],
+  "review": {
+    "candidate": 22,
+    "approved": true,
+    "scores": {
+      "strategy": 4,
+      "withinRoundVariety": 5,
+      "acrossDaysVariety": 4,
+      "fairDifficulty": 4
+    },
+    "reason": "Candidate 22 is publishable as supplied. Hole 1 is a dry 348-yard double-dogleg par 4 with a credible placement choice through its bends; the 46 safe tee options support challenge without suggesting an unfair squeeze. Hole 2 is a dry 209-yard long par 3, with a demanding but playable target and 37 safe options. Hole 3 is a 551-yard three-shot par 5 with one substantial lake along the right side of play and fairway bunkers on the opposite side, creating a clear risk-and-placement tradeoff while preserving a route for staged play. Its 47 safe tee options support fair difficulty. The par-4/3/5 sequence and contrast between a bending dry hole, long par 3, and water-influenced par 5 make for strong within-round variety. Long par 3s and three-shot par 5s occur in the recent history, but this particular combination, sequence, and single-hole water emphasis provide sufficient freshness. No geometry changes are needed.",
+    "edits": []
+  },
+  "artworkStatus": "approved",
+  "artworkReview": {
+    "reviewKind": "artwork-only-v1",
+    "candidate": 22,
+    "approved": true,
+    "scores": {
+      "geometryFidelity": 5,
+      "naturalGreens": 4,
+      "visualClarity": 5,
+      "styleConsistency": 5
+    },
+    "reason": "All three mapped fairways, greens, tee locations, tan walking connectors, mapped bunkers, and Hole 3\u2019s lake are represented without an apparent added hazard or connection. Each green reads as one continuous putting surface with a narrow edge transition. The illustration is clear and consistent with the supplied style reference.",
+    "issues": []
+  }
+}

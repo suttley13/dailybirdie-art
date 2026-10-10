@@ -1,0 +1,35 @@
+{
+  "responseID": "resp_09460b3dad0dc5d8016aca2e379bac87d1a6261f03af53248f",
+  "model": "gpt-6-luna",
+  "usage": {
+    "input_tokens": 8223,
+    "input_tokens_details": {
+      "cache_write_tokens": 8220,
+      "cached_tokens": 0
+    },
+    "output_tokens": 2288,
+    "output_tokens_details": {
+      "reasoning_tokens": 2152
+    },
+    "total_tokens": 10511
+  },
+  "review": {
+    "reviewKind": "artwork-only-v1",
+    "candidate": 22,
+    "approved": false,
+    "scores": {
+      "geometryFidelity": 3,
+      "naturalGreens": 4,
+      "visualClarity": 4,
+      "styleConsistency": 5
+    },
+    "reason": "The illustration is clear and consistent with the reference, but hole 3 does not show all five mapped greenside bunkers: only two appear above the green, where the diagram shows three.",
+    "issues": [
+      {
+        "code": "geometry-mismatch",
+        "hole": 3,
+        "detail": "Add the missing mapped greenside bunker above the green; the diagram shows three in that group, while the illustration shows two."
+      }
+    ]
+  }
+}

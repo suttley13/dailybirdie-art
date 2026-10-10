@@ -1,0 +1,29 @@
+{
+  "responseID": "resp_09db10f57fd7685d016aca2ead6a8887d1956a0ebcea9cfa1a",
+  "model": "gpt-6-luna",
+  "usage": {
+    "input_tokens": 8223,
+    "input_tokens_details": {
+      "cache_write_tokens": 8220,
+      "cached_tokens": 0
+    },
+    "output_tokens": 1663,
+    "output_tokens_details": {
+      "reasoning_tokens": 1542
+    },
+    "total_tokens": 9886
+  },
+  "review": {
+    "reviewKind": "artwork-only-v1",
+    "candidate": 22,
+    "approved": true,
+    "scores": {
+      "geometryFidelity": 4,
+      "naturalGreens": 4,
+      "visualClarity": 4,
+      "styleConsistency": 5
+    },
+    "reason": "The three tee-to-green fairways, mapped bunkers and hole 3 water are represented in the correct locations. The G1-to-T2 and G2-to-T3 walking connectors are preserved. Greens read as continuous putting surfaces with narrow edge transitions, and the rendering is consistent with the supplied style reference.",
+    "issues": []
+  }
+}

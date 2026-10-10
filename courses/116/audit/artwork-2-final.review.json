@@ -1,0 +1,29 @@
+{
+  "responseID": "resp_0f3fbaa1aab60ee1016aca2ec38c8087d19bba13981edb4733",
+  "model": "gpt-6-luna",
+  "usage": {
+    "input_tokens": 8223,
+    "input_tokens_details": {
+      "cache_write_tokens": 8220,
+      "cached_tokens": 0
+    },
+    "output_tokens": 1538,
+    "output_tokens_details": {
+      "reasoning_tokens": 1418
+    },
+    "total_tokens": 9761
+  },
+  "review": {
+    "reviewKind": "artwork-only-v1",
+    "candidate": 22,
+    "approved": true,
+    "scores": {
+      "geometryFidelity": 5,
+      "naturalGreens": 4,
+      "visualClarity": 5,
+      "styleConsistency": 5
+    },
+    "reason": "All three mapped fairways, greens, tee locations, tan walking connectors, mapped bunkers, and Hole 3\u2019s lake are represented without an apparent added hazard or connection. Each green reads as one continuous putting surface with a narrow edge transition. The illustration is clear and consistent with the supplied style reference.",
+    "issues": []
+  }
+}

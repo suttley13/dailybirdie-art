@@ -1,0 +1,45 @@
+{
+  "responseID": "resp_0ced516c336f28e1016aca2e84d32087d18e13ea1751b5560a",
+  "model": "gpt-6-luna",
+  "usage": {
+    "input_tokens": 8225,
+    "input_tokens_details": {
+      "cache_write_tokens": 8222,
+      "cached_tokens": 0
+    },
+    "output_tokens": 1696,
+    "output_tokens_details": {
+      "reasoning_tokens": 1482
+    },
+    "total_tokens": 9921
+  },
+  "review": {
+    "reviewKind": "artwork-only-v1",
+    "candidate": 22,
+    "approved": false,
+    "scores": {
+      "geometryFidelity": 4,
+      "naturalGreens": 2,
+      "visualClarity": 4,
+      "styleConsistency": 5
+    },
+    "reason": "The course layout, mapped fairways, lake, and walking connectors are clearly represented, and the illustration matches the reference style. The putting greens read as bright inset discs surrounded by conspicuous darker rings rather than as one continuous natural close-mown surface.",
+    "issues": [
+      {
+        "code": "green-treatment",
+        "hole": 1,
+        "detail": "G1 has a distinct bright inner disc and broad darker ring; blend this into one continuous sage/apple-green putting surface."
+      },
+      {
+        "code": "green-treatment",
+        "hole": 2,
+        "detail": "G2 has a distinct bright inner disc and contrasting ring; soften the boundary so the putting surface reads as continuous."
+      },
+      {
+        "code": "green-treatment",
+        "hole": 3,
+        "detail": "G3 has a distinct bright inner disc and contrasting ring; render it as one continuous natural putting surface."
+      }
+    ]
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "responseID": "resp_0933187b34477265016aca2e0b649087d1bcf0c160247b768b",
+  "model": "gpt-6-luna",
+  "usage": {
+    "input_tokens": 54520,
+    "input_tokens_details": {
+      "cache_write_tokens": 54517,
+      "cached_tokens": 0
+    },
+    "output_tokens": 1811,
+    "output_tokens_details": {
+      "reasoning_tokens": 1550
+    },
+    "total_tokens": 56331
+  },
+  "review": {
+    "candidate": 22,
+    "approved": true,
+    "scores": {
+      "strategy": 4,
+      "withinRoundVariety": 5,
+      "acrossDaysVariety": 4,
+      "fairDifficulty": 4
+    },
+    "reason": "Candidate 22 is publishable as supplied. Hole 1 is a dry 348-yard double-dogleg par 4 with a credible placement choice through its bends; the 46 safe tee options support challenge without suggesting an unfair squeeze. Hole 2 is a dry 209-yard long par 3, with a demanding but playable target and 37 safe options. Hole 3 is a 551-yard three-shot par 5 with one substantial lake along the right side of play and fairway bunkers on the opposite side, creating a clear risk-and-placement tradeoff while preserving a route for staged play. Its 47 safe tee options support fair difficulty. The par-4/3/5 sequence and contrast between a bending dry hole, long par 3, and water-influenced par 5 make for strong within-round variety. Long par 3s and three-shot par 5s occur in the recent history, but this particular combination, sequence, and single-hole water emphasis provide sufficient freshness. No geometry changes are needed.",
+    "edits": []
+  }
+}

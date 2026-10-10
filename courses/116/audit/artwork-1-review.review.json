@@ -1,0 +1,29 @@
+{
+  "responseID": "resp_0196a66da376c45c016aca2e70d92887d1b1b8e5703d2a52ef",
+  "model": "gpt-6-luna",
+  "usage": {
+    "input_tokens": 8225,
+    "input_tokens_details": {
+      "cache_write_tokens": 8222,
+      "cached_tokens": 0
+    },
+    "output_tokens": 1582,
+    "output_tokens_details": {
+      "reasoning_tokens": 1475
+    },
+    "total_tokens": 9807
+  },
+  "review": {
+    "reviewKind": "artwork-only-v1",
+    "candidate": 22,
+    "approved": true,
+    "scores": {
+      "geometryFidelity": 5,
+      "naturalGreens": 4,
+      "visualClarity": 5,
+      "styleConsistency": 5
+    },
+    "reason": "The illustration preserves the mapped course silhouette, fairway directions, greens, bunkers, lake, and walking connectors. Each green reads as one continuous putting surface with only a narrow edge transition, and the rendering is consistent with the style reference.",
+    "issues": []
+  }
+}

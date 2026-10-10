@@ -1,0 +1,287 @@
+{
+  "schemaVersion": 1,
+  "course": 116,
+  "outcome": "published",
+  "error": null,
+  "startedAt": 1791634943,
+  "seconds": 215.8,
+  "reviewModel": "gpt-6-luna",
+  "reviewEffort": "medium",
+  "imageModel": "gpt-image-2.5-sunburst",
+  "candidatesRequested": 50,
+  "calls": [
+    {
+      "phase": "selection",
+      "kind": "review",
+      "model": "gpt-6-luna",
+      "effort": "medium",
+      "responseID": "resp_0933187b34477265016aca2e0b649087d1bcf0c160247b768b",
+      "usage": {
+        "input_tokens": 54520,
+        "input_tokens_details": {
+          "cache_write_tokens": 54517,
+          "cached_tokens": 0
+        },
+        "output_tokens": 1811,
+        "output_tokens_details": {
+          "reasoning_tokens": 1550
+        },
+        "total_tokens": 56331
+      },
+      "seconds": 23.15,
+      "imageCount": 8,
+      "approved": true,
+      "reviewKind": "course-design",
+      "reason": "Candidate 22 is publishable as supplied. Hole 1 is a dry 348-yard double-dogleg par 4 with a credible placement choice through its bends; the 46 safe tee options support challenge without suggesting an unfair squeeze. Hole 2 is a dry 209-yard long par 3, with a demanding but playable target and 37 safe options. Hole 3 is a 551-yard three-shot par 5 with one substantial lake along the right side of play and fairway bunkers on the opposite side, creating a clear risk-and-placement tradeoff while preserving a route for staged play. Its 47 safe tee options support fair difficulty. The par-4/3/5 sequence and contrast between a bending dry hole, long par 3, and water-influenced par 5 make for strong within-round variety. Long par 3s and three-shot par 5s occur in the recent history, but this particular combination, sequence, and single-hole water emphasis provide sufficient freshness. No geometry changes are needed.",
+      "issues": [],
+      "edits": [],
+      "scores": {
+        "strategy": 4,
+        "withinRoundVariety": 5,
+        "acrossDaysVariety": 4,
+        "fairDifficulty": 4
+      }
+    },
+    {
+      "phase": "artwork-0",
+      "kind": "image",
+      "model": "gpt-image-2.5-sunburst",
+      "usage": {
+        "input_tokens": 4160,
+        "input_tokens_details": {
+          "image_tokens": 2863,
+          "text_tokens": 1297
+        },
+        "output_tokens": 343,
+        "output_tokens_details": {
+          "image_tokens": 343,
+          "text_tokens": 0
+        },
+        "total_tokens": 4503
+      },
+      "seconds": 21.5
+    },
+    {
+      "phase": "artwork-0-review",
+      "kind": "review",
+      "model": "gpt-6-luna",
+      "effort": "medium",
+      "responseID": "resp_09460b3dad0dc5d8016aca2e379bac87d1a6261f03af53248f",
+      "usage": {
+        "input_tokens": 8223,
+        "input_tokens_details": {
+          "cache_write_tokens": 8220,
+          "cached_tokens": 0
+        },
+        "output_tokens": 2288,
+        "output_tokens_details": {
+          "reasoning_tokens": 2152
+        },
+        "total_tokens": 10511
+      },
+      "seconds": 33.11,
+      "imageCount": 3,
+      "approved": false,
+      "reviewKind": "artwork-only-v1",
+      "reason": "The illustration is clear and consistent with the reference, but hole 3 does not show all five mapped greenside bunkers: only two appear above the green, where the diagram shows three.",
+      "issues": [
+        {
+          "code": "geometry-mismatch",
+          "hole": 3,
+          "detail": "Add the missing mapped greenside bunker above the green; the diagram shows three in that group, while the illustration shows two."
+        }
+      ],
+      "edits": [],
+      "scores": {
+        "geometryFidelity": 3,
+        "naturalGreens": 4,
+        "visualClarity": 4,
+        "styleConsistency": 5
+      }
+    },
+    {
+      "phase": "artwork-1",
+      "kind": "image",
+      "model": "gpt-image-2.5-sunburst",
+      "usage": {
+        "input_tokens": 5859,
+        "input_tokens_details": {
+          "image_tokens": 4363,
+          "text_tokens": 1496
+        },
+        "output_tokens": 343,
+        "output_tokens_details": {
+          "image_tokens": 343,
+          "text_tokens": 0
+        },
+        "total_tokens": 6202
+      },
+      "seconds": 23.38
+    },
+    {
+      "phase": "artwork-1-review",
+      "kind": "review",
+      "model": "gpt-6-luna",
+      "effort": "medium",
+      "responseID": "resp_0196a66da376c45c016aca2e70d92887d1b1b8e5703d2a52ef",
+      "usage": {
+        "input_tokens": 8225,
+        "input_tokens_details": {
+          "cache_write_tokens": 8222,
+          "cached_tokens": 0
+        },
+        "output_tokens": 1582,
+        "output_tokens_details": {
+          "reasoning_tokens": 1475
+        },
+        "total_tokens": 9807
+      },
+      "seconds": 19.68,
+      "imageCount": 3,
+      "approved": true,
+      "reviewKind": "artwork-only-v1",
+      "reason": "The illustration preserves the mapped course silhouette, fairway directions, greens, bunkers, lake, and walking connectors. Each green reads as one continuous putting surface with only a narrow edge transition, and the rendering is consistent with the style reference.",
+      "issues": [],
+      "edits": [],
+      "scores": {
+        "geometryFidelity": 5,
+        "naturalGreens": 4,
+        "visualClarity": 5,
+        "styleConsistency": 5
+      }
+    },
+    {
+      "phase": "artwork-1-final",
+      "kind": "review",
+      "model": "gpt-6-luna",
+      "effort": "medium",
+      "responseID": "resp_0ced516c336f28e1016aca2e84d32087d18e13ea1751b5560a",
+      "usage": {
+        "input_tokens": 8225,
+        "input_tokens_details": {
+          "cache_write_tokens": 8222,
+          "cached_tokens": 0
+        },
+        "output_tokens": 1696,
+        "output_tokens_details": {
+          "reasoning_tokens": 1482
+        },
+        "total_tokens": 9921
+      },
+      "seconds": 19.55,
+      "imageCount": 3,
+      "approved": false,
+      "reviewKind": "artwork-only-v1",
+      "reason": "The course layout, mapped fairways, lake, and walking connectors are clearly represented, and the illustration matches the reference style. The putting greens read as bright inset discs surrounded by conspicuous darker rings rather than as one continuous natural close-mown surface.",
+      "issues": [
+        {
+          "code": "green-treatment",
+          "hole": 1,
+          "detail": "G1 has a distinct bright inner disc and broad darker ring; blend this into one continuous sage/apple-green putting surface."
+        },
+        {
+          "code": "green-treatment",
+          "hole": 2,
+          "detail": "G2 has a distinct bright inner disc and contrasting ring; soften the boundary so the putting surface reads as continuous."
+        },
+        {
+          "code": "green-treatment",
+          "hole": 3,
+          "detail": "G3 has a distinct bright inner disc and contrasting ring; render it as one continuous natural putting surface."
+        }
+      ],
+      "edits": [],
+      "scores": {
+        "geometryFidelity": 4,
+        "naturalGreens": 2,
+        "visualClarity": 4,
+        "styleConsistency": 5
+      }
+    },
+    {
+      "phase": "artwork-2",
+      "kind": "image",
+      "model": "gpt-image-2.5-sunburst",
+      "usage": {
+        "input_tokens": 5859,
+        "input_tokens_details": {
+          "image_tokens": 4363,
+          "text_tokens": 1496
+        },
+        "output_tokens": 343,
+        "output_tokens_details": {
+          "image_tokens": 343,
+          "text_tokens": 0
+        },
+        "total_tokens": 6202
+      },
+      "seconds": 20.3
+    },
+    {
+      "phase": "artwork-2-review",
+      "kind": "review",
+      "model": "gpt-6-luna",
+      "effort": "medium",
+      "responseID": "resp_09db10f57fd7685d016aca2ead6a8887d1956a0ebcea9cfa1a",
+      "usage": {
+        "input_tokens": 8223,
+        "input_tokens_details": {
+          "cache_write_tokens": 8220,
+          "cached_tokens": 0
+        },
+        "output_tokens": 1663,
+        "output_tokens_details": {
+          "reasoning_tokens": 1542
+        },
+        "total_tokens": 9886
+      },
+      "seconds": 21.85,
+      "imageCount": 3,
+      "approved": true,
+      "reviewKind": "artwork-only-v1",
+      "reason": "The three tee-to-green fairways, mapped bunkers and hole 3 water are represented in the correct locations. The G1-to-T2 and G2-to-T3 walking connectors are preserved. Greens read as continuous putting surfaces with narrow edge transitions, and the rendering is consistent with the supplied style reference.",
+      "issues": [],
+      "edits": [],
+      "scores": {
+        "geometryFidelity": 4,
+        "naturalGreens": 4,
+        "visualClarity": 4,
+        "styleConsistency": 5
+      }
+    },
+    {
+      "phase": "artwork-2-final",
+      "kind": "review",
+      "model": "gpt-6-luna",
+      "effort": "medium",
+      "responseID": "resp_0f3fbaa1aab60ee1016aca2ec38c8087d19bba13981edb4733",
+      "usage": {
+        "input_tokens": 8223,
+        "input_tokens_details": {
+          "cache_write_tokens": 8220,
+          "cached_tokens": 0
+        },
+        "output_tokens": 1538,
+        "output_tokens_details": {
+          "reasoning_tokens": 1418
+        },
+        "total_tokens": 9761
+      },
+      "seconds": 19.0,
+      "imageCount": 3,
+      "approved": true,
+      "reviewKind": "artwork-only-v1",
+      "reason": "All three mapped fairways, greens, tee locations, tan walking connectors, mapped bunkers, and Hole 3\u2019s lake are represented without an apparent added hazard or connection. Each green reads as one continuous putting surface with a narrow edge transition. The illustration is clear and consistent with the supplied style reference.",
+      "issues": [],
+      "edits": [],
+      "scores": {
+        "geometryFidelity": 5,
+        "naturalGreens": 4,
+        "visualClarity": 5,
+        "styleConsistency": 5
+      }
+    }
+  ],
+  "artworkStatus": "approved",
+  "artworkFailure": null
+}
