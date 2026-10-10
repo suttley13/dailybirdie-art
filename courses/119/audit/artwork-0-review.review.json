@@ -1,0 +1,29 @@
+{
+  "responseID": "resp_0dbacd3ea016d4fb016aca32818b0087d2865b210f75450091",
+  "model": "gpt-6-luna",
+  "usage": {
+    "input_tokens": 8289,
+    "input_tokens_details": {
+      "cache_write_tokens": 8286,
+      "cached_tokens": 0
+    },
+    "output_tokens": 1558,
+    "output_tokens_details": {
+      "reasoning_tokens": 1440
+    },
+    "total_tokens": 9847
+  },
+  "review": {
+    "reviewKind": "artwork-only-v1",
+    "candidate": 5,
+    "approved": true,
+    "scores": {
+      "geometryFidelity": 4,
+      "naturalGreens": 5,
+      "visualClarity": 4,
+      "styleConsistency": 5
+    },
+    "reason": "The illustration preserves the mapped three-hole routing, fairways, lake, bunkers, and green-to-next-tee walking connectors. Each green reads as one continuous close-mown surface, and the palette and rendered turf and trees are consistent with the style reference. No actionable artwork issue is visible.",
+    "issues": []
+  }
+}

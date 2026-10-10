@@ -1,0 +1,29 @@
+{
+  "responseID": "resp_0262dcbe5346bafe016aca32fd76f887d292eaa1add14bd5b7",
+  "model": "gpt-6-luna",
+  "usage": {
+    "input_tokens": 8291,
+    "input_tokens_details": {
+      "cache_write_tokens": 8288,
+      "cached_tokens": 0
+    },
+    "output_tokens": 2052,
+    "output_tokens_details": {
+      "reasoning_tokens": 1934
+    },
+    "total_tokens": 10343
+  },
+  "review": {
+    "reviewKind": "artwork-only-v1",
+    "candidate": 20,
+    "approved": true,
+    "scores": {
+      "geometryFidelity": 4,
+      "naturalGreens": 4,
+      "visualClarity": 5,
+      "styleConsistency": 5
+    },
+    "reason": "The three holes, mapped fairways and water, tee-to-next-tee walking connectors, and property silhouette are represented clearly. Each green reads as one continuous natural putting surface with a restrained edge transition. The textured turf, trees, bunkers, and palette are consistent with the supplied style reference.",
+    "issues": []
+  }
+}

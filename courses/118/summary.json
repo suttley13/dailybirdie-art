@@ -1,0 +1,101 @@
+{
+  "course": 118,
+  "geometrySHA256": "d97c07ddb20b85555274fe7b4a6523008a83f9dec76c5f69edc1d5b66f4160ad",
+  "artworkSHA256": "95a2621b6ead73a8589497b653d544d71e2d5444083a35034064d01014e703c6",
+  "holes": [
+    {
+      "bunkerCount": 5,
+      "fairwayArea": 26678.905598599446,
+      "par": 4,
+      "route": [
+        [
+          200,
+          40
+        ],
+        [
+          184.75685401638907,
+          361.33572071934043
+        ],
+        [
+          149.39746873578213,
+          560.9914447920921
+        ]
+      ],
+      "simulatedShotsToGreen": 2,
+      "teeSafeOptions": 47,
+      "type": "capeHole",
+      "waterArea": 13941.849230446227,
+      "yards": 440
+    },
+    {
+      "bunkerCount": 6,
+      "fairwayArea": 27563.219718125605,
+      "par": 5,
+      "route": [
+        [
+          120,
+          40
+        ],
+        [
+          186.53941546844973,
+          399.7666512037112
+        ],
+        [
+          304.7236606922301,
+          477.2529217629117
+        ]
+      ],
+      "simulatedShotsToGreen": 2,
+      "teeSafeOptions": 62,
+      "type": "doglegRight",
+      "waterArea": 14819.98943911694,
+      "yards": 505
+    },
+    {
+      "bunkerCount": 5,
+      "fairwayArea": 9498.047571181767,
+      "par": 3,
+      "route": [
+        [
+          200,
+          40
+        ],
+        [
+          200.37181450190386,
+          284.26051638774175
+        ]
+      ],
+      "simulatedShotsToGreen": 1,
+      "teeSafeOptions": 48,
+      "type": "punchbowlGreen",
+      "waterArea": 0,
+      "yards": 209
+    }
+  ],
+  "review": {
+    "candidate": 41,
+    "approved": true,
+    "scores": {
+      "strategy": 4,
+      "withinRoundVariety": 5,
+      "acrossDaysVariety": 4,
+      "fairDifficulty": 4
+    },
+    "reason": "Candidate 41 passes as supplied. Hole 1 is a 440-yard cape par 4: its substantial right-side lake makes the safer fairway line compete with a bolder shoreline-side position, while the landing area remains playable. Hole 2 is a 505-yard dogleg-right par 5 with substantial water left of play; the broad route supports staged play, and advancing aggressively near the lake offers a meaningful risk-reward choice. Hole 3 is a dry 209-yard punchbowl par 3, with a generous target and greenside bunkers providing a distinct finish. The par-4/5/3 sequence, two different shoreline routes, and dry par 3 give the round strong internal variety. Cape holes and punchbowls recur in recent rounds, but this combination and its two substantial lakes provide sufficient freshness. Simulated shots-to-green and safe-option counts support a challenging but playable set, and the previews show usable landing areas. Geometry facts confirm water on holes 1 and 2, and none on hole 3. No edits are needed.",
+    "edits": []
+  },
+  "artworkStatus": "approved",
+  "artworkReview": {
+    "reviewKind": "artwork-only-v1",
+    "candidate": 41,
+    "approved": true,
+    "scores": {
+      "geometryFidelity": 4,
+      "naturalGreens": 4,
+      "visualClarity": 4,
+      "styleConsistency": 5
+    },
+    "reason": "The illustration preserves the three tee-to-green layouts, mapped fairways, lakes, bunkers, and green-to-next-tee walking connectors. Greens read as continuous natural putting surfaces with narrow edge transitions, and the rendering is consistent with the supplied style reference.",
+    "issues": []
+  }
+}

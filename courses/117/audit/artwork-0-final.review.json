@@ -1,0 +1,29 @@
+{
+  "responseID": "resp_0c0d168fc8a0144a016aca31ba045c87d294ce6a9f9c125d54",
+  "model": "gpt-6-luna",
+  "usage": {
+    "input_tokens": 8070,
+    "input_tokens_details": {
+      "cache_write_tokens": 8067,
+      "cached_tokens": 0
+    },
+    "output_tokens": 2491,
+    "output_tokens_details": {
+      "reasoning_tokens": 2363
+    },
+    "total_tokens": 10561
+  },
+  "review": {
+    "reviewKind": "artwork-only-v1",
+    "candidate": 43,
+    "approved": true,
+    "scores": {
+      "geometryFidelity": 4,
+      "naturalGreens": 5,
+      "visualClarity": 4,
+      "styleConsistency": 5
+    },
+    "reason": "The illustration preserves the numbered hole layout, fairway directions, property silhouette, lake, mapped hazards, and the G1-to-T2 and G2-to-T3 walking connectors. Each putting green reads as one continuous natural surface, and the textured turf and trees are consistent with the reference. The fairways remain distinguishable despite dense tree cover.",
+    "issues": []
+  }
+}

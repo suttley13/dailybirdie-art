@@ -1,0 +1,29 @@
+{
+  "responseID": "resp_031c8caeeb1973a8016aca32943c5c87d290433b3aa1558c15",
+  "model": "gpt-6-luna",
+  "usage": {
+    "input_tokens": 8289,
+    "input_tokens_details": {
+      "cache_write_tokens": 8286,
+      "cached_tokens": 0
+    },
+    "output_tokens": 2202,
+    "output_tokens_details": {
+      "reasoning_tokens": 2084
+    },
+    "total_tokens": 10491
+  },
+  "review": {
+    "reviewKind": "artwork-only-v1",
+    "candidate": 5,
+    "approved": true,
+    "scores": {
+      "geometryFidelity": 4,
+      "naturalGreens": 5,
+      "visualClarity": 4,
+      "styleConsistency": 5
+    },
+    "reason": "The illustration preserves the mapped course silhouette, fairway directions, lake, bunkers, and the G1-to-T2 and G2-to-T3 walking connectors. The greens read as continuous natural putting surfaces, and the rendering is consistent with the reference style. No actionable artwork issues are apparent.",
+    "issues": []
+  }
+}

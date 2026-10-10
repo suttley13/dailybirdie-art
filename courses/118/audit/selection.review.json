@@ -1,0 +1,28 @@
+{
+  "responseID": "resp_0eb9961573770e22016aca31e193c487d28719982b98b6e0c9",
+  "model": "gpt-6-luna",
+  "usage": {
+    "input_tokens": 55224,
+    "input_tokens_details": {
+      "cache_write_tokens": 55221,
+      "cached_tokens": 0
+    },
+    "output_tokens": 2164,
+    "output_tokens_details": {
+      "reasoning_tokens": 1895
+    },
+    "total_tokens": 57388
+  },
+  "review": {
+    "candidate": 41,
+    "approved": true,
+    "scores": {
+      "strategy": 4,
+      "withinRoundVariety": 5,
+      "acrossDaysVariety": 4,
+      "fairDifficulty": 4
+    },
+    "reason": "Candidate 41 passes as supplied. Hole 1 is a 440-yard cape par 4: its substantial right-side lake makes the safer fairway line compete with a bolder shoreline-side position, while the landing area remains playable. Hole 2 is a 505-yard dogleg-right par 5 with substantial water left of play; the broad route supports staged play, and advancing aggressively near the lake offers a meaningful risk-reward choice. Hole 3 is a dry 209-yard punchbowl par 3, with a generous target and greenside bunkers providing a distinct finish. The par-4/5/3 sequence, two different shoreline routes, and dry par 3 give the round strong internal variety. Cape holes and punchbowls recur in recent rounds, but this combination and its two substantial lakes provide sufficient freshness. Simulated shots-to-green and safe-option counts support a challenging but playable set, and the previews show usable landing areas. Geometry facts confirm water on holes 1 and 2, and none on hole 3. No edits are needed.",
+    "edits": []
+  }
+}

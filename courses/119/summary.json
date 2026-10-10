@@ -1,0 +1,101 @@
+{
+  "course": 119,
+  "geometrySHA256": "7a04f82d71e5f11faa0eb936ddf9e61d0b441881d203776b85caf4a355ed383c",
+  "artworkSHA256": "308614309c10f74e54258cb56858559dfbaee3bd1c1e7ed5ca41b541c369d3bd",
+  "holes": [
+    {
+      "bunkerCount": 7,
+      "fairwayArea": 27593.095619642554,
+      "par": 5,
+      "route": [
+        [
+          200,
+          40
+        ],
+        [
+          180.35075876433132,
+          392.0848370531209
+        ],
+        [
+          183.8840411833855,
+          612.765854702371
+        ]
+      ],
+      "simulatedShotsToGreen": 2,
+      "teeSafeOptions": 51,
+      "type": "reachablePar5",
+      "waterArea": 9978.293875788455,
+      "yards": 494
+    },
+    {
+      "bunkerCount": 3,
+      "fairwayArea": 19558.791411557955,
+      "par": 4,
+      "route": [
+        [
+          280,
+          40
+        ],
+        [
+          142.01057458818946,
+          360.0416978753748
+        ],
+        [
+          108.26457377224835,
+          421.99727906777343
+        ]
+      ],
+      "simulatedShotsToGreen": 2,
+      "teeSafeOptions": 38,
+      "type": "doglegLeft",
+      "waterArea": 0,
+      "yards": 440
+    },
+    {
+      "bunkerCount": 8,
+      "fairwayArea": 8638.913683368419,
+      "par": 3,
+      "route": [
+        [
+          200,
+          40
+        ],
+        [
+          181.66788019859666,
+          274.9823224369151
+        ]
+      ],
+      "simulatedShotsToGreen": 1,
+      "teeSafeOptions": 55,
+      "type": "straight",
+      "waterArea": 0,
+      "yards": 198
+    }
+  ],
+  "review": {
+    "candidate": 5,
+    "approved": true,
+    "scores": {
+      "strategy": 4,
+      "withinRoundVariety": 5,
+      "acrossDaysVariety": 4,
+      "fairDifficulty": 4
+    },
+    "reason": "Candidate 5 is publishable as supplied. Hole 1 is a reachable 494-yard par 5 with a substantial lake on the right side of play and fairway bunkers along the route. A safer line away from the shoreline preserves a staged route, while advancing more aggressively offers a chance to reach in two. Hole 2 is a dry 440-yard dogleg-left par 4: following the bend is the sensible route, while the tree-lined inside line and fairway bunker make cutting the corner a real choice rather than a free shortcut. Hole 3 is a dry, straight 198-yard par 3 with approach bunkers and substantial greenside sand on both sides; its target rewards distance control without imposing a water carry. The par-5/4/3 sequence, changing routing shapes, and single substantial lake give the round strong internal contrast. Recent rounds often feature water and doglegs, and reachable par 5s recur, but this combination of a wet opener, dry dogleg middle hole, and dry straight finisher is sufficiently distinct. Simulated shots-to-green of 2/2/1 and safe tee-option counts of 51/38/55 support a challenging but playable set; the previews show usable landing areas. No geometry change is needed.",
+    "edits": []
+  },
+  "artworkStatus": "approved",
+  "artworkReview": {
+    "reviewKind": "artwork-only-v1",
+    "candidate": 5,
+    "approved": true,
+    "scores": {
+      "geometryFidelity": 4,
+      "naturalGreens": 5,
+      "visualClarity": 4,
+      "styleConsistency": 5
+    },
+    "reason": "The illustration preserves the mapped course silhouette, fairway directions, lake, bunkers, and the G1-to-T2 and G2-to-T3 walking connectors. The greens read as continuous natural putting surfaces, and the rendering is consistent with the reference style. No actionable artwork issues are apparent.",
+    "issues": []
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "responseID": "resp_0e6ea864ebd7d2d1016aca3228257087d290861ec310b41050",
+  "model": "gpt-6-luna",
+  "usage": {
+    "input_tokens": 8214,
+    "input_tokens_details": {
+      "cache_write_tokens": 8211,
+      "cached_tokens": 0
+    },
+    "output_tokens": 2278,
+    "output_tokens_details": {
+      "reasoning_tokens": 2168
+    },
+    "total_tokens": 10492
+  },
+  "review": {
+    "reviewKind": "artwork-only-v1",
+    "candidate": 41,
+    "approved": true,
+    "scores": {
+      "geometryFidelity": 4,
+      "naturalGreens": 4,
+      "visualClarity": 4,
+      "styleConsistency": 5
+    },
+    "reason": "The illustration preserves the three tee-to-green layouts, mapped fairways, lakes, bunkers, and green-to-next-tee walking connectors. Greens read as continuous natural putting surfaces with narrow edge transitions, and the rendering is consistent with the supplied style reference.",
+    "issues": []
+  }
+}

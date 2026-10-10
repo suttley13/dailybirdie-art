@@ -1,0 +1,29 @@
+{
+  "responseID": "resp_023b960109136ac1016aca32ea7e7c87d2a45312291a78ac15",
+  "model": "gpt-6-luna",
+  "usage": {
+    "input_tokens": 8291,
+    "input_tokens_details": {
+      "cache_write_tokens": 8288,
+      "cached_tokens": 0
+    },
+    "output_tokens": 1418,
+    "output_tokens_details": {
+      "reasoning_tokens": 1311
+    },
+    "total_tokens": 9709
+  },
+  "review": {
+    "reviewKind": "artwork-only-v1",
+    "candidate": 20,
+    "approved": true,
+    "scores": {
+      "geometryFidelity": 4,
+      "naturalGreens": 4,
+      "visualClarity": 4,
+      "styleConsistency": 5
+    },
+    "reason": "The illustrated fairways, green locations, mapped water and bunkers, and both walking connectors correspond to the numbered diagram. The greens read as continuous putting surfaces with narrow edge transitions. The rendering is clear and consistent with the supplied style reference.",
+    "issues": []
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "responseID": "resp_0f4c842470364e79016aca31a082d487d29691010c1a4daa74",
+  "model": "gpt-6-luna",
+  "usage": {
+    "input_tokens": 8070,
+    "input_tokens_details": {
+      "cache_write_tokens": 8067,
+      "cached_tokens": 0
+    },
+    "output_tokens": 1897,
+    "output_tokens_details": {
+      "reasoning_tokens": 1771
+    },
+    "total_tokens": 9967
+  },
+  "review": {
+    "reviewKind": "artwork-only-v1",
+    "candidate": 43,
+    "approved": true,
+    "scores": {
+      "geometryFidelity": 4,
+      "naturalGreens": 4,
+      "visualClarity": 4,
+      "styleConsistency": 5
+    },
+    "reason": "The three fairway corridors, numbered green locations, mapped central water, bunkers, and G1-to-T2 and G2-to-T3 walking connectors correspond to the authoritative diagram. Greens read as continuous close-mown surfaces, and the illustration follows the reference\u2019s palette and rendered turf-and-tree style. No actionable artwork issues found.",
+    "issues": []
+  }
+}

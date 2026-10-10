@@ -1,0 +1,29 @@
+{
+  "responseID": "resp_079a50b00f6ad136016aca320f39f887d290ec147ab4723271",
+  "model": "gpt-6-luna",
+  "usage": {
+    "input_tokens": 8214,
+    "input_tokens_details": {
+      "cache_write_tokens": 8211,
+      "cached_tokens": 0
+    },
+    "output_tokens": 1921,
+    "output_tokens_details": {
+      "reasoning_tokens": 1810
+    },
+    "total_tokens": 10135
+  },
+  "review": {
+    "reviewKind": "artwork-only-v1",
+    "candidate": 41,
+    "approved": true,
+    "scores": {
+      "geometryFidelity": 5,
+      "naturalGreens": 4,
+      "visualClarity": 5,
+      "styleConsistency": 5
+    },
+    "reason": "The illustration preserves the mapped hole directions, greens, fairways, lakes, bunkers, property silhouette, and both walking connectors. The putting greens read as continuous natural surfaces with only narrow edge transitions, and the rendering is clear and consistent with the style reference.",
+    "issues": []
+  }
+}
