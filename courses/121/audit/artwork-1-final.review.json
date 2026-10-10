@@ -1,0 +1,29 @@
+{
+  "responseID": "resp_08fbee1a00da255c016aca352f6fd487d2baa1003d10d34e11",
+  "model": "gpt-6-luna",
+  "usage": {
+    "input_tokens": 8290,
+    "input_tokens_details": {
+      "cache_write_tokens": 8287,
+      "cached_tokens": 0
+    },
+    "output_tokens": 1991,
+    "output_tokens_details": {
+      "reasoning_tokens": 1872
+    },
+    "total_tokens": 10281
+  },
+  "review": {
+    "reviewKind": "artwork-only-v1",
+    "candidate": 20,
+    "approved": true,
+    "scores": {
+      "geometryFidelity": 5,
+      "naturalGreens": 4,
+      "visualClarity": 4,
+      "styleConsistency": 5
+    },
+    "reason": "The illustration preserves the mapped hole directions, fairways, greens, hazards, property silhouette, and green-to-next-tee walking connectors. The greens read as continuous natural putting surfaces with restrained edge transitions, and the textured turf, trees, water, and bunkers are consistent with the supplied style reference.",
+    "issues": []
+  }
+}

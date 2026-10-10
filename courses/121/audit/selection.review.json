@@ -1,0 +1,28 @@
+{
+  "responseID": "resp_03eee4d03a36efe0016aca34cc5d2c87d28cbd30b311029e1b",
+  "model": "gpt-6-luna",
+  "usage": {
+    "input_tokens": 59617,
+    "input_tokens_details": {
+      "cache_write_tokens": 59614,
+      "cached_tokens": 0
+    },
+    "output_tokens": 2152,
+    "output_tokens_details": {
+      "reasoning_tokens": 1843
+    },
+    "total_tokens": 61769
+  },
+  "review": {
+    "candidate": 20,
+    "approved": true,
+    "scores": {
+      "strategy": 4,
+      "withinRoundVariety": 5,
+      "acrossDaysVariety": 4,
+      "fairDifficulty": 4
+    },
+    "reason": "Candidate 20 is publishable as supplied. Hole 1 is a 388-yard dogleg-left par 4 with a substantial lake beside the route and broad landing space: players can favor the safer line or take a more assertive position to improve the approach. Hole 2 is a dry, straight 183-yard par 3. Its bunkering and smaller landing area call for distance control, while the direct line keeps the target understandable. Hole 3 is a 550-yard uphill par 5 with a substantial lake along the left side of play and a wide corridor. Staged play away from the shoreline is credible, while trying to advance aggressively offers a reward without making the water an unavoidable carry. The par-4/3/5 sequence, contrasting routing, dry middle hole, and lakes on different sides provide excellent within-round variety. Recent rounds feature frequent water and long par 5s, but this set avoids an island-green carry and pairs the wet dogleg with a dry straight par 3, providing sufficient freshness. Safe tee options of 60/34/78 support playability; the par-5 two-shot simulation indicates an aggressive opportunity, not a guaranteed outcome. The current geometry has usable landing zones and no unreasonable forced hazard. No edits are needed.",
+    "edits": []
+  }
+}

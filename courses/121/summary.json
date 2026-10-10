@@ -1,0 +1,101 @@
+{
+  "course": 121,
+  "geometrySHA256": "bde2ddc6091db27c1eb95cba906e2a235e05dc144dd8e543fe155d4b844b0f99",
+  "artworkSHA256": "0dbf8f39e330c2ca09a3520abca284bcce5ca5d9c3d7522cbea3ac152c48f4ee",
+  "holes": [
+    {
+      "bunkerCount": 7,
+      "fairwayArea": 24597.029683769666,
+      "par": 4,
+      "route": [
+        [
+          280,
+          40
+        ],
+        [
+          114.10187019936258,
+          347.5011116810511
+        ],
+        [
+          100.23081951599212,
+          384.0767274115905
+        ]
+      ],
+      "simulatedShotsToGreen": 2,
+      "teeSafeOptions": 60,
+      "type": "doglegLeft",
+      "waterArea": 17018.621216148207,
+      "yards": 388
+    },
+    {
+      "bunkerCount": 6,
+      "fairwayArea": 5167.74095386565,
+      "par": 3,
+      "route": [
+        [
+          200,
+          40
+        ],
+        [
+          188.75270020978746,
+          259.65979103337924
+        ]
+      ],
+      "simulatedShotsToGreen": 1,
+      "teeSafeOptions": 34,
+      "type": "straight",
+      "waterArea": 0,
+      "yards": 183
+    },
+    {
+      "bunkerCount": 4,
+      "fairwayArea": 45525.72181327459,
+      "par": 5,
+      "route": [
+        [
+          200,
+          40
+        ],
+        [
+          191.40595595351283,
+          420.55816012677246
+        ],
+        [
+          194.52030047158257,
+          699.1167329094303
+        ]
+      ],
+      "simulatedShotsToGreen": 2,
+      "teeSafeOptions": 78,
+      "type": "uphillGrinder",
+      "waterArea": 20486.461053128438,
+      "yards": 550
+    }
+  ],
+  "review": {
+    "candidate": 20,
+    "approved": true,
+    "scores": {
+      "strategy": 4,
+      "withinRoundVariety": 5,
+      "acrossDaysVariety": 4,
+      "fairDifficulty": 4
+    },
+    "reason": "Candidate 20 is publishable as supplied. Hole 1 is a 388-yard dogleg-left par 4 with a substantial lake beside the route and broad landing space: players can favor the safer line or take a more assertive position to improve the approach. Hole 2 is a dry, straight 183-yard par 3. Its bunkering and smaller landing area call for distance control, while the direct line keeps the target understandable. Hole 3 is a 550-yard uphill par 5 with a substantial lake along the left side of play and a wide corridor. Staged play away from the shoreline is credible, while trying to advance aggressively offers a reward without making the water an unavoidable carry. The par-4/3/5 sequence, contrasting routing, dry middle hole, and lakes on different sides provide excellent within-round variety. Recent rounds feature frequent water and long par 5s, but this set avoids an island-green carry and pairs the wet dogleg with a dry straight par 3, providing sufficient freshness. Safe tee options of 60/34/78 support playability; the par-5 two-shot simulation indicates an aggressive opportunity, not a guaranteed outcome. The current geometry has usable landing zones and no unreasonable forced hazard. No edits are needed.",
+    "edits": []
+  },
+  "artworkStatus": "approved",
+  "artworkReview": {
+    "reviewKind": "artwork-only-v1",
+    "candidate": 20,
+    "approved": true,
+    "scores": {
+      "geometryFidelity": 5,
+      "naturalGreens": 4,
+      "visualClarity": 4,
+      "styleConsistency": 5
+    },
+    "reason": "The illustration preserves the mapped hole directions, fairways, greens, hazards, property silhouette, and green-to-next-tee walking connectors. The greens read as continuous natural putting surfaces with restrained edge transitions, and the textured turf, trees, water, and bunkers are consistent with the supplied style reference.",
+    "issues": []
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "responseID": "resp_0eb2d2449b5cb889016aca351e493887d2b9b2cc2883a14eba",
+  "model": "gpt-6-luna",
+  "usage": {
+    "input_tokens": 8290,
+    "input_tokens_details": {
+      "cache_write_tokens": 8287,
+      "cached_tokens": 0
+    },
+    "output_tokens": 1437,
+    "output_tokens_details": {
+      "reasoning_tokens": 1311
+    },
+    "total_tokens": 9727
+  },
+  "review": {
+    "reviewKind": "artwork-only-v1",
+    "candidate": 20,
+    "approved": true,
+    "scores": {
+      "geometryFidelity": 4,
+      "naturalGreens": 4,
+      "visualClarity": 4,
+      "styleConsistency": 5
+    },
+    "reason": "The illustration preserves the mapped property silhouette, fairway directions, greens, lakes, bunkers, and G1-to-T2 and G2-to-T3 walking connectors. The greens read as continuous putting surfaces, and the rendering is consistent with the supplied reference. Numbered labels are absent, but the tee and green locations remain clear.",
+    "issues": []
+  }
+}

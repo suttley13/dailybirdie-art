@@ -1,0 +1,35 @@
+{
+  "responseID": "resp_0f742a0c37eecdad016aca34fa0f2887d29b307dc3a67bbb1b",
+  "model": "gpt-6-luna",
+  "usage": {
+    "input_tokens": 8286,
+    "input_tokens_details": {
+      "cache_write_tokens": 8283,
+      "cached_tokens": 0
+    },
+    "output_tokens": 1290,
+    "output_tokens_details": {
+      "reasoning_tokens": 1150
+    },
+    "total_tokens": 9576
+  },
+  "review": {
+    "reviewKind": "artwork-only-v1",
+    "candidate": 20,
+    "approved": false,
+    "scores": {
+      "geometryFidelity": 3,
+      "naturalGreens": 4,
+      "visualClarity": 4,
+      "styleConsistency": 5
+    },
+    "reason": "The illustration closely follows the mapped course and reference style, but it adds an unmapped tan walking path at Hole 1.",
+    "issues": [
+      {
+        "code": "invented-connection",
+        "hole": 1,
+        "detail": "Remove the tan path extending from the T1 tee along the right edge; the diagram has no walking connector from T1. Preserve the mapped G1-to-T2 and G2-to-T3 connectors."
+      }
+    ]
+  }
+}

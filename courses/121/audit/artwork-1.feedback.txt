@@ -1,0 +1,1 @@
+{"reason": "The illustration closely follows the mapped course and reference style, but it adds an unmapped tan walking path at Hole 1.", "corrections": [{"code": "invented-connection", "hole": 1, "detail": "Remove the tan path extending from the T1 tee along the right edge; the diagram has no walking connector from T1. Preserve the mapped G1-to-T2 and G2-to-T3 connectors."}]}

@@ -1,0 +1,188 @@
+{
+  "schemaVersion": 1,
+  "course": 121,
+  "outcome": "published",
+  "error": null,
+  "startedAt": 1791636674,
+  "seconds": 131.35,
+  "reviewModel": "gpt-6-luna",
+  "reviewEffort": "medium",
+  "imageModel": "gpt-image-2.5-sunburst",
+  "candidatesRequested": 50,
+  "calls": [
+    {
+      "phase": "selection",
+      "kind": "review",
+      "model": "gpt-6-luna",
+      "effort": "medium",
+      "responseID": "resp_03eee4d03a36efe0016aca34cc5d2c87d28cbd30b311029e1b",
+      "usage": {
+        "input_tokens": 59617,
+        "input_tokens_details": {
+          "cache_write_tokens": 59614,
+          "cached_tokens": 0
+        },
+        "output_tokens": 2152,
+        "output_tokens_details": {
+          "reasoning_tokens": 1843
+        },
+        "total_tokens": 61769
+      },
+      "seconds": 24.66,
+      "imageCount": 8,
+      "approved": true,
+      "reviewKind": "course-design",
+      "reason": "Candidate 20 is publishable as supplied. Hole 1 is a 388-yard dogleg-left par 4 with a substantial lake beside the route and broad landing space: players can favor the safer line or take a more assertive position to improve the approach. Hole 2 is a dry, straight 183-yard par 3. Its bunkering and smaller landing area call for distance control, while the direct line keeps the target understandable. Hole 3 is a 550-yard uphill par 5 with a substantial lake along the left side of play and a wide corridor. Staged play away from the shoreline is credible, while trying to advance aggressively offers a reward without making the water an unavoidable carry. The par-4/3/5 sequence, contrasting routing, dry middle hole, and lakes on different sides provide excellent within-round variety. Recent rounds feature frequent water and long par 5s, but this set avoids an island-green carry and pairs the wet dogleg with a dry straight par 3, providing sufficient freshness. Safe tee options of 60/34/78 support playability; the par-5 two-shot simulation indicates an aggressive opportunity, not a guaranteed outcome. The current geometry has usable landing zones and no unreasonable forced hazard. No edits are needed.",
+      "issues": [],
+      "edits": [],
+      "scores": {
+        "strategy": 4,
+        "withinRoundVariety": 5,
+        "acrossDaysVariety": 4,
+        "fairDifficulty": 4
+      }
+    },
+    {
+      "phase": "artwork-0",
+      "kind": "image",
+      "model": "gpt-image-2.5-sunburst",
+      "usage": {
+        "input_tokens": 4209,
+        "input_tokens_details": {
+          "image_tokens": 2863,
+          "text_tokens": 1346
+        },
+        "output_tokens": 343,
+        "output_tokens_details": {
+          "image_tokens": 343,
+          "text_tokens": 0
+        },
+        "total_tokens": 4552
+      },
+      "seconds": 20.16
+    },
+    {
+      "phase": "artwork-0-review",
+      "kind": "review",
+      "model": "gpt-6-luna",
+      "effort": "medium",
+      "responseID": "resp_0f742a0c37eecdad016aca34fa0f2887d29b307dc3a67bbb1b",
+      "usage": {
+        "input_tokens": 8286,
+        "input_tokens_details": {
+          "cache_write_tokens": 8283,
+          "cached_tokens": 0
+        },
+        "output_tokens": 1290,
+        "output_tokens_details": {
+          "reasoning_tokens": 1150
+        },
+        "total_tokens": 9576
+      },
+      "seconds": 16.02,
+      "imageCount": 3,
+      "approved": false,
+      "reviewKind": "artwork-only-v1",
+      "reason": "The illustration closely follows the mapped course and reference style, but it adds an unmapped tan walking path at Hole 1.",
+      "issues": [
+        {
+          "code": "invented-connection",
+          "hole": 1,
+          "detail": "Remove the tan path extending from the T1 tee along the right edge; the diagram has no walking connector from T1. Preserve the mapped G1-to-T2 and G2-to-T3 connectors."
+        }
+      ],
+      "edits": [],
+      "scores": {
+        "geometryFidelity": 3,
+        "naturalGreens": 4,
+        "visualClarity": 4,
+        "styleConsistency": 5
+      }
+    },
+    {
+      "phase": "artwork-1",
+      "kind": "image",
+      "model": "gpt-image-2.5-sunburst",
+      "usage": {
+        "input_tokens": 5912,
+        "input_tokens_details": {
+          "image_tokens": 4363,
+          "text_tokens": 1549
+        },
+        "output_tokens": 343,
+        "output_tokens_details": {
+          "image_tokens": 343,
+          "text_tokens": 0
+        },
+        "total_tokens": 6255
+      },
+      "seconds": 19.95
+    },
+    {
+      "phase": "artwork-1-review",
+      "kind": "review",
+      "model": "gpt-6-luna",
+      "effort": "medium",
+      "responseID": "resp_0eb2d2449b5cb889016aca351e493887d2b9b2cc2883a14eba",
+      "usage": {
+        "input_tokens": 8290,
+        "input_tokens_details": {
+          "cache_write_tokens": 8287,
+          "cached_tokens": 0
+        },
+        "output_tokens": 1437,
+        "output_tokens_details": {
+          "reasoning_tokens": 1311
+        },
+        "total_tokens": 9727
+      },
+      "seconds": 16.73,
+      "imageCount": 3,
+      "approved": true,
+      "reviewKind": "artwork-only-v1",
+      "reason": "The illustration preserves the mapped property silhouette, fairway directions, greens, lakes, bunkers, and G1-to-T2 and G2-to-T3 walking connectors. The greens read as continuous putting surfaces, and the rendering is consistent with the supplied reference. Numbered labels are absent, but the tee and green locations remain clear.",
+      "issues": [],
+      "edits": [],
+      "scores": {
+        "geometryFidelity": 4,
+        "naturalGreens": 4,
+        "visualClarity": 4,
+        "styleConsistency": 5
+      }
+    },
+    {
+      "phase": "artwork-1-final",
+      "kind": "review",
+      "model": "gpt-6-luna",
+      "effort": "medium",
+      "responseID": "resp_08fbee1a00da255c016aca352f6fd487d2baa1003d10d34e11",
+      "usage": {
+        "input_tokens": 8290,
+        "input_tokens_details": {
+          "cache_write_tokens": 8287,
+          "cached_tokens": 0
+        },
+        "output_tokens": 1991,
+        "output_tokens_details": {
+          "reasoning_tokens": 1872
+        },
+        "total_tokens": 10281
+      },
+      "seconds": 21.27,
+      "imageCount": 3,
+      "approved": true,
+      "reviewKind": "artwork-only-v1",
+      "reason": "The illustration preserves the mapped hole directions, fairways, greens, hazards, property silhouette, and green-to-next-tee walking connectors. The greens read as continuous natural putting surfaces with restrained edge transitions, and the textured turf, trees, water, and bunkers are consistent with the supplied style reference.",
+      "issues": [],
+      "edits": [],
+      "scores": {
+        "geometryFidelity": 5,
+        "naturalGreens": 4,
+        "visualClarity": 4,
+        "styleConsistency": 5
+      }
+    }
+  ],
+  "artworkStatus": "approved",
+  "artworkFailure": null
+}
