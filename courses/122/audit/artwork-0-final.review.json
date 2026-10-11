@@ -1,0 +1,29 @@
+{
+  "responseID": "resp_01745679c8d860f3016acba1b54e7c87d294330eac87597fe6",
+  "model": "gpt-6-luna",
+  "usage": {
+    "input_tokens": 8135,
+    "input_tokens_details": {
+      "cache_write_tokens": 8132,
+      "cached_tokens": 0
+    },
+    "output_tokens": 2145,
+    "output_tokens_details": {
+      "reasoning_tokens": 2026
+    },
+    "total_tokens": 10280
+  },
+  "review": {
+    "reviewKind": "artwork-only-v1",
+    "candidate": 10,
+    "approved": true,
+    "scores": {
+      "geometryFidelity": 4,
+      "naturalGreens": 4,
+      "visualClarity": 4,
+      "styleConsistency": 5
+    },
+    "reason": "The three numbered tee-green pairings, fairway footprints, mapped lake and bunkers, and the G1-to-T2 and G2-to-T3 walking connectors are represented clearly. The greens read as continuous putting surfaces with restrained edge transitions, and the rendering is consistent with the supplied style reference.",
+    "issues": []
+  }
+}

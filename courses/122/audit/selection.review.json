@@ -1,0 +1,28 @@
+{
+  "responseID": "resp_036121234d06b453016acba179e64887d28c8dbc711e92e429",
+  "model": "gpt-6-luna",
+  "usage": {
+    "input_tokens": 58178,
+    "input_tokens_details": {
+      "cache_write_tokens": 58175,
+      "cached_tokens": 0
+    },
+    "output_tokens": 2439,
+    "output_tokens_details": {
+      "reasoning_tokens": 2153
+    },
+    "total_tokens": 60617
+  },
+  "review": {
+    "candidate": 10,
+    "approved": true,
+    "scores": {
+      "strategy": 4,
+      "withinRoundVariety": 5,
+      "acrossDaysVariety": 4,
+      "fairDifficulty": 4
+    },
+    "reason": "Candidate 10 passes as supplied. Hole 1 is a 173-yard punchbowl par 3 with a substantial front-right water hazard and greenside bunkers on both sides. The separate landing area and playable target allow a measured center-green shot, while a direct attack requires more precise carry and distance control. Hole 2 is a dry 473-yard dogleg-right par 5. Its bending route, collision trees and fairway bunkers give the two-shot opportunity meaningful risk; staged play remains a credible alternative. Hole 3 is a dry 360-yard double-dogleg par 4, where the bends and fairway hazards reward placement rather than an indiscriminate straight-line attack. The par-3/5/4 sequence, one wet target, and two contrasting dry routes provide strong variety. Punchbowl greens and double doglegs have appeared recently, but this combination, sequence, and single-water-hole emphasis distinguish the round sufficiently. The simulation supports playability at 1/2/2 shots to green, with 33/50/58 safe tee options; the previews also show usable target and landing space. No geometry edits are needed.",
+    "edits": []
+  }
+}

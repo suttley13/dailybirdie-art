@@ -1,0 +1,101 @@
+{
+  "course": 122,
+  "geometrySHA256": "830800b51e82c2633e3d4d9db78325c6a99b572478b9e8884710b8068fceabf3",
+  "artworkSHA256": "33402886393510be7c474bc28243bf85612950114225797bce8ebaa1d9d552c4",
+  "holes": [
+    {
+      "bunkerCount": 4,
+      "fairwayArea": 4244.923790150007,
+      "par": 3,
+      "route": [
+        [
+          200,
+          40
+        ],
+        [
+          204.09680481958276,
+          240.81425927066826
+        ]
+      ],
+      "simulatedShotsToGreen": 1,
+      "teeSafeOptions": 33,
+      "type": "punchbowlGreen",
+      "waterArea": 7787.158177427424,
+      "yards": 173
+    },
+    {
+      "bunkerCount": 7,
+      "fairwayArea": 21009.960657353055,
+      "par": 5,
+      "route": [
+        [
+          120,
+          40
+        ],
+        [
+          243.72551976048325,
+          355.26761391941665
+        ],
+        [
+          276.6407619860127,
+          416.14442750689744
+        ]
+      ],
+      "simulatedShotsToGreen": 2,
+      "teeSafeOptions": 50,
+      "type": "doglegRight",
+      "waterArea": 0,
+      "yards": 473
+    },
+    {
+      "bunkerCount": 5,
+      "fairwayArea": 20166.498755842447,
+      "par": 4,
+      "route": [
+        [
+          200,
+          40
+        ],
+        [
+          187.63252863984349,
+          413.1799045835829
+        ],
+        [
+          207.9059503199854,
+          472.27021625785846
+        ]
+      ],
+      "simulatedShotsToGreen": 2,
+      "teeSafeOptions": 58,
+      "type": "doubleDogleg",
+      "waterArea": 0,
+      "yards": 360
+    }
+  ],
+  "review": {
+    "candidate": 10,
+    "approved": true,
+    "scores": {
+      "strategy": 4,
+      "withinRoundVariety": 5,
+      "acrossDaysVariety": 4,
+      "fairDifficulty": 4
+    },
+    "reason": "Candidate 10 passes as supplied. Hole 1 is a 173-yard punchbowl par 3 with a substantial front-right water hazard and greenside bunkers on both sides. The separate landing area and playable target allow a measured center-green shot, while a direct attack requires more precise carry and distance control. Hole 2 is a dry 473-yard dogleg-right par 5. Its bending route, collision trees and fairway bunkers give the two-shot opportunity meaningful risk; staged play remains a credible alternative. Hole 3 is a dry 360-yard double-dogleg par 4, where the bends and fairway hazards reward placement rather than an indiscriminate straight-line attack. The par-3/5/4 sequence, one wet target, and two contrasting dry routes provide strong variety. Punchbowl greens and double doglegs have appeared recently, but this combination, sequence, and single-water-hole emphasis distinguish the round sufficiently. The simulation supports playability at 1/2/2 shots to green, with 33/50/58 safe tee options; the previews also show usable target and landing space. No geometry edits are needed.",
+    "edits": []
+  },
+  "artworkStatus": "approved",
+  "artworkReview": {
+    "reviewKind": "artwork-only-v1",
+    "candidate": 10,
+    "approved": true,
+    "scores": {
+      "geometryFidelity": 4,
+      "naturalGreens": 4,
+      "visualClarity": 4,
+      "styleConsistency": 5
+    },
+    "reason": "The three numbered tee-green pairings, fairway footprints, mapped lake and bunkers, and the G1-to-T2 and G2-to-T3 walking connectors are represented clearly. The greens read as continuous putting surfaces with restrained edge transitions, and the rendering is consistent with the supplied style reference.",
+    "issues": []
+  }
+}

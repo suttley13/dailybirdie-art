@@ -1,0 +1,29 @@
+{
+  "responseID": "resp_027458b737464e70016acba1a2e20087d2a49e3961bf122ee2",
+  "model": "gpt-6-luna",
+  "usage": {
+    "input_tokens": 8135,
+    "input_tokens_details": {
+      "cache_write_tokens": 8132,
+      "cached_tokens": 0
+    },
+    "output_tokens": 1585,
+    "output_tokens_details": {
+      "reasoning_tokens": 1463
+    },
+    "total_tokens": 9720
+  },
+  "review": {
+    "reviewKind": "artwork-only-v1",
+    "candidate": 10,
+    "approved": true,
+    "scores": {
+      "geometryFidelity": 4,
+      "naturalGreens": 4,
+      "visualClarity": 5,
+      "styleConsistency": 5
+    },
+    "reason": "The illustration preserves the mapped property silhouette, lake, fairway footprints, greens, bunkers, tee locations, and green-to-next-tee walking connectors. All three greens read as continuous putting surfaces with only narrow edge transitions. The textured turf, trees, water, and bunker treatment are consistent with the style reference.",
+    "issues": []
+  }
+}
