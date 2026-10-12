@@ -1,0 +1,159 @@
+{
+  "geometrySHA256": "665e05b821d03cccf5c739b3a479228c6a5932e0c5d7327b79cd6627a96beafd",
+  "artworkSHA256": "208883d9bceb21e342dd0962f8a8b7a2fa78b323b3fc5f25495976a337fa0068",
+  "humanApproved": true,
+  "humanApprovalProvenance": {
+    "course": 120,
+    "environment": "wooded",
+    "sourcePNG": "artifacts/terrain-1.6/step-11/artwork-carry-repairs/120-wooded-carry-repair.png",
+    "sourcePNGHash": "3697b58fed12426a653b0f5b8c34d4ba7a5220a508bedf23ea5195268efd69a0",
+    "geometry": "artifacts/terrain-1.6/step-5/review-rounds/120/wooded.json",
+    "geometrySHA256": "665e05b821d03cccf5c739b3a479228c6a5932e0c5d7327b79cd6627a96beafd",
+    "humanDecision": "pending latest carry correction approval",
+    "conversion": "JPEG quality 95, original dimensions, no composition edits",
+    "finalJPEG": "artifacts/terrain-1.6/step-11/artwork-carry-repairs/120-wooded-carry-repair.jpg",
+    "facts": {
+      "format": "jpeg",
+      "width": 1619,
+      "height": 972,
+      "aspectRatio": 1.6656378600823045,
+      "bytes": 442590,
+      "sha256": "208883d9bceb21e342dd0962f8a8b7a2fa78b323b3fc5f25495976a337fa0068",
+      "canvasChecked": true
+    },
+    "publicationStatus": "API review authorized; final human image approval pending",
+    "originalApproval": {
+      "course": 120,
+      "environment": "wooded",
+      "sourcePNG": "artifacts/terrain-1.6/step-6/course-120/wooded-draft-v4.png",
+      "sourcePNGHash": "72cb112dd4cee0e23557d84e468f8606aa38aa89f77ad4b6adf7bf082d482f96",
+      "geometry": "artifacts/terrain-1.6/step-5/review-rounds/120/wooded.json",
+      "geometrySHA256": "665e05b821d03cccf5c739b3a479228c6a5932e0c5d7327b79cd6627a96beafd",
+      "humanDecision": "approved source PNG",
+      "conversion": "JPEG quality 95, original dimensions, no composition edits",
+      "finalJPEG": "artifacts/terrain-1.6/step-10/prepared-artwork/120-wooded.jpg",
+      "facts": {
+        "format": "jpeg",
+        "width": 1619,
+        "height": 972,
+        "aspectRatio": 1.6656378600823045,
+        "bytes": 449317,
+        "sha256": "e026478ca6112147b2b9cd61579cf7db547a23f49a3b8c2e75824b93c1879f00",
+        "canvasChecked": true
+      },
+      "publicationStatus": "awaiting independent reviews; not published"
+    },
+    "priorCorrection": {
+      "course": 120,
+      "environment": "wooded",
+      "sourcePNG": "artifacts/terrain-1.6/step-11/artwork-repairs/120-wooded-repair.png",
+      "sourcePNGHash": "d5c89ca0eb702bb0865de74b7613327e6b79f41f905d3eff515723763af278a9",
+      "geometry": "artifacts/terrain-1.6/step-5/review-rounds/120/wooded.json",
+      "geometrySHA256": "665e05b821d03cccf5c739b3a479228c6a5932e0c5d7327b79cd6627a96beafd",
+      "humanDecision": "approved corrected image",
+      "conversion": "JPEG quality 95, original dimensions, no composition edits",
+      "finalJPEG": "artifacts/terrain-1.6/step-11/artwork-repairs/120-wooded-repair.jpg",
+      "facts": {
+        "format": "jpeg",
+        "width": 1619,
+        "height": 972,
+        "aspectRatio": 1.6656378600823045,
+        "bytes": 438406,
+        "sha256": "c281c883e40298d07d5f1b82228058426c114efc4f508ef38a3904982db08413",
+        "canvasChecked": true
+      },
+      "publicationStatus": "awaiting independent reviews",
+      "originalApproval": {
+        "course": 120,
+        "environment": "wooded",
+        "sourcePNG": "artifacts/terrain-1.6/step-6/course-120/wooded-draft-v4.png",
+        "sourcePNGHash": "72cb112dd4cee0e23557d84e468f8606aa38aa89f77ad4b6adf7bf082d482f96",
+        "geometry": "artifacts/terrain-1.6/step-5/review-rounds/120/wooded.json",
+        "geometrySHA256": "665e05b821d03cccf5c739b3a479228c6a5932e0c5d7327b79cd6627a96beafd",
+        "humanDecision": "approved source PNG",
+        "conversion": "JPEG quality 95, original dimensions, no composition edits",
+        "finalJPEG": "artifacts/terrain-1.6/step-10/prepared-artwork/120-wooded.jpg",
+        "facts": {
+          "format": "jpeg",
+          "width": 1619,
+          "height": 972,
+          "aspectRatio": 1.6656378600823045,
+          "bytes": 449317,
+          "sha256": "e026478ca6112147b2b9cd61579cf7db547a23f49a3b8c2e75824b93c1879f00",
+          "canvasChecked": true
+        },
+        "publicationStatus": "awaiting independent reviews; not published"
+      },
+      "humanApprovalEvidence": "User: Approve both and run reviews, 2026-10-12"
+    },
+    "correction": "Clear the far-left island tee carry; retain all mapped bunkers"
+  },
+  "reviews": [
+    {
+      "responseID": "resp_0e0916c53d294290016acd209bc89c87d18e6373e4b418ea5c",
+      "model": "gpt-6-sol",
+      "usage": {
+        "input_tokens": 7606,
+        "input_tokens_details": {
+          "cache_write_tokens": 7603,
+          "cached_tokens": 0
+        },
+        "output_tokens": 1202,
+        "output_tokens_details": {
+          "reasoning_tokens": 1091
+        },
+        "total_tokens": 8808
+      },
+      "review": {
+        "reviewKind": "artwork-only-v1",
+        "candidate": 0,
+        "approved": true,
+        "scores": {
+          "geometryFidelity": 5,
+          "naturalGreens": 4,
+          "visualClarity": 5,
+          "styleConsistency": 5
+        },
+        "reason": "The illustration preserves the numbered tees, fairways, greens, mapped hazards, island lake, and both green-to-next-tee walking connectors. The greens read as continuous putting surfaces with narrow edge shading, and the wooded treatment remains clear and consistent with the reference.",
+        "issues": []
+      }
+    },
+    {
+      "responseID": "resp_0147abc6220c1eab016acd20b15f8487d19ae5f5c2ccc576d8",
+      "model": "gpt-6-sol",
+      "usage": {
+        "input_tokens": 7606,
+        "input_tokens_details": {
+          "cache_write_tokens": 7603,
+          "cached_tokens": 0
+        },
+        "output_tokens": 887,
+        "output_tokens_details": {
+          "reasoning_tokens": 777
+        },
+        "total_tokens": 8493
+      },
+      "review": {
+        "reviewKind": "artwork-only-v1",
+        "candidate": 0,
+        "approved": true,
+        "scores": {
+          "geometryFidelity": 5,
+          "naturalGreens": 4,
+          "visualClarity": 5,
+          "styleConsistency": 5
+        },
+        "reason": "The illustration preserves the numbered tees, fairways, greens, mapped hazards, island lake, and both green-to-next-tee walking connectors. The greens read as single continuous putting surfaces with narrow edge treatment, and the wooded styling keeps the shot corridors clear.",
+        "issues": []
+      }
+    }
+  ],
+  "humanApprovalEvidence": {
+    "userStatement": "I approve",
+    "date": "2026-10-12",
+    "scope": "Both final Wooded corrections presented immediately before approval",
+    "sourceApprovalRecord": "artifacts/terrain-1.6/step-11/carry-publication-reviews/120-wooded/approvals.json",
+    "geometrySHA256": "665e05b821d03cccf5c739b3a479228c6a5932e0c5d7327b79cd6627a96beafd",
+    "artworkSHA256": "208883d9bceb21e342dd0962f8a8b7a2fa78b323b3fc5f25495976a337fa0068"
+  }
+}

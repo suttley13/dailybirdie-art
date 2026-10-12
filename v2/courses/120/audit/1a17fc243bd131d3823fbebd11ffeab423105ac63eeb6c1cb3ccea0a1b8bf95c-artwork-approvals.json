@@ -1,0 +1,90 @@
+{
+  "geometrySHA256": "58adc1aa6a56508d0a464e85e4039157c1bf314b8f9cf8ec8903541bfce64a2b",
+  "artworkSHA256": "1a17fc243bd131d3823fbebd11ffeab423105ac63eeb6c1cb3ccea0a1b8bf95c",
+  "humanApproved": true,
+  "humanApprovalProvenance": {
+    "course": 120,
+    "environment": "palmSprings",
+    "sourcePNG": "artifacts/terrain-1.6/step-6/course-120/palm-draft-v3.png",
+    "sourcePNGHash": "5fac8bcbe4718c0fa24b843b03f93b5594f45f72553f1ccb9b1c617e02451225",
+    "geometry": "artifacts/terrain-1.6/step-5/review-rounds/120/palm-springs.json",
+    "geometrySHA256": "58adc1aa6a56508d0a464e85e4039157c1bf314b8f9cf8ec8903541bfce64a2b",
+    "humanDecision": "approved source PNG",
+    "conversion": "JPEG quality 95, original dimensions, no composition edits",
+    "finalJPEG": "artifacts/terrain-1.6/step-10/prepared-artwork/120-palm.jpg",
+    "facts": {
+      "format": "jpeg",
+      "width": 1619,
+      "height": 971,
+      "aspectRatio": 1.66735324407827,
+      "bytes": 456179,
+      "sha256": "1a17fc243bd131d3823fbebd11ffeab423105ac63eeb6c1cb3ccea0a1b8bf95c",
+      "canvasChecked": true
+    },
+    "publicationStatus": "awaiting independent reviews; not published"
+  },
+  "reviews": [
+    {
+      "responseID": "resp_0255809a828a3910016acd1371a05087d1b8803066f5b0be08",
+      "model": "gpt-6-sol",
+      "usage": {
+        "input_tokens": 7600,
+        "input_tokens_details": {
+          "cache_write_tokens": 7597,
+          "cached_tokens": 0
+        },
+        "output_tokens": 1390,
+        "output_tokens_details": {
+          "reasoning_tokens": 1268
+        },
+        "total_tokens": 8990
+      },
+      "review": {
+        "reviewKind": "artwork-environment-v2",
+        "candidate": 0,
+        "approved": true,
+        "scores": {
+          "geometryFidelity": 5,
+          "naturalGreens": 4,
+          "visualClarity": 5,
+          "styleConsistency": 5,
+          "environmentFidelity": 5
+        },
+        "reason": "The illustration preserves the numbered tees, fairways, greens, mapped hazards, island lake and walking connectors. Each putting green reads as one continuous surface, and the sparse palms, desert sand and overall technique fit the Palm Springs map and style reference.",
+        "issues": [],
+        "environment": "palmSprings"
+      }
+    },
+    {
+      "responseID": "resp_007376c0da909cb4016acd1387f65c87d1a6c0be39fe7a99de",
+      "model": "gpt-6-sol",
+      "usage": {
+        "input_tokens": 7600,
+        "input_tokens_details": {
+          "cache_write_tokens": 6463,
+          "cached_tokens": 1134
+        },
+        "output_tokens": 946,
+        "output_tokens_details": {
+          "reasoning_tokens": 822
+        },
+        "total_tokens": 8546
+      },
+      "review": {
+        "reviewKind": "artwork-environment-v2",
+        "candidate": 0,
+        "approved": true,
+        "scores": {
+          "geometryFidelity": 5,
+          "naturalGreens": 4,
+          "visualClarity": 5,
+          "styleConsistency": 5,
+          "environmentFidelity": 5
+        },
+        "reason": "The numbered tees, fairways, greens, hazards, island lake and walking connectors match the approved diagram. All three greens read as continuous putting surfaces, and the sparse palms, sand, rocks and turf treatment suit the mapped Palm Springs landscape and supplied style.",
+        "issues": [],
+        "environment": "palmSprings"
+      }
+    }
+  ]
+}

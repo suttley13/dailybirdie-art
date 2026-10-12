@@ -1,0 +1,16 @@
+{
+  "schemaVersion": 1,
+  "course": 120,
+  "date": "2026-10-14",
+  "replacementMatchupID": "daily-pair-v1-120-8c051516608e6c9155455208f189c1d40a4e102b906dd11b536cf210afa2a699",
+  "previousSources": [
+    {
+      "schemaVersion": 1,
+      "course": 120,
+      "geometrySHA256": "a4bd6d67fe3929713ba339b1bf4cce0c8d2eb7ed4eb9469a96222ac8781d44d4",
+      "artworkSHA256": "7714276da527dccde4bb6a72386fc61d73624ac6f7034eb02260dbcbfe2035e5",
+      "artRulesVersion": "natural-greens-v3"
+    }
+  ],
+  "replacedAtUTC": "2026-10-12T23:06:15.894895+00:00"
+}
