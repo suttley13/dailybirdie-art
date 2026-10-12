@@ -1,0 +1,28 @@
+{
+  "responseID": "resp_07b6e31c02924956016acd1a5fa73487d29f94c64d0166d1a2",
+  "model": "gpt-6-luna",
+  "usage": {
+    "input_tokens": 58032,
+    "input_tokens_details": {
+      "cache_write_tokens": 58029,
+      "cached_tokens": 0
+    },
+    "output_tokens": 1939,
+    "output_tokens_details": {
+      "reasoning_tokens": 1597
+    },
+    "total_tokens": 59971
+  },
+  "review": {
+    "candidate": 5,
+    "approved": true,
+    "scores": {
+      "strategy": 4,
+      "withinRoundVariety": 5,
+      "acrossDaysVariety": 4,
+      "fairDifficulty": 4
+    },
+    "reason": "Candidate 5 passes as supplied, with no geometry edits needed.\n\nHole 1 is a dry 206-yard par 3 with a clear, playable target and limited greenside bunkering. It offers a straightforward distance-control test, appropriately distinct from the longer route-choice holes.\n\nHole 2 is a 490-yard dogleg-right par 5 with one substantial water hazard along the side of play. The broad landing area and 70 safe tee options support a staged route, while the bend and shoreline make an aggressive advance a meaningful risk-reward choice. The simulated two-shot reach is evidence of an opportunity, not a guarantee.\n\nHole 3 is a dry 400-yard double-dogleg par 4. Its bends and fairway bunker give placement choices substance, while the available corridor and 47 safe tee options indicate a playable line. Greenside bunkers add approach consequences without closing off the target.\n\nThe par-3/5/4 sequence, one substantial lake, and contrasting straight, bending, and double-bending layouts provide excellent within-round variety. Recent rounds include dry long par 3s and double-dogleg par 4s, so novelty is good rather than exceptional; the wet dogleg-right par 5 and this combination and sequence keep the round sufficiently distinct. The safe-option counts and simulated shots-to-green support fair difficulty, and the numbered previews show credible landing space and targets.",
+    "edits": []
+  }
+}
