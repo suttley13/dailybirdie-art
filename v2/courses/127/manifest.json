@@ -1,0 +1,9 @@
+{
+  "schemaVersion": 2,
+  "course": 127,
+  "geometrySHA256": "9ad7b8a29e112bb72e10a34d7c9f82140b9e419f0e991531b83c9130f3b3ff5f",
+  "artworkSHA256": "27c77a58f30102acae5b3afa573950d2c358c057dba3f55e364daa342ca49534",
+  "artRulesVersion": "palm-springs-art-v1",
+  "gameplayRules": "environments-v1",
+  "environment": "palmSprings"
+}

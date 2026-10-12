@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "course": 124,
+  "date": "2026-10-18",
+  "matchupID": "daily-pair-v1-124-de084d49410d5e259a4d1ce63c4c196ef92bdafd954a2db59d77088ebd31adc0",
+  "members": {
+    "wooded": {
+      "schemaVersion": 1,
+      "course": 124,
+      "geometrySHA256": "53d331e2f66f8f8f2b1d3af9f218e8bb5dd6f917b872f52e67f6688d4a20626e",
+      "artworkSHA256": "208883d9bceb21e342dd0962f8a8b7a2fa78b323b3fc5f25495976a337fa0068",
+      "artRulesVersion": "natural-greens-v3"
+    },
+    "palmSprings": {
+      "schemaVersion": 2,
+      "course": 124,
+      "geometrySHA256": "10bafb46903787b4f328b3d224abbff325752447fc0d752ff632b371bcc67e0e",
+      "artworkSHA256": "1a17fc243bd131d3823fbebd11ffeab423105ac63eeb6c1cb3ccea0a1b8bf95c",
+      "artRulesVersion": "palm-springs-art-v1",
+      "gameplayRules": "environments-v1",
+      "environment": "palmSprings"
+    }
+  },
+  "correspondence": {
+    "palmSpringsGeometrySHA256": "10bafb46903787b4f328b3d224abbff325752447fc0d752ff632b371bcc67e0e",
+    "policy": "near-identical-v1",
+    "validator": "environment-authoring-1",
+    "woodedGeometrySHA256": "53d331e2f66f8f8f2b1d3af9f218e8bb5dd6f917b872f52e67f6688d4a20626e"
+  }
+}

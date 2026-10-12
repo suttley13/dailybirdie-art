@@ -1,0 +1,19 @@
+{
+  "course": 127,
+  "geometrySHA256": "a4f6b5914793b2484b3a30b6868be8016d7303b4227591895ad1a86497374aa4",
+  "artworkSHA256": "4b3f21fdff25fbc387257959ba4c99767c10bbad71f7a4404bb235a3bc1de66e",
+  "environment": "wooded",
+  "artworkStatus": "approved",
+  "artRulesVersion": "natural-greens-v3",
+  "holes": [
+    {
+      "par": 5
+    },
+    {
+      "par": 5
+    },
+    {
+      "par": 3
+    }
+  ]
+}
