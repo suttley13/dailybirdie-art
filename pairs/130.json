@@ -8,15 +8,15 @@
       "schemaVersion": 1,
       "course": 130,
       "geometrySHA256": "00412f381aae3bfc8ad0d65350b3ea94884a349c3076c101fafbf13185479b97",
-      "artworkSHA256": "b89f76e76e7dd3157d74af8741f268594ed6073b1f89449f91ae445ef1344fa2",
-      "artRulesVersion": "natural-greens-v3"
+      "artworkSHA256": "b3501cd750e2877aeb2d39104b0c070d7a86f4860c4411805cbc1e1898797411",
+      "artRulesVersion": "fairway-stripes-v4"
     },
     "palmSprings": {
       "schemaVersion": 2,
       "course": 130,
       "geometrySHA256": "41a26bf04605b35dd330dc56f6a6deaa63e554b8c70be9be346a97ccafdbf71b",
-      "artworkSHA256": "0df71ed3f305896055d6ddd6171bfa50ba3d46c9e1d6ffe1e973d3dac2300871",
-      "artRulesVersion": "palm-springs-art-v1",
+      "artworkSHA256": "483813dba78d3e6583f2d0c42635da4b68e26a2d1a2823ad3cfe59c1eccbe92e",
+      "artRulesVersion": "palm-springs-stripes-v2",
       "gameplayRules": "environments-v1",
       "environment": "palmSprings"
     }

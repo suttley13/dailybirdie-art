@@ -1,0 +1,29 @@
+{
+  "responseID": "resp_05ed9968cdb19ac8016acda10a43fc87d194b0456175a21c61",
+  "model": "gpt-6-luna",
+  "usage": {
+    "input_tokens": 8283,
+    "input_tokens_details": {
+      "cache_write_tokens": 7181,
+      "cached_tokens": 1099
+    },
+    "output_tokens": 2537,
+    "output_tokens_details": {
+      "reasoning_tokens": 2415
+    },
+    "total_tokens": 10820
+  },
+  "review": {
+    "reviewKind": "artwork-only-v1",
+    "candidate": 0,
+    "approved": true,
+    "scores": {
+      "geometryFidelity": 4,
+      "naturalGreens": 5,
+      "visualClarity": 4,
+      "styleConsistency": 5
+    },
+    "reason": "The illustration preserves the numbered tee-to-green layout, mapped hazards, property silhouette and walking connectors. All three greens read as continuous natural putting surfaces, and the fairways have clear crosswise mowing stripes that follow their bends. The wooded rendering is consistent with the reference and does not visibly block the tee carries or approaches.",
+    "issues": []
+  }
+}

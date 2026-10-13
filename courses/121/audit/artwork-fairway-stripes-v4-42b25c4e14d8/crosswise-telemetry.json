@@ -1,0 +1,66 @@
+[
+  {
+    "phase": "crosswise-final-independent-1",
+    "kind": "review",
+    "model": "gpt-6-luna",
+    "effort": "medium",
+    "responseID": "resp_0a3a9a9d1dfd7512016acda10a3f7487d1b6af517036704208",
+    "usage": {
+      "input_tokens": 8436,
+      "input_tokens_details": {
+        "cache_write_tokens": 8433,
+        "cached_tokens": 0
+      },
+      "output_tokens": 1110,
+      "output_tokens_details": {
+        "reasoning_tokens": 986
+      },
+      "total_tokens": 9546
+    },
+    "seconds": 15.82,
+    "imageCount": 3,
+    "approved": true,
+    "reviewKind": "artwork-only-v1",
+    "reason": "The illustration preserves the numbered tee-to-green layout, mapped fairways, greens, lakes, and bunkers. All three tees are visible, fairway stripes are clear and follow the corridors, and the greens read as continuous putting surfaces. The wooded rendering is consistent with the reference, with no visible obstruction of the playing corridors.",
+    "issues": [],
+    "edits": [],
+    "scores": {
+      "geometryFidelity": 5,
+      "naturalGreens": 4,
+      "visualClarity": 5,
+      "styleConsistency": 5
+    }
+  },
+  {
+    "phase": "crosswise-final-independent-2",
+    "kind": "review",
+    "model": "gpt-6-luna",
+    "effort": "medium",
+    "responseID": "resp_08fe9fec1647bb52016acda1196b1887d1a070bebb10735b08",
+    "usage": {
+      "input_tokens": 8436,
+      "input_tokens_details": {
+        "cache_write_tokens": 7334,
+        "cached_tokens": 1099
+      },
+      "output_tokens": 1785,
+      "output_tokens_details": {
+        "reasoning_tokens": 1658
+      },
+      "total_tokens": 10221
+    },
+    "seconds": 22.95,
+    "imageCount": 3,
+    "approved": true,
+    "reviewKind": "artwork-only-v1",
+    "reason": "The illustration preserves the numbered tee-to-green routing, mapped fairways, greens, bunkers, lakes, walking connectors, and property silhouette. Greens read as continuous natural putting surfaces, and the fairways have clearly visible crosswise mowing stripes. Trees leave the tee-shot and green-approach corridors legible; framing and style are appropriate.",
+    "issues": [],
+    "edits": [],
+    "scores": {
+      "geometryFidelity": 5,
+      "naturalGreens": 5,
+      "visualClarity": 5,
+      "styleConsistency": 5
+    }
+  }
+]

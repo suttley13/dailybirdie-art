@@ -1,0 +1,66 @@
+{
+  "geometrySHA256": "bde2ddc6091db27c1eb95cba906e2a235e05dc144dd8e543fe155d4b844b0f99",
+  "artworkSHA256": "42b25c4e14d84e3ca9b1d974d9e45da0cde51089c8409ed0cddbcf4462ddce0f",
+  "humanApproved": false,
+  "humanApprovalProvenance": "Awaiting human approval of the completed crosswise-stripe image",
+  "reviews": [
+    {
+      "responseID": "resp_0a3a9a9d1dfd7512016acda10a3f7487d1b6af517036704208",
+      "model": "gpt-6-luna",
+      "usage": {
+        "input_tokens": 8436,
+        "input_tokens_details": {
+          "cache_write_tokens": 8433,
+          "cached_tokens": 0
+        },
+        "output_tokens": 1110,
+        "output_tokens_details": {
+          "reasoning_tokens": 986
+        },
+        "total_tokens": 9546
+      },
+      "review": {
+        "reviewKind": "artwork-only-v1",
+        "candidate": 0,
+        "approved": true,
+        "scores": {
+          "geometryFidelity": 5,
+          "naturalGreens": 4,
+          "visualClarity": 5,
+          "styleConsistency": 5
+        },
+        "reason": "The illustration preserves the numbered tee-to-green layout, mapped fairways, greens, lakes, and bunkers. All three tees are visible, fairway stripes are clear and follow the corridors, and the greens read as continuous putting surfaces. The wooded rendering is consistent with the reference, with no visible obstruction of the playing corridors.",
+        "issues": []
+      }
+    },
+    {
+      "responseID": "resp_08fe9fec1647bb52016acda1196b1887d1a070bebb10735b08",
+      "model": "gpt-6-luna",
+      "usage": {
+        "input_tokens": 8436,
+        "input_tokens_details": {
+          "cache_write_tokens": 7334,
+          "cached_tokens": 1099
+        },
+        "output_tokens": 1785,
+        "output_tokens_details": {
+          "reasoning_tokens": 1658
+        },
+        "total_tokens": 10221
+      },
+      "review": {
+        "reviewKind": "artwork-only-v1",
+        "candidate": 0,
+        "approved": true,
+        "scores": {
+          "geometryFidelity": 5,
+          "naturalGreens": 5,
+          "visualClarity": 5,
+          "styleConsistency": 5
+        },
+        "reason": "The illustration preserves the numbered tee-to-green routing, mapped fairways, greens, bunkers, lakes, walking connectors, and property silhouette. Greens read as continuous natural putting surfaces, and the fairways have clearly visible crosswise mowing stripes. Trees leave the tee-shot and green-approach corridors legible; framing and style are appropriate.",
+        "issues": []
+      }
+    }
+  ]
+}

@@ -1,10 +1,10 @@
 {
   "course": 120,
   "geometrySHA256": "665e05b821d03cccf5c739b3a479228c6a5932e0c5d7327b79cd6627a96beafd",
-  "artworkSHA256": "208883d9bceb21e342dd0962f8a8b7a2fa78b323b3fc5f25495976a337fa0068",
+  "artworkSHA256": "08c9ff972ce7e1ee37d2ccea35b5d161a8e68dd5310cdd394aa92de50e67a255",
   "environment": "wooded",
   "artworkStatus": "approved",
-  "artRulesVersion": "natural-greens-v3",
+  "artRulesVersion": "fairway-stripes-v4",
   "holes": [
     {
       "par": 5

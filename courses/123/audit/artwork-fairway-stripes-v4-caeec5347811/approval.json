@@ -1,0 +1,13 @@
+{
+  "reviewKind": "artwork-only-v1",
+  "candidate": 0,
+  "approved": true,
+  "scores": {
+    "geometryFidelity": 4,
+    "naturalGreens": 4,
+    "visualClarity": 4,
+    "styleConsistency": 5
+  },
+  "reason": "The illustration preserves the numbered tee-to-green layout, mapped fairways and lake, shows all three tees and the walking connectors, and keeps trees clear of the main playing corridors. Fairways have visible crosswise stripes that follow their bends. Greens read as continuous natural putting surfaces with only narrow edge transitions. The wooded rendering is consistent with the style reference.",
+  "issues": []
+}

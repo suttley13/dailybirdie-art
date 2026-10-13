@@ -1,7 +1,7 @@
 {
   "course": 122,
   "geometrySHA256": "830800b51e82c2633e3d4d9db78325c6a99b572478b9e8884710b8068fceabf3",
-  "artworkSHA256": "33402886393510be7c474bc28243bf85612950114225797bce8ebaa1d9d552c4",
+  "artworkSHA256": "83e6aba7e5f29802596114def0a202b5900202b663a1113f2676ead2350d5036",
   "holes": [
     {
       "bunkerCount": 4,
@@ -87,7 +87,7 @@
   "artworkStatus": "approved",
   "artworkReview": {
     "reviewKind": "artwork-only-v1",
-    "candidate": 10,
+    "candidate": 0,
     "approved": true,
     "scores": {
       "geometryFidelity": 4,
@@ -95,7 +95,8 @@
       "visualClarity": 4,
       "styleConsistency": 5
     },
-    "reason": "The three numbered tee-green pairings, fairway footprints, mapped lake and bunkers, and the G1-to-T2 and G2-to-T3 walking connectors are represented clearly. The greens read as continuous putting surfaces with restrained edge transitions, and the rendering is consistent with the supplied style reference.",
+    "reason": "The numbered holes, mapped hazards, tees, greens, lake, and walking connectors are represented clearly. Greens read as continuous surfaces with restrained edge transitions. Fairway stripes are clearly visible and generally follow the bends; the wooded rendering remains legible.",
     "issues": []
-  }
+  },
+  "artRulesVersion": "fairway-stripes-v4"
 }

@@ -1,0 +1,66 @@
+[
+  {
+    "phase": "crosswise-final-independent-1",
+    "kind": "review",
+    "model": "gpt-6-luna",
+    "effort": "medium",
+    "responseID": "resp_03207509e73344a0016acda130aa3887d1b270f68f77487c60",
+    "usage": {
+      "input_tokens": 8135,
+      "input_tokens_details": {
+        "cache_write_tokens": 7033,
+        "cached_tokens": 1099
+      },
+      "output_tokens": 2094,
+      "output_tokens_details": {
+        "reasoning_tokens": 1968
+      },
+      "total_tokens": 10229
+    },
+    "seconds": 25.22,
+    "imageCount": 3,
+    "approved": true,
+    "reviewKind": "artwork-only-v1",
+    "reason": "The illustration preserves the mapped three-hole layout, fairway directions, mapped lake, bunkers, tees, and walking connectors. Greens read as continuous natural putting surfaces, and all fairways have clear crosswise mowing stripes that follow their shapes. The wooded treatment remains consistent with the reference without visibly obstructing the tee-shot corridors or approaches.",
+    "issues": [],
+    "edits": [],
+    "scores": {
+      "geometryFidelity": 4,
+      "naturalGreens": 5,
+      "visualClarity": 4,
+      "styleConsistency": 5
+    }
+  },
+  {
+    "phase": "crosswise-final-independent-2",
+    "kind": "review",
+    "model": "gpt-6-luna",
+    "effort": "medium",
+    "responseID": "resp_0ee999175c66bf37016acda14a0ec087d18cf554375e113ccf",
+    "usage": {
+      "input_tokens": 8135,
+      "input_tokens_details": {
+        "cache_write_tokens": 7033,
+        "cached_tokens": 1099
+      },
+      "output_tokens": 2526,
+      "output_tokens_details": {
+        "reasoning_tokens": 2397
+      },
+      "total_tokens": 10661
+    },
+    "seconds": 30.65,
+    "imageCount": 3,
+    "approved": true,
+    "reviewKind": "artwork-only-v1",
+    "reason": "The illustration preserves the numbered tee-to-green layout, mapped fairways and lake, shows all three tees and the walking connectors, and keeps trees clear of the main playing corridors. Fairways have visible crosswise stripes that follow their bends. Greens read as continuous natural putting surfaces with only narrow edge transitions. The wooded rendering is consistent with the style reference.",
+    "issues": [],
+    "edits": [],
+    "scores": {
+      "geometryFidelity": 4,
+      "naturalGreens": 4,
+      "visualClarity": 4,
+      "styleConsistency": 5
+    }
+  }
+]

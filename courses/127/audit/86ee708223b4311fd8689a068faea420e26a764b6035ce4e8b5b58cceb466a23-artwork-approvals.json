@@ -1,0 +1,82 @@
+{
+  "geometrySHA256": "a4f6b5914793b2484b3a30b6868be8016d7303b4227591895ad1a86497374aa4",
+  "artworkSHA256": "86ee708223b4311fd8689a068faea420e26a764b6035ce4e8b5b58cceb466a23",
+  "humanApproved": true,
+  "humanApprovalProvenance": {
+    "approved": true,
+    "approvedAt": "2026-10-13T11:59:51.490733+00:00",
+    "source": "Direct user instruction in this chat on October 13, 2026",
+    "userMessage": "okay upload the artwork so that it shows on this admin page and is used by the app",
+    "images": {
+      "120-wooded": "08c9ff972ce7e1ee37d2ccea35b5d161a8e68dd5310cdd394aa92de50e67a255",
+      "121-wooded": "42b25c4e14d84e3ca9b1d974d9e45da0cde51089c8409ed0cddbcf4462ddce0f",
+      "122-wooded": "83e6aba7e5f29802596114def0a202b5900202b663a1113f2676ead2350d5036",
+      "123-wooded": "caeec5347811cccddfd51e2635fa4ffb5cd8084717d231c88c6a8ec6bed221a2",
+      "127-wooded": "86ee708223b4311fd8689a068faea420e26a764b6035ce4e8b5b58cceb466a23",
+      "130-wooded": "b3501cd750e2877aeb2d39104b0c070d7a86f4860c4411805cbc1e1898797411",
+      "120-palmSprings": "c6e691567ee5e87a9f3da6e184ff2c27ab129083b178f4afaf5927f5f89d3bb9",
+      "127-palmSprings": "ef42fe55259cbb91d1b159e563001ae2a422866c8bd572b6e192c428805a548f",
+      "130-palmSprings": "483813dba78d3e6583f2d0c42635da4b68e26a2d1a2823ad3cfe59c1eccbe92e"
+    }
+  },
+  "reviews": [
+    {
+      "responseID": "resp_03de47cd7fa09748016acda14f5be887d1a3a0963a76a07425",
+      "model": "gpt-6-luna",
+      "usage": {
+        "input_tokens": 7952,
+        "input_tokens_details": {
+          "cache_write_tokens": 6850,
+          "cached_tokens": 1099
+        },
+        "output_tokens": 3273,
+        "output_tokens_details": {
+          "reasoning_tokens": 3164
+        },
+        "total_tokens": 11225
+      },
+      "review": {
+        "reviewKind": "artwork-only-v1",
+        "candidate": 0,
+        "approved": true,
+        "scores": {
+          "geometryFidelity": 4,
+          "naturalGreens": 4,
+          "visualClarity": 4,
+          "styleConsistency": 5
+        },
+        "reason": "The illustration preserves the three mapped fairways, greens, hazards, property silhouette, tees, and walking connectors. Fairway stripes are clearly visible and follow the corridors; greens read as continuous putting surfaces, and the wooded rendering is consistent with the reference.",
+        "issues": []
+      }
+    },
+    {
+      "responseID": "resp_076b63348667724b016acda176015487d1b96e6705bb3f83b7",
+      "model": "gpt-6-luna",
+      "usage": {
+        "input_tokens": 7952,
+        "input_tokens_details": {
+          "cache_write_tokens": 6850,
+          "cached_tokens": 1099
+        },
+        "output_tokens": 3619,
+        "output_tokens_details": {
+          "reasoning_tokens": 3507
+        },
+        "total_tokens": 11571
+      },
+      "review": {
+        "reviewKind": "artwork-only-v1",
+        "candidate": 0,
+        "approved": true,
+        "scores": {
+          "geometryFidelity": 4,
+          "naturalGreens": 4,
+          "visualClarity": 4,
+          "styleConsistency": 4
+        },
+        "reason": "The numbered tee, green, fairway, lake, bunker, and walking-connector placements are broadly faithful to the diagram. Greens read as continuous putting surfaces, the fairways have clear crosswise stripes that follow their shapes, and the wooded illustration remains legible.",
+        "issues": []
+      }
+    }
+  ]
+}

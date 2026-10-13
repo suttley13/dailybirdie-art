@@ -1,0 +1,29 @@
+{
+  "responseID": "resp_0bc65105033ff617016acda12b87e487d18edbafac2a43d674",
+  "model": "gpt-6-luna",
+  "usage": {
+    "input_tokens": 8283,
+    "input_tokens_details": {
+      "cache_write_tokens": 7181,
+      "cached_tokens": 1099
+    },
+    "output_tokens": 2947,
+    "output_tokens_details": {
+      "reasoning_tokens": 2839
+    },
+    "total_tokens": 11230
+  },
+  "review": {
+    "reviewKind": "artwork-only-v1",
+    "candidate": 0,
+    "approved": true,
+    "scores": {
+      "geometryFidelity": 4,
+      "naturalGreens": 4,
+      "visualClarity": 4,
+      "styleConsistency": 5
+    },
+    "reason": "The numbered holes, mapped hazards, tees, greens, lake, and walking connectors are represented clearly. Greens read as continuous surfaces with restrained edge transitions. Fairway stripes are clearly visible and generally follow the bends; the wooded rendering remains legible.",
+    "issues": []
+  }
+}

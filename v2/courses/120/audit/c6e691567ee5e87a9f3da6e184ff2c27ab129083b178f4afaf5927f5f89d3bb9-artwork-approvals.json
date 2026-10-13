@@ -1,0 +1,86 @@
+{
+  "geometrySHA256": "58adc1aa6a56508d0a464e85e4039157c1bf314b8f9cf8ec8903541bfce64a2b",
+  "artworkSHA256": "c6e691567ee5e87a9f3da6e184ff2c27ab129083b178f4afaf5927f5f89d3bb9",
+  "humanApproved": true,
+  "humanApprovalProvenance": {
+    "approved": true,
+    "approvedAt": "2026-10-13T11:59:51.490733+00:00",
+    "source": "Direct user instruction in this chat on October 13, 2026",
+    "userMessage": "okay upload the artwork so that it shows on this admin page and is used by the app",
+    "images": {
+      "120-wooded": "08c9ff972ce7e1ee37d2ccea35b5d161a8e68dd5310cdd394aa92de50e67a255",
+      "121-wooded": "42b25c4e14d84e3ca9b1d974d9e45da0cde51089c8409ed0cddbcf4462ddce0f",
+      "122-wooded": "83e6aba7e5f29802596114def0a202b5900202b663a1113f2676ead2350d5036",
+      "123-wooded": "caeec5347811cccddfd51e2635fa4ffb5cd8084717d231c88c6a8ec6bed221a2",
+      "127-wooded": "86ee708223b4311fd8689a068faea420e26a764b6035ce4e8b5b58cceb466a23",
+      "130-wooded": "b3501cd750e2877aeb2d39104b0c070d7a86f4860c4411805cbc1e1898797411",
+      "120-palmSprings": "c6e691567ee5e87a9f3da6e184ff2c27ab129083b178f4afaf5927f5f89d3bb9",
+      "127-palmSprings": "ef42fe55259cbb91d1b159e563001ae2a422866c8bd572b6e192c428805a548f",
+      "130-palmSprings": "483813dba78d3e6583f2d0c42635da4b68e26a2d1a2823ad3cfe59c1eccbe92e"
+    }
+  },
+  "reviews": [
+    {
+      "responseID": "resp_04e3686480347c10016acda21b7ae087d1ae8ff1f28739f1a0",
+      "model": "gpt-6-sol",
+      "usage": {
+        "input_tokens": 8716,
+        "input_tokens_details": {
+          "cache_write_tokens": 8713,
+          "cached_tokens": 0
+        },
+        "output_tokens": 231,
+        "output_tokens_details": {
+          "reasoning_tokens": 97
+        },
+        "total_tokens": 8947
+      },
+      "review": {
+        "reviewKind": "artwork-environment-v2",
+        "candidate": 0,
+        "approved": true,
+        "scores": {
+          "geometryFidelity": 5,
+          "naturalGreens": 4,
+          "visualClarity": 5,
+          "styleConsistency": 5,
+          "environmentFidelity": 5
+        },
+        "reason": "The numbered tees, fairway footprints, greens, hazards, island lake and walking connectors remain faithful to the diagram. All three fairways now have clearly visible crosswise stripes that follow their bends. The greens read as continuous putting surfaces, and the sparse palms and desert treatment remain consistent with the approved illustration.",
+        "issues": [],
+        "environment": "palmSprings"
+      }
+    },
+    {
+      "responseID": "resp_07caceddef38f98d016acda2dba70087d185c6720ee55be2ab",
+      "model": "gpt-6-sol",
+      "usage": {
+        "input_tokens": 8716,
+        "input_tokens_details": {
+          "cache_write_tokens": 7445,
+          "cached_tokens": 1268
+        },
+        "output_tokens": 334,
+        "output_tokens_details": {
+          "reasoning_tokens": 204
+        },
+        "total_tokens": 9050
+      },
+      "review": {
+        "reviewKind": "artwork-environment-v2",
+        "candidate": 0,
+        "approved": true,
+        "scores": {
+          "geometryFidelity": 5,
+          "naturalGreens": 4,
+          "visualClarity": 5,
+          "styleConsistency": 5,
+          "environmentFidelity": 5
+        },
+        "reason": "All numbered tees, fairways, greens, hazards, lake and walking connectors remain faithful to the diagram. Distinct crosswise stripes follow the fairway bends and stay within the short-cut footprints. The greens read as continuous surfaces, and the sparse desert planting and illustration style remain consistent.",
+        "issues": [],
+        "environment": "palmSprings"
+      }
+    }
+  ]
+}

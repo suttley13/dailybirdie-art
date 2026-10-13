@@ -1,0 +1,33 @@
+{
+  "course": 123,
+  "environment": "wooded",
+  "accepted": true,
+  "decisions": [
+    {
+      "reviewKind": "artwork-only-v1",
+      "candidate": 0,
+      "approved": true,
+      "scores": {
+        "geometryFidelity": 4,
+        "naturalGreens": 5,
+        "visualClarity": 4,
+        "styleConsistency": 5
+      },
+      "reason": "The illustration preserves the mapped three-hole layout, fairway directions, mapped lake, bunkers, tees, and walking connectors. Greens read as continuous natural putting surfaces, and all fairways have clear crosswise mowing stripes that follow their shapes. The wooded treatment remains consistent with the reference without visibly obstructing the tee-shot corridors or approaches.",
+      "issues": []
+    },
+    {
+      "reviewKind": "artwork-only-v1",
+      "candidate": 0,
+      "approved": true,
+      "scores": {
+        "geometryFidelity": 4,
+        "naturalGreens": 4,
+        "visualClarity": 4,
+        "styleConsistency": 5
+      },
+      "reason": "The illustration preserves the numbered tee-to-green layout, mapped fairways and lake, shows all three tees and the walking connectors, and keeps trees clear of the main playing corridors. Fairways have visible crosswise stripes that follow their bends. Greens read as continuous natural putting surfaces with only narrow edge transitions. The wooded rendering is consistent with the style reference.",
+      "issues": []
+    }
+  ]
+}

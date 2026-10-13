@@ -1,0 +1,66 @@
+[
+  {
+    "phase": "crosswise-final-independent-1",
+    "kind": "review",
+    "model": "gpt-6-luna",
+    "effort": "medium",
+    "responseID": "resp_05ed9968cdb19ac8016acda10a43fc87d194b0456175a21c61",
+    "usage": {
+      "input_tokens": 8283,
+      "input_tokens_details": {
+        "cache_write_tokens": 7181,
+        "cached_tokens": 1099
+      },
+      "output_tokens": 2537,
+      "output_tokens_details": {
+        "reasoning_tokens": 2415
+      },
+      "total_tokens": 10820
+    },
+    "seconds": 33.94,
+    "imageCount": 3,
+    "approved": true,
+    "reviewKind": "artwork-only-v1",
+    "reason": "The illustration preserves the numbered tee-to-green layout, mapped hazards, property silhouette and walking connectors. All three greens read as continuous natural putting surfaces, and the fairways have clear crosswise mowing stripes that follow their bends. The wooded rendering is consistent with the reference and does not visibly block the tee carries or approaches.",
+    "issues": [],
+    "edits": [],
+    "scores": {
+      "geometryFidelity": 4,
+      "naturalGreens": 5,
+      "visualClarity": 4,
+      "styleConsistency": 5
+    }
+  },
+  {
+    "phase": "crosswise-final-independent-2",
+    "kind": "review",
+    "model": "gpt-6-luna",
+    "effort": "medium",
+    "responseID": "resp_0bc65105033ff617016acda12b87e487d18edbafac2a43d674",
+    "usage": {
+      "input_tokens": 8283,
+      "input_tokens_details": {
+        "cache_write_tokens": 7181,
+        "cached_tokens": 1099
+      },
+      "output_tokens": 2947,
+      "output_tokens_details": {
+        "reasoning_tokens": 2839
+      },
+      "total_tokens": 11230
+    },
+    "seconds": 35.5,
+    "imageCount": 3,
+    "approved": true,
+    "reviewKind": "artwork-only-v1",
+    "reason": "The numbered holes, mapped hazards, tees, greens, lake, and walking connectors are represented clearly. Greens read as continuous surfaces with restrained edge transitions. Fairway stripes are clearly visible and generally follow the bends; the wooded rendering remains legible.",
+    "issues": [],
+    "edits": [],
+    "scores": {
+      "geometryFidelity": 4,
+      "naturalGreens": 4,
+      "visualClarity": 4,
+      "styleConsistency": 5
+    }
+  }
+]
