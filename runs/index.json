@@ -1,7 +1,22 @@
 {
   "schemaVersion": 1,
-  "generatedAt": 1791826639,
+  "generatedAt": 1791984497,
   "runs": [
+    {
+      "file": "1791984491-course-125-failed.json",
+      "course": 125,
+      "outcome": "failed",
+      "error": "'type'",
+      "startedAt": 1791984491,
+      "seconds": 6.64,
+      "reviewModel": "gpt-6-luna",
+      "reviewEffort": "medium",
+      "imageModel": "gpt-image-2.5-sunburst",
+      "artworkStatus": null,
+      "artworkFailure": null,
+      "callCount": 0,
+      "totals": {}
+    },
     {
       "file": "1791826515-course-123-published.json",
       "course": 123,
