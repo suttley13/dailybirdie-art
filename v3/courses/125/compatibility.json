@@ -1,0 +1,36 @@
+{
+  "schemaVersion": 1,
+  "course": 125,
+  "date": "2026-10-19",
+  "matchupID": "studio-pair-v1-125-f20da6b5158b2418675408a814f9a07eeec445bd97e5197ce01cc72ece1b5261",
+  "members": {
+    "legacy": {
+      "schemaVersion": 1,
+      "course": 125,
+      "geometrySHA256": "9caef3719173d03e74e3719c1008646ff23b3352351013a67678f6625110fa23",
+      "artworkSHA256": "2214cc5fc27463cf5268f9063bdd2e0b9f5f194a437339ebae18ee5a8553e21d",
+      "artRulesVersion": "studio-compatible-artwork-1"
+    },
+    "custom": {
+      "schemaVersion": 3,
+      "course": 125,
+      "gameplayRules": "studio-v1",
+      "geometrySHA256": "92f2af23ee18c4688f7c2fb9e07f1e7e642cfbdba97a4b048bec2b2a2ca9ddaa",
+      "artworkSHA256": "6fde6c1e17ee18e0e91d0c65ba0e2998fe991c4dfa68f60e350fb5cf0885fa33",
+      "artRulesVersion": "course-studio-artwork-1",
+      "minimumAppVersion": "1.8"
+    }
+  },
+  "correspondence": {
+    "policy": "studio-compatible-v1",
+    "validator": "studio-compatible-1",
+    "legacyGeometrySHA256": "9caef3719173d03e74e3719c1008646ff23b3352351013a67678f6625110fa23",
+    "customGeometrySHA256": "92f2af23ee18c4688f7c2fb9e07f1e7e642cfbdba97a4b048bec2b2a2ca9ddaa"
+  },
+  "approval": {
+    "approvedAt": "2026-10-15T01:56:03.699281+00:00",
+    "playtested": true,
+    "humanApproved": true,
+    "compatibilityApproved": true
+  }
+}

@@ -1,0 +1,158 @@
+{
+  "course": 125,
+  "date": "2026-10-19",
+  "name": "Kelsey",
+  "studioJob": "08d2cd53-9827-418c-bee9-adf91e59d74f",
+  "draftFingerprint": "4455cff02aef59c9558338cc7dfd916078c4ac7cb6e28cbf0746de0388d16cb9",
+  "approval": {
+    "approvedAt": "2026-10-15T01:56:03.699281+00:00",
+    "playtested": true,
+    "humanApproved": true,
+    "compatibilityApproved": true
+  },
+  "artworkStatus": "approved",
+  "geometrySHA256": "92f2af23ee18c4688f7c2fb9e07f1e7e642cfbdba97a4b048bec2b2a2ca9ddaa",
+  "artworkSHA256": "6fde6c1e17ee18e0e91d0c65ba0e2998fe991c4dfa68f60e350fb5cf0885fa33",
+  "artworkReview": {
+    "reason": "The numbered tees, greens, water, fairways, and walking connectors are clearly represented. Greens read as single natural putting surfaces, and the fairways have visible transverse mowing stripes consistent with the illustration style.",
+    "reviews": [
+      {
+        "model": "gpt-6-luna",
+        "usage": {
+          "input_tokens": 8044,
+          "total_tokens": 10107,
+          "output_tokens": 2063,
+          "input_tokens_details": {
+            "cached_tokens": 0,
+            "cache_write_tokens": 8041
+          },
+          "output_tokens_details": {
+            "reasoning_tokens": 1959
+          }
+        },
+        "review": {
+          "issues": [],
+          "reason": "All three numbered tee-to-green routes, mapped greens and hazards are legible and consistent with the approved diagram. Fairway stripes are visible, greens read as continuous natural putting surfaces, and the wooded rendering fits the supplied reference.",
+          "scores": {
+            "naturalGreens": 4,
+            "visualClarity": 4,
+            "geometryFidelity": 4,
+            "styleConsistency": 4
+          },
+          "approved": true,
+          "candidate": 0,
+          "reviewKind": "artwork-only-v1"
+        },
+        "responseID": "resp_03c176cc0b3142e1016ad02f1436f887d1a744dd24d8ab3fc8"
+      },
+      {
+        "model": "gpt-6-luna",
+        "usage": {
+          "input_tokens": 8044,
+          "total_tokens": 12848,
+          "output_tokens": 4804,
+          "input_tokens_details": {
+            "cached_tokens": 1150,
+            "cache_write_tokens": 6891
+          },
+          "output_tokens_details": {
+            "reasoning_tokens": 4704
+          }
+        },
+        "review": {
+          "issues": [],
+          "reason": "The numbered tees, greens, water, fairways, and walking connectors are clearly represented. Greens read as single natural putting surfaces, and the fairways have visible transverse mowing stripes consistent with the illustration style.",
+          "scores": {
+            "naturalGreens": 5,
+            "visualClarity": 5,
+            "geometryFidelity": 4,
+            "styleConsistency": 5
+          },
+          "approved": true,
+          "candidate": 0,
+          "reviewKind": "artwork-only-v1"
+        },
+        "responseID": "resp_0f473f8f9ebd6260016ad02f2fa04487d1b4f0a45681cc38c0"
+      }
+    ],
+    "approved": true,
+    "artworkSHA256": "6fde6c1e17ee18e0e91d0c65ba0e2998fe991c4dfa68f60e350fb5cf0885fa33",
+    "geometrySHA256": "3c1ef662b0d00a9b4bcdcadc9646e2d9b90fdda258eca80a972e60873ce34ea4"
+  },
+  "compatibility": {
+    "policy": "studio-compatible-v1",
+    "holes": [
+      {
+        "sections": 2,
+        "addedFairwayYards": 4.624402551376584,
+        "addedFairwayPercent": 0.039404133003106544,
+        "waterReshaped": false,
+        "addedFairway": [
+          [
+            [
+              [
+                191.998447871667,
+                508.7294634855487
+              ],
+              [
+                192.3440335793962,
+                504.4443922958643
+              ],
+              [
+                192.3415304048015,
+                504.42537879714155
+              ],
+              [
+                192.34947794382984,
+                504.3650112448809
+              ],
+              [
+                193.84652630664337,
+                504.48574634940223
+              ],
+              [
+                193.84405446800776,
+                504.5045218278847
+              ],
+              [
+                193.4838265108701,
+                508.97114879284845
+              ]
+            ]
+          ]
+        ]
+      },
+      {
+        "sections": 2,
+        "addedFairwayYards": 0,
+        "addedFairwayPercent": 0,
+        "waterReshaped": false,
+        "addedFairway": []
+      },
+      {
+        "sections": 1,
+        "addedFairwayYards": 0,
+        "addedFairwayPercent": 0,
+        "waterReshaped": false,
+        "addedFairway": []
+      }
+    ]
+  },
+  "holes": [
+    {
+      "par": 5,
+      "lengthYards": 514,
+      "type": "straight"
+    },
+    {
+      "par": 4,
+      "lengthYards": 423,
+      "type": "straight"
+    },
+    {
+      "par": 5,
+      "lengthYards": 520,
+      "type": "straight"
+    }
+  ]
+}

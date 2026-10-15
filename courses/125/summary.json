@@ -1,0 +1,158 @@
+{
+  "course": 125,
+  "date": "2026-10-19",
+  "name": "Kelsey",
+  "studioJob": "08d2cd53-9827-418c-bee9-adf91e59d74f",
+  "draftFingerprint": "4455cff02aef59c9558338cc7dfd916078c4ac7cb6e28cbf0746de0388d16cb9",
+  "approval": {
+    "approvedAt": "2026-10-15T01:56:03.699281+00:00",
+    "playtested": true,
+    "humanApproved": true,
+    "compatibilityApproved": true
+  },
+  "artworkStatus": "approved",
+  "geometrySHA256": "9caef3719173d03e74e3719c1008646ff23b3352351013a67678f6625110fa23",
+  "artworkSHA256": "2214cc5fc27463cf5268f9063bdd2e0b9f5f194a437339ebae18ee5a8553e21d",
+  "artworkReview": {
+    "reason": "The illustration preserves the mapped hole layout, greens, tees, hazards, and property silhouette. All three greens read as continuous putting surfaces, and the fairways have visible crosswise mowing stripes. The wooded treatment is consistent with the reference while keeping the course features legible.",
+    "reviews": [
+      {
+        "model": "gpt-6-luna",
+        "usage": {
+          "input_tokens": 8092,
+          "total_tokens": 12844,
+          "output_tokens": 4752,
+          "input_tokens_details": {
+            "cached_tokens": 1200,
+            "cache_write_tokens": 6889
+          },
+          "output_tokens_details": {
+            "reasoning_tokens": 4610
+          }
+        },
+        "review": {
+          "issues": [],
+          "reason": "The illustration preserves the mapped property and hole features, with the numbered tee-to-green routing and walking connectors represented clearly. Greens read as continuous putting surfaces, and the fairways have visible stripes that follow their shapes. The wooded rendering is consistent with the supplied reference.",
+          "scores": {
+            "naturalGreens": 4,
+            "visualClarity": 4,
+            "geometryFidelity": 4,
+            "styleConsistency": 5
+          },
+          "approved": true,
+          "candidate": 0,
+          "reviewKind": "artwork-only-v1"
+        },
+        "responseID": "resp_05e5197a6e2294a3016ad030cfe74087d18e9247cdde6993fe"
+      },
+      {
+        "model": "gpt-6-luna",
+        "usage": {
+          "input_tokens": 8092,
+          "total_tokens": 11073,
+          "output_tokens": 2981,
+          "input_tokens_details": {
+            "cached_tokens": 1200,
+            "cache_write_tokens": 6889
+          },
+          "output_tokens_details": {
+            "reasoning_tokens": 2868
+          }
+        },
+        "review": {
+          "issues": [],
+          "reason": "The illustration preserves the mapped hole layout, greens, tees, hazards, and property silhouette. All three greens read as continuous putting surfaces, and the fairways have visible crosswise mowing stripes. The wooded treatment is consistent with the reference while keeping the course features legible.",
+          "scores": {
+            "naturalGreens": 4,
+            "visualClarity": 4,
+            "geometryFidelity": 4,
+            "styleConsistency": 5
+          },
+          "approved": true,
+          "candidate": 0,
+          "reviewKind": "artwork-only-v1"
+        },
+        "responseID": "resp_0a55223d87f76d3b016ad03113579487d1802d072cea8c0507"
+      }
+    ],
+    "approved": true,
+    "artworkSHA256": "2214cc5fc27463cf5268f9063bdd2e0b9f5f194a437339ebae18ee5a8553e21d",
+    "geometrySHA256": "922d25e2b9c5f2c4375489378a15614cdedcb12de6c6acd963f613f1dba97afe"
+  },
+  "compatibility": {
+    "policy": "studio-compatible-v1",
+    "holes": [
+      {
+        "sections": 2,
+        "addedFairwayYards": 4.624402551376584,
+        "addedFairwayPercent": 0.039404133003106544,
+        "waterReshaped": false,
+        "addedFairway": [
+          [
+            [
+              [
+                191.998447871667,
+                508.7294634855487
+              ],
+              [
+                192.3440335793962,
+                504.4443922958643
+              ],
+              [
+                192.3415304048015,
+                504.42537879714155
+              ],
+              [
+                192.34947794382984,
+                504.3650112448809
+              ],
+              [
+                193.84652630664337,
+                504.48574634940223
+              ],
+              [
+                193.84405446800776,
+                504.5045218278847
+              ],
+              [
+                193.4838265108701,
+                508.97114879284845
+              ]
+            ]
+          ]
+        ]
+      },
+      {
+        "sections": 2,
+        "addedFairwayYards": 0,
+        "addedFairwayPercent": 0,
+        "waterReshaped": false,
+        "addedFairway": []
+      },
+      {
+        "sections": 1,
+        "addedFairwayYards": 0,
+        "addedFairwayPercent": 0,
+        "waterReshaped": false,
+        "addedFairway": []
+      }
+    ]
+  },
+  "holes": [
+    {
+      "par": 5,
+      "lengthYards": 514,
+      "type": "straight"
+    },
+    {
+      "par": 4,
+      "lengthYards": 423,
+      "type": "straight"
+    },
+    {
+      "par": 5,
+      "lengthYards": 520,
+      "type": "straight"
+    }
+  ]
+}
