@@ -1,18 +1,12 @@
 {
   "schemaVersion": 1,
-  "checkedAt": 1792058518,
+  "checkedAt": 1792070040,
   "currentCourse": 122,
   "minimumFutureCourses": 3,
   "readyFutureCourses": 3,
   "unavailableCourse": null,
   "status": "healthy",
   "courses": [
-    {
-      "course": 120,
-      "status": "ready",
-      "paired": true,
-      "matchupID": "daily-pair-v1-120-8c051516608e6c9155455208f189c1d40a4e102b906dd11b536cf210afa2a699"
-    },
     {
       "course": 121,
       "status": "ready"
@@ -44,22 +38,22 @@
   "authoring": {
     "available": true,
     "latest": {
-      "runID": 38571898684,
-      "url": "https://github.com/suttley13/dailyBirdie/actions/runs/38571898684",
+      "runID": 38740639284,
+      "url": "https://github.com/suttley13/dailyBirdie/actions/runs/38740639284",
       "status": "completed",
       "conclusion": "failure",
       "event": "schedule",
-      "failedStep": "Author missing rounds, then refresh outdated artwork",
-      "startedAt": 1791984432
+      "failedStep": "Run pipeline tests",
+      "startedAt": 1792069904
     },
     "lastCompleted": {
-      "runID": 38571898684,
-      "url": "https://github.com/suttley13/dailyBirdie/actions/runs/38571898684",
+      "runID": 38740639284,
+      "url": "https://github.com/suttley13/dailyBirdie/actions/runs/38740639284",
       "status": "completed",
       "conclusion": "failure",
       "event": "schedule",
-      "failedStep": "Author missing rounds, then refresh outdated artwork",
-      "startedAt": 1791984432
+      "failedStep": "Run pipeline tests",
+      "startedAt": 1792069904
     }
   }
 }
