@@ -1,0 +1,255 @@
+{
+  "course": 126,
+  "date": "2026-10-20",
+  "name": "Oct 20",
+  "studioJob": "6dc66090-71fe-4817-ad14-7b682814968c",
+  "draftFingerprint": "2a264a1ed6175189aa07dd2f3c6d5a395bdfa8500da6cdca9ab77b281b57a7e7",
+  "approval": {
+    "approvedAt": "2026-10-15T21:37:24.487384+00:00",
+    "playtested": true,
+    "humanApproved": true,
+    "compatibilityApproved": true
+  },
+  "artworkStatus": "approved",
+  "geometrySHA256": "f5440fb871d504a1fee48f031b2b71da08c30462276eabca6503549465db91ed",
+  "artworkSHA256": "09caddc41b7a568da6ccaa0fe1c9e4360b8997ecbe494b4bbf7116a1be3cfaa9",
+  "artworkReview": {
+    "reason": "The illustration preserves the mapped course silhouette, green and hazard placement, and the three tee-to-green directions. Main fairways have clearly visible crosswise mowing bands that follow their curves. Greens read as continuous putting surfaces with narrow edge transitions, and the wooded rendering remains clear and consistent with the reference.",
+    "reviews": [
+      {
+        "model": "gpt-6-luna",
+        "usage": {
+          "input_tokens": 8563,
+          "total_tokens": 11646,
+          "output_tokens": 3083,
+          "input_tokens_details": {
+            "cached_tokens": 1217,
+            "cache_write_tokens": 7343
+          },
+          "output_tokens_details": {
+            "reasoning_tokens": 2962
+          }
+        },
+        "review": {
+          "issues": [],
+          "reason": "The mapped routing, property silhouette, greens, hazards, and walking connectors are represented clearly. Greens read as continuous natural putting surfaces, and the main fairways have visible curved crosswise mowing bands. Tree cover leaves the tee-to-landing and green approaches legible; the illustration is consistent with the reference style.",
+          "scores": {
+            "naturalGreens": 4,
+            "visualClarity": 4,
+            "geometryFidelity": 4,
+            "styleConsistency": 4
+          },
+          "approved": true,
+          "candidate": 0,
+          "reviewKind": "artwork-only-v1"
+        },
+        "responseID": "resp_0209a48d618c52d8016ad1427bea9c87d183f1da005fc2bcef"
+      },
+      {
+        "model": "gpt-6-luna",
+        "usage": {
+          "input_tokens": 8563,
+          "total_tokens": 12228,
+          "output_tokens": 3665,
+          "input_tokens_details": {
+            "cached_tokens": 1217,
+            "cache_write_tokens": 7343
+          },
+          "output_tokens_details": {
+            "reasoning_tokens": 3547
+          }
+        },
+        "review": {
+          "issues": [],
+          "reason": "The illustration preserves the mapped course silhouette, green and hazard placement, and the three tee-to-green directions. Main fairways have clearly visible crosswise mowing bands that follow their curves. Greens read as continuous putting surfaces with narrow edge transitions, and the wooded rendering remains clear and consistent with the reference.",
+          "scores": {
+            "naturalGreens": 4,
+            "visualClarity": 4,
+            "geometryFidelity": 4,
+            "styleConsistency": 5
+          },
+          "approved": true,
+          "candidate": 0,
+          "reviewKind": "artwork-only-v1"
+        },
+        "responseID": "resp_094a79a0e6bf9216016ad142a0942487d18eda94438130f80c"
+      }
+    ],
+    "approved": true,
+    "artworkSHA256": "09caddc41b7a568da6ccaa0fe1c9e4360b8997ecbe494b4bbf7116a1be3cfaa9",
+    "geometrySHA256": "785c59e20ad271559b82e4fde106d02dd3284303335f15478a0da3777a215797"
+  },
+  "compatibility": {
+    "policy": "studio-compatible-v1",
+    "holes": [
+      {
+        "sections": 1,
+        "addedFairwayYards": 0,
+        "addedFairwayPercent": 0,
+        "waterReshaped": false,
+        "addedFairway": []
+      },
+      {
+        "sections": 2,
+        "addedFairwayYards": 3.282756867545484,
+        "addedFairwayPercent": 0.02907342218997132,
+        "waterReshaped": false,
+        "addedFairway": [
+          [
+            [
+              [
+                257.18201371749933,
+                464.76002686155107
+              ],
+              [
+                257.2113731368251,
+                464.7561616206691
+              ],
+              [
+                257.24595161497103,
+                464.7607139636798
+              ],
+              [
+                258.03401474732453,
+                464.72997136899517
+              ],
+              [
+                258.0604878267949,
+                464.84740090623296
+              ],
+              [
+                258.3783482845075,
+                466.2176797275281
+              ],
+              [
+                257.2750726376998,
+                466.2607188631541
+              ],
+              [
+                257.2407325561508,
+                466.26523982065737
+              ]
+            ]
+          ],
+          [
+            [
+              [
+                266.18283434752504,
+                464.41208331175415
+              ],
+              [
+                268.39186700348745,
+                464.32590824176384
+              ],
+              [
+                268.45556650436214,
+                464.31752204337863
+              ],
+              [
+                268.4909847622364,
+                464.32218494548795
+              ],
+              [
+                268.45556650436214,
+                465.07399376381375
+              ],
+              [
+                268.63371600436,
+                465.8070116576302
+              ],
+              [
+                268.45556650436214,
+                465.83046548424886
+              ],
+              [
+                268.4209880262162,
+                465.8259131412382
+              ],
+              [
+                266.5275088661705,
+                465.89977836849124
+              ]
+            ]
+          ]
+        ]
+      },
+      {
+        "sections": 2,
+        "addedFairwayYards": 1.3537317121707324,
+        "addedFairwayPercent": 0.01673259375605394,
+        "waterReshaped": false,
+        "addedFairway": [
+          [
+            [
+              [
+                89.51441904329897,
+                238.99551319474205
+              ],
+              [
+                89.52515630633121,
+                238.98727420304039
+              ],
+              [
+                89.59960389545247,
+                238.95643700194037
+              ],
+              [
+                90.66696843545725,
+                238.45249359809824
+              ],
+              [
+                90.68157717302479,
+                238.44128391950235
+              ],
+              [
+                90.73922938767834,
+                238.417403590292
+              ],
+              [
+                91.38039667880638,
+                239.77541170299534
+              ],
+              [
+                91.36360130433863,
+                239.78236857488503
+              ],
+              [
+                90.29623676433388,
+                240.28631197872716
+              ],
+              [
+                90.28162802676633,
+                240.29752165732305
+              ],
+              [
+                90.21839915340064,
+                240.3237119142047
+              ],
+              [
+                89.90339216654877,
+                239.64239793018172
+              ]
+            ]
+          ]
+        ]
+      }
+    ]
+  },
+  "holes": [
+    {
+      "par": 5,
+      "lengthYards": 545,
+      "type": "straight"
+    },
+    {
+      "par": 5,
+      "lengthYards": 588,
+      "type": "straight"
+    },
+    {
+      "par": 3,
+      "lengthYards": 231,
+      "type": "straight"
+    }
+  ]
+}
