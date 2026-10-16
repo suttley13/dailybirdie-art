@@ -1,16 +1,12 @@
 {
   "schemaVersion": 1,
-  "checkedAt": 1792135043,
-  "currentCourse": 122,
+  "checkedAt": 1792154043,
+  "currentCourse": 123,
   "minimumFutureCourses": 3,
   "readyFutureCourses": 4,
   "unavailableCourse": null,
   "status": "healthy",
   "courses": [
-    {
-      "course": 121,
-      "status": "ready"
-    },
     {
       "course": 122,
       "status": "ready"
@@ -32,6 +28,12 @@
     {
       "course": 126,
       "status": "ready"
+    },
+    {
+      "course": 127,
+      "status": "ready",
+      "paired": true,
+      "matchupID": "daily-pair-v1-127-24c309d67f1fda831a6c23ec36c286a23ff57607a1861df9bac88743a4c59b1a"
     }
   ],
   "authoring": {
