@@ -1,0 +1,29 @@
+{
+  "responseID": "resp_07536756a822c8b2016ad3645bf3f487d2ab7f09d3fa928525",
+  "model": "gpt-6-luna",
+  "usage": {
+    "input_tokens": 8673,
+    "input_tokens_details": {
+      "cache_write_tokens": 8670,
+      "cached_tokens": 0
+    },
+    "output_tokens": 3255,
+    "output_tokens_details": {
+      "reasoning_tokens": 3136
+    },
+    "total_tokens": 11928
+  },
+  "review": {
+    "reviewKind": "artwork-only-v1",
+    "candidate": 47,
+    "approved": true,
+    "scores": {
+      "geometryFidelity": 4,
+      "naturalGreens": 4,
+      "visualClarity": 4,
+      "styleConsistency": 5
+    },
+    "reason": "The illustration preserves the three numbered tee-to-green layouts, mapped fairway shapes, bunkers, lake, and property silhouette. Main fairways have clear crosswise mowing bands, greens read as single continuous putting surfaces, and the wooded rendering is consistent with the reference. No actionable artwork issue is apparent.",
+    "issues": []
+  }
+}

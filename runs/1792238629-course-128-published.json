@@ -1,0 +1,131 @@
+{
+  "schemaVersion": 1,
+  "course": 128,
+  "outcome": "published",
+  "error": null,
+  "startedAt": 1792238629,
+  "seconds": 127.91,
+  "reviewModel": "gpt-6-luna",
+  "reviewEffort": "medium",
+  "imageModel": "gpt-image-2.5-sunburst",
+  "candidatesRequested": 50,
+  "calls": [
+    {
+      "phase": "selection",
+      "kind": "review",
+      "model": "gpt-6-luna",
+      "effort": "medium",
+      "responseID": "resp_0d7666eb7fdbd7bc016ad36431c26487d2a8cbc01012630162",
+      "usage": {
+        "input_tokens": 56904,
+        "input_tokens_details": {
+          "cache_write_tokens": 56901,
+          "cached_tokens": 0
+        },
+        "output_tokens": 1854,
+        "output_tokens_details": {
+          "reasoning_tokens": 1447
+        },
+        "total_tokens": 58758
+      },
+      "seconds": 20.5,
+      "imageCount": 8,
+      "approved": true,
+      "reviewKind": "course-design",
+      "reason": "Candidate 47 passes as supplied, with no geometry edits needed.\n\nHole 1 is a dry 225-yard long par 3. The fairway bunker short of the target and greenside bunkers behind it make distance control important, while 38 safe tee options and the clear target support a playable shot. It is more of a precision test than a route-choice hole, which is appropriate as the opener.\n\nHole 2 is a dry 347-yard dogleg-left par 4. The fairway bunkers and trees give players a choice between following the bend and attempting a more direct line; the 54 safe tee options suggest room for a playable route. The simulated one-shot reach is an aggressive possibility, not proof of an effortless hole.\n\nHole 3 is a 560-yard uphill par 5 with one substantial right-side lake, fairway bunkers, and greenside sand. The landing corridor leaves a dry staged route, while advancing near the shoreline creates a meaningful risk-reward choice. Its 46 safe tee options and simulated three shots to the green support a fair finishing challenge.\n\nThe dry par 3, dry dogleg par 4, and wet uphill par 5 give the round strong internal contrast in length, routing, and hazard exposure. Across-days variety is good rather than exceptional: doglegs and uphill par 5s recur in recent rounds, but this dry opening par 3 and the sequence of two dry holes before a single wet finisher distinguish this set. The numbered previews show credible landing areas and targets; the water is substantial without closing the playable route.",
+      "issues": [],
+      "edits": [],
+      "scores": {
+        "strategy": 4,
+        "withinRoundVariety": 5,
+        "acrossDaysVariety": 4,
+        "fairDifficulty": 4
+      }
+    },
+    {
+      "phase": "artwork-0",
+      "kind": "image",
+      "model": "gpt-image-2.5-sunburst",
+      "usage": {
+        "input_tokens": 4472,
+        "input_tokens_details": {
+          "image_tokens": 2863,
+          "text_tokens": 1609
+        },
+        "output_tokens": 343,
+        "output_tokens_details": {
+          "image_tokens": 343,
+          "text_tokens": 0
+        },
+        "total_tokens": 4815
+      },
+      "seconds": 22.06
+    },
+    {
+      "phase": "artwork-0-review",
+      "kind": "review",
+      "model": "gpt-6-luna",
+      "effort": "medium",
+      "responseID": "resp_07536756a822c8b2016ad3645bf3f487d2ab7f09d3fa928525",
+      "usage": {
+        "input_tokens": 8673,
+        "input_tokens_details": {
+          "cache_write_tokens": 8670,
+          "cached_tokens": 0
+        },
+        "output_tokens": 3255,
+        "output_tokens_details": {
+          "reasoning_tokens": 3136
+        },
+        "total_tokens": 11928
+      },
+      "seconds": 44.16,
+      "imageCount": 3,
+      "approved": true,
+      "reviewKind": "artwork-only-v1",
+      "reason": "The illustration preserves the three numbered tee-to-green layouts, mapped fairway shapes, bunkers, lake, and property silhouette. Main fairways have clear crosswise mowing bands, greens read as single continuous putting surfaces, and the wooded rendering is consistent with the reference. No actionable artwork issue is apparent.",
+      "issues": [],
+      "edits": [],
+      "scores": {
+        "geometryFidelity": 4,
+        "naturalGreens": 4,
+        "visualClarity": 4,
+        "styleConsistency": 5
+      }
+    },
+    {
+      "phase": "artwork-0-final",
+      "kind": "review",
+      "model": "gpt-6-luna",
+      "effort": "medium",
+      "responseID": "resp_0b4875b01d50b4dd016ad36488b43c87d2a198f471a76f4bc4",
+      "usage": {
+        "input_tokens": 8673,
+        "input_tokens_details": {
+          "cache_write_tokens": 7504,
+          "cached_tokens": 1166
+        },
+        "output_tokens": 2156,
+        "output_tokens_details": {
+          "reasoning_tokens": 2037
+        },
+        "total_tokens": 10829
+      },
+      "seconds": 28.46,
+      "imageCount": 3,
+      "approved": true,
+      "reviewKind": "artwork-only-v1",
+      "reason": "The illustration preserves the mapped property silhouette, numbered green locations, fairway directions, hazards, and walking connectors. All three putting greens read as single continuous surfaces, and the main fairways have clear crosswise mowing stripes that follow their shapes. The wooded, textured rendering is consistent with the style reference.",
+      "issues": [],
+      "edits": [],
+      "scores": {
+        "geometryFidelity": 4,
+        "naturalGreens": 5,
+        "visualClarity": 4,
+        "styleConsistency": 5
+      }
+    }
+  ],
+  "artworkStatus": "approved",
+  "artworkFailure": null
+}
