@@ -1,0 +1,145 @@
+{
+  "course": 127,
+  "date": "2026-10-21",
+  "name": "Antigravity Image Import Course",
+  "studioJob": "eabab74a-f4ff-42a5-8d35-ebff2590eb3f",
+  "draftFingerprint": "ec9bddf5eaec13526861f072e5b6d5c110c7ed26b3b4d1591c3b966b12f9502f",
+  "approval": {
+    "approvedAt": "2026-10-18T19:51:08.734011+00:00",
+    "playtested": true,
+    "humanApproved": true,
+    "retainedOlder": {
+      "legacy": {
+        "course": 127,
+        "artworkSHA256": "86ee708223b4311fd8689a068faea420e26a764b6035ce4e8b5b58cceb466a23",
+        "schemaVersion": 1,
+        "geometrySHA256": "a4f6b5914793b2484b3a30b6868be8016d7303b4227591895ad1a86497374aa4",
+        "artRulesVersion": "fairway-stripes-v4"
+      },
+      "pairMatchupID": "daily-pair-v1-127-24c309d67f1fda831a6c23ec36c286a23ff57607a1861df9bac88743a4c59b1a"
+    },
+    "compatibilityApproved": true
+  },
+  "artworkStatus": "approved",
+  "geometrySHA256": "da57c1c1f5dd21a4eb322d10d9745301bb8dcd8e1012e6e2056178d39176689a",
+  "artworkSHA256": "3330d7b7c572cf44cd8508877791b7a71e86fd2e49280d56106e58f513164ab9",
+  "artworkReview": {
+    "reason": "The illustration preserves the mapped property silhouette, lakes, green locations, and numbered tee-to-green routing. All three tees and greens are visible, the greens read as continuous natural putting surfaces, and the broad fairway has visible crosswise mowing bands. The wooded rendering is consistent with the supplied reference; no actionable artwork issue is evident.",
+    "reviews": [
+      {
+        "model": "gpt-6-luna",
+        "usage": {
+          "input_tokens": 8254,
+          "total_tokens": 12097,
+          "output_tokens": 3843,
+          "input_tokens_details": {
+            "cached_tokens": 1217,
+            "cache_write_tokens": 7034
+          },
+          "output_tokens_details": {
+            "reasoning_tokens": 3721
+          }
+        },
+        "review": {
+          "issues": [],
+          "reason": "The illustration preserves the mapped property and water shapes, shows all three tees and greens, and keeps the green-to-next-tee walking connections. Greens read as continuous putting surfaces, and the main fairway has visible crosswise mowing bands. The wooded rendering is consistent with the reference and the course remains clearly legible.",
+          "scores": {
+            "naturalGreens": 4,
+            "visualClarity": 4,
+            "geometryFidelity": 4,
+            "styleConsistency": 4
+          },
+          "approved": true,
+          "candidate": 0,
+          "reviewKind": "artwork-only-v1"
+        },
+        "responseID": "resp_04cbb0adba3f7897016ad5191d38f487d194438195ff8ed5ff"
+      },
+      {
+        "model": "gpt-6-luna",
+        "usage": {
+          "input_tokens": 8254,
+          "total_tokens": 11485,
+          "output_tokens": 3231,
+          "input_tokens_details": {
+            "cached_tokens": 1217,
+            "cache_write_tokens": 7034
+          },
+          "output_tokens_details": {
+            "reasoning_tokens": 3106
+          }
+        },
+        "review": {
+          "issues": [],
+          "reason": "The illustration preserves the mapped property silhouette, lakes, green locations, and numbered tee-to-green routing. All three tees and greens are visible, the greens read as continuous natural putting surfaces, and the broad fairway has visible crosswise mowing bands. The wooded rendering is consistent with the supplied reference; no actionable artwork issue is evident.",
+          "scores": {
+            "naturalGreens": 5,
+            "visualClarity": 4,
+            "geometryFidelity": 4,
+            "styleConsistency": 4
+          },
+          "approved": true,
+          "candidate": 0,
+          "reviewKind": "artwork-only-v1"
+        },
+        "responseID": "resp_00e5cc2ac1a0d83d016ad519467ee887d1b30133d732915e98"
+      }
+    ],
+    "approved": true,
+    "artworkSHA256": "3330d7b7c572cf44cd8508877791b7a71e86fd2e49280d56106e58f513164ab9",
+    "geometrySHA256": "c555d6d1161fb6ea66897eb6bca2a64d6616b6958f244e707f0f35cbf92afc58"
+  },
+  "compatibility": {
+    "policy": "studio-compatible-v1",
+    "holes": [
+      {
+        "sections": 1,
+        "addedFairwayYards": 0,
+        "addedFairwayPercent": 0,
+        "waterReshaped": false,
+        "addedFairway": []
+      },
+      {
+        "sections": 1,
+        "addedFairwayYards": 0,
+        "addedFairwayPercent": 0,
+        "waterReshaped": false,
+        "addedFairway": []
+      },
+      {
+        "sections": 1,
+        "addedFairwayYards": 0,
+        "addedFairwayPercent": 0,
+        "waterReshaped": false,
+        "addedFairway": []
+      }
+    ]
+  },
+  "holes": [
+    {
+      "par": 3,
+      "lengthYards": 233,
+      "type": "straight"
+    },
+    {
+      "par": 3,
+      "lengthYards": 137,
+      "type": "straight"
+    },
+    {
+      "par": 5,
+      "lengthYards": 510,
+      "type": "straight"
+    }
+  ],
+  "retainedOlder": {
+    "legacy": {
+      "course": 127,
+      "artworkSHA256": "86ee708223b4311fd8689a068faea420e26a764b6035ce4e8b5b58cceb466a23",
+      "schemaVersion": 1,
+      "geometrySHA256": "a4f6b5914793b2484b3a30b6868be8016d7303b4227591895ad1a86497374aa4",
+      "artRulesVersion": "fairway-stripes-v4"
+    },
+    "pairMatchupID": "daily-pair-v1-127-24c309d67f1fda831a6c23ec36c286a23ff57607a1861df9bac88743a4c59b1a"
+  }
+}
