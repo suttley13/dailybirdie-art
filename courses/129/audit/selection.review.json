@@ -1,0 +1,28 @@
+{
+  "responseID": "resp_0c156a415f078bcf016ad63640898c87d2830bb8c79f281c66",
+  "model": "gpt-6-luna",
+  "usage": {
+    "input_tokens": 55311,
+    "input_tokens_details": {
+      "cache_write_tokens": 55308,
+      "cached_tokens": 0
+    },
+    "output_tokens": 1728,
+    "output_tokens_details": {
+      "reasoning_tokens": 1371
+    },
+    "total_tokens": 57039
+  },
+  "review": {
+    "candidate": 5,
+    "approved": true,
+    "scores": {
+      "strategy": 4,
+      "withinRoundVariety": 5,
+      "acrossDaysVariety": 4,
+      "fairDifficulty": 4
+    },
+    "reason": "Candidate 5 passes as supplied, with no geometry edits needed.\n\nHole 1 is a 193-yard island-green par 3: the surrounding lake makes the carry a real commitment, while the 49 safe tee options and one-shot simulation support a demanding but playable target. Center-green play offers a safer choice than pressing for a pin.\n\nHole 2 is a dry 414-yard narrow-corridor par 4. Its fairway bunker and confined route reward controlled placement; 29 safe tee options make it the tightest hole in the round, but the preview and fairway area retain a usable corridor. The approach bunkers add consequences without making the target unreasonable.\n\nHole 3 is a dry 582-yard dogleg-right par 5 with a broad route and two greenside bunkers. Following the bend gives a credible staged-play option, while the simulated two-shot reach is an aggressive opportunity rather than a guarantee. Its generous landing space offsets the length.\n\nThe island carry, narrow par 4 and long dry dogleg create strong variety in both length and strategic character. Island greens recur in recent rounds, but placing one first and following it with two dry, differently routed holes provides sufficient freshness, especially against the recent run of varied water-heavy layouts. The 49/29/52 safe-option counts and 1/2/2 shots-to-green simulations support fair difficulty; the narrow middle hole deserves attention, but does not appear unfair. The current geometry is publishable.",
+    "edits": []
+  }
+}

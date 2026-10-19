@@ -1,0 +1,101 @@
+{
+  "course": 129,
+  "geometrySHA256": "cf709056c03dea247312777cea1e81f3732981ebc8036d7b77d22df80e5bacf9",
+  "artworkSHA256": "487323f97f884f33642d44a9fb73ffa452c28ca3965f578b1ffffd3d97d1e242",
+  "holes": [
+    {
+      "bunkerCount": 0,
+      "fairwayArea": 6915.067278342849,
+      "par": 3,
+      "route": [
+        [
+          200,
+          40
+        ],
+        [
+          209.02242330095015,
+          289.05675571116564
+        ]
+      ],
+      "simulatedShotsToGreen": 1,
+      "teeSafeOptions": 49,
+      "type": "islandGreen",
+      "waterArea": 20726.363069186198,
+      "yards": 193
+    },
+    {
+      "bunkerCount": 3,
+      "fairwayArea": 13401.08112724776,
+      "par": 4,
+      "route": [
+        [
+          200,
+          40
+        ],
+        [
+          187.03843711619731,
+          392.49373769610446
+        ],
+        [
+          207.38863279175445,
+          527.8803494742144
+        ]
+      ],
+      "simulatedShotsToGreen": 2,
+      "teeSafeOptions": 29,
+      "type": "narrowCorridor",
+      "waterArea": 0,
+      "yards": 414
+    },
+    {
+      "bunkerCount": 2,
+      "fairwayArea": 24456.093320963035,
+      "par": 5,
+      "route": [
+        [
+          120,
+          40
+        ],
+        [
+          169.7831951289685,
+          415.8620863309183
+        ],
+        [
+          314.67329919847367,
+          519.2243812374336
+        ]
+      ],
+      "simulatedShotsToGreen": 2,
+      "teeSafeOptions": 52,
+      "type": "doglegRight",
+      "waterArea": 0,
+      "yards": 582
+    }
+  ],
+  "review": {
+    "candidate": 5,
+    "approved": true,
+    "scores": {
+      "strategy": 4,
+      "withinRoundVariety": 5,
+      "acrossDaysVariety": 4,
+      "fairDifficulty": 4
+    },
+    "reason": "Candidate 5 passes as supplied, with no geometry edits needed.\n\nHole 1 is a 193-yard island-green par 3: the surrounding lake makes the carry a real commitment, while the 49 safe tee options and one-shot simulation support a demanding but playable target. Center-green play offers a safer choice than pressing for a pin.\n\nHole 2 is a dry 414-yard narrow-corridor par 4. Its fairway bunker and confined route reward controlled placement; 29 safe tee options make it the tightest hole in the round, but the preview and fairway area retain a usable corridor. The approach bunkers add consequences without making the target unreasonable.\n\nHole 3 is a dry 582-yard dogleg-right par 5 with a broad route and two greenside bunkers. Following the bend gives a credible staged-play option, while the simulated two-shot reach is an aggressive opportunity rather than a guarantee. Its generous landing space offsets the length.\n\nThe island carry, narrow par 4 and long dry dogleg create strong variety in both length and strategic character. Island greens recur in recent rounds, but placing one first and following it with two dry, differently routed holes provides sufficient freshness, especially against the recent run of varied water-heavy layouts. The 49/29/52 safe-option counts and 1/2/2 shots-to-green simulations support fair difficulty; the narrow middle hole deserves attention, but does not appear unfair. The current geometry is publishable.",
+    "edits": []
+  },
+  "artworkStatus": "approved",
+  "artworkReview": {
+    "reviewKind": "artwork-only-v1",
+    "candidate": 5,
+    "approved": true,
+    "scores": {
+      "geometryFidelity": 4,
+      "naturalGreens": 5,
+      "visualClarity": 4,
+      "styleConsistency": 5
+    },
+    "reason": "The illustration preserves the mapped property silhouette, numbered tee-to-green layout, mapped hazards, and walking connectors. All tees and greens are visible; the greens read as continuous natural putting surfaces. The main fairways have clear alternating stripes that follow their curves, and the wooded illustration is consistent with the reference style.",
+    "issues": []
+  }
+}

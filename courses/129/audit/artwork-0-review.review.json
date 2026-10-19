@@ -1,0 +1,29 @@
+{
+  "responseID": "resp_0cf819ba9a765238016ad6366ced3087d2a7922b423ad62da1",
+  "model": "gpt-6-luna",
+  "usage": {
+    "input_tokens": 7694,
+    "input_tokens_details": {
+      "cache_write_tokens": 7691,
+      "cached_tokens": 0
+    },
+    "output_tokens": 1997,
+    "output_tokens_details": {
+      "reasoning_tokens": 1858
+    },
+    "total_tokens": 9691
+  },
+  "review": {
+    "reviewKind": "artwork-only-v1",
+    "candidate": 5,
+    "approved": true,
+    "scores": {
+      "geometryFidelity": 5,
+      "naturalGreens": 5,
+      "visualClarity": 4,
+      "styleConsistency": 5
+    },
+    "reason": "The illustration preserves the numbered tee-to-green layout, mapped island water and bunkers, both walking connectors, and the property silhouette. All three greens read as continuous natural putting surfaces. The main fairways have clear transverse stripes that follow their shapes; the small Hole 1 fairway section is appropriately smooth. The wooded rendering is consistent with the reference, and the tees and key playing corridors remain visible.",
+    "issues": []
+  }
+}
