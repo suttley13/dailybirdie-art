@@ -1,0 +1,268 @@
+{
+  "geometrySHA256": "61389bb37817781a3d61c39a8b10e78bb5e8c481dac1c28b7fc713057460b409",
+  "artworkSHA256": "30bd4ef7186072660a6b18fc315ba1c5aee394ee82e1e7224d9da8ffa715650c",
+  "humanApproved": true,
+  "reviews": [
+    {
+      "review": {
+        "issues": [
+          {
+            "code": "geometry-mismatch",
+            "hole": 1,
+            "detail": "The mapped flag marker on the upper-left green is missing.",
+            "region": {
+              "x": 0.2,
+              "y": 0.25,
+              "width": 0.06,
+              "height": 0.07
+            },
+            "consequence": "The overview does not show the flag location specified for this green."
+          },
+          {
+            "code": "geometry-mismatch",
+            "hole": 2,
+            "detail": "The mapped flag marker on the upper-right green is missing.",
+            "region": {
+              "x": 0.76,
+              "y": 0.32,
+              "width": 0.06,
+              "height": 0.07
+            },
+            "consequence": "The overview does not show the flag location specified for this green."
+          },
+          {
+            "code": "geometry-mismatch",
+            "hole": 3,
+            "detail": "The mapped flag marker on the lower-left island green is missing.",
+            "region": {
+              "x": 0.18,
+              "y": 0.54,
+              "width": 0.06,
+              "height": 0.07
+            },
+            "consequence": "The overview does not show the flag location specified for this green."
+          }
+        ],
+        "reason": "The course silhouette, fairways, hazards, and continuous green surfaces are generally clear and consistent with the reference. The mapped flag locations are not visibly preserved on the three greens.",
+        "scores": {
+          "naturalGreens": 4,
+          "visualClarity": 4,
+          "geometryFidelity": 3,
+          "styleConsistency": 4
+        },
+        "approved": false,
+        "candidate": 0,
+        "reviewKind": "artwork-only-v1"
+      },
+      "responseID": "resp_06c79927757dcac5016ad7c0b5ced887d287855830384ed01b"
+    },
+    {
+      "review": {
+        "issues": [
+          {
+            "code": "geometry-mismatch",
+            "hole": 1,
+            "detail": "The two lower fairway sections are joined by continuous short-cut turf; the diagram preserves a gap between them.",
+            "region": {
+              "x": 0.4,
+              "y": 0.58,
+              "width": 0.12,
+              "height": 0.12
+            },
+            "consequence": "The overview makes the separate fairway sections read as one continuous landing area."
+          },
+          {
+            "code": "green-treatment",
+            "hole": 0,
+            "detail": "The putting surfaces are rendered as bright inset discs surrounded by conspicuous contrasting rings, rather than as one continuous natural green surface.",
+            "region": null,
+            "consequence": "The greens read as bullseye-like or raised platforms instead of natural close-mown putting surfaces."
+          }
+        ],
+        "reason": "The artwork is clear and the main fairways have visible crosswise mowing stripes, but it connects a mapped split fairway and gives the greens a distinctly ringed, inset appearance.",
+        "scores": {
+          "naturalGreens": 3,
+          "visualClarity": 4,
+          "geometryFidelity": 3,
+          "styleConsistency": 5
+        },
+        "approved": false,
+        "candidate": 0,
+        "reviewKind": "artwork-only-v1"
+      },
+      "responseID": "resp_04a5f020db1e7d53016ad7c0b60c6087d28dc8cf98f3ac556f"
+    }
+  ],
+  "humanArtworkAcceptance": {
+    "policy": "studio-human-artwork-v1",
+    "reason": "The course silhouette, fairways, hazards, and continuous green surfaces are generally clear and consistent with the reference. The mapped flag locations are not visibly preserved on the three greens. The artwork is clear and the main fairways have visible crosswise mowing stripes, but it connects a mapped split fairway and gives the greens a distinctly ringed, inset appearance.",
+    "review": {
+      "issues": [
+        {
+          "code": "geometry-mismatch",
+          "hole": 1,
+          "detail": "The mapped flag marker on the upper-left green is missing.",
+          "region": {
+            "x": 0.2,
+            "y": 0.25,
+            "width": 0.06,
+            "height": 0.07
+          },
+          "consequence": "The overview does not show the flag location specified for this green."
+        },
+        {
+          "code": "geometry-mismatch",
+          "hole": 2,
+          "detail": "The mapped flag marker on the upper-right green is missing.",
+          "region": {
+            "x": 0.76,
+            "y": 0.32,
+            "width": 0.06,
+            "height": 0.07
+          },
+          "consequence": "The overview does not show the flag location specified for this green."
+        },
+        {
+          "code": "geometry-mismatch",
+          "hole": 3,
+          "detail": "The mapped flag marker on the lower-left island green is missing.",
+          "region": {
+            "x": 0.18,
+            "y": 0.54,
+            "width": 0.06,
+            "height": 0.07
+          },
+          "consequence": "The overview does not show the flag location specified for this green."
+        },
+        {
+          "code": "geometry-mismatch",
+          "hole": 1,
+          "detail": "The two lower fairway sections are joined by continuous short-cut turf; the diagram preserves a gap between them.",
+          "region": {
+            "x": 0.4,
+            "y": 0.58,
+            "width": 0.12,
+            "height": 0.12
+          },
+          "consequence": "The overview makes the separate fairway sections read as one continuous landing area."
+        },
+        {
+          "code": "green-treatment",
+          "hole": 0,
+          "detail": "The putting surfaces are rendered as bright inset discs surrounded by conspicuous contrasting rings, rather than as one continuous natural green surface.",
+          "region": null,
+          "consequence": "The greens read as bullseye-like or raised platforms instead of natural close-mown putting surfaces."
+        }
+      ],
+      "reason": "The course silhouette, fairways, hazards, and continuous green surfaces are generally clear and consistent with the reference. The mapped flag locations are not visibly preserved on the three greens. The artwork is clear and the main fairways have visible crosswise mowing stripes, but it connects a mapped split fairway and gives the greens a distinctly ringed, inset appearance.",
+      "reviews": [
+        {
+          "review": {
+            "issues": [
+              {
+                "code": "geometry-mismatch",
+                "hole": 1,
+                "detail": "The mapped flag marker on the upper-left green is missing.",
+                "region": {
+                  "x": 0.2,
+                  "y": 0.25,
+                  "width": 0.06,
+                  "height": 0.07
+                },
+                "consequence": "The overview does not show the flag location specified for this green."
+              },
+              {
+                "code": "geometry-mismatch",
+                "hole": 2,
+                "detail": "The mapped flag marker on the upper-right green is missing.",
+                "region": {
+                  "x": 0.76,
+                  "y": 0.32,
+                  "width": 0.06,
+                  "height": 0.07
+                },
+                "consequence": "The overview does not show the flag location specified for this green."
+              },
+              {
+                "code": "geometry-mismatch",
+                "hole": 3,
+                "detail": "The mapped flag marker on the lower-left island green is missing.",
+                "region": {
+                  "x": 0.18,
+                  "y": 0.54,
+                  "width": 0.06,
+                  "height": 0.07
+                },
+                "consequence": "The overview does not show the flag location specified for this green."
+              }
+            ],
+            "reason": "The course silhouette, fairways, hazards, and continuous green surfaces are generally clear and consistent with the reference. The mapped flag locations are not visibly preserved on the three greens.",
+            "scores": {
+              "naturalGreens": 4,
+              "visualClarity": 4,
+              "geometryFidelity": 3,
+              "styleConsistency": 4
+            },
+            "approved": false,
+            "candidate": 0,
+            "reviewKind": "artwork-only-v1"
+          },
+          "responseID": "resp_06c79927757dcac5016ad7c0b5ced887d287855830384ed01b"
+        },
+        {
+          "review": {
+            "issues": [
+              {
+                "code": "geometry-mismatch",
+                "hole": 1,
+                "detail": "The two lower fairway sections are joined by continuous short-cut turf; the diagram preserves a gap between them.",
+                "region": {
+                  "x": 0.4,
+                  "y": 0.58,
+                  "width": 0.12,
+                  "height": 0.12
+                },
+                "consequence": "The overview makes the separate fairway sections read as one continuous landing area."
+              },
+              {
+                "code": "green-treatment",
+                "hole": 0,
+                "detail": "The putting surfaces are rendered as bright inset discs surrounded by conspicuous contrasting rings, rather than as one continuous natural green surface.",
+                "region": null,
+                "consequence": "The greens read as bullseye-like or raised platforms instead of natural close-mown putting surfaces."
+              }
+            ],
+            "reason": "The artwork is clear and the main fairways have visible crosswise mowing stripes, but it connects a mapped split fairway and gives the greens a distinctly ringed, inset appearance.",
+            "scores": {
+              "naturalGreens": 3,
+              "visualClarity": 4,
+              "geometryFidelity": 3,
+              "styleConsistency": 5
+            },
+            "approved": false,
+            "candidate": 0,
+            "reviewKind": "artwork-only-v1"
+          },
+          "responseID": "resp_04a5f020db1e7d53016ad7c0b60c6087d28dc8cf98f3ac556f"
+        }
+      ],
+      "approved": false,
+      "decisionKey": "f0f23215c3c732a33943d7c84ad1c057a7781dd29fd46719c3e53abf0ac4709d",
+      "artworkSHA256": "30bd4ef7186072660a6b18fc315ba1c5aee394ee82e1e7224d9da8ffa715650c",
+      "geometrySHA256": "02ba2b9220c5a589d1a0b8e7ad595035478b909d931e747dc2f4b4e0c4dd8b5a",
+      "geometryEncoding": "studio-stable-json-v1"
+    },
+    "decisionKey": "f0f23215c3c732a33943d7c84ad1c057a7781dd29fd46719c3e53abf0ac4709d",
+    "artworkSHA256": "30bd4ef7186072660a6b18fc315ba1c5aee394ee82e1e7224d9da8ffa715650c",
+    "geometrySHA256": "61389bb37817781a3d61c39a8b10e78bb5e8c481dac1c28b7fc713057460b409",
+    "acceptedFindings": [
+      "f0f23215c3c732a33943d7c84ad1c057a7781dd29fd46719c3e53abf0ac4709d:0",
+      "f0f23215c3c732a33943d7c84ad1c057a7781dd29fd46719c3e53abf0ac4709d:1",
+      "f0f23215c3c732a33943d7c84ad1c057a7781dd29fd46719c3e53abf0ac4709d:2",
+      "f0f23215c3c732a33943d7c84ad1c057a7781dd29fd46719c3e53abf0ac4709d:3",
+      "f0f23215c3c732a33943d7c84ad1c057a7781dd29fd46719c3e53abf0ac4709d:4"
+    ],
+    "sourceGeometrySHA256": "02ba2b9220c5a589d1a0b8e7ad595035478b909d931e747dc2f4b4e0c4dd8b5a",
+    "approvedAt": "2026-10-20T19:57:23.476Z"
+  }
+}

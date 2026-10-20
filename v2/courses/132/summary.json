@@ -1,0 +1,20 @@
+{
+  "course": 132,
+  "geometrySHA256": "0462d98989b42de063a64f3b56dbd2987fb4461cab26330f3a6f5431031706bd",
+  "artworkSHA256": "2752c6dcdcb13482834251a1186bf440d46b3dfc996bd6c5c73a4e3f647050eb",
+  "environment": "palmSprings",
+  "artworkStatus": "approved",
+  "artRulesVersion": "palm-springs-stripes-v2",
+  "artworkApproval": "human-override",
+  "holes": [
+    {
+      "par": 4
+    },
+    {
+      "par": 3
+    },
+    {
+      "par": 5
+    }
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "course": 132,
+  "geometrySHA256": "61389bb37817781a3d61c39a8b10e78bb5e8c481dac1c28b7fc713057460b409",
+  "artworkSHA256": "30bd4ef7186072660a6b18fc315ba1c5aee394ee82e1e7224d9da8ffa715650c",
+  "environment": "wooded",
+  "artworkStatus": "approved",
+  "artRulesVersion": "fairway-stripes-v4",
+  "artworkApproval": "human-override",
+  "holes": [
+    {
+      "par": 4
+    },
+    {
+      "par": 3
+    },
+    {
+      "par": 5
+    }
+  ]
+}

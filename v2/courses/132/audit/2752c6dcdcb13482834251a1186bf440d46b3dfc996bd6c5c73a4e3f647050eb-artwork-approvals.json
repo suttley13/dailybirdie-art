@@ -1,0 +1,141 @@
+{
+  "geometrySHA256": "0462d98989b42de063a64f3b56dbd2987fb4461cab26330f3a6f5431031706bd",
+  "artworkSHA256": "2752c6dcdcb13482834251a1186bf440d46b3dfc996bd6c5c73a4e3f647050eb",
+  "humanApproved": true,
+  "reviews": [
+    {
+      "review": {
+        "issues": [],
+        "reason": "The illustration preserves the three tee-to-green layouts, mapped fairways, water, bunkers, property silhouette, and visible tees. Main fairways have clear crosswise mowing bands that follow their bends. The greens read as continuous close-mown surfaces with ordinary edge transitions, and the desert planting and white exterior are consistent with the mapped environment.",
+        "scores": {
+          "naturalGreens": 4,
+          "visualClarity": 4,
+          "geometryFidelity": 4,
+          "styleConsistency": 5,
+          "environmentFidelity": 4
+        },
+        "approved": true,
+        "candidate": 0,
+        "reviewKind": "artwork-environment-v2",
+        "environment": "palmSprings"
+      },
+      "responseID": "resp_01fb91de9d9113e5016ad7c0b614fc87d2964df4501241f14f"
+    },
+    {
+      "review": {
+        "issues": [
+          {
+            "code": "green-treatment",
+            "hole": 0,
+            "detail": "The upper-left putting green has a pale inner disc surrounded by a broad, dark contrasting ring; the other greens show a similar target-like treatment.",
+            "region": {
+              "x": 0.13,
+              "y": 0.14,
+              "width": 0.1,
+              "height": 0.13
+            },
+            "consequence": "The overview makes the putting surfaces appear nested or ringed instead of continuous natural greens."
+          }
+        ],
+        "reason": "The layout is broadly faithful and the main fairways have clear, appropriately oriented mowing stripes. The putting greens, however, read as inset discs within conspicuous contrasting rings rather than as single continuous natural close-mown surfaces.",
+        "scores": {
+          "naturalGreens": 3,
+          "visualClarity": 5,
+          "geometryFidelity": 4,
+          "styleConsistency": 5,
+          "environmentFidelity": 4
+        },
+        "approved": false,
+        "candidate": 0,
+        "reviewKind": "artwork-environment-v2",
+        "environment": "palmSprings"
+      },
+      "responseID": "resp_0f5bdb97073cb02c016ad7c0b611bc87d287ec5c9f8122c45b"
+    }
+  ],
+  "humanArtworkAcceptance": {
+    "policy": "studio-human-artwork-v1",
+    "reason": "The illustration preserves the three tee-to-green layouts, mapped fairways, water, bunkers, property silhouette, and visible tees. Main fairways have clear crosswise mowing bands that follow their bends. The greens read as continuous close-mown surfaces with ordinary edge transitions, and the desert planting and white exterior are consistent with the mapped environment. The layout is broadly faithful and the main fairways have clear, appropriately oriented mowing stripes. The putting greens, however, read as inset discs within conspicuous contrasting rings rather than as single continuous natural close-mown surfaces.",
+    "review": {
+      "issues": [
+        {
+          "code": "green-treatment",
+          "hole": 0,
+          "detail": "The upper-left putting green has a pale inner disc surrounded by a broad, dark contrasting ring; the other greens show a similar target-like treatment.",
+          "region": {
+            "x": 0.13,
+            "y": 0.14,
+            "width": 0.1,
+            "height": 0.13
+          },
+          "consequence": "The overview makes the putting surfaces appear nested or ringed instead of continuous natural greens."
+        }
+      ],
+      "reason": "The illustration preserves the three tee-to-green layouts, mapped fairways, water, bunkers, property silhouette, and visible tees. Main fairways have clear crosswise mowing bands that follow their bends. The greens read as continuous close-mown surfaces with ordinary edge transitions, and the desert planting and white exterior are consistent with the mapped environment. The layout is broadly faithful and the main fairways have clear, appropriately oriented mowing stripes. The putting greens, however, read as inset discs within conspicuous contrasting rings rather than as single continuous natural close-mown surfaces.",
+      "reviews": [
+        {
+          "review": {
+            "issues": [],
+            "reason": "The illustration preserves the three tee-to-green layouts, mapped fairways, water, bunkers, property silhouette, and visible tees. Main fairways have clear crosswise mowing bands that follow their bends. The greens read as continuous close-mown surfaces with ordinary edge transitions, and the desert planting and white exterior are consistent with the mapped environment.",
+            "scores": {
+              "naturalGreens": 4,
+              "visualClarity": 4,
+              "geometryFidelity": 4,
+              "styleConsistency": 5,
+              "environmentFidelity": 4
+            },
+            "approved": true,
+            "candidate": 0,
+            "reviewKind": "artwork-environment-v2",
+            "environment": "palmSprings"
+          },
+          "responseID": "resp_01fb91de9d9113e5016ad7c0b614fc87d2964df4501241f14f"
+        },
+        {
+          "review": {
+            "issues": [
+              {
+                "code": "green-treatment",
+                "hole": 0,
+                "detail": "The upper-left putting green has a pale inner disc surrounded by a broad, dark contrasting ring; the other greens show a similar target-like treatment.",
+                "region": {
+                  "x": 0.13,
+                  "y": 0.14,
+                  "width": 0.1,
+                  "height": 0.13
+                },
+                "consequence": "The overview makes the putting surfaces appear nested or ringed instead of continuous natural greens."
+              }
+            ],
+            "reason": "The layout is broadly faithful and the main fairways have clear, appropriately oriented mowing stripes. The putting greens, however, read as inset discs within conspicuous contrasting rings rather than as single continuous natural close-mown surfaces.",
+            "scores": {
+              "naturalGreens": 3,
+              "visualClarity": 5,
+              "geometryFidelity": 4,
+              "styleConsistency": 5,
+              "environmentFidelity": 4
+            },
+            "approved": false,
+            "candidate": 0,
+            "reviewKind": "artwork-environment-v2",
+            "environment": "palmSprings"
+          },
+          "responseID": "resp_0f5bdb97073cb02c016ad7c0b611bc87d287ec5c9f8122c45b"
+        }
+      ],
+      "approved": false,
+      "decisionKey": "6d0134595ee27b01d35967d0178604fc2d838be818be05ec33b2d640da73e367",
+      "artworkSHA256": "2752c6dcdcb13482834251a1186bf440d46b3dfc996bd6c5c73a4e3f647050eb",
+      "geometrySHA256": "337bfa3c4c8a3076a712f9ab9367a20e3a49b447881668547e78d53245321d9d",
+      "geometryEncoding": "studio-stable-json-v1"
+    },
+    "decisionKey": "6d0134595ee27b01d35967d0178604fc2d838be818be05ec33b2d640da73e367",
+    "artworkSHA256": "2752c6dcdcb13482834251a1186bf440d46b3dfc996bd6c5c73a4e3f647050eb",
+    "geometrySHA256": "0462d98989b42de063a64f3b56dbd2987fb4461cab26330f3a6f5431031706bd",
+    "acceptedFindings": [
+      "6d0134595ee27b01d35967d0178604fc2d838be818be05ec33b2d640da73e367:0"
+    ],
+    "sourceGeometrySHA256": "337bfa3c4c8a3076a712f9ab9367a20e3a49b447881668547e78d53245321d9d",
+    "approvedAt": "2026-10-20T19:57:23.476Z"
+  }
+}
