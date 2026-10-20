@@ -1,0 +1,28 @@
+{
+  "responseID": "resp_04a8614e9001724a016ad76c486b0887d1a0b55b2cdabadca3",
+  "model": "gpt-6-luna",
+  "usage": {
+    "input_tokens": 55706,
+    "input_tokens_details": {
+      "cache_write_tokens": 55703,
+      "cached_tokens": 0
+    },
+    "output_tokens": 2192,
+    "output_tokens_details": {
+      "reasoning_tokens": 1919
+    },
+    "total_tokens": 57898
+  },
+  "review": {
+    "candidate": 34,
+    "approved": true,
+    "scores": {
+      "strategy": 4,
+      "withinRoundVariety": 5,
+      "acrossDaysVariety": 4,
+      "fairDifficulty": 4
+    },
+    "reason": "Candidate 34 passes as supplied. Hole 1 is a dry 225-yard par 3 with fairway bunkers short of the green and a playable approach; it offers a clear distance-control test to open the round. Hole 2 is a 553-yard par 5 with one substantial lake on the right of play and fairway bunkers on the opposite side. The broad corridor leaves a staged route, while favoring one side brings the other hazards into consideration. Hole 3 is a dry 413-yard double dogleg: the bends and fairway bunkers reward placement, and the tree clusters give the more direct line some consequence. The dry par 3, shoreline par 5 and bending par 4 create strong contrast. Recent rounds feature many water hazards, so limiting water to one hole adds freshness; the sequence and varied hole types distinguish this set. Safe tee options of 67/54/55 and usable landing corridors support fair difficulty. The simulated two-shot route on the par 5 indicates an aggressive possibility, not proof that the hole is effortless. No geometry edits are needed.",
+    "edits": []
+  }
+}

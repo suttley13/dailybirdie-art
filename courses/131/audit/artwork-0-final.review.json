@@ -1,0 +1,29 @@
+{
+  "responseID": "resp_00b3ea769df99de6016ad76ca57da887d18427ad0dece2672e",
+  "model": "gpt-6-luna",
+  "usage": {
+    "input_tokens": 8589,
+    "input_tokens_details": {
+      "cache_write_tokens": 7420,
+      "cached_tokens": 1166
+    },
+    "output_tokens": 2975,
+    "output_tokens_details": {
+      "reasoning_tokens": 2859
+    },
+    "total_tokens": 11564
+  },
+  "review": {
+    "reviewKind": "artwork-only-v1",
+    "candidate": 34,
+    "approved": true,
+    "scores": {
+      "geometryFidelity": 4,
+      "naturalGreens": 5,
+      "visualClarity": 4,
+      "styleConsistency": 4
+    },
+    "reason": "The illustration preserves the mapped hole routing, property silhouette, hazards, tees and walking connectors. All three greens read as single continuous putting surfaces, and the main fairways have visible crosswise mowing bands. The wooded rendering is consistent with the reference and the course remains clear at thumbnail scale.",
+    "issues": []
+  }
+}

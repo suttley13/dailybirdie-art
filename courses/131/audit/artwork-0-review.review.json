@@ -1,0 +1,29 @@
+{
+  "responseID": "resp_0f34282c80a9df6e016ad76c7d312887d1865bb76eff890071",
+  "model": "gpt-6-luna",
+  "usage": {
+    "input_tokens": 8589,
+    "input_tokens_details": {
+      "cache_write_tokens": 8586,
+      "cached_tokens": 0
+    },
+    "output_tokens": 2801,
+    "output_tokens_details": {
+      "reasoning_tokens": 2678
+    },
+    "total_tokens": 11390
+  },
+  "review": {
+    "reviewKind": "artwork-only-v1",
+    "candidate": 34,
+    "approved": true,
+    "scores": {
+      "geometryFidelity": 4,
+      "naturalGreens": 4,
+      "visualClarity": 4,
+      "styleConsistency": 5
+    },
+    "reason": "The illustration preserves the numbered tee-to-green routing, mapped fairways and hazards, property silhouette, and walking connectors. All tees are visible, main fairways have clear transverse mowing bands, and the greens read as continuous natural putting surfaces. The wooded rendering is consistent with the reference and does not visibly obstruct the shot corridors.",
+    "issues": []
+  }
+}
