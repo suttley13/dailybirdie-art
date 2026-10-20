@@ -1,0 +1,222 @@
+{
+  "course": 128,
+  "date": "2026-10-22",
+  "name": "World's Greatest Par 4s",
+  "studioJob": "b1ac36b2-ae80-4a3d-8869-6cbd1d6ce537",
+  "draftFingerprint": "92eca7fea8649b981cf578bd0d8cb18ebb9e7bc9b91cd1ddd8ad5689ffaa560a",
+  "approval": {
+    "approvedAt": "2026-10-20T01:28:13.662125+00:00",
+    "playtested": true,
+    "humanApproved": true,
+    "retainedOlder": {
+      "legacy": {
+        "course": 128,
+        "artworkSHA256": "e2a8f7718c936e8d0fbdbcf21dd8bb7daad42cbd6407d2cadd54f44e46aa569f",
+        "schemaVersion": 1,
+        "geometrySHA256": "60844c27a6ffbd1cd1aaf0e62bcdcbbebbc3999161a7fc4b8e7237ad46e2c7d5",
+        "artRulesVersion": "fairway-stripes-v4"
+      },
+      "pairMatchupID": null
+    },
+    "compatibilityApproved": true
+  },
+  "artworkStatus": "approved",
+  "geometrySHA256": "207ce0f48166f91957075cfc6f6638d37184c19782cc4c1254e44d324724d951",
+  "artworkSHA256": "0a0335a8806e58c1df1c1963a1bc47e18ece099ef20428ffb4ef447dfa8c099a",
+  "artworkReview": {
+    "reason": "The illustration preserves the mapped hole layout, tees, greens, hazards, split fairway sections, and walking connectors. Greens read as continuous natural putting surfaces, and the main fairways have clearly visible crosswise mowing stripes. The wooded painterly treatment is consistent with the reference, with clear framing and readable course features.",
+    "reviews": [
+      {
+        "model": "gpt-6-luna",
+        "usage": {
+          "input_tokens": 8416,
+          "total_tokens": 11878,
+          "output_tokens": 3462,
+          "input_tokens_details": {
+            "cached_tokens": 1217,
+            "cache_write_tokens": 7196
+          },
+          "output_tokens_details": {
+            "reasoning_tokens": 3339
+          }
+        },
+        "review": {
+          "issues": [],
+          "reason": "The illustration preserves the mapped course silhouette, tees, greens, water, bunkers, fairway sections, and walking connectors. Greens read as single continuous putting surfaces, and the main fairways have clearly visible crosswise mowing bands. The wooded rendering is consistent with the reference style, with the course features remaining legible.",
+          "scores": {
+            "naturalGreens": 5,
+            "visualClarity": 4,
+            "geometryFidelity": 4,
+            "styleConsistency": 5
+          },
+          "approved": true,
+          "candidate": 0,
+          "reviewKind": "artwork-only-v1"
+        },
+        "responseID": "resp_0fc92108cb02b68e016ad670864d8c87d1b6562efd5bdaf63b"
+      },
+      {
+        "model": "gpt-6-luna",
+        "usage": {
+          "input_tokens": 8416,
+          "total_tokens": 10547,
+          "output_tokens": 2131,
+          "input_tokens_details": {
+            "cached_tokens": 1217,
+            "cache_write_tokens": 7196
+          },
+          "output_tokens_details": {
+            "reasoning_tokens": 2009
+          }
+        },
+        "review": {
+          "issues": [],
+          "reason": "The illustration preserves the mapped hole layout, tees, greens, hazards, split fairway sections, and walking connectors. Greens read as continuous natural putting surfaces, and the main fairways have clearly visible crosswise mowing stripes. The wooded painterly treatment is consistent with the reference, with clear framing and readable course features.",
+          "scores": {
+            "naturalGreens": 5,
+            "visualClarity": 4,
+            "geometryFidelity": 4,
+            "styleConsistency": 5
+          },
+          "approved": true,
+          "candidate": 0,
+          "reviewKind": "artwork-only-v1"
+        },
+        "responseID": "resp_01d1a6990d3d7dd0016ad670b3763087d19a9104a41958141b"
+      }
+    ],
+    "approved": true,
+    "artworkSHA256": "0a0335a8806e58c1df1c1963a1bc47e18ece099ef20428ffb4ef447dfa8c099a",
+    "geometrySHA256": "c116153ef1ae896fe8f933f7fd63b9c5facf436705e68377bd1e0cba2ec424fe"
+  },
+  "compatibility": {
+    "policy": "studio-compatible-v1",
+    "holes": [
+      {
+        "sections": 2,
+        "addedFairwayYards": 26.55217839356586,
+        "addedFairwayPercent": 0.15492106374776812,
+        "waterReshaped": false,
+        "addedFairway": [
+          [
+            [
+              [
+                148.94597340337984,
+                436.9239350122995
+              ],
+              [
+                148.95354629636392,
+                436.8664131792704
+              ],
+              [
+                149.1674079838406,
+                427.3275909746791
+              ],
+              [
+                150.66379299440123,
+                427.5056424817881
+              ],
+              [
+                150.45354791551586,
+                436.8831539497856
+              ],
+              [
+                150.45891684425007,
+                436.9239350122995
+              ],
+              [
+                150.45331087864716,
+                436.96651654858374
+              ],
+              [
+                149.70244512381495,
+                436.9239350122995
+              ],
+              [
+                148.96625299602525,
+                437.07797381154023
+              ]
+            ]
+          ],
+          [
+            [
+              [
+                151.3181456110812,
+                331.3987498763417
+              ],
+              [
+                151.6803755611641,
+                315.2422931879714
+              ],
+              [
+                151.67500663242987,
+                315.2015121254575
+              ],
+              [
+                151.6892877209247,
+                315.09303648878864
+              ],
+              [
+                152.43147835286499,
+                315.2015121254575
+              ],
+              [
+                153.18634706913932,
+                315.21368815090455
+              ],
+              [
+                153.18037718031601,
+                315.2590339584866
+              ],
+              [
+                152.83175599264672,
+                330.8085022394455
+              ]
+            ]
+          ]
+        ]
+      },
+      {
+        "sections": 1,
+        "addedFairwayYards": 0,
+        "addedFairwayPercent": 0,
+        "waterReshaped": false,
+        "addedFairway": []
+      },
+      {
+        "sections": 1,
+        "addedFairwayYards": 0,
+        "addedFairwayPercent": 0,
+        "waterReshaped": false,
+        "addedFairway": []
+      }
+    ]
+  },
+  "holes": [
+    {
+      "par": 4,
+      "lengthYards": 428,
+      "type": "straight"
+    },
+    {
+      "par": 4,
+      "lengthYards": 520,
+      "type": "straight"
+    },
+    {
+      "par": 4,
+      "lengthYards": 315,
+      "type": "straight"
+    }
+  ],
+  "retainedOlder": {
+    "legacy": {
+      "course": 128,
+      "artworkSHA256": "e2a8f7718c936e8d0fbdbcf21dd8bb7daad42cbd6407d2cadd54f44e46aa569f",
+      "schemaVersion": 1,
+      "geometrySHA256": "60844c27a6ffbd1cd1aaf0e62bcdcbbebbc3999161a7fc4b8e7237ad46e2c7d5",
+      "artRulesVersion": "fairway-stripes-v4"
+    },
+    "pairMatchupID": null
+  }
+}
