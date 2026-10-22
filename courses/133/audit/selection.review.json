@@ -1,0 +1,28 @@
+{
+  "responseID": "resp_0ef3d00ad41e7f53016ada120429c487d28979ee26ccdebf6b",
+  "model": "gpt-6-luna",
+  "usage": {
+    "input_tokens": 53771,
+    "input_tokens_details": {
+      "cache_write_tokens": 53768,
+      "cached_tokens": 0
+    },
+    "output_tokens": 1836,
+    "output_tokens_details": {
+      "reasoning_tokens": 1537
+    },
+    "total_tokens": 55607
+  },
+  "review": {
+    "candidate": 36,
+    "approved": true,
+    "scores": {
+      "strategy": 4,
+      "withinRoundVariety": 5,
+      "acrossDaysVariety": 4,
+      "fairDifficulty": 4
+    },
+    "reason": "Candidate 36 passes as supplied. Hole 1 is a 500-yard reachable par 5 with substantial water on the right of play. The broad landing corridor supports a staged route away from the shoreline, while advancing aggressively offers a chance to reach in two. Hole 2 is a 171-yard straight par 3 with water left/front of the target; the hazard adds consequence without forcing an unreasonable carry, and the tee-safe options support a playable shot. Hole 3 is a dry 350-yard narrow-corridor par 4. Its fairway bunkers and limited safe tee options make placement important, but the preview retains a usable corridor and a clear route to the green. The reachable par 5, short water-influenced par 3, and tighter dry par 4 give the round strong internal contrast. Across-days variety is good: water has featured often in recent rounds, but this set avoids an island green and uses a narrow-corridor finisher rather than repeating the more common punchbowl or dogleg patterns. The 24 safe tee options on Hole 3 merit attention, but the landing route remains playable; the other holes have 48 and 49 safe options. No geometry edits are needed.",
+    "edits": []
+  }
+}

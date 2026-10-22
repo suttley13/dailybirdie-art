@@ -1,0 +1,451 @@
+{
+  "schemaVersion": 1,
+  "course": 133,
+  "outcome": "published",
+  "error": null,
+  "startedAt": 1792676341,
+  "seconds": 466.39,
+  "reviewModel": "gpt-6-luna",
+  "reviewEffort": "medium",
+  "imageModel": "gpt-image-2.5-sunburst",
+  "candidatesRequested": 50,
+  "calls": [
+    {
+      "phase": "selection",
+      "kind": "review",
+      "model": "gpt-6-luna",
+      "effort": "medium",
+      "responseID": "resp_0ef3d00ad41e7f53016ada120429c487d28979ee26ccdebf6b",
+      "usage": {
+        "input_tokens": 53771,
+        "input_tokens_details": {
+          "cache_write_tokens": 53768,
+          "cached_tokens": 0
+        },
+        "output_tokens": 1836,
+        "output_tokens_details": {
+          "reasoning_tokens": 1537
+        },
+        "total_tokens": 55607
+      },
+      "seconds": 19.57,
+      "imageCount": 8,
+      "approved": true,
+      "reviewKind": "course-design",
+      "reason": "Candidate 36 passes as supplied. Hole 1 is a 500-yard reachable par 5 with substantial water on the right of play. The broad landing corridor supports a staged route away from the shoreline, while advancing aggressively offers a chance to reach in two. Hole 2 is a 171-yard straight par 3 with water left/front of the target; the hazard adds consequence without forcing an unreasonable carry, and the tee-safe options support a playable shot. Hole 3 is a dry 350-yard narrow-corridor par 4. Its fairway bunkers and limited safe tee options make placement important, but the preview retains a usable corridor and a clear route to the green. The reachable par 5, short water-influenced par 3, and tighter dry par 4 give the round strong internal contrast. Across-days variety is good: water has featured often in recent rounds, but this set avoids an island green and uses a narrow-corridor finisher rather than repeating the more common punchbowl or dogleg patterns. The 24 safe tee options on Hole 3 merit attention, but the landing route remains playable; the other holes have 48 and 49 safe options. No geometry edits are needed.",
+      "issues": [],
+      "edits": [],
+      "scores": {
+        "strategy": 4,
+        "withinRoundVariety": 5,
+        "acrossDaysVariety": 4,
+        "fairDifficulty": 4
+      }
+    },
+    {
+      "phase": "artwork-0",
+      "kind": "image",
+      "model": "gpt-image-2.5-sunburst",
+      "usage": {
+        "input_tokens": 4441,
+        "input_tokens_details": {
+          "image_tokens": 2863,
+          "text_tokens": 1578
+        },
+        "output_tokens": 343,
+        "output_tokens_details": {
+          "image_tokens": 343,
+          "text_tokens": 0
+        },
+        "total_tokens": 4784
+      },
+      "seconds": 26.95
+    },
+    {
+      "phase": "artwork-0-review",
+      "kind": "review",
+      "model": "gpt-6-luna",
+      "effort": "medium",
+      "responseID": "resp_09cb3b6e7c15fea6016ada1232627487d2982e181c3cb7f491",
+      "usage": {
+        "input_tokens": 8584,
+        "input_tokens_details": {
+          "cache_write_tokens": 8581,
+          "cached_tokens": 0
+        },
+        "output_tokens": 3431,
+        "output_tokens_details": {
+          "reasoning_tokens": 3234
+        },
+        "total_tokens": 12015
+      },
+      "seconds": 41.09,
+      "imageCount": 3,
+      "approved": false,
+      "reviewKind": "artwork-only-v1",
+      "reason": "The mapped course features, greens, hazards, tees, and walking connectors are represented clearly. However, Hole 1\u2019s main fairway has prominent lengthwise mowing bands rather than bands crossing the fairway edge to edge.",
+      "issues": [
+        {
+          "code": "style",
+          "hole": 1,
+          "detail": "The alternating bands on Hole 1\u2019s long fairway run parallel to its left-to-right direction of play instead of crossing the fairway perpendicular to its edges.",
+          "consequence": "At overview scale, the mowing pattern reads as lengthwise striping rather than the required transverse fairway bands.",
+          "region": {
+            "x": 0.247,
+            "y": 0.639,
+            "width": 0.545,
+            "height": 0.141
+          }
+        }
+      ],
+      "edits": [],
+      "scores": {
+        "geometryFidelity": 5,
+        "naturalGreens": 5,
+        "visualClarity": 4,
+        "styleConsistency": 3
+      }
+    },
+    {
+      "phase": "artwork-1",
+      "kind": "image",
+      "model": "gpt-image-2.5-sunburst",
+      "usage": {
+        "input_tokens": 6213,
+        "input_tokens_details": {
+          "image_tokens": 4363,
+          "text_tokens": 1850
+        },
+        "output_tokens": 343,
+        "output_tokens_details": {
+          "image_tokens": 343,
+          "text_tokens": 0
+        },
+        "total_tokens": 6556
+      },
+      "seconds": 28.35
+    },
+    {
+      "phase": "artwork-1-review",
+      "kind": "review",
+      "model": "gpt-6-luna",
+      "effort": "medium",
+      "responseID": "resp_01fae1040ce1ef73016ada1278805c87d29847d6fce96421c9",
+      "usage": {
+        "input_tokens": 8590,
+        "input_tokens_details": {
+          "cache_write_tokens": 7270,
+          "cached_tokens": 1317
+        },
+        "output_tokens": 3356,
+        "output_tokens_details": {
+          "reasoning_tokens": 3242
+        },
+        "total_tokens": 11946
+      },
+      "seconds": 38.22,
+      "imageCount": 3,
+      "approved": true,
+      "reviewKind": "artwork-only-v1",
+      "reason": "The numbered tees, greens, fairways, mapped water, hazards, and walking connectors are represented consistently with the diagram. All three main fairways have visible transverse mowing bands, the greens read as continuous putting surfaces, and the wooded rendering is clear and consistent with the reference.",
+      "issues": [],
+      "edits": [],
+      "scores": {
+        "geometryFidelity": 4,
+        "naturalGreens": 4,
+        "visualClarity": 4,
+        "styleConsistency": 4
+      }
+    },
+    {
+      "phase": "artwork-1-final",
+      "kind": "review",
+      "model": "gpt-6-luna",
+      "effort": "medium",
+      "responseID": "resp_021bf9e22ec0c5fe016ada129f4b1087d28ad648ee9c4a2bd0",
+      "usage": {
+        "input_tokens": 8590,
+        "input_tokens_details": {
+          "cache_write_tokens": 7270,
+          "cached_tokens": 1317
+        },
+        "output_tokens": 2436,
+        "output_tokens_details": {
+          "reasoning_tokens": 2252
+        },
+        "total_tokens": 11026
+      },
+      "seconds": 30.66,
+      "imageCount": 3,
+      "approved": false,
+      "reviewKind": "artwork-only-v1",
+      "reason": "The mapped layout, greens, hazards, walking connectors, and striped fairways are largely represented well. Added trees clutter Hole 2\u2019s tee-to-green corridor and make its route difficult to read.",
+      "issues": [
+        {
+          "code": "clarity",
+          "hole": 2,
+          "detail": "Trees crowd the corridor from the Hole 2 tee toward its landing area and green, especially through the central area between them.",
+          "consequence": "The overview makes the Hole 2 route appear obstructed and obscures its intended line of play.",
+          "region": {
+            "x": 0.23,
+            "y": 0.33,
+            "width": 0.12,
+            "height": 0.22
+          }
+        }
+      ],
+      "edits": [],
+      "scores": {
+        "geometryFidelity": 4,
+        "naturalGreens": 5,
+        "visualClarity": 3,
+        "styleConsistency": 4
+      }
+    },
+    {
+      "phase": "artwork-2",
+      "kind": "image",
+      "model": "gpt-image-2.5-sunburst",
+      "usage": {
+        "input_tokens": 6213,
+        "input_tokens_details": {
+          "image_tokens": 4363,
+          "text_tokens": 1850
+        },
+        "output_tokens": 343,
+        "output_tokens_details": {
+          "image_tokens": 343,
+          "text_tokens": 0
+        },
+        "total_tokens": 6556
+      },
+      "seconds": 22.53
+    },
+    {
+      "phase": "artwork-2-review",
+      "kind": "review",
+      "model": "gpt-6-luna",
+      "effort": "medium",
+      "responseID": "resp_0646e63edc52b7ad016ada12d5165c87d28e75b005cdba835f",
+      "usage": {
+        "input_tokens": 8590,
+        "input_tokens_details": {
+          "cache_write_tokens": 7270,
+          "cached_tokens": 1317
+        },
+        "output_tokens": 3626,
+        "output_tokens_details": {
+          "reasoning_tokens": 3433
+        },
+        "total_tokens": 12216
+      },
+      "seconds": 42.31,
+      "imageCount": 3,
+      "approved": false,
+      "reviewKind": "artwork-only-v1",
+      "reason": "The mapped layout, hazards, greens, and walking connectors are generally preserved, and the greens read as continuous putting surfaces. However, trees crowd and obstruct the T3-to-Hole 3 first-landing corridor.",
+      "issues": [
+        {
+          "code": "style",
+          "hole": 3,
+          "detail": "Tree crowns between T3 and the start of Hole 3\u2019s fairway obstruct the broad tee-to-landing corridor.",
+          "consequence": "The overview makes the intended carry appear tree-blocked and obscures the clear route from T3 to its first fairway landing area.",
+          "region": {
+            "x": 0.41,
+            "y": 0.12,
+            "width": 0.08,
+            "height": 0.08
+          }
+        }
+      ],
+      "edits": [],
+      "scores": {
+        "geometryFidelity": 4,
+        "naturalGreens": 5,
+        "visualClarity": 4,
+        "styleConsistency": 3
+      }
+    },
+    {
+      "phase": "artwork-3",
+      "kind": "image",
+      "model": "gpt-image-2.5-sunburst",
+      "usage": {
+        "input_tokens": 6213,
+        "input_tokens_details": {
+          "image_tokens": 4363,
+          "text_tokens": 1850
+        },
+        "output_tokens": 343,
+        "output_tokens_details": {
+          "image_tokens": 343,
+          "text_tokens": 0
+        },
+        "total_tokens": 6556
+      },
+      "seconds": 20.57
+    },
+    {
+      "phase": "artwork-3-review",
+      "kind": "review",
+      "model": "gpt-6-luna",
+      "effort": "medium",
+      "responseID": "resp_05267ed3f50244e7016ada1314915087d2b1144cac1798d65b",
+      "usage": {
+        "input_tokens": 8590,
+        "input_tokens_details": {
+          "cache_write_tokens": 7270,
+          "cached_tokens": 1317
+        },
+        "output_tokens": 3410,
+        "output_tokens_details": {
+          "reasoning_tokens": 3290
+        },
+        "total_tokens": 12000
+      },
+      "seconds": 44.34,
+      "imageCount": 3,
+      "approved": true,
+      "reviewKind": "artwork-only-v1",
+      "reason": "The illustration preserves the numbered tee-to-green layout, mapped fairways and hazards, property silhouette, and the G1-to-T2 and G2-to-T3 walking connectors. All three greens read as continuous putting surfaces, and the main fairways have visible transverse mowing bands. No actionable artwork issues identified.",
+      "issues": [],
+      "edits": [],
+      "scores": {
+        "geometryFidelity": 5,
+        "naturalGreens": 4,
+        "visualClarity": 5,
+        "styleConsistency": 4
+      }
+    },
+    {
+      "phase": "artwork-3-final",
+      "kind": "review",
+      "model": "gpt-6-luna",
+      "effort": "medium",
+      "responseID": "resp_05141c712f5d0233016ada13417f5c87d299e55abcd12bac1a",
+      "usage": {
+        "input_tokens": 8590,
+        "input_tokens_details": {
+          "cache_write_tokens": 7270,
+          "cached_tokens": 1317
+        },
+        "output_tokens": 3602,
+        "output_tokens_details": {
+          "reasoning_tokens": 3405
+        },
+        "total_tokens": 12192
+      },
+      "seconds": 44.21,
+      "imageCount": 3,
+      "approved": false,
+      "reviewKind": "artwork-only-v1",
+      "reason": "The numbered layout, mapped hazards, tees, greens, walking connectors, and continuous putting surfaces are faithfully represented. The Hole 2 main fairway lacks clearly visible edge-to-edge alternating mowing bands at thumbnail scale.",
+      "issues": [
+        {
+          "code": "style",
+          "hole": 2,
+          "detail": "The broad oval fairway left of the upper-center green reads mostly as uniform turf; its mowing bands are too faint or indistinct to read clearly across the fairway.",
+          "consequence": "Viewers may not readily distinguish Hole 2's short-cut fairway from the surrounding rough in the overview.",
+          "region": {
+            "x": 0.22,
+            "y": 0.3,
+            "width": 0.1,
+            "height": 0.19
+          }
+        }
+      ],
+      "edits": [],
+      "scores": {
+        "geometryFidelity": 5,
+        "naturalGreens": 5,
+        "visualClarity": 4,
+        "styleConsistency": 3
+      }
+    },
+    {
+      "phase": "artwork-4",
+      "kind": "image",
+      "model": "gpt-image-2.5-sunburst",
+      "usage": {
+        "input_tokens": 6213,
+        "input_tokens_details": {
+          "image_tokens": 4363,
+          "text_tokens": 1850
+        },
+        "output_tokens": 343,
+        "output_tokens_details": {
+          "image_tokens": 343,
+          "text_tokens": 0
+        },
+        "total_tokens": 6556
+      },
+      "seconds": 23.08
+    },
+    {
+      "phase": "artwork-4-review",
+      "kind": "review",
+      "model": "gpt-6-luna",
+      "effort": "medium",
+      "responseID": "resp_04c8739c837087ca016ada1385787887d2829e0bfd995b153d",
+      "usage": {
+        "input_tokens": 8590,
+        "input_tokens_details": {
+          "cache_write_tokens": 7270,
+          "cached_tokens": 1317
+        },
+        "output_tokens": 2337,
+        "output_tokens_details": {
+          "reasoning_tokens": 2219
+        },
+        "total_tokens": 10927
+      },
+      "seconds": 29.29,
+      "imageCount": 3,
+      "approved": true,
+      "reviewKind": "artwork-only-v1",
+      "reason": "The illustration preserves the mapped property silhouette, tees, greens, fairways, hazards, and both walking connectors. Putting greens read as continuous natural surfaces, the main fairways have visible crosswise mowing bands, and the wooded treatment is consistent with the reference. The course remains clear and well framed.",
+      "issues": [],
+      "edits": [],
+      "scores": {
+        "geometryFidelity": 4,
+        "naturalGreens": 4,
+        "visualClarity": 4,
+        "styleConsistency": 5
+      }
+    },
+    {
+      "phase": "artwork-4-final",
+      "kind": "review",
+      "model": "gpt-6-luna",
+      "effort": "medium",
+      "responseID": "resp_00d7fbc0ba9942e0016ada13a32b0c87d29eb88c9db9c49db9",
+      "usage": {
+        "input_tokens": 8590,
+        "input_tokens_details": {
+          "cache_write_tokens": 7270,
+          "cached_tokens": 1317
+        },
+        "output_tokens": 2911,
+        "output_tokens_details": {
+          "reasoning_tokens": 2798
+        },
+        "total_tokens": 11501
+      },
+      "seconds": 36.0,
+      "imageCount": 3,
+      "approved": true,
+      "reviewKind": "artwork-only-v1",
+      "reason": "The illustration preserves the numbered tee-to-green routing, mapped fairways, water, bunkers, walking connectors, and property silhouette. Main fairways have clear transverse mowing bands, greens read as continuous putting surfaces, and the wooded rendering is consistent with the supplied style reference.",
+      "issues": [],
+      "edits": [],
+      "scores": {
+        "geometryFidelity": 5,
+        "naturalGreens": 4,
+        "visualClarity": 4,
+        "styleConsistency": 5
+      }
+    }
+  ],
+  "artworkStatus": "approved",
+  "artworkFailure": null
+}

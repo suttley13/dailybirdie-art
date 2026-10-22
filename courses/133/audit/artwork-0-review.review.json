@@ -1,0 +1,42 @@
+{
+  "responseID": "resp_09cb3b6e7c15fea6016ada1232627487d2982e181c3cb7f491",
+  "model": "gpt-6-luna",
+  "usage": {
+    "input_tokens": 8584,
+    "input_tokens_details": {
+      "cache_write_tokens": 8581,
+      "cached_tokens": 0
+    },
+    "output_tokens": 3431,
+    "output_tokens_details": {
+      "reasoning_tokens": 3234
+    },
+    "total_tokens": 12015
+  },
+  "review": {
+    "reviewKind": "artwork-only-v1",
+    "candidate": 36,
+    "approved": false,
+    "scores": {
+      "geometryFidelity": 5,
+      "naturalGreens": 5,
+      "visualClarity": 4,
+      "styleConsistency": 3
+    },
+    "reason": "The mapped course features, greens, hazards, tees, and walking connectors are represented clearly. However, Hole 1\u2019s main fairway has prominent lengthwise mowing bands rather than bands crossing the fairway edge to edge.",
+    "issues": [
+      {
+        "code": "style",
+        "hole": 1,
+        "detail": "The alternating bands on Hole 1\u2019s long fairway run parallel to its left-to-right direction of play instead of crossing the fairway perpendicular to its edges.",
+        "consequence": "At overview scale, the mowing pattern reads as lengthwise striping rather than the required transverse fairway bands.",
+        "region": {
+          "x": 0.247,
+          "y": 0.639,
+          "width": 0.545,
+          "height": 0.141
+        }
+      }
+    ]
+  }
+}

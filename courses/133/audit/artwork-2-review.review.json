@@ -1,0 +1,42 @@
+{
+  "responseID": "resp_0646e63edc52b7ad016ada12d5165c87d28e75b005cdba835f",
+  "model": "gpt-6-luna",
+  "usage": {
+    "input_tokens": 8590,
+    "input_tokens_details": {
+      "cache_write_tokens": 7270,
+      "cached_tokens": 1317
+    },
+    "output_tokens": 3626,
+    "output_tokens_details": {
+      "reasoning_tokens": 3433
+    },
+    "total_tokens": 12216
+  },
+  "review": {
+    "reviewKind": "artwork-only-v1",
+    "candidate": 36,
+    "approved": false,
+    "scores": {
+      "geometryFidelity": 4,
+      "naturalGreens": 5,
+      "visualClarity": 4,
+      "styleConsistency": 3
+    },
+    "reason": "The mapped layout, hazards, greens, and walking connectors are generally preserved, and the greens read as continuous putting surfaces. However, trees crowd and obstruct the T3-to-Hole 3 first-landing corridor.",
+    "issues": [
+      {
+        "code": "style",
+        "hole": 3,
+        "detail": "Tree crowns between T3 and the start of Hole 3\u2019s fairway obstruct the broad tee-to-landing corridor.",
+        "consequence": "The overview makes the intended carry appear tree-blocked and obscures the clear route from T3 to its first fairway landing area.",
+        "region": {
+          "x": 0.41,
+          "y": 0.12,
+          "width": 0.08,
+          "height": 0.08
+        }
+      }
+    ]
+  }
+}

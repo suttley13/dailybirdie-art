@@ -1,0 +1,29 @@
+{
+  "responseID": "resp_05267ed3f50244e7016ada1314915087d2b1144cac1798d65b",
+  "model": "gpt-6-luna",
+  "usage": {
+    "input_tokens": 8590,
+    "input_tokens_details": {
+      "cache_write_tokens": 7270,
+      "cached_tokens": 1317
+    },
+    "output_tokens": 3410,
+    "output_tokens_details": {
+      "reasoning_tokens": 3290
+    },
+    "total_tokens": 12000
+  },
+  "review": {
+    "reviewKind": "artwork-only-v1",
+    "candidate": 36,
+    "approved": true,
+    "scores": {
+      "geometryFidelity": 5,
+      "naturalGreens": 4,
+      "visualClarity": 5,
+      "styleConsistency": 4
+    },
+    "reason": "The illustration preserves the numbered tee-to-green layout, mapped fairways and hazards, property silhouette, and the G1-to-T2 and G2-to-T3 walking connectors. All three greens read as continuous putting surfaces, and the main fairways have visible transverse mowing bands. No actionable artwork issues identified.",
+    "issues": []
+  }
+}

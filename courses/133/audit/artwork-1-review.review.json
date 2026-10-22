@@ -1,0 +1,29 @@
+{
+  "responseID": "resp_01fae1040ce1ef73016ada1278805c87d29847d6fce96421c9",
+  "model": "gpt-6-luna",
+  "usage": {
+    "input_tokens": 8590,
+    "input_tokens_details": {
+      "cache_write_tokens": 7270,
+      "cached_tokens": 1317
+    },
+    "output_tokens": 3356,
+    "output_tokens_details": {
+      "reasoning_tokens": 3242
+    },
+    "total_tokens": 11946
+  },
+  "review": {
+    "reviewKind": "artwork-only-v1",
+    "candidate": 36,
+    "approved": true,
+    "scores": {
+      "geometryFidelity": 4,
+      "naturalGreens": 4,
+      "visualClarity": 4,
+      "styleConsistency": 4
+    },
+    "reason": "The numbered tees, greens, fairways, mapped water, hazards, and walking connectors are represented consistently with the diagram. All three main fairways have visible transverse mowing bands, the greens read as continuous putting surfaces, and the wooded rendering is clear and consistent with the reference.",
+    "issues": []
+  }
+}

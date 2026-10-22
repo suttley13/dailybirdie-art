@@ -1,0 +1,42 @@
+{
+  "responseID": "resp_021bf9e22ec0c5fe016ada129f4b1087d28ad648ee9c4a2bd0",
+  "model": "gpt-6-luna",
+  "usage": {
+    "input_tokens": 8590,
+    "input_tokens_details": {
+      "cache_write_tokens": 7270,
+      "cached_tokens": 1317
+    },
+    "output_tokens": 2436,
+    "output_tokens_details": {
+      "reasoning_tokens": 2252
+    },
+    "total_tokens": 11026
+  },
+  "review": {
+    "reviewKind": "artwork-only-v1",
+    "candidate": 36,
+    "approved": false,
+    "scores": {
+      "geometryFidelity": 4,
+      "naturalGreens": 5,
+      "visualClarity": 3,
+      "styleConsistency": 4
+    },
+    "reason": "The mapped layout, greens, hazards, walking connectors, and striped fairways are largely represented well. Added trees clutter Hole 2\u2019s tee-to-green corridor and make its route difficult to read.",
+    "issues": [
+      {
+        "code": "clarity",
+        "hole": 2,
+        "detail": "Trees crowd the corridor from the Hole 2 tee toward its landing area and green, especially through the central area between them.",
+        "consequence": "The overview makes the Hole 2 route appear obstructed and obscures its intended line of play.",
+        "region": {
+          "x": 0.23,
+          "y": 0.33,
+          "width": 0.12,
+          "height": 0.22
+        }
+      }
+    ]
+  }
+}

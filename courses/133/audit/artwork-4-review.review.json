@@ -1,0 +1,29 @@
+{
+  "responseID": "resp_04c8739c837087ca016ada1385787887d2829e0bfd995b153d",
+  "model": "gpt-6-luna",
+  "usage": {
+    "input_tokens": 8590,
+    "input_tokens_details": {
+      "cache_write_tokens": 7270,
+      "cached_tokens": 1317
+    },
+    "output_tokens": 2337,
+    "output_tokens_details": {
+      "reasoning_tokens": 2219
+    },
+    "total_tokens": 10927
+  },
+  "review": {
+    "reviewKind": "artwork-only-v1",
+    "candidate": 36,
+    "approved": true,
+    "scores": {
+      "geometryFidelity": 4,
+      "naturalGreens": 4,
+      "visualClarity": 4,
+      "styleConsistency": 5
+    },
+    "reason": "The illustration preserves the mapped property silhouette, tees, greens, fairways, hazards, and both walking connectors. Putting greens read as continuous natural surfaces, the main fairways have visible crosswise mowing bands, and the wooded treatment is consistent with the reference. The course remains clear and well framed.",
+    "issues": []
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "responseID": "resp_05141c712f5d0233016ada13417f5c87d299e55abcd12bac1a",
+  "model": "gpt-6-luna",
+  "usage": {
+    "input_tokens": 8590,
+    "input_tokens_details": {
+      "cache_write_tokens": 7270,
+      "cached_tokens": 1317
+    },
+    "output_tokens": 3602,
+    "output_tokens_details": {
+      "reasoning_tokens": 3405
+    },
+    "total_tokens": 12192
+  },
+  "review": {
+    "reviewKind": "artwork-only-v1",
+    "candidate": 36,
+    "approved": false,
+    "scores": {
+      "geometryFidelity": 5,
+      "naturalGreens": 5,
+      "visualClarity": 4,
+      "styleConsistency": 3
+    },
+    "reason": "The numbered layout, mapped hazards, tees, greens, walking connectors, and continuous putting surfaces are faithfully represented. The Hole 2 main fairway lacks clearly visible edge-to-edge alternating mowing bands at thumbnail scale.",
+    "issues": [
+      {
+        "code": "style",
+        "hole": 2,
+        "detail": "The broad oval fairway left of the upper-center green reads mostly as uniform turf; its mowing bands are too faint or indistinct to read clearly across the fairway.",
+        "consequence": "Viewers may not readily distinguish Hole 2's short-cut fairway from the surrounding rough in the overview.",
+        "region": {
+          "x": 0.22,
+          "y": 0.3,
+          "width": 0.1,
+          "height": 0.19
+        }
+      }
+    ]
+  }
+}
