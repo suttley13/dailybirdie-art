@@ -1,0 +1,28 @@
+{
+  "responseID": "resp_056ac4fa31240a70016adb5dba8c1887d183520116c3e7de3f",
+  "model": "gpt-6-luna",
+  "usage": {
+    "input_tokens": 54048,
+    "input_tokens_details": {
+      "cache_write_tokens": 54045,
+      "cached_tokens": 0
+    },
+    "output_tokens": 2338,
+    "output_tokens_details": {
+      "reasoning_tokens": 2023
+    },
+    "total_tokens": 56386
+  },
+  "review": {
+    "candidate": 30,
+    "approved": true,
+    "scores": {
+      "strategy": 4,
+      "withinRoundVariety": 5,
+      "acrossDaysVariety": 4,
+      "fairDifficulty": 4
+    },
+    "reason": "Candidate 30 passes with its current geometry. Hole 1 is a dry 214-yard par 3 with fairway bunkers short of the target and greenside sand behind it; the clear target and 47 safe tee options make the long distance-control test demanding but playable. Hole 2 is a 445-yard double-dogleg par 4 with one substantial lake to the left of play and fairway bunkers on that same side. The bending route leaves a safer line away from the shoreline, while challenging the bends for a shorter approach calls for more control. Hole 3 is a dry 539-yard dogleg-left par 5. Its fairway bunker and greenside sand give the approach consequences, and the bend creates a choice between following the route and trying a more aggressive line. The simulated two-shot reach is an opportunity, not proof the hole is effortless; the 48 safe tee options and visible landing corridor support playability. The par-3/4/5 sequence, single substantial lake, and contrasting straight, double-bending and dogleg layouts provide strong variety within the round. Across-days variety is good: these hole types recur in recent history, but this sequence and the wet middle hole distinguish the set. The current geometry presents credible targets and landing zones without an unreasonable forced hazard.",
+    "edits": []
+  }
+}

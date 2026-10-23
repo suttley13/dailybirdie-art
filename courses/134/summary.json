@@ -1,0 +1,101 @@
+{
+  "course": 134,
+  "geometrySHA256": "42e9e73ae25084b4e4ff8db83a16a9273d2545fe8b8b2824de32065f860b55e6",
+  "artworkSHA256": "8610afc66f2a0e1bd3a41a0fdd26392949a605fea4da4e84d879f1f6cba14107",
+  "holes": [
+    {
+      "bunkerCount": 4,
+      "fairwayArea": 8194.181283034053,
+      "par": 3,
+      "route": [
+        [
+          200,
+          40
+        ],
+        [
+          173.74731211425345,
+          310.56347974177805
+        ]
+      ],
+      "simulatedShotsToGreen": 1,
+      "teeSafeOptions": 47,
+      "type": "longPar3",
+      "waterArea": 0,
+      "yards": 214
+    },
+    {
+      "bunkerCount": 4,
+      "fairwayArea": 24185.483236004144,
+      "par": 4,
+      "route": [
+        [
+          200,
+          40
+        ],
+        [
+          213.23053208169244,
+          418.4011983172595
+        ],
+        [
+          220.25348034596712,
+          572.0396988988211
+        ]
+      ],
+      "simulatedShotsToGreen": 2,
+      "teeSafeOptions": 50,
+      "type": "doubleDogleg",
+      "waterArea": 13765.019274400553,
+      "yards": 445
+    },
+    {
+      "bunkerCount": 6,
+      "fairwayArea": 24693.59053412523,
+      "par": 5,
+      "route": [
+        [
+          280,
+          40
+        ],
+        [
+          241.13599270391114,
+          384.9027210135821
+        ],
+        [
+          126.70616592759758,
+          503.13393928504513
+        ]
+      ],
+      "simulatedShotsToGreen": 2,
+      "teeSafeOptions": 48,
+      "type": "doglegLeft",
+      "waterArea": 0,
+      "yards": 539
+    }
+  ],
+  "review": {
+    "candidate": 30,
+    "approved": true,
+    "scores": {
+      "strategy": 4,
+      "withinRoundVariety": 5,
+      "acrossDaysVariety": 4,
+      "fairDifficulty": 4
+    },
+    "reason": "Candidate 30 passes with its current geometry. Hole 1 is a dry 214-yard par 3 with fairway bunkers short of the target and greenside sand behind it; the clear target and 47 safe tee options make the long distance-control test demanding but playable. Hole 2 is a 445-yard double-dogleg par 4 with one substantial lake to the left of play and fairway bunkers on that same side. The bending route leaves a safer line away from the shoreline, while challenging the bends for a shorter approach calls for more control. Hole 3 is a dry 539-yard dogleg-left par 5. Its fairway bunker and greenside sand give the approach consequences, and the bend creates a choice between following the route and trying a more aggressive line. The simulated two-shot reach is an opportunity, not proof the hole is effortless; the 48 safe tee options and visible landing corridor support playability. The par-3/4/5 sequence, single substantial lake, and contrasting straight, double-bending and dogleg layouts provide strong variety within the round. Across-days variety is good: these hole types recur in recent history, but this sequence and the wet middle hole distinguish the set. The current geometry presents credible targets and landing zones without an unreasonable forced hazard.",
+    "edits": []
+  },
+  "artworkStatus": "approved",
+  "artworkReview": {
+    "reviewKind": "artwork-only-v1",
+    "candidate": 30,
+    "approved": true,
+    "scores": {
+      "geometryFidelity": 4,
+      "naturalGreens": 4,
+      "visualClarity": 4,
+      "styleConsistency": 4
+    },
+    "reason": "The illustration preserves the mapped course silhouette, fairway directions, greens, mapped water and bunkers, and both walking connectors. All three greens read as continuous putting surfaces with modest edge transitions. Main fairways have visible crosswise mowing bands, and the wooded rendering is consistent with the reference without apparent obstruction of the mapped tee-to-fairway corridors or green approaches.",
+    "issues": []
+  }
+}

@@ -1,0 +1,131 @@
+{
+  "schemaVersion": 1,
+  "course": 134,
+  "outcome": "published",
+  "error": null,
+  "startedAt": 1792761262,
+  "seconds": 121.45,
+  "reviewModel": "gpt-6-luna",
+  "reviewEffort": "medium",
+  "imageModel": "gpt-image-2.5-sunburst",
+  "candidatesRequested": 50,
+  "calls": [
+    {
+      "phase": "selection",
+      "kind": "review",
+      "model": "gpt-6-luna",
+      "effort": "medium",
+      "responseID": "resp_056ac4fa31240a70016adb5dba8c1887d183520116c3e7de3f",
+      "usage": {
+        "input_tokens": 54048,
+        "input_tokens_details": {
+          "cache_write_tokens": 54045,
+          "cached_tokens": 0
+        },
+        "output_tokens": 2338,
+        "output_tokens_details": {
+          "reasoning_tokens": 2023
+        },
+        "total_tokens": 56386
+      },
+      "seconds": 26.68,
+      "imageCount": 8,
+      "approved": true,
+      "reviewKind": "course-design",
+      "reason": "Candidate 30 passes with its current geometry. Hole 1 is a dry 214-yard par 3 with fairway bunkers short of the target and greenside sand behind it; the clear target and 47 safe tee options make the long distance-control test demanding but playable. Hole 2 is a 445-yard double-dogleg par 4 with one substantial lake to the left of play and fairway bunkers on that same side. The bending route leaves a safer line away from the shoreline, while challenging the bends for a shorter approach calls for more control. Hole 3 is a dry 539-yard dogleg-left par 5. Its fairway bunker and greenside sand give the approach consequences, and the bend creates a choice between following the route and trying a more aggressive line. The simulated two-shot reach is an opportunity, not proof the hole is effortless; the 48 safe tee options and visible landing corridor support playability. The par-3/4/5 sequence, single substantial lake, and contrasting straight, double-bending and dogleg layouts provide strong variety within the round. Across-days variety is good: these hole types recur in recent history, but this sequence and the wet middle hole distinguish the set. The current geometry presents credible targets and landing zones without an unreasonable forced hazard.",
+      "issues": [],
+      "edits": [],
+      "scores": {
+        "strategy": 4,
+        "withinRoundVariety": 5,
+        "acrossDaysVariety": 4,
+        "fairDifficulty": 4
+      }
+    },
+    {
+      "phase": "artwork-0",
+      "kind": "image",
+      "model": "gpt-image-2.5-sunburst",
+      "usage": {
+        "input_tokens": 4442,
+        "input_tokens_details": {
+          "image_tokens": 2863,
+          "text_tokens": 1579
+        },
+        "output_tokens": 343,
+        "output_tokens_details": {
+          "image_tokens": 343,
+          "text_tokens": 0
+        },
+        "total_tokens": 4785
+      },
+      "seconds": 22.69
+    },
+    {
+      "phase": "artwork-0-review",
+      "kind": "review",
+      "model": "gpt-6-luna",
+      "effort": "medium",
+      "responseID": "resp_0db95ed907f0adeb016adb5debc31c87d1a8c410a9321aafa1",
+      "usage": {
+        "input_tokens": 8523,
+        "input_tokens_details": {
+          "cache_write_tokens": 8520,
+          "cached_tokens": 0
+        },
+        "output_tokens": 3499,
+        "output_tokens_details": {
+          "reasoning_tokens": 3363
+        },
+        "total_tokens": 12022
+      },
+      "seconds": 35.15,
+      "imageCount": 3,
+      "approved": true,
+      "reviewKind": "artwork-only-v1",
+      "reason": "The illustration preserves the numbered tee-to-green layout, mapped fairways, lake, bunkers, property silhouette, and both walking connectors. All tees are visible, the putting greens read as continuous surfaces with only narrow edge transitions, and the main fairways have clear crosswise stripes that follow their bends. The wooded rendering is consistent with the supplied reference and remains legible at overview scale.",
+      "issues": [],
+      "edits": [],
+      "scores": {
+        "geometryFidelity": 4,
+        "naturalGreens": 4,
+        "visualClarity": 4,
+        "styleConsistency": 5
+      }
+    },
+    {
+      "phase": "artwork-0-final",
+      "kind": "review",
+      "model": "gpt-6-luna",
+      "effort": "medium",
+      "responseID": "resp_0605ab759a7a2011016adb5e0f5db087d1b663d1cc370ecfed",
+      "usage": {
+        "input_tokens": 8523,
+        "input_tokens_details": {
+          "cache_write_tokens": 7203,
+          "cached_tokens": 1317
+        },
+        "output_tokens": 2483,
+        "output_tokens_details": {
+          "reasoning_tokens": 2351
+        },
+        "total_tokens": 11006
+      },
+      "seconds": 24.47,
+      "imageCount": 3,
+      "approved": true,
+      "reviewKind": "artwork-only-v1",
+      "reason": "The illustration preserves the mapped course silhouette, fairway directions, greens, mapped water and bunkers, and both walking connectors. All three greens read as continuous putting surfaces with modest edge transitions. Main fairways have visible crosswise mowing bands, and the wooded rendering is consistent with the reference without apparent obstruction of the mapped tee-to-fairway corridors or green approaches.",
+      "issues": [],
+      "edits": [],
+      "scores": {
+        "geometryFidelity": 4,
+        "naturalGreens": 4,
+        "visualClarity": 4,
+        "styleConsistency": 4
+      }
+    }
+  ],
+  "artworkStatus": "approved",
+  "artworkFailure": null
+}
