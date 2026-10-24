@@ -1,0 +1,28 @@
+{
+  "responseID": "resp_01d972e759a1ef76016adca55d49f487d29fd4849acebe72c7",
+  "model": "gpt-6-luna",
+  "usage": {
+    "input_tokens": 53806,
+    "input_tokens_details": {
+      "cache_write_tokens": 53803,
+      "cached_tokens": 0
+    },
+    "output_tokens": 2066,
+    "output_tokens_details": {
+      "reasoning_tokens": 1784
+    },
+    "total_tokens": 55872
+  },
+  "review": {
+    "candidate": 4,
+    "approved": true,
+    "scores": {
+      "strategy": 4,
+      "withinRoundVariety": 5,
+      "acrossDaysVariety": 4,
+      "fairDifficulty": 4
+    },
+    "reason": "Candidate 4 passes as supplied. Hole 1 is a short 322-yard dogleg-left par 4 with a substantial water hazard to the right and front of the green. It offers a tempting one-shot attack, while the dogleg and water make a safer placement route credible. Hole 2 is a dry 194-yard punchbowl par 3: its approach bunker and greenside sand add consequence, but the target remains playable. Hole 3 is a 573-yard par 5 with substantial water left and forward of the green and a fairway bunker on the opposite side. Staged play has room; advancing aggressively brings the shoreline into consideration. The short attacking par 4, precision par 3, and long three-shot par 5 make a varied round. These hole types and water hazards recur in recent rounds, but the 4/3/5 sequence, dry middle hole, and contrasting water-side choices provide sufficient freshness. Safe tee-option counts of 53/35/54 and the three-shot simulation on Hole 3 support a testing but playable set; the previews show credible landing space. No geometry edits are needed.",
+    "edits": []
+  }
+}

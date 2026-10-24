@@ -1,0 +1,29 @@
+{
+  "responseID": "resp_060ddafaf1ed1a36016adca5c7539087d2a73404654242da0a",
+  "model": "gpt-6-luna",
+  "usage": {
+    "input_tokens": 8534,
+    "input_tokens_details": {
+      "cache_write_tokens": 7214,
+      "cached_tokens": 1317
+    },
+    "output_tokens": 2911,
+    "output_tokens_details": {
+      "reasoning_tokens": 2789
+    },
+    "total_tokens": 11445
+  },
+  "review": {
+    "reviewKind": "artwork-only-v1",
+    "candidate": 4,
+    "approved": true,
+    "scores": {
+      "geometryFidelity": 4,
+      "naturalGreens": 4,
+      "visualClarity": 4,
+      "styleConsistency": 4
+    },
+    "reason": "The illustration preserves the mapped tee, green, fairway, hazard, and walking-connector layout for all three numbered holes. Greens read as continuous putting surfaces, the main fairways have visible alternating mowing bands, and the wooded rendering is consistent with the style reference. Framing and clarity are suitable for an overview.",
+    "issues": []
+  }
+}

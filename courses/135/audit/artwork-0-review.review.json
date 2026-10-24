@@ -1,0 +1,66 @@
+{
+  "responseID": "resp_008b8033a212ff48016adca58926f087d29278fe396e1b6af6",
+  "model": "gpt-6-luna",
+  "usage": {
+    "input_tokens": 8530,
+    "input_tokens_details": {
+      "cache_write_tokens": 8527,
+      "cached_tokens": 0
+    },
+    "output_tokens": 3484,
+    "output_tokens_details": {
+      "reasoning_tokens": 2973
+    },
+    "total_tokens": 12014
+  },
+  "review": {
+    "reviewKind": "artwork-only-v1",
+    "candidate": 4,
+    "approved": false,
+    "scores": {
+      "geometryFidelity": 4,
+      "naturalGreens": 3,
+      "visualClarity": 3,
+      "styleConsistency": 3
+    },
+    "reason": "The three-hole layout, mapped lakes, tees, greens, and property silhouette are broadly faithful. The greens read as inset discs within broad contrasting rings, trees visually crowd Hole 2's tee-to-landing corridor, and the bent Hole 1 fairway's stripe direction does not rotate smoothly with its shape.",
+    "issues": [
+      {
+        "code": "green-treatment",
+        "hole": 0,
+        "detail": "The putting surfaces, especially G3, appear as bright inset discs surrounded by broad, darker rings rather than one continuous natural close-mown surface with only a narrow fringe.",
+        "consequence": "The greens read as ringed or nested features instead of single putting surfaces.",
+        "region": {
+          "x": 0.1,
+          "y": 0.15,
+          "width": 0.1,
+          "height": 0.13
+        }
+      },
+      {
+        "code": "clarity",
+        "hole": 2,
+        "detail": "Added tree crowns crowd the corridor from T2 toward Hole 2's short mapped fairway landing area, including the area just beyond the tee.",
+        "consequence": "The overview makes the tee-to-landing carry appear obstructed.",
+        "region": {
+          "x": 0.51,
+          "y": 0.57,
+          "width": 0.1,
+          "height": 0.11
+        }
+      },
+      {
+        "code": "style",
+        "hole": 1,
+        "detail": "The mowing bands on the broad, bending fairway keep a largely fixed diagonal direction instead of fanning and rotating across the fairway as its local edges curve.",
+        "consequence": "At thumbnail scale, the stripes look inconsistent with the fairway's changing shape.",
+        "region": {
+          "x": 0.59,
+          "y": 0.55,
+          "width": 0.29,
+          "height": 0.23
+        }
+      }
+    ]
+  }
+}
