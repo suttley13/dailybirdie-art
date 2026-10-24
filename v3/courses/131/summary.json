@@ -1,0 +1,548 @@
+{
+  "course": 131,
+  "date": "2026-10-25",
+  "name": "Saddle Glen",
+  "studioJob": "319cd4aa-fb41-49fb-bdc6-d1f206af163c",
+  "draftFingerprint": "968303d02465a7780c65c73c8c648040f99534707b324c31a57978e03c8f8426",
+  "approval": {
+    "approvedAt": "2026-10-24T21:19:05.023Z",
+    "playtested": true,
+    "humanApproved": true,
+    "retainedOlder": {
+      "legacy": {
+        "course": 131,
+        "artworkSHA256": "7b5d9db626627114bda181f71b22396747918fe788a0399bdd6383722dd27395",
+        "schemaVersion": 1,
+        "geometrySHA256": "b5059fc81dd21682d9e09894e2ed5acfa5ad8943e2df0314eee5e13a8bd198ba",
+        "artRulesVersion": "fairway-stripes-v4"
+      },
+      "pairMatchupID": null
+    },
+    "liveReplacement": {
+      "closesAt": "2026-10-26T12:00:00.000Z",
+      "roundsPlayed": 10
+    },
+    "artworkOverrides": [
+      {
+        "policy": "studio-human-artwork-v1",
+        "reason": "The wooded style, green treatment, and visible mowing bands are generally effective, but the lower fairway on hole 3 extends far beyond the mapped split-fairway footprints. The illustration substantially changes mapped hole 2 water and fairway footprints. The greens read as continuous surfaces, but the broad southern fairway also has lengthwise rather than edge-to-edge mowing bands.",
+        "review": {
+          "issues": [
+            {
+              "code": "geometry-mismatch",
+              "hole": 3,
+              "detail": "The lower horizontal fairway stretches from the left green area far to the right, whereas the diagram shows two much more compact, westward sections near the center-left. The mapped short western section is not clearly preserved.",
+              "region": {
+                "x": 0.25,
+                "y": 0.55,
+                "width": 0.54,
+                "height": 0.13
+              },
+              "consequence": "The overview makes hole 3 appear to have a broad, continuous playing corridor that is not present in the approved diagram."
+            },
+            {
+              "code": "geometry-mismatch",
+              "hole": 2,
+              "detail": "A very large lake is shown along the south edge of the property, where the diagram instead maps a much smaller pond beside G2. A broad southern fairway is also added or extended far beyond the mapped short section near G2.",
+              "region": {
+                "x": 0.2,
+                "y": 0.76,
+                "width": 0.72,
+                "height": 0.21
+              },
+              "consequence": "The overview would give viewers a misleading impression of hole 2\u2019s water extent and mapped playing-area layout."
+            },
+            {
+              "code": "style",
+              "hole": 0,
+              "detail": "The broad southern fairway\u2019s alternating bands run lengthwise along the strip instead of crossing it edge to edge, perpendicular to the fairway\u2019s direction.",
+              "region": {
+                "x": 0.24,
+                "y": 0.61,
+                "width": 0.69,
+                "height": 0.17
+              },
+              "consequence": "At thumbnail scale, the mowing pattern makes the fairway read as parallel lanes rather than transverse mowing stripes."
+            }
+          ],
+          "reason": "The wooded style, green treatment, and visible mowing bands are generally effective, but the lower fairway on hole 3 extends far beyond the mapped split-fairway footprints. The illustration substantially changes mapped hole 2 water and fairway footprints. The greens read as continuous surfaces, but the broad southern fairway also has lengthwise rather than edge-to-edge mowing bands.",
+          "reviews": [
+            {
+              "review": {
+                "issues": [
+                  {
+                    "code": "geometry-mismatch",
+                    "hole": 3,
+                    "detail": "The lower horizontal fairway stretches from the left green area far to the right, whereas the diagram shows two much more compact, westward sections near the center-left. The mapped short western section is not clearly preserved.",
+                    "region": {
+                      "x": 0.25,
+                      "y": 0.55,
+                      "width": 0.54,
+                      "height": 0.13
+                    },
+                    "consequence": "The overview makes hole 3 appear to have a broad, continuous playing corridor that is not present in the approved diagram."
+                  }
+                ],
+                "reason": "The wooded style, green treatment, and visible mowing bands are generally effective, but the lower fairway on hole 3 extends far beyond the mapped split-fairway footprints.",
+                "scores": {
+                  "naturalGreens": 4,
+                  "visualClarity": 4,
+                  "geometryFidelity": 2,
+                  "styleConsistency": 4
+                },
+                "approved": false,
+                "candidate": 0,
+                "reviewKind": "artwork-only-v1"
+              },
+              "responseID": "resp_0933ca9851746358016add202eb64887d2b03a888ed2e93140"
+            },
+            {
+              "review": {
+                "issues": [
+                  {
+                    "code": "geometry-mismatch",
+                    "hole": 2,
+                    "detail": "A very large lake is shown along the south edge of the property, where the diagram instead maps a much smaller pond beside G2. A broad southern fairway is also added or extended far beyond the mapped short section near G2.",
+                    "region": {
+                      "x": 0.2,
+                      "y": 0.76,
+                      "width": 0.72,
+                      "height": 0.21
+                    },
+                    "consequence": "The overview would give viewers a misleading impression of hole 2\u2019s water extent and mapped playing-area layout."
+                  },
+                  {
+                    "code": "style",
+                    "hole": 0,
+                    "detail": "The broad southern fairway\u2019s alternating bands run lengthwise along the strip instead of crossing it edge to edge, perpendicular to the fairway\u2019s direction.",
+                    "region": {
+                      "x": 0.24,
+                      "y": 0.61,
+                      "width": 0.69,
+                      "height": 0.17
+                    },
+                    "consequence": "At thumbnail scale, the mowing pattern makes the fairway read as parallel lanes rather than transverse mowing stripes."
+                  }
+                ],
+                "reason": "The illustration substantially changes mapped hole 2 water and fairway footprints. The greens read as continuous surfaces, but the broad southern fairway also has lengthwise rather than edge-to-edge mowing bands.",
+                "scores": {
+                  "naturalGreens": 4,
+                  "visualClarity": 4,
+                  "geometryFidelity": 2,
+                  "styleConsistency": 3
+                },
+                "approved": false,
+                "candidate": 0,
+                "reviewKind": "artwork-only-v1"
+              },
+              "responseID": "resp_0aa5df8af794aa52016add202ec34087d294b2fb49271115b9"
+            }
+          ],
+          "approved": false,
+          "decisionKey": "bec74771d78aac982c3669791cfed68eb8ce16e73beb56a76320a8e289c0d71c",
+          "artworkSHA256": "e7239becbc5b4b793a70524a804b2560315f99b36ecf70032dadbc0793bec5ab",
+          "geometrySHA256": "0dcdd3447524d8304470a9175a0fd795700857de55f1310efdb4fc3e55532f6e",
+          "geometryEncoding": "studio-stable-json-v1"
+        },
+        "decisionKey": "bec74771d78aac982c3669791cfed68eb8ce16e73beb56a76320a8e289c0d71c",
+        "artworkSHA256": "e7239becbc5b4b793a70524a804b2560315f99b36ecf70032dadbc0793bec5ab",
+        "geometrySHA256": "0dcdd3447524d8304470a9175a0fd795700857de55f1310efdb4fc3e55532f6e",
+        "acceptedFindings": [
+          "bec74771d78aac982c3669791cfed68eb8ce16e73beb56a76320a8e289c0d71c:0",
+          "bec74771d78aac982c3669791cfed68eb8ce16e73beb56a76320a8e289c0d71c:1",
+          "bec74771d78aac982c3669791cfed68eb8ce16e73beb56a76320a8e289c0d71c:2"
+        ]
+      },
+      {
+        "policy": "studio-human-artwork-v1",
+        "reason": "The illustration adds a fourth flag-marked green and a broad lower fairway corridor that are not present in the numbered diagram. The mapped greens, water, and main fairway striping otherwise read clearly and fit the reference style. The illustration adds a fourth green and a long fairway corridor across the lower part of the property, which are not present in the supplied three-hole diagram. The mapped greens otherwise read as continuous putting surfaces, and the main fairways have visible crosswise mowing stripes.",
+        "review": {
+          "issues": [
+            {
+              "code": "geometry-mismatch",
+              "hole": 0,
+              "detail": "A flag-marked green at lower left and the broad fairway extending horizontally from it toward the lower-right are not mapped in the diagram, which shows three greens and only a short fairway section beside G2.",
+              "region": {
+                "x": 0.14,
+                "y": 0.57,
+                "width": 0.72,
+                "height": 0.21
+              },
+              "consequence": "The overview can mislead viewers into reading an extra green and playing corridor into the course layout."
+            },
+            {
+              "code": "geometry-mismatch",
+              "hole": 0,
+              "detail": "An extra flagged green at lower left and a long fairway extending from it across the lower property are not in the diagram, which maps only G1, G2, and G3.",
+              "region": {
+                "x": 0.12,
+                "y": 0.6,
+                "width": 0.82,
+                "height": 0.17
+              },
+              "consequence": "Viewers may read this as a fourth hole and misunderstand the approved course layout."
+            },
+            {
+              "code": "clarity",
+              "hole": 0,
+              "detail": "The additional lower green and fairway make the overview appear to show more than the three mapped holes.",
+              "region": {
+                "x": 0.12,
+                "y": 0.6,
+                "width": 0.82,
+                "height": 0.17
+              },
+              "consequence": "The extra playable-looking features make it harder to identify the intended hole layout."
+            }
+          ],
+          "reason": "The illustration adds a fourth flag-marked green and a broad lower fairway corridor that are not present in the numbered diagram. The mapped greens, water, and main fairway striping otherwise read clearly and fit the reference style. The illustration adds a fourth green and a long fairway corridor across the lower part of the property, which are not present in the supplied three-hole diagram. The mapped greens otherwise read as continuous putting surfaces, and the main fairways have visible crosswise mowing stripes.",
+          "reviews": [
+            {
+              "review": {
+                "issues": [
+                  {
+                    "code": "geometry-mismatch",
+                    "hole": 0,
+                    "detail": "A flag-marked green at lower left and the broad fairway extending horizontally from it toward the lower-right are not mapped in the diagram, which shows three greens and only a short fairway section beside G2.",
+                    "region": {
+                      "x": 0.14,
+                      "y": 0.57,
+                      "width": 0.72,
+                      "height": 0.21
+                    },
+                    "consequence": "The overview can mislead viewers into reading an extra green and playing corridor into the course layout."
+                  }
+                ],
+                "reason": "The illustration adds a fourth flag-marked green and a broad lower fairway corridor that are not present in the numbered diagram. The mapped greens, water, and main fairway striping otherwise read clearly and fit the reference style.",
+                "scores": {
+                  "naturalGreens": 4,
+                  "visualClarity": 4,
+                  "geometryFidelity": 2,
+                  "styleConsistency": 4
+                },
+                "approved": false,
+                "candidate": 0,
+                "reviewKind": "artwork-only-v1"
+              },
+              "responseID": "resp_019a98a63c9c9edd016add203125dc87d28b406ca458bd4863"
+            },
+            {
+              "review": {
+                "issues": [
+                  {
+                    "code": "geometry-mismatch",
+                    "hole": 0,
+                    "detail": "An extra flagged green at lower left and a long fairway extending from it across the lower property are not in the diagram, which maps only G1, G2, and G3.",
+                    "region": {
+                      "x": 0.12,
+                      "y": 0.6,
+                      "width": 0.82,
+                      "height": 0.17
+                    },
+                    "consequence": "Viewers may read this as a fourth hole and misunderstand the approved course layout."
+                  },
+                  {
+                    "code": "clarity",
+                    "hole": 0,
+                    "detail": "The additional lower green and fairway make the overview appear to show more than the three mapped holes.",
+                    "region": {
+                      "x": 0.12,
+                      "y": 0.6,
+                      "width": 0.82,
+                      "height": 0.17
+                    },
+                    "consequence": "The extra playable-looking features make it harder to identify the intended hole layout."
+                  }
+                ],
+                "reason": "The illustration adds a fourth green and a long fairway corridor across the lower part of the property, which are not present in the supplied three-hole diagram. The mapped greens otherwise read as continuous putting surfaces, and the main fairways have visible crosswise mowing stripes.",
+                "scores": {
+                  "naturalGreens": 4,
+                  "visualClarity": 3,
+                  "geometryFidelity": 2,
+                  "styleConsistency": 5
+                },
+                "approved": false,
+                "candidate": 0,
+                "reviewKind": "artwork-only-v1"
+              },
+              "responseID": "resp_0bd09b8692c2115d016add2031307c87d2b566d45c9466b5e5"
+            }
+          ],
+          "approved": false,
+          "decisionKey": "331bc67faca3087644122f295230bfe915421056839c9101bf72dd76cff83f3b",
+          "artworkSHA256": "a235b41cd1d015081226a7efda646062d01e5e18fe540a5d71c50ebe55ffca33",
+          "geometrySHA256": "c227f2d98b81fc09dc37b9984d352cd2cf585accbb40a03a509e939e27f21296",
+          "geometryEncoding": "studio-stable-json-v1"
+        },
+        "decisionKey": "331bc67faca3087644122f295230bfe915421056839c9101bf72dd76cff83f3b",
+        "artworkSHA256": "a235b41cd1d015081226a7efda646062d01e5e18fe540a5d71c50ebe55ffca33",
+        "geometrySHA256": "c227f2d98b81fc09dc37b9984d352cd2cf585accbb40a03a509e939e27f21296",
+        "acceptedFindings": [
+          "331bc67faca3087644122f295230bfe915421056839c9101bf72dd76cff83f3b:0",
+          "331bc67faca3087644122f295230bfe915421056839c9101bf72dd76cff83f3b:1",
+          "331bc67faca3087644122f295230bfe915421056839c9101bf72dd76cff83f3b:2"
+        ]
+      }
+    ],
+    "compatibilityApproved": true
+  },
+  "artworkStatus": "approved",
+  "geometrySHA256": "ae599729148bdd8ce57e0b2303d4e7f5b29b638c1564dc437b53a4a3aeb4e463",
+  "artworkSHA256": "e7239becbc5b4b793a70524a804b2560315f99b36ecf70032dadbc0793bec5ab",
+  "artworkReview": {
+    "issues": [
+      {
+        "code": "geometry-mismatch",
+        "hole": 3,
+        "detail": "The lower horizontal fairway stretches from the left green area far to the right, whereas the diagram shows two much more compact, westward sections near the center-left. The mapped short western section is not clearly preserved.",
+        "region": {
+          "x": 0.25,
+          "y": 0.55,
+          "width": 0.54,
+          "height": 0.13
+        },
+        "consequence": "The overview makes hole 3 appear to have a broad, continuous playing corridor that is not present in the approved diagram."
+      },
+      {
+        "code": "geometry-mismatch",
+        "hole": 2,
+        "detail": "A very large lake is shown along the south edge of the property, where the diagram instead maps a much smaller pond beside G2. A broad southern fairway is also added or extended far beyond the mapped short section near G2.",
+        "region": {
+          "x": 0.2,
+          "y": 0.76,
+          "width": 0.72,
+          "height": 0.21
+        },
+        "consequence": "The overview would give viewers a misleading impression of hole 2\u2019s water extent and mapped playing-area layout."
+      },
+      {
+        "code": "style",
+        "hole": 0,
+        "detail": "The broad southern fairway\u2019s alternating bands run lengthwise along the strip instead of crossing it edge to edge, perpendicular to the fairway\u2019s direction.",
+        "region": {
+          "x": 0.24,
+          "y": 0.61,
+          "width": 0.69,
+          "height": 0.17
+        },
+        "consequence": "At thumbnail scale, the mowing pattern makes the fairway read as parallel lanes rather than transverse mowing stripes."
+      }
+    ],
+    "reason": "The wooded style, green treatment, and visible mowing bands are generally effective, but the lower fairway on hole 3 extends far beyond the mapped split-fairway footprints. The illustration substantially changes mapped hole 2 water and fairway footprints. The greens read as continuous surfaces, but the broad southern fairway also has lengthwise rather than edge-to-edge mowing bands.",
+    "reviews": [
+      {
+        "review": {
+          "issues": [
+            {
+              "code": "geometry-mismatch",
+              "hole": 3,
+              "detail": "The lower horizontal fairway stretches from the left green area far to the right, whereas the diagram shows two much more compact, westward sections near the center-left. The mapped short western section is not clearly preserved.",
+              "region": {
+                "x": 0.25,
+                "y": 0.55,
+                "width": 0.54,
+                "height": 0.13
+              },
+              "consequence": "The overview makes hole 3 appear to have a broad, continuous playing corridor that is not present in the approved diagram."
+            }
+          ],
+          "reason": "The wooded style, green treatment, and visible mowing bands are generally effective, but the lower fairway on hole 3 extends far beyond the mapped split-fairway footprints.",
+          "scores": {
+            "naturalGreens": 4,
+            "visualClarity": 4,
+            "geometryFidelity": 2,
+            "styleConsistency": 4
+          },
+          "approved": false,
+          "candidate": 0,
+          "reviewKind": "artwork-only-v1"
+        },
+        "responseID": "resp_0933ca9851746358016add202eb64887d2b03a888ed2e93140"
+      },
+      {
+        "review": {
+          "issues": [
+            {
+              "code": "geometry-mismatch",
+              "hole": 2,
+              "detail": "A very large lake is shown along the south edge of the property, where the diagram instead maps a much smaller pond beside G2. A broad southern fairway is also added or extended far beyond the mapped short section near G2.",
+              "region": {
+                "x": 0.2,
+                "y": 0.76,
+                "width": 0.72,
+                "height": 0.21
+              },
+              "consequence": "The overview would give viewers a misleading impression of hole 2\u2019s water extent and mapped playing-area layout."
+            },
+            {
+              "code": "style",
+              "hole": 0,
+              "detail": "The broad southern fairway\u2019s alternating bands run lengthwise along the strip instead of crossing it edge to edge, perpendicular to the fairway\u2019s direction.",
+              "region": {
+                "x": 0.24,
+                "y": 0.61,
+                "width": 0.69,
+                "height": 0.17
+              },
+              "consequence": "At thumbnail scale, the mowing pattern makes the fairway read as parallel lanes rather than transverse mowing stripes."
+            }
+          ],
+          "reason": "The illustration substantially changes mapped hole 2 water and fairway footprints. The greens read as continuous surfaces, but the broad southern fairway also has lengthwise rather than edge-to-edge mowing bands.",
+          "scores": {
+            "naturalGreens": 4,
+            "visualClarity": 4,
+            "geometryFidelity": 2,
+            "styleConsistency": 3
+          },
+          "approved": false,
+          "candidate": 0,
+          "reviewKind": "artwork-only-v1"
+        },
+        "responseID": "resp_0aa5df8af794aa52016add202ec34087d294b2fb49271115b9"
+      }
+    ],
+    "approved": false,
+    "artworkSHA256": "e7239becbc5b4b793a70524a804b2560315f99b36ecf70032dadbc0793bec5ab",
+    "geometrySHA256": "0dcdd3447524d8304470a9175a0fd795700857de55f1310efdb4fc3e55532f6e",
+    "geometryEncoding": "studio-stable-json-v1",
+    "decisionKey": "bec74771d78aac982c3669791cfed68eb8ce16e73beb56a76320a8e289c0d71c"
+  },
+  "compatibility": {
+    "policy": "studio-compatible-v1",
+    "holes": [
+      {
+        "sections": 1,
+        "addedFairwayYards": 0,
+        "addedFairwayPercent": 0,
+        "waterReshaped": false,
+        "addedFairway": []
+      },
+      {
+        "sections": 1,
+        "addedFairwayYards": 0,
+        "addedFairwayPercent": 0,
+        "waterReshaped": false,
+        "addedFairway": []
+      },
+      {
+        "sections": 2,
+        "addedFairwayYards": 54.0099465887882,
+        "addedFairwayPercent": 0.574530914835305,
+        "waterReshaped": false,
+        "addedFairway": [
+          [
+            [
+              [
+                207.90529766753272,
+                358.0971417855775
+              ],
+              [
+                208.6598426343735,
+                358.0825066390391
+              ],
+              [
+                209.39771894636175,
+                357.94126048885107
+              ],
+              [
+                209.4163143548086,
+                358.0825066390391
+              ],
+              [
+                209.4155152011102,
+                358.0885768140304
+              ],
+              [
+                211.89077394931263,
+                379.54877023948865
+              ],
+              [
+                210.6522958606056,
+                379.3151066762258
+              ],
+              [
+                210.34701271963104,
+                379.25558626316564
+              ],
+              [
+                207.91547261915764,
+                358.1744282162293
+              ]
+            ]
+          ],
+          [
+            [
+              [
+                211.19311181845745,
+                423.6441219431617
+              ],
+              [
+                215.35710881894934,
+                422.68151196612075
+              ],
+              [
+                215.33476582981072,
+                422.5118001144804
+              ],
+              [
+                215.33556498350913,
+                422.50572993948913
+              ],
+              [
+                211.84797293823482,
+                392.26872949053427
+              ],
+              [
+                213.39176778728836,
+                392.5622049427385
+              ],
+              [
+                216.8356075654617,
+                422.41987853729023
+              ],
+              [
+                216.84770927068095,
+                422.5118001144804
+              ],
+              [
+                216.83880745465677,
+                422.57941612015674
+              ],
+              [
+                216.09123755024584,
+                422.5118001144804
+              ]
+            ]
+          ]
+        ]
+      }
+    ]
+  },
+  "holes": [
+    {
+      "par": 4,
+      "lengthYards": 426,
+      "type": "straight"
+    },
+    {
+      "par": 3,
+      "lengthYards": 157,
+      "type": "straight"
+    },
+    {
+      "par": 4,
+      "lengthYards": 457,
+      "type": "straight"
+    }
+  ],
+  "retainedOlder": {
+    "legacy": {
+      "course": 131,
+      "artworkSHA256": "7b5d9db626627114bda181f71b22396747918fe788a0399bdd6383722dd27395",
+      "schemaVersion": 1,
+      "geometrySHA256": "b5059fc81dd21682d9e09894e2ed5acfa5ad8943e2df0314eee5e13a8bd198ba",
+      "artRulesVersion": "fairway-stripes-v4"
+    },
+    "pairMatchupID": null
+  }
+}
