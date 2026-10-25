@@ -1,0 +1,585 @@
+{
+  "course": 132,
+  "date": "2026-10-26",
+  "name": "Thistle Narrows",
+  "studioJob": "00a8e4c4-409b-4436-9fb2-d119268f5b25",
+  "draftFingerprint": "9db9302b030d355f79fddf7d3268ec469838bb59b1acdc36f6f95427c9cd3079",
+  "approval": {
+    "approvedAt": "2026-10-25T16:05:35.969Z",
+    "playtested": true,
+    "humanApproved": true,
+    "retainedOlder": {
+      "legacy": {
+        "course": 132,
+        "artworkSHA256": "30bd4ef7186072660a6b18fc315ba1c5aee394ee82e1e7224d9da8ffa715650c",
+        "schemaVersion": 1,
+        "geometrySHA256": "61389bb37817781a3d61c39a8b10e78bb5e8c481dac1c28b7fc713057460b409",
+        "artRulesVersion": "fairway-stripes-v4"
+      },
+      "pairMatchupID": "daily-pair-v1-132-90952c541b7f5e85eae57f33d0360f82120bd7281c2ac5794ed34777602a7771"
+    },
+    "liveReplacement": {
+      "closesAt": "2026-10-27T12:00:00.000Z",
+      "roundsPlayed": 1
+    },
+    "artworkOverrides": [
+      {
+        "policy": "studio-human-artwork-v1",
+        "reason": "The illustration largely preserves the numbered hole layout, mapped greens, tees, and water, but adds an unmapped path at Hole 1 and uses lengthwise rather than edge-to-edge transverse mowing stripes on the two main fairways. The illustration largely preserves the mapped course and its greens read as continuous putting surfaces. However, it adds an unmapped path from Hole 1\u2019s green and the two main fairways use lengthwise stripes instead of the required edge-to-edge cross-bands.",
+        "review": {
+          "issues": [
+            {
+              "code": "invented-connection",
+              "hole": 1,
+              "detail": "A tan path extends southeast from the G1 green toward the property edge; no such connector is shown in the diagram.",
+              "region": {
+                "x": 0.84,
+                "y": 0.44,
+                "width": 0.14,
+                "height": 0.27
+              },
+              "consequence": "The overview depicts an unapproved walking connection and misrepresents the mapped course layout."
+            },
+            {
+              "code": "style",
+              "hole": 1,
+              "detail": "The main fairway stripes run lengthwise along the curved fairway instead of crossing it edge-to-edge, perpendicular to its local direction.",
+              "region": {
+                "x": 0.43,
+                "y": 0.23,
+                "width": 0.35,
+                "height": 0.23
+              },
+              "consequence": "At thumbnail scale the fairway reads as longitudinally banded rather than having the required transverse mowing pattern."
+            },
+            {
+              "code": "style",
+              "hole": 3,
+              "detail": "The main fairway stripes run lengthwise along the fairway rather than crossing it edge-to-edge.",
+              "region": {
+                "x": 0.25,
+                "y": 0.61,
+                "width": 0.56,
+                "height": 0.22
+              },
+              "consequence": "At thumbnail scale the fairway reads as longitudinally banded rather than having the required transverse mowing pattern."
+            },
+            {
+              "code": "invented-connection",
+              "hole": 1,
+              "detail": "A tan path extends from the right-side green toward the lower-right property edge; no such connection is shown in the diagram.",
+              "region": {
+                "x": 0.86,
+                "y": 0.46,
+                "width": 0.11,
+                "height": 0.24
+              },
+              "consequence": "The overview depicts an extra walking connection and misrepresents the mapped course layout."
+            },
+            {
+              "code": "style",
+              "hole": 1,
+              "detail": "The main fairway stripes run lengthwise, roughly parallel to the fairway edges, rather than crossing the fairway perpendicular to its direction of play.",
+              "region": {
+                "x": 0.43,
+                "y": 0.23,
+                "width": 0.35,
+                "height": 0.23
+              },
+              "consequence": "At thumbnail scale, Hole 1 reads as having the wrong mowing pattern and its fairway shape is less clearly defined."
+            },
+            {
+              "code": "style",
+              "hole": 3,
+              "detail": "The long main fairway has lengthwise stripes rather than edge-to-edge cross-bands that follow its local direction.",
+              "region": {
+                "x": 0.25,
+                "y": 0.61,
+                "width": 0.68,
+                "height": 0.18
+              },
+              "consequence": "At thumbnail scale, Hole 3 reads as having the wrong mowing pattern and its fairway shape is less clearly defined."
+            }
+          ],
+          "reason": "The illustration largely preserves the numbered hole layout, mapped greens, tees, and water, but adds an unmapped path at Hole 1 and uses lengthwise rather than edge-to-edge transverse mowing stripes on the two main fairways. The illustration largely preserves the mapped course and its greens read as continuous putting surfaces. However, it adds an unmapped path from Hole 1\u2019s green and the two main fairways use lengthwise stripes instead of the required edge-to-edge cross-bands.",
+          "reviews": [
+            {
+              "review": {
+                "issues": [
+                  {
+                    "code": "invented-connection",
+                    "hole": 1,
+                    "detail": "A tan path extends southeast from the G1 green toward the property edge; no such connector is shown in the diagram.",
+                    "region": {
+                      "x": 0.84,
+                      "y": 0.44,
+                      "width": 0.14,
+                      "height": 0.27
+                    },
+                    "consequence": "The overview depicts an unapproved walking connection and misrepresents the mapped course layout."
+                  },
+                  {
+                    "code": "style",
+                    "hole": 1,
+                    "detail": "The main fairway stripes run lengthwise along the curved fairway instead of crossing it edge-to-edge, perpendicular to its local direction.",
+                    "region": {
+                      "x": 0.43,
+                      "y": 0.23,
+                      "width": 0.35,
+                      "height": 0.23
+                    },
+                    "consequence": "At thumbnail scale the fairway reads as longitudinally banded rather than having the required transverse mowing pattern."
+                  },
+                  {
+                    "code": "style",
+                    "hole": 3,
+                    "detail": "The main fairway stripes run lengthwise along the fairway rather than crossing it edge-to-edge.",
+                    "region": {
+                      "x": 0.25,
+                      "y": 0.61,
+                      "width": 0.56,
+                      "height": 0.22
+                    },
+                    "consequence": "At thumbnail scale the fairway reads as longitudinally banded rather than having the required transverse mowing pattern."
+                  }
+                ],
+                "reason": "The illustration largely preserves the numbered hole layout, mapped greens, tees, and water, but adds an unmapped path at Hole 1 and uses lengthwise rather than edge-to-edge transverse mowing stripes on the two main fairways.",
+                "scores": {
+                  "naturalGreens": 4,
+                  "visualClarity": 4,
+                  "geometryFidelity": 3,
+                  "styleConsistency": 3
+                },
+                "approved": false,
+                "candidate": 0,
+                "reviewKind": "artwork-only-v1"
+              },
+              "responseID": "resp_0a579d94cda73562016ade27d6a36887d296fe984d16771253"
+            },
+            {
+              "review": {
+                "issues": [
+                  {
+                    "code": "invented-connection",
+                    "hole": 1,
+                    "detail": "A tan path extends from the right-side green toward the lower-right property edge; no such connection is shown in the diagram.",
+                    "region": {
+                      "x": 0.86,
+                      "y": 0.46,
+                      "width": 0.11,
+                      "height": 0.24
+                    },
+                    "consequence": "The overview depicts an extra walking connection and misrepresents the mapped course layout."
+                  },
+                  {
+                    "code": "style",
+                    "hole": 1,
+                    "detail": "The main fairway stripes run lengthwise, roughly parallel to the fairway edges, rather than crossing the fairway perpendicular to its direction of play.",
+                    "region": {
+                      "x": 0.43,
+                      "y": 0.23,
+                      "width": 0.35,
+                      "height": 0.23
+                    },
+                    "consequence": "At thumbnail scale, Hole 1 reads as having the wrong mowing pattern and its fairway shape is less clearly defined."
+                  },
+                  {
+                    "code": "style",
+                    "hole": 3,
+                    "detail": "The long main fairway has lengthwise stripes rather than edge-to-edge cross-bands that follow its local direction.",
+                    "region": {
+                      "x": 0.25,
+                      "y": 0.61,
+                      "width": 0.68,
+                      "height": 0.18
+                    },
+                    "consequence": "At thumbnail scale, Hole 3 reads as having the wrong mowing pattern and its fairway shape is less clearly defined."
+                  }
+                ],
+                "reason": "The illustration largely preserves the mapped course and its greens read as continuous putting surfaces. However, it adds an unmapped path from Hole 1\u2019s green and the two main fairways use lengthwise stripes instead of the required edge-to-edge cross-bands.",
+                "scores": {
+                  "naturalGreens": 4,
+                  "visualClarity": 4,
+                  "geometryFidelity": 3,
+                  "styleConsistency": 3
+                },
+                "approved": false,
+                "candidate": 0,
+                "reviewKind": "artwork-only-v1"
+              },
+              "responseID": "resp_00429348fdc089f9016ade27d679e087d2a527fe0697879058"
+            }
+          ],
+          "approved": false,
+          "decisionKey": "77ec24a51c07bbc09a340036644d4348e45d264a133cb86596437e93761a88c1",
+          "artworkSHA256": "f58a93c4b434559cb9527a497004109cd1a93c9dd3df5529b0065e15d2d33683",
+          "geometrySHA256": "0c9a23a13473040344321833ad95aad2d721eaa81650fda758ad582e77ea000a",
+          "geometryEncoding": "studio-stable-json-v1"
+        },
+        "decisionKey": "77ec24a51c07bbc09a340036644d4348e45d264a133cb86596437e93761a88c1",
+        "artworkSHA256": "f58a93c4b434559cb9527a497004109cd1a93c9dd3df5529b0065e15d2d33683",
+        "geometrySHA256": "0c9a23a13473040344321833ad95aad2d721eaa81650fda758ad582e77ea000a",
+        "acceptedFindings": [
+          "77ec24a51c07bbc09a340036644d4348e45d264a133cb86596437e93761a88c1:0",
+          "77ec24a51c07bbc09a340036644d4348e45d264a133cb86596437e93761a88c1:1",
+          "77ec24a51c07bbc09a340036644d4348e45d264a133cb86596437e93761a88c1:2",
+          "77ec24a51c07bbc09a340036644d4348e45d264a133cb86596437e93761a88c1:3",
+          "77ec24a51c07bbc09a340036644d4348e45d264a133cb86596437e93761a88c1:4",
+          "77ec24a51c07bbc09a340036644d4348e45d264a133cb86596437e93761a88c1:5"
+        ]
+      },
+      {
+        "policy": "studio-human-artwork-v1",
+        "reason": "The mapped holes, continuous greens, and striped main fairways read clearly and are generally well represented. The current illustration adds a tan walking path from G1 into the lower-right rough that is not present in the diagram. The greens read as single continuous surfaces, the main fairways have visible crosswise mowing bands, and the illustration is clear. However, the path extending from Hole 1\u2019s green to the right edge does not match the mapped G1-to-T2 walking connector and appears to create an incorrect connection.",
+        "review": {
+          "issues": [
+            {
+              "code": "invented-connection",
+              "hole": 1,
+              "detail": "A tan path runs from the G1 area diagonally toward the lower-right property edge; the diagram does not map this connection.",
+              "region": {
+                "x": 0.81,
+                "y": 0.47,
+                "width": 0.16,
+                "height": 0.23
+              },
+              "consequence": "Viewers may read this as an approved walking route connecting G1 to the lower-right area."
+            },
+            {
+              "code": "invented-connection",
+              "hole": 1,
+              "detail": "A tan path runs from G1 southeast to the property edge instead of following the mapped walking connection from G1 to T2.",
+              "region": {
+                "x": 0.83,
+                "y": 0.43,
+                "width": 0.14,
+                "height": 0.28
+              },
+              "consequence": "Viewers may be misled about where the walking connector goes, and the mapped G1-to-T2 connection is not clearly represented."
+            }
+          ],
+          "reason": "The mapped holes, continuous greens, and striped main fairways read clearly and are generally well represented. The current illustration adds a tan walking path from G1 into the lower-right rough that is not present in the diagram. The greens read as single continuous surfaces, the main fairways have visible crosswise mowing bands, and the illustration is clear. However, the path extending from Hole 1\u2019s green to the right edge does not match the mapped G1-to-T2 walking connector and appears to create an incorrect connection.",
+          "reviews": [
+            {
+              "review": {
+                "issues": [
+                  {
+                    "code": "invented-connection",
+                    "hole": 1,
+                    "detail": "A tan path runs from the G1 area diagonally toward the lower-right property edge; the diagram does not map this connection.",
+                    "region": {
+                      "x": 0.81,
+                      "y": 0.47,
+                      "width": 0.16,
+                      "height": 0.23
+                    },
+                    "consequence": "Viewers may read this as an approved walking route connecting G1 to the lower-right area."
+                  }
+                ],
+                "reason": "The mapped holes, continuous greens, and striped main fairways read clearly and are generally well represented. The current illustration adds a tan walking path from G1 into the lower-right rough that is not present in the diagram.",
+                "scores": {
+                  "naturalGreens": 5,
+                  "visualClarity": 4,
+                  "geometryFidelity": 3,
+                  "styleConsistency": 4
+                },
+                "approved": false,
+                "candidate": 0,
+                "reviewKind": "artwork-only-v1"
+              },
+              "responseID": "resp_0f9c203fe2e81e87016ade27d67c5887d298e85914d68c84fe"
+            },
+            {
+              "review": {
+                "issues": [
+                  {
+                    "code": "invented-connection",
+                    "hole": 1,
+                    "detail": "A tan path runs from G1 southeast to the property edge instead of following the mapped walking connection from G1 to T2.",
+                    "region": {
+                      "x": 0.83,
+                      "y": 0.43,
+                      "width": 0.14,
+                      "height": 0.28
+                    },
+                    "consequence": "Viewers may be misled about where the walking connector goes, and the mapped G1-to-T2 connection is not clearly represented."
+                  }
+                ],
+                "reason": "The greens read as single continuous surfaces, the main fairways have visible crosswise mowing bands, and the illustration is clear. However, the path extending from Hole 1\u2019s green to the right edge does not match the mapped G1-to-T2 walking connector and appears to create an incorrect connection.",
+                "scores": {
+                  "naturalGreens": 5,
+                  "visualClarity": 4,
+                  "geometryFidelity": 3,
+                  "styleConsistency": 4
+                },
+                "approved": false,
+                "candidate": 0,
+                "reviewKind": "artwork-only-v1"
+              },
+              "responseID": "resp_0a6635b1ce664246016ade27d690dc87d2b3c4a9161eda2178"
+            }
+          ],
+          "approved": false,
+          "decisionKey": "d5a1b2ad5fd4f94cdadc358db4fc428f1511420894fd46b7a4d6c8f5e4ce1675",
+          "artworkSHA256": "bb400f2f07911778bdad1489645b5ec8571cdb2aee051cddab3d70809c8c656b",
+          "geometrySHA256": "f864305635e81d26b3cedd8bd4aa511eeaca8a30b987dd08cbc0dfaa4ee80676",
+          "geometryEncoding": "studio-stable-json-v1"
+        },
+        "decisionKey": "d5a1b2ad5fd4f94cdadc358db4fc428f1511420894fd46b7a4d6c8f5e4ce1675",
+        "artworkSHA256": "bb400f2f07911778bdad1489645b5ec8571cdb2aee051cddab3d70809c8c656b",
+        "geometrySHA256": "f864305635e81d26b3cedd8bd4aa511eeaca8a30b987dd08cbc0dfaa4ee80676",
+        "acceptedFindings": [
+          "d5a1b2ad5fd4f94cdadc358db4fc428f1511420894fd46b7a4d6c8f5e4ce1675:0",
+          "d5a1b2ad5fd4f94cdadc358db4fc428f1511420894fd46b7a4d6c8f5e4ce1675:1"
+        ]
+      }
+    ],
+    "compatibilityApproved": true
+  },
+  "artworkStatus": "approved",
+  "geometrySHA256": "5811a821e2ec2318bba9d82eea0c6be877ae7d882a532da897c55269b35cae1a",
+  "artworkSHA256": "f58a93c4b434559cb9527a497004109cd1a93c9dd3df5529b0065e15d2d33683",
+  "artworkReview": {
+    "issues": [
+      {
+        "code": "invented-connection",
+        "hole": 1,
+        "detail": "A tan path extends southeast from the G1 green toward the property edge; no such connector is shown in the diagram.",
+        "region": {
+          "x": 0.84,
+          "y": 0.44,
+          "width": 0.14,
+          "height": 0.27
+        },
+        "consequence": "The overview depicts an unapproved walking connection and misrepresents the mapped course layout."
+      },
+      {
+        "code": "style",
+        "hole": 1,
+        "detail": "The main fairway stripes run lengthwise along the curved fairway instead of crossing it edge-to-edge, perpendicular to its local direction.",
+        "region": {
+          "x": 0.43,
+          "y": 0.23,
+          "width": 0.35,
+          "height": 0.23
+        },
+        "consequence": "At thumbnail scale the fairway reads as longitudinally banded rather than having the required transverse mowing pattern."
+      },
+      {
+        "code": "style",
+        "hole": 3,
+        "detail": "The main fairway stripes run lengthwise along the fairway rather than crossing it edge-to-edge.",
+        "region": {
+          "x": 0.25,
+          "y": 0.61,
+          "width": 0.56,
+          "height": 0.22
+        },
+        "consequence": "At thumbnail scale the fairway reads as longitudinally banded rather than having the required transverse mowing pattern."
+      },
+      {
+        "code": "invented-connection",
+        "hole": 1,
+        "detail": "A tan path extends from the right-side green toward the lower-right property edge; no such connection is shown in the diagram.",
+        "region": {
+          "x": 0.86,
+          "y": 0.46,
+          "width": 0.11,
+          "height": 0.24
+        },
+        "consequence": "The overview depicts an extra walking connection and misrepresents the mapped course layout."
+      },
+      {
+        "code": "style",
+        "hole": 1,
+        "detail": "The main fairway stripes run lengthwise, roughly parallel to the fairway edges, rather than crossing the fairway perpendicular to its direction of play.",
+        "region": {
+          "x": 0.43,
+          "y": 0.23,
+          "width": 0.35,
+          "height": 0.23
+        },
+        "consequence": "At thumbnail scale, Hole 1 reads as having the wrong mowing pattern and its fairway shape is less clearly defined."
+      },
+      {
+        "code": "style",
+        "hole": 3,
+        "detail": "The long main fairway has lengthwise stripes rather than edge-to-edge cross-bands that follow its local direction.",
+        "region": {
+          "x": 0.25,
+          "y": 0.61,
+          "width": 0.68,
+          "height": 0.18
+        },
+        "consequence": "At thumbnail scale, Hole 3 reads as having the wrong mowing pattern and its fairway shape is less clearly defined."
+      }
+    ],
+    "reason": "The illustration largely preserves the numbered hole layout, mapped greens, tees, and water, but adds an unmapped path at Hole 1 and uses lengthwise rather than edge-to-edge transverse mowing stripes on the two main fairways. The illustration largely preserves the mapped course and its greens read as continuous putting surfaces. However, it adds an unmapped path from Hole 1\u2019s green and the two main fairways use lengthwise stripes instead of the required edge-to-edge cross-bands.",
+    "reviews": [
+      {
+        "review": {
+          "issues": [
+            {
+              "code": "invented-connection",
+              "hole": 1,
+              "detail": "A tan path extends southeast from the G1 green toward the property edge; no such connector is shown in the diagram.",
+              "region": {
+                "x": 0.84,
+                "y": 0.44,
+                "width": 0.14,
+                "height": 0.27
+              },
+              "consequence": "The overview depicts an unapproved walking connection and misrepresents the mapped course layout."
+            },
+            {
+              "code": "style",
+              "hole": 1,
+              "detail": "The main fairway stripes run lengthwise along the curved fairway instead of crossing it edge-to-edge, perpendicular to its local direction.",
+              "region": {
+                "x": 0.43,
+                "y": 0.23,
+                "width": 0.35,
+                "height": 0.23
+              },
+              "consequence": "At thumbnail scale the fairway reads as longitudinally banded rather than having the required transverse mowing pattern."
+            },
+            {
+              "code": "style",
+              "hole": 3,
+              "detail": "The main fairway stripes run lengthwise along the fairway rather than crossing it edge-to-edge.",
+              "region": {
+                "x": 0.25,
+                "y": 0.61,
+                "width": 0.56,
+                "height": 0.22
+              },
+              "consequence": "At thumbnail scale the fairway reads as longitudinally banded rather than having the required transverse mowing pattern."
+            }
+          ],
+          "reason": "The illustration largely preserves the numbered hole layout, mapped greens, tees, and water, but adds an unmapped path at Hole 1 and uses lengthwise rather than edge-to-edge transverse mowing stripes on the two main fairways.",
+          "scores": {
+            "naturalGreens": 4,
+            "visualClarity": 4,
+            "geometryFidelity": 3,
+            "styleConsistency": 3
+          },
+          "approved": false,
+          "candidate": 0,
+          "reviewKind": "artwork-only-v1"
+        },
+        "responseID": "resp_0a579d94cda73562016ade27d6a36887d296fe984d16771253"
+      },
+      {
+        "review": {
+          "issues": [
+            {
+              "code": "invented-connection",
+              "hole": 1,
+              "detail": "A tan path extends from the right-side green toward the lower-right property edge; no such connection is shown in the diagram.",
+              "region": {
+                "x": 0.86,
+                "y": 0.46,
+                "width": 0.11,
+                "height": 0.24
+              },
+              "consequence": "The overview depicts an extra walking connection and misrepresents the mapped course layout."
+            },
+            {
+              "code": "style",
+              "hole": 1,
+              "detail": "The main fairway stripes run lengthwise, roughly parallel to the fairway edges, rather than crossing the fairway perpendicular to its direction of play.",
+              "region": {
+                "x": 0.43,
+                "y": 0.23,
+                "width": 0.35,
+                "height": 0.23
+              },
+              "consequence": "At thumbnail scale, Hole 1 reads as having the wrong mowing pattern and its fairway shape is less clearly defined."
+            },
+            {
+              "code": "style",
+              "hole": 3,
+              "detail": "The long main fairway has lengthwise stripes rather than edge-to-edge cross-bands that follow its local direction.",
+              "region": {
+                "x": 0.25,
+                "y": 0.61,
+                "width": 0.68,
+                "height": 0.18
+              },
+              "consequence": "At thumbnail scale, Hole 3 reads as having the wrong mowing pattern and its fairway shape is less clearly defined."
+            }
+          ],
+          "reason": "The illustration largely preserves the mapped course and its greens read as continuous putting surfaces. However, it adds an unmapped path from Hole 1\u2019s green and the two main fairways use lengthwise stripes instead of the required edge-to-edge cross-bands.",
+          "scores": {
+            "naturalGreens": 4,
+            "visualClarity": 4,
+            "geometryFidelity": 3,
+            "styleConsistency": 3
+          },
+          "approved": false,
+          "candidate": 0,
+          "reviewKind": "artwork-only-v1"
+        },
+        "responseID": "resp_00429348fdc089f9016ade27d679e087d2a527fe0697879058"
+      }
+    ],
+    "approved": false,
+    "artworkSHA256": "f58a93c4b434559cb9527a497004109cd1a93c9dd3df5529b0065e15d2d33683",
+    "geometrySHA256": "0c9a23a13473040344321833ad95aad2d721eaa81650fda758ad582e77ea000a",
+    "geometryEncoding": "studio-stable-json-v1",
+    "decisionKey": "77ec24a51c07bbc09a340036644d4348e45d264a133cb86596437e93761a88c1"
+  },
+  "compatibility": {
+    "policy": "studio-compatible-v1",
+    "holes": [
+      {
+        "sections": 1,
+        "addedFairwayYards": 0,
+        "addedFairwayPercent": 0,
+        "waterReshaped": false,
+        "addedFairway": []
+      },
+      {
+        "sections": 1,
+        "addedFairwayYards": 0,
+        "addedFairwayPercent": 0,
+        "waterReshaped": false,
+        "addedFairway": []
+      },
+      {
+        "sections": 1,
+        "addedFairwayYards": 0,
+        "addedFairwayPercent": 0,
+        "waterReshaped": false,
+        "addedFairway": []
+      }
+    ]
+  },
+  "holes": [
+    {
+      "par": 5,
+      "lengthYards": 575,
+      "type": "straight"
+    },
+    {
+      "par": 3,
+      "lengthYards": 181,
+      "type": "straight"
+    },
+    {
+      "par": 5,
+      "lengthYards": 507,
+      "type": "straight"
+    }
+  ],
+  "retainedOlder": {
+    "legacy": {
+      "course": 132,
+      "artworkSHA256": "30bd4ef7186072660a6b18fc315ba1c5aee394ee82e1e7224d9da8ffa715650c",
+      "schemaVersion": 1,
+      "geometrySHA256": "61389bb37817781a3d61c39a8b10e78bb5e8c481dac1c28b7fc713057460b409",
+      "artRulesVersion": "fairway-stripes-v4"
+    },
+    "pairMatchupID": "daily-pair-v1-132-90952c541b7f5e85eae57f33d0360f82120bd7281c2ac5794ed34777602a7771"
+  }
+}
