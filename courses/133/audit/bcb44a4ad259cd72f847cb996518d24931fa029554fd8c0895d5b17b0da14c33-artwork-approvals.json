@@ -1,0 +1,357 @@
+{
+  "geometrySHA256": "da99707f3fd335c89af96c721e6a47deda5c6a39bf5b0e426232672b54ff6f58",
+  "artworkSHA256": "bcb44a4ad259cd72f847cb996518d24931fa029554fd8c0895d5b17b0da14c33",
+  "humanApproved": true,
+  "reviews": [
+    {
+      "review": {
+        "issues": [
+          {
+            "code": "geometry-mismatch",
+            "hole": 0,
+            "detail": "A large lake is added along the bottom edge of the property; the diagram has no water there.",
+            "region": {
+              "x": 0.2,
+              "y": 0.78,
+              "width": 0.72,
+              "height": 0.22
+            },
+            "consequence": "The overview misleadingly shows an additional major water feature and changes the apparent property layout."
+          },
+          {
+            "code": "geometry-mismatch",
+            "hole": 0,
+            "detail": "The long horizontal fairway and flag-bearing green across the lower portion are not present in the diagram, which instead shows Hole 1's curved fairway and only the mapped short Hole 3 section in this area.",
+            "region": {
+              "x": 0.12,
+              "y": 0.6,
+              "width": 0.81,
+              "height": 0.23
+            },
+            "consequence": "The overview appears to contain an extra hole layout and misrepresents the mapped fairway and green locations."
+          }
+        ],
+        "reason": "The illustration adds a large bottom lake and an extra long fairway/green layout that are not in the authoritative diagram. These additions make the course overview depict a different footprint and course layout. The mapped holes otherwise read clearly, and the greens and fairway striping are acceptable.",
+        "scores": {
+          "naturalGreens": 4,
+          "visualClarity": 2,
+          "geometryFidelity": 1,
+          "styleConsistency": 4
+        },
+        "approved": false,
+        "candidate": 0,
+        "reviewKind": "artwork-only-v1"
+      },
+      "responseID": "resp_0365b460d25eb30e016ade51a81ea487d2b6dcb74d0ba8cf00"
+    },
+    {
+      "review": {
+        "issues": [
+          {
+            "code": "geometry-mismatch",
+            "hole": 1,
+            "detail": "No flag is visible on the mapped green at G1.",
+            "region": {
+              "x": 0.23,
+              "y": 0.26,
+              "width": 0.08,
+              "height": 0.12
+            },
+            "consequence": "The overview omits the mapped pin location for this green."
+          },
+          {
+            "code": "geometry-mismatch",
+            "hole": 2,
+            "detail": "No flag is visible on the mapped green at G2.",
+            "region": {
+              "x": 0.77,
+              "y": 0.61,
+              "width": 0.06,
+              "height": 0.09
+            },
+            "consequence": "The overview omits the mapped pin location for this green."
+          },
+          {
+            "code": "geometry-mismatch",
+            "hole": 3,
+            "detail": "No flag is visible on the mapped green at G3.",
+            "region": {
+              "x": 0.45,
+              "y": 0.61,
+              "width": 0.06,
+              "height": 0.09
+            },
+            "consequence": "The overview omits the mapped pin location for this green."
+          },
+          {
+            "code": "style",
+            "hole": 1,
+            "detail": "The main fairway uses a checkerboard-like texture rather than clearly visible alternating stripes crossing edge to edge and fanning with the curved corridor.",
+            "region": {
+              "x": 0.17,
+              "y": 0.34,
+              "width": 0.25,
+              "height": 0.35
+            },
+            "consequence": "At thumbnail scale, the mowing pattern does not clearly communicate the fairway\u2019s direction and bends."
+          },
+          {
+            "code": "style",
+            "hole": 2,
+            "detail": "The long main fairway has checkerboard-like patches instead of distinct crosswise bands that follow its local direction and curve.",
+            "region": {
+              "x": 0.38,
+              "y": 0.31,
+              "width": 0.43,
+              "height": 0.36
+            },
+            "consequence": "At thumbnail scale, the mowing pattern reads as a fixed grid rather than stripes that follow the fairway."
+          }
+        ],
+        "reason": "The mapped course layout, water, and walking connectors are generally recognizable, and the greens read as continuous surfaces. The mapped flag locations are not shown, and the two main fairways do not have the required clear, smoothly fanning crosswise mowing stripes.",
+        "scores": {
+          "naturalGreens": 4,
+          "visualClarity": 4,
+          "geometryFidelity": 3,
+          "styleConsistency": 3
+        },
+        "approved": false,
+        "candidate": 0,
+        "reviewKind": "artwork-only-v1"
+      },
+      "responseID": "resp_0e7c2d59a6e5b2fe016ade51a8464087d2aded24873353fb8d"
+    }
+  ],
+  "humanArtworkAcceptance": {
+    "policy": "studio-human-artwork-v1",
+    "reason": "The illustration adds a large bottom lake and an extra long fairway/green layout that are not in the authoritative diagram. These additions make the course overview depict a different footprint and course layout. The mapped holes otherwise read clearly, and the greens and fairway striping are acceptable. The mapped course layout, water, and walking connectors are generally recognizable, and the greens read as continuous surfaces. The mapped flag locations are not shown, and the two main fairways do not have the required clear, smoothly fanning crosswise mowing stripes.",
+    "review": {
+      "issues": [
+        {
+          "code": "geometry-mismatch",
+          "hole": 0,
+          "detail": "A large lake is added along the bottom edge of the property; the diagram has no water there.",
+          "region": {
+            "x": 0.2,
+            "y": 0.78,
+            "width": 0.72,
+            "height": 0.22
+          },
+          "consequence": "The overview misleadingly shows an additional major water feature and changes the apparent property layout."
+        },
+        {
+          "code": "geometry-mismatch",
+          "hole": 0,
+          "detail": "The long horizontal fairway and flag-bearing green across the lower portion are not present in the diagram, which instead shows Hole 1's curved fairway and only the mapped short Hole 3 section in this area.",
+          "region": {
+            "x": 0.12,
+            "y": 0.6,
+            "width": 0.81,
+            "height": 0.23
+          },
+          "consequence": "The overview appears to contain an extra hole layout and misrepresents the mapped fairway and green locations."
+        },
+        {
+          "code": "geometry-mismatch",
+          "hole": 1,
+          "detail": "No flag is visible on the mapped green at G1.",
+          "region": {
+            "x": 0.23,
+            "y": 0.26,
+            "width": 0.08,
+            "height": 0.12
+          },
+          "consequence": "The overview omits the mapped pin location for this green."
+        },
+        {
+          "code": "geometry-mismatch",
+          "hole": 2,
+          "detail": "No flag is visible on the mapped green at G2.",
+          "region": {
+            "x": 0.77,
+            "y": 0.61,
+            "width": 0.06,
+            "height": 0.09
+          },
+          "consequence": "The overview omits the mapped pin location for this green."
+        },
+        {
+          "code": "geometry-mismatch",
+          "hole": 3,
+          "detail": "No flag is visible on the mapped green at G3.",
+          "region": {
+            "x": 0.45,
+            "y": 0.61,
+            "width": 0.06,
+            "height": 0.09
+          },
+          "consequence": "The overview omits the mapped pin location for this green."
+        },
+        {
+          "code": "style",
+          "hole": 1,
+          "detail": "The main fairway uses a checkerboard-like texture rather than clearly visible alternating stripes crossing edge to edge and fanning with the curved corridor.",
+          "region": {
+            "x": 0.17,
+            "y": 0.34,
+            "width": 0.25,
+            "height": 0.35
+          },
+          "consequence": "At thumbnail scale, the mowing pattern does not clearly communicate the fairway\u2019s direction and bends."
+        },
+        {
+          "code": "style",
+          "hole": 2,
+          "detail": "The long main fairway has checkerboard-like patches instead of distinct crosswise bands that follow its local direction and curve.",
+          "region": {
+            "x": 0.38,
+            "y": 0.31,
+            "width": 0.43,
+            "height": 0.36
+          },
+          "consequence": "At thumbnail scale, the mowing pattern reads as a fixed grid rather than stripes that follow the fairway."
+        }
+      ],
+      "reason": "The illustration adds a large bottom lake and an extra long fairway/green layout that are not in the authoritative diagram. These additions make the course overview depict a different footprint and course layout. The mapped holes otherwise read clearly, and the greens and fairway striping are acceptable. The mapped course layout, water, and walking connectors are generally recognizable, and the greens read as continuous surfaces. The mapped flag locations are not shown, and the two main fairways do not have the required clear, smoothly fanning crosswise mowing stripes.",
+      "reviews": [
+        {
+          "review": {
+            "issues": [
+              {
+                "code": "geometry-mismatch",
+                "hole": 0,
+                "detail": "A large lake is added along the bottom edge of the property; the diagram has no water there.",
+                "region": {
+                  "x": 0.2,
+                  "y": 0.78,
+                  "width": 0.72,
+                  "height": 0.22
+                },
+                "consequence": "The overview misleadingly shows an additional major water feature and changes the apparent property layout."
+              },
+              {
+                "code": "geometry-mismatch",
+                "hole": 0,
+                "detail": "The long horizontal fairway and flag-bearing green across the lower portion are not present in the diagram, which instead shows Hole 1's curved fairway and only the mapped short Hole 3 section in this area.",
+                "region": {
+                  "x": 0.12,
+                  "y": 0.6,
+                  "width": 0.81,
+                  "height": 0.23
+                },
+                "consequence": "The overview appears to contain an extra hole layout and misrepresents the mapped fairway and green locations."
+              }
+            ],
+            "reason": "The illustration adds a large bottom lake and an extra long fairway/green layout that are not in the authoritative diagram. These additions make the course overview depict a different footprint and course layout. The mapped holes otherwise read clearly, and the greens and fairway striping are acceptable.",
+            "scores": {
+              "naturalGreens": 4,
+              "visualClarity": 2,
+              "geometryFidelity": 1,
+              "styleConsistency": 4
+            },
+            "approved": false,
+            "candidate": 0,
+            "reviewKind": "artwork-only-v1"
+          },
+          "responseID": "resp_0365b460d25eb30e016ade51a81ea487d2b6dcb74d0ba8cf00"
+        },
+        {
+          "review": {
+            "issues": [
+              {
+                "code": "geometry-mismatch",
+                "hole": 1,
+                "detail": "No flag is visible on the mapped green at G1.",
+                "region": {
+                  "x": 0.23,
+                  "y": 0.26,
+                  "width": 0.08,
+                  "height": 0.12
+                },
+                "consequence": "The overview omits the mapped pin location for this green."
+              },
+              {
+                "code": "geometry-mismatch",
+                "hole": 2,
+                "detail": "No flag is visible on the mapped green at G2.",
+                "region": {
+                  "x": 0.77,
+                  "y": 0.61,
+                  "width": 0.06,
+                  "height": 0.09
+                },
+                "consequence": "The overview omits the mapped pin location for this green."
+              },
+              {
+                "code": "geometry-mismatch",
+                "hole": 3,
+                "detail": "No flag is visible on the mapped green at G3.",
+                "region": {
+                  "x": 0.45,
+                  "y": 0.61,
+                  "width": 0.06,
+                  "height": 0.09
+                },
+                "consequence": "The overview omits the mapped pin location for this green."
+              },
+              {
+                "code": "style",
+                "hole": 1,
+                "detail": "The main fairway uses a checkerboard-like texture rather than clearly visible alternating stripes crossing edge to edge and fanning with the curved corridor.",
+                "region": {
+                  "x": 0.17,
+                  "y": 0.34,
+                  "width": 0.25,
+                  "height": 0.35
+                },
+                "consequence": "At thumbnail scale, the mowing pattern does not clearly communicate the fairway\u2019s direction and bends."
+              },
+              {
+                "code": "style",
+                "hole": 2,
+                "detail": "The long main fairway has checkerboard-like patches instead of distinct crosswise bands that follow its local direction and curve.",
+                "region": {
+                  "x": 0.38,
+                  "y": 0.31,
+                  "width": 0.43,
+                  "height": 0.36
+                },
+                "consequence": "At thumbnail scale, the mowing pattern reads as a fixed grid rather than stripes that follow the fairway."
+              }
+            ],
+            "reason": "The mapped course layout, water, and walking connectors are generally recognizable, and the greens read as continuous surfaces. The mapped flag locations are not shown, and the two main fairways do not have the required clear, smoothly fanning crosswise mowing stripes.",
+            "scores": {
+              "naturalGreens": 4,
+              "visualClarity": 4,
+              "geometryFidelity": 3,
+              "styleConsistency": 3
+            },
+            "approved": false,
+            "candidate": 0,
+            "reviewKind": "artwork-only-v1"
+          },
+          "responseID": "resp_0e7c2d59a6e5b2fe016ade51a8464087d2aded24873353fb8d"
+        }
+      ],
+      "approved": false,
+      "decisionKey": "f0bef52ba261a887f37a5847cf574a135ad1aaf55d080028cf307d94a6519a48",
+      "artworkSHA256": "bcb44a4ad259cd72f847cb996518d24931fa029554fd8c0895d5b17b0da14c33",
+      "geometrySHA256": "8a314b5a8a5fd4b2693049cbb305b2bd60fd86af0ee3443d5dc0912ac3be1360",
+      "geometryEncoding": "studio-stable-json-v1"
+    },
+    "decisionKey": "f0bef52ba261a887f37a5847cf574a135ad1aaf55d080028cf307d94a6519a48",
+    "artworkSHA256": "bcb44a4ad259cd72f847cb996518d24931fa029554fd8c0895d5b17b0da14c33",
+    "geometrySHA256": "da99707f3fd335c89af96c721e6a47deda5c6a39bf5b0e426232672b54ff6f58",
+    "acceptedFindings": [
+      "f0bef52ba261a887f37a5847cf574a135ad1aaf55d080028cf307d94a6519a48:0",
+      "f0bef52ba261a887f37a5847cf574a135ad1aaf55d080028cf307d94a6519a48:1",
+      "f0bef52ba261a887f37a5847cf574a135ad1aaf55d080028cf307d94a6519a48:2",
+      "f0bef52ba261a887f37a5847cf574a135ad1aaf55d080028cf307d94a6519a48:3",
+      "f0bef52ba261a887f37a5847cf574a135ad1aaf55d080028cf307d94a6519a48:4",
+      "f0bef52ba261a887f37a5847cf574a135ad1aaf55d080028cf307d94a6519a48:5",
+      "f0bef52ba261a887f37a5847cf574a135ad1aaf55d080028cf307d94a6519a48:6"
+    ],
+    "sourceGeometrySHA256": "8a314b5a8a5fd4b2693049cbb305b2bd60fd86af0ee3443d5dc0912ac3be1360",
+    "approvedAt": "2026-10-25T19:15:42.382Z"
+  }
+}

@@ -1,0 +1,530 @@
+{
+  "geometrySHA256": "f3160b6403a3e7c38d7253bdff70ea32f26e1d0700e6a5730c959157c14c15bc",
+  "artworkSHA256": "29ba877d09b7f8147865d2a37e85e7c1c7959a2ab1dddf3ce42ad3413a3d4de2",
+  "humanApproved": true,
+  "reviews": [
+    {
+      "review": {
+        "issues": [
+          {
+            "code": "green-treatment",
+            "hole": 1,
+            "detail": "The G1 putting surface reads as a bright inset oval surrounded by a conspicuous darker ring, rather than one continuous natural green with only a narrow fringe.",
+            "region": {
+              "x": 0.16,
+              "y": 0.2,
+              "width": 0.1,
+              "height": 0.16
+            },
+            "consequence": "At overview scale, G1 may read as a nested or bullseye green instead of a single putting surface."
+          },
+          {
+            "code": "green-treatment",
+            "hole": 2,
+            "detail": "The G2 putting surface also reads as a small bright inset within a broad contrasting dark-green band.",
+            "region": {
+              "x": 0.8,
+              "y": 0.59,
+              "width": 0.08,
+              "height": 0.11
+            },
+            "consequence": "The overview may suggest a separate inset disc or ringed green surface."
+          },
+          {
+            "code": "green-treatment",
+            "hole": 3,
+            "detail": "The G3 complex uses strongly contrasting green patches and surrounding dark bands, making the putting surface read as inset rather than continuous and natural.",
+            "region": {
+              "x": 0.43,
+              "y": 0.62,
+              "width": 0.13,
+              "height": 0.11
+            },
+            "consequence": "The overview may misrepresent the mapped green as a multi-level or ringed surface."
+          },
+          {
+            "code": "green-treatment",
+            "hole": 1,
+            "detail": "The G1 putting surface reads as a bright inset oval surrounded by a conspicuous darker ring, rather than one continuous natural green with only a narrow fringe.",
+            "region": {
+              "x": 0.16,
+              "y": 0.2,
+              "width": 0.1,
+              "height": 0.16
+            },
+            "consequence": "At overview scale, G1 may read as a nested or bullseye green instead of a single putting surface."
+          },
+          {
+            "code": "green-treatment",
+            "hole": 2,
+            "detail": "The G2 putting surface also reads as a small bright inset within a broad contrasting dark-green band.",
+            "region": {
+              "x": 0.8,
+              "y": 0.59,
+              "width": 0.08,
+              "height": 0.11
+            },
+            "consequence": "The overview may suggest a separate inset disc or ringed green surface."
+          },
+          {
+            "code": "green-treatment",
+            "hole": 3,
+            "detail": "The G3 complex uses strongly contrasting green patches and surrounding dark bands, making the putting surface read as inset rather than continuous and natural.",
+            "region": {
+              "x": 0.43,
+              "y": 0.62,
+              "width": 0.13,
+              "height": 0.11
+            },
+            "consequence": "The overview may misrepresent the mapped green as a multi-level or ringed surface."
+          },
+          {
+            "code": "green-treatment",
+            "hole": 1,
+            "detail": "The G1 putting surface reads as a bright inset oval surrounded by a conspicuous darker ring, rather than one continuous natural green with only a narrow fringe.",
+            "region": {
+              "x": 0.16,
+              "y": 0.2,
+              "width": 0.1,
+              "height": 0.16
+            },
+            "consequence": "At overview scale, G1 may read as a nested or bullseye green instead of a single putting surface."
+          },
+          {
+            "code": "green-treatment",
+            "hole": 2,
+            "detail": "The G2 putting surface also reads as a small bright inset within a broad contrasting dark-green band.",
+            "region": {
+              "x": 0.8,
+              "y": 0.59,
+              "width": 0.08,
+              "height": 0.11
+            },
+            "consequence": "The overview may suggest a separate inset disc or ringed green surface."
+          }
+        ],
+        "reason": "The course footprint, mapped water and fairway shapes are broadly preserved, and the main fairways have visible crosswise mowing bands. However, the illustration adds a much denser layer of palms and scrub than the sparse desert distribution shown in the diagram, including vegetation in important shot corridors.",
+        "scores": {
+          "naturalGreens": 4,
+          "visualClarity": 4,
+          "geometryFidelity": 4,
+          "styleConsistency": 4,
+          "environmentFidelity": 2
+        },
+        "approved": false,
+        "candidate": 0,
+        "reviewKind": "artwork-environment-v2",
+        "environment": "palmSprings"
+      },
+      "responseID": "resp_0f11a909a9c03163016ade51aad20487d2a42b66ca8e81ea2a"
+    },
+    {
+      "review": {
+        "issues": [
+          {
+            "code": "style",
+            "hole": 0,
+            "detail": "The parcel is densely planted with palms, large crowns, and shadows, while the diagram shows a sparse desert distribution and no authored hole trees. The planting is especially crowded around the Hole 1 and Hole 2 fairway corridors.",
+            "region": {
+              "x": 0.1,
+              "y": 0.16,
+              "width": 0.55,
+              "height": 0.67
+            },
+            "consequence": "The overview makes the mapped desert landscape look like a densely landscaped course and visually crowds the tee-to-landing and fairway-to-green corridors."
+          },
+          {
+            "code": "geometry-mismatch",
+            "hole": 0,
+            "detail": "The yellow green markers shown at G1, G2, and G3 in the diagram are not visible in the illustration.",
+            "region": null,
+            "consequence": "The overview no longer communicates the mapped green marker locations."
+          },
+          {
+            "code": "green-treatment",
+            "hole": 1,
+            "detail": "G1 reads as a pale inset putting disc surrounded by a broad, darker contrasting green band rather than one continuous natural putting surface with only a narrow edge transition.",
+            "region": {
+              "x": 0.16,
+              "y": 0.2,
+              "width": 0.1,
+              "height": 0.14
+            },
+            "consequence": "The green appears layered or ringed instead of reading as a single continuous close-mown surface."
+          },
+          {
+            "code": "green-treatment",
+            "hole": 3,
+            "detail": "G3 is rendered with a strongly contrasting dark ring around the lighter putting surface; the adjacent light oval also reads like a second putting surface rather than a small fairway section.",
+            "region": {
+              "x": 0.43,
+              "y": 0.62,
+              "width": 0.13,
+              "height": 0.12
+            },
+            "consequence": "The green complex can be misread as a ringed green with an additional green, rather than the mapped G3 and its adjoining short fairway turf."
+          }
+        ],
+        "reason": "The course silhouette, lakes, tees, and striped main fairways broadly follow the diagram, but the illustration departs from the mapped sparse desert planting, omits the green markers, and gives the putting surfaces a conspicuously ringed treatment.",
+        "scores": {
+          "naturalGreens": 3,
+          "visualClarity": 4,
+          "geometryFidelity": 3,
+          "styleConsistency": 4,
+          "environmentFidelity": 2
+        },
+        "approved": false,
+        "candidate": 0,
+        "reviewKind": "artwork-environment-v2",
+        "environment": "palmSprings"
+      },
+      "responseID": "resp_0a6c7f208dc8b43b016ade51aadb1087d2959ffb7777bf49da"
+    }
+  ],
+  "humanArtworkAcceptance": {
+    "policy": "studio-human-artwork-v1",
+    "reason": "The course footprint, mapped water and fairway shapes are broadly preserved, and the main fairways have visible crosswise mowing bands. However, the illustration adds a much denser layer of palms and scrub than the sparse desert distribution shown in the diagram, including vegetation in important shot corridors. The course silhouette, lakes, tees, and striped main fairways broadly follow the diagram, but the illustration departs from the mapped sparse desert planting, omits the green markers, and gives the putting surfaces a conspicuously ringed treatment.",
+    "review": {
+      "issues": [
+        {
+          "code": "green-treatment",
+          "hole": 1,
+          "detail": "The G1 putting surface reads as a bright inset oval surrounded by a conspicuous darker ring, rather than one continuous natural green with only a narrow fringe.",
+          "region": {
+            "x": 0.16,
+            "y": 0.2,
+            "width": 0.1,
+            "height": 0.16
+          },
+          "consequence": "At overview scale, G1 may read as a nested or bullseye green instead of a single putting surface."
+        },
+        {
+          "code": "green-treatment",
+          "hole": 2,
+          "detail": "The G2 putting surface also reads as a small bright inset within a broad contrasting dark-green band.",
+          "region": {
+            "x": 0.8,
+            "y": 0.59,
+            "width": 0.08,
+            "height": 0.11
+          },
+          "consequence": "The overview may suggest a separate inset disc or ringed green surface."
+        },
+        {
+          "code": "green-treatment",
+          "hole": 3,
+          "detail": "The G3 complex uses strongly contrasting green patches and surrounding dark bands, making the putting surface read as inset rather than continuous and natural.",
+          "region": {
+            "x": 0.43,
+            "y": 0.62,
+            "width": 0.13,
+            "height": 0.11
+          },
+          "consequence": "The overview may misrepresent the mapped green as a multi-level or ringed surface."
+        },
+        {
+          "code": "green-treatment",
+          "hole": 1,
+          "detail": "The G1 putting surface reads as a bright inset oval surrounded by a conspicuous darker ring, rather than one continuous natural green with only a narrow fringe.",
+          "region": {
+            "x": 0.16,
+            "y": 0.2,
+            "width": 0.1,
+            "height": 0.16
+          },
+          "consequence": "At overview scale, G1 may read as a nested or bullseye green instead of a single putting surface."
+        },
+        {
+          "code": "green-treatment",
+          "hole": 2,
+          "detail": "The G2 putting surface also reads as a small bright inset within a broad contrasting dark-green band.",
+          "region": {
+            "x": 0.8,
+            "y": 0.59,
+            "width": 0.08,
+            "height": 0.11
+          },
+          "consequence": "The overview may suggest a separate inset disc or ringed green surface."
+        },
+        {
+          "code": "green-treatment",
+          "hole": 3,
+          "detail": "The G3 complex uses strongly contrasting green patches and surrounding dark bands, making the putting surface read as inset rather than continuous and natural.",
+          "region": {
+            "x": 0.43,
+            "y": 0.62,
+            "width": 0.13,
+            "height": 0.11
+          },
+          "consequence": "The overview may misrepresent the mapped green as a multi-level or ringed surface."
+        },
+        {
+          "code": "green-treatment",
+          "hole": 1,
+          "detail": "The G1 putting surface reads as a bright inset oval surrounded by a conspicuous darker ring, rather than one continuous natural green with only a narrow fringe.",
+          "region": {
+            "x": 0.16,
+            "y": 0.2,
+            "width": 0.1,
+            "height": 0.16
+          },
+          "consequence": "At overview scale, G1 may read as a nested or bullseye green instead of a single putting surface."
+        },
+        {
+          "code": "green-treatment",
+          "hole": 2,
+          "detail": "The G2 putting surface also reads as a small bright inset within a broad contrasting dark-green band.",
+          "region": {
+            "x": 0.8,
+            "y": 0.59,
+            "width": 0.08,
+            "height": 0.11
+          },
+          "consequence": "The overview may suggest a separate inset disc or ringed green surface."
+        },
+        {
+          "code": "style",
+          "hole": 0,
+          "detail": "The parcel is densely planted with palms, large crowns, and shadows, while the diagram shows a sparse desert distribution and no authored hole trees. The planting is especially crowded around the Hole 1 and Hole 2 fairway corridors.",
+          "region": {
+            "x": 0.1,
+            "y": 0.16,
+            "width": 0.55,
+            "height": 0.67
+          },
+          "consequence": "The overview makes the mapped desert landscape look like a densely landscaped course and visually crowds the tee-to-landing and fairway-to-green corridors."
+        },
+        {
+          "code": "geometry-mismatch",
+          "hole": 0,
+          "detail": "The yellow green markers shown at G1, G2, and G3 in the diagram are not visible in the illustration.",
+          "region": null,
+          "consequence": "The overview no longer communicates the mapped green marker locations."
+        },
+        {
+          "code": "green-treatment",
+          "hole": 1,
+          "detail": "G1 reads as a pale inset putting disc surrounded by a broad, darker contrasting green band rather than one continuous natural putting surface with only a narrow edge transition.",
+          "region": {
+            "x": 0.16,
+            "y": 0.2,
+            "width": 0.1,
+            "height": 0.14
+          },
+          "consequence": "The green appears layered or ringed instead of reading as a single continuous close-mown surface."
+        },
+        {
+          "code": "green-treatment",
+          "hole": 3,
+          "detail": "G3 is rendered with a strongly contrasting dark ring around the lighter putting surface; the adjacent light oval also reads like a second putting surface rather than a small fairway section.",
+          "region": {
+            "x": 0.43,
+            "y": 0.62,
+            "width": 0.13,
+            "height": 0.12
+          },
+          "consequence": "The green complex can be misread as a ringed green with an additional green, rather than the mapped G3 and its adjoining short fairway turf."
+        }
+      ],
+      "reason": "The course footprint, mapped water and fairway shapes are broadly preserved, and the main fairways have visible crosswise mowing bands. However, the illustration adds a much denser layer of palms and scrub than the sparse desert distribution shown in the diagram, including vegetation in important shot corridors. The course silhouette, lakes, tees, and striped main fairways broadly follow the diagram, but the illustration departs from the mapped sparse desert planting, omits the green markers, and gives the putting surfaces a conspicuously ringed treatment.",
+      "reviews": [
+        {
+          "review": {
+            "issues": [
+              {
+                "code": "green-treatment",
+                "hole": 1,
+                "detail": "The G1 putting surface reads as a bright inset oval surrounded by a conspicuous darker ring, rather than one continuous natural green with only a narrow fringe.",
+                "region": {
+                  "x": 0.16,
+                  "y": 0.2,
+                  "width": 0.1,
+                  "height": 0.16
+                },
+                "consequence": "At overview scale, G1 may read as a nested or bullseye green instead of a single putting surface."
+              },
+              {
+                "code": "green-treatment",
+                "hole": 2,
+                "detail": "The G2 putting surface also reads as a small bright inset within a broad contrasting dark-green band.",
+                "region": {
+                  "x": 0.8,
+                  "y": 0.59,
+                  "width": 0.08,
+                  "height": 0.11
+                },
+                "consequence": "The overview may suggest a separate inset disc or ringed green surface."
+              },
+              {
+                "code": "green-treatment",
+                "hole": 3,
+                "detail": "The G3 complex uses strongly contrasting green patches and surrounding dark bands, making the putting surface read as inset rather than continuous and natural.",
+                "region": {
+                  "x": 0.43,
+                  "y": 0.62,
+                  "width": 0.13,
+                  "height": 0.11
+                },
+                "consequence": "The overview may misrepresent the mapped green as a multi-level or ringed surface."
+              },
+              {
+                "code": "green-treatment",
+                "hole": 1,
+                "detail": "The G1 putting surface reads as a bright inset oval surrounded by a conspicuous darker ring, rather than one continuous natural green with only a narrow fringe.",
+                "region": {
+                  "x": 0.16,
+                  "y": 0.2,
+                  "width": 0.1,
+                  "height": 0.16
+                },
+                "consequence": "At overview scale, G1 may read as a nested or bullseye green instead of a single putting surface."
+              },
+              {
+                "code": "green-treatment",
+                "hole": 2,
+                "detail": "The G2 putting surface also reads as a small bright inset within a broad contrasting dark-green band.",
+                "region": {
+                  "x": 0.8,
+                  "y": 0.59,
+                  "width": 0.08,
+                  "height": 0.11
+                },
+                "consequence": "The overview may suggest a separate inset disc or ringed green surface."
+              },
+              {
+                "code": "green-treatment",
+                "hole": 3,
+                "detail": "The G3 complex uses strongly contrasting green patches and surrounding dark bands, making the putting surface read as inset rather than continuous and natural.",
+                "region": {
+                  "x": 0.43,
+                  "y": 0.62,
+                  "width": 0.13,
+                  "height": 0.11
+                },
+                "consequence": "The overview may misrepresent the mapped green as a multi-level or ringed surface."
+              },
+              {
+                "code": "green-treatment",
+                "hole": 1,
+                "detail": "The G1 putting surface reads as a bright inset oval surrounded by a conspicuous darker ring, rather than one continuous natural green with only a narrow fringe.",
+                "region": {
+                  "x": 0.16,
+                  "y": 0.2,
+                  "width": 0.1,
+                  "height": 0.16
+                },
+                "consequence": "At overview scale, G1 may read as a nested or bullseye green instead of a single putting surface."
+              },
+              {
+                "code": "green-treatment",
+                "hole": 2,
+                "detail": "The G2 putting surface also reads as a small bright inset within a broad contrasting dark-green band.",
+                "region": {
+                  "x": 0.8,
+                  "y": 0.59,
+                  "width": 0.08,
+                  "height": 0.11
+                },
+                "consequence": "The overview may suggest a separate inset disc or ringed green surface."
+              }
+            ],
+            "reason": "The course footprint, mapped water and fairway shapes are broadly preserved, and the main fairways have visible crosswise mowing bands. However, the illustration adds a much denser layer of palms and scrub than the sparse desert distribution shown in the diagram, including vegetation in important shot corridors.",
+            "scores": {
+              "naturalGreens": 4,
+              "visualClarity": 4,
+              "geometryFidelity": 4,
+              "styleConsistency": 4,
+              "environmentFidelity": 2
+            },
+            "approved": false,
+            "candidate": 0,
+            "reviewKind": "artwork-environment-v2",
+            "environment": "palmSprings"
+          },
+          "responseID": "resp_0f11a909a9c03163016ade51aad20487d2a42b66ca8e81ea2a"
+        },
+        {
+          "review": {
+            "issues": [
+              {
+                "code": "style",
+                "hole": 0,
+                "detail": "The parcel is densely planted with palms, large crowns, and shadows, while the diagram shows a sparse desert distribution and no authored hole trees. The planting is especially crowded around the Hole 1 and Hole 2 fairway corridors.",
+                "region": {
+                  "x": 0.1,
+                  "y": 0.16,
+                  "width": 0.55,
+                  "height": 0.67
+                },
+                "consequence": "The overview makes the mapped desert landscape look like a densely landscaped course and visually crowds the tee-to-landing and fairway-to-green corridors."
+              },
+              {
+                "code": "geometry-mismatch",
+                "hole": 0,
+                "detail": "The yellow green markers shown at G1, G2, and G3 in the diagram are not visible in the illustration.",
+                "region": null,
+                "consequence": "The overview no longer communicates the mapped green marker locations."
+              },
+              {
+                "code": "green-treatment",
+                "hole": 1,
+                "detail": "G1 reads as a pale inset putting disc surrounded by a broad, darker contrasting green band rather than one continuous natural putting surface with only a narrow edge transition.",
+                "region": {
+                  "x": 0.16,
+                  "y": 0.2,
+                  "width": 0.1,
+                  "height": 0.14
+                },
+                "consequence": "The green appears layered or ringed instead of reading as a single continuous close-mown surface."
+              },
+              {
+                "code": "green-treatment",
+                "hole": 3,
+                "detail": "G3 is rendered with a strongly contrasting dark ring around the lighter putting surface; the adjacent light oval also reads like a second putting surface rather than a small fairway section.",
+                "region": {
+                  "x": 0.43,
+                  "y": 0.62,
+                  "width": 0.13,
+                  "height": 0.12
+                },
+                "consequence": "The green complex can be misread as a ringed green with an additional green, rather than the mapped G3 and its adjoining short fairway turf."
+              }
+            ],
+            "reason": "The course silhouette, lakes, tees, and striped main fairways broadly follow the diagram, but the illustration departs from the mapped sparse desert planting, omits the green markers, and gives the putting surfaces a conspicuously ringed treatment.",
+            "scores": {
+              "naturalGreens": 3,
+              "visualClarity": 4,
+              "geometryFidelity": 3,
+              "styleConsistency": 4,
+              "environmentFidelity": 2
+            },
+            "approved": false,
+            "candidate": 0,
+            "reviewKind": "artwork-environment-v2",
+            "environment": "palmSprings"
+          },
+          "responseID": "resp_0a6c7f208dc8b43b016ade51aadb1087d2959ffb7777bf49da"
+        }
+      ],
+      "approved": false,
+      "decisionKey": "f049715643a0a83bc8c565169bf2b3f92b5140444e1ec8693219ef88b0b0ef1d",
+      "artworkSHA256": "29ba877d09b7f8147865d2a37e85e7c1c7959a2ab1dddf3ce42ad3413a3d4de2",
+      "geometrySHA256": "aa09068bc9e13bfd91ea20667ba698c318ea9ae425332d6efeb08553145cfb2e",
+      "geometryEncoding": "studio-stable-json-v1"
+    },
+    "decisionKey": "f049715643a0a83bc8c565169bf2b3f92b5140444e1ec8693219ef88b0b0ef1d",
+    "artworkSHA256": "29ba877d09b7f8147865d2a37e85e7c1c7959a2ab1dddf3ce42ad3413a3d4de2",
+    "geometrySHA256": "f3160b6403a3e7c38d7253bdff70ea32f26e1d0700e6a5730c959157c14c15bc",
+    "acceptedFindings": [
+      "f049715643a0a83bc8c565169bf2b3f92b5140444e1ec8693219ef88b0b0ef1d:0",
+      "f049715643a0a83bc8c565169bf2b3f92b5140444e1ec8693219ef88b0b0ef1d:1",
+      "f049715643a0a83bc8c565169bf2b3f92b5140444e1ec8693219ef88b0b0ef1d:2",
+      "f049715643a0a83bc8c565169bf2b3f92b5140444e1ec8693219ef88b0b0ef1d:3",
+      "f049715643a0a83bc8c565169bf2b3f92b5140444e1ec8693219ef88b0b0ef1d:4",
+      "f049715643a0a83bc8c565169bf2b3f92b5140444e1ec8693219ef88b0b0ef1d:5",
+      "f049715643a0a83bc8c565169bf2b3f92b5140444e1ec8693219ef88b0b0ef1d:6"
+    ],
+    "sourceGeometrySHA256": "aa09068bc9e13bfd91ea20667ba698c318ea9ae425332d6efeb08553145cfb2e",
+    "approvedAt": "2026-10-25T19:15:42.382Z"
+  }
+}

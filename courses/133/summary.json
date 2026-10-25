@@ -1,101 +1,20 @@
 {
   "course": 133,
-  "geometrySHA256": "7b6cebf346c74243cc8a0c7de236775760d71ed07ea7f38163e08c33c1631dab",
-  "artworkSHA256": "48e24299447d4e1a27bcc514e605282d66f2ed8de2025d585f8f27d6048a75da",
+  "geometrySHA256": "da99707f3fd335c89af96c721e6a47deda5c6a39bf5b0e426232672b54ff6f58",
+  "artworkSHA256": "bcb44a4ad259cd72f847cb996518d24931fa029554fd8c0895d5b17b0da14c33",
+  "environment": "wooded",
+  "artworkStatus": "approved",
+  "artRulesVersion": "fairway-stripes-v4",
+  "artworkApproval": "human-override",
   "holes": [
     {
-      "bunkerCount": 6,
-      "fairwayArea": 27086.564103637003,
-      "par": 5,
-      "route": [
-        [
-          200,
-          40
-        ],
-        [
-          172.68454326813716,
-          407.4749345068362
-        ],
-        [
-          168.97956511014405,
-          640.309128275934
-        ]
-      ],
-      "simulatedShotsToGreen": 2,
-      "teeSafeOptions": 48,
-      "type": "reachablePar5",
-      "waterArea": 11057.953135181531,
-      "yards": 500
+      "par": 4
     },
     {
-      "bunkerCount": 3,
-      "fairwayArea": 7244.492196379399,
-      "par": 3,
-      "route": [
-        [
-          200,
-          40
-        ],
-        [
-          202.80786033426023,
-          253.69855809672364
-        ]
-      ],
-      "simulatedShotsToGreen": 1,
-      "teeSafeOptions": 49,
-      "type": "straight",
-      "waterArea": 6173.173116387075,
-      "yards": 171
+      "par": 5
     },
     {
-      "bunkerCount": 5,
-      "fairwayArea": 9354.388105095446,
-      "par": 4,
-      "route": [
-        [
-          200,
-          40
-        ],
-        [
-          176.07122260077125,
-          371.4349537370877
-        ],
-        [
-          193.30044054881623,
-          461.9000325930959
-        ]
-      ],
-      "simulatedShotsToGreen": 2,
-      "teeSafeOptions": 24,
-      "type": "narrowCorridor",
-      "waterArea": 0,
-      "yards": 350
+      "par": 3
     }
-  ],
-  "review": {
-    "candidate": 36,
-    "approved": true,
-    "scores": {
-      "strategy": 4,
-      "withinRoundVariety": 5,
-      "acrossDaysVariety": 4,
-      "fairDifficulty": 4
-    },
-    "reason": "Candidate 36 passes as supplied. Hole 1 is a 500-yard reachable par 5 with substantial water on the right of play. The broad landing corridor supports a staged route away from the shoreline, while advancing aggressively offers a chance to reach in two. Hole 2 is a 171-yard straight par 3 with water left/front of the target; the hazard adds consequence without forcing an unreasonable carry, and the tee-safe options support a playable shot. Hole 3 is a dry 350-yard narrow-corridor par 4. Its fairway bunkers and limited safe tee options make placement important, but the preview retains a usable corridor and a clear route to the green. The reachable par 5, short water-influenced par 3, and tighter dry par 4 give the round strong internal contrast. Across-days variety is good: water has featured often in recent rounds, but this set avoids an island green and uses a narrow-corridor finisher rather than repeating the more common punchbowl or dogleg patterns. The 24 safe tee options on Hole 3 merit attention, but the landing route remains playable; the other holes have 48 and 49 safe options. No geometry edits are needed.",
-    "edits": []
-  },
-  "artworkStatus": "approved",
-  "artworkReview": {
-    "reviewKind": "artwork-only-v1",
-    "candidate": 36,
-    "approved": true,
-    "scores": {
-      "geometryFidelity": 5,
-      "naturalGreens": 4,
-      "visualClarity": 4,
-      "styleConsistency": 5
-    },
-    "reason": "The illustration preserves the numbered tee-to-green routing, mapped fairways, water, bunkers, walking connectors, and property silhouette. Main fairways have clear transverse mowing bands, greens read as continuous putting surfaces, and the wooded rendering is consistent with the supplied style reference.",
-    "issues": []
-  }
+  ]
 }
