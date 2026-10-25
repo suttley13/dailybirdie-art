@@ -1,0 +1,28 @@
+{
+  "responseID": "resp_0ee1d4b2271e90b0016addfe8fe56487d29e48feed9c2bcdfd",
+  "model": "gpt-6-luna",
+  "usage": {
+    "input_tokens": 53557,
+    "input_tokens_details": {
+      "cache_write_tokens": 53554,
+      "cached_tokens": 0
+    },
+    "output_tokens": 2208,
+    "output_tokens_details": {
+      "reasoning_tokens": 1899
+    },
+    "total_tokens": 55765
+  },
+  "review": {
+    "candidate": 25,
+    "approved": true,
+    "scores": {
+      "strategy": 4,
+      "withinRoundVariety": 5,
+      "acrossDaysVariety": 4,
+      "fairDifficulty": 4
+    },
+    "reason": "Candidate 25 passes as supplied. Hole 1 is a dry 382-yard split-fairway par 4. The generous landing area and divided routes allow a safe placement choice, while the bunker and central tree group give the lines some consequence; its 138 simulated safe options make it forgiving, but not unreasonable. Hole 2 is a 498-yard dogleg-right par 5 with one substantial lake along the left side of play. The broad route supports staged play away from the shoreline, while an aggressive line offers a chance to advance farther at greater risk. Hole 3 is a dry 205-yard par 3 with fairway and greenside bunkers; its 51 safe options and clear target support a demanding but playable distance-control test. The par-4/5/3 sequence, contrasting routes, and single water-influenced hole give strong variety within the round. Recent rounds often include multiple water hazards and island-style carries, so limiting water to one hole and pairing it with a dry split fairway and dry par 3 offers sufficient freshness. Simulated shots-to-green of 2/2/1 and the visible landing areas support fair difficulty; the two-shot par-5 simulation indicates an aggressive opportunity, not a guarantee. No geometry edits are needed.",
+    "edits": []
+  }
+}

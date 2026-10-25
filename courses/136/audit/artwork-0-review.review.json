@@ -1,0 +1,66 @@
+{
+  "responseID": "resp_02ea629533308667016addfebd891c87d2bd7d3eadbbb18c67",
+  "model": "gpt-6-luna",
+  "usage": {
+    "input_tokens": 8452,
+    "input_tokens_details": {
+      "cache_write_tokens": 8449,
+      "cached_tokens": 0
+    },
+    "output_tokens": 2524,
+    "output_tokens_details": {
+      "reasoning_tokens": 2166
+    },
+    "total_tokens": 10976
+  },
+  "review": {
+    "reviewKind": "artwork-only-v1",
+    "candidate": 25,
+    "approved": false,
+    "scores": {
+      "geometryFidelity": 5,
+      "naturalGreens": 4,
+      "visualClarity": 4,
+      "styleConsistency": 2
+    },
+    "reason": "The mapped course features, greens, hazards, tees, and walking connectors are represented clearly. However, the main fairways do not have the required edge-to-edge transverse mowing bands: their visible striping runs lengthwise or follows a fixed direction instead of rotating across the fairway.",
+    "issues": [
+      {
+        "code": "style",
+        "hole": 1,
+        "detail": "The broad upper fairway\u2019s alternating bands run roughly along its long axis rather than crossing from edge to edge perpendicular to play.",
+        "consequence": "At thumbnail scale, the fairway reads as lengthwise-striped rather than having the required transverse mowing pattern.",
+        "region": {
+          "x": 0.23,
+          "y": 0.13,
+          "width": 0.4,
+          "height": 0.28
+        }
+      },
+      {
+        "code": "style",
+        "hole": 2,
+        "detail": "The bent fairway\u2019s stripes appear lengthwise or fixed-direction through the bend instead of fanning smoothly across its changing width.",
+        "consequence": "The mowing pattern does not visually follow the fairway\u2019s local direction and shape.",
+        "region": {
+          "x": 0.51,
+          "y": 0.29,
+          "width": 0.29,
+          "height": 0.47
+        }
+      },
+      {
+        "code": "style",
+        "hole": 3,
+        "detail": "The diagonal fairway\u2019s visible bands follow its length rather than crossing the footprint edge to edge.",
+        "consequence": "The small fairway section lacks the required clear transverse pattern for this main fairway.",
+        "region": {
+          "x": 0.21,
+          "y": 0.53,
+          "width": 0.15,
+          "height": 0.21
+        }
+      }
+    ]
+  }
+}
