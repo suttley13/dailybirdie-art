@@ -1,0 +1,772 @@
+{
+  "course": 134,
+  "date": "2026-10-28",
+  "name": "Fox Creek",
+  "studioJob": "6e4b54a2-a496-40b8-9703-e56133013a09",
+  "draftFingerprint": "b4b795b3bec84283808ef3334a9d4b2ac4260fba6fa0c7e909af8ea771c8c25f",
+  "approval": {
+    "approvedAt": "2026-10-26T01:08:24.639Z",
+    "playtested": true,
+    "humanApproved": true,
+    "retainedOlder": {
+      "legacy": {
+        "course": 134,
+        "artworkSHA256": "8610afc66f2a0e1bd3a41a0fdd26392949a605fea4da4e84d879f1f6cba14107",
+        "schemaVersion": 1,
+        "geometrySHA256": "42e9e73ae25084b4e4ff8db83a16a9273d2545fe8b8b2824de32065f860b55e6",
+        "artRulesVersion": "fairway-stripes-v4"
+      },
+      "pairMatchupID": null
+    },
+    "artworkOverrides": [
+      {
+        "policy": "studio-human-artwork-v1",
+        "reason": "The illustration broadly preserves the mapped layout and uses clear, continuous natural putting surfaces. It does not make every mapped fairway section read as striped fairway at thumbnail scale, particularly the small sections on holes 2 and 3. The greens read as continuous natural putting surfaces and the wooded rendering fits the reference, but the illustration materially changes mapped fairways and water and shows a misleading walking connection.",
+        "review": {
+          "issues": [
+            {
+              "code": "style",
+              "hole": 2,
+              "detail": "The small detached fairway section near G2 appears as mostly uniform turf, without clearly visible edge-to-edge alternating mowing stripes.",
+              "region": {
+                "x": 0.29,
+                "y": 0.25,
+                "width": 0.1,
+                "height": 0.08
+              },
+              "consequence": "In the overview, this mapped fairway patch may be mistaken for common grass rather than a distinct fairway section."
+            },
+            {
+              "code": "style",
+              "hole": 3,
+              "detail": "The short mapped fairway section approaching G3 does not read as visibly striped fairway at thumbnail scale.",
+              "region": {
+                "x": 0.41,
+                "y": 0.18,
+                "width": 0.1,
+                "height": 0.09
+              },
+              "consequence": "The overview does not clearly distinguish this fairway section from the surrounding turf."
+            },
+            {
+              "code": "geometry-mismatch",
+              "hole": 1,
+              "detail": "A broad, continuous horizontal fairway has been added across the lower part of the course; it is not one of the mapped fairway sections. Keep only the mapped fairway patches and their footprints.",
+              "region": {
+                "x": 0.24,
+                "y": 0.6,
+                "width": 0.7,
+                "height": 0.2
+              },
+              "consequence": "The overview depicts a large playable fairway area that does not exist in the approved geometry."
+            },
+            {
+              "code": "invented-hazard",
+              "hole": 0,
+              "detail": "The narrow mapped southern waterway has been rendered as a very large lake spanning most of the lower property.",
+              "region": {
+                "x": 0.18,
+                "y": 0.77,
+                "width": 0.75,
+                "height": 0.21
+              },
+              "consequence": "The overview substantially misrepresents the mapped water hazard and the amount of land around it."
+            },
+            {
+              "code": "invented-connection",
+              "hole": 1,
+              "detail": "A prominent tan walking path runs from the G1 area toward T1. Preserve the mapped G1-to-T2 walking connector instead; do not depict this G1-to-T1 connection.",
+              "region": {
+                "x": 0.69,
+                "y": 0.36,
+                "width": 0.12,
+                "height": 0.32
+              },
+              "consequence": "Viewers are shown a walking connection that is not in the diagram, while the intended connector is not clearly represented."
+            }
+          ],
+          "reason": "The illustration broadly preserves the mapped layout and uses clear, continuous natural putting surfaces. It does not make every mapped fairway section read as striped fairway at thumbnail scale, particularly the small sections on holes 2 and 3. The greens read as continuous natural putting surfaces and the wooded rendering fits the reference, but the illustration materially changes mapped fairways and water and shows a misleading walking connection.",
+          "reviews": [
+            {
+              "review": {
+                "issues": [
+                  {
+                    "code": "style",
+                    "hole": 2,
+                    "detail": "The small detached fairway section near G2 appears as mostly uniform turf, without clearly visible edge-to-edge alternating mowing stripes.",
+                    "region": {
+                      "x": 0.29,
+                      "y": 0.25,
+                      "width": 0.1,
+                      "height": 0.08
+                    },
+                    "consequence": "In the overview, this mapped fairway patch may be mistaken for common grass rather than a distinct fairway section."
+                  },
+                  {
+                    "code": "style",
+                    "hole": 3,
+                    "detail": "The short mapped fairway section approaching G3 does not read as visibly striped fairway at thumbnail scale.",
+                    "region": {
+                      "x": 0.41,
+                      "y": 0.18,
+                      "width": 0.1,
+                      "height": 0.09
+                    },
+                    "consequence": "The overview does not clearly distinguish this fairway section from the surrounding turf."
+                  }
+                ],
+                "reason": "The illustration broadly preserves the mapped layout and uses clear, continuous natural putting surfaces. It does not make every mapped fairway section read as striped fairway at thumbnail scale, particularly the small sections on holes 2 and 3.",
+                "scores": {
+                  "naturalGreens": 5,
+                  "visualClarity": 4,
+                  "geometryFidelity": 4,
+                  "styleConsistency": 3
+                },
+                "approved": false,
+                "candidate": 0,
+                "reviewKind": "artwork-only-v1"
+              },
+              "responseID": "resp_0b4b67f48a06e104016adea632bfd087d2869c89b5c9eee961"
+            },
+            {
+              "review": {
+                "issues": [
+                  {
+                    "code": "geometry-mismatch",
+                    "hole": 1,
+                    "detail": "A broad, continuous horizontal fairway has been added across the lower part of the course; it is not one of the mapped fairway sections. Keep only the mapped fairway patches and their footprints.",
+                    "region": {
+                      "x": 0.24,
+                      "y": 0.6,
+                      "width": 0.7,
+                      "height": 0.2
+                    },
+                    "consequence": "The overview depicts a large playable fairway area that does not exist in the approved geometry."
+                  },
+                  {
+                    "code": "invented-hazard",
+                    "hole": 0,
+                    "detail": "The narrow mapped southern waterway has been rendered as a very large lake spanning most of the lower property.",
+                    "region": {
+                      "x": 0.18,
+                      "y": 0.77,
+                      "width": 0.75,
+                      "height": 0.21
+                    },
+                    "consequence": "The overview substantially misrepresents the mapped water hazard and the amount of land around it."
+                  },
+                  {
+                    "code": "invented-connection",
+                    "hole": 1,
+                    "detail": "A prominent tan walking path runs from the G1 area toward T1. Preserve the mapped G1-to-T2 walking connector instead; do not depict this G1-to-T1 connection.",
+                    "region": {
+                      "x": 0.69,
+                      "y": 0.36,
+                      "width": 0.12,
+                      "height": 0.32
+                    },
+                    "consequence": "Viewers are shown a walking connection that is not in the diagram, while the intended connector is not clearly represented."
+                  }
+                ],
+                "reason": "The greens read as continuous natural putting surfaces and the wooded rendering fits the reference, but the illustration materially changes mapped fairways and water and shows a misleading walking connection.",
+                "scores": {
+                  "naturalGreens": 4,
+                  "visualClarity": 2,
+                  "geometryFidelity": 1,
+                  "styleConsistency": 4
+                },
+                "approved": false,
+                "candidate": 0,
+                "reviewKind": "artwork-only-v1"
+              },
+              "responseID": "resp_0f61e521f0a897a6016adea632cd8487d2bd0153412ca4868b"
+            }
+          ],
+          "approved": false,
+          "editCheck": {
+            "before": {
+              "jobID": "14e1871e-1f65-47b0-9f74-fdd04ba5c376",
+              "artworkSHA256": "57658d229fba1af46ab88bec326b9ac0a79302a307b2251dab60954077bf1261"
+            },
+            "prompt": "Add yellow golf flags on each of the three greens",
+            "reason": "Three small yellow flags are visible on the greens, while the course layout and other features remain substantially intact.",
+            "status": "passed",
+            "artworkSHA256": "25d48c5215ca95124d30aaa7249a585b2b36c1bef8e7e74db29a1972e3b5dcfc"
+          },
+          "decisionKey": "ff96d80456cfddc297c84508b0c8c7e6138f3447ec0ff26fe11e980ccb842a41",
+          "artworkSHA256": "25d48c5215ca95124d30aaa7249a585b2b36c1bef8e7e74db29a1972e3b5dcfc",
+          "geometrySHA256": "b2162b018240b84ce2606166a97fd44248e04290b7e2d55289ecaa722c6d2e1d",
+          "geometryEncoding": "studio-stable-json-v1"
+        },
+        "decisionKey": "ff96d80456cfddc297c84508b0c8c7e6138f3447ec0ff26fe11e980ccb842a41",
+        "artworkSHA256": "25d48c5215ca95124d30aaa7249a585b2b36c1bef8e7e74db29a1972e3b5dcfc",
+        "geometrySHA256": "b2162b018240b84ce2606166a97fd44248e04290b7e2d55289ecaa722c6d2e1d",
+        "acceptedFindings": [
+          "ff96d80456cfddc297c84508b0c8c7e6138f3447ec0ff26fe11e980ccb842a41:0",
+          "ff96d80456cfddc297c84508b0c8c7e6138f3447ec0ff26fe11e980ccb842a41:1",
+          "ff96d80456cfddc297c84508b0c8c7e6138f3447ec0ff26fe11e980ccb842a41:2",
+          "ff96d80456cfddc297c84508b0c8c7e6138f3447ec0ff26fe11e980ccb842a41:3",
+          "ff96d80456cfddc297c84508b0c8c7e6138f3447ec0ff26fe11e980ccb842a41:4"
+        ]
+      },
+      {
+        "policy": "studio-human-artwork-v1",
+        "reason": "The illustration has clear, natural-looking greens and a polished wooded style, but it adds a separate green-like surface near Hole 2 and shows a walking connector in the wrong place while omitting the mapped G1-to-T2 connector. The illustration is clear and broadly matches the supplied wooded style, but it does not preserve the mapped walking connection between G1 and T2 and adds a conspicuous route from G1 toward the east edge of the property.",
+        "review": {
+          "issues": [
+            {
+              "code": "geometry-mismatch",
+              "hole": 2,
+              "detail": "A distinct round putting-green-like surface appears just southwest of the mapped G2; the diagram shows only a small fairway patch there, not another green.",
+              "region": {
+                "x": 0.3,
+                "y": 0.29,
+                "width": 0.08,
+                "height": 0.1
+              },
+              "consequence": "Viewers may read this as an additional hole or an incorrect location for a putting green."
+            },
+            {
+              "code": "invented-connection",
+              "hole": 0,
+              "detail": "A tan walking path is drawn from the G1 area toward the lower-right tee area, but the mapped connector is G1 to T2. The G1-to-T2 connector is not shown.",
+              "region": {
+                "x": 0.58,
+                "y": 0.39,
+                "width": 0.3,
+                "height": 0.34
+              },
+              "consequence": "The overview suggests the wrong walking connection between holes and omits the mapped route."
+            },
+            {
+              "code": "geometry-mismatch",
+              "hole": 1,
+              "detail": "The mapped G1-to-T2 walking connector is absent; the illustration instead shows a tan route leaving G1 toward the far eastern property edge.",
+              "region": {
+                "x": 0.59,
+                "y": 0.35,
+                "width": 0.39,
+                "height": 0.35
+              },
+              "consequence": "The overview misrepresents how the holes connect and may lead viewers to believe the mapped transition to T2 is elsewhere."
+            },
+            {
+              "code": "invented-connection",
+              "hole": 1,
+              "detail": "A tan path runs from the G1 area southeast toward the eastern edge, rather than following the specified G1-to-T2 walking connection.",
+              "region": {
+                "x": 0.61,
+                "y": 0.37,
+                "width": 0.36,
+                "height": 0.33
+              },
+              "consequence": "Viewers may read this unmapped route as an approved walking connection."
+            }
+          ],
+          "reason": "The illustration has clear, natural-looking greens and a polished wooded style, but it adds a separate green-like surface near Hole 2 and shows a walking connector in the wrong place while omitting the mapped G1-to-T2 connector. The illustration is clear and broadly matches the supplied wooded style, but it does not preserve the mapped walking connection between G1 and T2 and adds a conspicuous route from G1 toward the east edge of the property.",
+          "reviews": [
+            {
+              "review": {
+                "issues": [
+                  {
+                    "code": "geometry-mismatch",
+                    "hole": 2,
+                    "detail": "A distinct round putting-green-like surface appears just southwest of the mapped G2; the diagram shows only a small fairway patch there, not another green.",
+                    "region": {
+                      "x": 0.3,
+                      "y": 0.29,
+                      "width": 0.08,
+                      "height": 0.1
+                    },
+                    "consequence": "Viewers may read this as an additional hole or an incorrect location for a putting green."
+                  },
+                  {
+                    "code": "invented-connection",
+                    "hole": 0,
+                    "detail": "A tan walking path is drawn from the G1 area toward the lower-right tee area, but the mapped connector is G1 to T2. The G1-to-T2 connector is not shown.",
+                    "region": {
+                      "x": 0.58,
+                      "y": 0.39,
+                      "width": 0.3,
+                      "height": 0.34
+                    },
+                    "consequence": "The overview suggests the wrong walking connection between holes and omits the mapped route."
+                  }
+                ],
+                "reason": "The illustration has clear, natural-looking greens and a polished wooded style, but it adds a separate green-like surface near Hole 2 and shows a walking connector in the wrong place while omitting the mapped G1-to-T2 connector.",
+                "scores": {
+                  "naturalGreens": 4,
+                  "visualClarity": 4,
+                  "geometryFidelity": 2,
+                  "styleConsistency": 4
+                },
+                "approved": false,
+                "candidate": 0,
+                "reviewKind": "artwork-only-v1"
+              },
+              "responseID": "resp_0175c940ab9b7238016ade8f66d3d487d2bde954857e2d799c"
+            },
+            {
+              "review": {
+                "issues": [
+                  {
+                    "code": "geometry-mismatch",
+                    "hole": 1,
+                    "detail": "The mapped G1-to-T2 walking connector is absent; the illustration instead shows a tan route leaving G1 toward the far eastern property edge.",
+                    "region": {
+                      "x": 0.59,
+                      "y": 0.35,
+                      "width": 0.39,
+                      "height": 0.35
+                    },
+                    "consequence": "The overview misrepresents how the holes connect and may lead viewers to believe the mapped transition to T2 is elsewhere."
+                  },
+                  {
+                    "code": "invented-connection",
+                    "hole": 1,
+                    "detail": "A tan path runs from the G1 area southeast toward the eastern edge, rather than following the specified G1-to-T2 walking connection.",
+                    "region": {
+                      "x": 0.61,
+                      "y": 0.37,
+                      "width": 0.36,
+                      "height": 0.33
+                    },
+                    "consequence": "Viewers may read this unmapped route as an approved walking connection."
+                  }
+                ],
+                "reason": "The illustration is clear and broadly matches the supplied wooded style, but it does not preserve the mapped walking connection between G1 and T2 and adds a conspicuous route from G1 toward the east edge of the property.",
+                "scores": {
+                  "naturalGreens": 4,
+                  "visualClarity": 4,
+                  "geometryFidelity": 3,
+                  "styleConsistency": 4
+                },
+                "approved": false,
+                "candidate": 0,
+                "reviewKind": "artwork-only-v1"
+              },
+              "responseID": "resp_01ed0e1d98b85bc5016ade8f66ead887d2b93a5ad3290ccd26"
+            }
+          ],
+          "approved": false,
+          "decisionKey": "7d5faedbd93d4149a8bc622cfbc8ced2c7014311332c409524cf06eab469d1ab",
+          "artworkSHA256": "7ffc2c86f770cc4fd34dd71e98609283a579d8a6bb36061798b31a0030d2dcfc",
+          "geometrySHA256": "6f9587508d1c798b59c1f73be58558dab18667362f56aa1a89c08f0d1c548e10",
+          "geometryEncoding": "studio-stable-json-v1"
+        },
+        "decisionKey": "7d5faedbd93d4149a8bc622cfbc8ced2c7014311332c409524cf06eab469d1ab",
+        "artworkSHA256": "7ffc2c86f770cc4fd34dd71e98609283a579d8a6bb36061798b31a0030d2dcfc",
+        "geometrySHA256": "6f9587508d1c798b59c1f73be58558dab18667362f56aa1a89c08f0d1c548e10",
+        "acceptedFindings": [
+          "7d5faedbd93d4149a8bc622cfbc8ced2c7014311332c409524cf06eab469d1ab:0",
+          "7d5faedbd93d4149a8bc622cfbc8ced2c7014311332c409524cf06eab469d1ab:1",
+          "7d5faedbd93d4149a8bc622cfbc8ced2c7014311332c409524cf06eab469d1ab:2",
+          "7d5faedbd93d4149a8bc622cfbc8ced2c7014311332c409524cf06eab469d1ab:3"
+        ]
+      }
+    ],
+    "compatibilityApproved": true
+  },
+  "artworkStatus": "approved",
+  "geometrySHA256": "cee7337c1134173535350de0d191f033c153d4ac7d9457b869bdf93b95aeb5c4",
+  "artworkSHA256": "25d48c5215ca95124d30aaa7249a585b2b36c1bef8e7e74db29a1972e3b5dcfc",
+  "artworkReview": {
+    "issues": [
+      {
+        "code": "style",
+        "hole": 2,
+        "detail": "The small detached fairway section near G2 appears as mostly uniform turf, without clearly visible edge-to-edge alternating mowing stripes.",
+        "region": {
+          "x": 0.29,
+          "y": 0.25,
+          "width": 0.1,
+          "height": 0.08
+        },
+        "consequence": "In the overview, this mapped fairway patch may be mistaken for common grass rather than a distinct fairway section."
+      },
+      {
+        "code": "style",
+        "hole": 3,
+        "detail": "The short mapped fairway section approaching G3 does not read as visibly striped fairway at thumbnail scale.",
+        "region": {
+          "x": 0.41,
+          "y": 0.18,
+          "width": 0.1,
+          "height": 0.09
+        },
+        "consequence": "The overview does not clearly distinguish this fairway section from the surrounding turf."
+      },
+      {
+        "code": "geometry-mismatch",
+        "hole": 1,
+        "detail": "A broad, continuous horizontal fairway has been added across the lower part of the course; it is not one of the mapped fairway sections. Keep only the mapped fairway patches and their footprints.",
+        "region": {
+          "x": 0.24,
+          "y": 0.6,
+          "width": 0.7,
+          "height": 0.2
+        },
+        "consequence": "The overview depicts a large playable fairway area that does not exist in the approved geometry."
+      },
+      {
+        "code": "invented-hazard",
+        "hole": 0,
+        "detail": "The narrow mapped southern waterway has been rendered as a very large lake spanning most of the lower property.",
+        "region": {
+          "x": 0.18,
+          "y": 0.77,
+          "width": 0.75,
+          "height": 0.21
+        },
+        "consequence": "The overview substantially misrepresents the mapped water hazard and the amount of land around it."
+      },
+      {
+        "code": "invented-connection",
+        "hole": 1,
+        "detail": "A prominent tan walking path runs from the G1 area toward T1. Preserve the mapped G1-to-T2 walking connector instead; do not depict this G1-to-T1 connection.",
+        "region": {
+          "x": 0.69,
+          "y": 0.36,
+          "width": 0.12,
+          "height": 0.32
+        },
+        "consequence": "Viewers are shown a walking connection that is not in the diagram, while the intended connector is not clearly represented."
+      }
+    ],
+    "reason": "The illustration broadly preserves the mapped layout and uses clear, continuous natural putting surfaces. It does not make every mapped fairway section read as striped fairway at thumbnail scale, particularly the small sections on holes 2 and 3. The greens read as continuous natural putting surfaces and the wooded rendering fits the reference, but the illustration materially changes mapped fairways and water and shows a misleading walking connection.",
+    "reviews": [
+      {
+        "review": {
+          "issues": [
+            {
+              "code": "style",
+              "hole": 2,
+              "detail": "The small detached fairway section near G2 appears as mostly uniform turf, without clearly visible edge-to-edge alternating mowing stripes.",
+              "region": {
+                "x": 0.29,
+                "y": 0.25,
+                "width": 0.1,
+                "height": 0.08
+              },
+              "consequence": "In the overview, this mapped fairway patch may be mistaken for common grass rather than a distinct fairway section."
+            },
+            {
+              "code": "style",
+              "hole": 3,
+              "detail": "The short mapped fairway section approaching G3 does not read as visibly striped fairway at thumbnail scale.",
+              "region": {
+                "x": 0.41,
+                "y": 0.18,
+                "width": 0.1,
+                "height": 0.09
+              },
+              "consequence": "The overview does not clearly distinguish this fairway section from the surrounding turf."
+            }
+          ],
+          "reason": "The illustration broadly preserves the mapped layout and uses clear, continuous natural putting surfaces. It does not make every mapped fairway section read as striped fairway at thumbnail scale, particularly the small sections on holes 2 and 3.",
+          "scores": {
+            "naturalGreens": 5,
+            "visualClarity": 4,
+            "geometryFidelity": 4,
+            "styleConsistency": 3
+          },
+          "approved": false,
+          "candidate": 0,
+          "reviewKind": "artwork-only-v1"
+        },
+        "responseID": "resp_0b4b67f48a06e104016adea632bfd087d2869c89b5c9eee961"
+      },
+      {
+        "review": {
+          "issues": [
+            {
+              "code": "geometry-mismatch",
+              "hole": 1,
+              "detail": "A broad, continuous horizontal fairway has been added across the lower part of the course; it is not one of the mapped fairway sections. Keep only the mapped fairway patches and their footprints.",
+              "region": {
+                "x": 0.24,
+                "y": 0.6,
+                "width": 0.7,
+                "height": 0.2
+              },
+              "consequence": "The overview depicts a large playable fairway area that does not exist in the approved geometry."
+            },
+            {
+              "code": "invented-hazard",
+              "hole": 0,
+              "detail": "The narrow mapped southern waterway has been rendered as a very large lake spanning most of the lower property.",
+              "region": {
+                "x": 0.18,
+                "y": 0.77,
+                "width": 0.75,
+                "height": 0.21
+              },
+              "consequence": "The overview substantially misrepresents the mapped water hazard and the amount of land around it."
+            },
+            {
+              "code": "invented-connection",
+              "hole": 1,
+              "detail": "A prominent tan walking path runs from the G1 area toward T1. Preserve the mapped G1-to-T2 walking connector instead; do not depict this G1-to-T1 connection.",
+              "region": {
+                "x": 0.69,
+                "y": 0.36,
+                "width": 0.12,
+                "height": 0.32
+              },
+              "consequence": "Viewers are shown a walking connection that is not in the diagram, while the intended connector is not clearly represented."
+            }
+          ],
+          "reason": "The greens read as continuous natural putting surfaces and the wooded rendering fits the reference, but the illustration materially changes mapped fairways and water and shows a misleading walking connection.",
+          "scores": {
+            "naturalGreens": 4,
+            "visualClarity": 2,
+            "geometryFidelity": 1,
+            "styleConsistency": 4
+          },
+          "approved": false,
+          "candidate": 0,
+          "reviewKind": "artwork-only-v1"
+        },
+        "responseID": "resp_0f61e521f0a897a6016adea632cd8487d2bd0153412ca4868b"
+      }
+    ],
+    "approved": false,
+    "editCheck": {
+      "before": {
+        "jobID": "14e1871e-1f65-47b0-9f74-fdd04ba5c376",
+        "artworkSHA256": "57658d229fba1af46ab88bec326b9ac0a79302a307b2251dab60954077bf1261"
+      },
+      "prompt": "Add yellow golf flags on each of the three greens",
+      "reason": "Three small yellow flags are visible on the greens, while the course layout and other features remain substantially intact.",
+      "status": "passed",
+      "artworkSHA256": "25d48c5215ca95124d30aaa7249a585b2b36c1bef8e7e74db29a1972e3b5dcfc"
+    },
+    "artworkSHA256": "25d48c5215ca95124d30aaa7249a585b2b36c1bef8e7e74db29a1972e3b5dcfc",
+    "geometrySHA256": "b2162b018240b84ce2606166a97fd44248e04290b7e2d55289ecaa722c6d2e1d",
+    "geometryEncoding": "studio-stable-json-v1",
+    "decisionKey": "ff96d80456cfddc297c84508b0c8c7e6138f3447ec0ff26fe11e980ccb842a41"
+  },
+  "compatibility": {
+    "policy": "studio-compatible-v1",
+    "holes": [
+      {
+        "sections": 2,
+        "addedFairwayYards": 51.79948488379927,
+        "addedFairwayPercent": 0.38064552503394045,
+        "waterReshaped": false,
+        "addedFairway": [
+          [
+            [
+              [
+                276.582824524603,
+                418.7682159748194
+              ],
+              [
+                276.6201069254628,
+                418.6782082970259
+              ],
+              [
+                276.6227104527348,
+                418.6748153142261
+              ],
+              [
+                287.1783633888825,
+                393.9785406239286
+              ],
+              [
+                288.406391215555,
+                394.6721036595685
+              ],
+              [
+                288.4974651042784,
+                394.70890009740543
+              ],
+              [
+                277.9665303519543,
+                419.3473434947223
+              ],
+              [
+                277.9303543797454,
+                419.434680017461
+              ],
+              [
+                277.8837815052238,
+                419.4953749692237
+              ],
+              [
+                277.2752306526041,
+                419.05644415724345
+              ]
+            ]
+          ],
+          [
+            [
+              [
+                294.8674975445478,
+                375.98884634470744
+              ],
+              [
+                303.56904354064835,
+                355.63048751556755
+              ],
+              [
+                303.60521951285716,
+                355.543150992829
+              ],
+              [
+                303.60960099072753,
+                355.5374409396978
+              ],
+              [
+                304.26034323999846,
+                355.92138685304656
+              ],
+              [
+                304.9539057251391,
+                356.2068233423813
+              ],
+              [
+                304.91546696713976,
+                356.2996227132641
+              ],
+              [
+                304.91286343986775,
+                356.3030156960639
+              ],
+              [
+                295.7823462723731,
+                377.66500641297534
+              ],
+              [
+                295.4143301179625,
+                377.1630038460279
+              ]
+            ]
+          ]
+        ]
+      },
+      {
+        "sections": 2,
+        "addedFairwayYards": 55.00656806468922,
+        "addedFairwayPercent": 0.6409111679693316,
+        "waterReshaped": false,
+        "addedFairway": [
+          [
+            [
+              [
+                193.0699795647854,
+                422.0613691855326
+              ],
+              [
+                193.07846897936363,
+                421.9968856798353
+              ],
+              [
+                193.09390460917686,
+                421.9596207729965
+              ],
+              [
+                200.51982772197084,
+                391.251586208238
+              ],
+              [
+                201.858904029976,
+                392.0958364724143
+              ],
+              [
+                194.54753681853737,
+                422.3301539618699
+              ],
+              [
+                194.53986012261484,
+                422.3884642564955
+              ],
+              [
+                194.49888993326394,
+                422.4873750432795
+              ],
+              [
+                193.80916455098924,
+                422.1926749681654
+              ]
+            ]
+          ],
+          [
+            [
+              [
+                203.74908374331847,
+                377.89781132856683
+              ],
+              [
+                208.70093994450613,
+                357.4206572998913
+              ],
+              [
+                208.7082650206189,
+                357.3650178228817
+              ],
+              [
+                209.43931221205426,
+                357.55813629359574
+              ],
+              [
+                210.18704648643225,
+                357.6245037854188
+              ],
+              [
+                210.17000778367986,
+                357.75392558192584
+              ],
+              [
+                210.15457215386664,
+                357.79119048876464
+              ],
+              [
+                205.10049869984712,
+                378.69103821967735
+              ],
+              [
+                203.77789561596177,
+                377.9109094776194
+              ]
+            ]
+          ]
+        ]
+      },
+      {
+        "sections": 1,
+        "addedFairwayYards": 0,
+        "addedFairwayPercent": 0,
+        "waterReshaped": false,
+        "addedFairway": []
+      }
+    ]
+  },
+  "holes": [
+    {
+      "par": 5,
+      "lengthYards": 553,
+      "type": "straight"
+    },
+    {
+      "par": 4,
+      "lengthYards": 457,
+      "type": "straight"
+    },
+    {
+      "par": 3,
+      "lengthYards": 155,
+      "type": "straight"
+    }
+  ],
+  "retainedOlder": {
+    "legacy": {
+      "course": 134,
+      "artworkSHA256": "8610afc66f2a0e1bd3a41a0fdd26392949a605fea4da4e84d879f1f6cba14107",
+      "schemaVersion": 1,
+      "geometrySHA256": "42e9e73ae25084b4e4ff8db83a16a9273d2545fe8b8b2824de32065f860b55e6",
+      "artRulesVersion": "fairway-stripes-v4"
+    },
+    "pairMatchupID": null
+  }
+}
