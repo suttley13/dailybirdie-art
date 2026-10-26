@@ -1,0 +1,131 @@
+{
+  "schemaVersion": 1,
+  "course": 137,
+  "outcome": "published",
+  "error": null,
+  "startedAt": 1793026812,
+  "seconds": 148.73,
+  "reviewModel": "gpt-6-luna",
+  "reviewEffort": "medium",
+  "imageModel": "gpt-image-2.5-sunburst",
+  "candidatesRequested": 50,
+  "calls": [
+    {
+      "phase": "selection",
+      "kind": "review",
+      "model": "gpt-6-luna",
+      "effort": "medium",
+      "responseID": "resp_028fc280438195c4016adf6b08cdc887d2989c67a14d8d4b22",
+      "usage": {
+        "input_tokens": 54849,
+        "input_tokens_details": {
+          "cache_write_tokens": 54846,
+          "cached_tokens": 0
+        },
+        "output_tokens": 2288,
+        "output_tokens_details": {
+          "reasoning_tokens": 1975
+        },
+        "total_tokens": 57137
+      },
+      "seconds": 27.48,
+      "imageCount": 8,
+      "approved": true,
+      "reviewKind": "course-design",
+      "reason": "Candidate 3 passes as supplied. Hole 1 is a 198-yard island-green par 3 with a substantial surrounding lake and a 3-wood tee club. The 6/9 playable dispersion makes this a demanding carry, but the target and safe options keep it credible rather than an exact-shot trap. Hole 2 is a dry 391-yard double dogleg par 4: its two bends reward shaping the tee shot and positioning for the approach, with all nine dispersion samples playable. Hole 3 is a 381-yard split-fairway par 4 with substantial water on the left/front side of play. Its broad landing space and 8/9 playable samples preserve a dry route while giving players a meaningful choice about how closely to challenge the hazard. The island carry, turning placement hole, and split-fairway shoreline hole offer distinct strategies and hazards within the round. Island greens and water recur in recent rounds, so novelty is good rather than exceptional; this combination of a forced carry, dry double dogleg, and broad split-fairway finish is sufficiently distinct. The challenging opener is balanced by playable later holes, supporting fair difficulty without making the round routine. Geometry facts confirm water on holes 1 and 3 and none on hole 2. No edits are needed.",
+      "issues": [],
+      "edits": [],
+      "scores": {
+        "strategy": 4,
+        "withinRoundVariety": 5,
+        "acrossDaysVariety": 4,
+        "fairDifficulty": 4
+      }
+    },
+    {
+      "phase": "artwork-0",
+      "kind": "image",
+      "model": "gpt-image-2.5-sunburst",
+      "usage": {
+        "input_tokens": 4429,
+        "input_tokens_details": {
+          "image_tokens": 2863,
+          "text_tokens": 1566
+        },
+        "output_tokens": 343,
+        "output_tokens_details": {
+          "image_tokens": 343,
+          "text_tokens": 0
+        },
+        "total_tokens": 4772
+      },
+      "seconds": 21.87
+    },
+    {
+      "phase": "artwork-0-review",
+      "kind": "review",
+      "model": "gpt-6-luna",
+      "effort": "medium",
+      "responseID": "resp_04e8ffccaaf3b310016adf6b3a088087d29d4ee14ceba328fe",
+      "usage": {
+        "input_tokens": 8246,
+        "input_tokens_details": {
+          "cache_write_tokens": 8243,
+          "cached_tokens": 0
+        },
+        "output_tokens": 2350,
+        "output_tokens_details": {
+          "reasoning_tokens": 2227
+        },
+        "total_tokens": 10596
+      },
+      "seconds": 38.05,
+      "imageCount": 3,
+      "approved": true,
+      "reviewKind": "artwork-only-v1",
+      "reason": "The illustration preserves the numbered tee-to-green layout, mapped walking connectors, fairway footprints, hazards, and property silhouette. All mapped fairway sections show visible mowing stripes, and the greens read as continuous natural surfaces with restrained edge transitions. The wooded rendering is consistent with the reference while keeping the principal playing corridors legible.",
+      "issues": [],
+      "edits": [],
+      "scores": {
+        "geometryFidelity": 5,
+        "naturalGreens": 4,
+        "visualClarity": 4,
+        "styleConsistency": 5
+      }
+    },
+    {
+      "phase": "artwork-0-final",
+      "kind": "review",
+      "model": "gpt-6-luna",
+      "effort": "medium",
+      "responseID": "resp_070644ea039dff4f016adf6b60a8f087d29a3393153e0006b1",
+      "usage": {
+        "input_tokens": 8246,
+        "input_tokens_details": {
+          "cache_write_tokens": 6892,
+          "cached_tokens": 1351
+        },
+        "output_tokens": 2993,
+        "output_tokens_details": {
+          "reasoning_tokens": 2876
+        },
+        "total_tokens": 11239
+      },
+      "seconds": 48.5,
+      "imageCount": 3,
+      "approved": true,
+      "reviewKind": "artwork-only-v1",
+      "reason": "The numbered tees, greens, fairway footprints, mapped water, bunkers, and both walking connectors read consistently with the authoritative diagram. Greens appear as continuous natural putting surfaces, and all fairway sections have visible stripes. The wooded illustration matches the reference style without obstructing the course overview.",
+      "issues": [],
+      "edits": [],
+      "scores": {
+        "geometryFidelity": 5,
+        "naturalGreens": 5,
+        "visualClarity": 4,
+        "styleConsistency": 5
+      }
+    }
+  ],
+  "artworkStatus": "approved",
+  "artworkFailure": null
+}

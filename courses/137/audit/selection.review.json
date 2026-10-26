@@ -1,0 +1,28 @@
+{
+  "responseID": "resp_028fc280438195c4016adf6b08cdc887d2989c67a14d8d4b22",
+  "model": "gpt-6-luna",
+  "usage": {
+    "input_tokens": 54849,
+    "input_tokens_details": {
+      "cache_write_tokens": 54846,
+      "cached_tokens": 0
+    },
+    "output_tokens": 2288,
+    "output_tokens_details": {
+      "reasoning_tokens": 1975
+    },
+    "total_tokens": 57137
+  },
+  "review": {
+    "candidate": 3,
+    "approved": true,
+    "scores": {
+      "strategy": 4,
+      "withinRoundVariety": 5,
+      "acrossDaysVariety": 4,
+      "fairDifficulty": 4
+    },
+    "reason": "Candidate 3 passes as supplied. Hole 1 is a 198-yard island-green par 3 with a substantial surrounding lake and a 3-wood tee club. The 6/9 playable dispersion makes this a demanding carry, but the target and safe options keep it credible rather than an exact-shot trap. Hole 2 is a dry 391-yard double dogleg par 4: its two bends reward shaping the tee shot and positioning for the approach, with all nine dispersion samples playable. Hole 3 is a 381-yard split-fairway par 4 with substantial water on the left/front side of play. Its broad landing space and 8/9 playable samples preserve a dry route while giving players a meaningful choice about how closely to challenge the hazard. The island carry, turning placement hole, and split-fairway shoreline hole offer distinct strategies and hazards within the round. Island greens and water recur in recent rounds, so novelty is good rather than exceptional; this combination of a forced carry, dry double dogleg, and broad split-fairway finish is sufficiently distinct. The challenging opener is balanced by playable later holes, supporting fair difficulty without making the round routine. Geometry facts confirm water on holes 1 and 3 and none on hole 2. No edits are needed.",
+    "edits": []
+  }
+}

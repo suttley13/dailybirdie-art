@@ -1,0 +1,9 @@
+{
+  "attempts": 0,
+  "maxAttempts": 5,
+  "repeatedIssueLimit": 3,
+  "bestFile": null,
+  "stopReason": null,
+  "acceptedFile": "artwork-0.jpg",
+  "reviewsOfAcceptedImage": 2
+}
