@@ -1,0 +1,29 @@
+{
+  "responseID": "resp_0e1e9917a12c5ff8016ae0b2ab9e9087d2b029f3ea3883fae9",
+  "model": "gpt-6-luna",
+  "usage": {
+    "input_tokens": 8405,
+    "input_tokens_details": {
+      "cache_write_tokens": 7051,
+      "cached_tokens": 1351
+    },
+    "output_tokens": 3007,
+    "output_tokens_details": {
+      "reasoning_tokens": 2880
+    },
+    "total_tokens": 11412
+  },
+  "review": {
+    "reviewKind": "artwork-only-v1",
+    "candidate": 17,
+    "approved": true,
+    "scores": {
+      "geometryFidelity": 4,
+      "naturalGreens": 4,
+      "visualClarity": 4,
+      "styleConsistency": 5
+    },
+    "reason": "The three numbered tee-to-green relationships, mapped lake, fairway footprints, walking connectors, tees, and hazards are represented clearly. Fairways have visible edge-to-edge mowing stripes, the greens read as single continuous putting surfaces with restrained edge transitions, and the wooded treatment is consistent with the reference. Framing is usable with normal white margins.",
+    "issues": []
+  }
+}

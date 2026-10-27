@@ -1,0 +1,42 @@
+{
+  "responseID": "resp_0c34370bc581a293016ae0b1e3ff9487d2a3412d5593c96cee",
+  "model": "gpt-6-luna",
+  "usage": {
+    "input_tokens": 8408,
+    "input_tokens_details": {
+      "cache_write_tokens": 8405,
+      "cached_tokens": 0
+    },
+    "output_tokens": 3342,
+    "output_tokens_details": {
+      "reasoning_tokens": 3100
+    },
+    "total_tokens": 11750
+  },
+  "review": {
+    "reviewKind": "artwork-only-v1",
+    "candidate": 17,
+    "approved": false,
+    "scores": {
+      "geometryFidelity": 5,
+      "naturalGreens": 4,
+      "visualClarity": 4,
+      "styleConsistency": 3
+    },
+    "reason": "The mapped property, fairways, greens, hazards, tees and walking connectors are represented clearly. The greens read as continuous putting surfaces. However, the fairways do not show the required clear, transverse mowing bands that follow their local direction and bends.",
+    "issues": [
+      {
+        "code": "style",
+        "hole": 0,
+        "detail": "Across all three holes, the fairway mowing reads mainly as a checkerboard or lengthwise texture rather than distinct lighter and darker bands crossing edge-to-edge perpendicular to each fairway\u2019s direction. This is especially apparent on Hole 1\u2019s narrow vertical fairway; the top and lower fairways also lack clear bands that rotate with their bends.",
+        "consequence": "At overview scale, the fairways do not read with the required striped mowing pattern, making their distinct turf treatment less clear.",
+        "region": {
+          "x": 0.15,
+          "y": 0.1,
+          "width": 0.66,
+          "height": 0.72
+        }
+      }
+    ]
+  }
+}

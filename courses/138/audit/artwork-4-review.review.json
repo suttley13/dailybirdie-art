@@ -1,0 +1,29 @@
+{
+  "responseID": "resp_0d7efbadc04f41b7016ae0b3092e5087d2b41a99063235f22b",
+  "model": "gpt-6-luna",
+  "usage": {
+    "input_tokens": 8408,
+    "input_tokens_details": {
+      "cache_write_tokens": 7054,
+      "cached_tokens": 1351
+    },
+    "output_tokens": 2364,
+    "output_tokens_details": {
+      "reasoning_tokens": 2251
+    },
+    "total_tokens": 10772
+  },
+  "review": {
+    "reviewKind": "artwork-only-v1",
+    "candidate": 17,
+    "approved": true,
+    "scores": {
+      "geometryFidelity": 5,
+      "naturalGreens": 4,
+      "visualClarity": 5,
+      "styleConsistency": 5
+    },
+    "reason": "The illustration preserves the numbered tee-to-green layout, mapped hazards, lake, walking connectors, fairway footprints, and property silhouette. Each fairway has clearly visible stripes, the greens read as continuous putting surfaces, and the wooded rendering is clear and consistent with the reference.",
+    "issues": []
+  }
+}

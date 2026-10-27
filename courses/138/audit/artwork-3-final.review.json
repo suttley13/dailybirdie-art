@@ -1,0 +1,78 @@
+{
+  "responseID": "resp_084ec6de43f64f05016ae0b2ccd4b487d2a5a9d9918b83c7ce",
+  "model": "gpt-6-luna",
+  "usage": {
+    "input_tokens": 8405,
+    "input_tokens_details": {
+      "cache_write_tokens": 7051,
+      "cached_tokens": 1351
+    },
+    "output_tokens": 3024,
+    "output_tokens_details": {
+      "reasoning_tokens": 2588
+    },
+    "total_tokens": 11429
+  },
+  "review": {
+    "reviewKind": "artwork-only-v1",
+    "candidate": 17,
+    "approved": false,
+    "scores": {
+      "geometryFidelity": 4,
+      "naturalGreens": 3,
+      "visualClarity": 4,
+      "styleConsistency": 4
+    },
+    "reason": "The mapped fairways, greens, lake, bunkers, tees, and walking connectors are present, and the fairways have clear stripes. However, the tee-to-landing corridor for hole 2 is obstructed by added trees, and all three greens read as ringed platforms rather than single continuous natural putting surfaces.",
+    "issues": [
+      {
+        "code": "clarity",
+        "hole": 2,
+        "detail": "Added tree crowns sit between T2 and the start of hole 2's upper fairway, obstructing the broad tee-to-first-landing corridor.",
+        "consequence": "The overview makes the tee shot's route to its first landing area appear blocked.",
+        "region": {
+          "x": 0.14,
+          "y": 0.08,
+          "width": 0.07,
+          "height": 0.08
+        }
+      },
+      {
+        "code": "green-treatment",
+        "hole": 1,
+        "detail": "The putting surface is surrounded by a prominent dark, shadowed rim that makes it read as a raised, ringed platform.",
+        "consequence": "The green appears as a separate inset disc rather than one continuous natural putting surface.",
+        "region": {
+          "x": 0.16,
+          "y": 0.21,
+          "width": 0.08,
+          "height": 0.13
+        }
+      },
+      {
+        "code": "green-treatment",
+        "hole": 2,
+        "detail": "The putting surface has a prominent dark, shadowed rim around its perimeter.",
+        "consequence": "The green appears as a ringed platform rather than one continuous natural putting surface.",
+        "region": {
+          "x": 0.8,
+          "y": 0.3,
+          "width": 0.08,
+          "height": 0.13
+        }
+      },
+      {
+        "code": "green-treatment",
+        "hole": 3,
+        "detail": "The putting surface has a prominent dark, shadowed rim around its perimeter.",
+        "consequence": "The green appears as a ringed platform rather than one continuous natural putting surface.",
+        "region": {
+          "x": 0.27,
+          "y": 0.68,
+          "width": 0.09,
+          "height": 0.14
+        }
+      }
+    ]
+  }
+}

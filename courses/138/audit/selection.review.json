@@ -1,0 +1,28 @@
+{
+  "responseID": "resp_00719265796d2eb8016ae0b1afb81887d2921536e613c04b53",
+  "model": "gpt-6-luna",
+  "usage": {
+    "input_tokens": 54655,
+    "input_tokens_details": {
+      "cache_write_tokens": 54652,
+      "cached_tokens": 0
+    },
+    "output_tokens": 2568,
+    "output_tokens_details": {
+      "reasoning_tokens": 2272
+    },
+    "total_tokens": 57223
+  },
+  "review": {
+    "candidate": 17,
+    "approved": true,
+    "scores": {
+      "strategy": 4,
+      "withinRoundVariety": 5,
+      "acrossDaysVariety": 4,
+      "fairDifficulty": 4
+    },
+    "reason": "Candidate 17 passes as supplied. Hole 1 is a 212-yard par 3 with a substantial water hazard to the right/front of play and a 3-wood tee shot. The target remains reachable, while the water makes line and distance matter. Hole 2 is a dry 571-yard par 5 with a distinct left-then-right route, fairway bunkers and a credible staged-play option; the simulated three shots to green keep it from reading as an automatic scoring hole. Hole 3 is a dry 449-yard par 4 with a broad fairway and a more direct route, providing a less demanding contrast after the long par 5. The par-3/5/4 sequence and contrast between a water-influenced target, a bending three-shot hole and a dry long par 4 give the round strong internal variety. Recent rounds include long par 3s and long par 5s, but this combination, water placement and sequence are sufficiently distinct. Dispersion probes show playable tee outcomes on all three holes, with recoverable misses; the first hole\u2019s water carry and the par 5\u2019s length and bends provide a challenging but fair round. No geometry edits are needed.",
+    "edits": []
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "responseID": "resp_07757ccb3c2b65b0016ae0b241bd7487d288766f8a8b35cadb",
+  "model": "gpt-6-luna",
+  "usage": {
+    "input_tokens": 8407,
+    "input_tokens_details": {
+      "cache_write_tokens": 7053,
+      "cached_tokens": 1351
+    },
+    "output_tokens": 2196,
+    "output_tokens_details": {
+      "reasoning_tokens": 1997
+    },
+    "total_tokens": 10603
+  },
+  "review": {
+    "reviewKind": "artwork-only-v1",
+    "candidate": 17,
+    "approved": false,
+    "scores": {
+      "geometryFidelity": 5,
+      "naturalGreens": 5,
+      "visualClarity": 5,
+      "styleConsistency": 3
+    },
+    "reason": "The mapped course layout, hazards, connectors, tees, greens and lake are represented clearly. The small vertical fairway section for Hole 1 reads as a checkerboard rather than clearly visible transverse mowing stripes.",
+    "issues": [
+      {
+        "code": "style",
+        "hole": 1,
+        "detail": "The vertical fairway patch left of the lake has a checkerboard pattern instead of distinct alternating bands crossing the fairway edge-to-edge, perpendicular to its local direction of play.",
+        "consequence": "At overview scale, this patch does not read as striped fairway and is visually inconsistent with the other fairway sections.",
+        "region": {
+          "x": 0.167,
+          "y": 0.356,
+          "width": 0.069,
+          "height": 0.29
+        }
+      }
+    ]
+  }
+}

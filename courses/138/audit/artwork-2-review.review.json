@@ -1,0 +1,37 @@
+{
+  "responseID": "resp_01a49f9ed21be55c016ae0b274a23087d2ac08f5a14643cb49",
+  "model": "gpt-6-luna",
+  "usage": {
+    "input_tokens": 8408,
+    "input_tokens_details": {
+      "cache_write_tokens": 7054,
+      "cached_tokens": 1351
+    },
+    "output_tokens": 2723,
+    "output_tokens_details": {
+      "reasoning_tokens": 2533
+    },
+    "total_tokens": 11131
+  },
+  "review": {
+    "reviewKind": "artwork-only-v1",
+    "candidate": 17,
+    "approved": false,
+    "scores": {
+      "geometryFidelity": 5,
+      "naturalGreens": 3,
+      "visualClarity": 4,
+      "styleConsistency": 4
+    },
+    "reason": "The course layout, mapped hazards, water, tees, walking connectors, and striped fairways are represented clearly. The putting greens have a conspicuous inset-disc and ringed treatment that does not read as one continuous natural close-mown surface.",
+    "issues": [
+      {
+        "code": "green-treatment",
+        "hole": 0,
+        "detail": "All three greens are presented as bright inset discs surrounded by broad, strongly contrasting dark rings, giving them a bullseye or raised-platform appearance rather than a single continuous natural sage/apple-green surface.",
+        "consequence": "Viewers may read each green as a separate inner target or tier, making the putting surfaces appear unlike the specified natural greens.",
+        "region": null
+      }
+    ]
+  }
+}
