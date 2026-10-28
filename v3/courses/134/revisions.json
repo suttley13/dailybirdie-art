@@ -1,0 +1,18 @@
+{
+  "schemaVersion": 1,
+  "course": 134,
+  "date": "2026-10-28",
+  "currentGeometrySHA256": "2321292faeb45c9e8a1246fffaa6dd331f5fcdad43dc5fedfa95a2cb9568a093",
+  "currentArtworkSHA256": "3fa9eb6e28164e6abd283f26a2b1e9fc80e7a0a24c0c3f13f2f7ce75e4ea9eef",
+  "previousSources": [
+    {
+      "schemaVersion": 3,
+      "course": 134,
+      "gameplayRules": "studio-v1",
+      "geometrySHA256": "cee7337c1134173535350de0d191f033c153d4ac7d9457b869bdf93b95aeb5c4",
+      "artworkSHA256": "25d48c5215ca95124d30aaa7249a585b2b36c1bef8e7e74db29a1972e3b5dcfc",
+      "artRulesVersion": "course-studio-artwork-1",
+      "minimumAppVersion": "1.8"
+    }
+  ]
+}
