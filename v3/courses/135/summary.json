@@ -1,0 +1,488 @@
+{
+  "course": 135,
+  "date": "2026-10-29",
+  "name": "Blackwater Bay",
+  "studioJob": "40747451-4c03-4290-af3e-869ec05c84aa",
+  "draftFingerprint": "e3b785a5af99aa9e4409271254cf5c44e4f2a94cae518925f8b188ecb45b57c9",
+  "approval": {
+    "approvedAt": "2026-10-28T12:55:19.299Z",
+    "playtested": true,
+    "humanApproved": true,
+    "retainedOlder": {
+      "legacy": {
+        "course": 135,
+        "artworkSHA256": "b4c9ebde4bee264290934c6be5da7b1e87cc372b622f77d6d9a50994e054f74f",
+        "schemaVersion": 1,
+        "geometrySHA256": "24c1a246aeda9ebc877dc72c277a7c7525d57f57e350c3a81134b5fd46c37899",
+        "artRulesVersion": "fairway-stripes-v4"
+      },
+      "pairMatchupID": null
+    },
+    "liveReplacement": {
+      "closesAt": "2026-10-30T12:00:00.000Z",
+      "roundsPlayed": 0
+    },
+    "artworkOverrides": [
+      {
+        "policy": "studio-human-artwork-v1",
+        "reason": "The course silhouette, fairways, greens, and overall wooded illustration are clearly rendered, but the walking connectors do not match the numbered diagram: the G1-to-T2 connector is missing, and a visible path instead links the G2 island to T2. The main fairways, greens, water, and property outline are represented clearly, and the greens read as continuous natural surfaces. A mapped short fairway patch lacks visible mowing stripes, so the artwork does not meet the fairway treatment requirement.",
+        "review": {
+          "issues": [
+            {
+              "code": "geometry-mismatch",
+              "hole": 1,
+              "detail": "The mapped walking connector from G1 to T2 is not visible in the illustration.",
+              "region": {
+                "x": 0.39,
+                "y": 0.27,
+                "width": 0.36,
+                "height": 0.19
+              },
+              "consequence": "The overview leaves the intended walking link from the first green to the second tee unclear."
+            },
+            {
+              "code": "invented-connection",
+              "hole": 2,
+              "detail": "A tan walking path runs from the G2 island toward T2; the mapped connector is from G2 to T3, not T2.",
+              "region": {
+                "x": 0.69,
+                "y": 0.42,
+                "width": 0.08,
+                "height": 0.27
+              },
+              "consequence": "The overview misidentifies which tee the island green connects to and depicts an extra route."
+            },
+            {
+              "code": "style",
+              "hole": 2,
+              "detail": "The small mapped fairway patch near the tee-to-island area is uniformly green and has no clearly visible alternating mowing stripes.",
+              "region": {
+                "x": 0.69,
+                "y": 0.49,
+                "width": 0.05,
+                "height": 0.04
+              },
+              "consequence": "At thumbnail size, this patch may read as rough or another green rather than as fairway."
+            }
+          ],
+          "reason": "The course silhouette, fairways, greens, and overall wooded illustration are clearly rendered, but the walking connectors do not match the numbered diagram: the G1-to-T2 connector is missing, and a visible path instead links the G2 island to T2. The main fairways, greens, water, and property outline are represented clearly, and the greens read as continuous natural surfaces. A mapped short fairway patch lacks visible mowing stripes, so the artwork does not meet the fairway treatment requirement.",
+          "reviews": [
+            {
+              "review": {
+                "issues": [
+                  {
+                    "code": "geometry-mismatch",
+                    "hole": 1,
+                    "detail": "The mapped walking connector from G1 to T2 is not visible in the illustration.",
+                    "region": {
+                      "x": 0.39,
+                      "y": 0.27,
+                      "width": 0.36,
+                      "height": 0.19
+                    },
+                    "consequence": "The overview leaves the intended walking link from the first green to the second tee unclear."
+                  },
+                  {
+                    "code": "invented-connection",
+                    "hole": 2,
+                    "detail": "A tan walking path runs from the G2 island toward T2; the mapped connector is from G2 to T3, not T2.",
+                    "region": {
+                      "x": 0.69,
+                      "y": 0.42,
+                      "width": 0.08,
+                      "height": 0.27
+                    },
+                    "consequence": "The overview misidentifies which tee the island green connects to and depicts an extra route."
+                  }
+                ],
+                "reason": "The course silhouette, fairways, greens, and overall wooded illustration are clearly rendered, but the walking connectors do not match the numbered diagram: the G1-to-T2 connector is missing, and a visible path instead links the G2 island to T2.",
+                "scores": {
+                  "naturalGreens": 4,
+                  "visualClarity": 4,
+                  "geometryFidelity": 3,
+                  "styleConsistency": 4
+                },
+                "approved": false,
+                "candidate": 0,
+                "reviewKind": "artwork-only-v1"
+              },
+              "responseID": "resp_0d8caf9a9d6495e2016ae1f04515bc87d1ae7bac3a4006ae74"
+            },
+            {
+              "review": {
+                "issues": [
+                  {
+                    "code": "style",
+                    "hole": 2,
+                    "detail": "The small mapped fairway patch near the tee-to-island area is uniformly green and has no clearly visible alternating mowing stripes.",
+                    "region": {
+                      "x": 0.69,
+                      "y": 0.49,
+                      "width": 0.05,
+                      "height": 0.04
+                    },
+                    "consequence": "At thumbnail size, this patch may read as rough or another green rather than as fairway."
+                  }
+                ],
+                "reason": "The main fairways, greens, water, and property outline are represented clearly, and the greens read as continuous natural surfaces. A mapped short fairway patch lacks visible mowing stripes, so the artwork does not meet the fairway treatment requirement.",
+                "scores": {
+                  "naturalGreens": 5,
+                  "visualClarity": 4,
+                  "geometryFidelity": 4,
+                  "styleConsistency": 3
+                },
+                "approved": false,
+                "candidate": 0,
+                "reviewKind": "artwork-only-v1"
+              },
+              "responseID": "resp_0eaf5211a4811310016ae1f045116c87d18deeebbedeadb22a"
+            }
+          ],
+          "approved": false,
+          "decisionKey": "3aab65f4183717b4e5465d5717018c0ee9fa327f9eb8cad7289f2d51b78221d2",
+          "artworkSHA256": "10fd7bdc67265cffc04016b2c4911f4f66c0161ff0985353437ee47ae2e37d00",
+          "geometrySHA256": "9e3dcb3c192eb2866b5b91ad54fe5f296da013cd2a47a9efa0e77869eae73a31",
+          "geometryEncoding": "studio-stable-json-v1"
+        },
+        "decisionKey": "3aab65f4183717b4e5465d5717018c0ee9fa327f9eb8cad7289f2d51b78221d2",
+        "artworkSHA256": "10fd7bdc67265cffc04016b2c4911f4f66c0161ff0985353437ee47ae2e37d00",
+        "geometrySHA256": "9e3dcb3c192eb2866b5b91ad54fe5f296da013cd2a47a9efa0e77869eae73a31",
+        "acceptedFindings": [
+          "3aab65f4183717b4e5465d5717018c0ee9fa327f9eb8cad7289f2d51b78221d2:0",
+          "3aab65f4183717b4e5465d5717018c0ee9fa327f9eb8cad7289f2d51b78221d2:1",
+          "3aab65f4183717b4e5465d5717018c0ee9fa327f9eb8cad7289f2d51b78221d2:2"
+        ]
+      },
+      {
+        "policy": "studio-human-artwork-v1",
+        "reason": "The major course features and property outline are recognizable, and the greens read as continuous natural surfaces. The current illustration adds a tee-to-tee path not shown in the diagram and leaves the small mapped Hole 2 fairway patch without clear mowing stripes. The overall course silhouette, major hazards, and most fairways are well represented, but the overview adds a tee-to-tee path and leaves the small Hole 2 fairway patch unstriped.",
+        "review": {
+          "issues": [
+            {
+              "code": "invented-connection",
+              "hole": 0,
+              "detail": "A tan walking path visibly connects the two tee areas at center-right. The diagram specifies walking connectors from G1 to T2 and G2 to T3, not a tee-to-tee connector.",
+              "region": {
+                "x": 0.64,
+                "y": 0.43,
+                "width": 0.1,
+                "height": 0.06
+              },
+              "consequence": "The overview suggests a walking connection between the tee areas that is not part of the supplied geometry."
+            },
+            {
+              "code": "style",
+              "hole": 2,
+              "detail": "The small mapped fairway patch near the center-right appears as uniform turf rather than showing clearly distinguishable alternating stripes at thumbnail scale.",
+              "region": {
+                "x": 0.65,
+                "y": 0.4,
+                "width": 0.035,
+                "height": 0.03
+              },
+              "consequence": "The patch is difficult to identify as fairway in the overview."
+            },
+            {
+              "code": "invented-connection",
+              "hole": 0,
+              "detail": "A tan path visibly links the T3 and T2 tee areas. The mapped walking connectors are G1-to-T2 and G2-to-T3, not a tee-to-tee route.",
+              "region": {
+                "x": 0.65,
+                "y": 0.43,
+                "width": 0.1,
+                "height": 0.06
+              },
+              "consequence": "The overview would show a misleading walking connection between the two tees."
+            },
+            {
+              "code": "style",
+              "hole": 2,
+              "detail": "The small detached fairway patch near T2 is uniformly colored instead of showing clearly visible alternating stripes.",
+              "region": {
+                "x": 0.67,
+                "y": 0.51,
+                "width": 0.06,
+                "height": 0.06
+              },
+              "consequence": "At thumbnail scale, the patch may not read as fairway and is inconsistent with the striped treatment of the other fairways."
+            }
+          ],
+          "reason": "The major course features and property outline are recognizable, and the greens read as continuous natural surfaces. The current illustration adds a tee-to-tee path not shown in the diagram and leaves the small mapped Hole 2 fairway patch without clear mowing stripes. The overall course silhouette, major hazards, and most fairways are well represented, but the overview adds a tee-to-tee path and leaves the small Hole 2 fairway patch unstriped.",
+          "reviews": [
+            {
+              "review": {
+                "issues": [
+                  {
+                    "code": "invented-connection",
+                    "hole": 0,
+                    "detail": "A tan walking path visibly connects the two tee areas at center-right. The diagram specifies walking connectors from G1 to T2 and G2 to T3, not a tee-to-tee connector.",
+                    "region": {
+                      "x": 0.64,
+                      "y": 0.43,
+                      "width": 0.1,
+                      "height": 0.06
+                    },
+                    "consequence": "The overview suggests a walking connection between the tee areas that is not part of the supplied geometry."
+                  },
+                  {
+                    "code": "style",
+                    "hole": 2,
+                    "detail": "The small mapped fairway patch near the center-right appears as uniform turf rather than showing clearly distinguishable alternating stripes at thumbnail scale.",
+                    "region": {
+                      "x": 0.65,
+                      "y": 0.4,
+                      "width": 0.035,
+                      "height": 0.03
+                    },
+                    "consequence": "The patch is difficult to identify as fairway in the overview."
+                  }
+                ],
+                "reason": "The major course features and property outline are recognizable, and the greens read as continuous natural surfaces. The current illustration adds a tee-to-tee path not shown in the diagram and leaves the small mapped Hole 2 fairway patch without clear mowing stripes.",
+                "scores": {
+                  "naturalGreens": 5,
+                  "visualClarity": 4,
+                  "geometryFidelity": 3,
+                  "styleConsistency": 3
+                },
+                "approved": false,
+                "candidate": 0,
+                "reviewKind": "artwork-only-v1"
+              },
+              "responseID": "resp_07d9d804dc67b1e4016ae1f04abbe087d1aae998078f8d97e0"
+            },
+            {
+              "review": {
+                "issues": [
+                  {
+                    "code": "invented-connection",
+                    "hole": 0,
+                    "detail": "A tan path visibly links the T3 and T2 tee areas. The mapped walking connectors are G1-to-T2 and G2-to-T3, not a tee-to-tee route.",
+                    "region": {
+                      "x": 0.65,
+                      "y": 0.43,
+                      "width": 0.1,
+                      "height": 0.06
+                    },
+                    "consequence": "The overview would show a misleading walking connection between the two tees."
+                  },
+                  {
+                    "code": "style",
+                    "hole": 2,
+                    "detail": "The small detached fairway patch near T2 is uniformly colored instead of showing clearly visible alternating stripes.",
+                    "region": {
+                      "x": 0.67,
+                      "y": 0.51,
+                      "width": 0.06,
+                      "height": 0.06
+                    },
+                    "consequence": "At thumbnail scale, the patch may not read as fairway and is inconsistent with the striped treatment of the other fairways."
+                  }
+                ],
+                "reason": "The overall course silhouette, major hazards, and most fairways are well represented, but the overview adds a tee-to-tee path and leaves the small Hole 2 fairway patch unstriped.",
+                "scores": {
+                  "naturalGreens": 4,
+                  "visualClarity": 4,
+                  "geometryFidelity": 3,
+                  "styleConsistency": 3
+                },
+                "approved": false,
+                "candidate": 0,
+                "reviewKind": "artwork-only-v1"
+              },
+              "responseID": "resp_0e990b105e6ce8f9016ae1f04ac3b487d1b27a8ee0868e75ab"
+            }
+          ],
+          "approved": false,
+          "decisionKey": "25ce56444c43774bd8f498459c811892400eb27df59b44521d73312760c61fa6",
+          "artworkSHA256": "5478792cf3cf0f4005bb4071b54e17620ef82c281584c8632f0840ad25967399",
+          "geometrySHA256": "a3e5e4670426c4fc1d6ba2e72f0529a7d7945533b4a35aa7c469bb4c6bdde509",
+          "geometryEncoding": "studio-stable-json-v1"
+        },
+        "decisionKey": "25ce56444c43774bd8f498459c811892400eb27df59b44521d73312760c61fa6",
+        "artworkSHA256": "5478792cf3cf0f4005bb4071b54e17620ef82c281584c8632f0840ad25967399",
+        "geometrySHA256": "a3e5e4670426c4fc1d6ba2e72f0529a7d7945533b4a35aa7c469bb4c6bdde509",
+        "acceptedFindings": [
+          "25ce56444c43774bd8f498459c811892400eb27df59b44521d73312760c61fa6:0",
+          "25ce56444c43774bd8f498459c811892400eb27df59b44521d73312760c61fa6:1",
+          "25ce56444c43774bd8f498459c811892400eb27df59b44521d73312760c61fa6:2",
+          "25ce56444c43774bd8f498459c811892400eb27df59b44521d73312760c61fa6:3"
+        ]
+      }
+    ],
+    "compatibilityApproved": true
+  },
+  "artworkStatus": "approved",
+  "geometrySHA256": "e60b2e2eefa31e09837c37ac102b592687b3014cc7a503e31eeb616a59b33d4f",
+  "artworkSHA256": "10fd7bdc67265cffc04016b2c4911f4f66c0161ff0985353437ee47ae2e37d00",
+  "artworkReview": {
+    "issues": [
+      {
+        "code": "geometry-mismatch",
+        "hole": 1,
+        "detail": "The mapped walking connector from G1 to T2 is not visible in the illustration.",
+        "region": {
+          "x": 0.39,
+          "y": 0.27,
+          "width": 0.36,
+          "height": 0.19
+        },
+        "consequence": "The overview leaves the intended walking link from the first green to the second tee unclear."
+      },
+      {
+        "code": "invented-connection",
+        "hole": 2,
+        "detail": "A tan walking path runs from the G2 island toward T2; the mapped connector is from G2 to T3, not T2.",
+        "region": {
+          "x": 0.69,
+          "y": 0.42,
+          "width": 0.08,
+          "height": 0.27
+        },
+        "consequence": "The overview misidentifies which tee the island green connects to and depicts an extra route."
+      },
+      {
+        "code": "style",
+        "hole": 2,
+        "detail": "The small mapped fairway patch near the tee-to-island area is uniformly green and has no clearly visible alternating mowing stripes.",
+        "region": {
+          "x": 0.69,
+          "y": 0.49,
+          "width": 0.05,
+          "height": 0.04
+        },
+        "consequence": "At thumbnail size, this patch may read as rough or another green rather than as fairway."
+      }
+    ],
+    "reason": "The course silhouette, fairways, greens, and overall wooded illustration are clearly rendered, but the walking connectors do not match the numbered diagram: the G1-to-T2 connector is missing, and a visible path instead links the G2 island to T2. The main fairways, greens, water, and property outline are represented clearly, and the greens read as continuous natural surfaces. A mapped short fairway patch lacks visible mowing stripes, so the artwork does not meet the fairway treatment requirement.",
+    "reviews": [
+      {
+        "review": {
+          "issues": [
+            {
+              "code": "geometry-mismatch",
+              "hole": 1,
+              "detail": "The mapped walking connector from G1 to T2 is not visible in the illustration.",
+              "region": {
+                "x": 0.39,
+                "y": 0.27,
+                "width": 0.36,
+                "height": 0.19
+              },
+              "consequence": "The overview leaves the intended walking link from the first green to the second tee unclear."
+            },
+            {
+              "code": "invented-connection",
+              "hole": 2,
+              "detail": "A tan walking path runs from the G2 island toward T2; the mapped connector is from G2 to T3, not T2.",
+              "region": {
+                "x": 0.69,
+                "y": 0.42,
+                "width": 0.08,
+                "height": 0.27
+              },
+              "consequence": "The overview misidentifies which tee the island green connects to and depicts an extra route."
+            }
+          ],
+          "reason": "The course silhouette, fairways, greens, and overall wooded illustration are clearly rendered, but the walking connectors do not match the numbered diagram: the G1-to-T2 connector is missing, and a visible path instead links the G2 island to T2.",
+          "scores": {
+            "naturalGreens": 4,
+            "visualClarity": 4,
+            "geometryFidelity": 3,
+            "styleConsistency": 4
+          },
+          "approved": false,
+          "candidate": 0,
+          "reviewKind": "artwork-only-v1"
+        },
+        "responseID": "resp_0d8caf9a9d6495e2016ae1f04515bc87d1ae7bac3a4006ae74"
+      },
+      {
+        "review": {
+          "issues": [
+            {
+              "code": "style",
+              "hole": 2,
+              "detail": "The small mapped fairway patch near the tee-to-island area is uniformly green and has no clearly visible alternating mowing stripes.",
+              "region": {
+                "x": 0.69,
+                "y": 0.49,
+                "width": 0.05,
+                "height": 0.04
+              },
+              "consequence": "At thumbnail size, this patch may read as rough or another green rather than as fairway."
+            }
+          ],
+          "reason": "The main fairways, greens, water, and property outline are represented clearly, and the greens read as continuous natural surfaces. A mapped short fairway patch lacks visible mowing stripes, so the artwork does not meet the fairway treatment requirement.",
+          "scores": {
+            "naturalGreens": 5,
+            "visualClarity": 4,
+            "geometryFidelity": 4,
+            "styleConsistency": 3
+          },
+          "approved": false,
+          "candidate": 0,
+          "reviewKind": "artwork-only-v1"
+        },
+        "responseID": "resp_0eaf5211a4811310016ae1f045116c87d18deeebbedeadb22a"
+      }
+    ],
+    "approved": false,
+    "artworkSHA256": "10fd7bdc67265cffc04016b2c4911f4f66c0161ff0985353437ee47ae2e37d00",
+    "geometrySHA256": "9e3dcb3c192eb2866b5b91ad54fe5f296da013cd2a47a9efa0e77869eae73a31",
+    "geometryEncoding": "studio-stable-json-v1",
+    "decisionKey": "3aab65f4183717b4e5465d5717018c0ee9fa327f9eb8cad7289f2d51b78221d2"
+  },
+  "compatibility": {
+    "policy": "studio-compatible-v1",
+    "holes": [
+      {
+        "sections": 1,
+        "addedFairwayYards": 0,
+        "addedFairwayPercent": 0,
+        "waterReshaped": false,
+        "addedFairway": []
+      },
+      {
+        "sections": 1,
+        "addedFairwayYards": 0,
+        "addedFairwayPercent": 0,
+        "waterReshaped": false,
+        "addedFairway": []
+      },
+      {
+        "sections": 1,
+        "addedFairwayYards": 0,
+        "addedFairwayPercent": 0,
+        "waterReshaped": false,
+        "addedFairway": []
+      }
+    ]
+  },
+  "holes": [
+    {
+      "par": 4,
+      "lengthYards": 454,
+      "type": "straight"
+    },
+    {
+      "par": 3,
+      "lengthYards": 135,
+      "type": "straight"
+    },
+    {
+      "par": 5,
+      "lengthYards": 561,
+      "type": "straight"
+    }
+  ],
+  "retainedOlder": {
+    "legacy": {
+      "course": 135,
+      "artworkSHA256": "b4c9ebde4bee264290934c6be5da7b1e87cc372b622f77d6d9a50994e054f74f",
+      "schemaVersion": 1,
+      "geometrySHA256": "24c1a246aeda9ebc877dc72c277a7c7525d57f57e350c3a81134b5fd46c37899",
+      "artRulesVersion": "fairway-stripes-v4"
+    },
+    "pairMatchupID": null
+  }
+}
