@@ -1,0 +1,29 @@
+{
+  "responseID": "resp_04aea1263e29ae45016ae20e0b681c87d2b373abfc8da4d0c9",
+  "model": "gpt-6-luna",
+  "usage": {
+    "input_tokens": 8260,
+    "input_tokens_details": {
+      "cache_write_tokens": 8257,
+      "cached_tokens": 0
+    },
+    "output_tokens": 2287,
+    "output_tokens_details": {
+      "reasoning_tokens": 2176
+    },
+    "total_tokens": 10547
+  },
+  "review": {
+    "reviewKind": "artwork-only-v1",
+    "candidate": 36,
+    "approved": true,
+    "scores": {
+      "geometryFidelity": 4,
+      "naturalGreens": 4,
+      "visualClarity": 4,
+      "styleConsistency": 5
+    },
+    "reason": "The illustration preserves the numbered hole layout, mapped water and bunkers, fairway footprints, and the two walking connectors. All fairway sections show visible crosswise mowing stripes, the greens read as continuous surfaces, and the wooded rendering is consistent with the reference.",
+    "issues": []
+  }
+}

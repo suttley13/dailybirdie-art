@@ -1,0 +1,28 @@
+{
+  "responseID": "resp_081de75bcda3ed94016ae20dca099487d299f19ab78a38bb71",
+  "model": "gpt-6-luna",
+  "usage": {
+    "input_tokens": 54521,
+    "input_tokens_details": {
+      "cache_write_tokens": 54518,
+      "cached_tokens": 0
+    },
+    "output_tokens": 2808,
+    "output_tokens_details": {
+      "reasoning_tokens": 2481
+    },
+    "total_tokens": 57329
+  },
+  "review": {
+    "candidate": 36,
+    "approved": true,
+    "scores": {
+      "strategy": 4,
+      "withinRoundVariety": 4,
+      "acrossDaysVariety": 4,
+      "fairDifficulty": 4
+    },
+    "reason": "Candidate 36 passes as supplied. Hole 1 is a 449-yard split-fairway par 4 with a substantial lake to the left: the divided landing routes create a placement choice, and the water adds consequence without closing off play. Hole 2 is a dry 430-yard dogleg-right par 4. Its tighter tee-shot probe (6 of 9 playable, none safe) makes it the most demanding hole, but the playable outcomes indicate recoverable misses rather than an exact-shot trap. Hole 3 is a 171-yard punchbowl par 3 with water to the right/front and bunkers around the target; a measured center-green shot contrasts with a more demanding attack. The two long par 4s ask for different routes\u2014split-fairway positioning and a right-turning line\u2014before the shorter target hole. That gives solid, if not exceptional, variety within the round. Recent rounds repeatedly feature par 5s and doglegs, while this pair of distinct par 4s and a single wet par 3 offers a useful change of emphasis. The 2/2/1 simulated shots to green and the playable tee dispersion support a challenging, fair set. No geometry edits are needed.",
+    "edits": []
+  }
+}
