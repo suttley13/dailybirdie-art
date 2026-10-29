@@ -1,0 +1,253 @@
+{
+  "course": 136,
+  "date": "2026-10-30",
+  "name": "Oct 30 Candidate",
+  "studioJob": "f468ae99-cd9c-4914-94cc-155df13ff65c",
+  "draftFingerprint": "56f837e0c4167a7bc16bc6e3d50d346c97f3d6074d53ac8f7f5b03e35de69fc8",
+  "approval": {
+    "approvedAt": "2026-10-29T01:52:15.326Z",
+    "playtested": true,
+    "humanApproved": true,
+    "retainedOlder": {
+      "legacy": {
+        "course": 136,
+        "artworkSHA256": "d92fa492eb22d59e44cce7a9fa7cd07a269d806568c6cc9ea932caac8447e8fd",
+        "schemaVersion": 1,
+        "geometrySHA256": "fb6455ae38e3e3a02e569706238170056d9d34ffa67add7d69b58ae83030502b",
+        "artRulesVersion": "fairway-stripes-v4"
+      },
+      "pairMatchupID": null
+    },
+    "artworkOverrides": [
+      {
+        "policy": "studio-human-artwork-v1",
+        "reason": "The numbered tees, greens, fairways, mapped water and bunkers, property silhouette, and green-to-next-tee walking connectors correspond to the diagram. All mapped fairway sections have visible mowing stripes, and the greens read as continuous natural surfaces. The overview is clear and consistent with the supplied wooded illustration style. The mapped layout, green surfaces, and overall framing read clearly, but the fairway mowing treatment is predominantly checkerboard-like rather than clear transverse bands that follow each fairway\u2019s bends. This is visible on all three fairways and needs illustration-only correction.",
+        "review": {
+          "issues": [
+            {
+              "code": "style",
+              "hole": 1,
+              "detail": "The southern bent fairway has a checkerboard/grid appearance instead of clearly readable edge-to-edge transverse mowing bands that rotate with the fairway.",
+              "region": {
+                "x": 0.33,
+                "y": 0.6,
+                "width": 0.4,
+                "height": 0.22
+              },
+              "consequence": "At overview scale, the required fairway striping may read as a tiled texture rather than mowing bands."
+            },
+            {
+              "code": "style",
+              "hole": 2,
+              "detail": "The middle-left curved fairway uses grid-like checks; its bands do not read consistently as transverse stripes following the bends.",
+              "region": {
+                "x": 0.26,
+                "y": 0.37,
+                "width": 0.27,
+                "height": 0.25
+              },
+              "consequence": "The fairway\u2019s mowing pattern is less clear at thumbnail scale and does not convey the mapped curved corridor as cleanly."
+            },
+            {
+              "code": "style",
+              "hole": 3,
+              "detail": "The upper fairway also has a checkerboard pattern rather than distinct alternating bands crossing the fairway edge to edge.",
+              "region": {
+                "x": 0.41,
+                "y": 0.16,
+                "width": 0.34,
+                "height": 0.12
+              },
+              "consequence": "The required striping is visually diluted by the crosswise grid pattern."
+            }
+          ],
+          "reason": "The numbered tees, greens, fairways, mapped water and bunkers, property silhouette, and green-to-next-tee walking connectors correspond to the diagram. All mapped fairway sections have visible mowing stripes, and the greens read as continuous natural surfaces. The overview is clear and consistent with the supplied wooded illustration style. The mapped layout, green surfaces, and overall framing read clearly, but the fairway mowing treatment is predominantly checkerboard-like rather than clear transverse bands that follow each fairway\u2019s bends. This is visible on all three fairways and needs illustration-only correction.",
+          "reviews": [
+            {
+              "review": {
+                "issues": [],
+                "reason": "The numbered tees, greens, fairways, mapped water and bunkers, property silhouette, and green-to-next-tee walking connectors correspond to the diagram. All mapped fairway sections have visible mowing stripes, and the greens read as continuous natural surfaces. The overview is clear and consistent with the supplied wooded illustration style.",
+                "scores": {
+                  "naturalGreens": 4,
+                  "visualClarity": 4,
+                  "geometryFidelity": 5,
+                  "styleConsistency": 4
+                },
+                "approved": true,
+                "candidate": 0,
+                "reviewKind": "artwork-only-v1"
+              },
+              "responseID": "resp_05971b618dca5beb016ae2a6357ba487d2aa7e45133b3b985e"
+            },
+            {
+              "review": {
+                "issues": [
+                  {
+                    "code": "style",
+                    "hole": 1,
+                    "detail": "The southern bent fairway has a checkerboard/grid appearance instead of clearly readable edge-to-edge transverse mowing bands that rotate with the fairway.",
+                    "region": {
+                      "x": 0.33,
+                      "y": 0.6,
+                      "width": 0.4,
+                      "height": 0.22
+                    },
+                    "consequence": "At overview scale, the required fairway striping may read as a tiled texture rather than mowing bands."
+                  },
+                  {
+                    "code": "style",
+                    "hole": 2,
+                    "detail": "The middle-left curved fairway uses grid-like checks; its bands do not read consistently as transverse stripes following the bends.",
+                    "region": {
+                      "x": 0.26,
+                      "y": 0.37,
+                      "width": 0.27,
+                      "height": 0.25
+                    },
+                    "consequence": "The fairway\u2019s mowing pattern is less clear at thumbnail scale and does not convey the mapped curved corridor as cleanly."
+                  },
+                  {
+                    "code": "style",
+                    "hole": 3,
+                    "detail": "The upper fairway also has a checkerboard pattern rather than distinct alternating bands crossing the fairway edge to edge.",
+                    "region": {
+                      "x": 0.41,
+                      "y": 0.16,
+                      "width": 0.34,
+                      "height": 0.12
+                    },
+                    "consequence": "The required striping is visually diluted by the crosswise grid pattern."
+                  }
+                ],
+                "reason": "The mapped layout, green surfaces, and overall framing read clearly, but the fairway mowing treatment is predominantly checkerboard-like rather than clear transverse bands that follow each fairway\u2019s bends. This is visible on all three fairways and needs illustration-only correction.",
+                "scores": {
+                  "naturalGreens": 5,
+                  "visualClarity": 5,
+                  "geometryFidelity": 5,
+                  "styleConsistency": 3
+                },
+                "approved": false,
+                "candidate": 0,
+                "reviewKind": "artwork-only-v1"
+              },
+              "responseID": "resp_0ae06e0fd5e0e9a3016ae2a635893887d2b489c67d738b92bb"
+            }
+          ],
+          "approved": false,
+          "decisionKey": "bbcb40fa2af98950e0448eaedcf929d843967c94ca062cbab388cfb04c4b01f2",
+          "artworkSHA256": "8d2d6c37b6789985dd1ec637fc23bfda32b0170092b661917f58c330bef09dd5",
+          "geometrySHA256": "0a65cc5131efadf4113196ed40c768ed1a7f1b6e752a6636c94b68a453a47420",
+          "geometryEncoding": "studio-stable-json-v1"
+        },
+        "decisionKey": "bbcb40fa2af98950e0448eaedcf929d843967c94ca062cbab388cfb04c4b01f2",
+        "artworkSHA256": "8d2d6c37b6789985dd1ec637fc23bfda32b0170092b661917f58c330bef09dd5",
+        "geometrySHA256": "0a65cc5131efadf4113196ed40c768ed1a7f1b6e752a6636c94b68a453a47420",
+        "acceptedFindings": [
+          "bbcb40fa2af98950e0448eaedcf929d843967c94ca062cbab388cfb04c4b01f2:0",
+          "bbcb40fa2af98950e0448eaedcf929d843967c94ca062cbab388cfb04c4b01f2:1",
+          "bbcb40fa2af98950e0448eaedcf929d843967c94ca062cbab388cfb04c4b01f2:2"
+        ]
+      }
+    ],
+    "compatibilityApproved": true
+  },
+  "artworkStatus": "approved",
+  "geometrySHA256": "625f58cf758fef6cced31f72e109e2dae020ef3796f27eb07f71791e92b0e538",
+  "artworkSHA256": "b44448479c5403bb38c498e11d635cb52baf40fdfe4f6191a16747997cc0a1cf",
+  "artworkReview": {
+    "issues": [],
+    "reason": "The illustration preserves the mapped property silhouette, hole layouts, tees, greens, hazards and walking connectors. All three fairways have visible stripes, the greens read as continuous putting surfaces, and the overview is clear and consistent with the supplied wooded style. The illustration preserves the mapped property silhouette, fairway directions and bends, tees, greens, hazards, and the two walking connectors. Fairways have visible edge-to-edge mowing bands, and the greens read as continuous natural putting surfaces with restrained edge transitions. The wooded rendering is consistent with the reference and the overview remains clear.",
+    "reviews": [
+      {
+        "review": {
+          "issues": [],
+          "reason": "The illustration preserves the mapped property silhouette, hole layouts, tees, greens, hazards and walking connectors. All three fairways have visible stripes, the greens read as continuous putting surfaces, and the overview is clear and consistent with the supplied wooded style.",
+          "scores": {
+            "naturalGreens": 4,
+            "visualClarity": 4,
+            "geometryFidelity": 5,
+            "styleConsistency": 5
+          },
+          "approved": true,
+          "candidate": 0,
+          "reviewKind": "artwork-only-v1"
+        },
+        "responseID": "resp_052ff086c06649ed016ae2a63579d887d2aabbd6b78366ed19"
+      },
+      {
+        "review": {
+          "issues": [],
+          "reason": "The illustration preserves the mapped property silhouette, fairway directions and bends, tees, greens, hazards, and the two walking connectors. Fairways have visible edge-to-edge mowing bands, and the greens read as continuous natural putting surfaces with restrained edge transitions. The wooded rendering is consistent with the reference and the overview remains clear.",
+          "scores": {
+            "naturalGreens": 4,
+            "visualClarity": 4,
+            "geometryFidelity": 5,
+            "styleConsistency": 5
+          },
+          "approved": true,
+          "candidate": 0,
+          "reviewKind": "artwork-only-v1"
+        },
+        "responseID": "resp_0df326089ee6f170016ae2a6357b2887d28a0546546e2e9159"
+      }
+    ],
+    "approved": true,
+    "artworkSHA256": "b44448479c5403bb38c498e11d635cb52baf40fdfe4f6191a16747997cc0a1cf",
+    "geometrySHA256": "38017ca9e95c217c51d1898e13857c07f9211b86d52909ecddbdbd50e0a22ea5",
+    "geometryEncoding": "studio-stable-json-v1",
+    "decisionKey": "6824dc63108b61e3c03016e152c853de22c7e5ac01c55e4ff5436cb4fcdaecb9"
+  },
+  "compatibility": {
+    "policy": "studio-compatible-v1",
+    "holes": [
+      {
+        "sections": 1,
+        "addedFairwayYards": 0,
+        "addedFairwayPercent": 0,
+        "waterReshaped": false,
+        "addedFairway": []
+      },
+      {
+        "sections": 1,
+        "addedFairwayYards": 0,
+        "addedFairwayPercent": 0,
+        "waterReshaped": false,
+        "addedFairway": []
+      },
+      {
+        "sections": 1,
+        "addedFairwayYards": 0,
+        "addedFairwayPercent": 0,
+        "waterReshaped": false,
+        "addedFairway": []
+      }
+    ]
+  },
+  "holes": [
+    {
+      "par": 5,
+      "lengthYards": 561,
+      "type": "straight"
+    },
+    {
+      "par": 4,
+      "lengthYards": 340,
+      "type": "straight"
+    },
+    {
+      "par": 5,
+      "lengthYards": 520,
+      "type": "straight"
+    }
+  ],
+  "retainedOlder": {
+    "legacy": {
+      "course": 136,
+      "artworkSHA256": "d92fa492eb22d59e44cce7a9fa7cd07a269d806568c6cc9ea932caac8447e8fd",
+      "schemaVersion": 1,
+      "geometrySHA256": "fb6455ae38e3e3a02e569706238170056d9d34ffa67add7d69b58ae83030502b",
+      "artRulesVersion": "fairway-stripes-v4"
+    },
+    "pairMatchupID": null
+  }
+}
