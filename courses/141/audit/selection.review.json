@@ -1,0 +1,28 @@
+{
+  "responseID": "resp_05608d5e111ca3f2016ae4b23b33bc87d2884e946760258ede",
+  "model": "gpt-6-luna",
+  "usage": {
+    "input_tokens": 54530,
+    "input_tokens_details": {
+      "cache_write_tokens": 54527,
+      "cached_tokens": 0
+    },
+    "output_tokens": 2348,
+    "output_tokens_details": {
+      "reasoning_tokens": 2092
+    },
+    "total_tokens": 56878
+  },
+  "review": {
+    "candidate": 48,
+    "approved": true,
+    "scores": {
+      "strategy": 4,
+      "withinRoundVariety": 5,
+      "acrossDaysVariety": 4,
+      "fairDifficulty": 4
+    },
+    "reason": "Candidate 48 passes as supplied. Hole 1 is a 498-yard reachable par 5 with a substantial lake beside the route: staged play offers a safer line, while advancing aggressively brings the hazard into the decision. Hole 2 is a dry 210-yard long par 3, a distinct 3-wood distance-control test with bunkers around the target. Hole 3 is a 352-yard narrow-corridor par 4; its tighter safe-shot options make it a demanding positional finish, while all nine dispersion samples remain playable. The par-5/3/4 sequence, different tee clubs, one substantial lake, and contrasting attack, target, and placement routes make for strong internal variety. Reachable par 5s, long par 3s, and narrow corridors recur in recent rounds, so novelty is good rather than exceptional, but this combination and sequence are sufficiently distinct. The simulations and dispersion probes support a challenging, recoverable round rather than three routine holes. No geometry edits are needed.",
+    "edits": []
+  }
+}

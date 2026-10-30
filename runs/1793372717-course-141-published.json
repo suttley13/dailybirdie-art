@@ -1,0 +1,195 @@
+{
+  "schemaVersion": 1,
+  "course": 141,
+  "outcome": "published",
+  "error": null,
+  "startedAt": 1793372717,
+  "seconds": 184.51,
+  "reviewModel": "gpt-6-luna",
+  "reviewEffort": "medium",
+  "imageModel": "gpt-image-2.5-sunburst",
+  "candidatesRequested": 50,
+  "calls": [
+    {
+      "phase": "selection",
+      "kind": "review",
+      "model": "gpt-6-luna",
+      "effort": "medium",
+      "responseID": "resp_05608d5e111ca3f2016ae4b23b33bc87d2884e946760258ede",
+      "usage": {
+        "input_tokens": 54530,
+        "input_tokens_details": {
+          "cache_write_tokens": 54527,
+          "cached_tokens": 0
+        },
+        "output_tokens": 2348,
+        "output_tokens_details": {
+          "reasoning_tokens": 2092
+        },
+        "total_tokens": 56878
+      },
+      "seconds": 31.18,
+      "imageCount": 8,
+      "approved": true,
+      "reviewKind": "course-design",
+      "reason": "Candidate 48 passes as supplied. Hole 1 is a 498-yard reachable par 5 with a substantial lake beside the route: staged play offers a safer line, while advancing aggressively brings the hazard into the decision. Hole 2 is a dry 210-yard long par 3, a distinct 3-wood distance-control test with bunkers around the target. Hole 3 is a 352-yard narrow-corridor par 4; its tighter safe-shot options make it a demanding positional finish, while all nine dispersion samples remain playable. The par-5/3/4 sequence, different tee clubs, one substantial lake, and contrasting attack, target, and placement routes make for strong internal variety. Reachable par 5s, long par 3s, and narrow corridors recur in recent rounds, so novelty is good rather than exceptional, but this combination and sequence are sufficiently distinct. The simulations and dispersion probes support a challenging, recoverable round rather than three routine holes. No geometry edits are needed.",
+      "issues": [],
+      "edits": [],
+      "scores": {
+        "strategy": 4,
+        "withinRoundVariety": 5,
+        "acrossDaysVariety": 4,
+        "fairDifficulty": 4
+      }
+    },
+    {
+      "phase": "artwork-0",
+      "kind": "image",
+      "model": "gpt-image-2.5-sunburst",
+      "usage": {
+        "input_tokens": 4425,
+        "input_tokens_details": {
+          "image_tokens": 2863,
+          "text_tokens": 1562
+        },
+        "output_tokens": 343,
+        "output_tokens_details": {
+          "image_tokens": 343,
+          "text_tokens": 0
+        },
+        "total_tokens": 4768
+      },
+      "seconds": 21.61
+    },
+    {
+      "phase": "artwork-0-review",
+      "kind": "review",
+      "model": "gpt-6-luna",
+      "effort": "medium",
+      "responseID": "resp_0bce557bb6d9dbd1016ae4b270876887d2afe45c19d3be4369",
+      "usage": {
+        "input_tokens": 8210,
+        "input_tokens_details": {
+          "cache_write_tokens": 6856,
+          "cached_tokens": 1351
+        },
+        "output_tokens": 3987,
+        "output_tokens_details": {
+          "reasoning_tokens": 3805
+        },
+        "total_tokens": 12197
+      },
+      "seconds": 40.64,
+      "imageCount": 3,
+      "approved": false,
+      "reviewKind": "artwork-only-v1",
+      "reason": "The mapped course features and fairway stripes are clearly represented, but trees crowd the Hole 3 tee-to-fairway carry and make that route look obstructed in the overview.",
+      "issues": [
+        {
+          "code": "clarity",
+          "hole": 3,
+          "detail": "Added tree crowns near the T3-to-fairway landing corridor crowd the apparent carry from the tee toward the first fairway section.",
+          "consequence": "The overview makes the Hole 3 tee shot appear obstructed and obscures the intended route.",
+          "region": {
+            "x": 0.48,
+            "y": 0.12,
+            "width": 0.07,
+            "height": 0.12
+          }
+        }
+      ],
+      "edits": [],
+      "scores": {
+        "geometryFidelity": 5,
+        "naturalGreens": 4,
+        "visualClarity": 3,
+        "styleConsistency": 4
+      }
+    },
+    {
+      "phase": "artwork-1",
+      "kind": "image",
+      "model": "gpt-image-2.5-sunburst",
+      "usage": {
+        "input_tokens": 6182,
+        "input_tokens_details": {
+          "image_tokens": 4363,
+          "text_tokens": 1819
+        },
+        "output_tokens": 343,
+        "output_tokens_details": {
+          "image_tokens": 343,
+          "text_tokens": 0
+        },
+        "total_tokens": 6525
+      },
+      "seconds": 23.56
+    },
+    {
+      "phase": "artwork-1-review",
+      "kind": "review",
+      "model": "gpt-6-luna",
+      "effort": "medium",
+      "responseID": "resp_02dbc2e9757b2c0b016ae4b2b1921c87d295de753f30ce0bfe",
+      "usage": {
+        "input_tokens": 8213,
+        "input_tokens_details": {
+          "cache_write_tokens": 6859,
+          "cached_tokens": 1351
+        },
+        "output_tokens": 2004,
+        "output_tokens_details": {
+          "reasoning_tokens": 1898
+        },
+        "total_tokens": 10217
+      },
+      "seconds": 20.99,
+      "imageCount": 3,
+      "approved": true,
+      "reviewKind": "artwork-only-v1",
+      "reason": "The illustration preserves the numbered tee-to-green layouts, mapped walking connectors, lake, fairways, greens, and bunkers. Greens read as continuous putting surfaces, and the fairway sections have visible stripes consistent with the wooded style reference.",
+      "issues": [],
+      "edits": [],
+      "scores": {
+        "geometryFidelity": 5,
+        "naturalGreens": 4,
+        "visualClarity": 4,
+        "styleConsistency": 5
+      }
+    },
+    {
+      "phase": "artwork-1-final",
+      "kind": "review",
+      "model": "gpt-6-luna",
+      "effort": "medium",
+      "responseID": "resp_07653cb8185fc19f016ae4b2c71af887d2bc8a29ff99237ae1",
+      "usage": {
+        "input_tokens": 8213,
+        "input_tokens_details": {
+          "cache_write_tokens": 6859,
+          "cached_tokens": 1351
+        },
+        "output_tokens": 2985,
+        "output_tokens_details": {
+          "reasoning_tokens": 2858
+        },
+        "total_tokens": 11198
+      },
+      "seconds": 30.36,
+      "imageCount": 3,
+      "approved": true,
+      "reviewKind": "artwork-only-v1",
+      "reason": "The illustration preserves the numbered tee-to-green layouts, property silhouette, mapped lake and bunkers, and both tan walking connectors. All mapped tees are visible; fairways have clear edge-to-edge mowing stripes, and greens read as continuous natural putting surfaces. The wooded rendering is consistent with the style reference and remains legible as a course overview.",
+      "issues": [],
+      "edits": [],
+      "scores": {
+        "geometryFidelity": 5,
+        "naturalGreens": 5,
+        "visualClarity": 4,
+        "styleConsistency": 5
+      }
+    }
+  ],
+  "artworkStatus": "approved",
+  "artworkFailure": null
+}
