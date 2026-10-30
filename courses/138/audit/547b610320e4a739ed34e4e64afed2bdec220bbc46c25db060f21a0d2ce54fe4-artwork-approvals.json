@@ -1,0 +1,39 @@
+{
+  "geometrySHA256": "735a7408f35f89b21a57a22bbe8553751df5100d97471d2773f98df1a1f78a3e",
+  "artworkSHA256": "547b610320e4a739ed34e4e64afed2bdec220bbc46c25db060f21a0d2ce54fe4",
+  "humanApproved": true,
+  "reviews": [
+    {
+      "review": {
+        "issues": [],
+        "reason": "The illustration preserves the numbered tee-to-green layout, mapped fairways, hazards, property silhouette, and G1-to-T2 and G2-to-T3 walking connectors. All fairway sections have visible transverse mowing stripes, and the greens read as continuous natural putting surfaces. No actionable artwork issue is evident.",
+        "scores": {
+          "naturalGreens": 5,
+          "visualClarity": 4,
+          "geometryFidelity": 4,
+          "styleConsistency": 5
+        },
+        "approved": true,
+        "candidate": 0,
+        "reviewKind": "artwork-only-v1"
+      },
+      "responseID": "resp_0b489725939dc9fe016ae3dcd1749887d2814e3f08123fa5a8"
+    },
+    {
+      "review": {
+        "issues": [],
+        "reason": "The illustration preserves the mapped property silhouette, numbered tee-to-green layouts, fairway directions, water and bunker placement, and the G1-to-T2 and G2-to-T3 walking connectors. Fairway stripes are visible, the greens read as continuous surfaces, and the wooded rendering is consistent with the supplied style reference.",
+        "scores": {
+          "naturalGreens": 4,
+          "visualClarity": 4,
+          "geometryFidelity": 4,
+          "styleConsistency": 4
+        },
+        "approved": true,
+        "candidate": 0,
+        "reviewKind": "artwork-only-v1"
+      },
+      "responseID": "resp_004ed5390092ca11016ae3dcd17ac487d29c4c73378485e9a3"
+    }
+  ]
+}

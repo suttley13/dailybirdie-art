@@ -1,0 +1,9 @@
+{
+  "schemaVersion": 2,
+  "course": 138,
+  "geometrySHA256": "59d06bb9446438af87923b7ab4be4c97665320a662ef6f824e5d995ee5108f24",
+  "artworkSHA256": "2ed4cc20a38298571a220ab40ce4b47563cc6f004a9e207fe124d09c9dafeba1",
+  "artRulesVersion": "palm-springs-stripes-v2",
+  "gameplayRules": "environments-v1",
+  "environment": "palmSprings"
+}

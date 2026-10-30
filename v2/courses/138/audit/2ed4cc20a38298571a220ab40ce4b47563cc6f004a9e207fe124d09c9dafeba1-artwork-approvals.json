@@ -1,0 +1,126 @@
+{
+  "geometrySHA256": "59d06bb9446438af87923b7ab4be4c97665320a662ef6f824e5d995ee5108f24",
+  "artworkSHA256": "2ed4cc20a38298571a220ab40ce4b47563cc6f004a9e207fe124d09c9dafeba1",
+  "humanApproved": true,
+  "reviews": [
+    {
+      "review": {
+        "issues": [
+          {
+            "code": "geometry-mismatch",
+            "hole": 0,
+            "detail": "The diagram marks pin locations on G1, G2, and G3, but the illustration shows no visible flags at those greens.",
+            "region": null,
+            "consequence": "The overview omits the mapped pin locations, making each green\u2019s target position unclear."
+          }
+        ],
+        "reason": "The course silhouette, mapped water and sand features, fairways, tees, and walking connectors are broadly preserved, and the fairway stripes are clearly visible. However, none of the three mapped green pin locations is shown with a visible flag.",
+        "scores": {
+          "naturalGreens": 4,
+          "visualClarity": 5,
+          "geometryFidelity": 3,
+          "styleConsistency": 4,
+          "environmentFidelity": 4
+        },
+        "approved": false,
+        "candidate": 0,
+        "reviewKind": "artwork-environment-v2",
+        "environment": "palmSprings"
+      },
+      "responseID": "resp_0e774330dc3c4102016ae3dcd59fc087d280fb8f713267c1bd"
+    },
+    {
+      "review": {
+        "issues": [],
+        "reason": "The illustration preserves the mapped parcel, tees, fairways, greens, lakes, bunkers, and walking connectors. All mapped fairway sections show visible stripes, the greens read as continuous natural putting surfaces, and the sandy desert setting is consistent with the Palm Springs environment.",
+        "scores": {
+          "naturalGreens": 5,
+          "visualClarity": 4,
+          "geometryFidelity": 4,
+          "styleConsistency": 5,
+          "environmentFidelity": 4
+        },
+        "approved": true,
+        "candidate": 0,
+        "reviewKind": "artwork-environment-v2",
+        "environment": "palmSprings"
+      },
+      "responseID": "resp_0c520146adafa64b016ae3dcd5968887d29a7756533da4828a"
+    }
+  ],
+  "humanArtworkAcceptance": {
+    "policy": "studio-human-artwork-v1",
+    "reason": "The course silhouette, mapped water and sand features, fairways, tees, and walking connectors are broadly preserved, and the fairway stripes are clearly visible. However, none of the three mapped green pin locations is shown with a visible flag. The illustration preserves the mapped parcel, tees, fairways, greens, lakes, bunkers, and walking connectors. All mapped fairway sections show visible stripes, the greens read as continuous natural putting surfaces, and the sandy desert setting is consistent with the Palm Springs environment.",
+    "review": {
+      "issues": [
+        {
+          "code": "geometry-mismatch",
+          "hole": 0,
+          "detail": "The diagram marks pin locations on G1, G2, and G3, but the illustration shows no visible flags at those greens.",
+          "region": null,
+          "consequence": "The overview omits the mapped pin locations, making each green\u2019s target position unclear."
+        }
+      ],
+      "reason": "The course silhouette, mapped water and sand features, fairways, tees, and walking connectors are broadly preserved, and the fairway stripes are clearly visible. However, none of the three mapped green pin locations is shown with a visible flag. The illustration preserves the mapped parcel, tees, fairways, greens, lakes, bunkers, and walking connectors. All mapped fairway sections show visible stripes, the greens read as continuous natural putting surfaces, and the sandy desert setting is consistent with the Palm Springs environment.",
+      "reviews": [
+        {
+          "review": {
+            "issues": [
+              {
+                "code": "geometry-mismatch",
+                "hole": 0,
+                "detail": "The diagram marks pin locations on G1, G2, and G3, but the illustration shows no visible flags at those greens.",
+                "region": null,
+                "consequence": "The overview omits the mapped pin locations, making each green\u2019s target position unclear."
+              }
+            ],
+            "reason": "The course silhouette, mapped water and sand features, fairways, tees, and walking connectors are broadly preserved, and the fairway stripes are clearly visible. However, none of the three mapped green pin locations is shown with a visible flag.",
+            "scores": {
+              "naturalGreens": 4,
+              "visualClarity": 5,
+              "geometryFidelity": 3,
+              "styleConsistency": 4,
+              "environmentFidelity": 4
+            },
+            "approved": false,
+            "candidate": 0,
+            "reviewKind": "artwork-environment-v2",
+            "environment": "palmSprings"
+          },
+          "responseID": "resp_0e774330dc3c4102016ae3dcd59fc087d280fb8f713267c1bd"
+        },
+        {
+          "review": {
+            "issues": [],
+            "reason": "The illustration preserves the mapped parcel, tees, fairways, greens, lakes, bunkers, and walking connectors. All mapped fairway sections show visible stripes, the greens read as continuous natural putting surfaces, and the sandy desert setting is consistent with the Palm Springs environment.",
+            "scores": {
+              "naturalGreens": 5,
+              "visualClarity": 4,
+              "geometryFidelity": 4,
+              "styleConsistency": 5,
+              "environmentFidelity": 4
+            },
+            "approved": true,
+            "candidate": 0,
+            "reviewKind": "artwork-environment-v2",
+            "environment": "palmSprings"
+          },
+          "responseID": "resp_0c520146adafa64b016ae3dcd5968887d29a7756533da4828a"
+        }
+      ],
+      "approved": false,
+      "decisionKey": "cf9d8b2b118475d65fdeb020e1fa9c4670a6b7cfd5bd7afd8accb82482994759",
+      "artworkSHA256": "2ed4cc20a38298571a220ab40ce4b47563cc6f004a9e207fe124d09c9dafeba1",
+      "geometrySHA256": "d6c9cc36e39692c5d328ac1a8ecfc7a9c846b124bee5bc062d0aa971b388553e",
+      "geometryEncoding": "studio-stable-json-v1"
+    },
+    "decisionKey": "cf9d8b2b118475d65fdeb020e1fa9c4670a6b7cfd5bd7afd8accb82482994759",
+    "artworkSHA256": "2ed4cc20a38298571a220ab40ce4b47563cc6f004a9e207fe124d09c9dafeba1",
+    "geometrySHA256": "59d06bb9446438af87923b7ab4be4c97665320a662ef6f824e5d995ee5108f24",
+    "acceptedFindings": [
+      "cf9d8b2b118475d65fdeb020e1fa9c4670a6b7cfd5bd7afd8accb82482994759:0"
+    ],
+    "sourceGeometrySHA256": "d6c9cc36e39692c5d328ac1a8ecfc7a9c846b124bee5bc062d0aa971b388553e",
+    "approvedAt": "2026-10-30T01:02:50.471Z"
+  }
+}
