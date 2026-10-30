@@ -1,0 +1,42 @@
+{
+  "responseID": "resp_0abd8948a8ef6c95016ae4b1b015d487d2a418455edc854747",
+  "model": "gpt-6-luna",
+  "usage": {
+    "input_tokens": 8442,
+    "input_tokens_details": {
+      "cache_write_tokens": 7088,
+      "cached_tokens": 1351
+    },
+    "output_tokens": 3349,
+    "output_tokens_details": {
+      "reasoning_tokens": 3171
+    },
+    "total_tokens": 11791
+  },
+  "review": {
+    "reviewKind": "artwork-only-v1",
+    "candidate": 21,
+    "approved": false,
+    "scores": {
+      "geometryFidelity": 5,
+      "naturalGreens": 5,
+      "visualClarity": 4,
+      "styleConsistency": 3
+    },
+    "reason": "The mapped layout, hazards, walking connectors, tees, greens, and striped fairways are otherwise depicted faithfully. Hole 3\u2019s approach is visually crowded by added trees near the fairway end and green.",
+    "issues": [
+      {
+        "code": "style",
+        "hole": 3,
+        "detail": "Trees and their crowns occupy the rough corridor between the lower-left striped fairway and G3, crowding the approach.",
+        "consequence": "The overview makes the approach to G3 appear obstructed by vegetation.",
+        "region": {
+          "x": 0.33,
+          "y": 0.59,
+          "width": 0.08,
+          "height": 0.09
+        }
+      }
+    ]
+  }
+}

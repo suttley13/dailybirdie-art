@@ -1,0 +1,29 @@
+{
+  "responseID": "resp_05cacc4c3ac768fa016ae4b1e979f087d2add7b11eaa9f518b",
+  "model": "gpt-6-luna",
+  "usage": {
+    "input_tokens": 8441,
+    "input_tokens_details": {
+      "cache_write_tokens": 7087,
+      "cached_tokens": 1351
+    },
+    "output_tokens": 3257,
+    "output_tokens_details": {
+      "reasoning_tokens": 3136
+    },
+    "total_tokens": 11698
+  },
+  "review": {
+    "reviewKind": "artwork-only-v1",
+    "candidate": 21,
+    "approved": true,
+    "scores": {
+      "geometryFidelity": 4,
+      "naturalGreens": 5,
+      "visualClarity": 4,
+      "styleConsistency": 5
+    },
+    "reason": "The illustration preserves the mapped property silhouette, hole routing, greens, fairways, water, bunkers, tees, and the three walking connectors. All mapped fairway sections have visible crosswise mowing stripes. The greens read as continuous natural putting surfaces, and the wooded rendering is consistent with the supplied style reference.",
+    "issues": []
+  }
+}

@@ -1,0 +1,54 @@
+{
+  "responseID": "resp_004af2f4187d59bf016ae4b0d710f487d280087c78fe7fe79e",
+  "model": "gpt-6-luna",
+  "usage": {
+    "input_tokens": 8438,
+    "input_tokens_details": {
+      "cache_write_tokens": 7084,
+      "cached_tokens": 1351
+    },
+    "output_tokens": 3890,
+    "output_tokens_details": {
+      "reasoning_tokens": 3624
+    },
+    "total_tokens": 12328
+  },
+  "review": {
+    "reviewKind": "artwork-only-v1",
+    "candidate": 21,
+    "approved": false,
+    "scores": {
+      "geometryFidelity": 4,
+      "naturalGreens": 5,
+      "visualClarity": 4,
+      "styleConsistency": 3
+    },
+    "reason": "The mapped layout, lake, tees, fairways, and continuous natural greens are generally recognizable, and the fairways show visible mowing stripes. However, added trees crowd the Hole 3 tee-to-landing corridor and the approach from its fairway to G3, making those areas appear obstructed in the overview.",
+    "issues": [
+      {
+        "code": "style",
+        "hole": 3,
+        "detail": "Tree crowns and shadows crowd the corridor from T3 toward the first fairway landing area.",
+        "consequence": "The overview makes the tee carry appear obstructed rather than showing a clear corridor.",
+        "region": {
+          "x": 0.17,
+          "y": 0.43,
+          "width": 0.1,
+          "height": 0.12
+        }
+      },
+      {
+        "code": "style",
+        "hole": 3,
+        "detail": "Trees crowd the gap between the lower-left fairway patch and G3, with crowns near the approach.",
+        "consequence": "The approach appears partially blocked in the overview.",
+        "region": {
+          "x": 0.34,
+          "y": 0.59,
+          "width": 0.08,
+          "height": 0.09
+        }
+      }
+    ]
+  }
+}

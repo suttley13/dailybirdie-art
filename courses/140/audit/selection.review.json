@@ -1,0 +1,28 @@
+{
+  "responseID": "resp_00bd00cc989d962f016ae4b07e97b487d2be87b53f3afa5db8",
+  "model": "gpt-6-luna",
+  "usage": {
+    "input_tokens": 54784,
+    "input_tokens_details": {
+      "cache_write_tokens": 54781,
+      "cached_tokens": 0
+    },
+    "output_tokens": 2345,
+    "output_tokens_details": {
+      "reasoning_tokens": 2052
+    },
+    "total_tokens": 57129
+  },
+  "review": {
+    "candidate": 21,
+    "approved": true,
+    "scores": {
+      "strategy": 4,
+      "withinRoundVariety": 4,
+      "acrossDaysVariety": 4,
+      "fairDifficulty": 4
+    },
+    "reason": "Candidate 21 passes as supplied. Hole 1 is a dry 450-yard dogleg-left par 4 with fairway bunkers shaping the bend; following the route offers a safer placement line than challenging the inside. Hole 2 is a 394-yard cape par 4 with a substantial lake on the left of play, creating a distinct shoreline risk-and-reward decision while leaving a playable route. Hole 3 is a dry 206-yard long par 3 with bunkers around the target, making it a distance-control finish rather than another water carry. The two par 4s ask for different choices, and the par-4/par-4/par-3 sequence has enough contrast, though the pair of driver par 4s keeps within-round variety short of exceptional. Doglegs and water recur in recent rounds; this set is still distinct through its single wet hole, dry opening dogleg and dry long-par-3 finish. The 7/9, 9/9 and 8/9 playable dispersion samples, with 2/2/1 shots to green, support a challenging but fair set. Geometry facts confirm water on Hole 2 only. No geometry edits are needed.",
+    "edits": []
+  }
+}

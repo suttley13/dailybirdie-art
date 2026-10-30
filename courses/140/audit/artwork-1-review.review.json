@@ -1,0 +1,42 @@
+{
+  "responseID": "resp_058ee63738c7d0e0016ae4b112fe8887d2a3e84f439a1d5a4d",
+  "model": "gpt-6-luna",
+  "usage": {
+    "input_tokens": 8446,
+    "input_tokens_details": {
+      "cache_write_tokens": 7092,
+      "cached_tokens": 1351
+    },
+    "output_tokens": 3806,
+    "output_tokens_details": {
+      "reasoning_tokens": 3624
+    },
+    "total_tokens": 12252
+  },
+  "review": {
+    "reviewKind": "artwork-only-v1",
+    "candidate": 21,
+    "approved": false,
+    "scores": {
+      "geometryFidelity": 3,
+      "naturalGreens": 5,
+      "visualClarity": 4,
+      "styleConsistency": 5
+    },
+    "reason": "The illustration closely follows the mapped course and style, with natural continuous greens and clearly striped fairways. The mapped walking connector from G3 to T1 is not visible.",
+    "issues": [
+      {
+        "code": "geometry-mismatch",
+        "hole": 0,
+        "detail": "The tan walking connector from G3 to T1 shown in the authoritative diagram is missing between the bottom-center green and the nearby tee.",
+        "consequence": "Viewers will not see the approved walking connection from G3 to T1 in the course overview.",
+        "region": {
+          "x": 0.41,
+          "y": 0.7,
+          "width": 0.09,
+          "height": 0.09
+        }
+      }
+    ]
+  }
+}

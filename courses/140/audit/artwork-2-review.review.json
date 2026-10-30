@@ -1,0 +1,42 @@
+{
+  "responseID": "resp_01f852321a26094e016ae4b151e2dc87d2b44a46a35da38715",
+  "model": "gpt-6-luna",
+  "usage": {
+    "input_tokens": 8447,
+    "input_tokens_details": {
+      "cache_write_tokens": 7093,
+      "cached_tokens": 1351
+    },
+    "output_tokens": 2904,
+    "output_tokens_details": {
+      "reasoning_tokens": 2709
+    },
+    "total_tokens": 11351
+  },
+  "review": {
+    "reviewKind": "artwork-only-v1",
+    "candidate": 21,
+    "approved": false,
+    "scores": {
+      "geometryFidelity": 4,
+      "naturalGreens": 5,
+      "visualClarity": 4,
+      "styleConsistency": 3
+    },
+    "reason": "The mapped layout, water, connectors, fairway stripes, and continuous natural putting surfaces are generally well represented. However, a tree crown sits in Hole 3\u2019s tee-to-landing corridor and makes the overview appear obstructed.",
+    "issues": [
+      {
+        "code": "style",
+        "hole": 3,
+        "detail": "The added tree immediately below the Hole 3 tee overlaps the broad corridor toward its first fairway landing area.",
+        "consequence": "The overview suggests the tee shot is blocked, making the route harder to read; this is an illustration issue, not a change to gameplay.",
+        "region": {
+          "x": 0.13,
+          "y": 0.4,
+          "width": 0.09,
+          "height": 0.1
+        }
+      }
+    ]
+  }
+}
