@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "checkedAt": 1793310695,
+  "checkedAt": 1793325639,
   "currentCourse": 136,
   "minimumFutureCourses": 3,
   "readyFutureCourses": 3,
@@ -21,7 +21,9 @@
     },
     {
       "course": 138,
-      "status": "ready"
+      "status": "ready",
+      "paired": true,
+      "matchupID": "daily-pair-v1-138-0ffa38b49a76cf947a83dfae461a08c58772d2ae80bdc3c63005564cfb5d6248"
     },
     {
       "course": 139,
