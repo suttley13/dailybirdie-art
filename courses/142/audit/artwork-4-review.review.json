@@ -1,0 +1,54 @@
+{
+  "responseID": "resp_038ebfd256ad5ab7016ae5fba1e40c87d19b1813a0b630855d",
+  "model": "gpt-6-luna",
+  "usage": {
+    "input_tokens": 8446,
+    "input_tokens_details": {
+      "cache_write_tokens": 7092,
+      "cached_tokens": 1351
+    },
+    "output_tokens": 3936,
+    "output_tokens_details": {
+      "reasoning_tokens": 3624
+    },
+    "total_tokens": 12382
+  },
+  "review": {
+    "reviewKind": "artwork-only-v1",
+    "candidate": 3,
+    "approved": false,
+    "scores": {
+      "geometryFidelity": 3,
+      "naturalGreens": 4,
+      "visualClarity": 4,
+      "styleConsistency": 3
+    },
+    "reason": "The course footprint, mapped water, greens and walking connectors are broadly recognizable, but the illustration omits the mapped T1 tee and the fairway mowing pattern does not clearly read as the required edge-to-edge bands on the curved and detached fairway sections.",
+    "issues": [
+      {
+        "code": "geometry-mismatch",
+        "hole": 1,
+        "detail": "The mapped T1 tee is not visible. Its diagram location corresponds to the wooded area below-left of the detached central fairway, but no tee marker is shown there.",
+        "consequence": "The overview leaves the starting point for Hole 1 unclear.",
+        "region": {
+          "x": 0.39,
+          "y": 0.58,
+          "width": 0.1,
+          "height": 0.1
+        }
+      },
+      {
+        "code": "style",
+        "hole": 2,
+        "detail": "The curved upper fairway and the short detached central fairway read mainly as checkerboard or tessellated patches, rather than clearly visible alternating mowing bands that cross each fairway edge to edge and follow its local direction. The small detached section especially needs bands scaled to its footprint.",
+        "consequence": "At overview size, these mapped fairways are less readily distinguished by the required striped treatment.",
+        "region": {
+          "x": 0.24,
+          "y": 0.16,
+          "width": 0.34,
+          "height": 0.43
+        }
+      }
+    ]
+  }
+}

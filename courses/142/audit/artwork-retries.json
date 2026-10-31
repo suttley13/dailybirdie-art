@@ -1,0 +1,7 @@
+{
+  "attempts": 5,
+  "maxAttempts": 5,
+  "repeatedIssueLimit": 3,
+  "bestFile": "artwork-1.jpg",
+  "stopReason": "Artwork attempt limit reached (5)"
+}

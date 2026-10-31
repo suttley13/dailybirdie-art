@@ -1,0 +1,42 @@
+{
+  "responseID": "resp_0accd3751b7be30b016ae5fb6f8d7487d19c4c8f0b47c5a43c",
+  "model": "gpt-6-luna",
+  "usage": {
+    "input_tokens": 8450,
+    "input_tokens_details": {
+      "cache_write_tokens": 7096,
+      "cached_tokens": 1351
+    },
+    "output_tokens": 2777,
+    "output_tokens_details": {
+      "reasoning_tokens": 2588
+    },
+    "total_tokens": 11227
+  },
+  "review": {
+    "reviewKind": "artwork-only-v1",
+    "candidate": 3,
+    "approved": false,
+    "scores": {
+      "geometryFidelity": 3,
+      "naturalGreens": 4,
+      "visualClarity": 4,
+      "styleConsistency": 4
+    },
+    "reason": "The illustration broadly preserves the course layout, hazards, walking connectors, and striped fairways. However, the mapped T1 tee is not visibly represented, so the overview does not show the starting point for Hole 1.",
+    "issues": [
+      {
+        "code": "geometry-mismatch",
+        "hole": 1,
+        "detail": "T1, shown in the diagram near the central-lower part of the property, has no visible tee marker or tee pad in the illustration.",
+        "consequence": "Viewers cannot readily identify where Hole 1 begins in the course overview.",
+        "region": {
+          "x": 0.39,
+          "y": 0.59,
+          "width": 0.07,
+          "height": 0.08
+        }
+      }
+    ]
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "responseID": "resp_05d1722aba8c251f016ae5fa9a3dd487d191f9bcfb83f5eba4",
+  "model": "gpt-6-luna",
+  "usage": {
+    "input_tokens": 54837,
+    "input_tokens_details": {
+      "cache_write_tokens": 54834,
+      "cached_tokens": 0
+    },
+    "output_tokens": 2762,
+    "output_tokens_details": {
+      "reasoning_tokens": 2506
+    },
+    "total_tokens": 57599
+  },
+  "review": {
+    "candidate": 3,
+    "approved": true,
+    "scores": {
+      "strategy": 4,
+      "withinRoundVariety": 5,
+      "acrossDaysVariety": 4,
+      "fairDifficulty": 4
+    },
+    "reason": "Candidate 3 passes as supplied. Hole 1 is a 226-yard punchbowl par 3 with water beside the target: the carry and pin attack add pressure, while the playable dispersion leaves room for a measured shot. Hole 2 is a 409-yard narrow-corridor par 4. Its tight route and fairway bunkers make placement important; although none of the nine tee probes finishes on short grass, eight remain playable, so the challenge appears recoverable rather than an exact-shot trap. Hole 3 is a 572-yard uphill par 5 with a broad landing corridor, offering a clear contrast and room to stage play. The par-3/4/5 sequence, target hole, constrained placement hole, and long open finisher provide strong variety within the round. Punchbowl targets, narrow corridors, and uphill par 5s have appeared recently, but this combination and sequence are sufficiently distinct. The dispersion and simulated-shot evidence supports a challenging but fair set. No edits are needed.",
+    "edits": []
+  }
+}

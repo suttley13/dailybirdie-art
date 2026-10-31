@@ -1,0 +1,131 @@
+{
+  "course": 142,
+  "geometrySHA256": "b35e6d712dcef52bc5d4e16ab38e9af5ad88dda1850557c76e1c6a9082da385d",
+  "artworkSHA256": "aa1ba0f2e3de194692f2fa3970da119159fa46052d8a1cd71c6eaf8e66b57710",
+  "holes": [
+    {
+      "bunkerCount": 5,
+      "fairwayArea": 10491.124092002485,
+      "greenArea": 2811.01010580422,
+      "par": 3,
+      "route": [
+        [
+          200,
+          40
+        ],
+        [
+          209.2043801521982,
+          296.4214082138921
+        ]
+      ],
+      "simulatedShotsToGreen": 1,
+      "teeAdvancingOptions": 14,
+      "teeClub": "3wood",
+      "teeDispersionPlayable": 9,
+      "teeDispersionSafe": 4,
+      "teeDispersionSamples": 9,
+      "teeSafeOptions": 47,
+      "teeShotSamples": 216,
+      "type": "punchbowlGreen",
+      "waterArea": 7552.614460251247,
+      "yards": 226
+    },
+    {
+      "bunkerCount": 4,
+      "fairwayArea": 8855.481329200997,
+      "greenArea": 1169.1503271421316,
+      "par": 4,
+      "route": [
+        [
+          200,
+          40
+        ],
+        [
+          209.51537422149175,
+          397.06854093512214
+        ],
+        [
+          211.5429334112583,
+          541.2219896226416
+        ]
+      ],
+      "simulatedShotsToGreen": 2,
+      "teeAdvancingOptions": 6,
+      "teeClub": "driver",
+      "teeDispersionPlayable": 8,
+      "teeDispersionSafe": 0,
+      "teeDispersionSamples": 9,
+      "teeSafeOptions": 18,
+      "teeShotSamples": 216,
+      "type": "narrowCorridor",
+      "waterArea": 0,
+      "yards": 409
+    },
+    {
+      "bunkerCount": 3,
+      "fairwayArea": 35485.608721178694,
+      "greenArea": 859.4783814966795,
+      "par": 5,
+      "route": [
+        [
+          200,
+          40
+        ],
+        [
+          184.72541077123088,
+          403.7616878477481
+        ],
+        [
+          182.87897101475315,
+          671.8754726847723
+        ],
+        [
+          197.6399826778364,
+          726.8653446620613
+        ]
+      ],
+      "simulatedShotsToGreen": 3,
+      "teeAdvancingOptions": 17,
+      "teeClub": "driver",
+      "teeDispersionPlayable": 9,
+      "teeDispersionSafe": 9,
+      "teeDispersionSamples": 9,
+      "teeSafeOptions": 55,
+      "teeShotSamples": 216,
+      "type": "uphillGrinder",
+      "waterArea": 0,
+      "yards": 572
+    }
+  ],
+  "review": {
+    "candidate": 3,
+    "approved": true,
+    "scores": {
+      "strategy": 4,
+      "withinRoundVariety": 5,
+      "acrossDaysVariety": 4,
+      "fairDifficulty": 4
+    },
+    "reason": "Candidate 3 passes as supplied. Hole 1 is a 226-yard punchbowl par 3 with water beside the target: the carry and pin attack add pressure, while the playable dispersion leaves room for a measured shot. Hole 2 is a 409-yard narrow-corridor par 4. Its tight route and fairway bunkers make placement important; although none of the nine tee probes finishes on short grass, eight remain playable, so the challenge appears recoverable rather than an exact-shot trap. Hole 3 is a 572-yard uphill par 5 with a broad landing corridor, offering a clear contrast and room to stage play. The par-3/4/5 sequence, target hole, constrained placement hole, and long open finisher provide strong variety within the round. Punchbowl targets, narrow corridors, and uphill par 5s have appeared recently, but this combination and sequence are sufficiently distinct. The dispersion and simulated-shot evidence supports a challenging but fair set. No edits are needed.",
+    "edits": []
+  },
+  "playingProfile": {
+    "routingFamilies": [
+      "long-game",
+      "placement",
+      "target"
+    ],
+    "teeClubs": [
+      "3wood",
+      "driver"
+    ],
+    "greenSizes": [
+      "medium",
+      "small"
+    ],
+    "regulationHoles": 3,
+    "underRegulationHoles": 0
+  },
+  "artworkStatus": "geometry-preview",
+  "artworkReview": null
+}

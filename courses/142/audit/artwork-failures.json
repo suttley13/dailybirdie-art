@@ -1,0 +1,15 @@
+{
+  "failures": [
+    "The greens read as single natural putting surfaces, and all three fairways have visible stripes. However, the mapped T1 is not visible, and added trees crowd the hole 1 tee-to-landing corridor, obscuring the intended route in the overview.",
+    "The course silhouette, mapped features, natural single-surface greens, and visible fairway striping are generally well represented. However, added tree crowns crowd the Hole 1 approach between its fairway end and G1.",
+    "The property and mapped hazards are generally recognizable, and the green surfaces read as natural single putting surfaces. However, the mapped tee for hole 1 is not visibly identifiable, and its small fairway patch lacks clearly readable edge-to-edge mowing bands.",
+    "The illustration broadly preserves the course layout, hazards, walking connectors, and striped fairways. However, the mapped T1 tee is not visibly represented, so the overview does not show the starting point for Hole 1.",
+    "The course footprint, mapped water, greens and walking connectors are broadly recognizable, but the illustration omits the mapped T1 tee and the fairway mowing pattern does not clearly read as the required edge-to-edge bands on the curved and detached fairway sections.",
+    "Artwork attempt limit reached (5)"
+  ],
+  "attempts": 5,
+  "maxAttempts": 5,
+  "repeatedIssueLimit": 3,
+  "bestFile": "artwork-1.jpg",
+  "stopReason": "Artwork attempt limit reached (5)"
+}

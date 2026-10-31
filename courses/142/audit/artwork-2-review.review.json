@@ -1,0 +1,54 @@
+{
+  "responseID": "resp_0198173b32653e85016ae5fb40ee2887d19881d6a2c5204343",
+  "model": "gpt-6-luna",
+  "usage": {
+    "input_tokens": 8443,
+    "input_tokens_details": {
+      "cache_write_tokens": 7089,
+      "cached_tokens": 1351
+    },
+    "output_tokens": 2582,
+    "output_tokens_details": {
+      "reasoning_tokens": 2307
+    },
+    "total_tokens": 11025
+  },
+  "review": {
+    "reviewKind": "artwork-only-v1",
+    "candidate": 3,
+    "approved": false,
+    "scores": {
+      "geometryFidelity": 3,
+      "naturalGreens": 4,
+      "visualClarity": 4,
+      "styleConsistency": 3
+    },
+    "reason": "The property and mapped hazards are generally recognizable, and the green surfaces read as natural single putting surfaces. However, the mapped tee for hole 1 is not visibly identifiable, and its small fairway patch lacks clearly readable edge-to-edge mowing bands.",
+    "issues": [
+      {
+        "code": "geometry-mismatch",
+        "hole": 1,
+        "detail": "The tee at the mapped T1 location is not visible as a distinct tee; the area appears occupied by rough/trees.",
+        "consequence": "The overview does not clearly show the starting point for hole 1.",
+        "region": {
+          "x": 0.41,
+          "y": 0.6,
+          "width": 0.07,
+          "height": 0.08
+        }
+      },
+      {
+        "code": "style",
+        "hole": 1,
+        "detail": "The small central fairway patch has faint, checker-like texture rather than clear alternating bands crossing the patch perpendicular to its local direction of play.",
+        "consequence": "At overview scale, this mapped fairway section is difficult to distinguish as striped fairway.",
+        "region": {
+          "x": 0.43,
+          "y": 0.37,
+          "width": 0.14,
+          "height": 0.21
+        }
+      }
+    ]
+  }
+}

@@ -1,0 +1,54 @@
+{
+  "responseID": "resp_0384ffb592a69052016ae5face278887d1981c652b448cacbe",
+  "model": "gpt-6-luna",
+  "usage": {
+    "input_tokens": 8448,
+    "input_tokens_details": {
+      "cache_write_tokens": 8445,
+      "cached_tokens": 0
+    },
+    "output_tokens": 2605,
+    "output_tokens_details": {
+      "reasoning_tokens": 2255
+    },
+    "total_tokens": 11053
+  },
+  "review": {
+    "reviewKind": "artwork-only-v1",
+    "candidate": 3,
+    "approved": false,
+    "scores": {
+      "geometryFidelity": 3,
+      "naturalGreens": 5,
+      "visualClarity": 4,
+      "styleConsistency": 3
+    },
+    "reason": "The greens read as single natural putting surfaces, and all three fairways have visible stripes. However, the mapped T1 is not visible, and added trees crowd the hole 1 tee-to-landing corridor, obscuring the intended route in the overview.",
+    "issues": [
+      {
+        "code": "geometry-mismatch",
+        "hole": 1,
+        "detail": "The mapped T1 is missing; its expected location is obscured by trees.",
+        "consequence": "Viewers cannot identify the starting point for hole 1.",
+        "region": {
+          "x": 0.37,
+          "y": 0.59,
+          "width": 0.1,
+          "height": 0.1
+        }
+      },
+      {
+        "code": "style",
+        "hole": 1,
+        "detail": "Added tree crowns crowd the corridor from T1 toward hole 1's first fairway landing area.",
+        "consequence": "The overview makes the intended tee-to-landing route appear blocked.",
+        "region": {
+          "x": 0.39,
+          "y": 0.55,
+          "width": 0.15,
+          "height": 0.14
+        }
+      }
+    ]
+  }
+}

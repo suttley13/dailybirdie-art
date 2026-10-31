@@ -1,0 +1,42 @@
+{
+  "responseID": "resp_0924fe6e05c8954b016ae5fb00936887d1aabbf8cb37a83361",
+  "model": "gpt-6-luna",
+  "usage": {
+    "input_tokens": 8442,
+    "input_tokens_details": {
+      "cache_write_tokens": 7088,
+      "cached_tokens": 1351
+    },
+    "output_tokens": 4140,
+    "output_tokens_details": {
+      "reasoning_tokens": 3891
+    },
+    "total_tokens": 12582
+  },
+  "review": {
+    "reviewKind": "artwork-only-v1",
+    "candidate": 3,
+    "approved": false,
+    "scores": {
+      "geometryFidelity": 4,
+      "naturalGreens": 5,
+      "visualClarity": 4,
+      "styleConsistency": 3
+    },
+    "reason": "The course silhouette, mapped features, natural single-surface greens, and visible fairway striping are generally well represented. However, added tree crowns crowd the Hole 1 approach between its fairway end and G1.",
+    "issues": [
+      {
+        "code": "style",
+        "hole": 1,
+        "detail": "A tree crown and its shadow sit immediately beside the approach from the central fairway patch toward G1, intruding into that approach corridor.",
+        "consequence": "The overview makes the approach to G1 appear partly obstructed.",
+        "region": {
+          "x": 0.53,
+          "y": 0.31,
+          "width": 0.09,
+          "height": 0.11
+        }
+      }
+    ]
+  }
+}
