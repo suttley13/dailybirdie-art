@@ -1,0 +1,29 @@
+{
+  "responseID": "resp_08e551391ef0b91d016ae753e615d087d18d056b941f2fe9e0",
+  "model": "gpt-6-luna",
+  "usage": {
+    "input_tokens": 8447,
+    "input_tokens_details": {
+      "cache_write_tokens": 7093,
+      "cached_tokens": 1351
+    },
+    "output_tokens": 2140,
+    "output_tokens_details": {
+      "reasoning_tokens": 2018
+    },
+    "total_tokens": 10587
+  },
+  "review": {
+    "reviewKind": "artwork-only-v1",
+    "candidate": 0,
+    "approved": true,
+    "scores": {
+      "geometryFidelity": 4,
+      "naturalGreens": 4,
+      "visualClarity": 4,
+      "styleConsistency": 4
+    },
+    "reason": "The illustration preserves the approved property silhouette, numbered tee-to-green routing, mapped lake and bunkers, and both walking connectors. All three fairways have visible stripes that follow their shapes, the greens read as continuous putting surfaces, and the wooded rendering is consistent with the reference. The overview is clear and comfortably framed.",
+    "issues": []
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "reviewKind": "artwork-only-v1",
+  "candidate": 0,
+  "approved": true,
+  "scores": {
+    "geometryFidelity": 4,
+    "naturalGreens": 4,
+    "visualClarity": 4,
+    "styleConsistency": 5
+  },
+  "reason": "The illustration preserves the mapped property silhouette, numbered tees and greens, fairway footprints, hazards, and both walking connectors. All mapped fairway sections have visible crosswise mowing stripes, and the greens read as continuous natural putting surfaces with narrow edge transitions. The wooded treatment is consistent with the reference and leaves the mapped features legible.",
+  "issues": []
+}

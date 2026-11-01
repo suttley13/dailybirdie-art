@@ -1,7 +1,7 @@
 {
   "course": 142,
   "geometrySHA256": "b35e6d712dcef52bc5d4e16ab38e9af5ad88dda1850557c76e1c6a9082da385d",
-  "artworkSHA256": "aa1ba0f2e3de194692f2fa3970da119159fa46052d8a1cd71c6eaf8e66b57710",
+  "artworkSHA256": "d47b080a5fad597d2107850a5cb87163fa07f8f63caa9f0f65bb1d99c77c3bc7",
   "holes": [
     {
       "bunkerCount": 5,
@@ -126,6 +126,19 @@
     "regulationHoles": 3,
     "underRegulationHoles": 0
   },
-  "artworkStatus": "geometry-preview",
-  "artworkReview": null
+  "artworkStatus": "approved",
+  "artworkReview": {
+    "reviewKind": "artwork-only-v1",
+    "candidate": 0,
+    "approved": true,
+    "scores": {
+      "geometryFidelity": 4,
+      "naturalGreens": 4,
+      "visualClarity": 4,
+      "styleConsistency": 5
+    },
+    "reason": "The illustration preserves the mapped property silhouette, numbered tees and greens, fairway footprints, hazards, and both walking connectors. All mapped fairway sections have visible crosswise mowing stripes, and the greens read as continuous natural putting surfaces with narrow edge transitions. The wooded treatment is consistent with the reference and leaves the mapped features legible.",
+    "issues": []
+  },
+  "artRulesVersion": "fairway-stripes-v4"
 }
