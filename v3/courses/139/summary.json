@@ -1,0 +1,439 @@
+{
+  "course": 139,
+  "date": "2026-11-02",
+  "name": "Custom course 1",
+  "studioJob": "22e33101-182b-4a64-8fcb-860972dfad31",
+  "draftFingerprint": "71d240ea951b0e159a12a985de66c0d420002f9157993f7f3e0f66514b933a20",
+  "approval": {
+    "approvedAt": "2026-11-01T00:28:51.560Z",
+    "playtested": true,
+    "humanApproved": true,
+    "retainedOlder": {
+      "legacy": {
+        "course": 139,
+        "artworkSHA256": "e49994576c50d998a07463e049091f8868c3e2caa81ed515b37de4ce99a5f3aa",
+        "schemaVersion": 1,
+        "geometrySHA256": "86dbf5d91bf340537ffe319212ef46eeb17dbcffcddb38bd5ecc1528d62ec3a6",
+        "artRulesVersion": "fairway-stripes-v4"
+      },
+      "pairMatchupID": null
+    },
+    "artworkOverrides": [
+      {
+        "policy": "studio-human-artwork-v1",
+        "reason": "The course layout, mapped connectors, hazards, tees, and continuous natural putting surfaces are represented clearly. However, the small Hole 3 approach fairway beside the island green lacks clearly visible edge-to-edge mowing stripes at thumbnail scale, so the artwork does not meet the required fairway treatment. The overall layout, mapped hazards, continuous greens, and main fairways read clearly, but the small Hole 3 fairway patch lacks the required visible mowing stripes. The mapped green pin/flag markers also appear to be missing.",
+        "review": {
+          "issues": [
+            {
+              "code": "style",
+              "hole": 3,
+              "detail": "The small fairway patch immediately to the right of the island green appears largely uniform, without clearly readable alternating stripes crossing its width.",
+              "region": {
+                "x": 0.26,
+                "y": 0.43,
+                "width": 0.07,
+                "height": 0.06
+              },
+              "consequence": "At overview scale, this mapped fairway patch may be mistaken for unstriped rough or part of the green rather than a distinct fairway."
+            },
+            {
+              "code": "style",
+              "hole": 3,
+              "detail": "The short fairway patch immediately east of G3 has no clearly visible alternating edge-to-edge mowing stripes at thumbnail scale.",
+              "region": {
+                "x": 0.26,
+                "y": 0.43,
+                "width": 0.07,
+                "height": 0.06
+              },
+              "consequence": "The patch can read as uniform turf rather than the mapped fairway, making its distinction from the surrounding grass less clear in the overview."
+            },
+            {
+              "code": "geometry-mismatch",
+              "hole": 0,
+              "detail": "The mapped yellow green-center markers are not visibly represented as flags or pins on the three greens.",
+              "region": null,
+              "consequence": "The overview omits the mapped target positions within the greens."
+            }
+          ],
+          "reason": "The course layout, mapped connectors, hazards, tees, and continuous natural putting surfaces are represented clearly. However, the small Hole 3 approach fairway beside the island green lacks clearly visible edge-to-edge mowing stripes at thumbnail scale, so the artwork does not meet the required fairway treatment. The overall layout, mapped hazards, continuous greens, and main fairways read clearly, but the small Hole 3 fairway patch lacks the required visible mowing stripes. The mapped green pin/flag markers also appear to be missing.",
+          "reviews": [
+            {
+              "review": {
+                "issues": [
+                  {
+                    "code": "style",
+                    "hole": 3,
+                    "detail": "The small fairway patch immediately to the right of the island green appears largely uniform, without clearly readable alternating stripes crossing its width.",
+                    "region": {
+                      "x": 0.26,
+                      "y": 0.43,
+                      "width": 0.07,
+                      "height": 0.06
+                    },
+                    "consequence": "At overview scale, this mapped fairway patch may be mistaken for unstriped rough or part of the green rather than a distinct fairway."
+                  }
+                ],
+                "reason": "The course layout, mapped connectors, hazards, tees, and continuous natural putting surfaces are represented clearly. However, the small Hole 3 approach fairway beside the island green lacks clearly visible edge-to-edge mowing stripes at thumbnail scale, so the artwork does not meet the required fairway treatment.",
+                "scores": {
+                  "naturalGreens": 5,
+                  "visualClarity": 4,
+                  "geometryFidelity": 5,
+                  "styleConsistency": 3
+                },
+                "approved": false,
+                "candidate": 0,
+                "reviewKind": "artwork-only-v1"
+              },
+              "responseID": "resp_0bc21b3b11478c18016ae68709b89887d2b8c4964c4883a57d"
+            },
+            {
+              "review": {
+                "issues": [
+                  {
+                    "code": "style",
+                    "hole": 3,
+                    "detail": "The short fairway patch immediately east of G3 has no clearly visible alternating edge-to-edge mowing stripes at thumbnail scale.",
+                    "region": {
+                      "x": 0.26,
+                      "y": 0.43,
+                      "width": 0.07,
+                      "height": 0.06
+                    },
+                    "consequence": "The patch can read as uniform turf rather than the mapped fairway, making its distinction from the surrounding grass less clear in the overview."
+                  },
+                  {
+                    "code": "geometry-mismatch",
+                    "hole": 0,
+                    "detail": "The mapped yellow green-center markers are not visibly represented as flags or pins on the three greens.",
+                    "region": null,
+                    "consequence": "The overview omits the mapped target positions within the greens."
+                  }
+                ],
+                "reason": "The overall layout, mapped hazards, continuous greens, and main fairways read clearly, but the small Hole 3 fairway patch lacks the required visible mowing stripes. The mapped green pin/flag markers also appear to be missing.",
+                "scores": {
+                  "naturalGreens": 5,
+                  "visualClarity": 4,
+                  "geometryFidelity": 4,
+                  "styleConsistency": 3
+                },
+                "approved": false,
+                "candidate": 0,
+                "reviewKind": "artwork-only-v1"
+              },
+              "responseID": "resp_0ee2160c5fe816e1016ae687173f1487d2b5f6e2070daa62cb"
+            }
+          ],
+          "approved": false,
+          "decisionKey": "92df32f802f77c3f4beed1357a7533f42eba600bbadcd9112c7b732a60d6ef1b",
+          "artworkSHA256": "7e6c5a3e2615e243dd554e70839d4ade6995919878dfedd3ff328421e1277e61",
+          "geometrySHA256": "56170b6aa154aade6e853f28480874e71aa3e68f26c8d443d34a2e28f0587645",
+          "geometryEncoding": "studio-stable-json-v1"
+        },
+        "decisionKey": "92df32f802f77c3f4beed1357a7533f42eba600bbadcd9112c7b732a60d6ef1b",
+        "artworkSHA256": "7e6c5a3e2615e243dd554e70839d4ade6995919878dfedd3ff328421e1277e61",
+        "geometrySHA256": "56170b6aa154aade6e853f28480874e71aa3e68f26c8d443d34a2e28f0587645",
+        "acceptedFindings": [
+          "92df32f802f77c3f4beed1357a7533f42eba600bbadcd9112c7b732a60d6ef1b:0",
+          "92df32f802f77c3f4beed1357a7533f42eba600bbadcd9112c7b732a60d6ef1b:1",
+          "92df32f802f77c3f4beed1357a7533f42eba600bbadcd9112c7b732a60d6ef1b:2"
+        ]
+      },
+      {
+        "policy": "studio-human-artwork-v1",
+        "reason": "The illustration adds a large lake below the lower fairway that is absent from the numbered diagram, and the small Hole 3 fairway patch does not read as clearly striped at thumbnail scale. The greens otherwise read as continuous putting surfaces, and the overall course remains legible. The overall layout, mapped water, tees, connectors, and main fairways are legible and broadly faithful. However, hole 3\u2019s small fairway patch by the island green lacks clearly visible alternating mowing stripes at thumbnail scale, so the illustration does not meet the required fairway treatment.",
+        "review": {
+          "issues": [
+            {
+              "code": "invented-hazard",
+              "hole": 1,
+              "detail": "A large lake has been added below the lower fairway; the diagram shows land in this area and no mapped water hazard.",
+              "region": {
+                "x": 0.2,
+                "y": 0.78,
+                "width": 0.72,
+                "height": 0.2
+              },
+              "consequence": "The overview would depict a substantial hazard beside Hole 1 that is not part of the approved course."
+            },
+            {
+              "code": "style",
+              "hole": 3,
+              "detail": "The small fairway patch beside the island green lacks clearly visible alternating edge-to-edge mowing stripes at thumbnail scale.",
+              "region": {
+                "x": 0.24,
+                "y": 0.41,
+                "width": 0.09,
+                "height": 0.08
+              },
+              "consequence": "This mapped fairway patch may be mistaken for uniformly cut rough or another green surface."
+            },
+            {
+              "code": "style",
+              "hole": 3,
+              "detail": "The small fairway patch beside the island green appears uniformly green rather than having distinct alternating bands across its footprint.",
+              "region": {
+                "x": 0.22,
+                "y": 0.42,
+                "width": 0.1,
+                "height": 0.09
+              },
+              "consequence": "At overview scale, this mapped fairway can read as undifferentiated turf or as part of the green, making the hole\u2019s short fairway section unclear."
+            }
+          ],
+          "reason": "The illustration adds a large lake below the lower fairway that is absent from the numbered diagram, and the small Hole 3 fairway patch does not read as clearly striped at thumbnail scale. The greens otherwise read as continuous putting surfaces, and the overall course remains legible. The overall layout, mapped water, tees, connectors, and main fairways are legible and broadly faithful. However, hole 3\u2019s small fairway patch by the island green lacks clearly visible alternating mowing stripes at thumbnail scale, so the illustration does not meet the required fairway treatment.",
+          "reviews": [
+            {
+              "review": {
+                "issues": [
+                  {
+                    "code": "invented-hazard",
+                    "hole": 1,
+                    "detail": "A large lake has been added below the lower fairway; the diagram shows land in this area and no mapped water hazard.",
+                    "region": {
+                      "x": 0.2,
+                      "y": 0.78,
+                      "width": 0.72,
+                      "height": 0.2
+                    },
+                    "consequence": "The overview would depict a substantial hazard beside Hole 1 that is not part of the approved course."
+                  },
+                  {
+                    "code": "style",
+                    "hole": 3,
+                    "detail": "The small fairway patch beside the island green lacks clearly visible alternating edge-to-edge mowing stripes at thumbnail scale.",
+                    "region": {
+                      "x": 0.24,
+                      "y": 0.41,
+                      "width": 0.09,
+                      "height": 0.08
+                    },
+                    "consequence": "This mapped fairway patch may be mistaken for uniformly cut rough or another green surface."
+                  }
+                ],
+                "reason": "The illustration adds a large lake below the lower fairway that is absent from the numbered diagram, and the small Hole 3 fairway patch does not read as clearly striped at thumbnail scale. The greens otherwise read as continuous putting surfaces, and the overall course remains legible.",
+                "scores": {
+                  "naturalGreens": 4,
+                  "visualClarity": 4,
+                  "geometryFidelity": 2,
+                  "styleConsistency": 3
+                },
+                "approved": false,
+                "candidate": 0,
+                "reviewKind": "artwork-only-v1"
+              },
+              "responseID": "resp_06aa27345f0aca6c016ae6870750e087d2b7fe236deea0dced"
+            },
+            {
+              "review": {
+                "issues": [
+                  {
+                    "code": "style",
+                    "hole": 3,
+                    "detail": "The small fairway patch beside the island green appears uniformly green rather than having distinct alternating bands across its footprint.",
+                    "region": {
+                      "x": 0.22,
+                      "y": 0.42,
+                      "width": 0.1,
+                      "height": 0.09
+                    },
+                    "consequence": "At overview scale, this mapped fairway can read as undifferentiated turf or as part of the green, making the hole\u2019s short fairway section unclear."
+                  }
+                ],
+                "reason": "The overall layout, mapped water, tees, connectors, and main fairways are legible and broadly faithful. However, hole 3\u2019s small fairway patch by the island green lacks clearly visible alternating mowing stripes at thumbnail scale, so the illustration does not meet the required fairway treatment.",
+                "scores": {
+                  "naturalGreens": 4,
+                  "visualClarity": 4,
+                  "geometryFidelity": 4,
+                  "styleConsistency": 3
+                },
+                "approved": false,
+                "candidate": 0,
+                "reviewKind": "artwork-only-v1"
+              },
+              "responseID": "resp_0c4914c941035d55016ae687075bd487d2a5b9ee7575888d81"
+            }
+          ],
+          "approved": false,
+          "decisionKey": "c6efda689e8f0d5da4ade64581da8bc2120a03e7ed2fe29af0e3965d0a32743f",
+          "artworkSHA256": "ca8785139ef6c77c27ef9dca3b567299c37c604bed2fc08ba0f28ff1775cbfb4",
+          "geometrySHA256": "625cc647d3f640a86fdfb43af1d08623e9f314269e23e8ee593707cea2553ecd",
+          "geometryEncoding": "studio-stable-json-v1"
+        },
+        "decisionKey": "c6efda689e8f0d5da4ade64581da8bc2120a03e7ed2fe29af0e3965d0a32743f",
+        "artworkSHA256": "ca8785139ef6c77c27ef9dca3b567299c37c604bed2fc08ba0f28ff1775cbfb4",
+        "geometrySHA256": "625cc647d3f640a86fdfb43af1d08623e9f314269e23e8ee593707cea2553ecd",
+        "acceptedFindings": [
+          "c6efda689e8f0d5da4ade64581da8bc2120a03e7ed2fe29af0e3965d0a32743f:0",
+          "c6efda689e8f0d5da4ade64581da8bc2120a03e7ed2fe29af0e3965d0a32743f:1",
+          "c6efda689e8f0d5da4ade64581da8bc2120a03e7ed2fe29af0e3965d0a32743f:2"
+        ]
+      }
+    ],
+    "compatibilityApproved": true
+  },
+  "artworkStatus": "approved",
+  "geometrySHA256": "326fb7013a5e5247ccbbce186efbee60a5bec68fab6ee2e5cf2358a3f8a4d563",
+  "artworkSHA256": "7e6c5a3e2615e243dd554e70839d4ade6995919878dfedd3ff328421e1277e61",
+  "artworkReview": {
+    "issues": [
+      {
+        "code": "style",
+        "hole": 3,
+        "detail": "The small fairway patch immediately to the right of the island green appears largely uniform, without clearly readable alternating stripes crossing its width.",
+        "region": {
+          "x": 0.26,
+          "y": 0.43,
+          "width": 0.07,
+          "height": 0.06
+        },
+        "consequence": "At overview scale, this mapped fairway patch may be mistaken for unstriped rough or part of the green rather than a distinct fairway."
+      },
+      {
+        "code": "style",
+        "hole": 3,
+        "detail": "The short fairway patch immediately east of G3 has no clearly visible alternating edge-to-edge mowing stripes at thumbnail scale.",
+        "region": {
+          "x": 0.26,
+          "y": 0.43,
+          "width": 0.07,
+          "height": 0.06
+        },
+        "consequence": "The patch can read as uniform turf rather than the mapped fairway, making its distinction from the surrounding grass less clear in the overview."
+      },
+      {
+        "code": "geometry-mismatch",
+        "hole": 0,
+        "detail": "The mapped yellow green-center markers are not visibly represented as flags or pins on the three greens.",
+        "region": null,
+        "consequence": "The overview omits the mapped target positions within the greens."
+      }
+    ],
+    "reason": "The course layout, mapped connectors, hazards, tees, and continuous natural putting surfaces are represented clearly. However, the small Hole 3 approach fairway beside the island green lacks clearly visible edge-to-edge mowing stripes at thumbnail scale, so the artwork does not meet the required fairway treatment. The overall layout, mapped hazards, continuous greens, and main fairways read clearly, but the small Hole 3 fairway patch lacks the required visible mowing stripes. The mapped green pin/flag markers also appear to be missing.",
+    "reviews": [
+      {
+        "review": {
+          "issues": [
+            {
+              "code": "style",
+              "hole": 3,
+              "detail": "The small fairway patch immediately to the right of the island green appears largely uniform, without clearly readable alternating stripes crossing its width.",
+              "region": {
+                "x": 0.26,
+                "y": 0.43,
+                "width": 0.07,
+                "height": 0.06
+              },
+              "consequence": "At overview scale, this mapped fairway patch may be mistaken for unstriped rough or part of the green rather than a distinct fairway."
+            }
+          ],
+          "reason": "The course layout, mapped connectors, hazards, tees, and continuous natural putting surfaces are represented clearly. However, the small Hole 3 approach fairway beside the island green lacks clearly visible edge-to-edge mowing stripes at thumbnail scale, so the artwork does not meet the required fairway treatment.",
+          "scores": {
+            "naturalGreens": 5,
+            "visualClarity": 4,
+            "geometryFidelity": 5,
+            "styleConsistency": 3
+          },
+          "approved": false,
+          "candidate": 0,
+          "reviewKind": "artwork-only-v1"
+        },
+        "responseID": "resp_0bc21b3b11478c18016ae68709b89887d2b8c4964c4883a57d"
+      },
+      {
+        "review": {
+          "issues": [
+            {
+              "code": "style",
+              "hole": 3,
+              "detail": "The short fairway patch immediately east of G3 has no clearly visible alternating edge-to-edge mowing stripes at thumbnail scale.",
+              "region": {
+                "x": 0.26,
+                "y": 0.43,
+                "width": 0.07,
+                "height": 0.06
+              },
+              "consequence": "The patch can read as uniform turf rather than the mapped fairway, making its distinction from the surrounding grass less clear in the overview."
+            },
+            {
+              "code": "geometry-mismatch",
+              "hole": 0,
+              "detail": "The mapped yellow green-center markers are not visibly represented as flags or pins on the three greens.",
+              "region": null,
+              "consequence": "The overview omits the mapped target positions within the greens."
+            }
+          ],
+          "reason": "The overall layout, mapped hazards, continuous greens, and main fairways read clearly, but the small Hole 3 fairway patch lacks the required visible mowing stripes. The mapped green pin/flag markers also appear to be missing.",
+          "scores": {
+            "naturalGreens": 5,
+            "visualClarity": 4,
+            "geometryFidelity": 4,
+            "styleConsistency": 3
+          },
+          "approved": false,
+          "candidate": 0,
+          "reviewKind": "artwork-only-v1"
+        },
+        "responseID": "resp_0ee2160c5fe816e1016ae687173f1487d2b5f6e2070daa62cb"
+      }
+    ],
+    "approved": false,
+    "artworkSHA256": "7e6c5a3e2615e243dd554e70839d4ade6995919878dfedd3ff328421e1277e61",
+    "geometrySHA256": "56170b6aa154aade6e853f28480874e71aa3e68f26c8d443d34a2e28f0587645",
+    "geometryEncoding": "studio-stable-json-v1",
+    "decisionKey": "92df32f802f77c3f4beed1357a7533f42eba600bbadcd9112c7b732a60d6ef1b"
+  },
+  "compatibility": {
+    "policy": "studio-compatible-v1",
+    "holes": [
+      {
+        "sections": 1,
+        "addedFairwayYards": 0,
+        "addedFairwayPercent": 0,
+        "waterReshaped": false,
+        "addedFairway": []
+      },
+      {
+        "sections": 1,
+        "addedFairwayYards": 0,
+        "addedFairwayPercent": 0,
+        "waterReshaped": false,
+        "addedFairway": []
+      },
+      {
+        "sections": 1,
+        "addedFairwayYards": 0,
+        "addedFairwayPercent": 0,
+        "waterReshaped": false,
+        "addedFairway": []
+      }
+    ]
+  },
+  "holes": [
+    {
+      "par": 5,
+      "lengthYards": 512,
+      "type": "straight"
+    },
+    {
+      "par": 5,
+      "lengthYards": 485,
+      "type": "straight"
+    },
+    {
+      "par": 3,
+      "lengthYards": 137,
+      "type": "straight"
+    }
+  ],
+  "retainedOlder": {
+    "legacy": {
+      "course": 139,
+      "artworkSHA256": "e49994576c50d998a07463e049091f8868c3e2caa81ed515b37de4ce99a5f3aa",
+      "schemaVersion": 1,
+      "geometrySHA256": "86dbf5d91bf340537ffe319212ef46eeb17dbcffcddb38bd5ecc1528d62ec3a6",
+      "artRulesVersion": "fairway-stripes-v4"
+    },
+    "pairMatchupID": null
+  }
+}
