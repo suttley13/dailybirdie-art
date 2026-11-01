@@ -1,0 +1,42 @@
+{
+  "responseID": "resp_09f8a65d3a052738016ae752f1f26487d1a441201e9d3ead84",
+  "model": "gpt-6-luna",
+  "usage": {
+    "input_tokens": 8893,
+    "input_tokens_details": {
+      "cache_write_tokens": 7539,
+      "cached_tokens": 1351
+    },
+    "output_tokens": 4898,
+    "output_tokens_details": {
+      "reasoning_tokens": 4726
+    },
+    "total_tokens": 13791
+  },
+  "review": {
+    "reviewKind": "artwork-only-v1",
+    "candidate": 38,
+    "approved": false,
+    "scores": {
+      "geometryFidelity": 3,
+      "naturalGreens": 5,
+      "visualClarity": 4,
+      "styleConsistency": 5
+    },
+    "reason": "The illustration is clear and stylistically consistent, but the mapped G1-to-T2 walking connector appears to stop short of G1.",
+    "issues": [
+      {
+        "code": "geometry-mismatch",
+        "hole": 1,
+        "detail": "The tan walking connector from T2 ends above G1 rather than visibly reaching the green; the bunkers between them make the gap more apparent.",
+        "consequence": "The overview makes the approved G1-to-T2 walking connection look disconnected.",
+        "region": {
+          "x": 0.8,
+          "y": 0.3,
+          "width": 0.05,
+          "height": 0.07
+        }
+      }
+    ]
+  }
+}

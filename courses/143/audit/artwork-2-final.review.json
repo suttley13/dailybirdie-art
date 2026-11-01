@@ -1,0 +1,29 @@
+{
+  "responseID": "resp_07bf03dea66f4fd2016ae75359681487d1a87853e4b65db6fb",
+  "model": "gpt-6-luna",
+  "usage": {
+    "input_tokens": 8894,
+    "input_tokens_details": {
+      "cache_write_tokens": 7540,
+      "cached_tokens": 1351
+    },
+    "output_tokens": 3039,
+    "output_tokens_details": {
+      "reasoning_tokens": 2930
+    },
+    "total_tokens": 11933
+  },
+  "review": {
+    "reviewKind": "artwork-only-v1",
+    "candidate": 38,
+    "approved": true,
+    "scores": {
+      "geometryFidelity": 4,
+      "naturalGreens": 4,
+      "visualClarity": 4,
+      "styleConsistency": 5
+    },
+    "reason": "The numbered tee-to-green layout, mapped fairway sections, water and bunkers are represented clearly. All fairways have visible stripes, the greens read as continuous natural surfaces, and the wooded illustration fits the reference style. No actionable artwork issues found.",
+    "issues": []
+  }
+}

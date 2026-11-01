@@ -1,0 +1,28 @@
+{
+  "responseID": "resp_01e293a0c8f983ba016ae7525b08ec87d1888041598f1fb099",
+  "model": "gpt-6-luna",
+  "usage": {
+    "input_tokens": 55833,
+    "input_tokens_details": {
+      "cache_write_tokens": 55830,
+      "cached_tokens": 0
+    },
+    "output_tokens": 1729,
+    "output_tokens_details": {
+      "reasoning_tokens": 1398
+    },
+    "total_tokens": 57562
+  },
+  "review": {
+    "candidate": 38,
+    "approved": true,
+    "scores": {
+      "strategy": 4,
+      "withinRoundVariety": 5,
+      "acrossDaysVariety": 4,
+      "fairDifficulty": 4
+    },
+    "reason": "Candidate 38 is the strongest balanced round as supplied. Hole 1 is a 222-yard long par 3 with a small water hazard right and forward of the target; the 3-wood tee club and 6 of 9 safe dispersion probes make it a genuine distance-and-accuracy test. Hole 2 is a 589-yard three-shot par 5 with substantial water left of play and a staged route; its three simulated shots to the green support a demanding, rather than routine, par-5 challenge. Hole 3 is a dry 375-yard dogleg-left par 4. Its tight safe dispersion (2 of 9) makes placement consequential, while all nine probes remain playable, indicating recoverable misses rather than an exact-shot trap. The par-3/5/4 sequence, distinct target, long-game and turning-hole demands, and water on only the first two holes give the round strong internal variety. Dogleg-lefts and water have appeared recently, so the round is not wholly novel, but this particular combination and sequence are sufficiently distinct. Other options have more repetitive target holes or back-to-back similar par 4s; Candidate 39 also presents repeated par-5 scoring opportunities. Geometry facts confirm water on Holes 1 and 2, none on Hole 3. The current landing areas and dispersion evidence support fair difficulty; no edits are needed.",
+    "edits": []
+  }
+}
