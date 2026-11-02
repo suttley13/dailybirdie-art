@@ -1,0 +1,459 @@
+{
+  "course": 142,
+  "date": "2026-11-05",
+  "name": "Larch Marsh",
+  "studioJob": "855d2c6a-f4cb-4336-96f2-ae9042ebc4bf",
+  "draftFingerprint": "a85f6c1fb15b0d7683ada1acd9a663d45310f1afcd8bb94287e700359eec5879",
+  "approval": {
+    "approvedAt": "2026-11-02T22:16:42.254Z",
+    "playtested": true,
+    "humanApproved": true,
+    "retainedOlder": {
+      "legacy": {
+        "course": 142,
+        "artworkSHA256": "d47b080a5fad597d2107850a5cb87163fa07f8f63caa9f0f65bb1d99c77c3bc7",
+        "schemaVersion": 1,
+        "geometrySHA256": "b35e6d712dcef52bc5d4e16ab38e9af5ad88dda1850557c76e1c6a9082da385d",
+        "artRulesVersion": "fairway-stripes-v4"
+      },
+      "pairMatchupID": null
+    },
+    "artworkOverrides": [
+      {
+        "policy": "studio-human-artwork-v1",
+        "reason": "The illustration broadly depicts the mapped course and preserves the mapped plank bridge and walking connectors, but several course features are shifted vertically from the authoritative diagram. The small Hole 2 fairway patch also lacks clearly readable alternating stripes at thumbnail scale. The mapped layout, property silhouette, hazards, tees, greens, and walking connectors are represented faithfully. The small Hole 2 fairway patch does not show clearly visible alternating stripes at thumbnail scale, so the illustration does not meet the fairway-treatment requirement.",
+        "review": {
+          "issues": [
+            {
+              "code": "geometry-mismatch",
+              "hole": 0,
+              "detail": "The course is vertically displaced and reshaped relative to the diagram: the upper river, T1/G1 and the G3 island with the upper end of Hole 3's fairway sit substantially higher, while the southern edge remains near its diagram position.",
+              "region": {
+                "x": 0.08,
+                "y": 0.1,
+                "width": 0.84,
+                "height": 0.7
+              },
+              "consequence": "The overview gives a misleading impression of the mapped property silhouette and the relative positions and spacing of course features."
+            },
+            {
+              "code": "style",
+              "hole": 2,
+              "detail": "The short fairway patch beside G2 reads mostly as uniform turf; alternating lighter and darker mowing bands are not clearly visible at thumbnail scale.",
+              "region": {
+                "x": 0.67,
+                "y": 0.55,
+                "width": 0.05,
+                "height": 0.07
+              },
+              "consequence": "The patch is harder to distinguish as fairway in the overview."
+            },
+            {
+              "code": "style",
+              "hole": 2,
+              "detail": "The short fairway patch beside the green appears uniformly textured; alternating edge-to-edge light and dark mowing stripes are not clearly visible.",
+              "region": {
+                "x": 0.66,
+                "y": 0.53,
+                "width": 0.04,
+                "height": 0.04
+              },
+              "consequence": "At overview scale, the mapped fairway patch may be difficult to distinguish from surrounding turf or may read like an additional putting surface."
+            }
+          ],
+          "reason": "The illustration broadly depicts the mapped course and preserves the mapped plank bridge and walking connectors, but several course features are shifted vertically from the authoritative diagram. The small Hole 2 fairway patch also lacks clearly readable alternating stripes at thumbnail scale. The mapped layout, property silhouette, hazards, tees, greens, and walking connectors are represented faithfully. The small Hole 2 fairway patch does not show clearly visible alternating stripes at thumbnail scale, so the illustration does not meet the fairway-treatment requirement.",
+          "reviews": [
+            {
+              "review": {
+                "issues": [
+                  {
+                    "code": "geometry-mismatch",
+                    "hole": 0,
+                    "detail": "The course is vertically displaced and reshaped relative to the diagram: the upper river, T1/G1 and the G3 island with the upper end of Hole 3's fairway sit substantially higher, while the southern edge remains near its diagram position.",
+                    "region": {
+                      "x": 0.08,
+                      "y": 0.1,
+                      "width": 0.84,
+                      "height": 0.7
+                    },
+                    "consequence": "The overview gives a misleading impression of the mapped property silhouette and the relative positions and spacing of course features."
+                  },
+                  {
+                    "code": "style",
+                    "hole": 2,
+                    "detail": "The short fairway patch beside G2 reads mostly as uniform turf; alternating lighter and darker mowing bands are not clearly visible at thumbnail scale.",
+                    "region": {
+                      "x": 0.67,
+                      "y": 0.55,
+                      "width": 0.05,
+                      "height": 0.07
+                    },
+                    "consequence": "The patch is harder to distinguish as fairway in the overview."
+                  }
+                ],
+                "reason": "The illustration broadly depicts the mapped course and preserves the mapped plank bridge and walking connectors, but several course features are shifted vertically from the authoritative diagram. The small Hole 2 fairway patch also lacks clearly readable alternating stripes at thumbnail scale.",
+                "scores": {
+                  "naturalGreens": 4,
+                  "visualClarity": 4,
+                  "geometryFidelity": 2,
+                  "styleConsistency": 3
+                },
+                "approved": false,
+                "candidate": 0,
+                "reviewKind": "artwork-only-v1"
+              },
+              "responseID": "resp_0e287ffd76026a7f016ae9028dd38887d2a3e9d997d01308c5"
+            },
+            {
+              "review": {
+                "issues": [
+                  {
+                    "code": "style",
+                    "hole": 2,
+                    "detail": "The short fairway patch beside the green appears uniformly textured; alternating edge-to-edge light and dark mowing stripes are not clearly visible.",
+                    "region": {
+                      "x": 0.66,
+                      "y": 0.53,
+                      "width": 0.04,
+                      "height": 0.04
+                    },
+                    "consequence": "At overview scale, the mapped fairway patch may be difficult to distinguish from surrounding turf or may read like an additional putting surface."
+                  }
+                ],
+                "reason": "The mapped layout, property silhouette, hazards, tees, greens, and walking connectors are represented faithfully. The small Hole 2 fairway patch does not show clearly visible alternating stripes at thumbnail scale, so the illustration does not meet the fairway-treatment requirement.",
+                "scores": {
+                  "naturalGreens": 4,
+                  "visualClarity": 4,
+                  "geometryFidelity": 5,
+                  "styleConsistency": 3
+                },
+                "approved": false,
+                "candidate": 0,
+                "reviewKind": "artwork-only-v1"
+              },
+              "responseID": "resp_057756ae8ab0ad21016ae9028dd4d887d2a9bc34a71de71585"
+            }
+          ],
+          "approved": false,
+          "decisionKey": "f9b90fb2091d4204b9b207d5defc3d379f003b171983ecad89688f179289b0ae",
+          "artworkSHA256": "61e0a654473b940fde70d51973288cec12aec7f77c3a86e6cf38a565523be5ed",
+          "geometrySHA256": "f962e5d5008795ddec1b62b4ee3b03a7ebcdde5c8810dfd703066c8334ef0470",
+          "geometryEncoding": "studio-stable-json-v1"
+        },
+        "decisionKey": "f9b90fb2091d4204b9b207d5defc3d379f003b171983ecad89688f179289b0ae",
+        "artworkSHA256": "61e0a654473b940fde70d51973288cec12aec7f77c3a86e6cf38a565523be5ed",
+        "geometrySHA256": "f962e5d5008795ddec1b62b4ee3b03a7ebcdde5c8810dfd703066c8334ef0470",
+        "acceptedFindings": [
+          "f9b90fb2091d4204b9b207d5defc3d379f003b171983ecad89688f179289b0ae:0",
+          "f9b90fb2091d4204b9b207d5defc3d379f003b171983ecad89688f179289b0ae:1",
+          "f9b90fb2091d4204b9b207d5defc3d379f003b171983ecad89688f179289b0ae:2"
+        ]
+      },
+      {
+        "policy": "studio-human-artwork-v1",
+        "reason": "The illustration is otherwise clear and broadly follows the diagram, but it adds an unmapped crossing from the island green and does not make the short hole 2 fairway patch visibly striped. The illustration largely preserves the mapped layout and has clear natural-looking greens, but the small mapped fairway section beside hole 2 lacks clearly visible alternating stripes at thumbnail scale.",
+        "review": {
+          "issues": [
+            {
+              "code": "invented-connection",
+              "hole": 3,
+              "detail": "A tan path or causeway visibly connects the island green to the nearby shore, although the diagram maps no bridge or crossing there.",
+              "region": {
+                "x": 0.18,
+                "y": 0.43,
+                "width": 0.04,
+                "height": 0.04
+              },
+              "consequence": "The overview depicts a dry route across the water that is not part of the approved geometry."
+            },
+            {
+              "code": "style",
+              "hole": 2,
+              "detail": "The small fairway patch extending northeast from the green lacks clearly visible edge-to-edge mowing stripes at thumbnail scale.",
+              "region": {
+                "x": 0.66,
+                "y": 0.59,
+                "width": 0.04,
+                "height": 0.05
+              },
+              "consequence": "The mapped patch is difficult to distinguish as fairway in the overview."
+            },
+            {
+              "code": "style",
+              "hole": 2,
+              "detail": "The small fairway patch extending northeast from G2 appears uniformly green rather than showing edge-to-edge alternating mowing stripes.",
+              "region": {
+                "x": 0.667,
+                "y": 0.61,
+                "width": 0.04,
+                "height": 0.03
+              },
+              "consequence": "In the overview, this mapped fairway section is hard to distinguish from the green or surrounding turf."
+            }
+          ],
+          "reason": "The illustration is otherwise clear and broadly follows the diagram, but it adds an unmapped crossing from the island green and does not make the short hole 2 fairway patch visibly striped. The illustration largely preserves the mapped layout and has clear natural-looking greens, but the small mapped fairway section beside hole 2 lacks clearly visible alternating stripes at thumbnail scale.",
+          "reviews": [
+            {
+              "review": {
+                "issues": [
+                  {
+                    "code": "invented-connection",
+                    "hole": 3,
+                    "detail": "A tan path or causeway visibly connects the island green to the nearby shore, although the diagram maps no bridge or crossing there.",
+                    "region": {
+                      "x": 0.18,
+                      "y": 0.43,
+                      "width": 0.04,
+                      "height": 0.04
+                    },
+                    "consequence": "The overview depicts a dry route across the water that is not part of the approved geometry."
+                  },
+                  {
+                    "code": "style",
+                    "hole": 2,
+                    "detail": "The small fairway patch extending northeast from the green lacks clearly visible edge-to-edge mowing stripes at thumbnail scale.",
+                    "region": {
+                      "x": 0.66,
+                      "y": 0.59,
+                      "width": 0.04,
+                      "height": 0.05
+                    },
+                    "consequence": "The mapped patch is difficult to distinguish as fairway in the overview."
+                  }
+                ],
+                "reason": "The illustration is otherwise clear and broadly follows the diagram, but it adds an unmapped crossing from the island green and does not make the short hole 2 fairway patch visibly striped.",
+                "scores": {
+                  "naturalGreens": 4,
+                  "visualClarity": 4,
+                  "geometryFidelity": 3,
+                  "styleConsistency": 3
+                },
+                "approved": false,
+                "candidate": 0,
+                "reviewKind": "artwork-only-v1"
+              },
+              "responseID": "resp_07fbf7b09a36c88f016ae9028b655487d2bd36a949a03e6b1c"
+            },
+            {
+              "review": {
+                "issues": [
+                  {
+                    "code": "style",
+                    "hole": 2,
+                    "detail": "The small fairway patch extending northeast from G2 appears uniformly green rather than showing edge-to-edge alternating mowing stripes.",
+                    "region": {
+                      "x": 0.667,
+                      "y": 0.61,
+                      "width": 0.04,
+                      "height": 0.03
+                    },
+                    "consequence": "In the overview, this mapped fairway section is hard to distinguish from the green or surrounding turf."
+                  }
+                ],
+                "reason": "The illustration largely preserves the mapped layout and has clear natural-looking greens, but the small mapped fairway section beside hole 2 lacks clearly visible alternating stripes at thumbnail scale.",
+                "scores": {
+                  "naturalGreens": 4,
+                  "visualClarity": 4,
+                  "geometryFidelity": 4,
+                  "styleConsistency": 3
+                },
+                "approved": false,
+                "candidate": 0,
+                "reviewKind": "artwork-only-v1"
+              },
+              "responseID": "resp_0448a2aef68930c2016ae9028aab3887d2a47c91c86dd5ab46"
+            }
+          ],
+          "approved": false,
+          "decisionKey": "c2a7db26ddf4ceba6a95198541e8d97f2a6bd211bc73c47667aa1efa39c116b4",
+          "artworkSHA256": "df8362e3524224e7e3913fed39d4bea8616229eb8ce54a561449d5463f960ccd",
+          "geometrySHA256": "9dd9874229fc955fcde7bd0d823872c43f39abec617d4078019b03c47218317a",
+          "geometryEncoding": "studio-stable-json-v1"
+        },
+        "decisionKey": "c2a7db26ddf4ceba6a95198541e8d97f2a6bd211bc73c47667aa1efa39c116b4",
+        "artworkSHA256": "df8362e3524224e7e3913fed39d4bea8616229eb8ce54a561449d5463f960ccd",
+        "geometrySHA256": "9dd9874229fc955fcde7bd0d823872c43f39abec617d4078019b03c47218317a",
+        "acceptedFindings": [
+          "c2a7db26ddf4ceba6a95198541e8d97f2a6bd211bc73c47667aa1efa39c116b4:0",
+          "c2a7db26ddf4ceba6a95198541e8d97f2a6bd211bc73c47667aa1efa39c116b4:1",
+          "c2a7db26ddf4ceba6a95198541e8d97f2a6bd211bc73c47667aa1efa39c116b4:2"
+        ]
+      }
+    ],
+    "compatibilityApproved": true
+  },
+  "artworkStatus": "approved",
+  "geometrySHA256": "00325d0d66a11a6443000621a459d43e6d00a9631baebd82889b36cb7db629fc",
+  "artworkSHA256": "61e0a654473b940fde70d51973288cec12aec7f77c3a86e6cf38a565523be5ed",
+  "artworkReview": {
+    "issues": [
+      {
+        "code": "geometry-mismatch",
+        "hole": 0,
+        "detail": "The course is vertically displaced and reshaped relative to the diagram: the upper river, T1/G1 and the G3 island with the upper end of Hole 3's fairway sit substantially higher, while the southern edge remains near its diagram position.",
+        "region": {
+          "x": 0.08,
+          "y": 0.1,
+          "width": 0.84,
+          "height": 0.7
+        },
+        "consequence": "The overview gives a misleading impression of the mapped property silhouette and the relative positions and spacing of course features."
+      },
+      {
+        "code": "style",
+        "hole": 2,
+        "detail": "The short fairway patch beside G2 reads mostly as uniform turf; alternating lighter and darker mowing bands are not clearly visible at thumbnail scale.",
+        "region": {
+          "x": 0.67,
+          "y": 0.55,
+          "width": 0.05,
+          "height": 0.07
+        },
+        "consequence": "The patch is harder to distinguish as fairway in the overview."
+      },
+      {
+        "code": "style",
+        "hole": 2,
+        "detail": "The short fairway patch beside the green appears uniformly textured; alternating edge-to-edge light and dark mowing stripes are not clearly visible.",
+        "region": {
+          "x": 0.66,
+          "y": 0.53,
+          "width": 0.04,
+          "height": 0.04
+        },
+        "consequence": "At overview scale, the mapped fairway patch may be difficult to distinguish from surrounding turf or may read like an additional putting surface."
+      }
+    ],
+    "reason": "The illustration broadly depicts the mapped course and preserves the mapped plank bridge and walking connectors, but several course features are shifted vertically from the authoritative diagram. The small Hole 2 fairway patch also lacks clearly readable alternating stripes at thumbnail scale. The mapped layout, property silhouette, hazards, tees, greens, and walking connectors are represented faithfully. The small Hole 2 fairway patch does not show clearly visible alternating stripes at thumbnail scale, so the illustration does not meet the fairway-treatment requirement.",
+    "reviews": [
+      {
+        "review": {
+          "issues": [
+            {
+              "code": "geometry-mismatch",
+              "hole": 0,
+              "detail": "The course is vertically displaced and reshaped relative to the diagram: the upper river, T1/G1 and the G3 island with the upper end of Hole 3's fairway sit substantially higher, while the southern edge remains near its diagram position.",
+              "region": {
+                "x": 0.08,
+                "y": 0.1,
+                "width": 0.84,
+                "height": 0.7
+              },
+              "consequence": "The overview gives a misleading impression of the mapped property silhouette and the relative positions and spacing of course features."
+            },
+            {
+              "code": "style",
+              "hole": 2,
+              "detail": "The short fairway patch beside G2 reads mostly as uniform turf; alternating lighter and darker mowing bands are not clearly visible at thumbnail scale.",
+              "region": {
+                "x": 0.67,
+                "y": 0.55,
+                "width": 0.05,
+                "height": 0.07
+              },
+              "consequence": "The patch is harder to distinguish as fairway in the overview."
+            }
+          ],
+          "reason": "The illustration broadly depicts the mapped course and preserves the mapped plank bridge and walking connectors, but several course features are shifted vertically from the authoritative diagram. The small Hole 2 fairway patch also lacks clearly readable alternating stripes at thumbnail scale.",
+          "scores": {
+            "naturalGreens": 4,
+            "visualClarity": 4,
+            "geometryFidelity": 2,
+            "styleConsistency": 3
+          },
+          "approved": false,
+          "candidate": 0,
+          "reviewKind": "artwork-only-v1"
+        },
+        "responseID": "resp_0e287ffd76026a7f016ae9028dd38887d2a3e9d997d01308c5"
+      },
+      {
+        "review": {
+          "issues": [
+            {
+              "code": "style",
+              "hole": 2,
+              "detail": "The short fairway patch beside the green appears uniformly textured; alternating edge-to-edge light and dark mowing stripes are not clearly visible.",
+              "region": {
+                "x": 0.66,
+                "y": 0.53,
+                "width": 0.04,
+                "height": 0.04
+              },
+              "consequence": "At overview scale, the mapped fairway patch may be difficult to distinguish from surrounding turf or may read like an additional putting surface."
+            }
+          ],
+          "reason": "The mapped layout, property silhouette, hazards, tees, greens, and walking connectors are represented faithfully. The small Hole 2 fairway patch does not show clearly visible alternating stripes at thumbnail scale, so the illustration does not meet the fairway-treatment requirement.",
+          "scores": {
+            "naturalGreens": 4,
+            "visualClarity": 4,
+            "geometryFidelity": 5,
+            "styleConsistency": 3
+          },
+          "approved": false,
+          "candidate": 0,
+          "reviewKind": "artwork-only-v1"
+        },
+        "responseID": "resp_057756ae8ab0ad21016ae9028dd4d887d2a9bc34a71de71585"
+      }
+    ],
+    "approved": false,
+    "artworkSHA256": "61e0a654473b940fde70d51973288cec12aec7f77c3a86e6cf38a565523be5ed",
+    "geometrySHA256": "f962e5d5008795ddec1b62b4ee3b03a7ebcdde5c8810dfd703066c8334ef0470",
+    "geometryEncoding": "studio-stable-json-v1",
+    "decisionKey": "f9b90fb2091d4204b9b207d5defc3d379f003b171983ecad89688f179289b0ae"
+  },
+  "compatibility": {
+    "policy": "studio-compatible-v1",
+    "holes": [
+      {
+        "sections": 1,
+        "addedFairwayYards": 0,
+        "addedFairwayPercent": 0,
+        "waterReshaped": false,
+        "addedFairway": []
+      },
+      {
+        "sections": 1,
+        "addedFairwayYards": 0,
+        "addedFairwayPercent": 0,
+        "waterReshaped": false,
+        "addedFairway": []
+      },
+      {
+        "sections": 1,
+        "addedFairwayYards": 0,
+        "addedFairwayPercent": 0,
+        "waterReshaped": true,
+        "addedFairway": []
+      }
+    ]
+  },
+  "holes": [
+    {
+      "par": 4,
+      "lengthYards": 407,
+      "type": "straight"
+    },
+    {
+      "par": 3,
+      "lengthYards": 244,
+      "type": "straight"
+    },
+    {
+      "par": 5,
+      "lengthYards": 579,
+      "type": "straight"
+    }
+  ],
+  "retainedOlder": {
+    "legacy": {
+      "course": 142,
+      "artworkSHA256": "d47b080a5fad597d2107850a5cb87163fa07f8f63caa9f0f65bb1d99c77c3bc7",
+      "schemaVersion": 1,
+      "geometrySHA256": "b35e6d712dcef52bc5d4e16ab38e9af5ad88dda1850557c76e1c6a9082da385d",
+      "artRulesVersion": "fairway-stripes-v4"
+    },
+    "pairMatchupID": null
+  }
+}
