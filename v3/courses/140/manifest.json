@@ -1,0 +1,9 @@
+{
+  "schemaVersion": 3,
+  "course": 140,
+  "gameplayRules": "studio-v1",
+  "geometrySHA256": "79fa66b5f0c9aec58aa63c9a45a86a20228b91db69406cc6e7c7cf9e67041cd7",
+  "artworkSHA256": "84dc9e197b1d877d3dfd0849d4b5770a99bbe1690548ab856a8309ac7037c9d3",
+  "artRulesVersion": "course-studio-artwork-1",
+  "minimumAppVersion": "1.8"
+}
