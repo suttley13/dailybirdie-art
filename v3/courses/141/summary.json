@@ -1,0 +1,123 @@
+{
+  "course": 141,
+  "date": "2026-11-04",
+  "name": "Cypress Links",
+  "studioJob": "3c712cbc-381c-4e3e-9070-40fc9767c9d9",
+  "draftFingerprint": "00730a75803259e6d15790444f919f0fa67dc793015650c61b7b6afc49aca3d9",
+  "approval": {
+    "approvedAt": "2026-11-02T15:55:13.988Z",
+    "playtested": true,
+    "humanApproved": true,
+    "retainedOlder": {
+      "legacy": {
+        "course": 141,
+        "artworkSHA256": "e7958c2fead1eda97e1623fc18fe8588a29182d298900e5e8df16fc3d5e644cb",
+        "schemaVersion": 1,
+        "geometrySHA256": "b68f65d5afdf1dfbb9c307ea498777c2cb401cd0e512e2cfeff65fe00f11b819",
+        "artRulesVersion": "fairway-stripes-v4"
+      },
+      "pairMatchupID": null
+    },
+    "artworkOverrides": [],
+    "compatibilityApproved": true
+  },
+  "artworkStatus": "approved",
+  "geometrySHA256": "742e626ff59a6a136ba1d92983ef907e627b62555c10c85c3181bbc79e30d055",
+  "artworkSHA256": "517f43ab3123fa2b460a7907631bb7d05433cdfa3d2c653e73b1cbe8d46dfae5",
+  "artworkReview": {
+    "issues": [],
+    "reason": "The illustration preserves the mapped property shape, lake, tees, greens, fairways, hazards, and walking connectors. Fairways show visible crosswise mowing stripes, the greens read as continuous natural putting surfaces, and the wooded painterly treatment is consistent with the reference. No actionable artwork issue identified. The illustration preserves the mapped three-hole layout, fairway directions and patches, lake and bunkers, tees, greens, and both walking connectors. Greens read as continuous natural surfaces, and the fairway sections have visible stripes. The wooded illustrative style is consistent with the reference and remains clear at overview scale.",
+    "reviews": [
+      {
+        "review": {
+          "issues": [],
+          "reason": "The illustration preserves the mapped property shape, lake, tees, greens, fairways, hazards, and walking connectors. Fairways show visible crosswise mowing stripes, the greens read as continuous natural putting surfaces, and the wooded painterly treatment is consistent with the reference. No actionable artwork issue identified.",
+          "scores": {
+            "naturalGreens": 5,
+            "visualClarity": 4,
+            "geometryFidelity": 4,
+            "styleConsistency": 4
+          },
+          "approved": true,
+          "candidate": 0,
+          "reviewKind": "artwork-only-v1"
+        },
+        "responseID": "resp_0b8501dddb802465016ae8b219b51c87d192a61652d504fdfd"
+      },
+      {
+        "review": {
+          "issues": [],
+          "reason": "The illustration preserves the mapped three-hole layout, fairway directions and patches, lake and bunkers, tees, greens, and both walking connectors. Greens read as continuous natural surfaces, and the fairway sections have visible stripes. The wooded illustrative style is consistent with the reference and remains clear at overview scale.",
+          "scores": {
+            "naturalGreens": 4,
+            "visualClarity": 4,
+            "geometryFidelity": 5,
+            "styleConsistency": 5
+          },
+          "approved": true,
+          "candidate": 0,
+          "reviewKind": "artwork-only-v1"
+        },
+        "responseID": "resp_0387717c8193465f016ae8b219ba4887d1a02ee9f271e5d8f7"
+      }
+    ],
+    "approved": true,
+    "artworkSHA256": "517f43ab3123fa2b460a7907631bb7d05433cdfa3d2c653e73b1cbe8d46dfae5",
+    "geometrySHA256": "57a29555c1ef6c53701da62ec8d6899c9791f88394664f32d02d11a60db020d0",
+    "geometryEncoding": "studio-stable-json-v1",
+    "decisionKey": "e16e4f5de24a22d1c8a7570e7e8735f5888b516f300710db0892b2a4871f5736"
+  },
+  "compatibility": {
+    "policy": "studio-compatible-v1",
+    "holes": [
+      {
+        "sections": 1,
+        "addedFairwayYards": 0,
+        "addedFairwayPercent": 0,
+        "waterReshaped": false,
+        "addedFairway": []
+      },
+      {
+        "sections": 1,
+        "addedFairwayYards": 0,
+        "addedFairwayPercent": 0,
+        "waterReshaped": false,
+        "addedFairway": []
+      },
+      {
+        "sections": 1,
+        "addedFairwayYards": 0,
+        "addedFairwayPercent": 0,
+        "waterReshaped": false,
+        "addedFairway": []
+      }
+    ]
+  },
+  "holes": [
+    {
+      "par": 3,
+      "lengthYards": 124,
+      "type": "straight"
+    },
+    {
+      "par": 4,
+      "lengthYards": 466,
+      "type": "straight"
+    },
+    {
+      "par": 5,
+      "lengthYards": 598,
+      "type": "straight"
+    }
+  ],
+  "retainedOlder": {
+    "legacy": {
+      "course": 141,
+      "artworkSHA256": "e7958c2fead1eda97e1623fc18fe8588a29182d298900e5e8df16fc3d5e644cb",
+      "schemaVersion": 1,
+      "geometrySHA256": "b68f65d5afdf1dfbb9c307ea498777c2cb401cd0e512e2cfeff65fe00f11b819",
+      "artRulesVersion": "fairway-stripes-v4"
+    },
+    "pairMatchupID": null
+  }
+}
