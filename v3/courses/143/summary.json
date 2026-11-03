@@ -1,0 +1,728 @@
+{
+  "course": 143,
+  "date": "2026-11-06",
+  "name": "Wolf Run Pines",
+  "studioJob": "4a854260-af01-441a-8442-a2e097538e66",
+  "draftFingerprint": "8750e6cfe873a57624b8d4dce47e124f2224852703e3308eb9ce88a5cf76c072",
+  "approval": {
+    "approvedAt": "2026-11-03T22:46:14.978Z",
+    "playtested": true,
+    "humanApproved": true,
+    "retainedOlder": {
+      "legacy": {
+        "course": 143,
+        "artworkSHA256": "d3282e4521d48a576d94f96bed81b9e813c86439075b6b609f4e997756bdad0e",
+        "schemaVersion": 1,
+        "geometrySHA256": "fb6c28772151d53107d56b9e4d4ca9470e17380f3276f84047c93e36ad797e97",
+        "artRulesVersion": "fairway-stripes-v4"
+      },
+      "pairMatchupID": null
+    },
+    "artworkOverrides": [
+      {
+        "policy": "studio-human-artwork-v1",
+        "reason": "The mapped course layout, greens, water, bridges, and property silhouette read faithfully, but the short Hole 1 fairway patch lacks clearly visible alternating stripes at thumbnail scale. The illustration broadly follows the mapped course and has natural, continuous putting surfaces, but it omits the mapped green target markers and the small Hole 1 fairway patch lacks clearly visible mowing stripes.",
+        "review": {
+          "issues": [
+            {
+              "code": "review",
+              "hole": 0,
+              "detail": "The par-5 green still has only the existing bridge to its round island; no second bridge is visible, and the layout remains essentially unchanged.",
+              "region": null,
+              "consequence": "The requested artwork correction has not been verified. Inspect the before/after comparison or refine it again."
+            },
+            {
+              "code": "style",
+              "hole": 1,
+              "detail": "The short fairway patch between T1 and G1 appears uniformly colored rather than visibly striped edge-to-edge.",
+              "region": {
+                "x": 0.42,
+                "y": 0.31,
+                "width": 0.07,
+                "height": 0.06
+              },
+              "consequence": "The patch may be mistaken for rough or common grass, obscuring the mapped fairway in the overview."
+            },
+            {
+              "code": "geometry-mismatch",
+              "hole": 1,
+              "detail": "The yellow target marker shown on the diagram\u2019s G1 green is not visible on the illustrated green.",
+              "region": {
+                "x": 0.515,
+                "y": 0.286,
+                "width": 0.035,
+                "height": 0.055
+              },
+              "consequence": "The overview does not indicate the mapped target location on G1."
+            },
+            {
+              "code": "geometry-mismatch",
+              "hole": 2,
+              "detail": "The yellow target marker shown on the diagram\u2019s G2 green is not visible on the illustrated green.",
+              "region": {
+                "x": 0.298,
+                "y": 0.632,
+                "width": 0.045,
+                "height": 0.055
+              },
+              "consequence": "The overview does not indicate the mapped target location on G2."
+            },
+            {
+              "code": "geometry-mismatch",
+              "hole": 3,
+              "detail": "The yellow target marker shown on the diagram\u2019s G3 green is not visible on the illustrated green.",
+              "region": {
+                "x": 0.805,
+                "y": 0.315,
+                "width": 0.04,
+                "height": 0.05
+              },
+              "consequence": "The overview does not indicate the mapped target location on G3."
+            },
+            {
+              "code": "style",
+              "hole": 1,
+              "detail": "The small fairway section between T1 and G1 reads as mostly uniform turf; edge shading does not provide clearly visible alternating stripes across this patch.",
+              "region": {
+                "x": 0.42,
+                "y": 0.31,
+                "width": 0.09,
+                "height": 0.045
+              },
+              "consequence": "At overview scale, this mapped fairway section is difficult to distinguish from unstriped surrounding turf."
+            }
+          ],
+          "reason": "The mapped course layout, greens, water, bridges, and property silhouette read faithfully, but the short Hole 1 fairway patch lacks clearly visible alternating stripes at thumbnail scale. The illustration broadly follows the mapped course and has natural, continuous putting surfaces, but it omits the mapped green target markers and the small Hole 1 fairway patch lacks clearly visible mowing stripes.",
+          "reviews": [
+            {
+              "review": {
+                "issues": [
+                  {
+                    "code": "style",
+                    "hole": 1,
+                    "detail": "The short fairway patch between T1 and G1 appears uniformly colored rather than visibly striped edge-to-edge.",
+                    "region": {
+                      "x": 0.42,
+                      "y": 0.31,
+                      "width": 0.07,
+                      "height": 0.06
+                    },
+                    "consequence": "The patch may be mistaken for rough or common grass, obscuring the mapped fairway in the overview."
+                  }
+                ],
+                "reason": "The mapped course layout, greens, water, bridges, and property silhouette read faithfully, but the short Hole 1 fairway patch lacks clearly visible alternating stripes at thumbnail scale.",
+                "scores": {
+                  "naturalGreens": 5,
+                  "visualClarity": 4,
+                  "geometryFidelity": 5,
+                  "styleConsistency": 3
+                },
+                "approved": false,
+                "candidate": 0,
+                "reviewKind": "artwork-only-v1"
+              },
+              "responseID": "resp_0c60495c5b33bfcb016aea63d5f82487d282be31b8bb8a18a4"
+            },
+            {
+              "review": {
+                "issues": [
+                  {
+                    "code": "geometry-mismatch",
+                    "hole": 1,
+                    "detail": "The yellow target marker shown on the diagram\u2019s G1 green is not visible on the illustrated green.",
+                    "region": {
+                      "x": 0.515,
+                      "y": 0.286,
+                      "width": 0.035,
+                      "height": 0.055
+                    },
+                    "consequence": "The overview does not indicate the mapped target location on G1."
+                  },
+                  {
+                    "code": "geometry-mismatch",
+                    "hole": 2,
+                    "detail": "The yellow target marker shown on the diagram\u2019s G2 green is not visible on the illustrated green.",
+                    "region": {
+                      "x": 0.298,
+                      "y": 0.632,
+                      "width": 0.045,
+                      "height": 0.055
+                    },
+                    "consequence": "The overview does not indicate the mapped target location on G2."
+                  },
+                  {
+                    "code": "geometry-mismatch",
+                    "hole": 3,
+                    "detail": "The yellow target marker shown on the diagram\u2019s G3 green is not visible on the illustrated green.",
+                    "region": {
+                      "x": 0.805,
+                      "y": 0.315,
+                      "width": 0.04,
+                      "height": 0.05
+                    },
+                    "consequence": "The overview does not indicate the mapped target location on G3."
+                  },
+                  {
+                    "code": "style",
+                    "hole": 1,
+                    "detail": "The small fairway section between T1 and G1 reads as mostly uniform turf; edge shading does not provide clearly visible alternating stripes across this patch.",
+                    "region": {
+                      "x": 0.42,
+                      "y": 0.31,
+                      "width": 0.09,
+                      "height": 0.045
+                    },
+                    "consequence": "At overview scale, this mapped fairway section is difficult to distinguish from unstriped surrounding turf."
+                  }
+                ],
+                "reason": "The illustration broadly follows the mapped course and has natural, continuous putting surfaces, but it omits the mapped green target markers and the small Hole 1 fairway patch lacks clearly visible mowing stripes.",
+                "scores": {
+                  "naturalGreens": 5,
+                  "visualClarity": 4,
+                  "geometryFidelity": 3,
+                  "styleConsistency": 3
+                },
+                "approved": false,
+                "candidate": 0,
+                "reviewKind": "artwork-only-v1"
+              },
+              "responseID": "resp_021278d796853705016aea63d5f1a487d2b96a8d7c50e0ea00"
+            }
+          ],
+          "approved": false,
+          "editCheck": {
+            "before": {
+              "jobID": "ea6684de-7cd1-45cb-9bc2-dc460040b85d",
+              "artworkSHA256": "974980eae1a43dce2d515f34010834b66b744058143faa79b0554af91881a4ff"
+            },
+            "prompt": "Add a second bridge to green for the par 5, as seen in the reference",
+            "reason": "The par-5 green still has only the existing bridge to its round island; no second bridge is visible, and the layout remains essentially unchanged.",
+            "status": "failed",
+            "artworkSHA256": "586a7e7bb74c3bd0e36729568e0713b3f39da6224d47eaaf803f6304c2b3db87"
+          },
+          "decisionKey": "c44e1ae1a2dd83c29c4fb0b0e8ef6d406bea1fa78b1167fb9844bf09965756a6",
+          "artworkSHA256": "586a7e7bb74c3bd0e36729568e0713b3f39da6224d47eaaf803f6304c2b3db87",
+          "geometrySHA256": "a3fa8fc035824247f079374ef2b5c9fd226dd4f9a52a55118ae3bf10d00c5dab",
+          "geometryEncoding": "studio-stable-json-v1"
+        },
+        "decisionKey": "c44e1ae1a2dd83c29c4fb0b0e8ef6d406bea1fa78b1167fb9844bf09965756a6",
+        "artworkSHA256": "586a7e7bb74c3bd0e36729568e0713b3f39da6224d47eaaf803f6304c2b3db87",
+        "geometrySHA256": "a3fa8fc035824247f079374ef2b5c9fd226dd4f9a52a55118ae3bf10d00c5dab",
+        "acceptedFindings": [
+          "c44e1ae1a2dd83c29c4fb0b0e8ef6d406bea1fa78b1167fb9844bf09965756a6:0",
+          "c44e1ae1a2dd83c29c4fb0b0e8ef6d406bea1fa78b1167fb9844bf09965756a6:1",
+          "c44e1ae1a2dd83c29c4fb0b0e8ef6d406bea1fa78b1167fb9844bf09965756a6:2",
+          "c44e1ae1a2dd83c29c4fb0b0e8ef6d406bea1fa78b1167fb9844bf09965756a6:3",
+          "c44e1ae1a2dd83c29c4fb0b0e8ef6d406bea1fa78b1167fb9844bf09965756a6:4",
+          "c44e1ae1a2dd83c29c4fb0b0e8ef6d406bea1fa78b1167fb9844bf09965756a6:5"
+        ]
+      },
+      {
+        "policy": "studio-human-artwork-v1",
+        "reason": "The illustration broadly preserves the mapped course and has natural continuous greens with clearly striped fairways, but it omits mapped tee and pin markers, making the hole locations incomplete in the overview. The main layout and natural-looking continuous greens are broadly preserved, but the mapped flag positions are missing, Hole 1's tee is not clearly visible, and its small fairway lacks distinct mowing stripes. The rendering is also substantially flatter than the supplied textured style reference.",
+        "review": {
+          "issues": [
+            {
+              "code": "geometry-mismatch",
+              "hole": 1,
+              "detail": "The mapped T1 tee marker is not visible near hole 1\u2019s short fairway section.",
+              "region": {
+                "x": 0.4,
+                "y": 0.33,
+                "width": 0.09,
+                "height": 0.09
+              },
+              "consequence": "Viewers cannot clearly identify where hole 1 begins from the overview."
+            },
+            {
+              "code": "geometry-mismatch",
+              "hole": 0,
+              "detail": "The yellow pin markers shown on the diagram are absent from the illustrated greens.",
+              "region": null,
+              "consequence": "The overview does not show the mapped hole locations on greens 1, 2, and 3."
+            },
+            {
+              "code": "geometry-mismatch",
+              "hole": 0,
+              "detail": "No flags are visible on the mapped greens for Holes 1, 2, or 3.",
+              "region": {
+                "x": 0.31,
+                "y": 0.32,
+                "width": 0.5,
+                "height": 0.4
+              },
+              "consequence": "The overview omits the authored flag placements and no longer communicates those mapped pin locations."
+            },
+            {
+              "code": "geometry-mismatch",
+              "hole": 1,
+              "detail": "The mapped T1 tee is not clearly depicted as a tee; the area beside the short fairway reads as ordinary turf.",
+              "region": {
+                "x": 0.39,
+                "y": 0.33,
+                "width": 0.06,
+                "height": 0.06
+              },
+              "consequence": "Viewers may not be able to locate the Hole 1 starting point in the overview."
+            },
+            {
+              "code": "style",
+              "hole": 1,
+              "detail": "The small fairway patch beside G1 does not show clearly alternating edge-to-edge mowing bands at thumbnail scale.",
+              "region": {
+                "x": 0.41,
+                "y": 0.33,
+                "width": 0.07,
+                "height": 0.05
+              },
+              "consequence": "The patch reads as uniform turf rather than a mapped fairway section."
+            },
+            {
+              "code": "style",
+              "hole": 0,
+              "detail": "Turf, water, and tree rendering is markedly flatter and less textured than the supplied style reference.",
+              "region": null,
+              "consequence": "The course overview reads more like a flat diagram than the textured illustrated style established by the reference."
+            }
+          ],
+          "reason": "The illustration broadly preserves the mapped course and has natural continuous greens with clearly striped fairways, but it omits mapped tee and pin markers, making the hole locations incomplete in the overview. The main layout and natural-looking continuous greens are broadly preserved, but the mapped flag positions are missing, Hole 1's tee is not clearly visible, and its small fairway lacks distinct mowing stripes. The rendering is also substantially flatter than the supplied textured style reference.",
+          "reviews": [
+            {
+              "review": {
+                "issues": [
+                  {
+                    "code": "geometry-mismatch",
+                    "hole": 1,
+                    "detail": "The mapped T1 tee marker is not visible near hole 1\u2019s short fairway section.",
+                    "region": {
+                      "x": 0.4,
+                      "y": 0.33,
+                      "width": 0.09,
+                      "height": 0.09
+                    },
+                    "consequence": "Viewers cannot clearly identify where hole 1 begins from the overview."
+                  },
+                  {
+                    "code": "geometry-mismatch",
+                    "hole": 0,
+                    "detail": "The yellow pin markers shown on the diagram are absent from the illustrated greens.",
+                    "region": null,
+                    "consequence": "The overview does not show the mapped hole locations on greens 1, 2, and 3."
+                  }
+                ],
+                "reason": "The illustration broadly preserves the mapped course and has natural continuous greens with clearly striped fairways, but it omits mapped tee and pin markers, making the hole locations incomplete in the overview.",
+                "scores": {
+                  "naturalGreens": 5,
+                  "visualClarity": 4,
+                  "geometryFidelity": 3,
+                  "styleConsistency": 4
+                },
+                "approved": false,
+                "candidate": 0,
+                "reviewKind": "artwork-only-v1"
+              },
+              "responseID": "resp_0442625e3e8862fd016aea638146e087d2828ff2d09f315931"
+            },
+            {
+              "review": {
+                "issues": [
+                  {
+                    "code": "geometry-mismatch",
+                    "hole": 0,
+                    "detail": "No flags are visible on the mapped greens for Holes 1, 2, or 3.",
+                    "region": {
+                      "x": 0.31,
+                      "y": 0.32,
+                      "width": 0.5,
+                      "height": 0.4
+                    },
+                    "consequence": "The overview omits the authored flag placements and no longer communicates those mapped pin locations."
+                  },
+                  {
+                    "code": "geometry-mismatch",
+                    "hole": 1,
+                    "detail": "The mapped T1 tee is not clearly depicted as a tee; the area beside the short fairway reads as ordinary turf.",
+                    "region": {
+                      "x": 0.39,
+                      "y": 0.33,
+                      "width": 0.06,
+                      "height": 0.06
+                    },
+                    "consequence": "Viewers may not be able to locate the Hole 1 starting point in the overview."
+                  },
+                  {
+                    "code": "style",
+                    "hole": 1,
+                    "detail": "The small fairway patch beside G1 does not show clearly alternating edge-to-edge mowing bands at thumbnail scale.",
+                    "region": {
+                      "x": 0.41,
+                      "y": 0.33,
+                      "width": 0.07,
+                      "height": 0.05
+                    },
+                    "consequence": "The patch reads as uniform turf rather than a mapped fairway section."
+                  },
+                  {
+                    "code": "style",
+                    "hole": 0,
+                    "detail": "Turf, water, and tree rendering is markedly flatter and less textured than the supplied style reference.",
+                    "region": null,
+                    "consequence": "The course overview reads more like a flat diagram than the textured illustrated style established by the reference."
+                  }
+                ],
+                "reason": "The main layout and natural-looking continuous greens are broadly preserved, but the mapped flag positions are missing, Hole 1's tee is not clearly visible, and its small fairway lacks distinct mowing stripes. The rendering is also substantially flatter than the supplied textured style reference.",
+                "scores": {
+                  "naturalGreens": 4,
+                  "visualClarity": 4,
+                  "geometryFidelity": 3,
+                  "styleConsistency": 3
+                },
+                "approved": false,
+                "candidate": 0,
+                "reviewKind": "artwork-only-v1"
+              },
+              "responseID": "resp_03d8f0413a95a4bd016aea6381478887d2a955e3ccf16debf8"
+            }
+          ],
+          "approved": false,
+          "decisionKey": "ba67eb1f84ab1f34d47575ed48ae6e1b2eb29ae0f1250f4ed1b1ad67b2cca0fb",
+          "artworkSHA256": "be6ae06e43a3183650476228146d8ee64769f78a7010ccfb575db5c7f8e8da45",
+          "geometrySHA256": "2e4409ed3b6aa64885d19a147176f879ac8b82b8b7df263784322c80e45daaa9",
+          "geometryEncoding": "studio-stable-json-v1"
+        },
+        "decisionKey": "ba67eb1f84ab1f34d47575ed48ae6e1b2eb29ae0f1250f4ed1b1ad67b2cca0fb",
+        "artworkSHA256": "be6ae06e43a3183650476228146d8ee64769f78a7010ccfb575db5c7f8e8da45",
+        "geometrySHA256": "2e4409ed3b6aa64885d19a147176f879ac8b82b8b7df263784322c80e45daaa9",
+        "acceptedFindings": [
+          "ba67eb1f84ab1f34d47575ed48ae6e1b2eb29ae0f1250f4ed1b1ad67b2cca0fb:0",
+          "ba67eb1f84ab1f34d47575ed48ae6e1b2eb29ae0f1250f4ed1b1ad67b2cca0fb:1",
+          "ba67eb1f84ab1f34d47575ed48ae6e1b2eb29ae0f1250f4ed1b1ad67b2cca0fb:2",
+          "ba67eb1f84ab1f34d47575ed48ae6e1b2eb29ae0f1250f4ed1b1ad67b2cca0fb:3",
+          "ba67eb1f84ab1f34d47575ed48ae6e1b2eb29ae0f1250f4ed1b1ad67b2cca0fb:4",
+          "ba67eb1f84ab1f34d47575ed48ae6e1b2eb29ae0f1250f4ed1b1ad67b2cca0fb:5"
+        ]
+      }
+    ],
+    "compatibilityApproved": true
+  },
+  "artworkStatus": "approved",
+  "geometrySHA256": "cfdd4adb4f28c7c416acd9d8080dcdd77f6adfbe457f075b09805d03c73dcf32",
+  "artworkSHA256": "586a7e7bb74c3bd0e36729568e0713b3f39da6224d47eaaf803f6304c2b3db87",
+  "artworkReview": {
+    "issues": [
+      {
+        "code": "review",
+        "hole": 0,
+        "detail": "The par-5 green still has only the existing bridge to its round island; no second bridge is visible, and the layout remains essentially unchanged.",
+        "region": null,
+        "consequence": "The requested artwork correction has not been verified. Inspect the before/after comparison or refine it again."
+      },
+      {
+        "code": "style",
+        "hole": 1,
+        "detail": "The short fairway patch between T1 and G1 appears uniformly colored rather than visibly striped edge-to-edge.",
+        "region": {
+          "x": 0.42,
+          "y": 0.31,
+          "width": 0.07,
+          "height": 0.06
+        },
+        "consequence": "The patch may be mistaken for rough or common grass, obscuring the mapped fairway in the overview."
+      },
+      {
+        "code": "geometry-mismatch",
+        "hole": 1,
+        "detail": "The yellow target marker shown on the diagram\u2019s G1 green is not visible on the illustrated green.",
+        "region": {
+          "x": 0.515,
+          "y": 0.286,
+          "width": 0.035,
+          "height": 0.055
+        },
+        "consequence": "The overview does not indicate the mapped target location on G1."
+      },
+      {
+        "code": "geometry-mismatch",
+        "hole": 2,
+        "detail": "The yellow target marker shown on the diagram\u2019s G2 green is not visible on the illustrated green.",
+        "region": {
+          "x": 0.298,
+          "y": 0.632,
+          "width": 0.045,
+          "height": 0.055
+        },
+        "consequence": "The overview does not indicate the mapped target location on G2."
+      },
+      {
+        "code": "geometry-mismatch",
+        "hole": 3,
+        "detail": "The yellow target marker shown on the diagram\u2019s G3 green is not visible on the illustrated green.",
+        "region": {
+          "x": 0.805,
+          "y": 0.315,
+          "width": 0.04,
+          "height": 0.05
+        },
+        "consequence": "The overview does not indicate the mapped target location on G3."
+      },
+      {
+        "code": "style",
+        "hole": 1,
+        "detail": "The small fairway section between T1 and G1 reads as mostly uniform turf; edge shading does not provide clearly visible alternating stripes across this patch.",
+        "region": {
+          "x": 0.42,
+          "y": 0.31,
+          "width": 0.09,
+          "height": 0.045
+        },
+        "consequence": "At overview scale, this mapped fairway section is difficult to distinguish from unstriped surrounding turf."
+      }
+    ],
+    "reason": "The mapped course layout, greens, water, bridges, and property silhouette read faithfully, but the short Hole 1 fairway patch lacks clearly visible alternating stripes at thumbnail scale. The illustration broadly follows the mapped course and has natural, continuous putting surfaces, but it omits the mapped green target markers and the small Hole 1 fairway patch lacks clearly visible mowing stripes.",
+    "reviews": [
+      {
+        "review": {
+          "issues": [
+            {
+              "code": "style",
+              "hole": 1,
+              "detail": "The short fairway patch between T1 and G1 appears uniformly colored rather than visibly striped edge-to-edge.",
+              "region": {
+                "x": 0.42,
+                "y": 0.31,
+                "width": 0.07,
+                "height": 0.06
+              },
+              "consequence": "The patch may be mistaken for rough or common grass, obscuring the mapped fairway in the overview."
+            }
+          ],
+          "reason": "The mapped course layout, greens, water, bridges, and property silhouette read faithfully, but the short Hole 1 fairway patch lacks clearly visible alternating stripes at thumbnail scale.",
+          "scores": {
+            "naturalGreens": 5,
+            "visualClarity": 4,
+            "geometryFidelity": 5,
+            "styleConsistency": 3
+          },
+          "approved": false,
+          "candidate": 0,
+          "reviewKind": "artwork-only-v1"
+        },
+        "responseID": "resp_0c60495c5b33bfcb016aea63d5f82487d282be31b8bb8a18a4"
+      },
+      {
+        "review": {
+          "issues": [
+            {
+              "code": "geometry-mismatch",
+              "hole": 1,
+              "detail": "The yellow target marker shown on the diagram\u2019s G1 green is not visible on the illustrated green.",
+              "region": {
+                "x": 0.515,
+                "y": 0.286,
+                "width": 0.035,
+                "height": 0.055
+              },
+              "consequence": "The overview does not indicate the mapped target location on G1."
+            },
+            {
+              "code": "geometry-mismatch",
+              "hole": 2,
+              "detail": "The yellow target marker shown on the diagram\u2019s G2 green is not visible on the illustrated green.",
+              "region": {
+                "x": 0.298,
+                "y": 0.632,
+                "width": 0.045,
+                "height": 0.055
+              },
+              "consequence": "The overview does not indicate the mapped target location on G2."
+            },
+            {
+              "code": "geometry-mismatch",
+              "hole": 3,
+              "detail": "The yellow target marker shown on the diagram\u2019s G3 green is not visible on the illustrated green.",
+              "region": {
+                "x": 0.805,
+                "y": 0.315,
+                "width": 0.04,
+                "height": 0.05
+              },
+              "consequence": "The overview does not indicate the mapped target location on G3."
+            },
+            {
+              "code": "style",
+              "hole": 1,
+              "detail": "The small fairway section between T1 and G1 reads as mostly uniform turf; edge shading does not provide clearly visible alternating stripes across this patch.",
+              "region": {
+                "x": 0.42,
+                "y": 0.31,
+                "width": 0.09,
+                "height": 0.045
+              },
+              "consequence": "At overview scale, this mapped fairway section is difficult to distinguish from unstriped surrounding turf."
+            }
+          ],
+          "reason": "The illustration broadly follows the mapped course and has natural, continuous putting surfaces, but it omits the mapped green target markers and the small Hole 1 fairway patch lacks clearly visible mowing stripes.",
+          "scores": {
+            "naturalGreens": 5,
+            "visualClarity": 4,
+            "geometryFidelity": 3,
+            "styleConsistency": 3
+          },
+          "approved": false,
+          "candidate": 0,
+          "reviewKind": "artwork-only-v1"
+        },
+        "responseID": "resp_021278d796853705016aea63d5f1a487d2b96a8d7c50e0ea00"
+      }
+    ],
+    "approved": false,
+    "editCheck": {
+      "before": {
+        "jobID": "ea6684de-7cd1-45cb-9bc2-dc460040b85d",
+        "artworkSHA256": "974980eae1a43dce2d515f34010834b66b744058143faa79b0554af91881a4ff"
+      },
+      "prompt": "Add a second bridge to green for the par 5, as seen in the reference",
+      "reason": "The par-5 green still has only the existing bridge to its round island; no second bridge is visible, and the layout remains essentially unchanged.",
+      "status": "failed",
+      "artworkSHA256": "586a7e7bb74c3bd0e36729568e0713b3f39da6224d47eaaf803f6304c2b3db87"
+    },
+    "artworkSHA256": "586a7e7bb74c3bd0e36729568e0713b3f39da6224d47eaaf803f6304c2b3db87",
+    "geometrySHA256": "a3fa8fc035824247f079374ef2b5c9fd226dd4f9a52a55118ae3bf10d00c5dab",
+    "geometryEncoding": "studio-stable-json-v1",
+    "decisionKey": "c44e1ae1a2dd83c29c4fb0b0e8ef6d406bea1fa78b1167fb9844bf09965756a6"
+  },
+  "compatibility": {
+    "policy": "studio-compatible-v1",
+    "holes": [
+      {
+        "sections": 1,
+        "addedFairwayYards": 0,
+        "addedFairwayPercent": 0,
+        "waterReshaped": true,
+        "addedFairway": []
+      },
+      {
+        "sections": 2,
+        "addedFairwayYards": 56.97588128733616,
+        "addedFairwayPercent": 0.5982807533995618,
+        "waterReshaped": true,
+        "addedFairway": [
+          [
+            [
+              [
+                220.27744995738604,
+                416.14640022450317
+              ],
+              [
+                220.27758094012256,
+                416.1454053118436
+              ],
+              [
+                220.31103581337743,
+                416.0646381031042
+              ],
+              [
+                231.05997133038383,
+                387.72456382736914
+              ],
+              [
+                231.74167911479802,
+                387.9343084894416
+              ],
+              [
+                232.48142576607634,
+                388.20656113511245
+              ],
+              [
+                221.74047194791058,
+                416.5255912862798
+              ],
+              [
+                221.73897208337377,
+                416.5369838885038
+              ],
+              [
+                221.6845287876075,
+                416.668421631523
+              ],
+              [
+                221.00827651174816,
+                416.3411946001737
+              ]
+            ]
+          ],
+          [
+            [
+              [
+                235.19557050668018,
+                376.82086200075804
+              ],
+              [
+                243.79716868283998,
+                354.14234366592234
+              ],
+              [
+                243.7986685473768,
+                354.1309510636983
+              ],
+              [
+                243.82779039873841,
+                354.0606446951797
+              ],
+              [
+                245.23093783926637,
+                354.59283600887716
+              ],
+              [
+                245.22660481737313,
+                354.6032968490979
+              ],
+              [
+                236.6195352446398,
+                377.2962407784533
+              ],
+              [
+                236.1106365443447,
+                377.10670418038114
+              ]
+            ]
+          ]
+        ]
+      },
+      {
+        "sections": 1,
+        "addedFairwayYards": 0,
+        "addedFairwayPercent": 0,
+        "waterReshaped": true,
+        "addedFairway": []
+      }
+    ]
+  },
+  "holes": [
+    {
+      "par": 3,
+      "lengthYards": 161,
+      "type": "straight"
+    },
+    {
+      "par": 4,
+      "lengthYards": 450,
+      "type": "straight"
+    },
+    {
+      "par": 5,
+      "lengthYards": 565,
+      "type": "straight"
+    }
+  ],
+  "retainedOlder": {
+    "legacy": {
+      "course": 143,
+      "artworkSHA256": "d3282e4521d48a576d94f96bed81b9e813c86439075b6b609f4e997756bdad0e",
+      "schemaVersion": 1,
+      "geometrySHA256": "fb6c28772151d53107d56b9e4d4ca9470e17380f3276f84047c93e36ad797e97",
+      "artRulesVersion": "fairway-stripes-v4"
+    },
+    "pairMatchupID": null
+  }
+}
