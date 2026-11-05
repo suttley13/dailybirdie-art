@@ -1,0 +1,283 @@
+{
+  "geometrySHA256": "c9ec08f285f8262d6639b0716f35a6e13611f071083f85c0f89a4233cd1bb9ce",
+  "artworkSHA256": "7a598acffc8e01d5a4f2cb085a5b879fb44f43661710114ad0a2c9611b043470",
+  "humanApproved": true,
+  "reviews": [
+    {
+      "review": {
+        "issues": [
+          {
+            "code": "style",
+            "hole": 2,
+            "detail": "The mapped short fairway patch immediately above G2 lacks clearly visible alternating stripes crossing edge-to-edge.",
+            "region": {
+              "x": 0.69,
+              "y": 0.33,
+              "width": 0.06,
+              "height": 0.08
+            },
+            "consequence": "In the overview, this mapped fairway may read as uniform rough or an extra green-like area rather than as fairway."
+          }
+        ],
+        "reason": "The course layout, greens, water, and walking connectors are clear and appear faithful to the diagram. The short mapped fairway patch by G2 does not read as striped fairway at thumbnail scale.",
+        "scores": {
+          "naturalGreens": 4,
+          "visualClarity": 4,
+          "geometryFidelity": 5,
+          "styleConsistency": 3
+        },
+        "approved": false,
+        "candidate": 0,
+        "reviewKind": "artwork-only-v1"
+      },
+      "responseID": "resp_0e9bc6d83571e626016aebe5c24a0c87d296fe73ac53da2c23"
+    },
+    {
+      "review": {
+        "issues": [
+          {
+            "code": "geometry-mismatch",
+            "hole": 1,
+            "detail": "The mapped yellow pin marker is absent from the green.",
+            "region": {
+              "x": 0.52,
+              "y": 0.36,
+              "width": 0.04,
+              "height": 0.05
+            },
+            "consequence": "The overview no longer shows the mapped pin location."
+          },
+          {
+            "code": "geometry-mismatch",
+            "hole": 2,
+            "detail": "The mapped yellow pin marker is absent from the green.",
+            "region": {
+              "x": 0.76,
+              "y": 0.43,
+              "width": 0.04,
+              "height": 0.05
+            },
+            "consequence": "The overview no longer shows the mapped pin location."
+          },
+          {
+            "code": "geometry-mismatch",
+            "hole": 3,
+            "detail": "The mapped yellow pin marker is absent from the green.",
+            "region": {
+              "x": 0.27,
+              "y": 0.61,
+              "width": 0.04,
+              "height": 0.05
+            },
+            "consequence": "The overview no longer shows the mapped pin location."
+          },
+          {
+            "code": "clarity",
+            "hole": 2,
+            "detail": "Added tree crowns crowd the corridor from T2 toward its first fairway landing area.",
+            "region": {
+              "x": 0.67,
+              "y": 0.24,
+              "width": 0.11,
+              "height": 0.16
+            },
+            "consequence": "The overview makes the tee-shot corridor appear obstructed."
+          }
+        ],
+        "reason": "The illustration broadly preserves the mapped layout and has visible fairway striping, but the mapped pin markers are missing from all three greens, and added trees clutter Hole 2\u2019s tee-shot corridor.",
+        "scores": {
+          "naturalGreens": 4,
+          "visualClarity": 3,
+          "geometryFidelity": 4,
+          "styleConsistency": 4
+        },
+        "approved": false,
+        "candidate": 0,
+        "reviewKind": "artwork-only-v1"
+      },
+      "responseID": "resp_08027e71674272e7016aebe5c2cdf087d28ec1de331fac78bf"
+    }
+  ],
+  "humanArtworkAcceptance": {
+    "policy": "studio-human-artwork-v1",
+    "reason": "The course layout, greens, water, and walking connectors are clear and appear faithful to the diagram. The short mapped fairway patch by G2 does not read as striped fairway at thumbnail scale. The illustration broadly preserves the mapped layout and has visible fairway striping, but the mapped pin markers are missing from all three greens, and added trees clutter Hole 2\u2019s tee-shot corridor.",
+    "review": {
+      "issues": [
+        {
+          "code": "style",
+          "hole": 2,
+          "detail": "The mapped short fairway patch immediately above G2 lacks clearly visible alternating stripes crossing edge-to-edge.",
+          "region": {
+            "x": 0.69,
+            "y": 0.33,
+            "width": 0.06,
+            "height": 0.08
+          },
+          "consequence": "In the overview, this mapped fairway may read as uniform rough or an extra green-like area rather than as fairway."
+        },
+        {
+          "code": "geometry-mismatch",
+          "hole": 1,
+          "detail": "The mapped yellow pin marker is absent from the green.",
+          "region": {
+            "x": 0.52,
+            "y": 0.36,
+            "width": 0.04,
+            "height": 0.05
+          },
+          "consequence": "The overview no longer shows the mapped pin location."
+        },
+        {
+          "code": "geometry-mismatch",
+          "hole": 2,
+          "detail": "The mapped yellow pin marker is absent from the green.",
+          "region": {
+            "x": 0.76,
+            "y": 0.43,
+            "width": 0.04,
+            "height": 0.05
+          },
+          "consequence": "The overview no longer shows the mapped pin location."
+        },
+        {
+          "code": "geometry-mismatch",
+          "hole": 3,
+          "detail": "The mapped yellow pin marker is absent from the green.",
+          "region": {
+            "x": 0.27,
+            "y": 0.61,
+            "width": 0.04,
+            "height": 0.05
+          },
+          "consequence": "The overview no longer shows the mapped pin location."
+        },
+        {
+          "code": "clarity",
+          "hole": 2,
+          "detail": "Added tree crowns crowd the corridor from T2 toward its first fairway landing area.",
+          "region": {
+            "x": 0.67,
+            "y": 0.24,
+            "width": 0.11,
+            "height": 0.16
+          },
+          "consequence": "The overview makes the tee-shot corridor appear obstructed."
+        }
+      ],
+      "reason": "The course layout, greens, water, and walking connectors are clear and appear faithful to the diagram. The short mapped fairway patch by G2 does not read as striped fairway at thumbnail scale. The illustration broadly preserves the mapped layout and has visible fairway striping, but the mapped pin markers are missing from all three greens, and added trees clutter Hole 2\u2019s tee-shot corridor.",
+      "reviews": [
+        {
+          "review": {
+            "issues": [
+              {
+                "code": "style",
+                "hole": 2,
+                "detail": "The mapped short fairway patch immediately above G2 lacks clearly visible alternating stripes crossing edge-to-edge.",
+                "region": {
+                  "x": 0.69,
+                  "y": 0.33,
+                  "width": 0.06,
+                  "height": 0.08
+                },
+                "consequence": "In the overview, this mapped fairway may read as uniform rough or an extra green-like area rather than as fairway."
+              }
+            ],
+            "reason": "The course layout, greens, water, and walking connectors are clear and appear faithful to the diagram. The short mapped fairway patch by G2 does not read as striped fairway at thumbnail scale.",
+            "scores": {
+              "naturalGreens": 4,
+              "visualClarity": 4,
+              "geometryFidelity": 5,
+              "styleConsistency": 3
+            },
+            "approved": false,
+            "candidate": 0,
+            "reviewKind": "artwork-only-v1"
+          },
+          "responseID": "resp_0e9bc6d83571e626016aebe5c24a0c87d296fe73ac53da2c23"
+        },
+        {
+          "review": {
+            "issues": [
+              {
+                "code": "geometry-mismatch",
+                "hole": 1,
+                "detail": "The mapped yellow pin marker is absent from the green.",
+                "region": {
+                  "x": 0.52,
+                  "y": 0.36,
+                  "width": 0.04,
+                  "height": 0.05
+                },
+                "consequence": "The overview no longer shows the mapped pin location."
+              },
+              {
+                "code": "geometry-mismatch",
+                "hole": 2,
+                "detail": "The mapped yellow pin marker is absent from the green.",
+                "region": {
+                  "x": 0.76,
+                  "y": 0.43,
+                  "width": 0.04,
+                  "height": 0.05
+                },
+                "consequence": "The overview no longer shows the mapped pin location."
+              },
+              {
+                "code": "geometry-mismatch",
+                "hole": 3,
+                "detail": "The mapped yellow pin marker is absent from the green.",
+                "region": {
+                  "x": 0.27,
+                  "y": 0.61,
+                  "width": 0.04,
+                  "height": 0.05
+                },
+                "consequence": "The overview no longer shows the mapped pin location."
+              },
+              {
+                "code": "clarity",
+                "hole": 2,
+                "detail": "Added tree crowns crowd the corridor from T2 toward its first fairway landing area.",
+                "region": {
+                  "x": 0.67,
+                  "y": 0.24,
+                  "width": 0.11,
+                  "height": 0.16
+                },
+                "consequence": "The overview makes the tee-shot corridor appear obstructed."
+              }
+            ],
+            "reason": "The illustration broadly preserves the mapped layout and has visible fairway striping, but the mapped pin markers are missing from all three greens, and added trees clutter Hole 2\u2019s tee-shot corridor.",
+            "scores": {
+              "naturalGreens": 4,
+              "visualClarity": 3,
+              "geometryFidelity": 4,
+              "styleConsistency": 4
+            },
+            "approved": false,
+            "candidate": 0,
+            "reviewKind": "artwork-only-v1"
+          },
+          "responseID": "resp_08027e71674272e7016aebe5c2cdf087d28ec1de331fac78bf"
+        }
+      ],
+      "approved": false,
+      "decisionKey": "2d5c5d2ef0951e5a226e2915f91d3878d36800889de8e109085f7cab49378dce",
+      "artworkSHA256": "7a598acffc8e01d5a4f2cb085a5b879fb44f43661710114ad0a2c9611b043470",
+      "geometrySHA256": "abfb9368ce2a0c4440afc973302bde1babce8a569529e231dc95a7f1549cff24",
+      "geometryEncoding": "studio-stable-json-v1"
+    },
+    "decisionKey": "2d5c5d2ef0951e5a226e2915f91d3878d36800889de8e109085f7cab49378dce",
+    "artworkSHA256": "7a598acffc8e01d5a4f2cb085a5b879fb44f43661710114ad0a2c9611b043470",
+    "geometrySHA256": "c9ec08f285f8262d6639b0716f35a6e13611f071083f85c0f89a4233cd1bb9ce",
+    "acceptedFindings": [
+      "2d5c5d2ef0951e5a226e2915f91d3878d36800889de8e109085f7cab49378dce:0",
+      "2d5c5d2ef0951e5a226e2915f91d3878d36800889de8e109085f7cab49378dce:1",
+      "2d5c5d2ef0951e5a226e2915f91d3878d36800889de8e109085f7cab49378dce:2",
+      "2d5c5d2ef0951e5a226e2915f91d3878d36800889de8e109085f7cab49378dce:3",
+      "2d5c5d2ef0951e5a226e2915f91d3878d36800889de8e109085f7cab49378dce:4"
+    ],
+    "sourceGeometrySHA256": "abfb9368ce2a0c4440afc973302bde1babce8a569529e231dc95a7f1549cff24",
+    "approvedAt": "2026-11-05T02:14:05.931Z"
+  }
+}

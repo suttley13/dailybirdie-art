@@ -1,0 +1,535 @@
+{
+  "geometrySHA256": "170b816c055668322e34ce8c0b125d565ae4868148746c9f5d40a0e50ad4bc8b",
+  "artworkSHA256": "fc4cda9671aa6a64549326f15df6e4c5221bc0bb238ca1948e204538c7aeaba0",
+  "humanApproved": true,
+  "reviews": [
+    {
+      "review": {
+        "issues": [
+          {
+            "code": "green-treatment",
+            "hole": 1,
+            "detail": "The putting surface at the end of the fairway reads as a separate inset disc surrounded by a broad dark-green ring, rather than one continuous natural putting surface with only a narrow edge transition.",
+            "region": {
+              "x": 0.52,
+              "y": 0.31,
+              "width": 0.08,
+              "height": 0.12
+            },
+            "consequence": "The overview makes the green appear bullseye-like or raised/ringed."
+          },
+          {
+            "code": "green-treatment",
+            "hole": 2,
+            "detail": "The putting surface on the island reads as a separate inset disc within a broad contrasting border.",
+            "region": {
+              "x": 0.78,
+              "y": 0.43,
+              "width": 0.08,
+              "height": 0.12
+            },
+            "consequence": "The overview suggests a nested or raised green instead of one continuous putting surface."
+          },
+          {
+            "code": "green-treatment",
+            "hole": 3,
+            "detail": "The green at the left end of the fairway is rendered as a distinct inset disc with a broad dark-green surrounding ring.",
+            "region": {
+              "x": 0.24,
+              "y": 0.6,
+              "width": 0.08,
+              "height": 0.12
+            },
+            "consequence": "The overview suggests a bullseye-like or raised green."
+          },
+          {
+            "code": "green-treatment",
+            "hole": 0,
+            "detail": "Numerous added palm crowns, shrubs, and their shadows make the mapped sparse desert planting appear densely landscaped; reduce them to the mapped sparse distribution.",
+            "region": {
+              "x": 0.19,
+              "y": 0.16,
+              "width": 0.58,
+              "height": 0.57
+            },
+            "consequence": "The overview no longer reads as the sparse desert environment shown in the diagram, and the added planting can appear to crowd the course."
+          },
+          {
+            "code": "green-treatment",
+            "hole": 1,
+            "detail": "Added crowns and shadows appear within the broad corridor from T1 toward the first fairway landing area. Keep that tee-shot corridor visually clear of added vegetation.",
+            "region": {
+              "x": 0.15,
+              "y": 0.25,
+              "width": 0.2,
+              "height": 0.16
+            },
+            "consequence": "The overview can misleadingly suggest a tree-obstructed tee-shot corridor."
+          },
+          {
+            "code": "style",
+            "hole": 0,
+            "detail": "The strongly dimensional, photorealistic rendering and pronounced cast shadows differ from the supplied flatter, painterly illustration technique.",
+            "region": null,
+            "consequence": "The course overview feels stylistically disconnected from its reference artwork."
+          }
+        ],
+        "reason": "The main course layout, mapped water, fairways, tees, and walking connectors are broadly retained, and fairway striping is visible. However, the greens read as inset discs within broad contrasting rings, the planting is much denser than the mapped sparse desert distribution, and the rendering departs noticeably from the supplied illustration style.",
+        "scores": {
+          "naturalGreens": 2,
+          "visualClarity": 4,
+          "geometryFidelity": 4,
+          "styleConsistency": 3,
+          "environmentFidelity": 2
+        },
+        "approved": false,
+        "candidate": 0,
+        "reviewKind": "artwork-environment-v2",
+        "environment": "palmSprings"
+      },
+      "responseID": "resp_0c108871e009845a016aebe5c3ff8087d2860e705c66fffb4f"
+    },
+    {
+      "review": {
+        "issues": [
+          {
+            "code": "geometry-mismatch",
+            "hole": 2,
+            "detail": "The lake is shifted north and its outline and extent differ from the mapped lake.",
+            "region": {
+              "x": 0.67,
+              "y": 0.25,
+              "width": 0.13,
+              "height": 0.39
+            },
+            "consequence": "The overview would misrepresent the location and size of a major mapped feature."
+          },
+          {
+            "code": "green-treatment",
+            "hole": 1,
+            "detail": "G1 reads as a separate pale putting disc surrounded by a broad contrasting ring, rather than one continuous natural putting surface.",
+            "region": {
+              "x": 0.52,
+              "y": 0.31,
+              "width": 0.08,
+              "height": 0.1
+            },
+            "consequence": "The green appears nested or platform-like in the overview."
+          },
+          {
+            "code": "green-treatment",
+            "hole": 2,
+            "detail": "G2 reads as a bright inset disc within a broad dark ring.",
+            "region": {
+              "x": 0.77,
+              "y": 0.44,
+              "width": 0.06,
+              "height": 0.08
+            },
+            "consequence": "The mapped green appears bullseye-like instead of a single continuous putting surface."
+          },
+          {
+            "code": "green-treatment",
+            "hole": 3,
+            "detail": "G3 reads as a pale inset putting disc surrounded by a broad contrasting band.",
+            "region": {
+              "x": 0.26,
+              "y": 0.61,
+              "width": 0.06,
+              "height": 0.08
+            },
+            "consequence": "The green appears nested rather than like one natural close-mown surface."
+          },
+          {
+            "code": "style",
+            "hole": 1,
+            "detail": "The added dense palms and their crowns crowd the open carry from T1 toward the first fairway landing area; the mapped desert planting is much sparser.",
+            "region": {
+              "x": 0.18,
+              "y": 0.25,
+              "width": 0.14,
+              "height": 0.15
+            },
+            "consequence": "The overview visually obscures the open tee-to-fairway corridor."
+          },
+          {
+            "code": "style",
+            "hole": 2,
+            "detail": "Dense added palms and scrub crowd the carry from T2 toward its mapped landing area at G2, against the sparse planting shown in the diagram.",
+            "region": {
+              "x": 0.68,
+              "y": 0.12,
+              "width": 0.12,
+              "height": 0.2
+            },
+            "consequence": "The overview makes the mapped carry look cluttered and less legible."
+          }
+        ],
+        "reason": "The overview preserves the three hole directions, mapped fairway stripes, and walking connectors, but the lake extent differs from the diagram, all three greens read as ringed inset discs, and dense planting crowds tee-shot corridors in the sparse desert setting.",
+        "scores": {
+          "naturalGreens": 2,
+          "visualClarity": 4,
+          "geometryFidelity": 3,
+          "styleConsistency": 4,
+          "environmentFidelity": 2
+        },
+        "approved": false,
+        "candidate": 0,
+        "reviewKind": "artwork-environment-v2",
+        "environment": "palmSprings"
+      },
+      "responseID": "resp_0ef7a050d0f783c6016aebe5c3b4cc87d28d701ebcfb0c0cb2"
+    }
+  ],
+  "humanArtworkAcceptance": {
+    "policy": "studio-human-artwork-v1",
+    "reason": "The main course layout, mapped water, fairways, tees, and walking connectors are broadly retained, and fairway striping is visible. However, the greens read as inset discs within broad contrasting rings, the planting is much denser than the mapped sparse desert distribution, and the rendering departs noticeably from the supplied illustration style. The overview preserves the three hole directions, mapped fairway stripes, and walking connectors, but the lake extent differs from the diagram, all three greens read as ringed inset discs, and dense planting crowds tee-shot corridors in the sparse desert setting.",
+    "review": {
+      "issues": [
+        {
+          "code": "green-treatment",
+          "hole": 1,
+          "detail": "The putting surface at the end of the fairway reads as a separate inset disc surrounded by a broad dark-green ring, rather than one continuous natural putting surface with only a narrow edge transition.",
+          "region": {
+            "x": 0.52,
+            "y": 0.31,
+            "width": 0.08,
+            "height": 0.12
+          },
+          "consequence": "The overview makes the green appear bullseye-like or raised/ringed."
+        },
+        {
+          "code": "green-treatment",
+          "hole": 2,
+          "detail": "The putting surface on the island reads as a separate inset disc within a broad contrasting border.",
+          "region": {
+            "x": 0.78,
+            "y": 0.43,
+            "width": 0.08,
+            "height": 0.12
+          },
+          "consequence": "The overview suggests a nested or raised green instead of one continuous putting surface."
+        },
+        {
+          "code": "green-treatment",
+          "hole": 3,
+          "detail": "The green at the left end of the fairway is rendered as a distinct inset disc with a broad dark-green surrounding ring.",
+          "region": {
+            "x": 0.24,
+            "y": 0.6,
+            "width": 0.08,
+            "height": 0.12
+          },
+          "consequence": "The overview suggests a bullseye-like or raised green."
+        },
+        {
+          "code": "green-treatment",
+          "hole": 0,
+          "detail": "Numerous added palm crowns, shrubs, and their shadows make the mapped sparse desert planting appear densely landscaped; reduce them to the mapped sparse distribution.",
+          "region": {
+            "x": 0.19,
+            "y": 0.16,
+            "width": 0.58,
+            "height": 0.57
+          },
+          "consequence": "The overview no longer reads as the sparse desert environment shown in the diagram, and the added planting can appear to crowd the course."
+        },
+        {
+          "code": "green-treatment",
+          "hole": 1,
+          "detail": "Added crowns and shadows appear within the broad corridor from T1 toward the first fairway landing area. Keep that tee-shot corridor visually clear of added vegetation.",
+          "region": {
+            "x": 0.15,
+            "y": 0.25,
+            "width": 0.2,
+            "height": 0.16
+          },
+          "consequence": "The overview can misleadingly suggest a tree-obstructed tee-shot corridor."
+        },
+        {
+          "code": "style",
+          "hole": 0,
+          "detail": "The strongly dimensional, photorealistic rendering and pronounced cast shadows differ from the supplied flatter, painterly illustration technique.",
+          "region": null,
+          "consequence": "The course overview feels stylistically disconnected from its reference artwork."
+        },
+        {
+          "code": "geometry-mismatch",
+          "hole": 2,
+          "detail": "The lake is shifted north and its outline and extent differ from the mapped lake.",
+          "region": {
+            "x": 0.67,
+            "y": 0.25,
+            "width": 0.13,
+            "height": 0.39
+          },
+          "consequence": "The overview would misrepresent the location and size of a major mapped feature."
+        },
+        {
+          "code": "green-treatment",
+          "hole": 1,
+          "detail": "G1 reads as a separate pale putting disc surrounded by a broad contrasting ring, rather than one continuous natural putting surface.",
+          "region": {
+            "x": 0.52,
+            "y": 0.31,
+            "width": 0.08,
+            "height": 0.1
+          },
+          "consequence": "The green appears nested or platform-like in the overview."
+        },
+        {
+          "code": "green-treatment",
+          "hole": 2,
+          "detail": "G2 reads as a bright inset disc within a broad dark ring.",
+          "region": {
+            "x": 0.77,
+            "y": 0.44,
+            "width": 0.06,
+            "height": 0.08
+          },
+          "consequence": "The mapped green appears bullseye-like instead of a single continuous putting surface."
+        },
+        {
+          "code": "green-treatment",
+          "hole": 3,
+          "detail": "G3 reads as a pale inset putting disc surrounded by a broad contrasting band.",
+          "region": {
+            "x": 0.26,
+            "y": 0.61,
+            "width": 0.06,
+            "height": 0.08
+          },
+          "consequence": "The green appears nested rather than like one natural close-mown surface."
+        },
+        {
+          "code": "style",
+          "hole": 1,
+          "detail": "The added dense palms and their crowns crowd the open carry from T1 toward the first fairway landing area; the mapped desert planting is much sparser.",
+          "region": {
+            "x": 0.18,
+            "y": 0.25,
+            "width": 0.14,
+            "height": 0.15
+          },
+          "consequence": "The overview visually obscures the open tee-to-fairway corridor."
+        },
+        {
+          "code": "style",
+          "hole": 2,
+          "detail": "Dense added palms and scrub crowd the carry from T2 toward its mapped landing area at G2, against the sparse planting shown in the diagram.",
+          "region": {
+            "x": 0.68,
+            "y": 0.12,
+            "width": 0.12,
+            "height": 0.2
+          },
+          "consequence": "The overview makes the mapped carry look cluttered and less legible."
+        }
+      ],
+      "reason": "The main course layout, mapped water, fairways, tees, and walking connectors are broadly retained, and fairway striping is visible. However, the greens read as inset discs within broad contrasting rings, the planting is much denser than the mapped sparse desert distribution, and the rendering departs noticeably from the supplied illustration style. The overview preserves the three hole directions, mapped fairway stripes, and walking connectors, but the lake extent differs from the diagram, all three greens read as ringed inset discs, and dense planting crowds tee-shot corridors in the sparse desert setting.",
+      "reviews": [
+        {
+          "review": {
+            "issues": [
+              {
+                "code": "green-treatment",
+                "hole": 1,
+                "detail": "The putting surface at the end of the fairway reads as a separate inset disc surrounded by a broad dark-green ring, rather than one continuous natural putting surface with only a narrow edge transition.",
+                "region": {
+                  "x": 0.52,
+                  "y": 0.31,
+                  "width": 0.08,
+                  "height": 0.12
+                },
+                "consequence": "The overview makes the green appear bullseye-like or raised/ringed."
+              },
+              {
+                "code": "green-treatment",
+                "hole": 2,
+                "detail": "The putting surface on the island reads as a separate inset disc within a broad contrasting border.",
+                "region": {
+                  "x": 0.78,
+                  "y": 0.43,
+                  "width": 0.08,
+                  "height": 0.12
+                },
+                "consequence": "The overview suggests a nested or raised green instead of one continuous putting surface."
+              },
+              {
+                "code": "green-treatment",
+                "hole": 3,
+                "detail": "The green at the left end of the fairway is rendered as a distinct inset disc with a broad dark-green surrounding ring.",
+                "region": {
+                  "x": 0.24,
+                  "y": 0.6,
+                  "width": 0.08,
+                  "height": 0.12
+                },
+                "consequence": "The overview suggests a bullseye-like or raised green."
+              },
+              {
+                "code": "green-treatment",
+                "hole": 0,
+                "detail": "Numerous added palm crowns, shrubs, and their shadows make the mapped sparse desert planting appear densely landscaped; reduce them to the mapped sparse distribution.",
+                "region": {
+                  "x": 0.19,
+                  "y": 0.16,
+                  "width": 0.58,
+                  "height": 0.57
+                },
+                "consequence": "The overview no longer reads as the sparse desert environment shown in the diagram, and the added planting can appear to crowd the course."
+              },
+              {
+                "code": "green-treatment",
+                "hole": 1,
+                "detail": "Added crowns and shadows appear within the broad corridor from T1 toward the first fairway landing area. Keep that tee-shot corridor visually clear of added vegetation.",
+                "region": {
+                  "x": 0.15,
+                  "y": 0.25,
+                  "width": 0.2,
+                  "height": 0.16
+                },
+                "consequence": "The overview can misleadingly suggest a tree-obstructed tee-shot corridor."
+              },
+              {
+                "code": "style",
+                "hole": 0,
+                "detail": "The strongly dimensional, photorealistic rendering and pronounced cast shadows differ from the supplied flatter, painterly illustration technique.",
+                "region": null,
+                "consequence": "The course overview feels stylistically disconnected from its reference artwork."
+              }
+            ],
+            "reason": "The main course layout, mapped water, fairways, tees, and walking connectors are broadly retained, and fairway striping is visible. However, the greens read as inset discs within broad contrasting rings, the planting is much denser than the mapped sparse desert distribution, and the rendering departs noticeably from the supplied illustration style.",
+            "scores": {
+              "naturalGreens": 2,
+              "visualClarity": 4,
+              "geometryFidelity": 4,
+              "styleConsistency": 3,
+              "environmentFidelity": 2
+            },
+            "approved": false,
+            "candidate": 0,
+            "reviewKind": "artwork-environment-v2",
+            "environment": "palmSprings"
+          },
+          "responseID": "resp_0c108871e009845a016aebe5c3ff8087d2860e705c66fffb4f"
+        },
+        {
+          "review": {
+            "issues": [
+              {
+                "code": "geometry-mismatch",
+                "hole": 2,
+                "detail": "The lake is shifted north and its outline and extent differ from the mapped lake.",
+                "region": {
+                  "x": 0.67,
+                  "y": 0.25,
+                  "width": 0.13,
+                  "height": 0.39
+                },
+                "consequence": "The overview would misrepresent the location and size of a major mapped feature."
+              },
+              {
+                "code": "green-treatment",
+                "hole": 1,
+                "detail": "G1 reads as a separate pale putting disc surrounded by a broad contrasting ring, rather than one continuous natural putting surface.",
+                "region": {
+                  "x": 0.52,
+                  "y": 0.31,
+                  "width": 0.08,
+                  "height": 0.1
+                },
+                "consequence": "The green appears nested or platform-like in the overview."
+              },
+              {
+                "code": "green-treatment",
+                "hole": 2,
+                "detail": "G2 reads as a bright inset disc within a broad dark ring.",
+                "region": {
+                  "x": 0.77,
+                  "y": 0.44,
+                  "width": 0.06,
+                  "height": 0.08
+                },
+                "consequence": "The mapped green appears bullseye-like instead of a single continuous putting surface."
+              },
+              {
+                "code": "green-treatment",
+                "hole": 3,
+                "detail": "G3 reads as a pale inset putting disc surrounded by a broad contrasting band.",
+                "region": {
+                  "x": 0.26,
+                  "y": 0.61,
+                  "width": 0.06,
+                  "height": 0.08
+                },
+                "consequence": "The green appears nested rather than like one natural close-mown surface."
+              },
+              {
+                "code": "style",
+                "hole": 1,
+                "detail": "The added dense palms and their crowns crowd the open carry from T1 toward the first fairway landing area; the mapped desert planting is much sparser.",
+                "region": {
+                  "x": 0.18,
+                  "y": 0.25,
+                  "width": 0.14,
+                  "height": 0.15
+                },
+                "consequence": "The overview visually obscures the open tee-to-fairway corridor."
+              },
+              {
+                "code": "style",
+                "hole": 2,
+                "detail": "Dense added palms and scrub crowd the carry from T2 toward its mapped landing area at G2, against the sparse planting shown in the diagram.",
+                "region": {
+                  "x": 0.68,
+                  "y": 0.12,
+                  "width": 0.12,
+                  "height": 0.2
+                },
+                "consequence": "The overview makes the mapped carry look cluttered and less legible."
+              }
+            ],
+            "reason": "The overview preserves the three hole directions, mapped fairway stripes, and walking connectors, but the lake extent differs from the diagram, all three greens read as ringed inset discs, and dense planting crowds tee-shot corridors in the sparse desert setting.",
+            "scores": {
+              "naturalGreens": 2,
+              "visualClarity": 4,
+              "geometryFidelity": 3,
+              "styleConsistency": 4,
+              "environmentFidelity": 2
+            },
+            "approved": false,
+            "candidate": 0,
+            "reviewKind": "artwork-environment-v2",
+            "environment": "palmSprings"
+          },
+          "responseID": "resp_0ef7a050d0f783c6016aebe5c3b4cc87d28d701ebcfb0c0cb2"
+        }
+      ],
+      "approved": false,
+      "decisionKey": "d452a755c9936cf560d05ad244d0efb942fe532b90d96d43a82eb050131c1170",
+      "artworkSHA256": "fc4cda9671aa6a64549326f15df6e4c5221bc0bb238ca1948e204538c7aeaba0",
+      "geometrySHA256": "c51c6d00214a2553c3905db28905806a5a00ad7bda2eda53c299bcf84fb839a0",
+      "geometryEncoding": "studio-stable-json-v1"
+    },
+    "decisionKey": "d452a755c9936cf560d05ad244d0efb942fe532b90d96d43a82eb050131c1170",
+    "artworkSHA256": "fc4cda9671aa6a64549326f15df6e4c5221bc0bb238ca1948e204538c7aeaba0",
+    "geometrySHA256": "170b816c055668322e34ce8c0b125d565ae4868148746c9f5d40a0e50ad4bc8b",
+    "acceptedFindings": [
+      "d452a755c9936cf560d05ad244d0efb942fe532b90d96d43a82eb050131c1170:0",
+      "d452a755c9936cf560d05ad244d0efb942fe532b90d96d43a82eb050131c1170:1",
+      "d452a755c9936cf560d05ad244d0efb942fe532b90d96d43a82eb050131c1170:2",
+      "d452a755c9936cf560d05ad244d0efb942fe532b90d96d43a82eb050131c1170:3",
+      "d452a755c9936cf560d05ad244d0efb942fe532b90d96d43a82eb050131c1170:4",
+      "d452a755c9936cf560d05ad244d0efb942fe532b90d96d43a82eb050131c1170:5",
+      "d452a755c9936cf560d05ad244d0efb942fe532b90d96d43a82eb050131c1170:6",
+      "d452a755c9936cf560d05ad244d0efb942fe532b90d96d43a82eb050131c1170:7",
+      "d452a755c9936cf560d05ad244d0efb942fe532b90d96d43a82eb050131c1170:8",
+      "d452a755c9936cf560d05ad244d0efb942fe532b90d96d43a82eb050131c1170:9",
+      "d452a755c9936cf560d05ad244d0efb942fe532b90d96d43a82eb050131c1170:10",
+      "d452a755c9936cf560d05ad244d0efb942fe532b90d96d43a82eb050131c1170:11"
+    ],
+    "sourceGeometrySHA256": "c51c6d00214a2553c3905db28905806a5a00ad7bda2eda53c299bcf84fb839a0",
+    "approvedAt": "2026-11-05T02:14:05.931Z"
+  }
+}
