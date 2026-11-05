@@ -1,0 +1,314 @@
+{
+  "course": 144,
+  "date": "2026-11-07",
+  "name": "Fox Dunes",
+  "studioJob": "1426a14a-4648-4efe-a16a-0ad65c10a64c",
+  "draftFingerprint": "4dd65d1744a5b68d8117026406d00a571b8561f9e95f4908c8c6f804877cab53",
+  "approval": {
+    "approvedAt": "2026-11-05T01:25:27.177Z",
+    "playtested": true,
+    "humanApproved": true,
+    "artworkOverrides": [
+      {
+        "policy": "studio-human-artwork-v1",
+        "reason": "The illustration preserves the mapped course layout, fairway directions and split sections, water extents, and the mapped stone bridge. The green surfaces read as continuous close-mown areas, and the fairway sections have visible mowing stripes. The artwork is clear and consistent with the supplied wooded reference style. The mapped layout, hazards, tees, walking connector, and stone bridge are represented faithfully. The short fairway for hole 1 does not show clearly visible alternating mowing stripes at thumbnail scale.",
+        "review": {
+          "issues": [
+            {
+              "code": "style",
+              "hole": 1,
+              "detail": "The short fairway immediately west of G1 appears mostly uniform rather than having clearly visible alternating stripes.",
+              "region": {
+                "x": 0.7,
+                "y": 0.51,
+                "width": 0.06,
+                "height": 0.05
+              },
+              "consequence": "At overview size, this mapped fairway may read as undifferentiated rough instead of a distinct fairway section."
+            }
+          ],
+          "reason": "The illustration preserves the mapped course layout, fairway directions and split sections, water extents, and the mapped stone bridge. The green surfaces read as continuous close-mown areas, and the fairway sections have visible mowing stripes. The artwork is clear and consistent with the supplied wooded reference style. The mapped layout, hazards, tees, walking connector, and stone bridge are represented faithfully. The short fairway for hole 1 does not show clearly visible alternating mowing stripes at thumbnail scale.",
+          "reviews": [
+            {
+              "review": {
+                "issues": [],
+                "reason": "The illustration preserves the mapped course layout, fairway directions and split sections, water extents, and the mapped stone bridge. The green surfaces read as continuous close-mown areas, and the fairway sections have visible mowing stripes. The artwork is clear and consistent with the supplied wooded reference style.",
+                "scores": {
+                  "naturalGreens": 4,
+                  "visualClarity": 4,
+                  "geometryFidelity": 4,
+                  "styleConsistency": 4
+                },
+                "approved": true,
+                "candidate": 0,
+                "reviewKind": "artwork-only-v1"
+              },
+              "responseID": "resp_0d66481de87eb007016aebdac1d2e887d299ddfa0cb2533084"
+            },
+            {
+              "review": {
+                "issues": [
+                  {
+                    "code": "style",
+                    "hole": 1,
+                    "detail": "The short fairway immediately west of G1 appears mostly uniform rather than having clearly visible alternating stripes.",
+                    "region": {
+                      "x": 0.7,
+                      "y": 0.51,
+                      "width": 0.06,
+                      "height": 0.05
+                    },
+                    "consequence": "At overview size, this mapped fairway may read as undifferentiated rough instead of a distinct fairway section."
+                  }
+                ],
+                "reason": "The mapped layout, hazards, tees, walking connector, and stone bridge are represented faithfully. The short fairway for hole 1 does not show clearly visible alternating mowing stripes at thumbnail scale.",
+                "scores": {
+                  "naturalGreens": 5,
+                  "visualClarity": 5,
+                  "geometryFidelity": 5,
+                  "styleConsistency": 3
+                },
+                "approved": false,
+                "candidate": 0,
+                "reviewKind": "artwork-only-v1"
+              },
+              "responseID": "resp_0c403b7d2950ac9b016aebdac1d1e887d2898f7636017f49aa"
+            }
+          ],
+          "approved": false,
+          "decisionKey": "8af614543545ec7a64cc1983ff143474771bd262b1a8d3181c74ac03bf48e3d6",
+          "artworkSHA256": "19d105df13b391b732ad8c66abe1d92a5a91855ac2aa3e6f5fd7f30d1e468c6b",
+          "geometrySHA256": "c3e8f608fcd06a49546a2ca97b3e9bfb99fda1a2b0c0402bc03932bdf082f186",
+          "geometryEncoding": "studio-stable-json-v1"
+        },
+        "decisionKey": "8af614543545ec7a64cc1983ff143474771bd262b1a8d3181c74ac03bf48e3d6",
+        "artworkSHA256": "19d105df13b391b732ad8c66abe1d92a5a91855ac2aa3e6f5fd7f30d1e468c6b",
+        "geometrySHA256": "c3e8f608fcd06a49546a2ca97b3e9bfb99fda1a2b0c0402bc03932bdf082f186",
+        "acceptedFindings": [
+          "8af614543545ec7a64cc1983ff143474771bd262b1a8d3181c74ac03bf48e3d6:0"
+        ]
+      },
+      {
+        "policy": "studio-human-artwork-v1",
+        "reason": "The illustration otherwise preserves the mapped course features, shows continuous natural putting surfaces, and uses clear fairway striping. The mapped walking connector from G2 to T3 is not visibly continuous. The overview is otherwise clear and closely follows the mapped layout, but the short Hole 1 fairway lacks clearly visible alternating mowing stripes at thumbnail scale.",
+        "review": {
+          "issues": [
+            {
+              "code": "geometry-mismatch",
+              "hole": 2,
+              "detail": "The mapped walking connector from G2 to T3 is missing or reduced to a short stub near T3; it does not visibly connect back to G2.",
+              "region": {
+                "x": 0.14,
+                "y": 0.28,
+                "width": 0.23,
+                "height": 0.22
+              },
+              "consequence": "The overview fails to show the approved walking connection between the second green and the third tee."
+            },
+            {
+              "code": "style",
+              "hole": 1,
+              "detail": "The short fairway between T1 and G1 reads as uniform turf rather than showing distinct edge-to-edge alternating stripes.",
+              "region": {
+                "x": 0.7,
+                "y": 0.51,
+                "width": 0.06,
+                "height": 0.04
+              },
+              "consequence": "The mapped fairway is harder to distinguish from surrounding rough in the overview."
+            }
+          ],
+          "reason": "The illustration otherwise preserves the mapped course features, shows continuous natural putting surfaces, and uses clear fairway striping. The mapped walking connector from G2 to T3 is not visibly continuous. The overview is otherwise clear and closely follows the mapped layout, but the short Hole 1 fairway lacks clearly visible alternating mowing stripes at thumbnail scale.",
+          "reviews": [
+            {
+              "review": {
+                "issues": [
+                  {
+                    "code": "geometry-mismatch",
+                    "hole": 2,
+                    "detail": "The mapped walking connector from G2 to T3 is missing or reduced to a short stub near T3; it does not visibly connect back to G2.",
+                    "region": {
+                      "x": 0.14,
+                      "y": 0.28,
+                      "width": 0.23,
+                      "height": 0.22
+                    },
+                    "consequence": "The overview fails to show the approved walking connection between the second green and the third tee."
+                  }
+                ],
+                "reason": "The illustration otherwise preserves the mapped course features, shows continuous natural putting surfaces, and uses clear fairway striping. The mapped walking connector from G2 to T3 is not visibly continuous.",
+                "scores": {
+                  "naturalGreens": 5,
+                  "visualClarity": 4,
+                  "geometryFidelity": 3,
+                  "styleConsistency": 5
+                },
+                "approved": false,
+                "candidate": 0,
+                "reviewKind": "artwork-only-v1"
+              },
+              "responseID": "resp_0c10eba9b5086eb5016aebdac1427487d2b0bb2ae5c2876c30"
+            },
+            {
+              "review": {
+                "issues": [
+                  {
+                    "code": "style",
+                    "hole": 1,
+                    "detail": "The short fairway between T1 and G1 reads as uniform turf rather than showing distinct edge-to-edge alternating stripes.",
+                    "region": {
+                      "x": 0.7,
+                      "y": 0.51,
+                      "width": 0.06,
+                      "height": 0.04
+                    },
+                    "consequence": "The mapped fairway is harder to distinguish from surrounding rough in the overview."
+                  }
+                ],
+                "reason": "The overview is otherwise clear and closely follows the mapped layout, but the short Hole 1 fairway lacks clearly visible alternating mowing stripes at thumbnail scale.",
+                "scores": {
+                  "naturalGreens": 5,
+                  "visualClarity": 4,
+                  "geometryFidelity": 4,
+                  "styleConsistency": 3
+                },
+                "approved": false,
+                "candidate": 0,
+                "reviewKind": "artwork-only-v1"
+              },
+              "responseID": "resp_0b85ed41834159e4016aebdac14a5887d28ce7cb72d92208a5"
+            }
+          ],
+          "approved": false,
+          "decisionKey": "e0c453f3af8e6580a9a94e4ad2ed75e726a8629e37a53681542a0cefab07702d",
+          "artworkSHA256": "82dbc802419a8aeb04b4e785d064c6624f1f140ac07f7066facb29ac554c6daf",
+          "geometrySHA256": "9cd89ed8ec9270fedec2fce8bee24c99b1f687dac67b0ba4b3f46be10c9f3fc2",
+          "geometryEncoding": "studio-stable-json-v1"
+        },
+        "decisionKey": "e0c453f3af8e6580a9a94e4ad2ed75e726a8629e37a53681542a0cefab07702d",
+        "artworkSHA256": "82dbc802419a8aeb04b4e785d064c6624f1f140ac07f7066facb29ac554c6daf",
+        "geometrySHA256": "9cd89ed8ec9270fedec2fce8bee24c99b1f687dac67b0ba4b3f46be10c9f3fc2",
+        "acceptedFindings": [
+          "e0c453f3af8e6580a9a94e4ad2ed75e726a8629e37a53681542a0cefab07702d:0",
+          "e0c453f3af8e6580a9a94e4ad2ed75e726a8629e37a53681542a0cefab07702d:1"
+        ]
+      }
+    ],
+    "compatibilityApproved": true
+  },
+  "artworkStatus": "approved",
+  "geometrySHA256": "89c665977e397bd639a98bba119abae40eda314e924ee479ecfca6b1723041b6",
+  "artworkSHA256": "19d105df13b391b732ad8c66abe1d92a5a91855ac2aa3e6f5fd7f30d1e468c6b",
+  "artworkReview": {
+    "issues": [
+      {
+        "code": "style",
+        "hole": 1,
+        "detail": "The short fairway immediately west of G1 appears mostly uniform rather than having clearly visible alternating stripes.",
+        "region": {
+          "x": 0.7,
+          "y": 0.51,
+          "width": 0.06,
+          "height": 0.05
+        },
+        "consequence": "At overview size, this mapped fairway may read as undifferentiated rough instead of a distinct fairway section."
+      }
+    ],
+    "reason": "The illustration preserves the mapped course layout, fairway directions and split sections, water extents, and the mapped stone bridge. The green surfaces read as continuous close-mown areas, and the fairway sections have visible mowing stripes. The artwork is clear and consistent with the supplied wooded reference style. The mapped layout, hazards, tees, walking connector, and stone bridge are represented faithfully. The short fairway for hole 1 does not show clearly visible alternating mowing stripes at thumbnail scale.",
+    "reviews": [
+      {
+        "review": {
+          "issues": [],
+          "reason": "The illustration preserves the mapped course layout, fairway directions and split sections, water extents, and the mapped stone bridge. The green surfaces read as continuous close-mown areas, and the fairway sections have visible mowing stripes. The artwork is clear and consistent with the supplied wooded reference style.",
+          "scores": {
+            "naturalGreens": 4,
+            "visualClarity": 4,
+            "geometryFidelity": 4,
+            "styleConsistency": 4
+          },
+          "approved": true,
+          "candidate": 0,
+          "reviewKind": "artwork-only-v1"
+        },
+        "responseID": "resp_0d66481de87eb007016aebdac1d2e887d299ddfa0cb2533084"
+      },
+      {
+        "review": {
+          "issues": [
+            {
+              "code": "style",
+              "hole": 1,
+              "detail": "The short fairway immediately west of G1 appears mostly uniform rather than having clearly visible alternating stripes.",
+              "region": {
+                "x": 0.7,
+                "y": 0.51,
+                "width": 0.06,
+                "height": 0.05
+              },
+              "consequence": "At overview size, this mapped fairway may read as undifferentiated rough instead of a distinct fairway section."
+            }
+          ],
+          "reason": "The mapped layout, hazards, tees, walking connector, and stone bridge are represented faithfully. The short fairway for hole 1 does not show clearly visible alternating mowing stripes at thumbnail scale.",
+          "scores": {
+            "naturalGreens": 5,
+            "visualClarity": 5,
+            "geometryFidelity": 5,
+            "styleConsistency": 3
+          },
+          "approved": false,
+          "candidate": 0,
+          "reviewKind": "artwork-only-v1"
+        },
+        "responseID": "resp_0c403b7d2950ac9b016aebdac1d1e887d2898f7636017f49aa"
+      }
+    ],
+    "approved": false,
+    "artworkSHA256": "19d105df13b391b732ad8c66abe1d92a5a91855ac2aa3e6f5fd7f30d1e468c6b",
+    "geometrySHA256": "c3e8f608fcd06a49546a2ca97b3e9bfb99fda1a2b0c0402bc03932bdf082f186",
+    "geometryEncoding": "studio-stable-json-v1",
+    "decisionKey": "8af614543545ec7a64cc1983ff143474771bd262b1a8d3181c74ac03bf48e3d6"
+  },
+  "compatibility": {
+    "policy": "studio-compatible-v1",
+    "holes": [
+      {
+        "sections": 1,
+        "addedFairwayYards": 0,
+        "addedFairwayPercent": 0,
+        "waterReshaped": false,
+        "addedFairway": []
+      },
+      {
+        "sections": 1,
+        "addedFairwayYards": 0,
+        "addedFairwayPercent": 0,
+        "waterReshaped": false,
+        "addedFairway": []
+      },
+      {
+        "sections": 1,
+        "addedFairwayYards": 0,
+        "addedFairwayPercent": 0,
+        "waterReshaped": false,
+        "addedFairway": []
+      }
+    ]
+  },
+  "holes": [
+    {
+      "par": 3,
+      "lengthYards": 130,
+      "type": "straight"
+    },
+    {
+      "par": 5,
+      "lengthYards": 569,
+      "type": "straight"
+    },
+    {
+      "par": 4,
+      "lengthYards": 465,
+      "type": "straight"
+    }
+  ]
+}
