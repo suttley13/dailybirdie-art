@@ -1,0 +1,371 @@
+{
+  "schemaVersion": 1,
+  "course": 146,
+  "outcome": "published",
+  "error": null,
+  "startedAt": 1793980210,
+  "seconds": 330.7,
+  "reviewModel": "gpt-6-luna",
+  "reviewEffort": "medium",
+  "imageModel": "gpt-image-2.5-sunburst",
+  "candidatesRequested": 50,
+  "calls": [
+    {
+      "phase": "selection",
+      "kind": "review",
+      "model": "gpt-6-luna",
+      "effort": "medium",
+      "responseID": "resp_06a185f58c9d966e016aedf743083487d192d9848b444a36eb",
+      "usage": {
+        "input_tokens": 56924,
+        "input_tokens_details": {
+          "cache_write_tokens": 56921,
+          "cached_tokens": 0
+        },
+        "output_tokens": 1398,
+        "output_tokens_details": {
+          "reasoning_tokens": 1112
+        },
+        "total_tokens": 58322
+      },
+      "seconds": 16.47,
+      "imageCount": 8,
+      "approved": true,
+      "reviewKind": "course-design",
+      "reason": "Candidate 30 passes as supplied. Hole 1 is a 142-yard island-green par 3 with a substantial water carry; the 3-wood tee and 6 of 9 playable dispersion samples make it a demanding but credible opening target. Hole 2 is a 346-yard double-dogleg par 4 with water left of play and fairway bunkers. Its 9 playable but only 2 safe dispersion samples indicate a meaningful placement challenge with recoverable misses. Hole 3 is a dry 155-yard punchbowl par 3 with bunkers around the target, offering a different, more contained approach test. The two par 3s have distinct geometry and club demands, while the bending par 4 adds a positional hole; the par-3/4/3 sequence is varied in play despite its unusual par mix. Island targets and doglegs recur in recent rounds, but this round\u2019s short target holes, double-dogleg middle, and water limited to the first two holes give it sufficient freshness. The numbered previews show usable targets and routes, and the dispersion evidence supports challenge without an exact-shot trap. No geometry edits are needed.",
+      "issues": [],
+      "edits": [],
+      "scores": {
+        "strategy": 4,
+        "withinRoundVariety": 5,
+        "acrossDaysVariety": 4,
+        "fairDifficulty": 4
+      }
+    },
+    {
+      "phase": "artwork-0",
+      "kind": "image",
+      "model": "gpt-image-2.5-sunburst",
+      "usage": {
+        "input_tokens": 4422,
+        "input_tokens_details": {
+          "image_tokens": 2863,
+          "text_tokens": 1559
+        },
+        "output_tokens": 343,
+        "output_tokens_details": {
+          "image_tokens": 343,
+          "text_tokens": 0
+        },
+        "total_tokens": 4765
+      },
+      "seconds": 21.58
+    },
+    {
+      "phase": "artwork-0-review",
+      "kind": "review",
+      "model": "gpt-6-luna",
+      "effort": "medium",
+      "responseID": "resp_0b4d51f3286b5d61016aedf768fd4c87d185f95d62b5efa41e",
+      "usage": {
+        "input_tokens": 8279,
+        "input_tokens_details": {
+          "cache_write_tokens": 8276,
+          "cached_tokens": 0
+        },
+        "output_tokens": 4074,
+        "output_tokens_details": {
+          "reasoning_tokens": 3807
+        },
+        "total_tokens": 12353
+      },
+      "seconds": 43.52,
+      "imageCount": 3,
+      "approved": false,
+      "reviewKind": "artwork-only-v1",
+      "reason": "The mapped layout, greens, hazards, tees, and property silhouette are broadly faithful, but the small Hole 1 fairway patch lacks clear mowing stripes, and added trees intrude into the tee-to-landing corridor.",
+      "issues": [
+        {
+          "code": "style",
+          "hole": 1,
+          "detail": "The small detached fairway patch between T1 and the island green reads as mostly uniform turf rather than clearly alternating edge-to-edge mowing bands.",
+          "consequence": "At overview scale, this mapped fairway section is difficult to distinguish from rough or another green-area patch.",
+          "region": {
+            "x": 0.586,
+            "y": 0.652,
+            "width": 0.058,
+            "height": 0.115
+          }
+        },
+        {
+          "code": "style",
+          "hole": 1,
+          "detail": "Added tree crowns and shadows encroach on the broad corridor from T1 toward its first fairway landing area.",
+          "consequence": "The overview makes the tee-to-landing carry look obstructed.",
+          "region": {
+            "x": 0.55,
+            "y": 0.699,
+            "width": 0.075,
+            "height": 0.075
+          }
+        }
+      ],
+      "edits": [],
+      "scores": {
+        "geometryFidelity": 5,
+        "naturalGreens": 4,
+        "visualClarity": 4,
+        "styleConsistency": 3
+      }
+    },
+    {
+      "phase": "artwork-1",
+      "kind": "image",
+      "model": "gpt-image-2.5-sunburst",
+      "usage": {
+        "input_tokens": 6280,
+        "input_tokens_details": {
+          "image_tokens": 4363,
+          "text_tokens": 1917
+        },
+        "output_tokens": 343,
+        "output_tokens_details": {
+          "image_tokens": 343,
+          "text_tokens": 0
+        },
+        "total_tokens": 6623
+      },
+      "seconds": 21.19
+    },
+    {
+      "phase": "artwork-1-review",
+      "kind": "review",
+      "model": "gpt-6-luna",
+      "effort": "medium",
+      "responseID": "resp_0722af4cd9064f6f016aedf7aab9dc87d1b769e97766dd2eb2",
+      "usage": {
+        "input_tokens": 8288,
+        "input_tokens_details": {
+          "cache_write_tokens": 6934,
+          "cached_tokens": 1351
+        },
+        "output_tokens": 4330,
+        "output_tokens_details": {
+          "reasoning_tokens": 3915
+        },
+        "total_tokens": 12618
+      },
+      "seconds": 45.06,
+      "imageCount": 3,
+      "approved": false,
+      "reviewKind": "artwork-only-v1",
+      "reason": "The major course features and all three tees and greens are recognizable, and the mapped fairway patches have visible stripes. The putting greens read as bright inset discs within conspicuous dark rings, and a tree appears to obstruct Hole 3\u2019s tee-to-fairway corridor.",
+      "issues": [
+        {
+          "code": "green-treatment",
+          "hole": 1,
+          "detail": "The island green reads as a bright inset disc surrounded by a broad, dark ring rather than one continuous natural putting surface.",
+          "consequence": "The overview makes the green appear ringed or raised, rather than a continuous close-mown surface.",
+          "region": {
+            "x": 0.67,
+            "y": 0.56,
+            "width": 0.1,
+            "height": 0.14
+          }
+        },
+        {
+          "code": "green-treatment",
+          "hole": 2,
+          "detail": "The green is rendered as a bright inner disc with a pronounced dark surrounding ring.",
+          "consequence": "The overview suggests a nested or ringed putting surface instead of one continuous natural green.",
+          "region": {
+            "x": 0.21,
+            "y": 0.2,
+            "width": 0.09,
+            "height": 0.12
+          }
+        },
+        {
+          "code": "green-treatment",
+          "hole": 3,
+          "detail": "The green has a bright central disc and conspicuous darker circular rim.",
+          "consequence": "The overview makes the putting surface appear inset or ringed.",
+          "region": {
+            "x": 0.36,
+            "y": 0.61,
+            "width": 0.09,
+            "height": 0.14
+          }
+        },
+        {
+          "code": "style",
+          "hole": 3,
+          "detail": "A tree crown sits in the apparent corridor from T3 toward the first fairway landing area.",
+          "consequence": "The added tree visually obstructs the tee-to-fairway route in the overview.",
+          "region": {
+            "x": 0.19,
+            "y": 0.51,
+            "width": 0.04,
+            "height": 0.06
+          }
+        }
+      ],
+      "edits": [],
+      "scores": {
+        "geometryFidelity": 4,
+        "naturalGreens": 2,
+        "visualClarity": 4,
+        "styleConsistency": 3
+      }
+    },
+    {
+      "phase": "artwork-2",
+      "kind": "image",
+      "model": "gpt-image-2.5-sunburst",
+      "usage": {
+        "input_tokens": 6280,
+        "input_tokens_details": {
+          "image_tokens": 4363,
+          "text_tokens": 1917
+        },
+        "output_tokens": 343,
+        "output_tokens_details": {
+          "image_tokens": 343,
+          "text_tokens": 0
+        },
+        "total_tokens": 6623
+      },
+      "seconds": 22.94
+    },
+    {
+      "phase": "artwork-2-review",
+      "kind": "review",
+      "model": "gpt-6-luna",
+      "effort": "medium",
+      "responseID": "resp_00ac3fa4c7224995016aedf7ef32e087d19212488dc90caafd",
+      "usage": {
+        "input_tokens": 8288,
+        "input_tokens_details": {
+          "cache_write_tokens": 6934,
+          "cached_tokens": 1351
+        },
+        "output_tokens": 3737,
+        "output_tokens_details": {
+          "reasoning_tokens": 3544
+        },
+        "total_tokens": 12025
+      },
+      "seconds": 41.28,
+      "imageCount": 3,
+      "approved": false,
+      "reviewKind": "artwork-only-v1",
+      "reason": "The course layout, mapped greens and hazards are generally represented clearly, but the small mapped fairway patch for Hole 1 does not read as having clear alternating mowing stripes at thumbnail scale.",
+      "issues": [
+        {
+          "code": "style",
+          "hole": 1,
+          "detail": "The small detached fairway patch between T1 and the island green has indistinct, uneven striping rather than clear alternating bands crossing the patch edge to edge.",
+          "consequence": "At overview scale, this mapped fairway can read as uniform turf or a separate green-like patch instead of striped fairway.",
+          "region": {
+            "x": 0.57,
+            "y": 0.63,
+            "width": 0.07,
+            "height": 0.13
+          }
+        }
+      ],
+      "edits": [],
+      "scores": {
+        "geometryFidelity": 4,
+        "naturalGreens": 4,
+        "visualClarity": 4,
+        "styleConsistency": 3
+      }
+    },
+    {
+      "phase": "artwork-3",
+      "kind": "image",
+      "model": "gpt-image-2.5-sunburst",
+      "usage": {
+        "input_tokens": 6280,
+        "input_tokens_details": {
+          "image_tokens": 4363,
+          "text_tokens": 1917
+        },
+        "output_tokens": 343,
+        "output_tokens_details": {
+          "image_tokens": 343,
+          "text_tokens": 0
+        },
+        "total_tokens": 6623
+      },
+      "seconds": 20.1
+    },
+    {
+      "phase": "artwork-3-review",
+      "kind": "review",
+      "model": "gpt-6-luna",
+      "effort": "medium",
+      "responseID": "resp_0fd42014556a4318016aedf82d48a087d19ae71261874bea54",
+      "usage": {
+        "input_tokens": 8282,
+        "input_tokens_details": {
+          "cache_write_tokens": 6928,
+          "cached_tokens": 1351
+        },
+        "output_tokens": 3220,
+        "output_tokens_details": {
+          "reasoning_tokens": 3106
+        },
+        "total_tokens": 11502
+      },
+      "seconds": 35.34,
+      "imageCount": 3,
+      "approved": true,
+      "reviewKind": "artwork-only-v1",
+      "reason": "The illustration preserves the numbered tee-to-green layout, mapped water and bunkers, property silhouette, and walking connectors. The greens read as continuous natural putting surfaces, and the mapped fairway sections show visible alternating stripes. The wooded rendering remains clear enough to identify the course features.",
+      "issues": [],
+      "edits": [],
+      "scores": {
+        "geometryFidelity": 4,
+        "naturalGreens": 4,
+        "visualClarity": 4,
+        "styleConsistency": 4
+      }
+    },
+    {
+      "phase": "artwork-3-final",
+      "kind": "review",
+      "model": "gpt-6-luna",
+      "effort": "medium",
+      "responseID": "resp_092033df1cefeff5016aedf8511e3487d1bb09a30f767e64d3",
+      "usage": {
+        "input_tokens": 8282,
+        "input_tokens_details": {
+          "cache_write_tokens": 6928,
+          "cached_tokens": 1351
+        },
+        "output_tokens": 4101,
+        "output_tokens_details": {
+          "reasoning_tokens": 3990
+        },
+        "total_tokens": 12383
+      },
+      "seconds": 43.68,
+      "imageCount": 3,
+      "approved": true,
+      "reviewKind": "artwork-only-v1",
+      "reason": "The illustration preserves the mapped property shape, numbered green and tee locations, water features, and walking connectors. Greens read as continuous putting surfaces, and the fairway sections have visible stripes that follow their shapes. The wooded rendering is clear and consistent with the reference.",
+      "issues": [],
+      "edits": [],
+      "scores": {
+        "geometryFidelity": 4,
+        "naturalGreens": 4,
+        "visualClarity": 4,
+        "styleConsistency": 5
+      }
+    }
+  ],
+  "artworkStatus": "approved",
+  "artworkFailure": null
+}

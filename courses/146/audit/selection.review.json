@@ -1,0 +1,28 @@
+{
+  "responseID": "resp_06a185f58c9d966e016aedf743083487d192d9848b444a36eb",
+  "model": "gpt-6-luna",
+  "usage": {
+    "input_tokens": 56924,
+    "input_tokens_details": {
+      "cache_write_tokens": 56921,
+      "cached_tokens": 0
+    },
+    "output_tokens": 1398,
+    "output_tokens_details": {
+      "reasoning_tokens": 1112
+    },
+    "total_tokens": 58322
+  },
+  "review": {
+    "candidate": 30,
+    "approved": true,
+    "scores": {
+      "strategy": 4,
+      "withinRoundVariety": 5,
+      "acrossDaysVariety": 4,
+      "fairDifficulty": 4
+    },
+    "reason": "Candidate 30 passes as supplied. Hole 1 is a 142-yard island-green par 3 with a substantial water carry; the 3-wood tee and 6 of 9 playable dispersion samples make it a demanding but credible opening target. Hole 2 is a 346-yard double-dogleg par 4 with water left of play and fairway bunkers. Its 9 playable but only 2 safe dispersion samples indicate a meaningful placement challenge with recoverable misses. Hole 3 is a dry 155-yard punchbowl par 3 with bunkers around the target, offering a different, more contained approach test. The two par 3s have distinct geometry and club demands, while the bending par 4 adds a positional hole; the par-3/4/3 sequence is varied in play despite its unusual par mix. Island targets and doglegs recur in recent rounds, but this round\u2019s short target holes, double-dogleg middle, and water limited to the first two holes give it sufficient freshness. The numbered previews show usable targets and routes, and the dispersion evidence supports challenge without an exact-shot trap. No geometry edits are needed.",
+    "edits": []
+  }
+}

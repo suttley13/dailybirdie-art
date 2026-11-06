@@ -1,0 +1,78 @@
+{
+  "responseID": "resp_0722af4cd9064f6f016aedf7aab9dc87d1b769e97766dd2eb2",
+  "model": "gpt-6-luna",
+  "usage": {
+    "input_tokens": 8288,
+    "input_tokens_details": {
+      "cache_write_tokens": 6934,
+      "cached_tokens": 1351
+    },
+    "output_tokens": 4330,
+    "output_tokens_details": {
+      "reasoning_tokens": 3915
+    },
+    "total_tokens": 12618
+  },
+  "review": {
+    "reviewKind": "artwork-only-v1",
+    "candidate": 30,
+    "approved": false,
+    "scores": {
+      "geometryFidelity": 4,
+      "naturalGreens": 2,
+      "visualClarity": 4,
+      "styleConsistency": 3
+    },
+    "reason": "The major course features and all three tees and greens are recognizable, and the mapped fairway patches have visible stripes. The putting greens read as bright inset discs within conspicuous dark rings, and a tree appears to obstruct Hole 3\u2019s tee-to-fairway corridor.",
+    "issues": [
+      {
+        "code": "green-treatment",
+        "hole": 1,
+        "detail": "The island green reads as a bright inset disc surrounded by a broad, dark ring rather than one continuous natural putting surface.",
+        "consequence": "The overview makes the green appear ringed or raised, rather than a continuous close-mown surface.",
+        "region": {
+          "x": 0.67,
+          "y": 0.56,
+          "width": 0.1,
+          "height": 0.14
+        }
+      },
+      {
+        "code": "green-treatment",
+        "hole": 2,
+        "detail": "The green is rendered as a bright inner disc with a pronounced dark surrounding ring.",
+        "consequence": "The overview suggests a nested or ringed putting surface instead of one continuous natural green.",
+        "region": {
+          "x": 0.21,
+          "y": 0.2,
+          "width": 0.09,
+          "height": 0.12
+        }
+      },
+      {
+        "code": "green-treatment",
+        "hole": 3,
+        "detail": "The green has a bright central disc and conspicuous darker circular rim.",
+        "consequence": "The overview makes the putting surface appear inset or ringed.",
+        "region": {
+          "x": 0.36,
+          "y": 0.61,
+          "width": 0.09,
+          "height": 0.14
+        }
+      },
+      {
+        "code": "style",
+        "hole": 3,
+        "detail": "A tree crown sits in the apparent corridor from T3 toward the first fairway landing area.",
+        "consequence": "The added tree visually obstructs the tee-to-fairway route in the overview.",
+        "region": {
+          "x": 0.19,
+          "y": 0.51,
+          "width": 0.04,
+          "height": 0.06
+        }
+      }
+    ]
+  }
+}

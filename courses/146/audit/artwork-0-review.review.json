@@ -1,0 +1,54 @@
+{
+  "responseID": "resp_0b4d51f3286b5d61016aedf768fd4c87d185f95d62b5efa41e",
+  "model": "gpt-6-luna",
+  "usage": {
+    "input_tokens": 8279,
+    "input_tokens_details": {
+      "cache_write_tokens": 8276,
+      "cached_tokens": 0
+    },
+    "output_tokens": 4074,
+    "output_tokens_details": {
+      "reasoning_tokens": 3807
+    },
+    "total_tokens": 12353
+  },
+  "review": {
+    "reviewKind": "artwork-only-v1",
+    "candidate": 30,
+    "approved": false,
+    "scores": {
+      "geometryFidelity": 5,
+      "naturalGreens": 4,
+      "visualClarity": 4,
+      "styleConsistency": 3
+    },
+    "reason": "The mapped layout, greens, hazards, tees, and property silhouette are broadly faithful, but the small Hole 1 fairway patch lacks clear mowing stripes, and added trees intrude into the tee-to-landing corridor.",
+    "issues": [
+      {
+        "code": "style",
+        "hole": 1,
+        "detail": "The small detached fairway patch between T1 and the island green reads as mostly uniform turf rather than clearly alternating edge-to-edge mowing bands.",
+        "consequence": "At overview scale, this mapped fairway section is difficult to distinguish from rough or another green-area patch.",
+        "region": {
+          "x": 0.586,
+          "y": 0.652,
+          "width": 0.058,
+          "height": 0.115
+        }
+      },
+      {
+        "code": "style",
+        "hole": 1,
+        "detail": "Added tree crowns and shadows encroach on the broad corridor from T1 toward its first fairway landing area.",
+        "consequence": "The overview makes the tee-to-landing carry look obstructed.",
+        "region": {
+          "x": 0.55,
+          "y": 0.699,
+          "width": 0.075,
+          "height": 0.075
+        }
+      }
+    ]
+  }
+}

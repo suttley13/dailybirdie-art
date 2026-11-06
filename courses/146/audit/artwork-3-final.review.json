@@ -1,0 +1,29 @@
+{
+  "responseID": "resp_092033df1cefeff5016aedf8511e3487d1bb09a30f767e64d3",
+  "model": "gpt-6-luna",
+  "usage": {
+    "input_tokens": 8282,
+    "input_tokens_details": {
+      "cache_write_tokens": 6928,
+      "cached_tokens": 1351
+    },
+    "output_tokens": 4101,
+    "output_tokens_details": {
+      "reasoning_tokens": 3990
+    },
+    "total_tokens": 12383
+  },
+  "review": {
+    "reviewKind": "artwork-only-v1",
+    "candidate": 30,
+    "approved": true,
+    "scores": {
+      "geometryFidelity": 4,
+      "naturalGreens": 4,
+      "visualClarity": 4,
+      "styleConsistency": 5
+    },
+    "reason": "The illustration preserves the mapped property shape, numbered green and tee locations, water features, and walking connectors. Greens read as continuous putting surfaces, and the fairway sections have visible stripes that follow their shapes. The wooded rendering is clear and consistent with the reference.",
+    "issues": []
+  }
+}

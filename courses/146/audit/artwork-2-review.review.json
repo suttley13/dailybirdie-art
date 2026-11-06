@@ -1,0 +1,42 @@
+{
+  "responseID": "resp_00ac3fa4c7224995016aedf7ef32e087d19212488dc90caafd",
+  "model": "gpt-6-luna",
+  "usage": {
+    "input_tokens": 8288,
+    "input_tokens_details": {
+      "cache_write_tokens": 6934,
+      "cached_tokens": 1351
+    },
+    "output_tokens": 3737,
+    "output_tokens_details": {
+      "reasoning_tokens": 3544
+    },
+    "total_tokens": 12025
+  },
+  "review": {
+    "reviewKind": "artwork-only-v1",
+    "candidate": 30,
+    "approved": false,
+    "scores": {
+      "geometryFidelity": 4,
+      "naturalGreens": 4,
+      "visualClarity": 4,
+      "styleConsistency": 3
+    },
+    "reason": "The course layout, mapped greens and hazards are generally represented clearly, but the small mapped fairway patch for Hole 1 does not read as having clear alternating mowing stripes at thumbnail scale.",
+    "issues": [
+      {
+        "code": "style",
+        "hole": 1,
+        "detail": "The small detached fairway patch between T1 and the island green has indistinct, uneven striping rather than clear alternating bands crossing the patch edge to edge.",
+        "consequence": "At overview scale, this mapped fairway can read as uniform turf or a separate green-like patch instead of striped fairway.",
+        "region": {
+          "x": 0.57,
+          "y": 0.63,
+          "width": 0.07,
+          "height": 0.13
+        }
+      }
+    ]
+  }
+}
