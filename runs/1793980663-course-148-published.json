@@ -1,0 +1,131 @@
+{
+  "schemaVersion": 1,
+  "course": 148,
+  "outcome": "published",
+  "error": null,
+  "startedAt": 1793980663,
+  "seconds": 141.58,
+  "reviewModel": "gpt-6-luna",
+  "reviewEffort": "medium",
+  "imageModel": "gpt-image-2.5-sunburst",
+  "candidatesRequested": 50,
+  "calls": [
+    {
+      "phase": "selection",
+      "kind": "review",
+      "model": "gpt-6-luna",
+      "effort": "medium",
+      "responseID": "resp_0f556279c018a2c2016aedf905e51c87d18f7622e2d7a7851b",
+      "usage": {
+        "input_tokens": 57926,
+        "input_tokens_details": {
+          "cache_write_tokens": 57923,
+          "cached_tokens": 0
+        },
+        "output_tokens": 3517,
+        "output_tokens_details": {
+          "reasoning_tokens": 3208
+        },
+        "total_tokens": 61443
+      },
+      "seconds": 38.33,
+      "imageCount": 8,
+      "approved": true,
+      "reviewKind": "course-design",
+      "reason": "Candidate 37 passes as supplied. Hole 1 is a 221-yard long par 3 with water to the right and forward of the target: it asks for a deliberate distance-and-line choice, while 9 of 9 tee-dispersion probes remain playable. Hole 2 is a dry 351-yard narrow-corridor par 4. Its tighter safe-shot results (5 of 9) make placement matter, but all probes remain playable and the landing area offers a credible route. Hole 3 is a 390-yard cape par 4 with substantial water left and forward of the green. Favoring the safer side leaves a route in; challenging the shoreline offers a more aggressive position. The par-3/4/4 sequence repeats the par-4 format, but contrasts a water-influenced target, dry constrained placement, and a shoreline choice. Long par 3s, narrow corridors, and capes have appeared in recent rounds, so freshness is good rather than exceptional; the sequence and alternating water exposure distinguish this combination. The 1/2/2 simulated shots to green and recoverable dispersion results support a challenging, fair set. Geometry facts confirm water on holes 1 and 3, and none on hole 2. No edits are needed.",
+      "issues": [],
+      "edits": [],
+      "scores": {
+        "strategy": 4,
+        "withinRoundVariety": 4,
+        "acrossDaysVariety": 4,
+        "fairDifficulty": 4
+      }
+    },
+    {
+      "phase": "artwork-0",
+      "kind": "image",
+      "model": "gpt-image-2.5-sunburst",
+      "usage": {
+        "input_tokens": 4426,
+        "input_tokens_details": {
+          "image_tokens": 2863,
+          "text_tokens": 1563
+        },
+        "output_tokens": 343,
+        "output_tokens_details": {
+          "image_tokens": 343,
+          "text_tokens": 0
+        },
+        "total_tokens": 4769
+      },
+      "seconds": 18.89
+    },
+    {
+      "phase": "artwork-0-review",
+      "kind": "review",
+      "model": "gpt-6-luna",
+      "effort": "medium",
+      "responseID": "resp_08e97c7fe59ccff8016aedf93fe6e887d18cca4d81ea2f6fe9",
+      "usage": {
+        "input_tokens": 8510,
+        "input_tokens_details": {
+          "cache_write_tokens": 7156,
+          "cached_tokens": 1351
+        },
+        "output_tokens": 2838,
+        "output_tokens_details": {
+          "reasoning_tokens": 2718
+        },
+        "total_tokens": 11348
+      },
+      "seconds": 31.57,
+      "imageCount": 3,
+      "approved": true,
+      "reviewKind": "artwork-only-v1",
+      "reason": "The illustration preserves the numbered course layout, mapped water and bunkers, tees, and the two walking connectors. All mapped fairway sections have visible crosswise mowing stripes, and each green reads as one continuous putting surface with a restrained edge transition. The wooded rendering and palette are consistent with the supplied reference.",
+      "issues": [],
+      "edits": [],
+      "scores": {
+        "geometryFidelity": 5,
+        "naturalGreens": 4,
+        "visualClarity": 4,
+        "styleConsistency": 4
+      }
+    },
+    {
+      "phase": "artwork-0-final",
+      "kind": "review",
+      "model": "gpt-6-luna",
+      "effort": "medium",
+      "responseID": "resp_091a26bf249c96a0016aedf9603b2c87d1904aa0d7c71efe22",
+      "usage": {
+        "input_tokens": 8510,
+        "input_tokens_details": {
+          "cache_write_tokens": 7156,
+          "cached_tokens": 1351
+        },
+        "output_tokens": 3219,
+        "output_tokens_details": {
+          "reasoning_tokens": 3104
+        },
+        "total_tokens": 11729
+      },
+      "seconds": 36.39,
+      "imageCount": 3,
+      "approved": true,
+      "reviewKind": "artwork-only-v1",
+      "reason": "The illustration preserves the numbered tee-to-green layout, mapped fairways, water, bunkers, walking connectors and property silhouette. All three greens read as continuous putting surfaces, fairway sections have visible crosswise mowing stripes, and the wooded rendering is clear and consistent with the reference.",
+      "issues": [],
+      "edits": [],
+      "scores": {
+        "geometryFidelity": 5,
+        "naturalGreens": 4,
+        "visualClarity": 5,
+        "styleConsistency": 5
+      }
+    }
+  ],
+  "artworkStatus": "approved",
+  "artworkFailure": null
+}
