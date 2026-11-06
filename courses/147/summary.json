@@ -1,0 +1,143 @@
+{
+  "course": 147,
+  "geometrySHA256": "c1e7501e57e73c5a91ec1d497d5a6a6488245714debc76b045a1d6fc5d0b7fa6",
+  "artworkSHA256": "7f5dbc1932f36e78ed11eb162edc61c36dabfc5201506d622a8dea4d4855e98e",
+  "holes": [
+    {
+      "bunkerCount": 5,
+      "fairwayArea": 24857.28748687746,
+      "greenArea": 6338.687532057353,
+      "par": 4,
+      "route": [
+        [
+          200,
+          40
+        ],
+        [
+          134.99295977836607,
+          390.81667834857325
+        ],
+        [
+          202.9954655397927,
+          510.4482570374132
+        ]
+      ],
+      "simulatedShotsToGreen": 2,
+      "teeAdvancingOptions": 20,
+      "teeClub": "driver",
+      "teeDispersionPlayable": 9,
+      "teeDispersionSafe": 5,
+      "teeDispersionSamples": 9,
+      "teeSafeOptions": 58,
+      "teeShotSamples": 216,
+      "type": "doubleDogleg",
+      "waterArea": 0,
+      "yards": 390
+    },
+    {
+      "bunkerCount": 5,
+      "fairwayArea": 36954.153176107684,
+      "greenArea": 3385.5207648990763,
+      "par": 5,
+      "route": [
+        [
+          200,
+          40
+        ],
+        [
+          197.53369598194908,
+          386.79392858301804
+        ],
+        [
+          194.55344652230127,
+          641.1033815777378
+        ],
+        [
+          193.41666561182487,
+          701.3639707730354
+        ]
+      ],
+      "simulatedShotsToGreen": 3,
+      "teeAdvancingOptions": 20,
+      "teeClub": "driver",
+      "teeDispersionPlayable": 9,
+      "teeDispersionSafe": 7,
+      "teeDispersionSamples": 9,
+      "teeSafeOptions": 59,
+      "teeShotSamples": 216,
+      "type": "threeShotPar5",
+      "waterArea": 21015.087419866642,
+      "yards": 550
+    },
+    {
+      "bunkerCount": 4,
+      "fairwayArea": 6080.671937354284,
+      "greenArea": 2805.078458494314,
+      "par": 3,
+      "route": [
+        [
+          200,
+          40
+        ],
+        [
+          214.32986119030687,
+          267.42646349928833
+        ]
+      ],
+      "simulatedShotsToGreen": 1,
+      "teeAdvancingOptions": 10,
+      "teeClub": "3wood",
+      "teeDispersionPlayable": 9,
+      "teeDispersionSafe": 9,
+      "teeDispersionSamples": 9,
+      "teeSafeOptions": 40,
+      "teeShotSamples": 216,
+      "type": "punchbowlGreen",
+      "waterArea": 0,
+      "yards": 190
+    }
+  ],
+  "review": {
+    "candidate": 40,
+    "approved": true,
+    "scores": {
+      "strategy": 4,
+      "withinRoundVariety": 5,
+      "acrossDaysVariety": 4,
+      "fairDifficulty": 4
+    },
+    "reason": "Candidate 40 passes as supplied. Hole 1 is a dry 390-yard double-dogleg par 4. Its changing direction and fairway bunkers make positioning matter, while 9 of 9 tee-dispersion probes remain playable; the safer line is available without making the bends irrelevant. Hole 2 is a 550-yard par 5 with a substantial shoreline hazard to the left of play. Its landing corridor supports staged play, while pressing forward near the water offers a meaningful risk-reward choice; the simulation indicates a demanding three-shot route to the green. Hole 3 is a dry 190-yard punchbowl par 3 with bunkers around the target, offering a distinct distance-control finish. The par-4/5/3 sequence, dry turning opener, wet long hole, and contained target finish provide excellent variety within the round. Doglegs, punchbowls, and water recur in recent rounds, but this combination and sequence are sufficiently fresh. The dispersion results and three-shot par-5 route support a challenging, playable round rather than three routine holes.",
+    "edits": []
+  },
+  "playingProfile": {
+    "routingFamilies": [
+      "long-game",
+      "target",
+      "turning"
+    ],
+    "teeClubs": [
+      "3wood",
+      "driver"
+    ],
+    "greenSizes": [
+      "large",
+      "medium"
+    ],
+    "regulationHoles": 3,
+    "underRegulationHoles": 0
+  },
+  "artworkStatus": "approved",
+  "artworkReview": {
+    "reviewKind": "artwork-only-v1",
+    "candidate": 40,
+    "approved": true,
+    "scores": {
+      "geometryFidelity": 4,
+      "naturalGreens": 5,
+      "visualClarity": 4,
+      "styleConsistency": 5
+    },
+    "reason": "The numbered tee-to-green layout, mapped lake, fairway patches, bunkers, and walking connectors are represented clearly. All mapped tees are visible, the fairways have discernible edge-to-edge stripes, and each green reads as one continuous natural putting surface. The wooded rendering is consistent with the supplied reference, with no actionable artwork issue identified.",
+    "issues": []
+  }
+}

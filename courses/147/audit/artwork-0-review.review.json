@@ -1,0 +1,29 @@
+{
+  "responseID": "resp_04597480b0887f55016aedf8b5350887d1a897a85ae1028f41",
+  "model": "gpt-6-luna",
+  "usage": {
+    "input_tokens": 8586,
+    "input_tokens_details": {
+      "cache_write_tokens": 7232,
+      "cached_tokens": 1351
+    },
+    "output_tokens": 2544,
+    "output_tokens_details": {
+      "reasoning_tokens": 2426
+    },
+    "total_tokens": 11130
+  },
+  "review": {
+    "reviewKind": "artwork-only-v1",
+    "candidate": 40,
+    "approved": true,
+    "scores": {
+      "geometryFidelity": 5,
+      "naturalGreens": 4,
+      "visualClarity": 4,
+      "styleConsistency": 4
+    },
+    "reason": "The numbered tees, greens, fairway patches, mapped hazards, lake, and walking connectors align with the authoritative diagram. Fairway stripes are visible across the mapped sections, and the greens read as continuous putting surfaces with ordinary edge shading. The illustration is clear and consistent with the supplied wooded style.",
+    "issues": []
+  }
+}

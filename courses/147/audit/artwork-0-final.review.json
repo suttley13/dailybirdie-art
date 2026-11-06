@@ -1,0 +1,29 @@
+{
+  "responseID": "resp_0a65e199e163ca29016aedf8d22d5887d1837bb5e285066be1",
+  "model": "gpt-6-luna",
+  "usage": {
+    "input_tokens": 8586,
+    "input_tokens_details": {
+      "cache_write_tokens": 7232,
+      "cached_tokens": 1351
+    },
+    "output_tokens": 2959,
+    "output_tokens_details": {
+      "reasoning_tokens": 2800
+    },
+    "total_tokens": 11545
+  },
+  "review": {
+    "reviewKind": "artwork-only-v1",
+    "candidate": 40,
+    "approved": true,
+    "scores": {
+      "geometryFidelity": 4,
+      "naturalGreens": 5,
+      "visualClarity": 4,
+      "styleConsistency": 5
+    },
+    "reason": "The numbered tee-to-green layout, mapped lake, fairway patches, bunkers, and walking connectors are represented clearly. All mapped tees are visible, the fairways have discernible edge-to-edge stripes, and each green reads as one continuous natural putting surface. The wooded rendering is consistent with the supplied reference, with no actionable artwork issue identified.",
+    "issues": []
+  }
+}

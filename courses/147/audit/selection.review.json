@@ -1,0 +1,28 @@
+{
+  "responseID": "resp_00b4e393bd87e7a9016aedf88f977087d1bc1a44ae34c68a56",
+  "model": "gpt-6-luna",
+  "usage": {
+    "input_tokens": 58726,
+    "input_tokens_details": {
+      "cache_write_tokens": 58723,
+      "cached_tokens": 0
+    },
+    "output_tokens": 1530,
+    "output_tokens_details": {
+      "reasoning_tokens": 1260
+    },
+    "total_tokens": 60256
+  },
+  "review": {
+    "candidate": 40,
+    "approved": true,
+    "scores": {
+      "strategy": 4,
+      "withinRoundVariety": 5,
+      "acrossDaysVariety": 4,
+      "fairDifficulty": 4
+    },
+    "reason": "Candidate 40 passes as supplied. Hole 1 is a dry 390-yard double-dogleg par 4. Its changing direction and fairway bunkers make positioning matter, while 9 of 9 tee-dispersion probes remain playable; the safer line is available without making the bends irrelevant. Hole 2 is a 550-yard par 5 with a substantial shoreline hazard to the left of play. Its landing corridor supports staged play, while pressing forward near the water offers a meaningful risk-reward choice; the simulation indicates a demanding three-shot route to the green. Hole 3 is a dry 190-yard punchbowl par 3 with bunkers around the target, offering a distinct distance-control finish. The par-4/5/3 sequence, dry turning opener, wet long hole, and contained target finish provide excellent variety within the round. Doglegs, punchbowls, and water recur in recent rounds, but this combination and sequence are sufficiently fresh. The dispersion results and three-shot par-5 route support a challenging, playable round rather than three routine holes.",
+    "edits": []
+  }
+}
