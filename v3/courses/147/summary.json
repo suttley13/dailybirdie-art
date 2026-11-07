@@ -2,10 +2,10 @@
   "course": 147,
   "date": "2026-11-10",
   "name": "Newark course",
-  "studioJob": "40472e6f-108f-4802-b963-4390ef22b4c7",
-  "draftFingerprint": "dde0ab54e743b8cbc654fbb14810349dc2ff56870838b8a99ceabfdf41ccf751",
+  "studioJob": "ebec6e12-74c8-41aa-9a2e-b38f08b45cd2",
+  "draftFingerprint": "6b8c6cae9a382a4c543449b77fab924543437ac868d586b2de4435d8429690cc",
   "approval": {
-    "approvedAt": "2026-11-07T17:56:59.095Z",
+    "approvedAt": "2026-11-07T18:25:18.249Z",
     "playtested": true,
     "humanApproved": true,
     "retainedOlder": {
@@ -21,30 +21,107 @@
     "artworkOverrides": [
       {
         "policy": "studio-human-artwork-v1",
-        "reason": "The illustration follows the numbered hole layout, preserves the mapped water, fairway footprints and G1-to-T2 walking connector, and presents the greens as continuous putting surfaces. The mapped fairways are visibly striped, and the wooded overhead style is consistent with the reference. No actionable artwork issue identified. The overall property, hole layout, greens, and striped fairways read clearly, but the illustration adds an unmapped bridge-like connection to the Hole 2 island green.",
+        "reason": "The course layout, mapped bridge, natural continuous greens, and striped fairways are clearly rendered. The three mapped flag positions are missing from the illustration, so it does not fully preserve the diagram\u2019s mapped details. The illustration preserves the mapped course layout, water, tees, greens, walking connectors and timber bridge. Greens read as continuous natural putting surfaces, and the mapped fairways show visible stripes that follow their shapes. The wooded rendered style is consistent with the reference and the overview remains clear.",
         "review": {
           "issues": [
             {
-              "code": "invented-connection",
-              "hole": 2,
-              "detail": "A narrow raised-looking connection runs from the north shore of the lake to the G2 island. The diagram maps no bridge here.",
+              "code": "geometry-mismatch",
+              "hole": 1,
+              "detail": "The mapped flag position on G1 is not shown.",
               "region": {
-                "x": 0.69,
-                "y": 0.14,
-                "width": 0.06,
-                "height": 0.13
+                "x": 0.61,
+                "y": 0.77,
+                "width": 0.04,
+                "height": 0.06
               },
-              "consequence": "Viewers may read the overview as showing a traversable crossing to the island, although no such connection is mapped."
+              "consequence": "The green lacks its mapped pin reference, making this location less faithful to the diagram."
+            },
+            {
+              "code": "geometry-mismatch",
+              "hole": 2,
+              "detail": "The mapped flag position on G2 is not shown.",
+              "region": {
+                "x": 0.74,
+                "y": 0.22,
+                "width": 0.05,
+                "height": 0.07
+              },
+              "consequence": "The island green lacks its mapped pin reference, making this location less faithful to the diagram."
+            },
+            {
+              "code": "geometry-mismatch",
+              "hole": 3,
+              "detail": "The mapped flag position on G3 is not shown.",
+              "region": {
+                "x": 0.19,
+                "y": 0.37,
+                "width": 0.05,
+                "height": 0.07
+              },
+              "consequence": "The green lacks its mapped pin reference, making this location less faithful to the diagram."
             }
           ],
-          "reason": "The illustration follows the numbered hole layout, preserves the mapped water, fairway footprints and G1-to-T2 walking connector, and presents the greens as continuous putting surfaces. The mapped fairways are visibly striped, and the wooded overhead style is consistent with the reference. No actionable artwork issue identified. The overall property, hole layout, greens, and striped fairways read clearly, but the illustration adds an unmapped bridge-like connection to the Hole 2 island green.",
+          "reason": "The course layout, mapped bridge, natural continuous greens, and striped fairways are clearly rendered. The three mapped flag positions are missing from the illustration, so it does not fully preserve the diagram\u2019s mapped details. The illustration preserves the mapped course layout, water, tees, greens, walking connectors and timber bridge. Greens read as continuous natural putting surfaces, and the mapped fairways show visible stripes that follow their shapes. The wooded rendered style is consistent with the reference and the overview remains clear.",
           "reviews": [
             {
               "review": {
-                "issues": [],
-                "reason": "The illustration follows the numbered hole layout, preserves the mapped water, fairway footprints and G1-to-T2 walking connector, and presents the greens as continuous putting surfaces. The mapped fairways are visibly striped, and the wooded overhead style is consistent with the reference. No actionable artwork issue identified.",
+                "issues": [
+                  {
+                    "code": "geometry-mismatch",
+                    "hole": 1,
+                    "detail": "The mapped flag position on G1 is not shown.",
+                    "region": {
+                      "x": 0.61,
+                      "y": 0.77,
+                      "width": 0.04,
+                      "height": 0.06
+                    },
+                    "consequence": "The green lacks its mapped pin reference, making this location less faithful to the diagram."
+                  },
+                  {
+                    "code": "geometry-mismatch",
+                    "hole": 2,
+                    "detail": "The mapped flag position on G2 is not shown.",
+                    "region": {
+                      "x": 0.74,
+                      "y": 0.22,
+                      "width": 0.05,
+                      "height": 0.07
+                    },
+                    "consequence": "The island green lacks its mapped pin reference, making this location less faithful to the diagram."
+                  },
+                  {
+                    "code": "geometry-mismatch",
+                    "hole": 3,
+                    "detail": "The mapped flag position on G3 is not shown.",
+                    "region": {
+                      "x": 0.19,
+                      "y": 0.37,
+                      "width": 0.05,
+                      "height": 0.07
+                    },
+                    "consequence": "The green lacks its mapped pin reference, making this location less faithful to the diagram."
+                  }
+                ],
+                "reason": "The course layout, mapped bridge, natural continuous greens, and striped fairways are clearly rendered. The three mapped flag positions are missing from the illustration, so it does not fully preserve the diagram\u2019s mapped details.",
                 "scores": {
-                  "naturalGreens": 4,
+                  "naturalGreens": 5,
+                  "visualClarity": 5,
+                  "geometryFidelity": 3,
+                  "styleConsistency": 5
+                },
+                "approved": false,
+                "candidate": 0,
+                "reviewKind": "artwork-only-v1"
+              },
+              "responseID": "resp_01e15a485573cfbc016aef6ba7e6b887d1ae2b6ddf5de2ed0e"
+            },
+            {
+              "review": {
+                "issues": [],
+                "reason": "The illustration preserves the mapped course layout, water, tees, greens, walking connectors and timber bridge. Greens read as continuous natural putting surfaces, and the mapped fairways show visible stripes that follow their shapes. The wooded rendered style is consistent with the reference and the overview remains clear.",
+                "scores": {
+                  "naturalGreens": 5,
                   "visualClarity": 4,
                   "geometryFidelity": 5,
                   "styleConsistency": 4
@@ -53,99 +130,351 @@
                 "candidate": 0,
                 "reviewKind": "artwork-only-v1"
               },
-              "responseID": "resp_0c43e7c34dc1692a016aef46f539c087d1ae6b61f6157fe3e7"
+              "responseID": "resp_0f4fdd41a04470fb016aef6ba7e30c87d1b0dac5dfce7cd056"
+            }
+          ],
+          "approved": false,
+          "decisionKey": "c3198e0b5cc474778a60342492415caea49a9a0bfe143d938e5f74e9f151732c",
+          "artworkSHA256": "81f0b2a377468cd99701df531553815eb96afbd287ffc3fd4c0c2f4cd05706c0",
+          "geometrySHA256": "0b576c09f0f72e917beb0d4aa95254f2f702bc6e0f1d19e6a353a9b9e4a0f671",
+          "geometryEncoding": "studio-stable-json-v1"
+        },
+        "decisionKey": "c3198e0b5cc474778a60342492415caea49a9a0bfe143d938e5f74e9f151732c",
+        "artworkSHA256": "81f0b2a377468cd99701df531553815eb96afbd287ffc3fd4c0c2f4cd05706c0",
+        "geometrySHA256": "0b576c09f0f72e917beb0d4aa95254f2f702bc6e0f1d19e6a353a9b9e4a0f671",
+        "acceptedFindings": [
+          "c3198e0b5cc474778a60342492415caea49a9a0bfe143d938e5f74e9f151732c:0",
+          "c3198e0b5cc474778a60342492415caea49a9a0bfe143d938e5f74e9f151732c:1",
+          "c3198e0b5cc474778a60342492415caea49a9a0bfe143d938e5f74e9f151732c:2"
+        ]
+      },
+      {
+        "policy": "studio-human-artwork-v1",
+        "reason": "The greens read as continuous natural putting surfaces and the overview is clear, but hole 3 includes an extra fairway-like patch and fairway mowing is rendered as checkerboard blocks rather than clear edge-to-edge bands. The course outline, mapped features, and continuous natural-looking greens are generally clear and faithful. The fairways use a checkerboard-like mowing pattern rather than the required clearly visible transverse bands that follow each fairway's shape.",
+        "review": {
+          "issues": [
+            {
+              "code": "geometry-mismatch",
+              "hole": 3,
+              "detail": "A separate, elongated striped fairway-like patch appears below and to the right of hole 3's mapped upper-left fairway. The diagram maps only one fairway section for this hole.",
+              "region": {
+                "x": 0.31,
+                "y": 0.3,
+                "width": 0.11,
+                "height": 0.18
+              },
+              "consequence": "Viewers may read the extra patch as another part of hole 3's fairway, misrepresenting the approved layout."
             },
+            {
+              "code": "style",
+              "hole": 1,
+              "detail": "The broad curved fairway is patterned with checkerboard blocks instead of clearly visible bands that cross the fairway edge to edge and follow its bend.",
+              "region": {
+                "x": 0.35,
+                "y": 0.4,
+                "width": 0.29,
+                "height": 0.34
+              },
+              "consequence": "At thumbnail scale, the fairway reads as a checkered surface rather than the required striped mowing pattern."
+            },
+            {
+              "code": "style",
+              "hole": 3,
+              "detail": "The mapped upper-left fairway also has a blocky checkerboard pattern rather than distinct edge-to-edge mowing bands.",
+              "region": {
+                "x": 0.19,
+                "y": 0.21,
+                "width": 0.18,
+                "height": 0.17
+              },
+              "consequence": "The small fairway does not read clearly as striped fairway at thumbnail scale."
+            },
+            {
+              "code": "style",
+              "hole": 1,
+              "detail": "The broad curving fairway is checkered rather than showing clear edge-to-edge alternating bands perpendicular to its local direction and smoothly turning with its bends.",
+              "region": {
+                "x": 0.35,
+                "y": 0.39,
+                "width": 0.3,
+                "height": 0.39
+              },
+              "consequence": "At overview scale, the fairway reads as tiled turf instead of the required striped mowing pattern."
+            },
+            {
+              "code": "style",
+              "hole": 2,
+              "detail": "The narrow curved fairway beside the upper-right lake does not read as clear, smoothly fanned transverse stripes throughout its length.",
+              "region": {
+                "x": 0.65,
+                "y": 0.15,
+                "width": 0.08,
+                "height": 0.34
+              },
+              "consequence": "The small fairway section is visually indistinct as striped fairway at thumbnail scale."
+            },
+            {
+              "code": "style",
+              "hole": 3,
+              "detail": "The short upper-left fairway uses a checkerboard pattern instead of clearly visible bands crossing its width and following its curve.",
+              "region": {
+                "x": 0.17,
+                "y": 0.21,
+                "width": 0.2,
+                "height": 0.18
+              },
+              "consequence": "The small fairway patch reads as tiled turf rather than striped fairway."
+            }
+          ],
+          "reason": "The greens read as continuous natural putting surfaces and the overview is clear, but hole 3 includes an extra fairway-like patch and fairway mowing is rendered as checkerboard blocks rather than clear edge-to-edge bands. The course outline, mapped features, and continuous natural-looking greens are generally clear and faithful. The fairways use a checkerboard-like mowing pattern rather than the required clearly visible transverse bands that follow each fairway's shape.",
+          "reviews": [
             {
               "review": {
                 "issues": [
                   {
-                    "code": "invented-connection",
-                    "hole": 2,
-                    "detail": "A narrow raised-looking connection runs from the north shore of the lake to the G2 island. The diagram maps no bridge here.",
+                    "code": "geometry-mismatch",
+                    "hole": 3,
+                    "detail": "A separate, elongated striped fairway-like patch appears below and to the right of hole 3's mapped upper-left fairway. The diagram maps only one fairway section for this hole.",
                     "region": {
-                      "x": 0.69,
-                      "y": 0.14,
-                      "width": 0.06,
-                      "height": 0.13
+                      "x": 0.31,
+                      "y": 0.3,
+                      "width": 0.11,
+                      "height": 0.18
                     },
-                    "consequence": "Viewers may read the overview as showing a traversable crossing to the island, although no such connection is mapped."
+                    "consequence": "Viewers may read the extra patch as another part of hole 3's fairway, misrepresenting the approved layout."
+                  },
+                  {
+                    "code": "style",
+                    "hole": 1,
+                    "detail": "The broad curved fairway is patterned with checkerboard blocks instead of clearly visible bands that cross the fairway edge to edge and follow its bend.",
+                    "region": {
+                      "x": 0.35,
+                      "y": 0.4,
+                      "width": 0.29,
+                      "height": 0.34
+                    },
+                    "consequence": "At thumbnail scale, the fairway reads as a checkered surface rather than the required striped mowing pattern."
+                  },
+                  {
+                    "code": "style",
+                    "hole": 3,
+                    "detail": "The mapped upper-left fairway also has a blocky checkerboard pattern rather than distinct edge-to-edge mowing bands.",
+                    "region": {
+                      "x": 0.19,
+                      "y": 0.21,
+                      "width": 0.18,
+                      "height": 0.17
+                    },
+                    "consequence": "The small fairway does not read clearly as striped fairway at thumbnail scale."
                   }
                 ],
-                "reason": "The overall property, hole layout, greens, and striped fairways read clearly, but the illustration adds an unmapped bridge-like connection to the Hole 2 island green.",
+                "reason": "The greens read as continuous natural putting surfaces and the overview is clear, but hole 3 includes an extra fairway-like patch and fairway mowing is rendered as checkerboard blocks rather than clear edge-to-edge bands.",
                 "scores": {
-                  "naturalGreens": 4,
+                  "naturalGreens": 5,
                   "visualClarity": 4,
                   "geometryFidelity": 3,
-                  "styleConsistency": 4
+                  "styleConsistency": 3
                 },
                 "approved": false,
                 "candidate": 0,
                 "reviewKind": "artwork-only-v1"
               },
-              "responseID": "resp_07bfcc3a1db0de33016aef46f543ac87d185069770471573fb"
+              "responseID": "resp_0899c0a06a42a64e016aef6ba816ac87d1aeefcf2e77dc4c3e"
+            },
+            {
+              "review": {
+                "issues": [
+                  {
+                    "code": "style",
+                    "hole": 1,
+                    "detail": "The broad curving fairway is checkered rather than showing clear edge-to-edge alternating bands perpendicular to its local direction and smoothly turning with its bends.",
+                    "region": {
+                      "x": 0.35,
+                      "y": 0.39,
+                      "width": 0.3,
+                      "height": 0.39
+                    },
+                    "consequence": "At overview scale, the fairway reads as tiled turf instead of the required striped mowing pattern."
+                  },
+                  {
+                    "code": "style",
+                    "hole": 2,
+                    "detail": "The narrow curved fairway beside the upper-right lake does not read as clear, smoothly fanned transverse stripes throughout its length.",
+                    "region": {
+                      "x": 0.65,
+                      "y": 0.15,
+                      "width": 0.08,
+                      "height": 0.34
+                    },
+                    "consequence": "The small fairway section is visually indistinct as striped fairway at thumbnail scale."
+                  },
+                  {
+                    "code": "style",
+                    "hole": 3,
+                    "detail": "The short upper-left fairway uses a checkerboard pattern instead of clearly visible bands crossing its width and following its curve.",
+                    "region": {
+                      "x": 0.17,
+                      "y": 0.21,
+                      "width": 0.2,
+                      "height": 0.18
+                    },
+                    "consequence": "The small fairway patch reads as tiled turf rather than striped fairway."
+                  }
+                ],
+                "reason": "The course outline, mapped features, and continuous natural-looking greens are generally clear and faithful. The fairways use a checkerboard-like mowing pattern rather than the required clearly visible transverse bands that follow each fairway's shape.",
+                "scores": {
+                  "naturalGreens": 4,
+                  "visualClarity": 4,
+                  "geometryFidelity": 4,
+                  "styleConsistency": 3
+                },
+                "approved": false,
+                "candidate": 0,
+                "reviewKind": "artwork-only-v1"
+              },
+              "responseID": "resp_08edacb7bcb14612016aef6ba85d9487d18c9b32b82a1e56df"
             }
           ],
           "approved": false,
-          "decisionKey": "eed4da8a608a64868a82ed6085ad2ce62c8c046f867aafdf2b69d829dfb609ef",
-          "artworkSHA256": "99722da5bfb6696c09aebd0c34cec3e6e479072fceb343af2af6ca37577abaa8",
-          "geometrySHA256": "0287a6e765f2ef51eaf0ee8ec3167a5995d5df111eb6615ebba93fb5252277e5",
+          "decisionKey": "99f08396fafb5b7cffeeed7dded9daa3add30e164b81627cc2a739b14eab642e",
+          "artworkSHA256": "4d0024718ffd748973613c710b28f51100a43443dacb79d6645507c18df0b888",
+          "geometrySHA256": "24e735b03a7b5716e4066cafc24015bb048c3a6160e4c96e7db2b42e4092c08d",
           "geometryEncoding": "studio-stable-json-v1"
         },
-        "decisionKey": "eed4da8a608a64868a82ed6085ad2ce62c8c046f867aafdf2b69d829dfb609ef",
-        "artworkSHA256": "99722da5bfb6696c09aebd0c34cec3e6e479072fceb343af2af6ca37577abaa8",
-        "geometrySHA256": "0287a6e765f2ef51eaf0ee8ec3167a5995d5df111eb6615ebba93fb5252277e5",
+        "decisionKey": "99f08396fafb5b7cffeeed7dded9daa3add30e164b81627cc2a739b14eab642e",
+        "artworkSHA256": "4d0024718ffd748973613c710b28f51100a43443dacb79d6645507c18df0b888",
+        "geometrySHA256": "24e735b03a7b5716e4066cafc24015bb048c3a6160e4c96e7db2b42e4092c08d",
         "acceptedFindings": [
-          "eed4da8a608a64868a82ed6085ad2ce62c8c046f867aafdf2b69d829dfb609ef:0"
+          "99f08396fafb5b7cffeeed7dded9daa3add30e164b81627cc2a739b14eab642e:0",
+          "99f08396fafb5b7cffeeed7dded9daa3add30e164b81627cc2a739b14eab642e:1",
+          "99f08396fafb5b7cffeeed7dded9daa3add30e164b81627cc2a739b14eab642e:2",
+          "99f08396fafb5b7cffeeed7dded9daa3add30e164b81627cc2a739b14eab642e:3",
+          "99f08396fafb5b7cffeeed7dded9daa3add30e164b81627cc2a739b14eab642e:4",
+          "99f08396fafb5b7cffeeed7dded9daa3add30e164b81627cc2a739b14eab642e:5"
         ]
       }
     ],
     "compatibilityApproved": true
   },
   "artworkStatus": "approved",
-  "geometrySHA256": "ea51e1eb50a85cb2205b61c195eb698f2cbfff8158cd39d0c46bd81745d14290",
-  "artworkSHA256": "8bf47b24cdad32e1b123a7425113e49aafbe116074cecc27130f78a523760448",
+  "geometrySHA256": "b14ffed1dbb3f82fdf245fbf7dea9c5e7315f27d745ad38411ce09d5271c7686",
+  "artworkSHA256": "81f0b2a377468cd99701df531553815eb96afbd287ffc3fd4c0c2f4cd05706c0",
   "artworkReview": {
-    "issues": [],
-    "reason": "The illustration preserves the mapped property silhouette, numbered tee-to-green layouts, split fairways, water and bunkers. The mapped timber bridge and walking connector are shown, the greens read as single natural surfaces, and the fairway stripes are visible and follow the fairway shapes. The rendering is consistent with the supplied wooded style and remains clearly legible. The illustration preserves the mapped property shape, hole features, fairway directions, lake extents, and the mapped timber bridge. All three greens read as continuous putting surfaces, and the fairways have visible striping. The wooded rendering is clear and consistent with the supplied style reference.",
+    "issues": [
+      {
+        "code": "geometry-mismatch",
+        "hole": 1,
+        "detail": "The mapped flag position on G1 is not shown.",
+        "region": {
+          "x": 0.61,
+          "y": 0.77,
+          "width": 0.04,
+          "height": 0.06
+        },
+        "consequence": "The green lacks its mapped pin reference, making this location less faithful to the diagram."
+      },
+      {
+        "code": "geometry-mismatch",
+        "hole": 2,
+        "detail": "The mapped flag position on G2 is not shown.",
+        "region": {
+          "x": 0.74,
+          "y": 0.22,
+          "width": 0.05,
+          "height": 0.07
+        },
+        "consequence": "The island green lacks its mapped pin reference, making this location less faithful to the diagram."
+      },
+      {
+        "code": "geometry-mismatch",
+        "hole": 3,
+        "detail": "The mapped flag position on G3 is not shown.",
+        "region": {
+          "x": 0.19,
+          "y": 0.37,
+          "width": 0.05,
+          "height": 0.07
+        },
+        "consequence": "The green lacks its mapped pin reference, making this location less faithful to the diagram."
+      }
+    ],
+    "reason": "The course layout, mapped bridge, natural continuous greens, and striped fairways are clearly rendered. The three mapped flag positions are missing from the illustration, so it does not fully preserve the diagram\u2019s mapped details. The illustration preserves the mapped course layout, water, tees, greens, walking connectors and timber bridge. Greens read as continuous natural putting surfaces, and the mapped fairways show visible stripes that follow their shapes. The wooded rendered style is consistent with the reference and the overview remains clear.",
     "reviews": [
       {
         "review": {
-          "issues": [],
-          "reason": "The illustration preserves the mapped property silhouette, numbered tee-to-green layouts, split fairways, water and bunkers. The mapped timber bridge and walking connector are shown, the greens read as single natural surfaces, and the fairway stripes are visible and follow the fairway shapes. The rendering is consistent with the supplied wooded style and remains clearly legible.",
+          "issues": [
+            {
+              "code": "geometry-mismatch",
+              "hole": 1,
+              "detail": "The mapped flag position on G1 is not shown.",
+              "region": {
+                "x": 0.61,
+                "y": 0.77,
+                "width": 0.04,
+                "height": 0.06
+              },
+              "consequence": "The green lacks its mapped pin reference, making this location less faithful to the diagram."
+            },
+            {
+              "code": "geometry-mismatch",
+              "hole": 2,
+              "detail": "The mapped flag position on G2 is not shown.",
+              "region": {
+                "x": 0.74,
+                "y": 0.22,
+                "width": 0.05,
+                "height": 0.07
+              },
+              "consequence": "The island green lacks its mapped pin reference, making this location less faithful to the diagram."
+            },
+            {
+              "code": "geometry-mismatch",
+              "hole": 3,
+              "detail": "The mapped flag position on G3 is not shown.",
+              "region": {
+                "x": 0.19,
+                "y": 0.37,
+                "width": 0.05,
+                "height": 0.07
+              },
+              "consequence": "The green lacks its mapped pin reference, making this location less faithful to the diagram."
+            }
+          ],
+          "reason": "The course layout, mapped bridge, natural continuous greens, and striped fairways are clearly rendered. The three mapped flag positions are missing from the illustration, so it does not fully preserve the diagram\u2019s mapped details.",
           "scores": {
             "naturalGreens": 5,
-            "visualClarity": 4,
-            "geometryFidelity": 4,
-            "styleConsistency": 4
+            "visualClarity": 5,
+            "geometryFidelity": 3,
+            "styleConsistency": 5
           },
-          "approved": true,
+          "approved": false,
           "candidate": 0,
           "reviewKind": "artwork-only-v1"
         },
-        "responseID": "resp_0b280622fac924a1016aef46f2bf1887d1a2e11e16e3e16ab5"
+        "responseID": "resp_01e15a485573cfbc016aef6ba7e6b887d1ae2b6ddf5de2ed0e"
       },
       {
         "review": {
           "issues": [],
-          "reason": "The illustration preserves the mapped property shape, hole features, fairway directions, lake extents, and the mapped timber bridge. All three greens read as continuous putting surfaces, and the fairways have visible striping. The wooded rendering is clear and consistent with the supplied style reference.",
+          "reason": "The illustration preserves the mapped course layout, water, tees, greens, walking connectors and timber bridge. Greens read as continuous natural putting surfaces, and the mapped fairways show visible stripes that follow their shapes. The wooded rendered style is consistent with the reference and the overview remains clear.",
           "scores": {
-            "naturalGreens": 4,
+            "naturalGreens": 5,
             "visualClarity": 4,
-            "geometryFidelity": 4,
+            "geometryFidelity": 5,
             "styleConsistency": 4
           },
           "approved": true,
           "candidate": 0,
           "reviewKind": "artwork-only-v1"
         },
-        "responseID": "resp_00f76042adb343be016aef46f2c4a887d19486c8c502f72c2e"
+        "responseID": "resp_0f4fdd41a04470fb016aef6ba7e30c87d1b0dac5dfce7cd056"
       }
     ],
-    "approved": true,
-    "artworkSHA256": "8bf47b24cdad32e1b123a7425113e49aafbe116074cecc27130f78a523760448",
-    "geometrySHA256": "c067dfb2a66233bc8a685bd0ac307733d6cbc52163089124cd374af5fc2f6f3c",
+    "approved": false,
+    "artworkSHA256": "81f0b2a377468cd99701df531553815eb96afbd287ffc3fd4c0c2f4cd05706c0",
+    "geometrySHA256": "0b576c09f0f72e917beb0d4aa95254f2f702bc6e0f1d19e6a353a9b9e4a0f671",
     "geometryEncoding": "studio-stable-json-v1",
-    "decisionKey": "cd6f52c699a8d7ed24c1ef1c8eec9714f0970b59937c29eafb242d8fbfe120bd"
+    "decisionKey": "c3198e0b5cc474778a60342492415caea49a9a0bfe143d938e5f74e9f151732c"
   },
   "compatibility": {
     "policy": "studio-compatible-v1",

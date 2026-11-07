@@ -1,0 +1,203 @@
+{
+  "course": 147,
+  "date": "2026-11-10",
+  "name": "Newark course",
+  "studioJob": "40472e6f-108f-4802-b963-4390ef22b4c7",
+  "draftFingerprint": "dde0ab54e743b8cbc654fbb14810349dc2ff56870838b8a99ceabfdf41ccf751",
+  "approval": {
+    "approvedAt": "2026-11-07T17:56:59.095Z",
+    "playtested": true,
+    "humanApproved": true,
+    "retainedOlder": {
+      "legacy": {
+        "course": 147,
+        "artworkSHA256": "7f5dbc1932f36e78ed11eb162edc61c36dabfc5201506d622a8dea4d4855e98e",
+        "schemaVersion": 1,
+        "geometrySHA256": "c1e7501e57e73c5a91ec1d497d5a6a6488245714debc76b045a1d6fc5d0b7fa6",
+        "artRulesVersion": "fairway-stripes-v4"
+      },
+      "pairMatchupID": null
+    },
+    "artworkOverrides": [
+      {
+        "policy": "studio-human-artwork-v1",
+        "reason": "The illustration follows the numbered hole layout, preserves the mapped water, fairway footprints and G1-to-T2 walking connector, and presents the greens as continuous putting surfaces. The mapped fairways are visibly striped, and the wooded overhead style is consistent with the reference. No actionable artwork issue identified. The overall property, hole layout, greens, and striped fairways read clearly, but the illustration adds an unmapped bridge-like connection to the Hole 2 island green.",
+        "review": {
+          "issues": [
+            {
+              "code": "invented-connection",
+              "hole": 2,
+              "detail": "A narrow raised-looking connection runs from the north shore of the lake to the G2 island. The diagram maps no bridge here.",
+              "region": {
+                "x": 0.69,
+                "y": 0.14,
+                "width": 0.06,
+                "height": 0.13
+              },
+              "consequence": "Viewers may read the overview as showing a traversable crossing to the island, although no such connection is mapped."
+            }
+          ],
+          "reason": "The illustration follows the numbered hole layout, preserves the mapped water, fairway footprints and G1-to-T2 walking connector, and presents the greens as continuous putting surfaces. The mapped fairways are visibly striped, and the wooded overhead style is consistent with the reference. No actionable artwork issue identified. The overall property, hole layout, greens, and striped fairways read clearly, but the illustration adds an unmapped bridge-like connection to the Hole 2 island green.",
+          "reviews": [
+            {
+              "review": {
+                "issues": [],
+                "reason": "The illustration follows the numbered hole layout, preserves the mapped water, fairway footprints and G1-to-T2 walking connector, and presents the greens as continuous putting surfaces. The mapped fairways are visibly striped, and the wooded overhead style is consistent with the reference. No actionable artwork issue identified.",
+                "scores": {
+                  "naturalGreens": 4,
+                  "visualClarity": 4,
+                  "geometryFidelity": 5,
+                  "styleConsistency": 4
+                },
+                "approved": true,
+                "candidate": 0,
+                "reviewKind": "artwork-only-v1"
+              },
+              "responseID": "resp_0c43e7c34dc1692a016aef46f539c087d1ae6b61f6157fe3e7"
+            },
+            {
+              "review": {
+                "issues": [
+                  {
+                    "code": "invented-connection",
+                    "hole": 2,
+                    "detail": "A narrow raised-looking connection runs from the north shore of the lake to the G2 island. The diagram maps no bridge here.",
+                    "region": {
+                      "x": 0.69,
+                      "y": 0.14,
+                      "width": 0.06,
+                      "height": 0.13
+                    },
+                    "consequence": "Viewers may read the overview as showing a traversable crossing to the island, although no such connection is mapped."
+                  }
+                ],
+                "reason": "The overall property, hole layout, greens, and striped fairways read clearly, but the illustration adds an unmapped bridge-like connection to the Hole 2 island green.",
+                "scores": {
+                  "naturalGreens": 4,
+                  "visualClarity": 4,
+                  "geometryFidelity": 3,
+                  "styleConsistency": 4
+                },
+                "approved": false,
+                "candidate": 0,
+                "reviewKind": "artwork-only-v1"
+              },
+              "responseID": "resp_07bfcc3a1db0de33016aef46f543ac87d185069770471573fb"
+            }
+          ],
+          "approved": false,
+          "decisionKey": "eed4da8a608a64868a82ed6085ad2ce62c8c046f867aafdf2b69d829dfb609ef",
+          "artworkSHA256": "99722da5bfb6696c09aebd0c34cec3e6e479072fceb343af2af6ca37577abaa8",
+          "geometrySHA256": "0287a6e765f2ef51eaf0ee8ec3167a5995d5df111eb6615ebba93fb5252277e5",
+          "geometryEncoding": "studio-stable-json-v1"
+        },
+        "decisionKey": "eed4da8a608a64868a82ed6085ad2ce62c8c046f867aafdf2b69d829dfb609ef",
+        "artworkSHA256": "99722da5bfb6696c09aebd0c34cec3e6e479072fceb343af2af6ca37577abaa8",
+        "geometrySHA256": "0287a6e765f2ef51eaf0ee8ec3167a5995d5df111eb6615ebba93fb5252277e5",
+        "acceptedFindings": [
+          "eed4da8a608a64868a82ed6085ad2ce62c8c046f867aafdf2b69d829dfb609ef:0"
+        ]
+      }
+    ],
+    "compatibilityApproved": true
+  },
+  "artworkStatus": "approved",
+  "geometrySHA256": "ea51e1eb50a85cb2205b61c195eb698f2cbfff8158cd39d0c46bd81745d14290",
+  "artworkSHA256": "8bf47b24cdad32e1b123a7425113e49aafbe116074cecc27130f78a523760448",
+  "artworkReview": {
+    "issues": [],
+    "reason": "The illustration preserves the mapped property silhouette, numbered tee-to-green layouts, split fairways, water and bunkers. The mapped timber bridge and walking connector are shown, the greens read as single natural surfaces, and the fairway stripes are visible and follow the fairway shapes. The rendering is consistent with the supplied wooded style and remains clearly legible. The illustration preserves the mapped property shape, hole features, fairway directions, lake extents, and the mapped timber bridge. All three greens read as continuous putting surfaces, and the fairways have visible striping. The wooded rendering is clear and consistent with the supplied style reference.",
+    "reviews": [
+      {
+        "review": {
+          "issues": [],
+          "reason": "The illustration preserves the mapped property silhouette, numbered tee-to-green layouts, split fairways, water and bunkers. The mapped timber bridge and walking connector are shown, the greens read as single natural surfaces, and the fairway stripes are visible and follow the fairway shapes. The rendering is consistent with the supplied wooded style and remains clearly legible.",
+          "scores": {
+            "naturalGreens": 5,
+            "visualClarity": 4,
+            "geometryFidelity": 4,
+            "styleConsistency": 4
+          },
+          "approved": true,
+          "candidate": 0,
+          "reviewKind": "artwork-only-v1"
+        },
+        "responseID": "resp_0b280622fac924a1016aef46f2bf1887d1a2e11e16e3e16ab5"
+      },
+      {
+        "review": {
+          "issues": [],
+          "reason": "The illustration preserves the mapped property shape, hole features, fairway directions, lake extents, and the mapped timber bridge. All three greens read as continuous putting surfaces, and the fairways have visible striping. The wooded rendering is clear and consistent with the supplied style reference.",
+          "scores": {
+            "naturalGreens": 4,
+            "visualClarity": 4,
+            "geometryFidelity": 4,
+            "styleConsistency": 4
+          },
+          "approved": true,
+          "candidate": 0,
+          "reviewKind": "artwork-only-v1"
+        },
+        "responseID": "resp_00f76042adb343be016aef46f2c4a887d19486c8c502f72c2e"
+      }
+    ],
+    "approved": true,
+    "artworkSHA256": "8bf47b24cdad32e1b123a7425113e49aafbe116074cecc27130f78a523760448",
+    "geometrySHA256": "c067dfb2a66233bc8a685bd0ac307733d6cbc52163089124cd374af5fc2f6f3c",
+    "geometryEncoding": "studio-stable-json-v1",
+    "decisionKey": "cd6f52c699a8d7ed24c1ef1c8eec9714f0970b59937c29eafb242d8fbfe120bd"
+  },
+  "compatibility": {
+    "policy": "studio-compatible-v1",
+    "holes": [
+      {
+        "sections": 1,
+        "addedFairwayYards": 0,
+        "addedFairwayPercent": 0,
+        "waterReshaped": false,
+        "addedFairway": []
+      },
+      {
+        "sections": 1,
+        "addedFairwayYards": 0,
+        "addedFairwayPercent": 0,
+        "waterReshaped": true,
+        "addedFairway": []
+      },
+      {
+        "sections": 1,
+        "addedFairwayYards": 0,
+        "addedFairwayPercent": 0,
+        "waterReshaped": false,
+        "addedFairway": []
+      }
+    ]
+  },
+  "holes": [
+    {
+      "par": 5,
+      "lengthYards": 526,
+      "type": "straight"
+    },
+    {
+      "par": 3,
+      "lengthYards": 193,
+      "type": "straight"
+    },
+    {
+      "par": 4,
+      "lengthYards": 398,
+      "type": "straight"
+    }
+  ],
+  "retainedOlder": {
+    "legacy": {
+      "course": 147,
+      "artworkSHA256": "7f5dbc1932f36e78ed11eb162edc61c36dabfc5201506d622a8dea4d4855e98e",
+      "schemaVersion": 1,
+      "geometrySHA256": "c1e7501e57e73c5a91ec1d497d5a6a6488245714debc76b045a1d6fc5d0b7fa6",
+      "artRulesVersion": "fairway-stripes-v4"
+    },
+    "pairMatchupID": null
+  }
+}
