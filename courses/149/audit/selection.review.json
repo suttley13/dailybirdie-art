@@ -1,0 +1,28 @@
+{
+  "responseID": "resp_025be95c003e112e016aef3a5f758c87d19fbcaaf25f9912be",
+  "model": "gpt-6-luna",
+  "usage": {
+    "input_tokens": 57767,
+    "input_tokens_details": {
+      "cache_write_tokens": 57764,
+      "cached_tokens": 0
+    },
+    "output_tokens": 1295,
+    "output_tokens_details": {
+      "reasoning_tokens": 1004
+    },
+    "total_tokens": 59062
+  },
+  "review": {
+    "candidate": 24,
+    "approved": true,
+    "scores": {
+      "strategy": 4,
+      "withinRoundVariety": 5,
+      "acrossDaysVariety": 4,
+      "fairDifficulty": 4
+    },
+    "reason": "Candidate 24 passes as supplied. Hole 1 is a dry 578-yard par 5 with a clear staged route and multiple fairway bunkers; reaching the green in three is supported by the simulation, while only 3 of 9 tee-dispersion samples finish safely in short grass, adding challenge without eliminating playable outcomes. Hole 2 is a 184-yard island-green par 3 with a substantial surrounding lake and a 3-wood tee shot. Its target carry contrasts sharply with the opener, and the dispersion probes indicate it remains playable. Hole 3 is a 426-yard split-fairway par 4 with water to the right and forward of the green. Its broad landing area leaves room to choose a safer line or challenge the hazard for position. The par-5/3/4 sequence, varied tee clubs, and changing hazard and landing-zone demands create strong internal variety. Recent rounds have included island targets and long par 5s, so the combination is not wholly novel, but the dry staged opener and water-influenced split-fairway finish distinguish it sufficiently. The simulations and dispersion results support a challenging, recoverable round rather than three routine holes.",
+    "edits": []
+  }
+}

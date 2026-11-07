@@ -1,0 +1,29 @@
+{
+  "responseID": "resp_037e9b334d1d46cb016aef3b0f7c7487d1857c95d4675be8bc",
+  "model": "gpt-6-luna",
+  "usage": {
+    "input_tokens": 8295,
+    "input_tokens_details": {
+      "cache_write_tokens": 6941,
+      "cached_tokens": 1351
+    },
+    "output_tokens": 4238,
+    "output_tokens_details": {
+      "reasoning_tokens": 4128
+    },
+    "total_tokens": 12533
+  },
+  "review": {
+    "reviewKind": "artwork-only-v1",
+    "candidate": 24,
+    "approved": true,
+    "scores": {
+      "geometryFidelity": 4,
+      "naturalGreens": 4,
+      "visualClarity": 4,
+      "styleConsistency": 4
+    },
+    "reason": "The illustration follows the numbered course layout, preserves the mapped lakes and walking connectors, shows the tees, and has clearly striped fairway sections, including the small patch. The greens read as continuous putting surfaces, and the wooded rendering is consistent with the reference.",
+    "issues": []
+  }
+}

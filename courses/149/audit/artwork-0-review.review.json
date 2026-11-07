@@ -1,0 +1,42 @@
+{
+  "responseID": "resp_0c786ed8954aa22c016aef3a809bb887d1ba542b419a057909",
+  "model": "gpt-6-luna",
+  "usage": {
+    "input_tokens": 8297,
+    "input_tokens_details": {
+      "cache_write_tokens": 8294,
+      "cached_tokens": 0
+    },
+    "output_tokens": 2733,
+    "output_tokens_details": {
+      "reasoning_tokens": 2519
+    },
+    "total_tokens": 11030
+  },
+  "review": {
+    "reviewKind": "artwork-only-v1",
+    "candidate": 24,
+    "approved": false,
+    "scores": {
+      "geometryFidelity": 4,
+      "naturalGreens": 4,
+      "visualClarity": 4,
+      "styleConsistency": 3
+    },
+    "reason": "The course broadly follows the numbered layout and the greens read as continuous natural putting surfaces. The detached fairway patch near Hole 2 is unstriped, so the current illustration does not meet the required fairway treatment.",
+    "issues": [
+      {
+        "code": "style",
+        "hole": 2,
+        "detail": "The short detached fairway patch between the Hole 2 tee area and island green is rendered as uniform, unstriped turf. Add clearly visible alternating bands across the mapped patch, scaled to its size and confined to its outline.",
+        "consequence": "At overview scale, the patch can read as another putting green rather than fairway, making the course surface treatment less clear.",
+        "region": {
+          "x": 0.47,
+          "y": 0.32,
+          "width": 0.07,
+          "height": 0.09
+        }
+      }
+    ]
+  }
+}

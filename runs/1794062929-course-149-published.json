@@ -1,0 +1,283 @@
+{
+  "schemaVersion": 1,
+  "course": 149,
+  "outcome": "published",
+  "error": null,
+  "startedAt": 1794062929,
+  "seconds": 232.64,
+  "reviewModel": "gpt-6-luna",
+  "reviewEffort": "medium",
+  "imageModel": "gpt-image-2.5-sunburst",
+  "candidatesRequested": 50,
+  "calls": [
+    {
+      "phase": "selection",
+      "kind": "review",
+      "model": "gpt-6-luna",
+      "effort": "medium",
+      "responseID": "resp_025be95c003e112e016aef3a5f758c87d19fbcaaf25f9912be",
+      "usage": {
+        "input_tokens": 57767,
+        "input_tokens_details": {
+          "cache_write_tokens": 57764,
+          "cached_tokens": 0
+        },
+        "output_tokens": 1295,
+        "output_tokens_details": {
+          "reasoning_tokens": 1004
+        },
+        "total_tokens": 59062
+      },
+      "seconds": 15.27,
+      "imageCount": 8,
+      "approved": true,
+      "reviewKind": "course-design",
+      "reason": "Candidate 24 passes as supplied. Hole 1 is a dry 578-yard par 5 with a clear staged route and multiple fairway bunkers; reaching the green in three is supported by the simulation, while only 3 of 9 tee-dispersion samples finish safely in short grass, adding challenge without eliminating playable outcomes. Hole 2 is a 184-yard island-green par 3 with a substantial surrounding lake and a 3-wood tee shot. Its target carry contrasts sharply with the opener, and the dispersion probes indicate it remains playable. Hole 3 is a 426-yard split-fairway par 4 with water to the right and forward of the green. Its broad landing area leaves room to choose a safer line or challenge the hazard for position. The par-5/3/4 sequence, varied tee clubs, and changing hazard and landing-zone demands create strong internal variety. Recent rounds have included island targets and long par 5s, so the combination is not wholly novel, but the dry staged opener and water-influenced split-fairway finish distinguish it sufficiently. The simulations and dispersion results support a challenging, recoverable round rather than three routine holes.",
+      "issues": [],
+      "edits": [],
+      "scores": {
+        "strategy": 4,
+        "withinRoundVariety": 5,
+        "acrossDaysVariety": 4,
+        "fairDifficulty": 4
+      }
+    },
+    {
+      "phase": "artwork-0",
+      "kind": "image",
+      "model": "gpt-image-2.5-sunburst",
+      "usage": {
+        "input_tokens": 4429,
+        "input_tokens_details": {
+          "image_tokens": 2863,
+          "text_tokens": 1566
+        },
+        "output_tokens": 343,
+        "output_tokens_details": {
+          "image_tokens": 343,
+          "text_tokens": 0
+        },
+        "total_tokens": 4772
+      },
+      "seconds": 18.23
+    },
+    {
+      "phase": "artwork-0-review",
+      "kind": "review",
+      "model": "gpt-6-luna",
+      "effort": "medium",
+      "responseID": "resp_0c786ed8954aa22c016aef3a809bb887d1ba542b419a057909",
+      "usage": {
+        "input_tokens": 8297,
+        "input_tokens_details": {
+          "cache_write_tokens": 8294,
+          "cached_tokens": 0
+        },
+        "output_tokens": 2733,
+        "output_tokens_details": {
+          "reasoning_tokens": 2519
+        },
+        "total_tokens": 11030
+      },
+      "seconds": 29.0,
+      "imageCount": 3,
+      "approved": false,
+      "reviewKind": "artwork-only-v1",
+      "reason": "The course broadly follows the numbered layout and the greens read as continuous natural putting surfaces. The detached fairway patch near Hole 2 is unstriped, so the current illustration does not meet the required fairway treatment.",
+      "issues": [
+        {
+          "code": "style",
+          "hole": 2,
+          "detail": "The short detached fairway patch between the Hole 2 tee area and island green is rendered as uniform, unstriped turf. Add clearly visible alternating bands across the mapped patch, scaled to its size and confined to its outline.",
+          "consequence": "At overview scale, the patch can read as another putting green rather than fairway, making the course surface treatment less clear.",
+          "region": {
+            "x": 0.47,
+            "y": 0.32,
+            "width": 0.07,
+            "height": 0.09
+          }
+        }
+      ],
+      "edits": [],
+      "scores": {
+        "geometryFidelity": 4,
+        "naturalGreens": 4,
+        "visualClarity": 4,
+        "styleConsistency": 3
+      }
+    },
+    {
+      "phase": "artwork-1",
+      "kind": "image",
+      "model": "gpt-image-2.5-sunburst",
+      "usage": {
+        "input_tokens": 6218,
+        "input_tokens_details": {
+          "image_tokens": 4363,
+          "text_tokens": 1855
+        },
+        "output_tokens": 343,
+        "output_tokens_details": {
+          "image_tokens": 343,
+          "text_tokens": 0
+        },
+        "total_tokens": 6561
+      },
+      "seconds": 20.38
+    },
+    {
+      "phase": "artwork-1-review",
+      "kind": "review",
+      "model": "gpt-6-luna",
+      "effort": "medium",
+      "responseID": "resp_019319187e5b62ba016aef3ab2a21487d19c6f2900b7452935",
+      "usage": {
+        "input_tokens": 8291,
+        "input_tokens_details": {
+          "cache_write_tokens": 6937,
+          "cached_tokens": 1351
+        },
+        "output_tokens": 3733,
+        "output_tokens_details": {
+          "reasoning_tokens": 3375
+        },
+        "total_tokens": 12024
+      },
+      "seconds": 37.51,
+      "imageCount": 3,
+      "approved": false,
+      "reviewKind": "artwork-only-v1",
+      "reason": "The layout, mapped features, natural single-surface greens, and framing are faithful and clear. The mapped fairway sections read as checkered turf rather than distinct edge-to-edge mowing bands, so the illustration does not meet the required fairway-striping treatment.",
+      "issues": [
+        {
+          "code": "style",
+          "hole": 1,
+          "detail": "The long fairway from the lower-right tee toward G1 has a checkered texture rather than clear alternating bands crossing the fairway edge to edge.",
+          "consequence": "At overview scale, the fairway reads as tiled turf instead of the required mowing stripes.",
+          "region": {
+            "x": 0.43,
+            "y": 0.45,
+            "width": 0.48,
+            "height": 0.35
+          }
+        },
+        {
+          "code": "style",
+          "hole": 2,
+          "detail": "The small detached fairway patch near the central tee is checkered rather than visibly striped with bands scaled to the patch.",
+          "consequence": "The patch does not read as a striped fairway section at thumbnail scale.",
+          "region": {
+            "x": 0.47,
+            "y": 0.33,
+            "width": 0.07,
+            "height": 0.08
+          }
+        },
+        {
+          "code": "style",
+          "hole": 3,
+          "detail": "The upper fairway is checkered rather than showing distinct alternating bands that follow its bend and cross it edge to edge.",
+          "consequence": "The fairway texture reads as a checker pattern instead of the required mowing stripes.",
+          "region": {
+            "x": 0.16,
+            "y": 0.17,
+            "width": 0.31,
+            "height": 0.17
+          }
+        }
+      ],
+      "edits": [],
+      "scores": {
+        "geometryFidelity": 5,
+        "naturalGreens": 5,
+        "visualClarity": 5,
+        "styleConsistency": 3
+      }
+    },
+    {
+      "phase": "artwork-2",
+      "kind": "image",
+      "model": "gpt-image-2.5-sunburst",
+      "usage": {
+        "input_tokens": 6394,
+        "input_tokens_details": {
+          "image_tokens": 4363,
+          "text_tokens": 2031
+        },
+        "output_tokens": 343,
+        "output_tokens_details": {
+          "image_tokens": 343,
+          "text_tokens": 0
+        },
+        "total_tokens": 6737
+      },
+      "seconds": 18.96
+    },
+    {
+      "phase": "artwork-2-review",
+      "kind": "review",
+      "model": "gpt-6-luna",
+      "effort": "medium",
+      "responseID": "resp_0be786583d4e373b016aef3aebaef487d1b03b6ff5a77e71d1",
+      "usage": {
+        "input_tokens": 8295,
+        "input_tokens_details": {
+          "cache_write_tokens": 6941,
+          "cached_tokens": 1351
+        },
+        "output_tokens": 3348,
+        "output_tokens_details": {
+          "reasoning_tokens": 3239
+        },
+        "total_tokens": 11643
+      },
+      "seconds": 35.37,
+      "imageCount": 3,
+      "approved": true,
+      "reviewKind": "artwork-only-v1",
+      "reason": "The illustration preserves the mapped course silhouette, tees, greens, fairway patches, lakes, bunkers and walking connectors. All fairway sections have visible stripes, the greens read as continuous putting surfaces, and the wooded rendering is consistent with the reference.",
+      "issues": [],
+      "edits": [],
+      "scores": {
+        "geometryFidelity": 4,
+        "naturalGreens": 5,
+        "visualClarity": 4,
+        "styleConsistency": 5
+      }
+    },
+    {
+      "phase": "artwork-2-final",
+      "kind": "review",
+      "model": "gpt-6-luna",
+      "effort": "medium",
+      "responseID": "resp_037e9b334d1d46cb016aef3b0f7c7487d1857c95d4675be8bc",
+      "usage": {
+        "input_tokens": 8295,
+        "input_tokens_details": {
+          "cache_write_tokens": 6941,
+          "cached_tokens": 1351
+        },
+        "output_tokens": 4238,
+        "output_tokens_details": {
+          "reasoning_tokens": 4128
+        },
+        "total_tokens": 12533
+      },
+      "seconds": 42.38,
+      "imageCount": 3,
+      "approved": true,
+      "reviewKind": "artwork-only-v1",
+      "reason": "The illustration follows the numbered course layout, preserves the mapped lakes and walking connectors, shows the tees, and has clearly striped fairway sections, including the small patch. The greens read as continuous putting surfaces, and the wooded rendering is consistent with the reference.",
+      "issues": [],
+      "edits": [],
+      "scores": {
+        "geometryFidelity": 4,
+        "naturalGreens": 4,
+        "visualClarity": 4,
+        "styleConsistency": 4
+      }
+    }
+  ],
+  "artworkStatus": "approved",
+  "artworkFailure": null
+}

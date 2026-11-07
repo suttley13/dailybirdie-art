@@ -1,0 +1,66 @@
+{
+  "responseID": "resp_019319187e5b62ba016aef3ab2a21487d19c6f2900b7452935",
+  "model": "gpt-6-luna",
+  "usage": {
+    "input_tokens": 8291,
+    "input_tokens_details": {
+      "cache_write_tokens": 6937,
+      "cached_tokens": 1351
+    },
+    "output_tokens": 3733,
+    "output_tokens_details": {
+      "reasoning_tokens": 3375
+    },
+    "total_tokens": 12024
+  },
+  "review": {
+    "reviewKind": "artwork-only-v1",
+    "candidate": 24,
+    "approved": false,
+    "scores": {
+      "geometryFidelity": 5,
+      "naturalGreens": 5,
+      "visualClarity": 5,
+      "styleConsistency": 3
+    },
+    "reason": "The layout, mapped features, natural single-surface greens, and framing are faithful and clear. The mapped fairway sections read as checkered turf rather than distinct edge-to-edge mowing bands, so the illustration does not meet the required fairway-striping treatment.",
+    "issues": [
+      {
+        "code": "style",
+        "hole": 1,
+        "detail": "The long fairway from the lower-right tee toward G1 has a checkered texture rather than clear alternating bands crossing the fairway edge to edge.",
+        "consequence": "At overview scale, the fairway reads as tiled turf instead of the required mowing stripes.",
+        "region": {
+          "x": 0.43,
+          "y": 0.45,
+          "width": 0.48,
+          "height": 0.35
+        }
+      },
+      {
+        "code": "style",
+        "hole": 2,
+        "detail": "The small detached fairway patch near the central tee is checkered rather than visibly striped with bands scaled to the patch.",
+        "consequence": "The patch does not read as a striped fairway section at thumbnail scale.",
+        "region": {
+          "x": 0.47,
+          "y": 0.33,
+          "width": 0.07,
+          "height": 0.08
+        }
+      },
+      {
+        "code": "style",
+        "hole": 3,
+        "detail": "The upper fairway is checkered rather than showing distinct alternating bands that follow its bend and cross it edge to edge.",
+        "consequence": "The fairway texture reads as a checker pattern instead of the required mowing stripes.",
+        "region": {
+          "x": 0.16,
+          "y": 0.17,
+          "width": 0.31,
+          "height": 0.17
+        }
+      }
+    ]
+  }
+}
