@@ -1,0 +1,484 @@
+{
+  "course": 146,
+  "date": "2026-11-09",
+  "name": "Willow Bend",
+  "studioJob": "c0c7b053-0883-4980-9768-d473963316c4",
+  "draftFingerprint": "ec7ed3c8563e033e830997340247ae9d423f9c7e185168fba2990168209c6680",
+  "approval": {
+    "approvedAt": "2026-11-07T14:58:50.204Z",
+    "playtested": true,
+    "humanApproved": true,
+    "retainedOlder": {
+      "legacy": {
+        "course": 146,
+        "artworkSHA256": "822ebfe462afc60febeeaf2d0d8d974c726191525804da3bead6ec19f3460c35",
+        "schemaVersion": 1,
+        "geometrySHA256": "1d84a65244f024e2aea54b4e09b7cb814311a5ec35654d428bf2acd2a2260b97",
+        "artRulesVersion": "fairway-stripes-v4"
+      },
+      "pairMatchupID": null
+    },
+    "artworkOverrides": [
+      {
+        "policy": "studio-human-artwork-v1",
+        "reason": "The wooded illustration is clear and the greens read as continuous surfaces, but it adds a striped fairway patch not shown in the diagram and misplaces the G1-to-T2 walking connector. The natural-green treatment, overall clarity, and wooded illustration style are strong. However, the illustration adds a long, striped fairway-like section that is not present in the numbered diagram, so the course overview does not faithfully represent the frozen layout.",
+        "review": {
+          "issues": [
+            {
+              "code": "geometry-mismatch",
+              "hole": 2,
+              "detail": "A separate diagonal striped fairway patch appears left of the mapped long fairway; the diagram shows no second fairway section for hole 2.",
+              "region": {
+                "x": 0.31,
+                "y": 0.3,
+                "width": 0.11,
+                "height": 0.17
+              },
+              "consequence": "The overview depicts an additional fairway area that is not part of the approved layout."
+            },
+            {
+              "code": "invented-connection",
+              "hole": 1,
+              "detail": "The G1-to-T2 walking connector is not shown connecting those locations. Instead, a tan path starts at T2 and ends near the long fairway.",
+              "region": {
+                "x": 0.32,
+                "y": 0.24,
+                "width": 0.08,
+                "height": 0.1
+              },
+              "consequence": "The overview depicts a tee-to-fairway path and fails to show the intended green-to-next-tee connection."
+            },
+            {
+              "code": "geometry-mismatch",
+              "hole": 2,
+              "detail": "A long, striped fairway-like patch appears below and left of hole 2's mapped fairway; no corresponding fairway section is shown in the diagram.",
+              "region": {
+                "x": 0.31,
+                "y": 0.31,
+                "width": 0.11,
+                "height": 0.17
+              },
+              "consequence": "Viewers may read this as an additional playable fairway section, misrepresenting hole 2's layout."
+            }
+          ],
+          "reason": "The wooded illustration is clear and the greens read as continuous surfaces, but it adds a striped fairway patch not shown in the diagram and misplaces the G1-to-T2 walking connector. The natural-green treatment, overall clarity, and wooded illustration style are strong. However, the illustration adds a long, striped fairway-like section that is not present in the numbered diagram, so the course overview does not faithfully represent the frozen layout.",
+          "reviews": [
+            {
+              "review": {
+                "issues": [
+                  {
+                    "code": "geometry-mismatch",
+                    "hole": 2,
+                    "detail": "A separate diagonal striped fairway patch appears left of the mapped long fairway; the diagram shows no second fairway section for hole 2.",
+                    "region": {
+                      "x": 0.31,
+                      "y": 0.3,
+                      "width": 0.11,
+                      "height": 0.17
+                    },
+                    "consequence": "The overview depicts an additional fairway area that is not part of the approved layout."
+                  },
+                  {
+                    "code": "invented-connection",
+                    "hole": 1,
+                    "detail": "The G1-to-T2 walking connector is not shown connecting those locations. Instead, a tan path starts at T2 and ends near the long fairway.",
+                    "region": {
+                      "x": 0.32,
+                      "y": 0.24,
+                      "width": 0.08,
+                      "height": 0.1
+                    },
+                    "consequence": "The overview depicts a tee-to-fairway path and fails to show the intended green-to-next-tee connection."
+                  }
+                ],
+                "reason": "The wooded illustration is clear and the greens read as continuous surfaces, but it adds a striped fairway patch not shown in the diagram and misplaces the G1-to-T2 walking connector.",
+                "scores": {
+                  "naturalGreens": 4,
+                  "visualClarity": 4,
+                  "geometryFidelity": 3,
+                  "styleConsistency": 4
+                },
+                "approved": false,
+                "candidate": 0,
+                "reviewKind": "artwork-only-v1"
+              },
+              "responseID": "resp_0d048a60c9d6d25b016aef3c2c46a887d280b00d27f546182b"
+            },
+            {
+              "review": {
+                "issues": [
+                  {
+                    "code": "geometry-mismatch",
+                    "hole": 2,
+                    "detail": "A long, striped fairway-like patch appears below and left of hole 2's mapped fairway; no corresponding fairway section is shown in the diagram.",
+                    "region": {
+                      "x": 0.31,
+                      "y": 0.31,
+                      "width": 0.11,
+                      "height": 0.17
+                    },
+                    "consequence": "Viewers may read this as an additional playable fairway section, misrepresenting hole 2's layout."
+                  }
+                ],
+                "reason": "The natural-green treatment, overall clarity, and wooded illustration style are strong. However, the illustration adds a long, striped fairway-like section that is not present in the numbered diagram, so the course overview does not faithfully represent the frozen layout.",
+                "scores": {
+                  "naturalGreens": 5,
+                  "visualClarity": 4,
+                  "geometryFidelity": 2,
+                  "styleConsistency": 4
+                },
+                "approved": false,
+                "candidate": 0,
+                "reviewKind": "artwork-only-v1"
+              },
+              "responseID": "resp_0cbfe85f6a78454f016aef3c2c512487d2a5f4389689bf6dcd"
+            }
+          ],
+          "approved": false,
+          "decisionKey": "1485e1bc640d1aec5bc7faf6e530ec219cce222dd02fea65c997dea9cc9007f1",
+          "artworkSHA256": "ad294979ac9f397c80fade081baf8a35ef6403d820723da7a422f6d0718c7058",
+          "geometrySHA256": "e5b60ed9c62f961614fd886a8b1e8b1167c57e6026fb2046faf359c7dd8ce03e",
+          "geometryEncoding": "studio-stable-json-v1"
+        },
+        "decisionKey": "1485e1bc640d1aec5bc7faf6e530ec219cce222dd02fea65c997dea9cc9007f1",
+        "artworkSHA256": "ad294979ac9f397c80fade081baf8a35ef6403d820723da7a422f6d0718c7058",
+        "geometrySHA256": "e5b60ed9c62f961614fd886a8b1e8b1167c57e6026fb2046faf359c7dd8ce03e",
+        "acceptedFindings": [
+          "1485e1bc640d1aec5bc7faf6e530ec219cce222dd02fea65c997dea9cc9007f1:0",
+          "1485e1bc640d1aec5bc7faf6e530ec219cce222dd02fea65c997dea9cc9007f1:1",
+          "1485e1bc640d1aec5bc7faf6e530ec219cce222dd02fea65c997dea9cc9007f1:2"
+        ]
+      },
+      {
+        "policy": "studio-human-artwork-v1",
+        "reason": "The illustration is clear, uses natural continuous putting surfaces, and has a polished wooded style with visible fairway stripes. The T2 walking connector does not appear to reach G1 as mapped: the tan path from T2 ends in open rough. The wooded treatment is clear and the greens read as continuous putting surfaces, but several course features are displaced from the authoritative diagram. The overview would misrepresent their relative layout.",
+        "review": {
+          "issues": [
+            {
+              "code": "geometry-mismatch",
+              "hole": 1,
+              "detail": "The tan walking connector from G1 to T2 is depicted only as a short path leaving T2 and ending in open rough, rather than connecting to G1.",
+              "region": {
+                "x": 0.31,
+                "y": 0.24,
+                "width": 0.09,
+                "height": 0.2
+              },
+              "consequence": "The overview suggests a dead-end path and misrepresents the mapped walking connection."
+            },
+            {
+              "code": "geometry-mismatch",
+              "hole": 1,
+              "detail": "The G1 water and short fairway arrangement sits noticeably higher in the illustration than in the diagram; the G1 green is also shifted to the right.",
+              "region": {
+                "x": 0.18,
+                "y": 0.38,
+                "width": 0.29,
+                "height": 0.25
+              },
+              "consequence": "The overview shows a different relative position for the green, water, and fairway."
+            },
+            {
+              "code": "geometry-mismatch",
+              "hole": 2,
+              "detail": "T2 and the long fairway are positioned substantially higher than their locations in the diagram.",
+              "region": {
+                "x": 0.31,
+                "y": 0.22,
+                "width": 0.48,
+                "height": 0.25
+              },
+              "consequence": "The overview misstates the tee-to-fairway layout for this hole."
+            },
+            {
+              "code": "geometry-mismatch",
+              "hole": 3,
+              "detail": "T3, the short fairway patch, and G3 are all shifted upward relative to the diagram.",
+              "region": {
+                "x": 0.41,
+                "y": 0.54,
+                "width": 0.25,
+                "height": 0.19
+              },
+              "consequence": "The overview shows the hole\u2019s tee, fairway, and green in the wrong relative positions."
+            }
+          ],
+          "reason": "The illustration is clear, uses natural continuous putting surfaces, and has a polished wooded style with visible fairway stripes. The T2 walking connector does not appear to reach G1 as mapped: the tan path from T2 ends in open rough. The wooded treatment is clear and the greens read as continuous putting surfaces, but several course features are displaced from the authoritative diagram. The overview would misrepresent their relative layout.",
+          "reviews": [
+            {
+              "review": {
+                "issues": [
+                  {
+                    "code": "geometry-mismatch",
+                    "hole": 1,
+                    "detail": "The tan walking connector from G1 to T2 is depicted only as a short path leaving T2 and ending in open rough, rather than connecting to G1.",
+                    "region": {
+                      "x": 0.31,
+                      "y": 0.24,
+                      "width": 0.09,
+                      "height": 0.2
+                    },
+                    "consequence": "The overview suggests a dead-end path and misrepresents the mapped walking connection."
+                  }
+                ],
+                "reason": "The illustration is clear, uses natural continuous putting surfaces, and has a polished wooded style with visible fairway stripes. The T2 walking connector does not appear to reach G1 as mapped: the tan path from T2 ends in open rough.",
+                "scores": {
+                  "naturalGreens": 5,
+                  "visualClarity": 5,
+                  "geometryFidelity": 3,
+                  "styleConsistency": 5
+                },
+                "approved": false,
+                "candidate": 0,
+                "reviewKind": "artwork-only-v1"
+              },
+              "responseID": "resp_03d8d5de0f72b35a016aef3c2c557887d288677c33c7d9f0c5"
+            },
+            {
+              "review": {
+                "issues": [
+                  {
+                    "code": "geometry-mismatch",
+                    "hole": 1,
+                    "detail": "The G1 water and short fairway arrangement sits noticeably higher in the illustration than in the diagram; the G1 green is also shifted to the right.",
+                    "region": {
+                      "x": 0.18,
+                      "y": 0.38,
+                      "width": 0.29,
+                      "height": 0.25
+                    },
+                    "consequence": "The overview shows a different relative position for the green, water, and fairway."
+                  },
+                  {
+                    "code": "geometry-mismatch",
+                    "hole": 2,
+                    "detail": "T2 and the long fairway are positioned substantially higher than their locations in the diagram.",
+                    "region": {
+                      "x": 0.31,
+                      "y": 0.22,
+                      "width": 0.48,
+                      "height": 0.25
+                    },
+                    "consequence": "The overview misstates the tee-to-fairway layout for this hole."
+                  },
+                  {
+                    "code": "geometry-mismatch",
+                    "hole": 3,
+                    "detail": "T3, the short fairway patch, and G3 are all shifted upward relative to the diagram.",
+                    "region": {
+                      "x": 0.41,
+                      "y": 0.54,
+                      "width": 0.25,
+                      "height": 0.19
+                    },
+                    "consequence": "The overview shows the hole\u2019s tee, fairway, and green in the wrong relative positions."
+                  }
+                ],
+                "reason": "The wooded treatment is clear and the greens read as continuous putting surfaces, but several course features are displaced from the authoritative diagram. The overview would misrepresent their relative layout.",
+                "scores": {
+                  "naturalGreens": 4,
+                  "visualClarity": 4,
+                  "geometryFidelity": 2,
+                  "styleConsistency": 4
+                },
+                "approved": false,
+                "candidate": 0,
+                "reviewKind": "artwork-only-v1"
+              },
+              "responseID": "resp_037353c7e359a6b8016aef3c2c4bec87d29b0bfe13353c9887"
+            }
+          ],
+          "approved": false,
+          "decisionKey": "cfe1a90ed30fef409883d2dafea147d894f65ecc5bc38e8bfc1708f49eb456f0",
+          "artworkSHA256": "7a7e0281c867206214bebb9a572d495258c7554c89ce5d6c2c1e69030e926189",
+          "geometrySHA256": "122066ec4a862c80f37babafbc3b37bf0d3fddea86b909a597951eb1ad53a54c",
+          "geometryEncoding": "studio-stable-json-v1"
+        },
+        "decisionKey": "cfe1a90ed30fef409883d2dafea147d894f65ecc5bc38e8bfc1708f49eb456f0",
+        "artworkSHA256": "7a7e0281c867206214bebb9a572d495258c7554c89ce5d6c2c1e69030e926189",
+        "geometrySHA256": "122066ec4a862c80f37babafbc3b37bf0d3fddea86b909a597951eb1ad53a54c",
+        "acceptedFindings": [
+          "cfe1a90ed30fef409883d2dafea147d894f65ecc5bc38e8bfc1708f49eb456f0:0",
+          "cfe1a90ed30fef409883d2dafea147d894f65ecc5bc38e8bfc1708f49eb456f0:1",
+          "cfe1a90ed30fef409883d2dafea147d894f65ecc5bc38e8bfc1708f49eb456f0:2",
+          "cfe1a90ed30fef409883d2dafea147d894f65ecc5bc38e8bfc1708f49eb456f0:3"
+        ]
+      }
+    ],
+    "compatibilityApproved": true
+  },
+  "artworkStatus": "approved",
+  "geometrySHA256": "e54d7678886fcbe1be280a6f99b22c5787cb075e6e5a4d8bd665f3b033185109",
+  "artworkSHA256": "ad294979ac9f397c80fade081baf8a35ef6403d820723da7a422f6d0718c7058",
+  "artworkReview": {
+    "issues": [
+      {
+        "code": "geometry-mismatch",
+        "hole": 2,
+        "detail": "A separate diagonal striped fairway patch appears left of the mapped long fairway; the diagram shows no second fairway section for hole 2.",
+        "region": {
+          "x": 0.31,
+          "y": 0.3,
+          "width": 0.11,
+          "height": 0.17
+        },
+        "consequence": "The overview depicts an additional fairway area that is not part of the approved layout."
+      },
+      {
+        "code": "invented-connection",
+        "hole": 1,
+        "detail": "The G1-to-T2 walking connector is not shown connecting those locations. Instead, a tan path starts at T2 and ends near the long fairway.",
+        "region": {
+          "x": 0.32,
+          "y": 0.24,
+          "width": 0.08,
+          "height": 0.1
+        },
+        "consequence": "The overview depicts a tee-to-fairway path and fails to show the intended green-to-next-tee connection."
+      },
+      {
+        "code": "geometry-mismatch",
+        "hole": 2,
+        "detail": "A long, striped fairway-like patch appears below and left of hole 2's mapped fairway; no corresponding fairway section is shown in the diagram.",
+        "region": {
+          "x": 0.31,
+          "y": 0.31,
+          "width": 0.11,
+          "height": 0.17
+        },
+        "consequence": "Viewers may read this as an additional playable fairway section, misrepresenting hole 2's layout."
+      }
+    ],
+    "reason": "The wooded illustration is clear and the greens read as continuous surfaces, but it adds a striped fairway patch not shown in the diagram and misplaces the G1-to-T2 walking connector. The natural-green treatment, overall clarity, and wooded illustration style are strong. However, the illustration adds a long, striped fairway-like section that is not present in the numbered diagram, so the course overview does not faithfully represent the frozen layout.",
+    "reviews": [
+      {
+        "review": {
+          "issues": [
+            {
+              "code": "geometry-mismatch",
+              "hole": 2,
+              "detail": "A separate diagonal striped fairway patch appears left of the mapped long fairway; the diagram shows no second fairway section for hole 2.",
+              "region": {
+                "x": 0.31,
+                "y": 0.3,
+                "width": 0.11,
+                "height": 0.17
+              },
+              "consequence": "The overview depicts an additional fairway area that is not part of the approved layout."
+            },
+            {
+              "code": "invented-connection",
+              "hole": 1,
+              "detail": "The G1-to-T2 walking connector is not shown connecting those locations. Instead, a tan path starts at T2 and ends near the long fairway.",
+              "region": {
+                "x": 0.32,
+                "y": 0.24,
+                "width": 0.08,
+                "height": 0.1
+              },
+              "consequence": "The overview depicts a tee-to-fairway path and fails to show the intended green-to-next-tee connection."
+            }
+          ],
+          "reason": "The wooded illustration is clear and the greens read as continuous surfaces, but it adds a striped fairway patch not shown in the diagram and misplaces the G1-to-T2 walking connector.",
+          "scores": {
+            "naturalGreens": 4,
+            "visualClarity": 4,
+            "geometryFidelity": 3,
+            "styleConsistency": 4
+          },
+          "approved": false,
+          "candidate": 0,
+          "reviewKind": "artwork-only-v1"
+        },
+        "responseID": "resp_0d048a60c9d6d25b016aef3c2c46a887d280b00d27f546182b"
+      },
+      {
+        "review": {
+          "issues": [
+            {
+              "code": "geometry-mismatch",
+              "hole": 2,
+              "detail": "A long, striped fairway-like patch appears below and left of hole 2's mapped fairway; no corresponding fairway section is shown in the diagram.",
+              "region": {
+                "x": 0.31,
+                "y": 0.31,
+                "width": 0.11,
+                "height": 0.17
+              },
+              "consequence": "Viewers may read this as an additional playable fairway section, misrepresenting hole 2's layout."
+            }
+          ],
+          "reason": "The natural-green treatment, overall clarity, and wooded illustration style are strong. However, the illustration adds a long, striped fairway-like section that is not present in the numbered diagram, so the course overview does not faithfully represent the frozen layout.",
+          "scores": {
+            "naturalGreens": 5,
+            "visualClarity": 4,
+            "geometryFidelity": 2,
+            "styleConsistency": 4
+          },
+          "approved": false,
+          "candidate": 0,
+          "reviewKind": "artwork-only-v1"
+        },
+        "responseID": "resp_0cbfe85f6a78454f016aef3c2c512487d2a5f4389689bf6dcd"
+      }
+    ],
+    "approved": false,
+    "artworkSHA256": "ad294979ac9f397c80fade081baf8a35ef6403d820723da7a422f6d0718c7058",
+    "geometrySHA256": "e5b60ed9c62f961614fd886a8b1e8b1167c57e6026fb2046faf359c7dd8ce03e",
+    "geometryEncoding": "studio-stable-json-v1",
+    "decisionKey": "1485e1bc640d1aec5bc7faf6e530ec219cce222dd02fea65c997dea9cc9007f1"
+  },
+  "compatibility": {
+    "policy": "studio-compatible-v1",
+    "holes": [
+      {
+        "sections": 1,
+        "addedFairwayYards": 0,
+        "addedFairwayPercent": 0,
+        "waterReshaped": false,
+        "addedFairway": []
+      },
+      {
+        "sections": 1,
+        "addedFairwayYards": 0,
+        "addedFairwayPercent": 0,
+        "waterReshaped": false,
+        "addedFairway": []
+      },
+      {
+        "sections": 1,
+        "addedFairwayYards": 0,
+        "addedFairwayPercent": 0,
+        "waterReshaped": false,
+        "addedFairway": []
+      }
+    ]
+  },
+  "holes": [
+    {
+      "par": 3,
+      "lengthYards": 198,
+      "type": "straight"
+    },
+    {
+      "par": 4,
+      "lengthYards": 454,
+      "type": "straight"
+    },
+    {
+      "par": 3,
+      "lengthYards": 196,
+      "type": "straight"
+    }
+  ],
+  "retainedOlder": {
+    "legacy": {
+      "course": 146,
+      "artworkSHA256": "822ebfe462afc60febeeaf2d0d8d974c726191525804da3bead6ec19f3460c35",
+      "schemaVersion": 1,
+      "geometrySHA256": "1d84a65244f024e2aea54b4e09b7cb814311a5ec35654d428bf2acd2a2260b97",
+      "artRulesVersion": "fairway-stripes-v4"
+    },
+    "pairMatchupID": null
+  }
+}
