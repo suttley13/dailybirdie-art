@@ -1,16 +1,12 @@
 {
   "schemaVersion": 1,
-  "checkedAt": 1794118296,
-  "currentCourse": 145,
+  "checkedAt": 1794144818,
+  "currentCourse": 146,
   "minimumFutureCourses": 3,
-  "readyFutureCourses": 4,
+  "readyFutureCourses": 3,
   "unavailableCourse": null,
   "status": "healthy",
   "courses": [
-    {
-      "course": 144,
-      "status": "ready"
-    },
     {
       "course": 145,
       "status": "ready",
@@ -32,6 +28,11 @@
     {
       "course": 149,
       "status": "ready"
+    },
+    {
+      "course": 150,
+      "status": "missing",
+      "error": "No published manifest"
     }
   ],
   "authoring": {
