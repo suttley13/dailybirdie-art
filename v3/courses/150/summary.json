@@ -1,0 +1,434 @@
+{
+  "course": 150,
+  "date": "2026-11-13",
+  "name": "Sandpiper Water",
+  "studioJob": "73c7640e-7c1e-41bc-a9fc-fa5fd1617b1c",
+  "draftFingerprint": "cbd40ac00bb5c021c60a89ce4e938d41de83400e535c36c891232d5f66ffa237",
+  "approval": {
+    "approvedAt": "2026-11-10T23:47:51.816Z",
+    "playtested": true,
+    "humanApproved": true,
+    "retainedOlder": {
+      "legacy": {
+        "course": 150,
+        "artworkSHA256": "c8251688babf2dc147af7a4c5a952601cb6fc07e9e8653589fb1f4b26a9d79ac",
+        "schemaVersion": 1,
+        "geometrySHA256": "daeb83e334578ee8d249b2904f72f274366f1c192b149a60a373949c6e3fe0f6",
+        "artRulesVersion": "fairway-stripes-v4"
+      },
+      "pairMatchupID": null
+    },
+    "artworkOverrides": [
+      {
+        "policy": "studio-human-artwork-v1",
+        "reason": "The fairway stripes, green surfaces, and overall illustration style are strong, but the artwork adds an unmapped timber bridge beside G1 on the G1-to-T2 walking connector. The greens read as continuous natural putting surfaces, and the fairway stripes and wooded rendering are clear. The illustration does not faithfully preserve Hole 1\u2019s mapped fairway footprint and shows an extra bridge at the left-side water.",
+        "review": {
+          "issues": [
+            {
+              "code": "invented-connection",
+              "hole": 1,
+              "detail": "A timber bridge is shown beside G1 where the connector crosses the water; no bridge is mapped at this location.",
+              "region": {
+                "x": 0.17,
+                "y": 0.39,
+                "width": 0.03,
+                "height": 0.05
+              },
+              "consequence": "The overview suggests an extra water crossing that is not part of the approved course diagram."
+            },
+            {
+              "code": "geometry-mismatch",
+              "hole": 1,
+              "detail": "The fairway below G1 extends far to the right as a long, broad strip. The diagram shows a more compact hooked fairway immediately below and to the right of G1.",
+              "region": {
+                "x": 0.23,
+                "y": 0.62,
+                "width": 0.38,
+                "height": 0.18
+              },
+              "consequence": "The overview would misrepresent Hole 1\u2019s fairway footprint and where its playing corridor lies."
+            },
+            {
+              "code": "invented-connection",
+              "hole": 1,
+              "detail": "A timber bridge is depicted across the left-side water beside G1, but no bridge is mapped at that crossing.",
+              "region": {
+                "x": 0.15,
+                "y": 0.39,
+                "width": 0.06,
+                "height": 0.07
+              },
+              "consequence": "The overview would suggest a crossing that is not part of the approved course layout."
+            }
+          ],
+          "reason": "The fairway stripes, green surfaces, and overall illustration style are strong, but the artwork adds an unmapped timber bridge beside G1 on the G1-to-T2 walking connector. The greens read as continuous natural putting surfaces, and the fairway stripes and wooded rendering are clear. The illustration does not faithfully preserve Hole 1\u2019s mapped fairway footprint and shows an extra bridge at the left-side water.",
+          "reviews": [
+            {
+              "review": {
+                "issues": [
+                  {
+                    "code": "invented-connection",
+                    "hole": 1,
+                    "detail": "A timber bridge is shown beside G1 where the connector crosses the water; no bridge is mapped at this location.",
+                    "region": {
+                      "x": 0.17,
+                      "y": 0.39,
+                      "width": 0.03,
+                      "height": 0.05
+                    },
+                    "consequence": "The overview suggests an extra water crossing that is not part of the approved course diagram."
+                  }
+                ],
+                "reason": "The fairway stripes, green surfaces, and overall illustration style are strong, but the artwork adds an unmapped timber bridge beside G1 on the G1-to-T2 walking connector.",
+                "scores": {
+                  "naturalGreens": 4,
+                  "visualClarity": 4,
+                  "geometryFidelity": 3,
+                  "styleConsistency": 5
+                },
+                "approved": false,
+                "candidate": 0,
+                "reviewKind": "artwork-only-v1"
+              },
+              "responseID": "resp_097b192feb2fdaf5016af3ac0f450087d1b1c8f50e54586ad8"
+            },
+            {
+              "review": {
+                "issues": [
+                  {
+                    "code": "geometry-mismatch",
+                    "hole": 1,
+                    "detail": "The fairway below G1 extends far to the right as a long, broad strip. The diagram shows a more compact hooked fairway immediately below and to the right of G1.",
+                    "region": {
+                      "x": 0.23,
+                      "y": 0.62,
+                      "width": 0.38,
+                      "height": 0.18
+                    },
+                    "consequence": "The overview would misrepresent Hole 1\u2019s fairway footprint and where its playing corridor lies."
+                  },
+                  {
+                    "code": "invented-connection",
+                    "hole": 1,
+                    "detail": "A timber bridge is depicted across the left-side water beside G1, but no bridge is mapped at that crossing.",
+                    "region": {
+                      "x": 0.15,
+                      "y": 0.39,
+                      "width": 0.06,
+                      "height": 0.07
+                    },
+                    "consequence": "The overview would suggest a crossing that is not part of the approved course layout."
+                  }
+                ],
+                "reason": "The greens read as continuous natural putting surfaces, and the fairway stripes and wooded rendering are clear. The illustration does not faithfully preserve Hole 1\u2019s mapped fairway footprint and shows an extra bridge at the left-side water.",
+                "scores": {
+                  "naturalGreens": 5,
+                  "visualClarity": 4,
+                  "geometryFidelity": 2,
+                  "styleConsistency": 4
+                },
+                "approved": false,
+                "candidate": 0,
+                "reviewKind": "artwork-only-v1"
+              },
+              "responseID": "resp_0a8ff81320f0a37b016af3ac0f358487d1b9e2197419d63620"
+            }
+          ],
+          "approved": false,
+          "decisionKey": "8cd60d68c8a519d9267177680f6523fd782bf79aaa08071b7fd74f01c3ac72e7",
+          "artworkSHA256": "20919e94f63b485d28d5389ad58bf28bef873822994ef498c986771e84c7972a",
+          "geometrySHA256": "a7643eba6e8214823a9edc92d88fd5816b3d7149405f619862b7bef839160c00",
+          "geometryEncoding": "studio-stable-json-v1"
+        },
+        "decisionKey": "8cd60d68c8a519d9267177680f6523fd782bf79aaa08071b7fd74f01c3ac72e7",
+        "artworkSHA256": "20919e94f63b485d28d5389ad58bf28bef873822994ef498c986771e84c7972a",
+        "geometrySHA256": "a7643eba6e8214823a9edc92d88fd5816b3d7149405f619862b7bef839160c00",
+        "acceptedFindings": [
+          "8cd60d68c8a519d9267177680f6523fd782bf79aaa08071b7fd74f01c3ac72e7:0",
+          "8cd60d68c8a519d9267177680f6523fd782bf79aaa08071b7fd74f01c3ac72e7:1",
+          "8cd60d68c8a519d9267177680f6523fd782bf79aaa08071b7fd74f01c3ac72e7:2"
+        ]
+      },
+      {
+        "policy": "studio-human-artwork-v1",
+        "reason": "The illustration otherwise follows the diagram well, but it adds an unmapped bridge connecting Hole 3\u2019s island green to the shore. Remove that bridge while keeping the mapped island, water, and green unchanged. The illustration closely follows the mapped layout and has clear fairway striping, but it adds a bridge-like connection from the island green on hole 3 to the eastern shore where none is mapped.",
+        "review": {
+          "issues": [
+            {
+              "code": "invented-connection",
+              "hole": 3,
+              "detail": "A short bridge is drawn from the island green across the water to the right-hand shore; no bridge is mapped for Hole 3.",
+              "region": {
+                "x": 0.82,
+                "y": 0.28,
+                "width": 0.04,
+                "height": 0.04
+              },
+              "consequence": "The overview suggests an unapproved dry crossing to the island green."
+            },
+            {
+              "code": "invented-connection",
+              "hole": 3,
+              "detail": "A short dark bridge-like connector links the island green to the eastern shoreline; the diagram maps no bridge or other crossing there.",
+              "region": {
+                "x": 0.832,
+                "y": 0.282,
+                "width": 0.025,
+                "height": 0.025
+              },
+              "consequence": "The overview suggests an access route across the water that is not part of the approved course layout."
+            }
+          ],
+          "reason": "The illustration otherwise follows the diagram well, but it adds an unmapped bridge connecting Hole 3\u2019s island green to the shore. Remove that bridge while keeping the mapped island, water, and green unchanged. The illustration closely follows the mapped layout and has clear fairway striping, but it adds a bridge-like connection from the island green on hole 3 to the eastern shore where none is mapped.",
+          "reviews": [
+            {
+              "review": {
+                "issues": [
+                  {
+                    "code": "invented-connection",
+                    "hole": 3,
+                    "detail": "A short bridge is drawn from the island green across the water to the right-hand shore; no bridge is mapped for Hole 3.",
+                    "region": {
+                      "x": 0.82,
+                      "y": 0.28,
+                      "width": 0.04,
+                      "height": 0.04
+                    },
+                    "consequence": "The overview suggests an unapproved dry crossing to the island green."
+                  }
+                ],
+                "reason": "The illustration otherwise follows the diagram well, but it adds an unmapped bridge connecting Hole 3\u2019s island green to the shore. Remove that bridge while keeping the mapped island, water, and green unchanged.",
+                "scores": {
+                  "naturalGreens": 5,
+                  "visualClarity": 5,
+                  "geometryFidelity": 3,
+                  "styleConsistency": 5
+                },
+                "approved": false,
+                "candidate": 0,
+                "reviewKind": "artwork-only-v1"
+              },
+              "responseID": "resp_007400e119fd35ca016af3ac0f316487d1b7172fd21918e221"
+            },
+            {
+              "review": {
+                "issues": [
+                  {
+                    "code": "invented-connection",
+                    "hole": 3,
+                    "detail": "A short dark bridge-like connector links the island green to the eastern shoreline; the diagram maps no bridge or other crossing there.",
+                    "region": {
+                      "x": 0.832,
+                      "y": 0.282,
+                      "width": 0.025,
+                      "height": 0.025
+                    },
+                    "consequence": "The overview suggests an access route across the water that is not part of the approved course layout."
+                  }
+                ],
+                "reason": "The illustration closely follows the mapped layout and has clear fairway striping, but it adds a bridge-like connection from the island green on hole 3 to the eastern shore where none is mapped.",
+                "scores": {
+                  "naturalGreens": 4,
+                  "visualClarity": 5,
+                  "geometryFidelity": 3,
+                  "styleConsistency": 5
+                },
+                "approved": false,
+                "candidate": 0,
+                "reviewKind": "artwork-only-v1"
+              },
+              "responseID": "resp_04d54ef4373db11b016af3ac0f2f7487d19534040bbb90bffe"
+            }
+          ],
+          "approved": false,
+          "decisionKey": "1c6d56f0bd28a642b6bf75cedf1d8b9177aab007db351e5a311878c42befdb66",
+          "artworkSHA256": "b277b90f41d0af9a9cdaa697fa8612eba98533e449b0a78c90ea4616ac530047",
+          "geometrySHA256": "781cfbc91ecff03a477ba0b50ab047fe77ce8a6532c929b80fcad8423ef11e21",
+          "geometryEncoding": "studio-stable-json-v1"
+        },
+        "decisionKey": "1c6d56f0bd28a642b6bf75cedf1d8b9177aab007db351e5a311878c42befdb66",
+        "artworkSHA256": "b277b90f41d0af9a9cdaa697fa8612eba98533e449b0a78c90ea4616ac530047",
+        "geometrySHA256": "781cfbc91ecff03a477ba0b50ab047fe77ce8a6532c929b80fcad8423ef11e21",
+        "acceptedFindings": [
+          "1c6d56f0bd28a642b6bf75cedf1d8b9177aab007db351e5a311878c42befdb66:0",
+          "1c6d56f0bd28a642b6bf75cedf1d8b9177aab007db351e5a311878c42befdb66:1"
+        ]
+      }
+    ],
+    "compatibilityApproved": true
+  },
+  "artworkStatus": "approved",
+  "geometrySHA256": "35b476c7f0c3b683927bb3d87dba3dee30c5bff09574b08dfa961ae504da5905",
+  "artworkSHA256": "20919e94f63b485d28d5389ad58bf28bef873822994ef498c986771e84c7972a",
+  "artworkReview": {
+    "issues": [
+      {
+        "code": "invented-connection",
+        "hole": 1,
+        "detail": "A timber bridge is shown beside G1 where the connector crosses the water; no bridge is mapped at this location.",
+        "region": {
+          "x": 0.17,
+          "y": 0.39,
+          "width": 0.03,
+          "height": 0.05
+        },
+        "consequence": "The overview suggests an extra water crossing that is not part of the approved course diagram."
+      },
+      {
+        "code": "geometry-mismatch",
+        "hole": 1,
+        "detail": "The fairway below G1 extends far to the right as a long, broad strip. The diagram shows a more compact hooked fairway immediately below and to the right of G1.",
+        "region": {
+          "x": 0.23,
+          "y": 0.62,
+          "width": 0.38,
+          "height": 0.18
+        },
+        "consequence": "The overview would misrepresent Hole 1\u2019s fairway footprint and where its playing corridor lies."
+      },
+      {
+        "code": "invented-connection",
+        "hole": 1,
+        "detail": "A timber bridge is depicted across the left-side water beside G1, but no bridge is mapped at that crossing.",
+        "region": {
+          "x": 0.15,
+          "y": 0.39,
+          "width": 0.06,
+          "height": 0.07
+        },
+        "consequence": "The overview would suggest a crossing that is not part of the approved course layout."
+      }
+    ],
+    "reason": "The fairway stripes, green surfaces, and overall illustration style are strong, but the artwork adds an unmapped timber bridge beside G1 on the G1-to-T2 walking connector. The greens read as continuous natural putting surfaces, and the fairway stripes and wooded rendering are clear. The illustration does not faithfully preserve Hole 1\u2019s mapped fairway footprint and shows an extra bridge at the left-side water.",
+    "reviews": [
+      {
+        "review": {
+          "issues": [
+            {
+              "code": "invented-connection",
+              "hole": 1,
+              "detail": "A timber bridge is shown beside G1 where the connector crosses the water; no bridge is mapped at this location.",
+              "region": {
+                "x": 0.17,
+                "y": 0.39,
+                "width": 0.03,
+                "height": 0.05
+              },
+              "consequence": "The overview suggests an extra water crossing that is not part of the approved course diagram."
+            }
+          ],
+          "reason": "The fairway stripes, green surfaces, and overall illustration style are strong, but the artwork adds an unmapped timber bridge beside G1 on the G1-to-T2 walking connector.",
+          "scores": {
+            "naturalGreens": 4,
+            "visualClarity": 4,
+            "geometryFidelity": 3,
+            "styleConsistency": 5
+          },
+          "approved": false,
+          "candidate": 0,
+          "reviewKind": "artwork-only-v1"
+        },
+        "responseID": "resp_097b192feb2fdaf5016af3ac0f450087d1b1c8f50e54586ad8"
+      },
+      {
+        "review": {
+          "issues": [
+            {
+              "code": "geometry-mismatch",
+              "hole": 1,
+              "detail": "The fairway below G1 extends far to the right as a long, broad strip. The diagram shows a more compact hooked fairway immediately below and to the right of G1.",
+              "region": {
+                "x": 0.23,
+                "y": 0.62,
+                "width": 0.38,
+                "height": 0.18
+              },
+              "consequence": "The overview would misrepresent Hole 1\u2019s fairway footprint and where its playing corridor lies."
+            },
+            {
+              "code": "invented-connection",
+              "hole": 1,
+              "detail": "A timber bridge is depicted across the left-side water beside G1, but no bridge is mapped at that crossing.",
+              "region": {
+                "x": 0.15,
+                "y": 0.39,
+                "width": 0.06,
+                "height": 0.07
+              },
+              "consequence": "The overview would suggest a crossing that is not part of the approved course layout."
+            }
+          ],
+          "reason": "The greens read as continuous natural putting surfaces, and the fairway stripes and wooded rendering are clear. The illustration does not faithfully preserve Hole 1\u2019s mapped fairway footprint and shows an extra bridge at the left-side water.",
+          "scores": {
+            "naturalGreens": 5,
+            "visualClarity": 4,
+            "geometryFidelity": 2,
+            "styleConsistency": 4
+          },
+          "approved": false,
+          "candidate": 0,
+          "reviewKind": "artwork-only-v1"
+        },
+        "responseID": "resp_0a8ff81320f0a37b016af3ac0f358487d1b9e2197419d63620"
+      }
+    ],
+    "approved": false,
+    "artworkSHA256": "20919e94f63b485d28d5389ad58bf28bef873822994ef498c986771e84c7972a",
+    "geometrySHA256": "a7643eba6e8214823a9edc92d88fd5816b3d7149405f619862b7bef839160c00",
+    "geometryEncoding": "studio-stable-json-v1",
+    "decisionKey": "8cd60d68c8a519d9267177680f6523fd782bf79aaa08071b7fd74f01c3ac72e7"
+  },
+  "compatibility": {
+    "policy": "studio-compatible-v1",
+    "holes": [
+      {
+        "sections": 1,
+        "addedFairwayYards": 0,
+        "addedFairwayPercent": 0,
+        "waterReshaped": false,
+        "addedFairway": []
+      },
+      {
+        "sections": 1,
+        "addedFairwayYards": 0,
+        "addedFairwayPercent": 0,
+        "waterReshaped": false,
+        "addedFairway": []
+      },
+      {
+        "sections": 1,
+        "addedFairwayYards": 0,
+        "addedFairwayPercent": 0,
+        "waterReshaped": true,
+        "addedFairway": []
+      }
+    ]
+  },
+  "holes": [
+    {
+      "par": 4,
+      "lengthYards": 382,
+      "type": "straight"
+    },
+    {
+      "par": 5,
+      "lengthYards": 552,
+      "type": "straight"
+    },
+    {
+      "par": 3,
+      "lengthYards": 164,
+      "type": "straight"
+    }
+  ],
+  "retainedOlder": {
+    "legacy": {
+      "course": 150,
+      "artworkSHA256": "c8251688babf2dc147af7a4c5a952601cb6fc07e9e8653589fb1f4b26a9d79ac",
+      "schemaVersion": 1,
+      "geometrySHA256": "daeb83e334578ee8d249b2904f72f274366f1c192b149a60a373949c6e3fe0f6",
+      "artRulesVersion": "fairway-stripes-v4"
+    },
+    "pairMatchupID": null
+  }
+}
