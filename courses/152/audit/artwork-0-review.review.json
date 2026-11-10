@@ -1,0 +1,29 @@
+{
+  "responseID": "resp_0e4b611feb25259d016af347c01de087d1873fe73e03482fd4",
+  "model": "gpt-6-luna",
+  "usage": {
+    "input_tokens": 8219,
+    "input_tokens_details": {
+      "cache_write_tokens": 6865,
+      "cached_tokens": 1351
+    },
+    "output_tokens": 2554,
+    "output_tokens_details": {
+      "reasoning_tokens": 2448
+    },
+    "total_tokens": 10773
+  },
+  "review": {
+    "reviewKind": "artwork-only-v1",
+    "candidate": 45,
+    "approved": true,
+    "scores": {
+      "geometryFidelity": 5,
+      "naturalGreens": 4,
+      "visualClarity": 4,
+      "styleConsistency": 5
+    },
+    "reason": "The illustration preserves the mapped fairways, greens, hazards, water, tees, and walking connectors. All fairway sections show visible alternating stripes, the greens read as continuous putting surfaces, and the wooded rendering is consistent with the reference.",
+    "issues": []
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "responseID": "resp_06b318ee446c04c5016af347db8da487d1acd9b83d8006f655",
+  "model": "gpt-6-luna",
+  "usage": {
+    "input_tokens": 8219,
+    "input_tokens_details": {
+      "cache_write_tokens": 6865,
+      "cached_tokens": 1351
+    },
+    "output_tokens": 3488,
+    "output_tokens_details": {
+      "reasoning_tokens": 3365
+    },
+    "total_tokens": 11707
+  },
+  "review": {
+    "reviewKind": "artwork-only-v1",
+    "candidate": 45,
+    "approved": true,
+    "scores": {
+      "geometryFidelity": 4,
+      "naturalGreens": 4,
+      "visualClarity": 4,
+      "styleConsistency": 5
+    },
+    "reason": "The illustration preserves the numbered hole layout, mapped water and bunkers, tees, fairway shapes, and the G1-to-T2 and G2-to-T3 walking connectors. Fairways have visible stripes, greens read as continuous putting surfaces, and the wooded rendering is consistent with the reference without obscuring the routes.",
+    "issues": []
+  }
+}

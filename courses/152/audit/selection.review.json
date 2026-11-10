@@ -1,0 +1,28 @@
+{
+  "responseID": "resp_0956aba0e607adad016af347814e4c87d18964cab3924d15e3",
+  "model": "gpt-6-luna",
+  "usage": {
+    "input_tokens": 59798,
+    "input_tokens_details": {
+      "cache_write_tokens": 59795,
+      "cached_tokens": 0
+    },
+    "output_tokens": 4028,
+    "output_tokens_details": {
+      "reasoning_tokens": 3743
+    },
+    "total_tokens": 63826
+  },
+  "review": {
+    "candidate": 45,
+    "approved": true,
+    "scores": {
+      "strategy": 4,
+      "withinRoundVariety": 4,
+      "acrossDaysVariety": 4,
+      "fairDifficulty": 4
+    },
+    "reason": "Candidate 45 passes as supplied. Hole 1 is a dry 328-yard narrow-corridor par 4. Its compact landing area makes placement matter, but all nine tee-dispersion probes remain playable, so misses appear recoverable. Hole 2 is a 391-yard double-dogleg par 4 with a substantial lake along the left side of play. The broad landing route supports safer staged positioning; taking the bends more aggressively offers a shorter approach at added risk. Hole 3 is a 148-yard island-green par 3 with a substantial surrounding lake. It supplies a distinct carry-and-target test, and six of nine dispersion probes remain playable. The two driver par 4s demand different routes, followed by a short, committed target shot; that gives the round solid internal variety despite the repeated par. Water-heavy target holes and par-4/4/3 sequences occur in recent rounds, so novelty is good rather than exceptional, but the dry corridor opener, wet turning middle hole, and island finish distinguish this combination. The landing and dispersion evidence supports a challenging, playable set rather than an exact-shot trap. No geometry edits are needed.",
+    "edits": []
+  }
+}
