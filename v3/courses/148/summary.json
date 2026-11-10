@@ -1,0 +1,460 @@
+{
+  "course": 148,
+  "date": "2026-11-11",
+  "name": "Curlew Barrens",
+  "studioJob": "f770a482-ac83-4076-8e17-9b6239d5d614",
+  "draftFingerprint": "582c108b8033f917bfbdfb1b45796130b73b97dd5c950529fc2b08c0581ac4b1",
+  "approval": {
+    "approvedAt": "2026-11-10T05:10:24.633Z",
+    "playtested": true,
+    "humanApproved": true,
+    "retainedOlder": {
+      "legacy": {
+        "course": 148,
+        "artworkSHA256": "cc2e13c36b52e5fd2beff69dc78cdcabee7e886db52ff2412602aa440902477d",
+        "schemaVersion": 1,
+        "geometrySHA256": "858b8d497a04595714fa630f84e82afcd7b938eaaef473182b39858aad8a507e",
+        "artRulesVersion": "fairway-stripes-v4"
+      },
+      "pairMatchupID": null
+    },
+    "artworkOverrides": [
+      {
+        "policy": "studio-human-artwork-v1",
+        "reason": "The illustration is clear and the mapped fairways are striped, but it adds a water hazard that is absent from the numbered diagram. The fairways, tees, greens, and mapped hazards are otherwise clearly rendered, but the illustration adds a water feature near hole 3 that is absent from the authoritative diagram.",
+        "review": {
+          "issues": [
+            {
+              "code": "invented-hazard",
+              "hole": 3,
+              "detail": "Remove the small blue pond above and to the right of G3, between the vertical pond and the lower lake; no water is mapped there.",
+              "region": {
+                "x": 0.15,
+                "y": 0.39,
+                "width": 0.06,
+                "height": 0.05
+              },
+              "consequence": "The overview would show a nonexistent water hazard and misrepresent this hole."
+            },
+            {
+              "code": "invented-hazard",
+              "hole": 3,
+              "detail": "A separate small blue pond appears just above and to the right of G3; the diagram shows no water feature at that location.",
+              "region": {
+                "x": 0.15,
+                "y": 0.38,
+                "width": 0.045,
+                "height": 0.055
+              },
+              "consequence": "The overview depicts an unmapped water hazard near hole 3, which could mislead viewers about the course layout."
+            }
+          ],
+          "reason": "The illustration is clear and the mapped fairways are striped, but it adds a water hazard that is absent from the numbered diagram. The fairways, tees, greens, and mapped hazards are otherwise clearly rendered, but the illustration adds a water feature near hole 3 that is absent from the authoritative diagram.",
+          "reviews": [
+            {
+              "review": {
+                "issues": [
+                  {
+                    "code": "invented-hazard",
+                    "hole": 3,
+                    "detail": "Remove the small blue pond above and to the right of G3, between the vertical pond and the lower lake; no water is mapped there.",
+                    "region": {
+                      "x": 0.15,
+                      "y": 0.39,
+                      "width": 0.06,
+                      "height": 0.05
+                    },
+                    "consequence": "The overview would show a nonexistent water hazard and misrepresent this hole."
+                  }
+                ],
+                "reason": "The illustration is clear and the mapped fairways are striped, but it adds a water hazard that is absent from the numbered diagram.",
+                "scores": {
+                  "naturalGreens": 4,
+                  "visualClarity": 4,
+                  "geometryFidelity": 3,
+                  "styleConsistency": 4
+                },
+                "approved": false,
+                "candidate": 0,
+                "reviewKind": "artwork-only-v1"
+              },
+              "responseID": "resp_0dfeeb042876ea23016af2a679ecf487d2975c1421dedf3657"
+            },
+            {
+              "review": {
+                "issues": [
+                  {
+                    "code": "invented-hazard",
+                    "hole": 3,
+                    "detail": "A separate small blue pond appears just above and to the right of G3; the diagram shows no water feature at that location.",
+                    "region": {
+                      "x": 0.15,
+                      "y": 0.38,
+                      "width": 0.045,
+                      "height": 0.055
+                    },
+                    "consequence": "The overview depicts an unmapped water hazard near hole 3, which could mislead viewers about the course layout."
+                  }
+                ],
+                "reason": "The fairways, tees, greens, and mapped hazards are otherwise clearly rendered, but the illustration adds a water feature near hole 3 that is absent from the authoritative diagram.",
+                "scores": {
+                  "naturalGreens": 4,
+                  "visualClarity": 4,
+                  "geometryFidelity": 3,
+                  "styleConsistency": 5
+                },
+                "approved": false,
+                "candidate": 0,
+                "reviewKind": "artwork-only-v1"
+              },
+              "responseID": "resp_0855762cda37bcd9016af2a679e9d487d284d17f0f1b10f535"
+            }
+          ],
+          "approved": false,
+          "decisionKey": "420832ab46d9348a1d710448ed7653cdd9c286c14c7c66a38b3f1fbc34d3c884",
+          "artworkSHA256": "8a9d8fa136dc247ff7058546d8015054caf4c1585f6bda370b5eb73a5015d607",
+          "geometrySHA256": "cdd676f18a43ebb106eacb6b4dd915c002d2567631899c8f133e0e93cbfaf06d",
+          "geometryEncoding": "studio-stable-json-v1"
+        },
+        "decisionKey": "420832ab46d9348a1d710448ed7653cdd9c286c14c7c66a38b3f1fbc34d3c884",
+        "artworkSHA256": "8a9d8fa136dc247ff7058546d8015054caf4c1585f6bda370b5eb73a5015d607",
+        "geometrySHA256": "cdd676f18a43ebb106eacb6b4dd915c002d2567631899c8f133e0e93cbfaf06d",
+        "acceptedFindings": [
+          "420832ab46d9348a1d710448ed7653cdd9c286c14c7c66a38b3f1fbc34d3c884:0",
+          "420832ab46d9348a1d710448ed7653cdd9c286c14c7c66a38b3f1fbc34d3c884:1"
+        ]
+      },
+      {
+        "policy": "studio-human-artwork-v1",
+        "reason": "The illustration has a clear, consistent wooded style and the main fairway directions are recognizable, but it adds substantial unmapped water, misrepresents the G1-to-T2 walking connection, and leaves the small Hole 2 fairway without clearly visible stripes. The illustration adds prominent course features that are absent from the frozen diagram, making the overview depict more than the three mapped holes. The green surfaces and wooded style are otherwise generally suitable.",
+        "review": {
+          "issues": [
+            {
+              "code": "invented-hazard",
+              "hole": 3,
+              "detail": "A large lake has been added along the southern edge of the property, and a small pond appears above the Hole 3 green. These water shapes are not present in the authoritative diagram.",
+              "region": {
+                "x": 0.2,
+                "y": 0.78,
+                "width": 0.72,
+                "height": 0.19
+              },
+              "consequence": "The overview depicts water hazards and water coverage that do not match the mapped course."
+            },
+            {
+              "code": "invented-connection",
+              "hole": 1,
+              "detail": "The walking path from G1 heads down and right to the property edge instead of connecting G1 to T2; the required G1-to-T2 connector is not shown.",
+              "region": {
+                "x": 0.84,
+                "y": 0.4,
+                "width": 0.08,
+                "height": 0.08
+              },
+              "consequence": "The overview misrepresents how players walk between these holes."
+            },
+            {
+              "code": "style",
+              "hole": 2,
+              "detail": "The short fairway section between T2 and G2 lacks clearly visible edge-to-edge alternating mowing stripes at this scale.",
+              "region": {
+                "x": 0.54,
+                "y": 0.47,
+                "width": 0.07,
+                "height": 0.07
+              },
+              "consequence": "The mapped fairway patch is difficult to distinguish as fairway in the overview."
+            },
+            {
+              "code": "geometry-mismatch",
+              "hole": 0,
+              "detail": "An extra long striped fairway and two additional flagged greens appear across the lower part of the property; these are not among the mapped fairways and greens.",
+              "region": {
+                "x": 0.15,
+                "y": 0.6,
+                "width": 0.77,
+                "height": 0.22
+              },
+              "consequence": "The overview suggests additional holes and a different course layout than the numbered diagram."
+            },
+            {
+              "code": "invented-hazard",
+              "hole": 0,
+              "detail": "A large separate lake is shown above and to the right of the central area, where the diagram maps no lake.",
+              "region": {
+                "x": 0.46,
+                "y": 0.19,
+                "width": 0.39,
+                "height": 0.2
+              },
+              "consequence": "The overview misrepresents the mapped water hazards and the appearance of the course."
+            }
+          ],
+          "reason": "The illustration has a clear, consistent wooded style and the main fairway directions are recognizable, but it adds substantial unmapped water, misrepresents the G1-to-T2 walking connection, and leaves the small Hole 2 fairway without clearly visible stripes. The illustration adds prominent course features that are absent from the frozen diagram, making the overview depict more than the three mapped holes. The green surfaces and wooded style are otherwise generally suitable.",
+          "reviews": [
+            {
+              "review": {
+                "issues": [
+                  {
+                    "code": "invented-hazard",
+                    "hole": 3,
+                    "detail": "A large lake has been added along the southern edge of the property, and a small pond appears above the Hole 3 green. These water shapes are not present in the authoritative diagram.",
+                    "region": {
+                      "x": 0.2,
+                      "y": 0.78,
+                      "width": 0.72,
+                      "height": 0.19
+                    },
+                    "consequence": "The overview depicts water hazards and water coverage that do not match the mapped course."
+                  },
+                  {
+                    "code": "invented-connection",
+                    "hole": 1,
+                    "detail": "The walking path from G1 heads down and right to the property edge instead of connecting G1 to T2; the required G1-to-T2 connector is not shown.",
+                    "region": {
+                      "x": 0.84,
+                      "y": 0.4,
+                      "width": 0.08,
+                      "height": 0.08
+                    },
+                    "consequence": "The overview misrepresents how players walk between these holes."
+                  },
+                  {
+                    "code": "style",
+                    "hole": 2,
+                    "detail": "The short fairway section between T2 and G2 lacks clearly visible edge-to-edge alternating mowing stripes at this scale.",
+                    "region": {
+                      "x": 0.54,
+                      "y": 0.47,
+                      "width": 0.07,
+                      "height": 0.07
+                    },
+                    "consequence": "The mapped fairway patch is difficult to distinguish as fairway in the overview."
+                  }
+                ],
+                "reason": "The illustration has a clear, consistent wooded style and the main fairway directions are recognizable, but it adds substantial unmapped water, misrepresents the G1-to-T2 walking connection, and leaves the small Hole 2 fairway without clearly visible stripes.",
+                "scores": {
+                  "naturalGreens": 4,
+                  "visualClarity": 3,
+                  "geometryFidelity": 2,
+                  "styleConsistency": 3
+                },
+                "approved": false,
+                "candidate": 0,
+                "reviewKind": "artwork-only-v1"
+              },
+              "responseID": "resp_0eadfb69643cc6b5016af2a677b45887d2a9849fe123312409"
+            },
+            {
+              "review": {
+                "issues": [
+                  {
+                    "code": "geometry-mismatch",
+                    "hole": 0,
+                    "detail": "An extra long striped fairway and two additional flagged greens appear across the lower part of the property; these are not among the mapped fairways and greens.",
+                    "region": {
+                      "x": 0.15,
+                      "y": 0.6,
+                      "width": 0.77,
+                      "height": 0.22
+                    },
+                    "consequence": "The overview suggests additional holes and a different course layout than the numbered diagram."
+                  },
+                  {
+                    "code": "invented-hazard",
+                    "hole": 0,
+                    "detail": "A large separate lake is shown above and to the right of the central area, where the diagram maps no lake.",
+                    "region": {
+                      "x": 0.46,
+                      "y": 0.19,
+                      "width": 0.39,
+                      "height": 0.2
+                    },
+                    "consequence": "The overview misrepresents the mapped water hazards and the appearance of the course."
+                  }
+                ],
+                "reason": "The illustration adds prominent course features that are absent from the frozen diagram, making the overview depict more than the three mapped holes. The green surfaces and wooded style are otherwise generally suitable.",
+                "scores": {
+                  "naturalGreens": 4,
+                  "visualClarity": 2,
+                  "geometryFidelity": 1,
+                  "styleConsistency": 4
+                },
+                "approved": false,
+                "candidate": 0,
+                "reviewKind": "artwork-only-v1"
+              },
+              "responseID": "resp_05c8e9bb5cbb42ef016af2a677ab6887d29566108e570500c3"
+            }
+          ],
+          "approved": false,
+          "decisionKey": "4fa566751b88a2403ca3b3a52c61c00dcef82c4d8dab87c9c7c879364ce05b78",
+          "artworkSHA256": "724f5805e27e8147a306fa10a73fb158aa1572c9e5a6329f4f4fd92078d40d1e",
+          "geometrySHA256": "3db7239e73df9c040511b3325f0638db781cf62016e8dbfcd0c96ab5c143c4c7",
+          "geometryEncoding": "studio-stable-json-v1"
+        },
+        "decisionKey": "4fa566751b88a2403ca3b3a52c61c00dcef82c4d8dab87c9c7c879364ce05b78",
+        "artworkSHA256": "724f5805e27e8147a306fa10a73fb158aa1572c9e5a6329f4f4fd92078d40d1e",
+        "geometrySHA256": "3db7239e73df9c040511b3325f0638db781cf62016e8dbfcd0c96ab5c143c4c7",
+        "acceptedFindings": [
+          "4fa566751b88a2403ca3b3a52c61c00dcef82c4d8dab87c9c7c879364ce05b78:0",
+          "4fa566751b88a2403ca3b3a52c61c00dcef82c4d8dab87c9c7c879364ce05b78:1",
+          "4fa566751b88a2403ca3b3a52c61c00dcef82c4d8dab87c9c7c879364ce05b78:2",
+          "4fa566751b88a2403ca3b3a52c61c00dcef82c4d8dab87c9c7c879364ce05b78:3",
+          "4fa566751b88a2403ca3b3a52c61c00dcef82c4d8dab87c9c7c879364ce05b78:4"
+        ]
+      }
+    ],
+    "compatibilityApproved": true
+  },
+  "artworkStatus": "approved",
+  "geometrySHA256": "776d4e7c86db5b4d3c68842a4d8800f2c46a8eb837946ce0b94077271808b967",
+  "artworkSHA256": "8a9d8fa136dc247ff7058546d8015054caf4c1585f6bda370b5eb73a5015d607",
+  "artworkReview": {
+    "issues": [
+      {
+        "code": "invented-hazard",
+        "hole": 3,
+        "detail": "Remove the small blue pond above and to the right of G3, between the vertical pond and the lower lake; no water is mapped there.",
+        "region": {
+          "x": 0.15,
+          "y": 0.39,
+          "width": 0.06,
+          "height": 0.05
+        },
+        "consequence": "The overview would show a nonexistent water hazard and misrepresent this hole."
+      },
+      {
+        "code": "invented-hazard",
+        "hole": 3,
+        "detail": "A separate small blue pond appears just above and to the right of G3; the diagram shows no water feature at that location.",
+        "region": {
+          "x": 0.15,
+          "y": 0.38,
+          "width": 0.045,
+          "height": 0.055
+        },
+        "consequence": "The overview depicts an unmapped water hazard near hole 3, which could mislead viewers about the course layout."
+      }
+    ],
+    "reason": "The illustration is clear and the mapped fairways are striped, but it adds a water hazard that is absent from the numbered diagram. The fairways, tees, greens, and mapped hazards are otherwise clearly rendered, but the illustration adds a water feature near hole 3 that is absent from the authoritative diagram.",
+    "reviews": [
+      {
+        "review": {
+          "issues": [
+            {
+              "code": "invented-hazard",
+              "hole": 3,
+              "detail": "Remove the small blue pond above and to the right of G3, between the vertical pond and the lower lake; no water is mapped there.",
+              "region": {
+                "x": 0.15,
+                "y": 0.39,
+                "width": 0.06,
+                "height": 0.05
+              },
+              "consequence": "The overview would show a nonexistent water hazard and misrepresent this hole."
+            }
+          ],
+          "reason": "The illustration is clear and the mapped fairways are striped, but it adds a water hazard that is absent from the numbered diagram.",
+          "scores": {
+            "naturalGreens": 4,
+            "visualClarity": 4,
+            "geometryFidelity": 3,
+            "styleConsistency": 4
+          },
+          "approved": false,
+          "candidate": 0,
+          "reviewKind": "artwork-only-v1"
+        },
+        "responseID": "resp_0dfeeb042876ea23016af2a679ecf487d2975c1421dedf3657"
+      },
+      {
+        "review": {
+          "issues": [
+            {
+              "code": "invented-hazard",
+              "hole": 3,
+              "detail": "A separate small blue pond appears just above and to the right of G3; the diagram shows no water feature at that location.",
+              "region": {
+                "x": 0.15,
+                "y": 0.38,
+                "width": 0.045,
+                "height": 0.055
+              },
+              "consequence": "The overview depicts an unmapped water hazard near hole 3, which could mislead viewers about the course layout."
+            }
+          ],
+          "reason": "The fairways, tees, greens, and mapped hazards are otherwise clearly rendered, but the illustration adds a water feature near hole 3 that is absent from the authoritative diagram.",
+          "scores": {
+            "naturalGreens": 4,
+            "visualClarity": 4,
+            "geometryFidelity": 3,
+            "styleConsistency": 5
+          },
+          "approved": false,
+          "candidate": 0,
+          "reviewKind": "artwork-only-v1"
+        },
+        "responseID": "resp_0855762cda37bcd9016af2a679e9d487d284d17f0f1b10f535"
+      }
+    ],
+    "approved": false,
+    "artworkSHA256": "8a9d8fa136dc247ff7058546d8015054caf4c1585f6bda370b5eb73a5015d607",
+    "geometrySHA256": "cdd676f18a43ebb106eacb6b4dd915c002d2567631899c8f133e0e93cbfaf06d",
+    "geometryEncoding": "studio-stable-json-v1",
+    "decisionKey": "420832ab46d9348a1d710448ed7653cdd9c286c14c7c66a38b3f1fbc34d3c884"
+  },
+  "compatibility": {
+    "policy": "studio-compatible-v1",
+    "holes": [
+      {
+        "sections": 1,
+        "addedFairwayYards": 0,
+        "addedFairwayPercent": 0,
+        "waterReshaped": false,
+        "addedFairway": []
+      },
+      {
+        "sections": 1,
+        "addedFairwayYards": 0,
+        "addedFairwayPercent": 0,
+        "waterReshaped": false,
+        "addedFairway": []
+      },
+      {
+        "sections": 1,
+        "addedFairwayYards": 0,
+        "addedFairwayPercent": 0,
+        "waterReshaped": false,
+        "addedFairway": []
+      }
+    ]
+  },
+  "holes": [
+    {
+      "par": 5,
+      "lengthYards": 547,
+      "type": "straight"
+    },
+    {
+      "par": 3,
+      "lengthYards": 124,
+      "type": "straight"
+    },
+    {
+      "par": 4,
+      "lengthYards": 440,
+      "type": "straight"
+    }
+  ],
+  "retainedOlder": {
+    "legacy": {
+      "course": 148,
+      "artworkSHA256": "cc2e13c36b52e5fd2beff69dc78cdcabee7e886db52ff2412602aa440902477d",
+      "schemaVersion": 1,
+      "geometrySHA256": "858b8d497a04595714fa630f84e82afcd7b938eaaef473182b39858aad8a507e",
+      "artRulesVersion": "fairway-stripes-v4"
+    },
+    "pairMatchupID": null
+  }
+}
