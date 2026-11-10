@@ -1,0 +1,28 @@
+{
+  "responseID": "resp_0a825bf7e075665c016af346fcba0887d1b33b20ac9efd8e79",
+  "model": "gpt-6-luna",
+  "usage": {
+    "input_tokens": 60210,
+    "input_tokens_details": {
+      "cache_write_tokens": 60207,
+      "cached_tokens": 0
+    },
+    "output_tokens": 2701,
+    "output_tokens_details": {
+      "reasoning_tokens": 2363
+    },
+    "total_tokens": 62911
+  },
+  "review": {
+    "candidate": 35,
+    "approved": true,
+    "scores": {
+      "strategy": 4,
+      "withinRoundVariety": 4,
+      "acrossDaysVariety": 4,
+      "fairDifficulty": 4
+    },
+    "reason": "Candidate 35 passes as supplied. Hole 1 is a 192-yard punchbowl par 3 with a substantial lake left and forward of the green. The clear line away from the water is supported by all nine tee-dispersion probes finishing safely; challenging the hazard-side line adds some risk, making this a relatively accessible opener. Hole 2 is a 157-yard island-green par 3. Its lake makes the carry the round\u2019s most exacting target, while six of nine dispersion probes remain playable, so it is demanding without appearing to require a single perfect shot. Hole 3 is a dry 555-yard three-shot par 5 with a broad staged route and five bunkers. Only three of nine tee-dispersion probes finish safely, but all remain playable, offering a more demanding finish with recoverable misses and a choice between measured progress and pressing forward. The two par 3s use different target geometries and hazard demands, followed by a long positional hole; despite sharing a 3-wood tee club on the par 3s, the round has useful internal contrast. Recent rounds often use par-3/5/4 or par-5/3/4 sequences, while this par-3/3/5 set and its single island carry provide sufficient freshness. The current geometry balances an approachable start, a demanding carry, and a staged par-5 finish. No edits are needed.",
+    "edits": []
+  }
+}

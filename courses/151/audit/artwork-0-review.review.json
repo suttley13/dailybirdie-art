@@ -1,0 +1,29 @@
+{
+  "responseID": "resp_0cb7d287a4f8e6f8016af3472f139c87d18bb0efe6afd99906",
+  "model": "gpt-6-luna",
+  "usage": {
+    "input_tokens": 8218,
+    "input_tokens_details": {
+      "cache_write_tokens": 6864,
+      "cached_tokens": 1351
+    },
+    "output_tokens": 3108,
+    "output_tokens_details": {
+      "reasoning_tokens": 2995
+    },
+    "total_tokens": 11326
+  },
+  "review": {
+    "reviewKind": "artwork-only-v1",
+    "candidate": 35,
+    "approved": true,
+    "scores": {
+      "geometryFidelity": 4,
+      "naturalGreens": 5,
+      "visualClarity": 4,
+      "styleConsistency": 5
+    },
+    "reason": "The illustration preserves the mapped course silhouette, fairway directions, greens, water, bunkers and walking connectors. Fairway stripes are visible, the greens read as continuous natural putting surfaces, and the wooded rendering is consistent with the reference. No actionable artwork issue is apparent.",
+    "issues": []
+  }
+}
