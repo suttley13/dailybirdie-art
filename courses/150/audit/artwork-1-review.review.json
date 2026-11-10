@@ -1,0 +1,29 @@
+{
+  "responseID": "resp_0768d28acd228ec5016af3469e918487d1a7aa1d81a57c18e4",
+  "model": "gpt-6-luna",
+  "usage": {
+    "input_tokens": 8215,
+    "input_tokens_details": {
+      "cache_write_tokens": 6861,
+      "cached_tokens": 1351
+    },
+    "output_tokens": 3212,
+    "output_tokens_details": {
+      "reasoning_tokens": 3106
+    },
+    "total_tokens": 11427
+  },
+  "review": {
+    "reviewKind": "artwork-only-v1",
+    "candidate": 48,
+    "approved": true,
+    "scores": {
+      "geometryFidelity": 4,
+      "naturalGreens": 4,
+      "visualClarity": 5,
+      "styleConsistency": 5
+    },
+    "reason": "The three numbered tee-to-green routes, both mapped walking connectors, lakes, bunkers, and fairway footprints are represented clearly. All fairway sections have visible stripes, and the greens read as continuous putting surfaces with ordinary edge transitions.",
+    "issues": []
+  }
+}

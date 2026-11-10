@@ -1,0 +1,28 @@
+{
+  "responseID": "resp_0071c0643d6f9ced016af3462eb5fc87d1a4d182e448af727b",
+  "model": "gpt-6-luna",
+  "usage": {
+    "input_tokens": 59277,
+    "input_tokens_details": {
+      "cache_write_tokens": 59274,
+      "cached_tokens": 0
+    },
+    "output_tokens": 3394,
+    "output_tokens_details": {
+      "reasoning_tokens": 3106
+    },
+    "total_tokens": 62671
+  },
+  "review": {
+    "candidate": 48,
+    "approved": true,
+    "scores": {
+      "strategy": 4,
+      "withinRoundVariety": 5,
+      "acrossDaysVariety": 4,
+      "fairDifficulty": 4
+    },
+    "reason": "Candidate 48 passes as supplied. Hole 1 is a 215-yard long par 3 played with a 3-wood, with a substantial right-front water hazard and greenside bunkers. The water adds consequence without appearing to force an exact carry; all nine tee-dispersion probes remain playable. Hole 2 is a 410-yard cape par 4 with a substantial lake left and forward of the green. The broad landing area supports a safer line, while pressing closer to the shoreline offers a meaningful positional reward. Hole 3 is a dry 399-yard dogleg-right par 4 with a notably tighter landing challenge: only five of nine dispersion probes are playable and none finish safely, so it supplies a demanding finish, but the playable outcomes suggest misses can be recovered. The 3/4/4 sequence, 3-wood opener, shoreline choice, and dry turning finish provide strong contrast. Long par 3s, capes, and water recur in recent rounds, but the reversed hazard distribution and right-turning finish distinguish this combination. The current geometry balances two water-influenced holes with a dry, challenging positional hole; no edits are needed.",
+    "edits": []
+  }
+}

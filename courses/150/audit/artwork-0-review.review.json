@@ -1,0 +1,42 @@
+{
+  "responseID": "resp_01c5fcc35ed0c6a9016af3466be9cc87d1ba088a64bb44930e",
+  "model": "gpt-6-luna",
+  "usage": {
+    "input_tokens": 8209,
+    "input_tokens_details": {
+      "cache_write_tokens": 8206,
+      "cached_tokens": 0
+    },
+    "output_tokens": 2878,
+    "output_tokens_details": {
+      "reasoning_tokens": 2705
+    },
+    "total_tokens": 11087
+  },
+  "review": {
+    "reviewKind": "artwork-only-v1",
+    "candidate": 48,
+    "approved": false,
+    "scores": {
+      "geometryFidelity": 5,
+      "naturalGreens": 4,
+      "visualClarity": 4,
+      "styleConsistency": 3
+    },
+    "reason": "The mapped course layout, water, connectors, tees, bunkers and striped fairways are represented clearly. Trees appear to intrude into Hole 3\u2019s approach between the fairway end and green.",
+    "issues": [
+      {
+        "code": "style",
+        "hole": 3,
+        "detail": "Trees and their crowns occupy the rough corridor between the end of Hole 3\u2019s fairway and G3.",
+        "consequence": "The overview makes the approach to G3 appear obstructed.",
+        "region": {
+          "x": 0.63,
+          "y": 0.68,
+          "width": 0.06,
+          "height": 0.08
+        }
+      }
+    ]
+  }
+}
