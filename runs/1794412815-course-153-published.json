@@ -1,0 +1,271 @@
+{
+  "schemaVersion": 1,
+  "course": 153,
+  "outcome": "published",
+  "error": null,
+  "startedAt": 1794412815,
+  "seconds": 281.02,
+  "reviewModel": "gpt-6-luna",
+  "reviewEffort": "medium",
+  "imageModel": "gpt-image-2.5-sunburst",
+  "candidatesRequested": 50,
+  "calls": [
+    {
+      "phase": "selection",
+      "kind": "review",
+      "model": "gpt-6-luna",
+      "effort": "medium",
+      "responseID": "resp_0d83fda847f68848016af491227df087d185df8ddc07ea780a",
+      "usage": {
+        "input_tokens": 59770,
+        "input_tokens_details": {
+          "cache_write_tokens": 59767,
+          "cached_tokens": 0
+        },
+        "output_tokens": 2931,
+        "output_tokens_details": {
+          "reasoning_tokens": 2638
+        },
+        "total_tokens": 62701
+      },
+      "seconds": 37.46,
+      "imageCount": 8,
+      "approved": true,
+      "reviewKind": "course-design",
+      "reason": "Candidate 48 passes as supplied. Hole 1 is a 156-yard punchbowl par 3 with a 3-wood tee shot and seven bunkers. The bunkered target makes placement matter despite the short length; six of nine tee-dispersion probes are safe, so there is room to play rather than requiring a perfect shot. Hole 2 is a dry 434-yard narrow-corridor par 4. Its constrained landing route and only three safe dispersion probes make positioning consequential, while all nine probes remain playable. Hole 3 is a 552-yard par 5 with a substantial lake alongside the route. Its broad fairway leaves a staged option, while advancing near the shoreline adds risk; the three-shot simulation and six of nine playable dispersion probes support a demanding finish. The target, placement, and long-game holes have distinct demands and green sizes, giving the round strong internal variety. Recent rounds include similar hole types and water hazards, so freshness is good rather than exceptional, but this sequence and the contrast between the dry corridor and lake-side par 5 distinguish the set. The current geometry offers meaningful choices and recoverable misses without making the round routine. No edits are needed.",
+      "issues": [],
+      "edits": [],
+      "scores": {
+        "strategy": 4,
+        "withinRoundVariety": 5,
+        "acrossDaysVariety": 4,
+        "fairDifficulty": 4
+      }
+    },
+    {
+      "phase": "artwork-0",
+      "kind": "image",
+      "model": "gpt-image-2.5-sunburst",
+      "usage": {
+        "input_tokens": 4445,
+        "input_tokens_details": {
+          "image_tokens": 2863,
+          "text_tokens": 1582
+        },
+        "output_tokens": 343,
+        "output_tokens_details": {
+          "image_tokens": 343,
+          "text_tokens": 0
+        },
+        "total_tokens": 4788
+      },
+      "seconds": 19.66
+    },
+    {
+      "phase": "artwork-0-review",
+      "kind": "review",
+      "model": "gpt-6-luna",
+      "effort": "medium",
+      "responseID": "resp_0b3ff6f35e4d9f51016af4915b7f8887d1a9bbc52f927a7b22",
+      "usage": {
+        "input_tokens": 8666,
+        "input_tokens_details": {
+          "cache_write_tokens": 8663,
+          "cached_tokens": 0
+        },
+        "output_tokens": 2899,
+        "output_tokens_details": {
+          "reasoning_tokens": 2588
+        },
+        "total_tokens": 11565
+      },
+      "seconds": 43.6,
+      "imageCount": 3,
+      "approved": false,
+      "reviewKind": "artwork-only-v1",
+      "reason": "The main fairways, greens, hazards, lake, tees and walking connectors broadly match the numbered diagram, and the greens read as continuous natural surfaces. However, the detached Hole 1 fairway patch lacks clearly visible edge-to-edge mowing stripes, and added trees clutter the T1 carry toward its first fairway landing area.",
+      "issues": [
+        {
+          "code": "style",
+          "hole": 1,
+          "detail": "The detached fairway patch to the right of T1 is visibly uniform rather than showing alternating lighter and darker stripes. Add curved, edge-to-edge bands scaled to this patch and confined to its footprint.",
+          "consequence": "At overview scale, the patch can read as an extra putting green or generic turf instead of a fairway section.",
+          "region": {
+            "x": 0.56,
+            "y": 0.36,
+            "width": 0.12,
+            "height": 0.14
+          }
+        },
+        {
+          "code": "clarity",
+          "hole": 1,
+          "detail": "Added tree crowns cluster between T1 and the upper fairway landing area, visually cluttering the broad tee-shot corridor.",
+          "consequence": "The overview makes the route from T1 to its first fairway landing area appear obstructed.",
+          "region": {
+            "x": 0.38,
+            "y": 0.25,
+            "width": 0.18,
+            "height": 0.22
+          }
+        }
+      ],
+      "edits": [],
+      "scores": {
+        "geometryFidelity": 4,
+        "naturalGreens": 5,
+        "visualClarity": 3,
+        "styleConsistency": 3
+      }
+    },
+    {
+      "phase": "artwork-1",
+      "kind": "image",
+      "model": "gpt-image-2.5-sunburst",
+      "usage": {
+        "input_tokens": 6347,
+        "input_tokens_details": {
+          "image_tokens": 4363,
+          "text_tokens": 1984
+        },
+        "output_tokens": 343,
+        "output_tokens_details": {
+          "image_tokens": 343,
+          "text_tokens": 0
+        },
+        "total_tokens": 6690
+      },
+      "seconds": 22.34
+    },
+    {
+      "phase": "artwork-1-review",
+      "kind": "review",
+      "model": "gpt-6-luna",
+      "effort": "medium",
+      "responseID": "resp_0dcca36d0b67247b016af4919e230c87d1bd222818c7259555",
+      "usage": {
+        "input_tokens": 8667,
+        "input_tokens_details": {
+          "cache_write_tokens": 7313,
+          "cached_tokens": 1351
+        },
+        "output_tokens": 2264,
+        "output_tokens_details": {
+          "reasoning_tokens": 2070
+        },
+        "total_tokens": 10931
+      },
+      "seconds": 35.51,
+      "imageCount": 3,
+      "approved": false,
+      "reviewKind": "artwork-only-v1",
+      "reason": "The course layout, mapped hazards, greens, tees, and walking connectors read faithfully, and the greens appear as continuous natural putting surfaces. The small detached fairway for hole 1 lacks clearly visible alternating mowing stripes at thumbnail scale.",
+      "issues": [
+        {
+          "code": "style",
+          "hole": 1,
+          "detail": "The detached fairway patch between T1 and G1 appears mostly uniform rather than distinctly striped edge to edge.",
+          "consequence": "The patch may be difficult to identify as fairway in the overview and does not match the required striped treatment of the other fairways.",
+          "region": {
+            "x": 0.56,
+            "y": 0.34,
+            "width": 0.1,
+            "height": 0.12
+          }
+        }
+      ],
+      "edits": [],
+      "scores": {
+        "geometryFidelity": 5,
+        "naturalGreens": 5,
+        "visualClarity": 4,
+        "styleConsistency": 3
+      }
+    },
+    {
+      "phase": "artwork-2",
+      "kind": "image",
+      "model": "gpt-image-2.5-sunburst",
+      "usage": {
+        "input_tokens": 6214,
+        "input_tokens_details": {
+          "image_tokens": 4363,
+          "text_tokens": 1851
+        },
+        "output_tokens": 343,
+        "output_tokens_details": {
+          "image_tokens": 343,
+          "text_tokens": 0
+        },
+        "total_tokens": 6557
+      },
+      "seconds": 20.17
+    },
+    {
+      "phase": "artwork-2-review",
+      "kind": "review",
+      "model": "gpt-6-luna",
+      "effort": "medium",
+      "responseID": "resp_0f6ed3aa13b21a1a016af491d6638887d1adb424a0911ae611",
+      "usage": {
+        "input_tokens": 8668,
+        "input_tokens_details": {
+          "cache_write_tokens": 7314,
+          "cached_tokens": 1351
+        },
+        "output_tokens": 2181,
+        "output_tokens_details": {
+          "reasoning_tokens": 2070
+        },
+        "total_tokens": 10849
+      },
+      "seconds": 33.58,
+      "imageCount": 3,
+      "approved": true,
+      "reviewKind": "artwork-only-v1",
+      "reason": "The three greens, fairway sections, mapped bunkers and lake are represented in the corresponding locations. All fairway sections show visible stripes, including the short central patch; greens read as continuous surfaces, and the wooded illustration remains clear enough to follow the course.",
+      "issues": [],
+      "edits": [],
+      "scores": {
+        "geometryFidelity": 4,
+        "naturalGreens": 4,
+        "visualClarity": 4,
+        "styleConsistency": 4
+      }
+    },
+    {
+      "phase": "artwork-2-final",
+      "kind": "review",
+      "model": "gpt-6-luna",
+      "effort": "medium",
+      "responseID": "resp_0c7519836e0ddda8016af491f8656887d1bfbab15cc9a08010",
+      "usage": {
+        "input_tokens": 8668,
+        "input_tokens_details": {
+          "cache_write_tokens": 7314,
+          "cached_tokens": 1351
+        },
+        "output_tokens": 3247,
+        "output_tokens_details": {
+          "reasoning_tokens": 3127
+        },
+        "total_tokens": 11915
+      },
+      "seconds": 48.13,
+      "imageCount": 3,
+      "approved": true,
+      "reviewKind": "artwork-only-v1",
+      "reason": "The numbered tees, greens, fairways, mapped bunkers, walking connectors, and lake are represented clearly and in the approved arrangement. Fairway stripes are visible across the long corridors and the smaller patch. The greens read as continuous natural putting surfaces, and the wooded illustration style is consistent with the reference.",
+      "issues": [],
+      "edits": [],
+      "scores": {
+        "geometryFidelity": 5,
+        "naturalGreens": 4,
+        "visualClarity": 4,
+        "styleConsistency": 5
+      }
+    }
+  ],
+  "artworkStatus": "approved",
+  "artworkFailure": null
+}

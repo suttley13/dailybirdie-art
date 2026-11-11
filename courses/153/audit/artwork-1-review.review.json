@@ -1,0 +1,42 @@
+{
+  "responseID": "resp_0dcca36d0b67247b016af4919e230c87d1bd222818c7259555",
+  "model": "gpt-6-luna",
+  "usage": {
+    "input_tokens": 8667,
+    "input_tokens_details": {
+      "cache_write_tokens": 7313,
+      "cached_tokens": 1351
+    },
+    "output_tokens": 2264,
+    "output_tokens_details": {
+      "reasoning_tokens": 2070
+    },
+    "total_tokens": 10931
+  },
+  "review": {
+    "reviewKind": "artwork-only-v1",
+    "candidate": 48,
+    "approved": false,
+    "scores": {
+      "geometryFidelity": 5,
+      "naturalGreens": 5,
+      "visualClarity": 4,
+      "styleConsistency": 3
+    },
+    "reason": "The course layout, mapped hazards, greens, tees, and walking connectors read faithfully, and the greens appear as continuous natural putting surfaces. The small detached fairway for hole 1 lacks clearly visible alternating mowing stripes at thumbnail scale.",
+    "issues": [
+      {
+        "code": "style",
+        "hole": 1,
+        "detail": "The detached fairway patch between T1 and G1 appears mostly uniform rather than distinctly striped edge to edge.",
+        "consequence": "The patch may be difficult to identify as fairway in the overview and does not match the required striped treatment of the other fairways.",
+        "region": {
+          "x": 0.56,
+          "y": 0.34,
+          "width": 0.1,
+          "height": 0.12
+        }
+      }
+    ]
+  }
+}

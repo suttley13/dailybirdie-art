@@ -1,0 +1,54 @@
+{
+  "responseID": "resp_0b3ff6f35e4d9f51016af4915b7f8887d1a9bbc52f927a7b22",
+  "model": "gpt-6-luna",
+  "usage": {
+    "input_tokens": 8666,
+    "input_tokens_details": {
+      "cache_write_tokens": 8663,
+      "cached_tokens": 0
+    },
+    "output_tokens": 2899,
+    "output_tokens_details": {
+      "reasoning_tokens": 2588
+    },
+    "total_tokens": 11565
+  },
+  "review": {
+    "reviewKind": "artwork-only-v1",
+    "candidate": 48,
+    "approved": false,
+    "scores": {
+      "geometryFidelity": 4,
+      "naturalGreens": 5,
+      "visualClarity": 3,
+      "styleConsistency": 3
+    },
+    "reason": "The main fairways, greens, hazards, lake, tees and walking connectors broadly match the numbered diagram, and the greens read as continuous natural surfaces. However, the detached Hole 1 fairway patch lacks clearly visible edge-to-edge mowing stripes, and added trees clutter the T1 carry toward its first fairway landing area.",
+    "issues": [
+      {
+        "code": "style",
+        "hole": 1,
+        "detail": "The detached fairway patch to the right of T1 is visibly uniform rather than showing alternating lighter and darker stripes. Add curved, edge-to-edge bands scaled to this patch and confined to its footprint.",
+        "consequence": "At overview scale, the patch can read as an extra putting green or generic turf instead of a fairway section.",
+        "region": {
+          "x": 0.56,
+          "y": 0.36,
+          "width": 0.12,
+          "height": 0.14
+        }
+      },
+      {
+        "code": "clarity",
+        "hole": 1,
+        "detail": "Added tree crowns cluster between T1 and the upper fairway landing area, visually cluttering the broad tee-shot corridor.",
+        "consequence": "The overview makes the route from T1 to its first fairway landing area appear obstructed.",
+        "region": {
+          "x": 0.38,
+          "y": 0.25,
+          "width": 0.18,
+          "height": 0.22
+        }
+      }
+    ]
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "responseID": "resp_0f6ed3aa13b21a1a016af491d6638887d1adb424a0911ae611",
+  "model": "gpt-6-luna",
+  "usage": {
+    "input_tokens": 8668,
+    "input_tokens_details": {
+      "cache_write_tokens": 7314,
+      "cached_tokens": 1351
+    },
+    "output_tokens": 2181,
+    "output_tokens_details": {
+      "reasoning_tokens": 2070
+    },
+    "total_tokens": 10849
+  },
+  "review": {
+    "reviewKind": "artwork-only-v1",
+    "candidate": 48,
+    "approved": true,
+    "scores": {
+      "geometryFidelity": 4,
+      "naturalGreens": 4,
+      "visualClarity": 4,
+      "styleConsistency": 4
+    },
+    "reason": "The three greens, fairway sections, mapped bunkers and lake are represented in the corresponding locations. All fairway sections show visible stripes, including the short central patch; greens read as continuous surfaces, and the wooded illustration remains clear enough to follow the course.",
+    "issues": []
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "responseID": "resp_0c7519836e0ddda8016af491f8656887d1bfbab15cc9a08010",
+  "model": "gpt-6-luna",
+  "usage": {
+    "input_tokens": 8668,
+    "input_tokens_details": {
+      "cache_write_tokens": 7314,
+      "cached_tokens": 1351
+    },
+    "output_tokens": 3247,
+    "output_tokens_details": {
+      "reasoning_tokens": 3127
+    },
+    "total_tokens": 11915
+  },
+  "review": {
+    "reviewKind": "artwork-only-v1",
+    "candidate": 48,
+    "approved": true,
+    "scores": {
+      "geometryFidelity": 5,
+      "naturalGreens": 4,
+      "visualClarity": 4,
+      "styleConsistency": 5
+    },
+    "reason": "The numbered tees, greens, fairways, mapped bunkers, walking connectors, and lake are represented clearly and in the approved arrangement. Fairway stripes are visible across the long corridors and the smaller patch. The greens read as continuous natural putting surfaces, and the wooded illustration style is consistent with the reference.",
+    "issues": []
+  }
+}

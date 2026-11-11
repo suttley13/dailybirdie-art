@@ -1,0 +1,28 @@
+{
+  "responseID": "resp_0d83fda847f68848016af491227df087d185df8ddc07ea780a",
+  "model": "gpt-6-luna",
+  "usage": {
+    "input_tokens": 59770,
+    "input_tokens_details": {
+      "cache_write_tokens": 59767,
+      "cached_tokens": 0
+    },
+    "output_tokens": 2931,
+    "output_tokens_details": {
+      "reasoning_tokens": 2638
+    },
+    "total_tokens": 62701
+  },
+  "review": {
+    "candidate": 48,
+    "approved": true,
+    "scores": {
+      "strategy": 4,
+      "withinRoundVariety": 5,
+      "acrossDaysVariety": 4,
+      "fairDifficulty": 4
+    },
+    "reason": "Candidate 48 passes as supplied. Hole 1 is a 156-yard punchbowl par 3 with a 3-wood tee shot and seven bunkers. The bunkered target makes placement matter despite the short length; six of nine tee-dispersion probes are safe, so there is room to play rather than requiring a perfect shot. Hole 2 is a dry 434-yard narrow-corridor par 4. Its constrained landing route and only three safe dispersion probes make positioning consequential, while all nine probes remain playable. Hole 3 is a 552-yard par 5 with a substantial lake alongside the route. Its broad fairway leaves a staged option, while advancing near the shoreline adds risk; the three-shot simulation and six of nine playable dispersion probes support a demanding finish. The target, placement, and long-game holes have distinct demands and green sizes, giving the round strong internal variety. Recent rounds include similar hole types and water hazards, so freshness is good rather than exceptional, but this sequence and the contrast between the dry corridor and lake-side par 5 distinguish the set. The current geometry offers meaningful choices and recoverable misses without making the round routine. No edits are needed.",
+    "edits": []
+  }
+}
