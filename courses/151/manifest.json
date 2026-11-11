@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "course": 151,
-  "geometrySHA256": "7dec8efe9ebf7f1c321316c99401422c0abca5cd84030bed1d147d0aeb64fc24",
-  "artworkSHA256": "b17c38a5bd2cbb6d6db3fadf50b6af6e6ee8c20e882b96af9bb9ab7b91b1754f",
+  "geometrySHA256": "d80037e31cd361c2ba4941db4afb76bcd8444834b93c177b8d88c35e5e1f182c",
+  "artworkSHA256": "718bdab2ef615efe854c48daddc761fd5f0cd324ae0d339a42f7daf81e9b162c",
   "artRulesVersion": "fairway-stripes-v4"
 }

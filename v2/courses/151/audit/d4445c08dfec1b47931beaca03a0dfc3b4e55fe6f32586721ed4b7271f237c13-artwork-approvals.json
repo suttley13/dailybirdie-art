@@ -1,0 +1,291 @@
+{
+  "geometrySHA256": "c0ca5a5ef2a55dc4df68d5cc0843eb0130d32f8969efe4321113fff62fb3f6c1",
+  "artworkSHA256": "d4445c08dfec1b47931beaca03a0dfc3b4e55fe6f32586721ed4b7271f237c13",
+  "humanApproved": true,
+  "reviews": [
+    {
+      "review": {
+        "issues": [
+          {
+            "code": "green-treatment",
+            "hole": 1,
+            "detail": "At G1, a distinct bright putting disc sits inside a broad dark-green ring.",
+            "region": {
+              "x": 0.27,
+              "y": 0.67,
+              "width": 0.05,
+              "height": 0.08
+            },
+            "consequence": "The overview makes the green look nested or ringed rather than like one continuous putting surface."
+          },
+          {
+            "code": "green-treatment",
+            "hole": 2,
+            "detail": "At G2, the bright central putting surface is separated visually from the surrounding dark-green band.",
+            "region": {
+              "x": 0.2,
+              "y": 0.44,
+              "width": 0.05,
+              "height": 0.08
+            },
+            "consequence": "The overview suggests a separate inset green surface."
+          },
+          {
+            "code": "green-treatment",
+            "hole": 3,
+            "detail": "At G3, the light central disc is enclosed by a broad, contrasting dark-green ring.",
+            "region": {
+              "x": 0.65,
+              "y": 0.27,
+              "width": 0.05,
+              "height": 0.08
+            },
+            "consequence": "The green reads as a ringed or nested platform instead of one continuous natural surface."
+          }
+        ],
+        "reason": "The mapped layout, diamond-pattern fairways, desert ground, water and stone bridge are generally clear. The putting greens, however, read as bright inset discs surrounded by broad, contrasting dark-green bands rather than as single continuous natural surfaces.",
+        "scores": {
+          "naturalGreens": 2,
+          "visualClarity": 4,
+          "geometryFidelity": 4,
+          "styleConsistency": 4,
+          "environmentFidelity": 4
+        },
+        "approved": false,
+        "candidate": 0,
+        "reviewKind": "artwork-environment-v2",
+        "environment": "palmSprings"
+      },
+      "responseID": "resp_019a4d8db1806b74016af47e5af7d887d18debca8e58879dc2"
+    },
+    {
+      "review": {
+        "issues": [
+          {
+            "code": "geometry-mismatch",
+            "hole": 2,
+            "detail": "The mapped bridge between the water and the G2 island is shown as a brown plank bridge rather than the mapped stone bridge.",
+            "region": {
+              "x": 0.18,
+              "y": 0.47,
+              "width": 0.04,
+              "height": 0.06
+            },
+            "consequence": "The overview misrepresents the bridge\u2019s mapped style."
+          },
+          {
+            "code": "green-treatment",
+            "hole": 0,
+            "detail": "Numerous added palms, bushes and rocks make the desert interior substantially denser than the mapped sparse planting, especially through the central area between the holes.",
+            "region": {
+              "x": 0.2,
+              "y": 0.23,
+              "width": 0.55,
+              "height": 0.43
+            },
+            "consequence": "The overview suggests a more heavily planted landscape than the mapped Palm Springs environment."
+          }
+        ],
+        "reason": "The overview is legible and the mapped fairways use the required diamond checkerboard mowing. However, Hole 2\u2019s mapped stone bridge is rendered as a plank-style bridge, and the landscape is much more densely planted than the sparse desert distribution shown in the geometry.",
+        "scores": {
+          "naturalGreens": 4,
+          "visualClarity": 4,
+          "geometryFidelity": 3,
+          "styleConsistency": 4,
+          "environmentFidelity": 2
+        },
+        "approved": false,
+        "candidate": 0,
+        "reviewKind": "artwork-environment-v2",
+        "environment": "palmSprings"
+      },
+      "responseID": "resp_0d3350844e6cb201016af47e5afc0087d1a9c3f0b6b64612dd"
+    }
+  ],
+  "humanArtworkAcceptance": {
+    "policy": "studio-human-artwork-v1",
+    "reason": "The mapped layout, diamond-pattern fairways, desert ground, water and stone bridge are generally clear. The putting greens, however, read as bright inset discs surrounded by broad, contrasting dark-green bands rather than as single continuous natural surfaces. The overview is legible and the mapped fairways use the required diamond checkerboard mowing. However, Hole 2\u2019s mapped stone bridge is rendered as a plank-style bridge, and the landscape is much more densely planted than the sparse desert distribution shown in the geometry.",
+    "review": {
+      "issues": [
+        {
+          "code": "green-treatment",
+          "hole": 1,
+          "detail": "At G1, a distinct bright putting disc sits inside a broad dark-green ring.",
+          "region": {
+            "x": 0.27,
+            "y": 0.67,
+            "width": 0.05,
+            "height": 0.08
+          },
+          "consequence": "The overview makes the green look nested or ringed rather than like one continuous putting surface."
+        },
+        {
+          "code": "green-treatment",
+          "hole": 2,
+          "detail": "At G2, the bright central putting surface is separated visually from the surrounding dark-green band.",
+          "region": {
+            "x": 0.2,
+            "y": 0.44,
+            "width": 0.05,
+            "height": 0.08
+          },
+          "consequence": "The overview suggests a separate inset green surface."
+        },
+        {
+          "code": "green-treatment",
+          "hole": 3,
+          "detail": "At G3, the light central disc is enclosed by a broad, contrasting dark-green ring.",
+          "region": {
+            "x": 0.65,
+            "y": 0.27,
+            "width": 0.05,
+            "height": 0.08
+          },
+          "consequence": "The green reads as a ringed or nested platform instead of one continuous natural surface."
+        },
+        {
+          "code": "geometry-mismatch",
+          "hole": 2,
+          "detail": "The mapped bridge between the water and the G2 island is shown as a brown plank bridge rather than the mapped stone bridge.",
+          "region": {
+            "x": 0.18,
+            "y": 0.47,
+            "width": 0.04,
+            "height": 0.06
+          },
+          "consequence": "The overview misrepresents the bridge\u2019s mapped style."
+        },
+        {
+          "code": "green-treatment",
+          "hole": 0,
+          "detail": "Numerous added palms, bushes and rocks make the desert interior substantially denser than the mapped sparse planting, especially through the central area between the holes.",
+          "region": {
+            "x": 0.2,
+            "y": 0.23,
+            "width": 0.55,
+            "height": 0.43
+          },
+          "consequence": "The overview suggests a more heavily planted landscape than the mapped Palm Springs environment."
+        }
+      ],
+      "reason": "The mapped layout, diamond-pattern fairways, desert ground, water and stone bridge are generally clear. The putting greens, however, read as bright inset discs surrounded by broad, contrasting dark-green bands rather than as single continuous natural surfaces. The overview is legible and the mapped fairways use the required diamond checkerboard mowing. However, Hole 2\u2019s mapped stone bridge is rendered as a plank-style bridge, and the landscape is much more densely planted than the sparse desert distribution shown in the geometry.",
+      "reviews": [
+        {
+          "review": {
+            "issues": [
+              {
+                "code": "green-treatment",
+                "hole": 1,
+                "detail": "At G1, a distinct bright putting disc sits inside a broad dark-green ring.",
+                "region": {
+                  "x": 0.27,
+                  "y": 0.67,
+                  "width": 0.05,
+                  "height": 0.08
+                },
+                "consequence": "The overview makes the green look nested or ringed rather than like one continuous putting surface."
+              },
+              {
+                "code": "green-treatment",
+                "hole": 2,
+                "detail": "At G2, the bright central putting surface is separated visually from the surrounding dark-green band.",
+                "region": {
+                  "x": 0.2,
+                  "y": 0.44,
+                  "width": 0.05,
+                  "height": 0.08
+                },
+                "consequence": "The overview suggests a separate inset green surface."
+              },
+              {
+                "code": "green-treatment",
+                "hole": 3,
+                "detail": "At G3, the light central disc is enclosed by a broad, contrasting dark-green ring.",
+                "region": {
+                  "x": 0.65,
+                  "y": 0.27,
+                  "width": 0.05,
+                  "height": 0.08
+                },
+                "consequence": "The green reads as a ringed or nested platform instead of one continuous natural surface."
+              }
+            ],
+            "reason": "The mapped layout, diamond-pattern fairways, desert ground, water and stone bridge are generally clear. The putting greens, however, read as bright inset discs surrounded by broad, contrasting dark-green bands rather than as single continuous natural surfaces.",
+            "scores": {
+              "naturalGreens": 2,
+              "visualClarity": 4,
+              "geometryFidelity": 4,
+              "styleConsistency": 4,
+              "environmentFidelity": 4
+            },
+            "approved": false,
+            "candidate": 0,
+            "reviewKind": "artwork-environment-v2",
+            "environment": "palmSprings"
+          },
+          "responseID": "resp_019a4d8db1806b74016af47e5af7d887d18debca8e58879dc2"
+        },
+        {
+          "review": {
+            "issues": [
+              {
+                "code": "geometry-mismatch",
+                "hole": 2,
+                "detail": "The mapped bridge between the water and the G2 island is shown as a brown plank bridge rather than the mapped stone bridge.",
+                "region": {
+                  "x": 0.18,
+                  "y": 0.47,
+                  "width": 0.04,
+                  "height": 0.06
+                },
+                "consequence": "The overview misrepresents the bridge\u2019s mapped style."
+              },
+              {
+                "code": "green-treatment",
+                "hole": 0,
+                "detail": "Numerous added palms, bushes and rocks make the desert interior substantially denser than the mapped sparse planting, especially through the central area between the holes.",
+                "region": {
+                  "x": 0.2,
+                  "y": 0.23,
+                  "width": 0.55,
+                  "height": 0.43
+                },
+                "consequence": "The overview suggests a more heavily planted landscape than the mapped Palm Springs environment."
+              }
+            ],
+            "reason": "The overview is legible and the mapped fairways use the required diamond checkerboard mowing. However, Hole 2\u2019s mapped stone bridge is rendered as a plank-style bridge, and the landscape is much more densely planted than the sparse desert distribution shown in the geometry.",
+            "scores": {
+              "naturalGreens": 4,
+              "visualClarity": 4,
+              "geometryFidelity": 3,
+              "styleConsistency": 4,
+              "environmentFidelity": 2
+            },
+            "approved": false,
+            "candidate": 0,
+            "reviewKind": "artwork-environment-v2",
+            "environment": "palmSprings"
+          },
+          "responseID": "resp_0d3350844e6cb201016af47e5afc0087d1a9c3f0b6b64612dd"
+        }
+      ],
+      "approved": false,
+      "decisionKey": "6243c18b18e8fe47305a1b06a5b883ff8d58b4517c24b9c46f09ddc39f25e3dd",
+      "artworkSHA256": "d4445c08dfec1b47931beaca03a0dfc3b4e55fe6f32586721ed4b7271f237c13",
+      "geometrySHA256": "bf6197f46326bbd61fafcea596fd329c8439feac92a7eccff154b26f764fa099",
+      "geometryEncoding": "studio-stable-json-v1"
+    },
+    "decisionKey": "6243c18b18e8fe47305a1b06a5b883ff8d58b4517c24b9c46f09ddc39f25e3dd",
+    "artworkSHA256": "d4445c08dfec1b47931beaca03a0dfc3b4e55fe6f32586721ed4b7271f237c13",
+    "geometrySHA256": "c0ca5a5ef2a55dc4df68d5cc0843eb0130d32f8969efe4321113fff62fb3f6c1",
+    "acceptedFindings": [
+      "6243c18b18e8fe47305a1b06a5b883ff8d58b4517c24b9c46f09ddc39f25e3dd:0",
+      "6243c18b18e8fe47305a1b06a5b883ff8d58b4517c24b9c46f09ddc39f25e3dd:1",
+      "6243c18b18e8fe47305a1b06a5b883ff8d58b4517c24b9c46f09ddc39f25e3dd:2",
+      "6243c18b18e8fe47305a1b06a5b883ff8d58b4517c24b9c46f09ddc39f25e3dd:3",
+      "6243c18b18e8fe47305a1b06a5b883ff8d58b4517c24b9c46f09ddc39f25e3dd:4"
+    ],
+    "sourceGeometrySHA256": "bf6197f46326bbd61fafcea596fd329c8439feac92a7eccff154b26f764fa099",
+    "approvedAt": "2026-11-11T14:45:00.593Z"
+  }
+}

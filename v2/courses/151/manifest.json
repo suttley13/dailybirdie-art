@@ -1,0 +1,10 @@
+{
+  "schemaVersion": 2,
+  "course": 151,
+  "geometrySHA256": "c0ca5a5ef2a55dc4df68d5cc0843eb0130d32f8969efe4321113fff62fb3f6c1",
+  "artworkSHA256": "d4445c08dfec1b47931beaca03a0dfc3b4e55fe6f32586721ed4b7271f237c13",
+  "artRulesVersion": "palm-springs-stripes-v2",
+  "gameplayRules": "environments-v1",
+  "environment": "palmSprings",
+  "mowing": "checkerboard"
+}
