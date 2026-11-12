@@ -1,0 +1,11 @@
+{
+  "schemaVersion": 3,
+  "course": 152,
+  "gameplayRules": "studio-v1",
+  "geometrySHA256": "cf1577fc4977fb47d7d7dfb1cb750626a081bbad16af4646d17c2923f9469a20",
+  "artworkSHA256": "29e472f8c3825a46dbaeb4c865bce2788241c89c3a0bfd9c8f0e3b4a8fcee929",
+  "artRulesVersion": "course-studio-artwork-1",
+  "minimumAppVersion": "1.8",
+  "mowing": "checkerboard",
+  "forest": "hardwood"
+}

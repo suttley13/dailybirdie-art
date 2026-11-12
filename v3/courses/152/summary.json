@@ -1,0 +1,413 @@
+{
+  "course": 152,
+  "date": "2026-11-15",
+  "name": "Holes from courses 126, 133 and 140",
+  "studioJob": "9d8ee8a6-9f54-4a4c-811a-a3c61d377164",
+  "draftFingerprint": "f2b0bfe287aa11a942141df5a479cb041a107b86d392bb9128f6e041d91cdd1f",
+  "approval": {
+    "approvedAt": "2026-11-12T17:51:58.921Z",
+    "playtested": true,
+    "humanApproved": true,
+    "retainedOlder": {
+      "legacy": {
+        "course": 152,
+        "artworkSHA256": "5b538230d9c6f7a9c26868f89d7345f862be0918f2d84127b8cb84ce1f31b290",
+        "schemaVersion": 1,
+        "geometrySHA256": "5e3bbe3a234281d19d190bc02ed1b60b6bc2c1fba8c91aaa20fef41ec233e9a6",
+        "artRulesVersion": "fairway-stripes-v4"
+      },
+      "pairMatchupID": null
+    },
+    "artworkOverrides": [
+      {
+        "policy": "studio-human-artwork-v1",
+        "reason": "The illustration preserves the mapped property silhouette, lakes, fairway footprints, tees, greens, bunkers, and the G1-to-T2 and G2-to-T3 walking connectors. All fairway sections have visible diamond checkerboard mowing, the greens read as single natural surfaces, and the overview is clear and consistent with the supplied style. The illustration preserves the overall course layout and uses clear diamond mowing, but it omits the mapped pin markers and the G2-to-T3 walking connector does not visibly reach its destination.",
+        "review": {
+          "issues": [
+            {
+              "code": "geometry-mismatch",
+              "hole": 0,
+              "detail": "The mapped yellow pin markers are absent from all three putting greens.",
+              "region": null,
+              "consequence": "The overview does not show the mapped pin locations, making the greens less faithful to the diagram."
+            },
+            {
+              "code": "geometry-mismatch",
+              "hole": 2,
+              "detail": "The tan walking path near T3 ends partway down the route and does not visibly connect to G2.",
+              "region": {
+                "x": 0.74,
+                "y": 0.34,
+                "width": 0.1,
+                "height": 0.3
+              },
+              "consequence": "The overview suggests a disconnected walking route between the second green and the third tee."
+            }
+          ],
+          "reason": "The illustration preserves the mapped property silhouette, lakes, fairway footprints, tees, greens, bunkers, and the G1-to-T2 and G2-to-T3 walking connectors. All fairway sections have visible diamond checkerboard mowing, the greens read as single natural surfaces, and the overview is clear and consistent with the supplied style. The illustration preserves the overall course layout and uses clear diamond mowing, but it omits the mapped pin markers and the G2-to-T3 walking connector does not visibly reach its destination.",
+          "reviews": [
+            {
+              "review": {
+                "issues": [],
+                "reason": "The illustration preserves the mapped property silhouette, lakes, fairway footprints, tees, greens, bunkers, and the G1-to-T2 and G2-to-T3 walking connectors. All fairway sections have visible diamond checkerboard mowing, the greens read as single natural surfaces, and the overview is clear and consistent with the supplied style.",
+                "scores": {
+                  "naturalGreens": 5,
+                  "visualClarity": 5,
+                  "geometryFidelity": 5,
+                  "styleConsistency": 5
+                },
+                "approved": true,
+                "candidate": 0,
+                "reviewKind": "artwork-only-v1"
+              },
+              "responseID": "resp_06bf9cb0b4d5898d016af5fc37ea1c87d1afdc25a68b9f9a2b"
+            },
+            {
+              "review": {
+                "issues": [
+                  {
+                    "code": "geometry-mismatch",
+                    "hole": 0,
+                    "detail": "The mapped yellow pin markers are absent from all three putting greens.",
+                    "region": null,
+                    "consequence": "The overview does not show the mapped pin locations, making the greens less faithful to the diagram."
+                  },
+                  {
+                    "code": "geometry-mismatch",
+                    "hole": 2,
+                    "detail": "The tan walking path near T3 ends partway down the route and does not visibly connect to G2.",
+                    "region": {
+                      "x": 0.74,
+                      "y": 0.34,
+                      "width": 0.1,
+                      "height": 0.3
+                    },
+                    "consequence": "The overview suggests a disconnected walking route between the second green and the third tee."
+                  }
+                ],
+                "reason": "The illustration preserves the overall course layout and uses clear diamond mowing, but it omits the mapped pin markers and the G2-to-T3 walking connector does not visibly reach its destination.",
+                "scores": {
+                  "naturalGreens": 5,
+                  "visualClarity": 4,
+                  "geometryFidelity": 3,
+                  "styleConsistency": 5
+                },
+                "approved": false,
+                "candidate": 0,
+                "reviewKind": "artwork-only-v1"
+              },
+              "responseID": "resp_046c651c293b229d016af5fc37eaf087d1a5091167ac83d944"
+            }
+          ],
+          "approved": false,
+          "decisionKey": "279fc0ac255a0ba6b589751b28f4447f253bf1d8c9fdf61b6a34d89bba2e5b15",
+          "artworkSHA256": "29e472f8c3825a46dbaeb4c865bce2788241c89c3a0bfd9c8f0e3b4a8fcee929",
+          "geometrySHA256": "c64bc9ade99d7e84659c266b1ee91042fed2738d4a2e49168d00921daf52c046",
+          "geometryEncoding": "studio-stable-json-v1"
+        },
+        "decisionKey": "279fc0ac255a0ba6b589751b28f4447f253bf1d8c9fdf61b6a34d89bba2e5b15",
+        "artworkSHA256": "29e472f8c3825a46dbaeb4c865bce2788241c89c3a0bfd9c8f0e3b4a8fcee929",
+        "geometrySHA256": "c64bc9ade99d7e84659c266b1ee91042fed2738d4a2e49168d00921daf52c046",
+        "acceptedFindings": [
+          "279fc0ac255a0ba6b589751b28f4447f253bf1d8c9fdf61b6a34d89bba2e5b15:0",
+          "279fc0ac255a0ba6b589751b28f4447f253bf1d8c9fdf61b6a34d89bba2e5b15:1"
+        ]
+      },
+      {
+        "policy": "studio-human-artwork-v1",
+        "reason": "The illustration is clear and stylistically consistent, with natural continuous greens and visible fairway striping. However, it depicts a walking connector from G3 to T2 instead of preserving the specified G1-to-T2 connector, and the G1-to-T2 connector is missing. The illustration is clear and stylistically consistent, with natural continuous greens and visible fairway stripes. However, the walking connector between G1 and T2 is missing, and a connector is instead shown between G3 and T2.",
+        "review": {
+          "issues": [
+            {
+              "code": "invented-connection",
+              "hole": 3,
+              "detail": "A walking connector is drawn from G3 down to T2; the specified connector is G1 to T2.",
+              "region": {
+                "x": 0.39,
+                "y": 0.36,
+                "width": 0.06,
+                "height": 0.22
+              },
+              "consequence": "The overview misrepresents which green connects to the next tee."
+            },
+            {
+              "code": "geometry-mismatch",
+              "hole": 1,
+              "detail": "The specified walking connector from G1 to T2 is absent.",
+              "region": {
+                "x": 0.27,
+                "y": 0.44,
+                "width": 0.17,
+                "height": 0.14
+              },
+              "consequence": "The overview omits the intended route from G1 to the next tee."
+            },
+            {
+              "code": "geometry-mismatch",
+              "hole": 1,
+              "detail": "The mapped walking connector from G1 to T2 is not shown.",
+              "region": {
+                "x": 0.27,
+                "y": 0.43,
+                "width": 0.18,
+                "height": 0.16
+              },
+              "consequence": "The overview omits the approved connection between these holes."
+            },
+            {
+              "code": "invented-connection",
+              "hole": 2,
+              "detail": "A tan walking connector runs from G3 down to T2; the mapped connector should run from G1 to T2.",
+              "region": {
+                "x": 0.39,
+                "y": 0.35,
+                "width": 0.06,
+                "height": 0.23
+              },
+              "consequence": "The overview suggests a walking connection between the wrong greens and tee."
+            }
+          ],
+          "reason": "The illustration is clear and stylistically consistent, with natural continuous greens and visible fairway striping. However, it depicts a walking connector from G3 to T2 instead of preserving the specified G1-to-T2 connector, and the G1-to-T2 connector is missing. The illustration is clear and stylistically consistent, with natural continuous greens and visible fairway stripes. However, the walking connector between G1 and T2 is missing, and a connector is instead shown between G3 and T2.",
+          "reviews": [
+            {
+              "review": {
+                "issues": [
+                  {
+                    "code": "invented-connection",
+                    "hole": 3,
+                    "detail": "A walking connector is drawn from G3 down to T2; the specified connector is G1 to T2.",
+                    "region": {
+                      "x": 0.39,
+                      "y": 0.36,
+                      "width": 0.06,
+                      "height": 0.22
+                    },
+                    "consequence": "The overview misrepresents which green connects to the next tee."
+                  },
+                  {
+                    "code": "geometry-mismatch",
+                    "hole": 1,
+                    "detail": "The specified walking connector from G1 to T2 is absent.",
+                    "region": {
+                      "x": 0.27,
+                      "y": 0.44,
+                      "width": 0.17,
+                      "height": 0.14
+                    },
+                    "consequence": "The overview omits the intended route from G1 to the next tee."
+                  }
+                ],
+                "reason": "The illustration is clear and stylistically consistent, with natural continuous greens and visible fairway striping. However, it depicts a walking connector from G3 to T2 instead of preserving the specified G1-to-T2 connector, and the G1-to-T2 connector is missing.",
+                "scores": {
+                  "naturalGreens": 5,
+                  "visualClarity": 5,
+                  "geometryFidelity": 3,
+                  "styleConsistency": 5
+                },
+                "approved": false,
+                "candidate": 0,
+                "reviewKind": "artwork-only-v1"
+              },
+              "responseID": "resp_057035d85e5409ce016af5fc3b0cc087d18cfb40ca1d8ae2fe"
+            },
+            {
+              "review": {
+                "issues": [
+                  {
+                    "code": "geometry-mismatch",
+                    "hole": 1,
+                    "detail": "The mapped walking connector from G1 to T2 is not shown.",
+                    "region": {
+                      "x": 0.27,
+                      "y": 0.43,
+                      "width": 0.18,
+                      "height": 0.16
+                    },
+                    "consequence": "The overview omits the approved connection between these holes."
+                  },
+                  {
+                    "code": "invented-connection",
+                    "hole": 2,
+                    "detail": "A tan walking connector runs from G3 down to T2; the mapped connector should run from G1 to T2.",
+                    "region": {
+                      "x": 0.39,
+                      "y": 0.35,
+                      "width": 0.06,
+                      "height": 0.23
+                    },
+                    "consequence": "The overview suggests a walking connection between the wrong greens and tee."
+                  }
+                ],
+                "reason": "The illustration is clear and stylistically consistent, with natural continuous greens and visible fairway stripes. However, the walking connector between G1 and T2 is missing, and a connector is instead shown between G3 and T2.",
+                "scores": {
+                  "naturalGreens": 5,
+                  "visualClarity": 4,
+                  "geometryFidelity": 2,
+                  "styleConsistency": 5
+                },
+                "approved": false,
+                "candidate": 0,
+                "reviewKind": "artwork-only-v1"
+              },
+              "responseID": "resp_0acdde58bce6a2cc016af5fc3b0b6087d1b05d2f6f7620ece6"
+            }
+          ],
+          "approved": false,
+          "decisionKey": "5a6d8a8ec675262db1004715909a92e0b5ac0e4a2aa341d6a3824d30475f5d2c",
+          "artworkSHA256": "5d9bdb5d7c6c512a502f3b086c6983d45e602e71806afab8123b2851245a259a",
+          "geometrySHA256": "e6fb8295f9e9c0aa080fdd978ef974f5ef79eb835df0917766cdcaa6c8e64750",
+          "geometryEncoding": "studio-stable-json-v1"
+        },
+        "decisionKey": "5a6d8a8ec675262db1004715909a92e0b5ac0e4a2aa341d6a3824d30475f5d2c",
+        "artworkSHA256": "5d9bdb5d7c6c512a502f3b086c6983d45e602e71806afab8123b2851245a259a",
+        "geometrySHA256": "e6fb8295f9e9c0aa080fdd978ef974f5ef79eb835df0917766cdcaa6c8e64750",
+        "acceptedFindings": [
+          "5a6d8a8ec675262db1004715909a92e0b5ac0e4a2aa341d6a3824d30475f5d2c:0",
+          "5a6d8a8ec675262db1004715909a92e0b5ac0e4a2aa341d6a3824d30475f5d2c:1",
+          "5a6d8a8ec675262db1004715909a92e0b5ac0e4a2aa341d6a3824d30475f5d2c:2",
+          "5a6d8a8ec675262db1004715909a92e0b5ac0e4a2aa341d6a3824d30475f5d2c:3"
+        ]
+      }
+    ],
+    "compatibilityApproved": true
+  },
+  "artworkStatus": "approved",
+  "geometrySHA256": "cf1577fc4977fb47d7d7dfb1cb750626a081bbad16af4646d17c2923f9469a20",
+  "artworkSHA256": "29e472f8c3825a46dbaeb4c865bce2788241c89c3a0bfd9c8f0e3b4a8fcee929",
+  "artworkReview": {
+    "issues": [
+      {
+        "code": "geometry-mismatch",
+        "hole": 0,
+        "detail": "The mapped yellow pin markers are absent from all three putting greens.",
+        "region": null,
+        "consequence": "The overview does not show the mapped pin locations, making the greens less faithful to the diagram."
+      },
+      {
+        "code": "geometry-mismatch",
+        "hole": 2,
+        "detail": "The tan walking path near T3 ends partway down the route and does not visibly connect to G2.",
+        "region": {
+          "x": 0.74,
+          "y": 0.34,
+          "width": 0.1,
+          "height": 0.3
+        },
+        "consequence": "The overview suggests a disconnected walking route between the second green and the third tee."
+      }
+    ],
+    "reason": "The illustration preserves the mapped property silhouette, lakes, fairway footprints, tees, greens, bunkers, and the G1-to-T2 and G2-to-T3 walking connectors. All fairway sections have visible diamond checkerboard mowing, the greens read as single natural surfaces, and the overview is clear and consistent with the supplied style. The illustration preserves the overall course layout and uses clear diamond mowing, but it omits the mapped pin markers and the G2-to-T3 walking connector does not visibly reach its destination.",
+    "reviews": [
+      {
+        "review": {
+          "issues": [],
+          "reason": "The illustration preserves the mapped property silhouette, lakes, fairway footprints, tees, greens, bunkers, and the G1-to-T2 and G2-to-T3 walking connectors. All fairway sections have visible diamond checkerboard mowing, the greens read as single natural surfaces, and the overview is clear and consistent with the supplied style.",
+          "scores": {
+            "naturalGreens": 5,
+            "visualClarity": 5,
+            "geometryFidelity": 5,
+            "styleConsistency": 5
+          },
+          "approved": true,
+          "candidate": 0,
+          "reviewKind": "artwork-only-v1"
+        },
+        "responseID": "resp_06bf9cb0b4d5898d016af5fc37ea1c87d1afdc25a68b9f9a2b"
+      },
+      {
+        "review": {
+          "issues": [
+            {
+              "code": "geometry-mismatch",
+              "hole": 0,
+              "detail": "The mapped yellow pin markers are absent from all three putting greens.",
+              "region": null,
+              "consequence": "The overview does not show the mapped pin locations, making the greens less faithful to the diagram."
+            },
+            {
+              "code": "geometry-mismatch",
+              "hole": 2,
+              "detail": "The tan walking path near T3 ends partway down the route and does not visibly connect to G2.",
+              "region": {
+                "x": 0.74,
+                "y": 0.34,
+                "width": 0.1,
+                "height": 0.3
+              },
+              "consequence": "The overview suggests a disconnected walking route between the second green and the third tee."
+            }
+          ],
+          "reason": "The illustration preserves the overall course layout and uses clear diamond mowing, but it omits the mapped pin markers and the G2-to-T3 walking connector does not visibly reach its destination.",
+          "scores": {
+            "naturalGreens": 5,
+            "visualClarity": 4,
+            "geometryFidelity": 3,
+            "styleConsistency": 5
+          },
+          "approved": false,
+          "candidate": 0,
+          "reviewKind": "artwork-only-v1"
+        },
+        "responseID": "resp_046c651c293b229d016af5fc37eaf087d1a5091167ac83d944"
+      }
+    ],
+    "approved": false,
+    "artworkSHA256": "29e472f8c3825a46dbaeb4c865bce2788241c89c3a0bfd9c8f0e3b4a8fcee929",
+    "geometrySHA256": "c64bc9ade99d7e84659c266b1ee91042fed2738d4a2e49168d00921daf52c046",
+    "geometryEncoding": "studio-stable-json-v1",
+    "decisionKey": "279fc0ac255a0ba6b589751b28f4447f253bf1d8c9fdf61b6a34d89bba2e5b15"
+  },
+  "compatibility": {
+    "policy": "studio-compatible-v1",
+    "holes": [
+      {
+        "sections": 1,
+        "addedFairwayYards": 0,
+        "addedFairwayPercent": 0,
+        "waterReshaped": false,
+        "addedFairway": []
+      },
+      {
+        "sections": 1,
+        "addedFairwayYards": 0,
+        "addedFairwayPercent": 0,
+        "waterReshaped": false,
+        "addedFairway": []
+      },
+      {
+        "sections": 1,
+        "addedFairwayYards": 0,
+        "addedFairwayPercent": 0,
+        "waterReshaped": false,
+        "addedFairway": []
+      }
+    ]
+  },
+  "holes": [
+    {
+      "par": 3,
+      "lengthYards": 231,
+      "type": "straight"
+    },
+    {
+      "par": 5,
+      "lengthYards": 569,
+      "type": "straight"
+    },
+    {
+      "par": 4,
+      "lengthYards": 478,
+      "type": "straight"
+    }
+  ],
+  "retainedOlder": {
+    "legacy": {
+      "course": 152,
+      "artworkSHA256": "5b538230d9c6f7a9c26868f89d7345f862be0918f2d84127b8cb84ce1f31b290",
+      "schemaVersion": 1,
+      "geometrySHA256": "5e3bbe3a234281d19d190bc02ed1b60b6bc2c1fba8c91aaa20fef41ec233e9a6",
+      "artRulesVersion": "fairway-stripes-v4"
+    },
+    "pairMatchupID": null
+  }
+}
