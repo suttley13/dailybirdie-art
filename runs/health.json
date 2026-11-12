@@ -1,11 +1,11 @@
 {
   "schemaVersion": 1,
-  "checkedAt": 1794502613,
+  "checkedAt": 1794516831,
   "currentCourse": 150,
   "minimumFutureCourses": 3,
-  "readyFutureCourses": 0,
+  "readyFutureCourses": 3,
   "unavailableCourse": null,
-  "status": "warning",
+  "status": "healthy",
   "courses": [
     {
       "course": 149,
@@ -17,8 +17,9 @@
     },
     {
       "course": 151,
-      "status": "invalid",
-      "error": "Pair routing does not match"
+      "status": "ready",
+      "paired": true,
+      "matchupID": "daily-pair-v1-151-02c0a4e5daaf68b2b6c2bc68d06c42fb425e818e930f97a7cc5ecfefcc0b6434"
     },
     {
       "course": 152,
