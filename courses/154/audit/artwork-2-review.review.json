@@ -1,0 +1,46 @@
+{
+  "responseID": "resp_0376079e051469d5016af87704ad6087d1beacc7e87d0c5e39",
+  "model": "gpt-6-luna",
+  "usage": {
+    "input_tokens": 8517,
+    "input_tokens_details": {
+      "cache_write_tokens": 7163,
+      "cache_write_tokens_details": {
+        "ttl_12h_tokens": 0,
+        "ttl_30m_tokens": 7163
+      },
+      "cached_tokens": 1351
+    },
+    "output_tokens": 2330,
+    "output_tokens_details": {
+      "reasoning_tokens": 2154
+    },
+    "total_tokens": 10847
+  },
+  "review": {
+    "reviewKind": "artwork-only-v1",
+    "candidate": 34,
+    "approved": false,
+    "scores": {
+      "geometryFidelity": 4,
+      "naturalGreens": 5,
+      "visualClarity": 4,
+      "styleConsistency": 3
+    },
+    "reason": "The mapped course features, natural continuous greens, and striped fairways are generally represented well. On Hole 3, added trees crowd the approach from the short fairway patch to the green, obscuring the mapped route in the overview.",
+    "issues": [
+      {
+        "code": "style",
+        "hole": 3,
+        "detail": "Tree crowns crowd the approach between the short striped fairway patch and G3.",
+        "consequence": "The overview makes the approach corridor appear obstructed and harder to read.",
+        "region": {
+          "x": 0.37,
+          "y": 0.33,
+          "width": 0.09,
+          "height": 0.12
+        }
+      }
+    ]
+  }
+}

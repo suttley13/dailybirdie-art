@@ -1,0 +1,46 @@
+{
+  "responseID": "resp_0fe8b05abcaa6aa6016af876ae532887d189c754149811f3eb",
+  "model": "gpt-6-luna",
+  "usage": {
+    "input_tokens": 8515,
+    "input_tokens_details": {
+      "cache_write_tokens": 8512,
+      "cache_write_tokens_details": {
+        "ttl_12h_tokens": 0,
+        "ttl_30m_tokens": 8512
+      },
+      "cached_tokens": 0
+    },
+    "output_tokens": 2278,
+    "output_tokens_details": {
+      "reasoning_tokens": 2070
+    },
+    "total_tokens": 10793
+  },
+  "review": {
+    "reviewKind": "artwork-only-v1",
+    "candidate": 34,
+    "approved": false,
+    "scores": {
+      "geometryFidelity": 4,
+      "naturalGreens": 5,
+      "visualClarity": 4,
+      "styleConsistency": 3
+    },
+    "reason": "The mapped layout, lakes, tees, greens, and walking connectors are generally represented clearly, and the putting greens read as continuous natural surfaces. Hole 3\u2019s small detached fairway patch lacks visible alternating mowing stripes, so it does not read as striped fairway at thumbnail scale.",
+    "issues": [
+      {
+        "code": "style",
+        "hole": 3,
+        "detail": "The small fairway patch between T3 and G3 is unstriped; add alternating bands crossing the patch edge to edge, perpendicular to its local direction of play.",
+        "consequence": "The patch can read as rough or an extra putting surface rather than as the mapped fairway.",
+        "region": {
+          "x": 0.305,
+          "y": 0.332,
+          "width": 0.076,
+          "height": 0.078
+        }
+      }
+    ]
+  }
+}

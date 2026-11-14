@@ -1,0 +1,32 @@
+{
+  "responseID": "resp_02ce3303874af23e016af87686f04887d1ae363af406a86d29",
+  "model": "gpt-6-luna",
+  "usage": {
+    "input_tokens": 59836,
+    "input_tokens_details": {
+      "cache_write_tokens": 59833,
+      "cache_write_tokens_details": {
+        "ttl_12h_tokens": 0,
+        "ttl_30m_tokens": 59833
+      },
+      "cached_tokens": 0
+    },
+    "output_tokens": 2149,
+    "output_tokens_details": {
+      "reasoning_tokens": 1859
+    },
+    "total_tokens": 61985
+  },
+  "review": {
+    "candidate": 34,
+    "approved": true,
+    "scores": {
+      "strategy": 4,
+      "withinRoundVariety": 5,
+      "acrossDaysVariety": 4,
+      "fairDifficulty": 4
+    },
+    "reason": "Candidate 34 passes as supplied. Hole 1 is a 354-yard double-dogleg par 4 with a substantial fairway lake to the left/front. The bends and bunkers make placement matter, and the dispersion probes show playable outcomes without demanding one exact tee shot. Hole 2 is a dry 588-yard par 5 with a broad staged route and fairway bunkers; its three-shot simulation and 8/9 playable tee probes support a demanding, fair long hole. Hole 3 is a 152-yard punchbowl par 3, with a 7-iron tee club and water beside the target, providing a compact distance-and-accuracy finish distinct from the longer holes. The par-4/5/3 sequence, different tee-club demands, and changing routes and target sizes give the round strong internal variety. Recent rounds include many par-5/par-3 combinations and several par-4/4/3 sets; this less-common sequence and the contrast between the bending opener, dry staged par 5, and wet short target offer good freshness. The preview and simulation evidence indicate playable landing areas and recoverable challenge. No geometry edits are needed.",
+    "edits": []
+  }
+}

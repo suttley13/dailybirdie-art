@@ -1,0 +1,33 @@
+{
+  "responseID": "resp_0a2f59c28f1d81d8016af877557d8487d183b8bae75e0c3c17",
+  "model": "gpt-6-luna",
+  "usage": {
+    "input_tokens": 8513,
+    "input_tokens_details": {
+      "cache_write_tokens": 7159,
+      "cache_write_tokens_details": {
+        "ttl_12h_tokens": 0,
+        "ttl_30m_tokens": 7159
+      },
+      "cached_tokens": 1351
+    },
+    "output_tokens": 2238,
+    "output_tokens_details": {
+      "reasoning_tokens": 2114
+    },
+    "total_tokens": 10751
+  },
+  "review": {
+    "reviewKind": "artwork-only-v1",
+    "candidate": 34,
+    "approved": true,
+    "scores": {
+      "geometryFidelity": 4,
+      "naturalGreens": 4,
+      "visualClarity": 4,
+      "styleConsistency": 5
+    },
+    "reason": "The illustration preserves the numbered tee-to-green routing, mapped hazards, walking connectors, course silhouette, and visible tees. Each green reads as one continuous natural surface, and the mapped fairway sections have clear stripes that follow their shapes. The wooded, painterly treatment is consistent with the reference while keeping the playing areas legible.",
+    "issues": []
+  }
+}

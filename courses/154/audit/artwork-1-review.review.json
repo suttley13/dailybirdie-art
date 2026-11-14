@@ -1,0 +1,46 @@
+{
+  "responseID": "resp_04257c2fc6ec9b6b016af876da47c887d18434fe9208b90b29",
+  "model": "gpt-6-luna",
+  "usage": {
+    "input_tokens": 8519,
+    "input_tokens_details": {
+      "cache_write_tokens": 7165,
+      "cache_write_tokens_details": {
+        "ttl_12h_tokens": 0,
+        "ttl_30m_tokens": 7165
+      },
+      "cached_tokens": 1351
+    },
+    "output_tokens": 2268,
+    "output_tokens_details": {
+      "reasoning_tokens": 2070
+    },
+    "total_tokens": 10787
+  },
+  "review": {
+    "reviewKind": "artwork-only-v1",
+    "candidate": 34,
+    "approved": false,
+    "scores": {
+      "geometryFidelity": 5,
+      "naturalGreens": 5,
+      "visualClarity": 4,
+      "styleConsistency": 3
+    },
+    "reason": "The course layout, mapped water and hazards, tees, and walking connectors appear faithful, and the greens read as continuous natural putting surfaces. However, the small fairway patch for Hole 3 is unstriped, unlike the clearly striped fairways elsewhere.",
+    "issues": [
+      {
+        "code": "style",
+        "hole": 3,
+        "detail": "The small fairway patch between T3 and G3 has uniform turf rather than visible alternating mowing stripes.",
+        "consequence": "At overview scale, this mapped fairway patch is harder to distinguish from surrounding common grass and does not meet the required fairway treatment.",
+        "region": {
+          "x": 0.3,
+          "y": 0.33,
+          "width": 0.08,
+          "height": 0.07
+        }
+      }
+    ]
+  }
+}
