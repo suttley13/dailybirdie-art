@@ -1,0 +1,187 @@
+{
+  "geometrySHA256": "4fa0f0f7a5a6a89831eec127f01b74e8d9ef7b18d66a4e5af0d58efa3b2ab549",
+  "artworkSHA256": "62f18d5d3ba1ec646b10b2a0c815cec7b1c4bf78a32811aab08ef2b07ba0a682",
+  "humanApproved": true,
+  "reviews": [
+    {
+      "review": {
+        "issues": [
+          {
+            "code": "green-treatment",
+            "hole": 1,
+            "detail": "The putting surface is shown as a distinct pale inset disc within a broad contrasting green band and dark raised-looking rim.",
+            "region": {
+              "x": 0.24,
+              "y": 0.13,
+              "width": 0.13,
+              "height": 0.14
+            },
+            "consequence": "The overview reads as a ringed or nested green rather than one continuous natural putting surface."
+          },
+          {
+            "code": "green-treatment",
+            "hole": 3,
+            "detail": "The green has a separate light central surface surrounded by a broad contrasting band and pronounced rim.",
+            "region": {
+              "x": 0.8,
+              "y": 0.64,
+              "width": 0.14,
+              "height": 0.16
+            },
+            "consequence": "The overview reads as a nested or raised green instead of one continuous natural putting surface."
+          },
+          {
+            "code": "style",
+            "hole": 3,
+            "detail": "The central desert corridor is crowded with prominent palms and other vegetation compared with the sparse distribution shown in the geometry.",
+            "region": {
+              "x": 0.35,
+              "y": 0.34,
+              "width": 0.38,
+              "height": 0.38
+            },
+            "consequence": "The overview makes this mapped desert area appear like a densely planted oasis and obscures the intended sparse landscape character."
+          }
+        ],
+        "reason": "The mapped course layout and fairway striping are largely preserved, but the greens at holes 1 and 3 read as inset putting discs within broad contrasting rings, and the planting is denser than the mapped sparse desert distribution.",
+        "scores": {
+          "naturalGreens": 3,
+          "visualClarity": 4,
+          "geometryFidelity": 4,
+          "styleConsistency": 4,
+          "environmentFidelity": 3
+        },
+        "approved": false,
+        "candidate": 0,
+        "reviewKind": "artwork-environment-v2",
+        "environment": "palmSprings"
+      },
+      "responseID": "resp_0aa4f9f450bea404016af8b64632fc87d1a736f2bc3e1102ff"
+    }
+  ],
+  "humanArtworkAcceptance": {
+    "policy": "studio-human-artwork-v1",
+    "reason": "The mapped course layout and fairway striping are largely preserved, but the greens at holes 1 and 3 read as inset putting discs within broad contrasting rings, and the planting is denser than the mapped sparse desert distribution. An automated artwork check could not finish.",
+    "review": {
+      "issues": [
+        {
+          "code": "green-treatment",
+          "hole": 1,
+          "detail": "The putting surface is shown as a distinct pale inset disc within a broad contrasting green band and dark raised-looking rim.",
+          "region": {
+            "x": 0.24,
+            "y": 0.13,
+            "width": 0.13,
+            "height": 0.14
+          },
+          "consequence": "The overview reads as a ringed or nested green rather than one continuous natural putting surface."
+        },
+        {
+          "code": "green-treatment",
+          "hole": 3,
+          "detail": "The green has a separate light central surface surrounded by a broad contrasting band and pronounced rim.",
+          "region": {
+            "x": 0.8,
+            "y": 0.64,
+            "width": 0.14,
+            "height": 0.16
+          },
+          "consequence": "The overview reads as a nested or raised green instead of one continuous natural putting surface."
+        },
+        {
+          "code": "style",
+          "hole": 3,
+          "detail": "The central desert corridor is crowded with prominent palms and other vegetation compared with the sparse distribution shown in the geometry.",
+          "region": {
+            "x": 0.35,
+            "y": 0.34,
+            "width": 0.38,
+            "height": 0.38
+          },
+          "consequence": "The overview makes this mapped desert area appear like a densely planted oasis and obscures the intended sparse landscape character."
+        },
+        {
+          "code": "review",
+          "hole": 0,
+          "detail": "An automated artwork check could not finish.",
+          "region": null,
+          "consequence": "There is no complete automated verdict. Inspect the illustration, recheck it, or explicitly accept this missing review. Gameplay and asset integrity checks still apply."
+        }
+      ],
+      "reason": "The mapped course layout and fairway striping are largely preserved, but the greens at holes 1 and 3 read as inset putting discs within broad contrasting rings, and the planting is denser than the mapped sparse desert distribution. An automated artwork check could not finish.",
+      "reviews": [
+        {
+          "review": {
+            "issues": [
+              {
+                "code": "green-treatment",
+                "hole": 1,
+                "detail": "The putting surface is shown as a distinct pale inset disc within a broad contrasting green band and dark raised-looking rim.",
+                "region": {
+                  "x": 0.24,
+                  "y": 0.13,
+                  "width": 0.13,
+                  "height": 0.14
+                },
+                "consequence": "The overview reads as a ringed or nested green rather than one continuous natural putting surface."
+              },
+              {
+                "code": "green-treatment",
+                "hole": 3,
+                "detail": "The green has a separate light central surface surrounded by a broad contrasting band and pronounced rim.",
+                "region": {
+                  "x": 0.8,
+                  "y": 0.64,
+                  "width": 0.14,
+                  "height": 0.16
+                },
+                "consequence": "The overview reads as a nested or raised green instead of one continuous natural putting surface."
+              },
+              {
+                "code": "style",
+                "hole": 3,
+                "detail": "The central desert corridor is crowded with prominent palms and other vegetation compared with the sparse distribution shown in the geometry.",
+                "region": {
+                  "x": 0.35,
+                  "y": 0.34,
+                  "width": 0.38,
+                  "height": 0.38
+                },
+                "consequence": "The overview makes this mapped desert area appear like a densely planted oasis and obscures the intended sparse landscape character."
+              }
+            ],
+            "reason": "The mapped course layout and fairway striping are largely preserved, but the greens at holes 1 and 3 read as inset putting discs within broad contrasting rings, and the planting is denser than the mapped sparse desert distribution.",
+            "scores": {
+              "naturalGreens": 3,
+              "visualClarity": 4,
+              "geometryFidelity": 4,
+              "styleConsistency": 4,
+              "environmentFidelity": 3
+            },
+            "approved": false,
+            "candidate": 0,
+            "reviewKind": "artwork-environment-v2",
+            "environment": "palmSprings"
+          },
+          "responseID": "resp_0aa4f9f450bea404016af8b64632fc87d1a736f2bc3e1102ff"
+        }
+      ],
+      "approved": false,
+      "decisionKey": "bdb5e652a9092b292816b6527ecb405f5054380771f907c891d0df45b18a4bf1",
+      "artworkSHA256": "62f18d5d3ba1ec646b10b2a0c815cec7b1c4bf78a32811aab08ef2b07ba0a682",
+      "geometrySHA256": "cd3bc1dcf917eb000e029400d4025625f51834fa1a69b5f4a4c0b350ea8eb553",
+      "geometryEncoding": "studio-stable-json-v1"
+    },
+    "decisionKey": "bdb5e652a9092b292816b6527ecb405f5054380771f907c891d0df45b18a4bf1",
+    "artworkSHA256": "62f18d5d3ba1ec646b10b2a0c815cec7b1c4bf78a32811aab08ef2b07ba0a682",
+    "geometrySHA256": "4fa0f0f7a5a6a89831eec127f01b74e8d9ef7b18d66a4e5af0d58efa3b2ab549",
+    "acceptedFindings": [
+      "bdb5e652a9092b292816b6527ecb405f5054380771f907c891d0df45b18a4bf1:0",
+      "bdb5e652a9092b292816b6527ecb405f5054380771f907c891d0df45b18a4bf1:1",
+      "bdb5e652a9092b292816b6527ecb405f5054380771f907c891d0df45b18a4bf1:2",
+      "bdb5e652a9092b292816b6527ecb405f5054380771f907c891d0df45b18a4bf1:3"
+    ],
+    "sourceGeometrySHA256": "cd3bc1dcf917eb000e029400d4025625f51834fa1a69b5f4a4c0b350ea8eb553",
+    "approvedAt": "2026-11-14T21:02:08.645Z"
+  }
+}

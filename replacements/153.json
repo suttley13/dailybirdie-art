@@ -1,0 +1,16 @@
+{
+  "schemaVersion": 1,
+  "course": 153,
+  "date": "2026-11-16",
+  "replacementMatchupID": "daily-pair-v1-153-4ca1194f2d6e1a0f718d70057135e1c5d2a472e7cf74b8a10ad53a1500a28001",
+  "previousSources": [
+    {
+      "schemaVersion": 1,
+      "course": 153,
+      "geometrySHA256": "e4d58854ea1f577a224d6f5e3f5840d4b022437a631139aa16b9a2c724cef3ca",
+      "artworkSHA256": "08b0b7e60e98f13d41de58d2d2eaaa9ea06c315063e88c1149f088250a61f767",
+      "artRulesVersion": "fairway-stripes-v4"
+    }
+  ],
+  "replacedAtUTC": "2026-11-14T21:04:15.081601+00:00"
+}

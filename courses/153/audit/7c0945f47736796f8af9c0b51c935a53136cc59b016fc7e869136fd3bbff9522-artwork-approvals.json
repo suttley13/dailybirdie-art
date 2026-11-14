@@ -1,0 +1,283 @@
+{
+  "geometrySHA256": "606a994b58ad4b4802c972ec08e25132250742b89fb05aab85e69e7ecb39cd2f",
+  "artworkSHA256": "7c0945f47736796f8af9c0b51c935a53136cc59b016fc7e869136fd3bbff9522",
+  "humanApproved": true,
+  "reviews": [
+    {
+      "review": {
+        "issues": [
+          {
+            "code": "style",
+            "hole": 2,
+            "detail": "The small fairway patch beside T2 is rendered as uniform turf without clearly visible edge-to-edge mowing stripes.",
+            "region": {
+              "x": 0.22,
+              "y": 0.57,
+              "width": 0.06,
+              "height": 0.07
+            },
+            "consequence": "At overview scale, the patch may be mistaken for another putting green rather than the mapped fairway."
+          }
+        ],
+        "reason": "The illustration broadly matches the mapped course and reference style, but the small mapped fairway patch by hole 2 is unstriped and reads more like an extra green than a fairway. The current image therefore does not meet the fairway-stripe requirement.",
+        "scores": {
+          "naturalGreens": 4,
+          "visualClarity": 4,
+          "geometryFidelity": 4,
+          "styleConsistency": 3
+        },
+        "approved": false,
+        "candidate": 0,
+        "reviewKind": "artwork-only-v1"
+      },
+      "responseID": "resp_0802910c845c87a2016af8b64a5dbc87d1838177beb4a27632"
+    },
+    {
+      "review": {
+        "issues": [
+          {
+            "code": "style",
+            "hole": 2,
+            "detail": "The small mapped fairway patch beside T2 is rendered as uniform turf without clearly visible alternating stripes.",
+            "region": {
+              "x": 0.22,
+              "y": 0.56,
+              "width": 0.06,
+              "height": 0.05
+            },
+            "consequence": "At overview scale, this mapped fairway section may be mistaken for rough or a putting green."
+          },
+          {
+            "code": "geometry-mismatch",
+            "hole": 1,
+            "detail": "The yellow mapped marker at G1 is not visibly preserved on the illustrated green.",
+            "region": {
+              "x": 0.29,
+              "y": 0.2,
+              "width": 0.07,
+              "height": 0.06
+            },
+            "consequence": "The intended green location is less clearly identified in the overview."
+          },
+          {
+            "code": "geometry-mismatch",
+            "hole": 2,
+            "detail": "The yellow mapped marker at G2 is not visibly preserved on the island green.",
+            "region": {
+              "x": 0.27,
+              "y": 0.42,
+              "width": 0.05,
+              "height": 0.06
+            },
+            "consequence": "The intended green location is less clearly identified in the overview."
+          },
+          {
+            "code": "geometry-mismatch",
+            "hole": 3,
+            "detail": "The yellow mapped marker at G3 is not visibly preserved on the green.",
+            "region": {
+              "x": 0.75,
+              "y": 0.62,
+              "width": 0.06,
+              "height": 0.06
+            },
+            "consequence": "The intended green location is less clearly identified in the overview."
+          }
+        ],
+        "reason": "The course silhouette, water, and main hole layouts are generally legible and close to the diagram. The small fairway patch by Hole 2 lacks the required mowing stripes, and the mapped green markers are not visibly preserved.",
+        "scores": {
+          "naturalGreens": 4,
+          "visualClarity": 4,
+          "geometryFidelity": 4,
+          "styleConsistency": 3
+        },
+        "approved": false,
+        "candidate": 0,
+        "reviewKind": "artwork-only-v1"
+      },
+      "responseID": "resp_00a47ebca71b33a2016af8b64a648487d194164f4b42c428c8"
+    }
+  ],
+  "humanArtworkAcceptance": {
+    "policy": "studio-human-artwork-v1",
+    "reason": "The illustration broadly matches the mapped course and reference style, but the small mapped fairway patch by hole 2 is unstriped and reads more like an extra green than a fairway. The current image therefore does not meet the fairway-stripe requirement. The course silhouette, water, and main hole layouts are generally legible and close to the diagram. The small fairway patch by Hole 2 lacks the required mowing stripes, and the mapped green markers are not visibly preserved.",
+    "review": {
+      "issues": [
+        {
+          "code": "style",
+          "hole": 2,
+          "detail": "The small fairway patch beside T2 is rendered as uniform turf without clearly visible edge-to-edge mowing stripes.",
+          "region": {
+            "x": 0.22,
+            "y": 0.57,
+            "width": 0.06,
+            "height": 0.07
+          },
+          "consequence": "At overview scale, the patch may be mistaken for another putting green rather than the mapped fairway."
+        },
+        {
+          "code": "style",
+          "hole": 2,
+          "detail": "The small mapped fairway patch beside T2 is rendered as uniform turf without clearly visible alternating stripes.",
+          "region": {
+            "x": 0.22,
+            "y": 0.56,
+            "width": 0.06,
+            "height": 0.05
+          },
+          "consequence": "At overview scale, this mapped fairway section may be mistaken for rough or a putting green."
+        },
+        {
+          "code": "geometry-mismatch",
+          "hole": 1,
+          "detail": "The yellow mapped marker at G1 is not visibly preserved on the illustrated green.",
+          "region": {
+            "x": 0.29,
+            "y": 0.2,
+            "width": 0.07,
+            "height": 0.06
+          },
+          "consequence": "The intended green location is less clearly identified in the overview."
+        },
+        {
+          "code": "geometry-mismatch",
+          "hole": 2,
+          "detail": "The yellow mapped marker at G2 is not visibly preserved on the island green.",
+          "region": {
+            "x": 0.27,
+            "y": 0.42,
+            "width": 0.05,
+            "height": 0.06
+          },
+          "consequence": "The intended green location is less clearly identified in the overview."
+        },
+        {
+          "code": "geometry-mismatch",
+          "hole": 3,
+          "detail": "The yellow mapped marker at G3 is not visibly preserved on the green.",
+          "region": {
+            "x": 0.75,
+            "y": 0.62,
+            "width": 0.06,
+            "height": 0.06
+          },
+          "consequence": "The intended green location is less clearly identified in the overview."
+        }
+      ],
+      "reason": "The illustration broadly matches the mapped course and reference style, but the small mapped fairway patch by hole 2 is unstriped and reads more like an extra green than a fairway. The current image therefore does not meet the fairway-stripe requirement. The course silhouette, water, and main hole layouts are generally legible and close to the diagram. The small fairway patch by Hole 2 lacks the required mowing stripes, and the mapped green markers are not visibly preserved.",
+      "reviews": [
+        {
+          "review": {
+            "issues": [
+              {
+                "code": "style",
+                "hole": 2,
+                "detail": "The small fairway patch beside T2 is rendered as uniform turf without clearly visible edge-to-edge mowing stripes.",
+                "region": {
+                  "x": 0.22,
+                  "y": 0.57,
+                  "width": 0.06,
+                  "height": 0.07
+                },
+                "consequence": "At overview scale, the patch may be mistaken for another putting green rather than the mapped fairway."
+              }
+            ],
+            "reason": "The illustration broadly matches the mapped course and reference style, but the small mapped fairway patch by hole 2 is unstriped and reads more like an extra green than a fairway. The current image therefore does not meet the fairway-stripe requirement.",
+            "scores": {
+              "naturalGreens": 4,
+              "visualClarity": 4,
+              "geometryFidelity": 4,
+              "styleConsistency": 3
+            },
+            "approved": false,
+            "candidate": 0,
+            "reviewKind": "artwork-only-v1"
+          },
+          "responseID": "resp_0802910c845c87a2016af8b64a5dbc87d1838177beb4a27632"
+        },
+        {
+          "review": {
+            "issues": [
+              {
+                "code": "style",
+                "hole": 2,
+                "detail": "The small mapped fairway patch beside T2 is rendered as uniform turf without clearly visible alternating stripes.",
+                "region": {
+                  "x": 0.22,
+                  "y": 0.56,
+                  "width": 0.06,
+                  "height": 0.05
+                },
+                "consequence": "At overview scale, this mapped fairway section may be mistaken for rough or a putting green."
+              },
+              {
+                "code": "geometry-mismatch",
+                "hole": 1,
+                "detail": "The yellow mapped marker at G1 is not visibly preserved on the illustrated green.",
+                "region": {
+                  "x": 0.29,
+                  "y": 0.2,
+                  "width": 0.07,
+                  "height": 0.06
+                },
+                "consequence": "The intended green location is less clearly identified in the overview."
+              },
+              {
+                "code": "geometry-mismatch",
+                "hole": 2,
+                "detail": "The yellow mapped marker at G2 is not visibly preserved on the island green.",
+                "region": {
+                  "x": 0.27,
+                  "y": 0.42,
+                  "width": 0.05,
+                  "height": 0.06
+                },
+                "consequence": "The intended green location is less clearly identified in the overview."
+              },
+              {
+                "code": "geometry-mismatch",
+                "hole": 3,
+                "detail": "The yellow mapped marker at G3 is not visibly preserved on the green.",
+                "region": {
+                  "x": 0.75,
+                  "y": 0.62,
+                  "width": 0.06,
+                  "height": 0.06
+                },
+                "consequence": "The intended green location is less clearly identified in the overview."
+              }
+            ],
+            "reason": "The course silhouette, water, and main hole layouts are generally legible and close to the diagram. The small fairway patch by Hole 2 lacks the required mowing stripes, and the mapped green markers are not visibly preserved.",
+            "scores": {
+              "naturalGreens": 4,
+              "visualClarity": 4,
+              "geometryFidelity": 4,
+              "styleConsistency": 3
+            },
+            "approved": false,
+            "candidate": 0,
+            "reviewKind": "artwork-only-v1"
+          },
+          "responseID": "resp_00a47ebca71b33a2016af8b64a648487d194164f4b42c428c8"
+        }
+      ],
+      "approved": false,
+      "decisionKey": "f43a46c01bcbc581c3b78b2b5ebe9083cbbc12d2b803c9bd662b14bd18a572e7",
+      "artworkSHA256": "7c0945f47736796f8af9c0b51c935a53136cc59b016fc7e869136fd3bbff9522",
+      "geometrySHA256": "7c47e8ef1c01c5a80f21e1b02cb96bfb98095855be7354016a3dc539e77dae8b",
+      "geometryEncoding": "studio-stable-json-v1"
+    },
+    "decisionKey": "f43a46c01bcbc581c3b78b2b5ebe9083cbbc12d2b803c9bd662b14bd18a572e7",
+    "artworkSHA256": "7c0945f47736796f8af9c0b51c935a53136cc59b016fc7e869136fd3bbff9522",
+    "geometrySHA256": "606a994b58ad4b4802c972ec08e25132250742b89fb05aab85e69e7ecb39cd2f",
+    "acceptedFindings": [
+      "f43a46c01bcbc581c3b78b2b5ebe9083cbbc12d2b803c9bd662b14bd18a572e7:0",
+      "f43a46c01bcbc581c3b78b2b5ebe9083cbbc12d2b803c9bd662b14bd18a572e7:1",
+      "f43a46c01bcbc581c3b78b2b5ebe9083cbbc12d2b803c9bd662b14bd18a572e7:2",
+      "f43a46c01bcbc581c3b78b2b5ebe9083cbbc12d2b803c9bd662b14bd18a572e7:3",
+      "f43a46c01bcbc581c3b78b2b5ebe9083cbbc12d2b803c9bd662b14bd18a572e7:4"
+    ],
+    "sourceGeometrySHA256": "7c47e8ef1c01c5a80f21e1b02cb96bfb98095855be7354016a3dc539e77dae8b",
+    "approvedAt": "2026-11-14T21:02:08.645Z"
+  }
+}
