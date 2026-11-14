@@ -1,0 +1,11 @@
+{
+  "schemaVersion": 3,
+  "course": 154,
+  "gameplayRules": "studio-v1",
+  "geometrySHA256": "0d569f0a5775f74db83d4d0662a3c4adb6d4a94f35e9c537a8eb348e2943092b",
+  "artworkSHA256": "c6c8ea906c9c29fbe779d242fd4662cedcba389b5ed649cd2abc8c7b3b43b2b7",
+  "artRulesVersion": "course-studio-artwork-1",
+  "minimumAppVersion": "1.8",
+  "mowing": "diagonal",
+  "forest": "sandhills"
+}

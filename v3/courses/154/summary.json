@@ -1,0 +1,468 @@
+{
+  "course": 154,
+  "date": "2026-11-17",
+  "name": "Holes from courses 125, 126 and 138",
+  "studioJob": "1b2c6043-a3da-4bd1-84cb-23506ed73296",
+  "draftFingerprint": "1793571418119d9228e7c0bb19ee7c1140a58012ea8426269367b9f4d64d545f",
+  "approval": {
+    "approvedAt": "2026-11-14T21:33:14.992Z",
+    "playtested": true,
+    "humanApproved": true,
+    "retainedOlder": {
+      "legacy": {
+        "course": 154,
+        "artworkSHA256": "607ed2add6b470d09169925573379631bdb679692de499c32ce325cdcb8c2f8a",
+        "schemaVersion": 1,
+        "geometrySHA256": "ec20290acf4ec72a228ceb42f1c6d56bff78e462a17cec27f14c4c7aa3fb6856",
+        "artRulesVersion": "fairway-stripes-v4"
+      },
+      "pairMatchupID": null
+    },
+    "artworkOverrides": [
+      {
+        "policy": "studio-human-artwork-v1",
+        "reason": "The illustration is clear and the greens, wooded treatment, and striped fairways are generally well rendered. However, the G1-to-T2 walking connector is not preserved: the visible path near T2 appears to begin at the H2 fairway rather than at G1. The mapped G1-to-T2 walking connector appears to start beside the upper fairway rather than at G1. The other reviewed artwork criteria are acceptable.",
+        "review": {
+          "issues": [
+            {
+              "code": "geometry-mismatch",
+              "hole": 1,
+              "detail": "The required walking connector from G1 to T2 is missing or misplaced. The visible tan path near T2 runs from the H2 fairway to the tee instead of connecting G1 to T2.",
+              "region": {
+                "x": 0.67,
+                "y": 0.25,
+                "width": 0.13,
+                "height": 0.12
+              },
+              "consequence": "The overview misrepresents how players walk between holes and where that connector begins."
+            },
+            {
+              "code": "geometry-mismatch",
+              "hole": 1,
+              "detail": "The G1-to-T2 walking connector is detached from G1 and appears to begin beside the upper fairway.",
+              "region": {
+                "x": 0.67,
+                "y": 0.25,
+                "width": 0.13,
+                "height": 0.1
+              },
+              "consequence": "The overview misrepresents where the walk from G1 to T2 begins."
+            }
+          ],
+          "reason": "The illustration is clear and the greens, wooded treatment, and striped fairways are generally well rendered. However, the G1-to-T2 walking connector is not preserved: the visible path near T2 appears to begin at the H2 fairway rather than at G1. The mapped G1-to-T2 walking connector appears to start beside the upper fairway rather than at G1. The other reviewed artwork criteria are acceptable.",
+          "reviews": [
+            {
+              "review": {
+                "issues": [
+                  {
+                    "code": "geometry-mismatch",
+                    "hole": 1,
+                    "detail": "The required walking connector from G1 to T2 is missing or misplaced. The visible tan path near T2 runs from the H2 fairway to the tee instead of connecting G1 to T2.",
+                    "region": {
+                      "x": 0.67,
+                      "y": 0.25,
+                      "width": 0.13,
+                      "height": 0.12
+                    },
+                    "consequence": "The overview misrepresents how players walk between holes and where that connector begins."
+                  }
+                ],
+                "reason": "The illustration is clear and the greens, wooded treatment, and striped fairways are generally well rendered. However, the G1-to-T2 walking connector is not preserved: the visible path near T2 appears to begin at the H2 fairway rather than at G1.",
+                "scores": {
+                  "naturalGreens": 4,
+                  "visualClarity": 4,
+                  "geometryFidelity": 3,
+                  "styleConsistency": 4
+                },
+                "approved": false,
+                "candidate": 0,
+                "reviewKind": "artwork-only-v1"
+              },
+              "responseID": "resp_051cd85b688ee093016af8d1f5df9887d1a3304598a74b3ba3"
+            },
+            {
+              "review": {
+                "issues": [
+                  {
+                    "code": "geometry-mismatch",
+                    "hole": 1,
+                    "detail": "The G1-to-T2 walking connector is detached from G1 and appears to begin beside the upper fairway.",
+                    "region": {
+                      "x": 0.67,
+                      "y": 0.25,
+                      "width": 0.13,
+                      "height": 0.1
+                    },
+                    "consequence": "The overview misrepresents where the walk from G1 to T2 begins."
+                  }
+                ],
+                "reason": "The mapped G1-to-T2 walking connector appears to start beside the upper fairway rather than at G1. The other reviewed artwork criteria are acceptable.",
+                "scores": {
+                  "naturalGreens": 4,
+                  "visualClarity": 4,
+                  "geometryFidelity": 3,
+                  "styleConsistency": 4
+                },
+                "approved": false,
+                "candidate": 0,
+                "reviewKind": "artwork-only-v1"
+              },
+              "responseID": "resp_048fdb9fdf57f1ad016af8d1f5da8487d1a590440cef5d745e"
+            }
+          ],
+          "approved": false,
+          "decisionKey": "ea2433d745ca5aead9185ea814565d775ba3f50d8e00a5b42bd86492b7595721",
+          "artworkSHA256": "c6c8ea906c9c29fbe779d242fd4662cedcba389b5ed649cd2abc8c7b3b43b2b7",
+          "geometrySHA256": "ed093d38abd8c8ba4f04500acbc64436767c690914d650695de5b704dede2177",
+          "geometryEncoding": "studio-stable-json-v1"
+        },
+        "decisionKey": "ea2433d745ca5aead9185ea814565d775ba3f50d8e00a5b42bd86492b7595721",
+        "artworkSHA256": "c6c8ea906c9c29fbe779d242fd4662cedcba389b5ed649cd2abc8c7b3b43b2b7",
+        "geometrySHA256": "ed093d38abd8c8ba4f04500acbc64436767c690914d650695de5b704dede2177",
+        "acceptedFindings": [
+          "ea2433d745ca5aead9185ea814565d775ba3f50d8e00a5b42bd86492b7595721:0",
+          "ea2433d745ca5aead9185ea814565d775ba3f50d8e00a5b42bd86492b7595721:1"
+        ]
+      },
+      {
+        "policy": "studio-human-artwork-v1",
+        "reason": "The illustration has strong natural-green treatment, clear fairway stripes, and a consistent wooded style, but the course silhouette and mapped feature placement do not closely match the diagram. The greens read as continuous natural putting surfaces, and the overall illustration is clear. However, the G1-to-T2 walking connector appears interrupted, and hole 2\u2019s curving central fairway section lacks clearly visible edge-to-edge mowing stripes.",
+        "review": {
+          "issues": [
+            {
+              "code": "geometry-mismatch",
+              "hole": 0,
+              "detail": "The illustrated property perimeter is visibly larger and shifted relative to the diagram, especially along the upper and left edges. The hole layouts are also displaced within that altered footprint.",
+              "region": {
+                "x": 0.06,
+                "y": 0.14,
+                "width": 0.88,
+                "height": 0.68
+              },
+              "consequence": "The overview gives a misleading impression of the approved course's property outline and feature locations."
+            },
+            {
+              "code": "geometry-mismatch",
+              "hole": 2,
+              "detail": "The T2 and its long fairway are substantially higher and farther left than their mapped positions; the curved water corridor around the wooded island also extends farther right and higher than shown in the diagram.",
+              "region": {
+                "x": 0.53,
+                "y": 0.25,
+                "width": 0.34,
+                "height": 0.34
+              },
+              "consequence": "Hole 2's tee, fairway, and water appear in different relative positions in the overview."
+            },
+            {
+              "code": "geometry-mismatch",
+              "hole": 1,
+              "detail": "The mapped walking connector from G1 to T2 appears in separate pieces: one ends near the left edge of hole 2\u2019s upper fairway, while another begins near its right edge, leaving the connector visibly incomplete.",
+              "region": {
+                "x": 0.47,
+                "y": 0.32,
+                "width": 0.34,
+                "height": 0.1
+              },
+              "consequence": "The overview would not show the full mapped walk from G1 to T2."
+            },
+            {
+              "code": "style",
+              "hole": 2,
+              "detail": "The central curved fairway section between the upper fairway and G2 has no clearly visible alternating stripes at thumbnail scale; its turf reads mostly uniform.",
+              "region": {
+                "x": 0.51,
+                "y": 0.36,
+                "width": 0.12,
+                "height": 0.28
+              },
+              "consequence": "This section is harder to identify as fairway in the overview, and hole 2 does not meet the required fairway-striping treatment."
+            }
+          ],
+          "reason": "The illustration has strong natural-green treatment, clear fairway stripes, and a consistent wooded style, but the course silhouette and mapped feature placement do not closely match the diagram. The greens read as continuous natural putting surfaces, and the overall illustration is clear. However, the G1-to-T2 walking connector appears interrupted, and hole 2\u2019s curving central fairway section lacks clearly visible edge-to-edge mowing stripes.",
+          "reviews": [
+            {
+              "review": {
+                "issues": [
+                  {
+                    "code": "geometry-mismatch",
+                    "hole": 0,
+                    "detail": "The illustrated property perimeter is visibly larger and shifted relative to the diagram, especially along the upper and left edges. The hole layouts are also displaced within that altered footprint.",
+                    "region": {
+                      "x": 0.06,
+                      "y": 0.14,
+                      "width": 0.88,
+                      "height": 0.68
+                    },
+                    "consequence": "The overview gives a misleading impression of the approved course's property outline and feature locations."
+                  },
+                  {
+                    "code": "geometry-mismatch",
+                    "hole": 2,
+                    "detail": "The T2 and its long fairway are substantially higher and farther left than their mapped positions; the curved water corridor around the wooded island also extends farther right and higher than shown in the diagram.",
+                    "region": {
+                      "x": 0.53,
+                      "y": 0.25,
+                      "width": 0.34,
+                      "height": 0.34
+                    },
+                    "consequence": "Hole 2's tee, fairway, and water appear in different relative positions in the overview."
+                  }
+                ],
+                "reason": "The illustration has strong natural-green treatment, clear fairway stripes, and a consistent wooded style, but the course silhouette and mapped feature placement do not closely match the diagram.",
+                "scores": {
+                  "naturalGreens": 5,
+                  "visualClarity": 4,
+                  "geometryFidelity": 3,
+                  "styleConsistency": 5
+                },
+                "approved": false,
+                "candidate": 0,
+                "reviewKind": "artwork-only-v1"
+              },
+              "responseID": "resp_07a30866e4c1c25d016af8d1f8498887d1878821cc48456538"
+            },
+            {
+              "review": {
+                "issues": [
+                  {
+                    "code": "geometry-mismatch",
+                    "hole": 1,
+                    "detail": "The mapped walking connector from G1 to T2 appears in separate pieces: one ends near the left edge of hole 2\u2019s upper fairway, while another begins near its right edge, leaving the connector visibly incomplete.",
+                    "region": {
+                      "x": 0.47,
+                      "y": 0.32,
+                      "width": 0.34,
+                      "height": 0.1
+                    },
+                    "consequence": "The overview would not show the full mapped walk from G1 to T2."
+                  },
+                  {
+                    "code": "style",
+                    "hole": 2,
+                    "detail": "The central curved fairway section between the upper fairway and G2 has no clearly visible alternating stripes at thumbnail scale; its turf reads mostly uniform.",
+                    "region": {
+                      "x": 0.51,
+                      "y": 0.36,
+                      "width": 0.12,
+                      "height": 0.28
+                    },
+                    "consequence": "This section is harder to identify as fairway in the overview, and hole 2 does not meet the required fairway-striping treatment."
+                  }
+                ],
+                "reason": "The greens read as continuous natural putting surfaces, and the overall illustration is clear. However, the G1-to-T2 walking connector appears interrupted, and hole 2\u2019s curving central fairway section lacks clearly visible edge-to-edge mowing stripes.",
+                "scores": {
+                  "naturalGreens": 5,
+                  "visualClarity": 4,
+                  "geometryFidelity": 3,
+                  "styleConsistency": 3
+                },
+                "approved": false,
+                "candidate": 0,
+                "reviewKind": "artwork-only-v1"
+              },
+              "responseID": "resp_0d5b81d1c1e21c56016af8d1f84dc487d18d3650ae6a41c17a"
+            }
+          ],
+          "approved": false,
+          "decisionKey": "367079fabc6408650e6312abbc43070d102c7556c87d9f172867a8468eb6bfc7",
+          "artworkSHA256": "f3852e5b82b87c6f64fac9b26091152df7434e6f10d41d08aaa39a21f381c0df",
+          "geometrySHA256": "97814e54ebdf80487687d1c79fcfd3204aef2f85de08a84e648d4061562348ae",
+          "geometryEncoding": "studio-stable-json-v1"
+        },
+        "decisionKey": "367079fabc6408650e6312abbc43070d102c7556c87d9f172867a8468eb6bfc7",
+        "artworkSHA256": "f3852e5b82b87c6f64fac9b26091152df7434e6f10d41d08aaa39a21f381c0df",
+        "geometrySHA256": "97814e54ebdf80487687d1c79fcfd3204aef2f85de08a84e648d4061562348ae",
+        "acceptedFindings": [
+          "367079fabc6408650e6312abbc43070d102c7556c87d9f172867a8468eb6bfc7:0",
+          "367079fabc6408650e6312abbc43070d102c7556c87d9f172867a8468eb6bfc7:1",
+          "367079fabc6408650e6312abbc43070d102c7556c87d9f172867a8468eb6bfc7:2",
+          "367079fabc6408650e6312abbc43070d102c7556c87d9f172867a8468eb6bfc7:3"
+        ]
+      }
+    ],
+    "compatibilityApproved": true
+  },
+  "artworkStatus": "approved",
+  "geometrySHA256": "0d569f0a5775f74db83d4d0662a3c4adb6d4a94f35e9c537a8eb348e2943092b",
+  "artworkSHA256": "c6c8ea906c9c29fbe779d242fd4662cedcba389b5ed649cd2abc8c7b3b43b2b7",
+  "artworkReview": {
+    "issues": [
+      {
+        "code": "geometry-mismatch",
+        "hole": 1,
+        "detail": "The required walking connector from G1 to T2 is missing or misplaced. The visible tan path near T2 runs from the H2 fairway to the tee instead of connecting G1 to T2.",
+        "region": {
+          "x": 0.67,
+          "y": 0.25,
+          "width": 0.13,
+          "height": 0.12
+        },
+        "consequence": "The overview misrepresents how players walk between holes and where that connector begins."
+      },
+      {
+        "code": "geometry-mismatch",
+        "hole": 1,
+        "detail": "The G1-to-T2 walking connector is detached from G1 and appears to begin beside the upper fairway.",
+        "region": {
+          "x": 0.67,
+          "y": 0.25,
+          "width": 0.13,
+          "height": 0.1
+        },
+        "consequence": "The overview misrepresents where the walk from G1 to T2 begins."
+      }
+    ],
+    "reason": "The illustration is clear and the greens, wooded treatment, and striped fairways are generally well rendered. However, the G1-to-T2 walking connector is not preserved: the visible path near T2 appears to begin at the H2 fairway rather than at G1. The mapped G1-to-T2 walking connector appears to start beside the upper fairway rather than at G1. The other reviewed artwork criteria are acceptable.",
+    "reviews": [
+      {
+        "review": {
+          "issues": [
+            {
+              "code": "geometry-mismatch",
+              "hole": 1,
+              "detail": "The required walking connector from G1 to T2 is missing or misplaced. The visible tan path near T2 runs from the H2 fairway to the tee instead of connecting G1 to T2.",
+              "region": {
+                "x": 0.67,
+                "y": 0.25,
+                "width": 0.13,
+                "height": 0.12
+              },
+              "consequence": "The overview misrepresents how players walk between holes and where that connector begins."
+            }
+          ],
+          "reason": "The illustration is clear and the greens, wooded treatment, and striped fairways are generally well rendered. However, the G1-to-T2 walking connector is not preserved: the visible path near T2 appears to begin at the H2 fairway rather than at G1.",
+          "scores": {
+            "naturalGreens": 4,
+            "visualClarity": 4,
+            "geometryFidelity": 3,
+            "styleConsistency": 4
+          },
+          "approved": false,
+          "candidate": 0,
+          "reviewKind": "artwork-only-v1"
+        },
+        "responseID": "resp_051cd85b688ee093016af8d1f5df9887d1a3304598a74b3ba3"
+      },
+      {
+        "review": {
+          "issues": [
+            {
+              "code": "geometry-mismatch",
+              "hole": 1,
+              "detail": "The G1-to-T2 walking connector is detached from G1 and appears to begin beside the upper fairway.",
+              "region": {
+                "x": 0.67,
+                "y": 0.25,
+                "width": 0.13,
+                "height": 0.1
+              },
+              "consequence": "The overview misrepresents where the walk from G1 to T2 begins."
+            }
+          ],
+          "reason": "The mapped G1-to-T2 walking connector appears to start beside the upper fairway rather than at G1. The other reviewed artwork criteria are acceptable.",
+          "scores": {
+            "naturalGreens": 4,
+            "visualClarity": 4,
+            "geometryFidelity": 3,
+            "styleConsistency": 4
+          },
+          "approved": false,
+          "candidate": 0,
+          "reviewKind": "artwork-only-v1"
+        },
+        "responseID": "resp_048fdb9fdf57f1ad016af8d1f5da8487d1a590440cef5d745e"
+      }
+    ],
+    "approved": false,
+    "artworkSHA256": "c6c8ea906c9c29fbe779d242fd4662cedcba389b5ed649cd2abc8c7b3b43b2b7",
+    "geometrySHA256": "ed093d38abd8c8ba4f04500acbc64436767c690914d650695de5b704dede2177",
+    "geometryEncoding": "studio-stable-json-v1",
+    "decisionKey": "ea2433d745ca5aead9185ea814565d775ba3f50d8e00a5b42bd86492b7595721"
+  },
+  "compatibility": {
+    "policy": "studio-compatible-v1",
+    "holes": [
+      {
+        "sections": 2,
+        "addedFairwayYards": 4.624402551376584,
+        "addedFairwayPercent": 0.039404133003106544,
+        "waterReshaped": false,
+        "addedFairway": [
+          [
+            [
+              [
+                191.998447871667,
+                508.7294634855487
+              ],
+              [
+                192.3440335793962,
+                504.4443922958643
+              ],
+              [
+                192.3415304048015,
+                504.42537879714155
+              ],
+              [
+                192.34947794382984,
+                504.3650112448809
+              ],
+              [
+                193.84652630664337,
+                504.48574634940223
+              ],
+              [
+                193.84405446800776,
+                504.5045218278847
+              ],
+              [
+                193.4838265108701,
+                508.97114879284845
+              ]
+            ]
+          ]
+        ]
+      },
+      {
+        "sections": 1,
+        "addedFairwayYards": 0,
+        "addedFairwayPercent": 0,
+        "waterReshaped": false,
+        "addedFairway": []
+      },
+      {
+        "sections": 1,
+        "addedFairwayYards": 0,
+        "addedFairwayPercent": 0,
+        "waterReshaped": false,
+        "addedFairway": []
+      }
+    ]
+  },
+  "holes": [
+    {
+      "par": 4,
+      "lengthYards": 407,
+      "type": "straight"
+    },
+    {
+      "par": 5,
+      "lengthYards": 548,
+      "type": "straight"
+    },
+    {
+      "par": 3,
+      "lengthYards": 201,
+      "type": "straight"
+    }
+  ],
+  "retainedOlder": {
+    "legacy": {
+      "course": 154,
+      "artworkSHA256": "607ed2add6b470d09169925573379631bdb679692de499c32ce325cdcb8c2f8a",
+      "schemaVersion": 1,
+      "geometrySHA256": "ec20290acf4ec72a228ceb42f1c6d56bff78e462a17cec27f14c4c7aa3fb6856",
+      "artRulesVersion": "fairway-stripes-v4"
+    },
+    "pairMatchupID": null
+  }
+}
