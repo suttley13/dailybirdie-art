@@ -1,0 +1,32 @@
+{
+  "responseID": "resp_0697deb03b70b61b016af878a1461887d1b5fa006337333d3e",
+  "model": "gpt-6-luna",
+  "usage": {
+    "input_tokens": 59945,
+    "input_tokens_details": {
+      "cache_write_tokens": 59942,
+      "cache_write_tokens_details": {
+        "ttl_12h_tokens": 0,
+        "ttl_30m_tokens": 59942
+      },
+      "cached_tokens": 0
+    },
+    "output_tokens": 3392,
+    "output_tokens_details": {
+      "reasoning_tokens": 3101
+    },
+    "total_tokens": 63337
+  },
+  "review": {
+    "candidate": 29,
+    "approved": true,
+    "scores": {
+      "strategy": 4,
+      "withinRoundVariety": 4,
+      "acrossDaysVariety": 4,
+      "fairDifficulty": 4
+    },
+    "reason": "Candidate 29 passes as supplied. Hole 1 is a 419-yard cape par 4 with water on the right and forward of the green. The 5-of-9 safe tee-dispersion probes make the hazard a real consideration, while the playable alternatives support a recoverable risk-and-reward choice. Hole 2 is a dry 380-yard split-fairway par 4. Its broad landing space and 8-of-9 safe probes make it the forgiving placement contrast, though the split route still offers a positional decision. Hole 3 is a dry 570-yard uphill par 5 with a staged route and a more demanding long-game test; 6-of-9 safe probes and all 9 playable indicate challenge without an exact-shot trap. The par-4/par-4/par-5 sequence varies the length and strategy, and water is limited to one hole. Split fairways and uphill par 5s recur in recent rounds, but the single-water cape opener followed by a dry positional hole and long finisher gives this set sufficient freshness. The numbered preview and geometry facts agree on the hazard layout: water on Hole 1 only. No geometry edits are needed.",
+    "edits": []
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "responseID": "resp_0626f19629551504016af878d7fa8c87d19046a2131c0c56b4",
+  "model": "gpt-6-luna",
+  "usage": {
+    "input_tokens": 8361,
+    "input_tokens_details": {
+      "cache_write_tokens": 7007,
+      "cache_write_tokens_details": {
+        "ttl_12h_tokens": 0,
+        "ttl_30m_tokens": 7007
+      },
+      "cached_tokens": 1351
+    },
+    "output_tokens": 3219,
+    "output_tokens_details": {
+      "reasoning_tokens": 3099
+    },
+    "total_tokens": 11580
+  },
+  "review": {
+    "reviewKind": "artwork-only-v1",
+    "candidate": 29,
+    "approved": true,
+    "scores": {
+      "geometryFidelity": 5,
+      "naturalGreens": 4,
+      "visualClarity": 5,
+      "styleConsistency": 4
+    },
+    "reason": "The illustration preserves the numbered hole layout, mapped water and bunkers, tees, greens, walking connectors, and property silhouette. Fairways have visible mowing stripes, and the greens read as continuous putting surfaces with ordinary edge transitions. The wooded rendering is consistent with the reference and does not obscure the course overview.",
+    "issues": []
+  }
+}
