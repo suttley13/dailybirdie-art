@@ -1,0 +1,32 @@
+{
+  "responseID": "resp_02a526dda6a79535016af8777ff70887d1a902098f177be4a7",
+  "model": "gpt-6-luna",
+  "usage": {
+    "input_tokens": 61161,
+    "input_tokens_details": {
+      "cache_write_tokens": 61158,
+      "cache_write_tokens_details": {
+        "ttl_12h_tokens": 0,
+        "ttl_30m_tokens": 61158
+      },
+      "cached_tokens": 0
+    },
+    "output_tokens": 1705,
+    "output_tokens_details": {
+      "reasoning_tokens": 1434
+    },
+    "total_tokens": 62866
+  },
+  "review": {
+    "candidate": 17,
+    "approved": true,
+    "scores": {
+      "strategy": 4,
+      "withinRoundVariety": 5,
+      "acrossDaysVariety": 4,
+      "fairDifficulty": 4
+    },
+    "reason": "Candidate 17 passes as supplied. Hole 1 is a 209-yard par 3 played with a 3-wood. Its water on the right and bunkers around the target make line and distance matter, while the playable tee dispersion leaves room for a recoverable miss. Hole 2 is a 330-yard split-fairway par 4: the separated landing routes create a positional choice, and its tighter safe-shot results make placement consequential. Hole 3 is a 560-yard three-shot par 5 with fairway bunkers and a broad staged route, providing a substantial long-game finish rather than another short target hole. The par-3/4/5 sequence, different tee demands, and contrasting target, split-route, and staged-play strategies create strong variety within the round. Recent courses include similar par and hole-type combinations, but this set stands apart with its split-fairway middle hole and water limited to the opener. The shot-to-green simulations and tee-dispersion probes support a challenging round with playable routes, not three routine scoring opportunities or an exact-shot trap.",
+    "edits": []
+  }
+}

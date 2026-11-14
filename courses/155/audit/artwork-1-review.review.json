@@ -1,0 +1,58 @@
+{
+  "responseID": "resp_0c9c13fdc5665178016af877cc6c7887d1a34299ed4be01397",
+  "model": "gpt-6-luna",
+  "usage": {
+    "input_tokens": 8592,
+    "input_tokens_details": {
+      "cache_write_tokens": 7238,
+      "cache_write_tokens_details": {
+        "ttl_12h_tokens": 0,
+        "ttl_30m_tokens": 7238
+      },
+      "cached_tokens": 1351
+    },
+    "output_tokens": 2863,
+    "output_tokens_details": {
+      "reasoning_tokens": 2588
+    },
+    "total_tokens": 11455
+  },
+  "review": {
+    "reviewKind": "artwork-only-v1",
+    "candidate": 17,
+    "approved": false,
+    "scores": {
+      "geometryFidelity": 3,
+      "naturalGreens": 5,
+      "visualClarity": 4,
+      "styleConsistency": 3
+    },
+    "reason": "The illustration preserves the overall course layout, uses continuous natural-looking greens, and shows clear mowing stripes. However, Hole 1's mapped tee is not visible, and trees crowd the tee-to-landing corridor in that area.",
+    "issues": [
+      {
+        "code": "geometry-mismatch",
+        "hole": 1,
+        "detail": "The mapped T1 tee marker is missing; the corresponding central area shows trees and rough instead.",
+        "consequence": "The overview does not show where Hole 1 begins, making its tee-to-green routing harder to read.",
+        "region": {
+          "x": 0.42,
+          "y": 0.35,
+          "width": 0.11,
+          "height": 0.13
+        }
+      },
+      {
+        "code": "style",
+        "hole": 1,
+        "detail": "Added tree crowns and shadows crowd the mapped T1-to-first-fairway landing corridor beside the central fairway.",
+        "consequence": "The Hole 1 carry appears visually obstructed, which can make the overview misleading about the open route shown in the approved geometry.",
+        "region": {
+          "x": 0.43,
+          "y": 0.37,
+          "width": 0.12,
+          "height": 0.15
+        }
+      }
+    ]
+  }
+}

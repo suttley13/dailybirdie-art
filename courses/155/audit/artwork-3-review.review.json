@@ -1,0 +1,46 @@
+{
+  "responseID": "resp_000c31904094e709016af8783e6a6887d18ba1f96a22db4cbf",
+  "model": "gpt-6-luna",
+  "usage": {
+    "input_tokens": 8585,
+    "input_tokens_details": {
+      "cache_write_tokens": 7231,
+      "cache_write_tokens_details": {
+        "ttl_12h_tokens": 0,
+        "ttl_30m_tokens": 7231
+      },
+      "cached_tokens": 1351
+    },
+    "output_tokens": 2515,
+    "output_tokens_details": {
+      "reasoning_tokens": 2329
+    },
+    "total_tokens": 11100
+  },
+  "review": {
+    "reviewKind": "artwork-only-v1",
+    "candidate": 17,
+    "approved": false,
+    "scores": {
+      "geometryFidelity": 3,
+      "naturalGreens": 5,
+      "visualClarity": 4,
+      "styleConsistency": 4
+    },
+    "reason": "The illustration otherwise preserves the mapped course layout, natural single-surface greens, and clearly striped fairways, but the mapped T1 tee is not visible.",
+    "issues": [
+      {
+        "code": "geometry-mismatch",
+        "hole": 1,
+        "detail": "T1, shown in the authoritative diagram near the central-left side of the course, is missing from the illustration; only the T2 and T3 tee markers are visible.",
+        "consequence": "Viewers cannot identify where hole 1 begins, making the overview misleading about its starting point.",
+        "region": {
+          "x": 0.43,
+          "y": 0.34,
+          "width": 0.07,
+          "height": 0.08
+        }
+      }
+    ]
+  }
+}

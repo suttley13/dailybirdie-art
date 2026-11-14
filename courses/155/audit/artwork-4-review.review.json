@@ -1,0 +1,53 @@
+{
+  "responseID": "resp_0893c7e6e25d2b75016af8786ba3fc87d180354bc15fc74b45",
+  "model": "gpt-6-luna",
+  "usage": {
+    "input_tokens": 8584,
+    "input_tokens_details": {
+      "cache_write_tokens": 7230,
+      "cache_write_tokens_details": {
+        "ttl_12h_tokens": 0,
+        "ttl_30m_tokens": 7230
+      },
+      "cached_tokens": 1351
+    },
+    "output_tokens": 3043,
+    "output_tokens_details": {
+      "reasoning_tokens": 2786
+    },
+    "total_tokens": 11627
+  },
+  "review": {
+    "reviewKind": "artwork-only-v1",
+    "candidate": 17,
+    "approved": false,
+    "scores": {
+      "geometryFidelity": 4,
+      "naturalGreens": 3,
+      "visualClarity": 4,
+      "styleConsistency": 3
+    },
+    "reason": "The course layout, mapped hazards, tees and walking connectors are generally recognizable and consistent with the numbered diagram. However, the Hole 1 fairway lacks clearly readable alternating mowing stripes, and the greens have a conspicuous ringed, raised appearance rather than reading as continuous natural putting surfaces.",
+    "issues": [
+      {
+        "code": "style",
+        "hole": 1,
+        "detail": "The central Hole 1 fairway patch is mostly uniform and does not show clearly visible alternating stripes at thumbnail scale.",
+        "consequence": "It may read as rough or an extra green instead of a distinct fairway in the course overview.",
+        "region": {
+          "x": 0.47,
+          "y": 0.2,
+          "width": 0.14,
+          "height": 0.18
+        }
+      },
+      {
+        "code": "green-treatment",
+        "hole": 0,
+        "detail": "The greens have prominent dark, shadowed outer rings around bright inset surfaces, giving them a raised or ringed-platform appearance.",
+        "consequence": "The putting surfaces may read as separate discs rather than continuous natural greens.",
+        "region": null
+      }
+    ]
+  }
+}

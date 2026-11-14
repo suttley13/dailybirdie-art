@@ -1,0 +1,15 @@
+{
+  "failures": [
+    "The mapped course is generally recognizable and the greens read as continuous putting surfaces, but Hole 1\u2019s central fairway section lacks the required visible mowing stripes.",
+    "The illustration preserves the overall course layout, uses continuous natural-looking greens, and shows clear mowing stripes. However, Hole 1's mapped tee is not visible, and trees crowd the tee-to-landing corridor in that area.",
+    "The course layout, mapped hazards, walking connectors, and single-surface greens read clearly. The hole 1 fairway is missing the clearly visible alternating mowing stripes required across every fairway section.",
+    "The illustration otherwise preserves the mapped course layout, natural single-surface greens, and clearly striped fairways, but the mapped T1 tee is not visible.",
+    "The course layout, mapped hazards, tees and walking connectors are generally recognizable and consistent with the numbered diagram. However, the Hole 1 fairway lacks clearly readable alternating mowing stripes, and the greens have a conspicuous ringed, raised appearance rather than reading as continuous natural putting surfaces.",
+    "Artwork attempt limit reached (5)"
+  ],
+  "attempts": 5,
+  "maxAttempts": 5,
+  "repeatedIssueLimit": 3,
+  "bestFile": "artwork-2.jpg",
+  "stopReason": "Artwork attempt limit reached (5)"
+}

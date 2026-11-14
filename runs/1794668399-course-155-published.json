@@ -1,0 +1,411 @@
+{
+  "schemaVersion": 1,
+  "course": 155,
+  "outcome": "published",
+  "error": null,
+  "startedAt": 1794668399,
+  "seconds": 286.78,
+  "reviewModel": "gpt-6-luna",
+  "reviewEffort": "medium",
+  "imageModel": "gpt-image-2.5-sunburst",
+  "candidatesRequested": 50,
+  "calls": [
+    {
+      "phase": "selection",
+      "kind": "review",
+      "model": "gpt-6-luna",
+      "effort": "medium",
+      "responseID": "resp_02a526dda6a79535016af8777ff70887d1a902098f177be4a7",
+      "usage": {
+        "input_tokens": 61161,
+        "input_tokens_details": {
+          "cache_write_tokens": 61158,
+          "cache_write_tokens_details": {
+            "ttl_12h_tokens": 0,
+            "ttl_30m_tokens": 61158
+          },
+          "cached_tokens": 0
+        },
+        "output_tokens": 1705,
+        "output_tokens_details": {
+          "reasoning_tokens": 1434
+        },
+        "total_tokens": 62866
+      },
+      "seconds": 17.86,
+      "imageCount": 8,
+      "approved": true,
+      "reviewKind": "course-design",
+      "reason": "Candidate 17 passes as supplied. Hole 1 is a 209-yard par 3 played with a 3-wood. Its water on the right and bunkers around the target make line and distance matter, while the playable tee dispersion leaves room for a recoverable miss. Hole 2 is a 330-yard split-fairway par 4: the separated landing routes create a positional choice, and its tighter safe-shot results make placement consequential. Hole 3 is a 560-yard three-shot par 5 with fairway bunkers and a broad staged route, providing a substantial long-game finish rather than another short target hole. The par-3/4/5 sequence, different tee demands, and contrasting target, split-route, and staged-play strategies create strong variety within the round. Recent courses include similar par and hole-type combinations, but this set stands apart with its split-fairway middle hole and water limited to the opener. The shot-to-green simulations and tee-dispersion probes support a challenging round with playable routes, not three routine scoring opportunities or an exact-shot trap.",
+      "issues": [],
+      "edits": [],
+      "scores": {
+        "strategy": 4,
+        "withinRoundVariety": 5,
+        "acrossDaysVariety": 4,
+        "fairDifficulty": 4
+      }
+    },
+    {
+      "phase": "artwork-0",
+      "kind": "image",
+      "model": "gpt-image-2.5-sunburst",
+      "usage": {
+        "input_tokens": 4434,
+        "input_tokens_details": {
+          "image_tokens": 2863,
+          "text_tokens": 1571
+        },
+        "output_tokens": 343,
+        "output_tokens_details": {
+          "image_tokens": 343,
+          "text_tokens": 0
+        },
+        "total_tokens": 4777
+      },
+      "seconds": 17.86
+    },
+    {
+      "phase": "artwork-0-review",
+      "kind": "review",
+      "model": "gpt-6-luna",
+      "effort": "medium",
+      "responseID": "resp_0c8db232b49ca47e016af877a4436487d197a75c386c65658f",
+      "usage": {
+        "input_tokens": 8588,
+        "input_tokens_details": {
+          "cache_write_tokens": 7234,
+          "cache_write_tokens_details": {
+            "ttl_12h_tokens": 0,
+            "ttl_30m_tokens": 7234
+          },
+          "cached_tokens": 1351
+        },
+        "output_tokens": 1947,
+        "output_tokens_details": {
+          "reasoning_tokens": 1782
+        },
+        "total_tokens": 10535
+      },
+      "seconds": 21.51,
+      "imageCount": 3,
+      "approved": false,
+      "reviewKind": "artwork-only-v1",
+      "reason": "The mapped course is generally recognizable and the greens read as continuous putting surfaces, but Hole 1\u2019s central fairway section lacks the required visible mowing stripes.",
+      "issues": [
+        {
+          "code": "style",
+          "hole": 1,
+          "detail": "The broad central fairway patch is uniformly mown, without clearly visible alternating stripes at thumbnail scale.",
+          "consequence": "The fairway is harder to distinguish from surrounding turf in the course overview.",
+          "region": {
+            "x": 0.48,
+            "y": 0.19,
+            "width": 0.14,
+            "height": 0.18
+          }
+        }
+      ],
+      "edits": [],
+      "scores": {
+        "geometryFidelity": 4,
+        "naturalGreens": 4,
+        "visualClarity": 4,
+        "styleConsistency": 3
+      }
+    },
+    {
+      "phase": "artwork-1",
+      "kind": "image",
+      "model": "gpt-image-2.5-sunburst",
+      "usage": {
+        "input_tokens": 6174,
+        "input_tokens_details": {
+          "image_tokens": 4363,
+          "text_tokens": 1811
+        },
+        "output_tokens": 343,
+        "output_tokens_details": {
+          "image_tokens": 343,
+          "text_tokens": 0
+        },
+        "total_tokens": 6517
+      },
+      "seconds": 17.96
+    },
+    {
+      "phase": "artwork-1-review",
+      "kind": "review",
+      "model": "gpt-6-luna",
+      "effort": "medium",
+      "responseID": "resp_0c9c13fdc5665178016af877cc6c7887d1a34299ed4be01397",
+      "usage": {
+        "input_tokens": 8592,
+        "input_tokens_details": {
+          "cache_write_tokens": 7238,
+          "cache_write_tokens_details": {
+            "ttl_12h_tokens": 0,
+            "ttl_30m_tokens": 7238
+          },
+          "cached_tokens": 1351
+        },
+        "output_tokens": 2863,
+        "output_tokens_details": {
+          "reasoning_tokens": 2588
+        },
+        "total_tokens": 11455
+      },
+      "seconds": 31.25,
+      "imageCount": 3,
+      "approved": false,
+      "reviewKind": "artwork-only-v1",
+      "reason": "The illustration preserves the overall course layout, uses continuous natural-looking greens, and shows clear mowing stripes. However, Hole 1's mapped tee is not visible, and trees crowd the tee-to-landing corridor in that area.",
+      "issues": [
+        {
+          "code": "geometry-mismatch",
+          "hole": 1,
+          "detail": "The mapped T1 tee marker is missing; the corresponding central area shows trees and rough instead.",
+          "consequence": "The overview does not show where Hole 1 begins, making its tee-to-green routing harder to read.",
+          "region": {
+            "x": 0.42,
+            "y": 0.35,
+            "width": 0.11,
+            "height": 0.13
+          }
+        },
+        {
+          "code": "style",
+          "hole": 1,
+          "detail": "Added tree crowns and shadows crowd the mapped T1-to-first-fairway landing corridor beside the central fairway.",
+          "consequence": "The Hole 1 carry appears visually obstructed, which can make the overview misleading about the open route shown in the approved geometry.",
+          "region": {
+            "x": 0.43,
+            "y": 0.37,
+            "width": 0.12,
+            "height": 0.15
+          }
+        }
+      ],
+      "edits": [],
+      "scores": {
+        "geometryFidelity": 3,
+        "naturalGreens": 5,
+        "visualClarity": 4,
+        "styleConsistency": 3
+      }
+    },
+    {
+      "phase": "artwork-2",
+      "kind": "image",
+      "model": "gpt-image-2.5-sunburst",
+      "usage": {
+        "input_tokens": 6174,
+        "input_tokens_details": {
+          "image_tokens": 4363,
+          "text_tokens": 1811
+        },
+        "output_tokens": 343,
+        "output_tokens_details": {
+          "image_tokens": 343,
+          "text_tokens": 0
+        },
+        "total_tokens": 6517
+      },
+      "seconds": 31.06
+    },
+    {
+      "phase": "artwork-2-review",
+      "kind": "review",
+      "model": "gpt-6-luna",
+      "effort": "medium",
+      "responseID": "resp_0eed90373e29094a016af8780b8b8887d1b07870fd4d6eefbc",
+      "usage": {
+        "input_tokens": 8582,
+        "input_tokens_details": {
+          "cache_write_tokens": 7228,
+          "cache_write_tokens_details": {
+            "ttl_12h_tokens": 0,
+            "ttl_30m_tokens": 7228
+          },
+          "cached_tokens": 1351
+        },
+        "output_tokens": 3018,
+        "output_tokens_details": {
+          "reasoning_tokens": 2809
+        },
+        "total_tokens": 11600
+      },
+      "seconds": 30.45,
+      "imageCount": 3,
+      "approved": false,
+      "reviewKind": "artwork-only-v1",
+      "reason": "The course layout, mapped hazards, walking connectors, and single-surface greens read clearly. The hole 1 fairway is missing the clearly visible alternating mowing stripes required across every fairway section.",
+      "issues": [
+        {
+          "code": "style",
+          "hole": 1,
+          "detail": "The oval hole 1 fairway between T1 and G1 has no distinct alternating lighter and darker bands crossing it edge to edge at thumbnail scale.",
+          "consequence": "It reads more like unstriped common turf than a clearly identifiable fairway, weakening the visual distinction between the playing surface and surrounding rough. This is an overview appearance issue, not a change to gameplay.",
+          "region": {
+            "x": 0.48,
+            "y": 0.19,
+            "width": 0.13,
+            "height": 0.18
+          }
+        }
+      ],
+      "edits": [],
+      "scores": {
+        "geometryFidelity": 4,
+        "naturalGreens": 5,
+        "visualClarity": 4,
+        "styleConsistency": 3
+      }
+    },
+    {
+      "phase": "artwork-3",
+      "kind": "image",
+      "model": "gpt-image-2.5-sunburst",
+      "usage": {
+        "input_tokens": 6218,
+        "input_tokens_details": {
+          "image_tokens": 4363,
+          "text_tokens": 1855
+        },
+        "output_tokens": 343,
+        "output_tokens_details": {
+          "image_tokens": 343,
+          "text_tokens": 0
+        },
+        "total_tokens": 6561
+      },
+      "seconds": 19.77
+    },
+    {
+      "phase": "artwork-3-review",
+      "kind": "review",
+      "model": "gpt-6-luna",
+      "effort": "medium",
+      "responseID": "resp_000c31904094e709016af8783e6a6887d18ba1f96a22db4cbf",
+      "usage": {
+        "input_tokens": 8585,
+        "input_tokens_details": {
+          "cache_write_tokens": 7231,
+          "cache_write_tokens_details": {
+            "ttl_12h_tokens": 0,
+            "ttl_30m_tokens": 7231
+          },
+          "cached_tokens": 1351
+        },
+        "output_tokens": 2515,
+        "output_tokens_details": {
+          "reasoning_tokens": 2329
+        },
+        "total_tokens": 11100
+      },
+      "seconds": 26.8,
+      "imageCount": 3,
+      "approved": false,
+      "reviewKind": "artwork-only-v1",
+      "reason": "The illustration otherwise preserves the mapped course layout, natural single-surface greens, and clearly striped fairways, but the mapped T1 tee is not visible.",
+      "issues": [
+        {
+          "code": "geometry-mismatch",
+          "hole": 1,
+          "detail": "T1, shown in the authoritative diagram near the central-left side of the course, is missing from the illustration; only the T2 and T3 tee markers are visible.",
+          "consequence": "Viewers cannot identify where hole 1 begins, making the overview misleading about its starting point.",
+          "region": {
+            "x": 0.43,
+            "y": 0.34,
+            "width": 0.07,
+            "height": 0.08
+          }
+        }
+      ],
+      "edits": [],
+      "scores": {
+        "geometryFidelity": 3,
+        "naturalGreens": 5,
+        "visualClarity": 4,
+        "styleConsistency": 4
+      }
+    },
+    {
+      "phase": "artwork-4",
+      "kind": "image",
+      "model": "gpt-image-2.5-sunburst",
+      "usage": {
+        "input_tokens": 6218,
+        "input_tokens_details": {
+          "image_tokens": 4363,
+          "text_tokens": 1855
+        },
+        "output_tokens": 343,
+        "output_tokens_details": {
+          "image_tokens": 343,
+          "text_tokens": 0
+        },
+        "total_tokens": 6561
+      },
+      "seconds": 17.59
+    },
+    {
+      "phase": "artwork-4-review",
+      "kind": "review",
+      "model": "gpt-6-luna",
+      "effort": "medium",
+      "responseID": "resp_0893c7e6e25d2b75016af8786ba3fc87d180354bc15fc74b45",
+      "usage": {
+        "input_tokens": 8584,
+        "input_tokens_details": {
+          "cache_write_tokens": 7230,
+          "cache_write_tokens_details": {
+            "ttl_12h_tokens": 0,
+            "ttl_30m_tokens": 7230
+          },
+          "cached_tokens": 1351
+        },
+        "output_tokens": 3043,
+        "output_tokens_details": {
+          "reasoning_tokens": 2786
+        },
+        "total_tokens": 11627
+      },
+      "seconds": 33.93,
+      "imageCount": 3,
+      "approved": false,
+      "reviewKind": "artwork-only-v1",
+      "reason": "The course layout, mapped hazards, tees and walking connectors are generally recognizable and consistent with the numbered diagram. However, the Hole 1 fairway lacks clearly readable alternating mowing stripes, and the greens have a conspicuous ringed, raised appearance rather than reading as continuous natural putting surfaces.",
+      "issues": [
+        {
+          "code": "style",
+          "hole": 1,
+          "detail": "The central Hole 1 fairway patch is mostly uniform and does not show clearly visible alternating stripes at thumbnail scale.",
+          "consequence": "It may read as rough or an extra green instead of a distinct fairway in the course overview.",
+          "region": {
+            "x": 0.47,
+            "y": 0.2,
+            "width": 0.14,
+            "height": 0.18
+          }
+        },
+        {
+          "code": "green-treatment",
+          "hole": 0,
+          "detail": "The greens have prominent dark, shadowed outer rings around bright inset surfaces, giving them a raised or ringed-platform appearance.",
+          "consequence": "The putting surfaces may read as separate discs rather than continuous natural greens.",
+          "region": null
+        }
+      ],
+      "edits": [],
+      "scores": {
+        "geometryFidelity": 4,
+        "naturalGreens": 3,
+        "visualClarity": 4,
+        "styleConsistency": 3
+      }
+    }
+  ],
+  "artworkStatus": "geometry-preview",
+  "artworkFailure": "The course layout, mapped hazards, tees and walking connectors are generally recognizable and consistent with the numbered diagram. However, the Hole 1 fairway lacks clearly readable alternating mowing stripes, and the greens have a conspicuous ringed, raised appearance rather than reading as continuous natural putting surfaces.; Artwork attempt limit reached (5)"
+}
