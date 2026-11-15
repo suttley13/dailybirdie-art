@@ -1,15 +1,16 @@
 {
   "schemaVersion": 1,
-  "checkedAt": 1794764908,
+  "checkedAt": 1794783348,
   "currentCourse": 153,
   "minimumFutureCourses": 3,
   "readyFutureCourses": 3,
-  "unavailableCourse": null,
-  "status": "healthy",
+  "unavailableCourse": 152,
+  "status": "unavailable",
   "courses": [
     {
       "course": 152,
-      "status": "ready"
+      "status": "unavailable",
+      "error": "Could not check public content"
     },
     {
       "course": 153,
