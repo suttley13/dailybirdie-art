@@ -1,16 +1,12 @@
 {
   "schemaVersion": 1,
-  "checkedAt": 1794828926,
+  "checkedAt": 1794852645,
   "currentCourse": 154,
   "minimumFutureCourses": 3,
   "readyFutureCourses": 2,
   "unavailableCourse": null,
   "status": "warning",
   "courses": [
-    {
-      "course": 152,
-      "status": "ready"
-    },
     {
       "course": 153,
       "status": "ready",
@@ -43,22 +39,22 @@
   "authoring": {
     "available": true,
     "latest": {
-      "runID": 43730114582,
-      "url": "https://github.com/suttley13/dailyBirdie/actions/runs/43730114582",
+      "runID": 43925628782,
+      "url": "https://github.com/suttley13/dailyBirdie/actions/runs/43925628782",
       "status": "completed",
       "conclusion": "failure",
       "event": "schedule",
       "failedStep": "Build shared generator and authoring tool",
-      "startedAt": 1794756542
+      "startedAt": 1794852488
     },
     "lastCompleted": {
-      "runID": 43730114582,
-      "url": "https://github.com/suttley13/dailyBirdie/actions/runs/43730114582",
+      "runID": 43925628782,
+      "url": "https://github.com/suttley13/dailyBirdie/actions/runs/43925628782",
       "status": "completed",
       "conclusion": "failure",
       "event": "schedule",
       "failedStep": "Build shared generator and authoring tool",
-      "startedAt": 1794756542
+      "startedAt": 1794852488
     }
   }
 }
