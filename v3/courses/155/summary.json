@@ -1,0 +1,359 @@
+{
+  "course": 155,
+  "date": "2026-11-18",
+  "name": "Raven Run",
+  "studioJob": "e17084b6-3d1c-4c8e-971d-4522a7f312e2",
+  "draftFingerprint": "aad5233421ea80b1ea09d5fa669f3b3b578e76b87b05ae8e560c72b0c10ffea6",
+  "approval": {
+    "approvedAt": "2026-11-17T02:50:38.778Z",
+    "playtested": true,
+    "humanApproved": true,
+    "retainedOlder": {
+      "legacy": {
+        "course": 155,
+        "artworkSHA256": "7fad00df89ca7f48d6e28abfe5e0d7a03d658b55fb5fd27f3a807cf114fee686",
+        "schemaVersion": 1,
+        "geometrySHA256": "ad3bcf1e2f170ae37988848564b7dec03e50b13f7de299bf2e7ff257760defb4",
+        "artRulesVersion": "geometry-preview"
+      },
+      "pairMatchupID": null
+    },
+    "artworkOverrides": [
+      {
+        "policy": "studio-human-artwork-v1",
+        "reason": "The illustration preserves the mapped property layout, all three tee-to-green relationships, fairways, hazards, and the mapped stone bridge and walking connectors. Fairways show clear diagonal mowing stripes, and the greens read as continuous natural putting surfaces. The overview is clear and consistent with the supplied illustration style. The illustration is clear and its greens and diagonal fairway stripes read well, but the northern property silhouette does not match the authoritative diagram.",
+        "review": {
+          "issues": [
+            {
+              "code": "geometry-mismatch",
+              "hole": 0,
+              "detail": "The northern edge of the property rises substantially higher in the illustration than in the diagram, most noticeably across the upper ridge.",
+              "region": {
+                "x": 0.22,
+                "y": 0.06,
+                "width": 0.53,
+                "height": 0.09
+              },
+              "consequence": "The overview depicts a larger northern extent of land than the frozen course outline."
+            }
+          ],
+          "reason": "The illustration preserves the mapped property layout, all three tee-to-green relationships, fairways, hazards, and the mapped stone bridge and walking connectors. Fairways show clear diagonal mowing stripes, and the greens read as continuous natural putting surfaces. The overview is clear and consistent with the supplied illustration style. The illustration is clear and its greens and diagonal fairway stripes read well, but the northern property silhouette does not match the authoritative diagram.",
+          "reviews": [
+            {
+              "review": {
+                "issues": [],
+                "reason": "The illustration preserves the mapped property layout, all three tee-to-green relationships, fairways, hazards, and the mapped stone bridge and walking connectors. Fairways show clear diagonal mowing stripes, and the greens read as continuous natural putting surfaces. The overview is clear and consistent with the supplied illustration style.",
+                "scores": {
+                  "naturalGreens": 5,
+                  "visualClarity": 5,
+                  "geometryFidelity": 4,
+                  "styleConsistency": 5
+                },
+                "approved": true,
+                "candidate": 0,
+                "reviewKind": "artwork-only-v1"
+              },
+              "responseID": "resp_0324330cffe5e7c0016afbc0b77ce487d2a0e0d7d792ed5be9"
+            },
+            {
+              "review": {
+                "issues": [
+                  {
+                    "code": "geometry-mismatch",
+                    "hole": 0,
+                    "detail": "The northern edge of the property rises substantially higher in the illustration than in the diagram, most noticeably across the upper ridge.",
+                    "region": {
+                      "x": 0.22,
+                      "y": 0.06,
+                      "width": 0.53,
+                      "height": 0.09
+                    },
+                    "consequence": "The overview depicts a larger northern extent of land than the frozen course outline."
+                  }
+                ],
+                "reason": "The illustration is clear and its greens and diagonal fairway stripes read well, but the northern property silhouette does not match the authoritative diagram.",
+                "scores": {
+                  "naturalGreens": 5,
+                  "visualClarity": 5,
+                  "geometryFidelity": 3,
+                  "styleConsistency": 5
+                },
+                "approved": false,
+                "candidate": 0,
+                "reviewKind": "artwork-only-v1"
+              },
+              "responseID": "resp_046bb3d312269091016afbc0b785c087d292d4216d842dff69"
+            }
+          ],
+          "approved": false,
+          "decisionKey": "bac18e3a080e67b6bab3b872e1ccf28647ff850d6f9f7a571eb5f2282bedf7e9",
+          "artworkSHA256": "745861357deb282a0ef6cffbe87e89d930093801e0eba0ca08a7634d87d62f12",
+          "geometrySHA256": "4a6f734744480d0cc89a7d6d1d38859bea5b0cbb180695ac92f2890bf4cf5129",
+          "geometryEncoding": "studio-stable-json-v1"
+        },
+        "decisionKey": "bac18e3a080e67b6bab3b872e1ccf28647ff850d6f9f7a571eb5f2282bedf7e9",
+        "artworkSHA256": "745861357deb282a0ef6cffbe87e89d930093801e0eba0ca08a7634d87d62f12",
+        "geometrySHA256": "4a6f734744480d0cc89a7d6d1d38859bea5b0cbb180695ac92f2890bf4cf5129",
+        "acceptedFindings": [
+          "bac18e3a080e67b6bab3b872e1ccf28647ff850d6f9f7a571eb5f2282bedf7e9:0"
+        ]
+      },
+      {
+        "policy": "studio-human-artwork-v1",
+        "reason": "The illustration broadly preserves the mapped course layout, natural green surfaces, and striped fairways. However, it adds a tan walking path from the Hole 1 tee that is not in the frozen diagram, making the overview depict an extra course connection. The illustration is clear, well-framed, and uses natural continuous greens and distinct edge-to-edge fairway stripes. However, it adds paths that do not match the mapped walking connectors, including a visible crossing from the island green over the lake.",
+        "review": {
+          "issues": [
+            {
+              "code": "invented-connection",
+              "hole": 1,
+              "detail": "A tan path appears to run from the T1 tee toward the lake/central rough. The diagram maps no walking connector from T1; the walking connectors are G1-to-T2 and G2-to-T3.",
+              "region": {
+                "x": 0.6,
+                "y": 0.4,
+                "width": 0.09,
+                "height": 0.1
+              },
+              "consequence": "Viewers may read this as an additional mapped access route, which misrepresents the course overview."
+            },
+            {
+              "code": "invented-connection",
+              "hole": 1,
+              "detail": "A tan path appears to cross the lake from the island green to the eastern shore. No bridge or causeway is mapped there.",
+              "region": {
+                "x": 0.78,
+                "y": 0.4,
+                "width": 0.055,
+                "height": 0.035
+              },
+              "consequence": "The overview depicts a dry crossing that is not part of the approved course geometry."
+            },
+            {
+              "code": "invented-connection",
+              "hole": 1,
+              "detail": "A tan path runs from T1 toward the western lake shore, although no walking connector is mapped from T1.",
+              "region": {
+                "x": 0.6,
+                "y": 0.35,
+                "width": 0.09,
+                "height": 0.09
+              },
+              "consequence": "The overview suggests an extra route from the tee to the lake edge."
+            }
+          ],
+          "reason": "The illustration broadly preserves the mapped course layout, natural green surfaces, and striped fairways. However, it adds a tan walking path from the Hole 1 tee that is not in the frozen diagram, making the overview depict an extra course connection. The illustration is clear, well-framed, and uses natural continuous greens and distinct edge-to-edge fairway stripes. However, it adds paths that do not match the mapped walking connectors, including a visible crossing from the island green over the lake.",
+          "reviews": [
+            {
+              "review": {
+                "issues": [
+                  {
+                    "code": "invented-connection",
+                    "hole": 1,
+                    "detail": "A tan path appears to run from the T1 tee toward the lake/central rough. The diagram maps no walking connector from T1; the walking connectors are G1-to-T2 and G2-to-T3.",
+                    "region": {
+                      "x": 0.6,
+                      "y": 0.4,
+                      "width": 0.09,
+                      "height": 0.1
+                    },
+                    "consequence": "Viewers may read this as an additional mapped access route, which misrepresents the course overview."
+                  }
+                ],
+                "reason": "The illustration broadly preserves the mapped course layout, natural green surfaces, and striped fairways. However, it adds a tan walking path from the Hole 1 tee that is not in the frozen diagram, making the overview depict an extra course connection.",
+                "scores": {
+                  "naturalGreens": 5,
+                  "visualClarity": 4,
+                  "geometryFidelity": 3,
+                  "styleConsistency": 5
+                },
+                "approved": false,
+                "candidate": 0,
+                "reviewKind": "artwork-only-v1"
+              },
+              "responseID": "resp_0b36d0fcecd13ef0016afbc0b79b6087d2a1eedeeac642f76e"
+            },
+            {
+              "review": {
+                "issues": [
+                  {
+                    "code": "invented-connection",
+                    "hole": 1,
+                    "detail": "A tan path appears to cross the lake from the island green to the eastern shore. No bridge or causeway is mapped there.",
+                    "region": {
+                      "x": 0.78,
+                      "y": 0.4,
+                      "width": 0.055,
+                      "height": 0.035
+                    },
+                    "consequence": "The overview depicts a dry crossing that is not part of the approved course geometry."
+                  },
+                  {
+                    "code": "invented-connection",
+                    "hole": 1,
+                    "detail": "A tan path runs from T1 toward the western lake shore, although no walking connector is mapped from T1.",
+                    "region": {
+                      "x": 0.6,
+                      "y": 0.35,
+                      "width": 0.09,
+                      "height": 0.09
+                    },
+                    "consequence": "The overview suggests an extra route from the tee to the lake edge."
+                  }
+                ],
+                "reason": "The illustration is clear, well-framed, and uses natural continuous greens and distinct edge-to-edge fairway stripes. However, it adds paths that do not match the mapped walking connectors, including a visible crossing from the island green over the lake.",
+                "scores": {
+                  "naturalGreens": 5,
+                  "visualClarity": 4,
+                  "geometryFidelity": 3,
+                  "styleConsistency": 5
+                },
+                "approved": false,
+                "candidate": 0,
+                "reviewKind": "artwork-only-v1"
+              },
+              "responseID": "resp_08c5531a433da372016afbc0b78eb487d2bbbff3cd9522fd29"
+            }
+          ],
+          "approved": false,
+          "decisionKey": "4bbd1daa04ef4ccec228e4807c676821f3554c1bcfc2b9b18d037952e7476bf1",
+          "artworkSHA256": "d95ab2b72c335150bb569ecafff0b2ad358e02684b088531ee0f6e10cdb76e43",
+          "geometrySHA256": "766257b17a877a779d85427e9c37d22a026920e2aca0581bf01e611519048f8d",
+          "geometryEncoding": "studio-stable-json-v1"
+        },
+        "decisionKey": "4bbd1daa04ef4ccec228e4807c676821f3554c1bcfc2b9b18d037952e7476bf1",
+        "artworkSHA256": "d95ab2b72c335150bb569ecafff0b2ad358e02684b088531ee0f6e10cdb76e43",
+        "geometrySHA256": "766257b17a877a779d85427e9c37d22a026920e2aca0581bf01e611519048f8d",
+        "acceptedFindings": [
+          "4bbd1daa04ef4ccec228e4807c676821f3554c1bcfc2b9b18d037952e7476bf1:0",
+          "4bbd1daa04ef4ccec228e4807c676821f3554c1bcfc2b9b18d037952e7476bf1:1",
+          "4bbd1daa04ef4ccec228e4807c676821f3554c1bcfc2b9b18d037952e7476bf1:2"
+        ]
+      }
+    ],
+    "compatibilityApproved": true
+  },
+  "artworkStatus": "approved",
+  "geometrySHA256": "4c09b520cba8ef8dc251cfcbdc2dafcaa70034ee571f37a870c2ad6946f02794",
+  "artworkSHA256": "745861357deb282a0ef6cffbe87e89d930093801e0eba0ca08a7634d87d62f12",
+  "artworkReview": {
+    "issues": [
+      {
+        "code": "geometry-mismatch",
+        "hole": 0,
+        "detail": "The northern edge of the property rises substantially higher in the illustration than in the diagram, most noticeably across the upper ridge.",
+        "region": {
+          "x": 0.22,
+          "y": 0.06,
+          "width": 0.53,
+          "height": 0.09
+        },
+        "consequence": "The overview depicts a larger northern extent of land than the frozen course outline."
+      }
+    ],
+    "reason": "The illustration preserves the mapped property layout, all three tee-to-green relationships, fairways, hazards, and the mapped stone bridge and walking connectors. Fairways show clear diagonal mowing stripes, and the greens read as continuous natural putting surfaces. The overview is clear and consistent with the supplied illustration style. The illustration is clear and its greens and diagonal fairway stripes read well, but the northern property silhouette does not match the authoritative diagram.",
+    "reviews": [
+      {
+        "review": {
+          "issues": [],
+          "reason": "The illustration preserves the mapped property layout, all three tee-to-green relationships, fairways, hazards, and the mapped stone bridge and walking connectors. Fairways show clear diagonal mowing stripes, and the greens read as continuous natural putting surfaces. The overview is clear and consistent with the supplied illustration style.",
+          "scores": {
+            "naturalGreens": 5,
+            "visualClarity": 5,
+            "geometryFidelity": 4,
+            "styleConsistency": 5
+          },
+          "approved": true,
+          "candidate": 0,
+          "reviewKind": "artwork-only-v1"
+        },
+        "responseID": "resp_0324330cffe5e7c0016afbc0b77ce487d2a0e0d7d792ed5be9"
+      },
+      {
+        "review": {
+          "issues": [
+            {
+              "code": "geometry-mismatch",
+              "hole": 0,
+              "detail": "The northern edge of the property rises substantially higher in the illustration than in the diagram, most noticeably across the upper ridge.",
+              "region": {
+                "x": 0.22,
+                "y": 0.06,
+                "width": 0.53,
+                "height": 0.09
+              },
+              "consequence": "The overview depicts a larger northern extent of land than the frozen course outline."
+            }
+          ],
+          "reason": "The illustration is clear and its greens and diagonal fairway stripes read well, but the northern property silhouette does not match the authoritative diagram.",
+          "scores": {
+            "naturalGreens": 5,
+            "visualClarity": 5,
+            "geometryFidelity": 3,
+            "styleConsistency": 5
+          },
+          "approved": false,
+          "candidate": 0,
+          "reviewKind": "artwork-only-v1"
+        },
+        "responseID": "resp_046bb3d312269091016afbc0b785c087d292d4216d842dff69"
+      }
+    ],
+    "approved": false,
+    "artworkSHA256": "745861357deb282a0ef6cffbe87e89d930093801e0eba0ca08a7634d87d62f12",
+    "geometrySHA256": "4a6f734744480d0cc89a7d6d1d38859bea5b0cbb180695ac92f2890bf4cf5129",
+    "geometryEncoding": "studio-stable-json-v1",
+    "decisionKey": "bac18e3a080e67b6bab3b872e1ccf28647ff850d6f9f7a571eb5f2282bedf7e9"
+  },
+  "compatibility": {
+    "policy": "studio-compatible-v1",
+    "holes": [
+      {
+        "sections": 1,
+        "addedFairwayYards": 0,
+        "addedFairwayPercent": 0,
+        "waterReshaped": true,
+        "addedFairway": []
+      },
+      {
+        "sections": 1,
+        "addedFairwayYards": 0,
+        "addedFairwayPercent": 0,
+        "waterReshaped": false,
+        "addedFairway": []
+      },
+      {
+        "sections": 1,
+        "addedFairwayYards": 0,
+        "addedFairwayPercent": 0,
+        "waterReshaped": false,
+        "addedFairway": []
+      }
+    ]
+  },
+  "holes": [
+    {
+      "par": 3,
+      "lengthYards": 165,
+      "type": "straight"
+    },
+    {
+      "par": 5,
+      "lengthYards": 604,
+      "type": "straight"
+    },
+    {
+      "par": 4,
+      "lengthYards": 454,
+      "type": "straight"
+    }
+  ],
+  "retainedOlder": {
+    "legacy": {
+      "course": 155,
+      "artworkSHA256": "7fad00df89ca7f48d6e28abfe5e0d7a03d658b55fb5fd27f3a807cf114fee686",
+      "schemaVersion": 1,
+      "geometrySHA256": "ad3bcf1e2f170ae37988848564b7dec03e50b13f7de299bf2e7ff257760defb4",
+      "artRulesVersion": "geometry-preview"
+    },
+    "pairMatchupID": null
+  }
+}
