@@ -1,11 +1,11 @@
 {
   "schemaVersion": 1,
-  "checkedAt": 1794867288,
+  "checkedAt": 1794890164,
   "currentCourse": 154,
   "minimumFutureCourses": 3,
-  "readyFutureCourses": 0,
-  "unavailableCourse": 154,
-  "status": "unavailable",
+  "readyFutureCourses": 2,
+  "unavailableCourse": null,
+  "status": "warning",
   "courses": [
     {
       "course": 153,
@@ -15,8 +15,7 @@
     },
     {
       "course": 154,
-      "status": "unavailable",
-      "error": "Could not check public content"
+      "status": "ready"
     },
     {
       "course": 155,
@@ -33,8 +32,8 @@
     },
     {
       "course": 158,
-      "status": "unavailable",
-      "error": "Could not check public content"
+      "status": "missing",
+      "error": "No published manifest"
     }
   ],
   "authoring": {
