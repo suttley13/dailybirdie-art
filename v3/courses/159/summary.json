@@ -1,0 +1,103 @@
+{
+  "course": 159,
+  "date": "2026-11-22",
+  "name": "Horseshoe Cape Golf Club",
+  "studioJob": "f6ebc709-8039-4aa4-a767-0fce89930ceb",
+  "draftFingerprint": "98aa5b510bf71a6a981bb158fe53355ca50a2dd635f0c1f3b46c8f7972199150",
+  "approval": {
+    "approvedAt": "2026-11-18T09:59:25.244Z",
+    "playtested": true,
+    "humanApproved": true,
+    "artworkOverrides": [],
+    "compatibilityApproved": true
+  },
+  "artworkStatus": "approved",
+  "geometrySHA256": "6dd0db1dd6e0139337581fefbee57da310cbf0e3eba758f0d381e568170d9184",
+  "artworkSHA256": "fd772cf6d96d5c21f1f65da1e86e384e154e1cb5a80dc1badaa27d28a5e95f16",
+  "artworkReview": {
+    "issues": [],
+    "reason": "The illustration preserves the mapped property silhouette, hole layouts, hazards, fairways, walking connectors and mapped bridge. Fairway stripes are visible and follow the bends, the greens read as continuous natural putting surfaces, and the course is clear and consistent with the reference style. The illustration preserves the mapped property outline, hole layouts, fairways, greens, hazards, tees, walking connectors and mapped bridge. Fairway stripes are visible, and each green reads as one continuous putting surface with an acceptable narrow edge transition.",
+    "reviews": [
+      {
+        "review": {
+          "issues": [],
+          "reason": "The illustration preserves the mapped property silhouette, hole layouts, hazards, fairways, walking connectors and mapped bridge. Fairway stripes are visible and follow the bends, the greens read as continuous natural putting surfaces, and the course is clear and consistent with the reference style.",
+          "scores": {
+            "naturalGreens": 5,
+            "visualClarity": 5,
+            "geometryFidelity": 5,
+            "styleConsistency": 5
+          },
+          "approved": true,
+          "candidate": 0,
+          "reviewKind": "artwork-only-v1"
+        },
+        "responseID": "resp_03e326856567ce28016afd76c37afc87d2b6e92811415bdd20"
+      },
+      {
+        "review": {
+          "issues": [],
+          "reason": "The illustration preserves the mapped property outline, hole layouts, fairways, greens, hazards, tees, walking connectors and mapped bridge. Fairway stripes are visible, and each green reads as one continuous putting surface with an acceptable narrow edge transition.",
+          "scores": {
+            "naturalGreens": 4,
+            "visualClarity": 5,
+            "geometryFidelity": 5,
+            "styleConsistency": 5
+          },
+          "approved": true,
+          "candidate": 0,
+          "reviewKind": "artwork-only-v1"
+        },
+        "responseID": "resp_0a8d47c90abbaa94016afd76c3784487d29f7ebcb33e26f9ee"
+      }
+    ],
+    "approved": true,
+    "artworkSHA256": "fd772cf6d96d5c21f1f65da1e86e384e154e1cb5a80dc1badaa27d28a5e95f16",
+    "geometrySHA256": "00daeb4b071163a9b0c577050202d14aed030d2fa8934a8f47fd5039c486632e",
+    "geometryEncoding": "studio-stable-json-v1",
+    "decisionKey": "fc49949bd3d8997137b3e359303b9d72998bb2f0f5b62a034bba558cf8e3a823"
+  },
+  "compatibility": {
+    "policy": "studio-compatible-v1",
+    "holes": [
+      {
+        "sections": 1,
+        "addedFairwayYards": 0,
+        "addedFairwayPercent": 0,
+        "waterReshaped": false,
+        "addedFairway": []
+      },
+      {
+        "sections": 1,
+        "addedFairwayYards": 0,
+        "addedFairwayPercent": 0,
+        "waterReshaped": false,
+        "addedFairway": []
+      },
+      {
+        "sections": 1,
+        "addedFairwayYards": 0,
+        "addedFairwayPercent": 0,
+        "waterReshaped": false,
+        "addedFairway": []
+      }
+    ]
+  },
+  "holes": [
+    {
+      "par": 4,
+      "lengthYards": 418,
+      "type": "straight"
+    },
+    {
+      "par": 3,
+      "lengthYards": 188,
+      "type": "straight"
+    },
+    {
+      "par": 5,
+      "lengthYards": 580,
+      "type": "straight"
+    }
+  ]
+}

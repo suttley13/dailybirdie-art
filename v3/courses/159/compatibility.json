@@ -1,0 +1,38 @@
+{
+  "schemaVersion": 1,
+  "course": 159,
+  "date": "2026-11-22",
+  "matchupID": "studio-pair-v1-159-85aab8e91dede56a4b0a5b1fae8c8a3fe479be819476d33f27205b5433292718",
+  "members": {
+    "legacy": {
+      "schemaVersion": 1,
+      "course": 159,
+      "geometrySHA256": "ac28c43fa6e9c9488942aab4bf75e513771a445a9ed32924c4ba8de5f7e663e4",
+      "artworkSHA256": "da2aa7d2f3e2b1f8f852d0d4192b603c0ff8307e4589cae3256a5c87572d9924",
+      "artRulesVersion": "studio-compatible-artwork-1"
+    },
+    "custom": {
+      "schemaVersion": 3,
+      "course": 159,
+      "gameplayRules": "studio-v1",
+      "geometrySHA256": "6dd0db1dd6e0139337581fefbee57da310cbf0e3eba758f0d381e568170d9184",
+      "artworkSHA256": "fd772cf6d96d5c21f1f65da1e86e384e154e1cb5a80dc1badaa27d28a5e95f16",
+      "artRulesVersion": "course-studio-artwork-1",
+      "minimumAppVersion": "1.8",
+      "forest": "birchAspen"
+    }
+  },
+  "correspondence": {
+    "policy": "studio-compatible-v1",
+    "validator": "studio-compatible-1",
+    "legacyGeometrySHA256": "ac28c43fa6e9c9488942aab4bf75e513771a445a9ed32924c4ba8de5f7e663e4",
+    "customGeometrySHA256": "6dd0db1dd6e0139337581fefbee57da310cbf0e3eba758f0d381e568170d9184"
+  },
+  "approval": {
+    "approvedAt": "2026-11-18T09:59:25.244Z",
+    "playtested": true,
+    "humanApproved": true,
+    "artworkOverrides": [],
+    "compatibilityApproved": true
+  }
+}

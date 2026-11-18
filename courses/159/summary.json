@@ -1,0 +1,103 @@
+{
+  "course": 159,
+  "date": "2026-11-22",
+  "name": "Horseshoe Cape Golf Club",
+  "studioJob": "f6ebc709-8039-4aa4-a767-0fce89930ceb",
+  "draftFingerprint": "98aa5b510bf71a6a981bb158fe53355ca50a2dd635f0c1f3b46c8f7972199150",
+  "approval": {
+    "approvedAt": "2026-11-18T09:59:25.244Z",
+    "playtested": true,
+    "humanApproved": true,
+    "artworkOverrides": [],
+    "compatibilityApproved": true
+  },
+  "artworkStatus": "approved",
+  "geometrySHA256": "ac28c43fa6e9c9488942aab4bf75e513771a445a9ed32924c4ba8de5f7e663e4",
+  "artworkSHA256": "da2aa7d2f3e2b1f8f852d0d4192b603c0ff8307e4589cae3256a5c87572d9924",
+  "artworkReview": {
+    "issues": [],
+    "reason": "The illustration preserves the mapped property silhouette, hole layouts, fairway patches, greens, hazards, tees, and walking connectors. Fairway stripes are clearly visible, and the greens read as continuous natural putting surfaces. The rendered palette and wooded treatment are consistent with the supplied style reference. The illustration preserves the three numbered tee-to-green layouts, mapped fairways, hazards, property silhouette, and the G1-to-T2 and G2-to-T3 walking connectors. All mapped fairways have visible stripes, and the greens read as continuous natural putting surfaces. The tees and course features remain clear in the overview.",
+    "reviews": [
+      {
+        "review": {
+          "issues": [],
+          "reason": "The illustration preserves the mapped property silhouette, hole layouts, fairway patches, greens, hazards, tees, and walking connectors. Fairway stripes are clearly visible, and the greens read as continuous natural putting surfaces. The rendered palette and wooded treatment are consistent with the supplied style reference.",
+          "scores": {
+            "naturalGreens": 4,
+            "visualClarity": 4,
+            "geometryFidelity": 5,
+            "styleConsistency": 5
+          },
+          "approved": true,
+          "candidate": 0,
+          "reviewKind": "artwork-only-v1"
+        },
+        "responseID": "resp_0405a20bc6080987016afd76c00ff087d2ba66b0b6ac58393f"
+      },
+      {
+        "review": {
+          "issues": [],
+          "reason": "The illustration preserves the three numbered tee-to-green layouts, mapped fairways, hazards, property silhouette, and the G1-to-T2 and G2-to-T3 walking connectors. All mapped fairways have visible stripes, and the greens read as continuous natural putting surfaces. The tees and course features remain clear in the overview.",
+          "scores": {
+            "naturalGreens": 5,
+            "visualClarity": 4,
+            "geometryFidelity": 4,
+            "styleConsistency": 5
+          },
+          "approved": true,
+          "candidate": 0,
+          "reviewKind": "artwork-only-v1"
+        },
+        "responseID": "resp_00408a0cab092a97016afd76c02cb087d2848221fb3195825b"
+      }
+    ],
+    "approved": true,
+    "artworkSHA256": "da2aa7d2f3e2b1f8f852d0d4192b603c0ff8307e4589cae3256a5c87572d9924",
+    "geometrySHA256": "83e9e49d078d8b14c8dc61d76aa53d0d5be3bb607d068ef57649f562d95a1204",
+    "geometryEncoding": "studio-stable-json-v1",
+    "decisionKey": "5efe006427b518da05748e5b5d0ea22cdd5ae9b78d5674c96df99dcfe562e5fd"
+  },
+  "compatibility": {
+    "policy": "studio-compatible-v1",
+    "holes": [
+      {
+        "sections": 1,
+        "addedFairwayYards": 0,
+        "addedFairwayPercent": 0,
+        "waterReshaped": false,
+        "addedFairway": []
+      },
+      {
+        "sections": 1,
+        "addedFairwayYards": 0,
+        "addedFairwayPercent": 0,
+        "waterReshaped": false,
+        "addedFairway": []
+      },
+      {
+        "sections": 1,
+        "addedFairwayYards": 0,
+        "addedFairwayPercent": 0,
+        "waterReshaped": false,
+        "addedFairway": []
+      }
+    ]
+  },
+  "holes": [
+    {
+      "par": 4,
+      "lengthYards": 418,
+      "type": "straight"
+    },
+    {
+      "par": 3,
+      "lengthYards": 188,
+      "type": "straight"
+    },
+    {
+      "par": 5,
+      "lengthYards": 580,
+      "type": "straight"
+    }
+  ]
+}
