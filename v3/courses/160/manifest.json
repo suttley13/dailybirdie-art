@@ -1,0 +1,10 @@
+{
+  "schemaVersion": 3,
+  "course": 160,
+  "gameplayRules": "studio-v1",
+  "geometrySHA256": "8c811f465b73b38688335ffbab6318e366f14915c3cfb85d90d798c60e3a6a30",
+  "artworkSHA256": "cf8dd36a9404caf7e4f0c5de1a3492519b35867aeecfb534e3430c4b79ad00f7",
+  "artRulesVersion": "course-studio-artwork-1",
+  "minimumAppVersion": "1.8",
+  "forest": "hardwood"
+}
