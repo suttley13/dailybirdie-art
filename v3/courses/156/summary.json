@@ -1,0 +1,435 @@
+{
+  "course": 156,
+  "date": "2026-11-19",
+  "name": "First HL",
+  "studioJob": "24de1c66-8e54-466b-b919-c5834b6c7356",
+  "draftFingerprint": "3abd878083091048d6ca0870c9ba74e8a54ec65e1839f6156381d51d9c1b041b",
+  "approval": {
+    "approvedAt": "2026-11-18T01:13:28.868Z",
+    "playtested": true,
+    "humanApproved": true,
+    "retainedOlder": {
+      "legacy": {
+        "course": 156,
+        "artworkSHA256": "df7a65dd7c9ab95590a1884e8508d7613c8fc455275f14f4e135b479105ed010",
+        "schemaVersion": 1,
+        "geometrySHA256": "4bf0f54e6b48234e06c6fa4e3af8dd404c3ae08289b8f95dccec4b241ccbaa43",
+        "artRulesVersion": "fairway-stripes-v4"
+      },
+      "pairMatchupID": null
+    },
+    "artworkOverrides": [
+      {
+        "policy": "studio-human-artwork-v1",
+        "reason": "The layout, mapped features, natural single-surface greens, and overall illustration style are well matched. However, the small Hole 2 fairway patch does not show clearly visible diamond mowing at overview scale, so the current image does not meet the course\u2019s stripe requirement. The mapped layout, connectors, hazards, greens, and bridge are faithfully represented. The small Hole 2 fairway patch to the right of G2 lacks clearly visible checkerboard diamond mowing at thumbnail scale, unlike the other fairway sections.",
+        "review": {
+          "issues": [
+            {
+              "code": "style",
+              "hole": 2,
+              "detail": "The short fairway patch extending from G2 toward the right is mostly uniform and lacks clearly visible checkerboard diamonds. Add diamond mowing confined to the mapped fairway footprint.",
+              "region": {
+                "x": 0.51,
+                "y": 0.44,
+                "width": 0.1,
+                "height": 0.1
+              },
+              "consequence": "At overview scale, this mapped fairway patch blends into the surrounding turf and is harder to distinguish as fairway."
+            },
+            {
+              "code": "style",
+              "hole": 2,
+              "detail": "Make the mapped short fairway patch extending right from G2 read clearly as alternating lighter and darker mowing diamonds, scaled to fit the patch and kept within its mapped outline.",
+              "region": {
+                "x": 0.51,
+                "y": 0.42,
+                "width": 0.1,
+                "height": 0.06
+              },
+              "consequence": "Without distinct diamonds, the overview does not clearly distinguish this fairway patch from surrounding turf."
+            }
+          ],
+          "reason": "The layout, mapped features, natural single-surface greens, and overall illustration style are well matched. However, the small Hole 2 fairway patch does not show clearly visible diamond mowing at overview scale, so the current image does not meet the course\u2019s stripe requirement. The mapped layout, connectors, hazards, greens, and bridge are faithfully represented. The small Hole 2 fairway patch to the right of G2 lacks clearly visible checkerboard diamond mowing at thumbnail scale, unlike the other fairway sections.",
+          "reviews": [
+            {
+              "review": {
+                "issues": [
+                  {
+                    "code": "style",
+                    "hole": 2,
+                    "detail": "The short fairway patch extending from G2 toward the right is mostly uniform and lacks clearly visible checkerboard diamonds. Add diamond mowing confined to the mapped fairway footprint.",
+                    "region": {
+                      "x": 0.51,
+                      "y": 0.44,
+                      "width": 0.1,
+                      "height": 0.1
+                    },
+                    "consequence": "At overview scale, this mapped fairway patch blends into the surrounding turf and is harder to distinguish as fairway."
+                  }
+                ],
+                "reason": "The layout, mapped features, natural single-surface greens, and overall illustration style are well matched. However, the small Hole 2 fairway patch does not show clearly visible diamond mowing at overview scale, so the current image does not meet the course\u2019s stripe requirement.",
+                "scores": {
+                  "naturalGreens": 5,
+                  "visualClarity": 4,
+                  "geometryFidelity": 5,
+                  "styleConsistency": 3
+                },
+                "approved": false,
+                "candidate": 0,
+                "reviewKind": "artwork-only-v1"
+              },
+              "responseID": "resp_05fc73f7546efc2a016afcfa830db487d2b54d42ba5042a5a4"
+            },
+            {
+              "review": {
+                "issues": [
+                  {
+                    "code": "style",
+                    "hole": 2,
+                    "detail": "Make the mapped short fairway patch extending right from G2 read clearly as alternating lighter and darker mowing diamonds, scaled to fit the patch and kept within its mapped outline.",
+                    "region": {
+                      "x": 0.51,
+                      "y": 0.42,
+                      "width": 0.1,
+                      "height": 0.06
+                    },
+                    "consequence": "Without distinct diamonds, the overview does not clearly distinguish this fairway patch from surrounding turf."
+                  }
+                ],
+                "reason": "The mapped layout, connectors, hazards, greens, and bridge are faithfully represented. The small Hole 2 fairway patch to the right of G2 lacks clearly visible checkerboard diamond mowing at thumbnail scale, unlike the other fairway sections.",
+                "scores": {
+                  "naturalGreens": 4,
+                  "visualClarity": 4,
+                  "geometryFidelity": 5,
+                  "styleConsistency": 3
+                },
+                "approved": false,
+                "candidate": 0,
+                "reviewKind": "artwork-only-v1"
+              },
+              "responseID": "resp_0a2d34baafd229d4016afcfa83166087d2a0e0ba639bfd0aea"
+            }
+          ],
+          "approved": false,
+          "decisionKey": "6a5a60462e96068491823b7b4695cb649d93f03740491791ba559ae80253a027",
+          "artworkSHA256": "73577f9ec6599079a28ae91a5aa0e42e39dbb8a37f5b3a39b2dc904fe6522cb6",
+          "geometrySHA256": "3f85474b8d5c3df541663e532a467d4993500bff76d8322fc090a3a9b0fae14e",
+          "geometryEncoding": "studio-stable-json-v1"
+        },
+        "decisionKey": "6a5a60462e96068491823b7b4695cb649d93f03740491791ba559ae80253a027",
+        "artworkSHA256": "73577f9ec6599079a28ae91a5aa0e42e39dbb8a37f5b3a39b2dc904fe6522cb6",
+        "geometrySHA256": "3f85474b8d5c3df541663e532a467d4993500bff76d8322fc090a3a9b0fae14e",
+        "acceptedFindings": [
+          "6a5a60462e96068491823b7b4695cb649d93f03740491791ba559ae80253a027:0",
+          "6a5a60462e96068491823b7b4695cb649d93f03740491791ba559ae80253a027:1"
+        ]
+      },
+      {
+        "policy": "studio-human-artwork-v1",
+        "reason": "The course layout, mapped features, connectors, and greens appear faithful, but Hole 2\u2019s small fairway section lacks clearly visible alternating mowing stripes at thumbnail scale. The illustration has a clear wooded style and natural-looking greens, but it changes mapped fairway footprints and the short Hole 2 fairway does not read as clearly striped.",
+        "review": {
+          "issues": [
+            {
+              "code": "style",
+              "hole": 2,
+              "detail": "The fairway section extending from G2 toward T2 reads as mostly uniform turf; alternating lighter and darker stripes are not clearly distinguishable.",
+              "region": {
+                "x": 0.49,
+                "y": 0.41,
+                "width": 0.22,
+                "height": 0.1
+              },
+              "consequence": "At overview size, this mapped fairway section may be mistaken for rough or an unstriped green-like patch."
+            },
+            {
+              "code": "geometry-mismatch",
+              "hole": 1,
+              "detail": "A separate striped fairway patch appears in the mid-left area, where the diagram shows no fairway; Hole 1 has only the mapped upper fairway section.",
+              "region": {
+                "x": 0.31,
+                "y": 0.26,
+                "width": 0.11,
+                "height": 0.22
+              },
+              "consequence": "The overview suggests an additional playable fairway that is not in the approved diagram."
+            },
+            {
+              "code": "geometry-mismatch",
+              "hole": 3,
+              "detail": "The lower fairway extends far to the right, while the mapped Hole 3 fairway is a shorter patch ending around the center of the property.",
+              "region": {
+                "x": 0.52,
+                "y": 0.61,
+                "width": 0.42,
+                "height": 0.2
+              },
+              "consequence": "The overview substantially misrepresents the mapped fairway footprint."
+            },
+            {
+              "code": "style",
+              "hole": 2,
+              "detail": "The short fairway beside G2 lacks clearly visible alternating crosswise mowing stripes at thumbnail scale.",
+              "region": {
+                "x": 0.52,
+                "y": 0.42,
+                "width": 0.11,
+                "height": 0.1
+              },
+              "consequence": "That mapped fairway patch is difficult to distinguish as striped fairway in the overview."
+            }
+          ],
+          "reason": "The course layout, mapped features, connectors, and greens appear faithful, but Hole 2\u2019s small fairway section lacks clearly visible alternating mowing stripes at thumbnail scale. The illustration has a clear wooded style and natural-looking greens, but it changes mapped fairway footprints and the short Hole 2 fairway does not read as clearly striped.",
+          "reviews": [
+            {
+              "review": {
+                "issues": [
+                  {
+                    "code": "style",
+                    "hole": 2,
+                    "detail": "The fairway section extending from G2 toward T2 reads as mostly uniform turf; alternating lighter and darker stripes are not clearly distinguishable.",
+                    "region": {
+                      "x": 0.49,
+                      "y": 0.41,
+                      "width": 0.22,
+                      "height": 0.1
+                    },
+                    "consequence": "At overview size, this mapped fairway section may be mistaken for rough or an unstriped green-like patch."
+                  }
+                ],
+                "reason": "The course layout, mapped features, connectors, and greens appear faithful, but Hole 2\u2019s small fairway section lacks clearly visible alternating mowing stripes at thumbnail scale.",
+                "scores": {
+                  "naturalGreens": 5,
+                  "visualClarity": 4,
+                  "geometryFidelity": 5,
+                  "styleConsistency": 3
+                },
+                "approved": false,
+                "candidate": 0,
+                "reviewKind": "artwork-only-v1"
+              },
+              "responseID": "resp_03ea7d970c90ca3b016afcfa828f3087d29b51da2a60a05e79"
+            },
+            {
+              "review": {
+                "issues": [
+                  {
+                    "code": "geometry-mismatch",
+                    "hole": 1,
+                    "detail": "A separate striped fairway patch appears in the mid-left area, where the diagram shows no fairway; Hole 1 has only the mapped upper fairway section.",
+                    "region": {
+                      "x": 0.31,
+                      "y": 0.26,
+                      "width": 0.11,
+                      "height": 0.22
+                    },
+                    "consequence": "The overview suggests an additional playable fairway that is not in the approved diagram."
+                  },
+                  {
+                    "code": "geometry-mismatch",
+                    "hole": 3,
+                    "detail": "The lower fairway extends far to the right, while the mapped Hole 3 fairway is a shorter patch ending around the center of the property.",
+                    "region": {
+                      "x": 0.52,
+                      "y": 0.61,
+                      "width": 0.42,
+                      "height": 0.2
+                    },
+                    "consequence": "The overview substantially misrepresents the mapped fairway footprint."
+                  },
+                  {
+                    "code": "style",
+                    "hole": 2,
+                    "detail": "The short fairway beside G2 lacks clearly visible alternating crosswise mowing stripes at thumbnail scale.",
+                    "region": {
+                      "x": 0.52,
+                      "y": 0.42,
+                      "width": 0.11,
+                      "height": 0.1
+                    },
+                    "consequence": "That mapped fairway patch is difficult to distinguish as striped fairway in the overview."
+                  }
+                ],
+                "reason": "The illustration has a clear wooded style and natural-looking greens, but it changes mapped fairway footprints and the short Hole 2 fairway does not read as clearly striped.",
+                "scores": {
+                  "naturalGreens": 4,
+                  "visualClarity": 4,
+                  "geometryFidelity": 2,
+                  "styleConsistency": 3
+                },
+                "approved": false,
+                "candidate": 0,
+                "reviewKind": "artwork-only-v1"
+              },
+              "responseID": "resp_04dcb43ebb735bc7016afcfa82905c87d2af24796d83516c03"
+            }
+          ],
+          "approved": false,
+          "decisionKey": "3db17d960c8f97c4a4d9e997eea87158485ece19439b367dc623ea1e976304e0",
+          "artworkSHA256": "54a1aab8cc9f25e7d1cb6e3d695aeb8132e2a62bc3acfe84e45069dbba37ee29",
+          "geometrySHA256": "1be93e3dee44c3b43eacebfea481f0004703a165921cd109e36b0ef37a643d8f",
+          "geometryEncoding": "studio-stable-json-v1"
+        },
+        "decisionKey": "3db17d960c8f97c4a4d9e997eea87158485ece19439b367dc623ea1e976304e0",
+        "artworkSHA256": "54a1aab8cc9f25e7d1cb6e3d695aeb8132e2a62bc3acfe84e45069dbba37ee29",
+        "geometrySHA256": "1be93e3dee44c3b43eacebfea481f0004703a165921cd109e36b0ef37a643d8f",
+        "acceptedFindings": [
+          "3db17d960c8f97c4a4d9e997eea87158485ece19439b367dc623ea1e976304e0:0",
+          "3db17d960c8f97c4a4d9e997eea87158485ece19439b367dc623ea1e976304e0:1",
+          "3db17d960c8f97c4a4d9e997eea87158485ece19439b367dc623ea1e976304e0:2",
+          "3db17d960c8f97c4a4d9e997eea87158485ece19439b367dc623ea1e976304e0:3"
+        ]
+      }
+    ],
+    "compatibilityApproved": true
+  },
+  "artworkStatus": "approved",
+  "geometrySHA256": "650e96c0c6a84dd79979bd6ee2526ad82644e00ea467d7483764456587d1f9e9",
+  "artworkSHA256": "73577f9ec6599079a28ae91a5aa0e42e39dbb8a37f5b3a39b2dc904fe6522cb6",
+  "artworkReview": {
+    "issues": [
+      {
+        "code": "style",
+        "hole": 2,
+        "detail": "The short fairway patch extending from G2 toward the right is mostly uniform and lacks clearly visible checkerboard diamonds. Add diamond mowing confined to the mapped fairway footprint.",
+        "region": {
+          "x": 0.51,
+          "y": 0.44,
+          "width": 0.1,
+          "height": 0.1
+        },
+        "consequence": "At overview scale, this mapped fairway patch blends into the surrounding turf and is harder to distinguish as fairway."
+      },
+      {
+        "code": "style",
+        "hole": 2,
+        "detail": "Make the mapped short fairway patch extending right from G2 read clearly as alternating lighter and darker mowing diamonds, scaled to fit the patch and kept within its mapped outline.",
+        "region": {
+          "x": 0.51,
+          "y": 0.42,
+          "width": 0.1,
+          "height": 0.06
+        },
+        "consequence": "Without distinct diamonds, the overview does not clearly distinguish this fairway patch from surrounding turf."
+      }
+    ],
+    "reason": "The layout, mapped features, natural single-surface greens, and overall illustration style are well matched. However, the small Hole 2 fairway patch does not show clearly visible diamond mowing at overview scale, so the current image does not meet the course\u2019s stripe requirement. The mapped layout, connectors, hazards, greens, and bridge are faithfully represented. The small Hole 2 fairway patch to the right of G2 lacks clearly visible checkerboard diamond mowing at thumbnail scale, unlike the other fairway sections.",
+    "reviews": [
+      {
+        "review": {
+          "issues": [
+            {
+              "code": "style",
+              "hole": 2,
+              "detail": "The short fairway patch extending from G2 toward the right is mostly uniform and lacks clearly visible checkerboard diamonds. Add diamond mowing confined to the mapped fairway footprint.",
+              "region": {
+                "x": 0.51,
+                "y": 0.44,
+                "width": 0.1,
+                "height": 0.1
+              },
+              "consequence": "At overview scale, this mapped fairway patch blends into the surrounding turf and is harder to distinguish as fairway."
+            }
+          ],
+          "reason": "The layout, mapped features, natural single-surface greens, and overall illustration style are well matched. However, the small Hole 2 fairway patch does not show clearly visible diamond mowing at overview scale, so the current image does not meet the course\u2019s stripe requirement.",
+          "scores": {
+            "naturalGreens": 5,
+            "visualClarity": 4,
+            "geometryFidelity": 5,
+            "styleConsistency": 3
+          },
+          "approved": false,
+          "candidate": 0,
+          "reviewKind": "artwork-only-v1"
+        },
+        "responseID": "resp_05fc73f7546efc2a016afcfa830db487d2b54d42ba5042a5a4"
+      },
+      {
+        "review": {
+          "issues": [
+            {
+              "code": "style",
+              "hole": 2,
+              "detail": "Make the mapped short fairway patch extending right from G2 read clearly as alternating lighter and darker mowing diamonds, scaled to fit the patch and kept within its mapped outline.",
+              "region": {
+                "x": 0.51,
+                "y": 0.42,
+                "width": 0.1,
+                "height": 0.06
+              },
+              "consequence": "Without distinct diamonds, the overview does not clearly distinguish this fairway patch from surrounding turf."
+            }
+          ],
+          "reason": "The mapped layout, connectors, hazards, greens, and bridge are faithfully represented. The small Hole 2 fairway patch to the right of G2 lacks clearly visible checkerboard diamond mowing at thumbnail scale, unlike the other fairway sections.",
+          "scores": {
+            "naturalGreens": 4,
+            "visualClarity": 4,
+            "geometryFidelity": 5,
+            "styleConsistency": 3
+          },
+          "approved": false,
+          "candidate": 0,
+          "reviewKind": "artwork-only-v1"
+        },
+        "responseID": "resp_0a2d34baafd229d4016afcfa83166087d2a0e0ba639bfd0aea"
+      }
+    ],
+    "approved": false,
+    "artworkSHA256": "73577f9ec6599079a28ae91a5aa0e42e39dbb8a37f5b3a39b2dc904fe6522cb6",
+    "geometrySHA256": "3f85474b8d5c3df541663e532a467d4993500bff76d8322fc090a3a9b0fae14e",
+    "geometryEncoding": "studio-stable-json-v1",
+    "decisionKey": "6a5a60462e96068491823b7b4695cb649d93f03740491791ba559ae80253a027"
+  },
+  "compatibility": {
+    "policy": "studio-compatible-v1",
+    "holes": [
+      {
+        "sections": 1,
+        "addedFairwayYards": 0,
+        "addedFairwayPercent": 0,
+        "waterReshaped": false,
+        "addedFairway": []
+      },
+      {
+        "sections": 1,
+        "addedFairwayYards": 0,
+        "addedFairwayPercent": 0,
+        "waterReshaped": false,
+        "addedFairway": []
+      },
+      {
+        "sections": 1,
+        "addedFairwayYards": 0,
+        "addedFairwayPercent": 0,
+        "waterReshaped": true,
+        "addedFairway": []
+      }
+    ]
+  },
+  "holes": [
+    {
+      "par": 5,
+      "lengthYards": 594,
+      "type": "straight"
+    },
+    {
+      "par": 3,
+      "lengthYards": 118,
+      "type": "straight"
+    },
+    {
+      "par": 4,
+      "lengthYards": 410,
+      "type": "straight"
+    }
+  ],
+  "retainedOlder": {
+    "legacy": {
+      "course": 156,
+      "artworkSHA256": "df7a65dd7c9ab95590a1884e8508d7613c8fc455275f14f4e135b479105ed010",
+      "schemaVersion": 1,
+      "geometrySHA256": "4bf0f54e6b48234e06c6fa4e3af8dd404c3ae08289b8f95dccec4b241ccbaa43",
+      "artRulesVersion": "fairway-stripes-v4"
+    },
+    "pairMatchupID": null
+  }
+}
