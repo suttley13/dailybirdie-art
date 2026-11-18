@@ -1,0 +1,119 @@
+{
+  "schemaVersion": 1,
+  "course": 157,
+  "date": "2026-11-20",
+  "matchupID": "studio-pair-v1-157-8a5eb860537b750f4ff3ccd97bf98fd5a58e853b8054442d5a13a5eb959ac8e3",
+  "members": {
+    "legacy": {
+      "schemaVersion": 1,
+      "course": 157,
+      "geometrySHA256": "f773418f12f26121f461a64f484a15da26eb03dbbce87ee3c9b4dec3464b1218",
+      "artworkSHA256": "f51ff1cbe6543cebaee79c2dba0fe03e8e01dce39e8cc545a99ed5ad0a993b73",
+      "artRulesVersion": "studio-compatible-artwork-1"
+    },
+    "custom": {
+      "schemaVersion": 3,
+      "course": 157,
+      "gameplayRules": "studio-v1",
+      "geometrySHA256": "a50bc1b1d3a512f3a2f58344749d7ad334a07bdd58f8dc56082040fc4ffdb857",
+      "artworkSHA256": "8bb8a68c119010e452682f73fdc687b2d2beb3c0073dc192055da2d0fb938a55",
+      "artRulesVersion": "course-studio-artwork-1",
+      "minimumAppVersion": "1.8",
+      "mowing": "lengthwise",
+      "forest": "northwoods"
+    }
+  },
+  "correspondence": {
+    "policy": "studio-compatible-v1",
+    "validator": "studio-compatible-1",
+    "legacyGeometrySHA256": "f773418f12f26121f461a64f484a15da26eb03dbbce87ee3c9b4dec3464b1218",
+    "customGeometrySHA256": "a50bc1b1d3a512f3a2f58344749d7ad334a07bdd58f8dc56082040fc4ffdb857"
+  },
+  "approval": {
+    "approvedAt": "2026-11-18T02:30:20.167Z",
+    "playtested": true,
+    "humanApproved": true,
+    "artworkOverrides": [
+      {
+        "policy": "studio-human-artwork-v1",
+        "reason": "The illustration preserves the mapped property silhouette, fairway sections, greens, tees, water and walking connectors. Fairway stripes are visible and follow the course sections lengthwise. Greens read as continuous natural putting surfaces, and the woodland rendering is consistent with the specified northern pinewood style. The woodland, continuous natural greens, mapped water and bunkers, and lengthwise fairway stripes are clearly rendered. However, the Hole 1 walking connector from T2 does not appear to reach G1; it ends at an intermediate pad instead.",
+        "review": {
+          "issues": [
+            {
+              "code": "geometry-mismatch",
+              "hole": 1,
+              "detail": "The beige walking connector from T2 ends at the small intermediate pad rather than joining the mapped G1. Adjust the illustration so the connector follows the mapped G1-to-T2 link.",
+              "region": {
+                "x": 0.15,
+                "y": 0.35,
+                "width": 0.11,
+                "height": 0.17
+              },
+              "consequence": "The overview depicts walkers reaching an unmapped location and leaves the intended connection between G1 and T2 unclear."
+            }
+          ],
+          "reason": "The illustration preserves the mapped property silhouette, fairway sections, greens, tees, water and walking connectors. Fairway stripes are visible and follow the course sections lengthwise. Greens read as continuous natural putting surfaces, and the woodland rendering is consistent with the specified northern pinewood style. The woodland, continuous natural greens, mapped water and bunkers, and lengthwise fairway stripes are clearly rendered. However, the Hole 1 walking connector from T2 does not appear to reach G1; it ends at an intermediate pad instead.",
+          "reviews": [
+            {
+              "review": {
+                "issues": [],
+                "reason": "The illustration preserves the mapped property silhouette, fairway sections, greens, tees, water and walking connectors. Fairway stripes are visible and follow the course sections lengthwise. Greens read as continuous natural putting surfaces, and the woodland rendering is consistent with the specified northern pinewood style.",
+                "scores": {
+                  "naturalGreens": 5,
+                  "visualClarity": 4,
+                  "geometryFidelity": 4,
+                  "styleConsistency": 5
+                },
+                "approved": true,
+                "candidate": 0,
+                "reviewKind": "artwork-only-v1"
+              },
+              "responseID": "resp_0dda9521eff363bb016afd0d10cb2c87d28b9a4a856a90f9ef"
+            },
+            {
+              "review": {
+                "issues": [
+                  {
+                    "code": "geometry-mismatch",
+                    "hole": 1,
+                    "detail": "The beige walking connector from T2 ends at the small intermediate pad rather than joining the mapped G1. Adjust the illustration so the connector follows the mapped G1-to-T2 link.",
+                    "region": {
+                      "x": 0.15,
+                      "y": 0.35,
+                      "width": 0.11,
+                      "height": 0.17
+                    },
+                    "consequence": "The overview depicts walkers reaching an unmapped location and leaves the intended connection between G1 and T2 unclear."
+                  }
+                ],
+                "reason": "The woodland, continuous natural greens, mapped water and bunkers, and lengthwise fairway stripes are clearly rendered. However, the Hole 1 walking connector from T2 does not appear to reach G1; it ends at an intermediate pad instead.",
+                "scores": {
+                  "naturalGreens": 5,
+                  "visualClarity": 4,
+                  "geometryFidelity": 3,
+                  "styleConsistency": 5
+                },
+                "approved": false,
+                "candidate": 0,
+                "reviewKind": "artwork-only-v1"
+              },
+              "responseID": "resp_029d57d8bbd4b0a2016afd0d10abf887d2865bb4ebcba370a6"
+            }
+          ],
+          "approved": false,
+          "decisionKey": "345bb09770b169f70f3034b43fce841a74210c04488202e78718f5a2b5f34270",
+          "artworkSHA256": "8bb8a68c119010e452682f73fdc687b2d2beb3c0073dc192055da2d0fb938a55",
+          "geometrySHA256": "7888a4bd4e3b6c1fd12f8231bcce8cb616fd1964f10e72702e7cebd4f1f399ce",
+          "geometryEncoding": "studio-stable-json-v1"
+        },
+        "decisionKey": "345bb09770b169f70f3034b43fce841a74210c04488202e78718f5a2b5f34270",
+        "artworkSHA256": "8bb8a68c119010e452682f73fdc687b2d2beb3c0073dc192055da2d0fb938a55",
+        "geometrySHA256": "7888a4bd4e3b6c1fd12f8231bcce8cb616fd1964f10e72702e7cebd4f1f399ce",
+        "acceptedFindings": [
+          "345bb09770b169f70f3034b43fce841a74210c04488202e78718f5a2b5f34270:0"
+        ]
+      }
+    ],
+    "compatibilityApproved": true
+  }
+}
