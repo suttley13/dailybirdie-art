@@ -1,0 +1,254 @@
+{
+  "geometrySHA256": "26b4fd81063ad3352ef069537e0805605134fb76cb10bf5a4faa604ba3556464",
+  "artworkSHA256": "268786bafb77b7e8815dac7525c3f8efe17975085b143dbedf845342f6a9af7d",
+  "humanApproved": true,
+  "reviews": [
+    {
+      "review": {
+        "issues": [
+          {
+            "code": "geometry-mismatch",
+            "hole": 3,
+            "detail": "The bridge between G3 and the bank is shown as a tan plank bridge rather than the mapped stone bridge.",
+            "region": {
+              "x": 0.13,
+              "y": 0.36,
+              "width": 0.07,
+              "height": 0.04
+            },
+            "consequence": "The overview depicts a different bridge style from the approved geometry."
+          },
+          {
+            "code": "invented-hazard",
+            "hole": 1,
+            "detail": "Added palms and their crowns/shadows crowd the rough carry from T1 toward the mapped fairway patch near G1.",
+            "region": {
+              "x": 0.29,
+              "y": 0.52,
+              "width": 0.13,
+              "height": 0.17
+            },
+            "consequence": "The overview makes the tee-to-landing corridor appear obstructed."
+          },
+          {
+            "code": "invented-hazard",
+            "hole": 2,
+            "detail": "Added palms and their crowns/shadows crowd the carry from T2 toward the first mapped fairway section.",
+            "region": {
+              "x": 0.5,
+              "y": 0.45,
+              "width": 0.12,
+              "height": 0.16
+            },
+            "consequence": "The overview makes the tee-to-landing corridor appear obstructed."
+          }
+        ],
+        "reason": "The mapped fairways, greens, water, and property silhouette are largely preserved, and the fairways read as striped. However, the mapped stone bridge at hole 3 is depicted as a tan plank bridge, and added palms crowd tee-shot carries for holes 1 and 2, contrary to the mapped sparse desert planting.",
+        "scores": {
+          "naturalGreens": 4,
+          "visualClarity": 4,
+          "geometryFidelity": 4,
+          "styleConsistency": 4,
+          "environmentFidelity": 2
+        },
+        "approved": false,
+        "candidate": 0,
+        "reviewKind": "artwork-environment-v2",
+        "environment": "palmSprings"
+      },
+      "responseID": "resp_0a6bfc46bb18174f016afd6d0c453c87d289fae497d55b8145"
+    },
+    {
+      "review": {
+        "issues": [
+          {
+            "code": "geometry-mismatch",
+            "hole": 3,
+            "detail": "The bridge beside G3, crossing the water near the left side of the parcel, has a visible wooden-plank deck; the mapped bridge style is stone.",
+            "region": {
+              "x": 0.14,
+              "y": 0.36,
+              "width": 0.05,
+              "height": 0.03
+            },
+            "consequence": "The overview would misrepresent the mapped bridge material and appearance."
+          }
+        ],
+        "reason": "The overview is clear and its fairways are striped, but the mapped Hole 3 bridge is rendered as a timber-plank bridge rather than the required stone style.",
+        "scores": {
+          "naturalGreens": 4,
+          "visualClarity": 4,
+          "geometryFidelity": 3,
+          "styleConsistency": 4,
+          "environmentFidelity": 4
+        },
+        "approved": false,
+        "candidate": 0,
+        "reviewKind": "artwork-environment-v2",
+        "environment": "palmSprings"
+      },
+      "responseID": "resp_00c23656d7ece052016afd6d0c515087d2a2118744c76c0313"
+    }
+  ],
+  "humanArtworkAcceptance": {
+    "policy": "studio-human-artwork-v1",
+    "reason": "The mapped fairways, greens, water, and property silhouette are largely preserved, and the fairways read as striped. However, the mapped stone bridge at hole 3 is depicted as a tan plank bridge, and added palms crowd tee-shot carries for holes 1 and 2, contrary to the mapped sparse desert planting. The overview is clear and its fairways are striped, but the mapped Hole 3 bridge is rendered as a timber-plank bridge rather than the required stone style.",
+    "review": {
+      "issues": [
+        {
+          "code": "geometry-mismatch",
+          "hole": 3,
+          "detail": "The bridge between G3 and the bank is shown as a tan plank bridge rather than the mapped stone bridge.",
+          "region": {
+            "x": 0.13,
+            "y": 0.36,
+            "width": 0.07,
+            "height": 0.04
+          },
+          "consequence": "The overview depicts a different bridge style from the approved geometry."
+        },
+        {
+          "code": "invented-hazard",
+          "hole": 1,
+          "detail": "Added palms and their crowns/shadows crowd the rough carry from T1 toward the mapped fairway patch near G1.",
+          "region": {
+            "x": 0.29,
+            "y": 0.52,
+            "width": 0.13,
+            "height": 0.17
+          },
+          "consequence": "The overview makes the tee-to-landing corridor appear obstructed."
+        },
+        {
+          "code": "invented-hazard",
+          "hole": 2,
+          "detail": "Added palms and their crowns/shadows crowd the carry from T2 toward the first mapped fairway section.",
+          "region": {
+            "x": 0.5,
+            "y": 0.45,
+            "width": 0.12,
+            "height": 0.16
+          },
+          "consequence": "The overview makes the tee-to-landing corridor appear obstructed."
+        },
+        {
+          "code": "geometry-mismatch",
+          "hole": 3,
+          "detail": "The bridge beside G3, crossing the water near the left side of the parcel, has a visible wooden-plank deck; the mapped bridge style is stone.",
+          "region": {
+            "x": 0.14,
+            "y": 0.36,
+            "width": 0.05,
+            "height": 0.03
+          },
+          "consequence": "The overview would misrepresent the mapped bridge material and appearance."
+        }
+      ],
+      "reason": "The mapped fairways, greens, water, and property silhouette are largely preserved, and the fairways read as striped. However, the mapped stone bridge at hole 3 is depicted as a tan plank bridge, and added palms crowd tee-shot carries for holes 1 and 2, contrary to the mapped sparse desert planting. The overview is clear and its fairways are striped, but the mapped Hole 3 bridge is rendered as a timber-plank bridge rather than the required stone style.",
+      "reviews": [
+        {
+          "review": {
+            "issues": [
+              {
+                "code": "geometry-mismatch",
+                "hole": 3,
+                "detail": "The bridge between G3 and the bank is shown as a tan plank bridge rather than the mapped stone bridge.",
+                "region": {
+                  "x": 0.13,
+                  "y": 0.36,
+                  "width": 0.07,
+                  "height": 0.04
+                },
+                "consequence": "The overview depicts a different bridge style from the approved geometry."
+              },
+              {
+                "code": "invented-hazard",
+                "hole": 1,
+                "detail": "Added palms and their crowns/shadows crowd the rough carry from T1 toward the mapped fairway patch near G1.",
+                "region": {
+                  "x": 0.29,
+                  "y": 0.52,
+                  "width": 0.13,
+                  "height": 0.17
+                },
+                "consequence": "The overview makes the tee-to-landing corridor appear obstructed."
+              },
+              {
+                "code": "invented-hazard",
+                "hole": 2,
+                "detail": "Added palms and their crowns/shadows crowd the carry from T2 toward the first mapped fairway section.",
+                "region": {
+                  "x": 0.5,
+                  "y": 0.45,
+                  "width": 0.12,
+                  "height": 0.16
+                },
+                "consequence": "The overview makes the tee-to-landing corridor appear obstructed."
+              }
+            ],
+            "reason": "The mapped fairways, greens, water, and property silhouette are largely preserved, and the fairways read as striped. However, the mapped stone bridge at hole 3 is depicted as a tan plank bridge, and added palms crowd tee-shot carries for holes 1 and 2, contrary to the mapped sparse desert planting.",
+            "scores": {
+              "naturalGreens": 4,
+              "visualClarity": 4,
+              "geometryFidelity": 4,
+              "styleConsistency": 4,
+              "environmentFidelity": 2
+            },
+            "approved": false,
+            "candidate": 0,
+            "reviewKind": "artwork-environment-v2",
+            "environment": "palmSprings"
+          },
+          "responseID": "resp_0a6bfc46bb18174f016afd6d0c453c87d289fae497d55b8145"
+        },
+        {
+          "review": {
+            "issues": [
+              {
+                "code": "geometry-mismatch",
+                "hole": 3,
+                "detail": "The bridge beside G3, crossing the water near the left side of the parcel, has a visible wooden-plank deck; the mapped bridge style is stone.",
+                "region": {
+                  "x": 0.14,
+                  "y": 0.36,
+                  "width": 0.05,
+                  "height": 0.03
+                },
+                "consequence": "The overview would misrepresent the mapped bridge material and appearance."
+              }
+            ],
+            "reason": "The overview is clear and its fairways are striped, but the mapped Hole 3 bridge is rendered as a timber-plank bridge rather than the required stone style.",
+            "scores": {
+              "naturalGreens": 4,
+              "visualClarity": 4,
+              "geometryFidelity": 3,
+              "styleConsistency": 4,
+              "environmentFidelity": 4
+            },
+            "approved": false,
+            "candidate": 0,
+            "reviewKind": "artwork-environment-v2",
+            "environment": "palmSprings"
+          },
+          "responseID": "resp_00c23656d7ece052016afd6d0c515087d2a2118744c76c0313"
+        }
+      ],
+      "approved": false,
+      "decisionKey": "35ab0bed52d521ddebcbf14323275d86011a58483aca0f534ab5306afe545c0d",
+      "artworkSHA256": "268786bafb77b7e8815dac7525c3f8efe17975085b143dbedf845342f6a9af7d",
+      "geometrySHA256": "6dd2e2863f4c33f80141da71359538b5a47feb36167998e4f2af28121aa3a031",
+      "geometryEncoding": "studio-stable-json-v1"
+    },
+    "decisionKey": "35ab0bed52d521ddebcbf14323275d86011a58483aca0f534ab5306afe545c0d",
+    "artworkSHA256": "268786bafb77b7e8815dac7525c3f8efe17975085b143dbedf845342f6a9af7d",
+    "geometrySHA256": "26b4fd81063ad3352ef069537e0805605134fb76cb10bf5a4faa604ba3556464",
+    "acceptedFindings": [
+      "35ab0bed52d521ddebcbf14323275d86011a58483aca0f534ab5306afe545c0d:0",
+      "35ab0bed52d521ddebcbf14323275d86011a58483aca0f534ab5306afe545c0d:1",
+      "35ab0bed52d521ddebcbf14323275d86011a58483aca0f534ab5306afe545c0d:2",
+      "35ab0bed52d521ddebcbf14323275d86011a58483aca0f534ab5306afe545c0d:3"
+    ],
+    "sourceGeometrySHA256": "6dd2e2863f4c33f80141da71359538b5a47feb36167998e4f2af28121aa3a031",
+    "approvedAt": "2026-11-18T09:19:50.234Z"
+  }
+}

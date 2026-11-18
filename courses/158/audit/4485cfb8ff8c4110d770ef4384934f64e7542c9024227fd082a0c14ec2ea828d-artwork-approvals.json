@@ -1,0 +1,246 @@
+{
+  "geometrySHA256": "574bffe5ddde705825ac62425767369db46d6d84e1c4f88eef0df4b502a992fa",
+  "artworkSHA256": "4485cfb8ff8c4110d770ef4384934f64e7542c9024227fd082a0c14ec2ea828d",
+  "humanApproved": true,
+  "reviews": [
+    {
+      "review": {
+        "issues": [
+          {
+            "code": "style",
+            "hole": 1,
+            "detail": "The small fairway patch beside G1 appears uniformly green rather than showing clear alternating stripes across its footprint.",
+            "region": {
+              "x": 0.27,
+              "y": 0.59,
+              "width": 0.06,
+              "height": 0.05
+            },
+            "consequence": "In the overview, this mapped fairway section may read as unstriped turf or another green-like patch instead of fairway."
+          }
+        ],
+        "reason": "The course layout, mapped water, greens, tees, and walking connectors appear faithful, and the greens read as continuous natural surfaces. The small Hole 1 fairway patch lacks clearly visible alternating mowing stripes at thumbnail scale.",
+        "scores": {
+          "naturalGreens": 5,
+          "visualClarity": 4,
+          "geometryFidelity": 5,
+          "styleConsistency": 3
+        },
+        "approved": false,
+        "candidate": 0,
+        "reviewKind": "artwork-only-v1"
+      },
+      "responseID": "resp_04d30e45281907b2016afd6d06e42887d2a12f999329d836c4"
+    },
+    {
+      "review": {
+        "issues": [
+          {
+            "code": "invented-connection",
+            "hole": 1,
+            "detail": "A beige walking path branches from the G1-to-T2 connector toward T1; that branch is not mapped.",
+            "region": {
+              "x": 0.39,
+              "y": 0.51,
+              "width": 0.04,
+              "height": 0.05
+            },
+            "consequence": "The overview depicts an extra walking connection that is not part of the approved diagram."
+          },
+          {
+            "code": "geometry-mismatch",
+            "hole": 2,
+            "detail": "The mapped walking connector from G2 to T3 is not shown continuously; the short path near T3 stops well short of G2.",
+            "region": {
+              "x": 0.59,
+              "y": 0.29,
+              "width": 0.22,
+              "height": 0.09
+            },
+            "consequence": "The overview leaves the mapped transfer between these holes unclear."
+          },
+          {
+            "code": "style",
+            "hole": 1,
+            "detail": "The small detached fairway patch beside G1 lacks clearly visible edge-to-edge alternating mowing stripes at thumbnail scale.",
+            "region": {
+              "x": 0.28,
+              "y": 0.59,
+              "width": 0.04,
+              "height": 0.05
+            },
+            "consequence": "The patch is harder to distinguish as fairway in the course overview."
+          }
+        ],
+        "reason": "The putting greens read as single natural surfaces and the overall wooded style is coherent, but the illustration adds a walking-path branch, does not show the mapped G2-to-T3 connector, and leaves the small mapped fairway near G1 without clearly visible mowing stripes.",
+        "scores": {
+          "naturalGreens": 5,
+          "visualClarity": 4,
+          "geometryFidelity": 2,
+          "styleConsistency": 3
+        },
+        "approved": false,
+        "candidate": 0,
+        "reviewKind": "artwork-only-v1"
+      },
+      "responseID": "resp_0f8afe4a25434113016afd6d06eccc87d2a982c432ca29996a"
+    }
+  ],
+  "humanArtworkAcceptance": {
+    "policy": "studio-human-artwork-v1",
+    "reason": "The course layout, mapped water, greens, tees, and walking connectors appear faithful, and the greens read as continuous natural surfaces. The small Hole 1 fairway patch lacks clearly visible alternating mowing stripes at thumbnail scale. The putting greens read as single natural surfaces and the overall wooded style is coherent, but the illustration adds a walking-path branch, does not show the mapped G2-to-T3 connector, and leaves the small mapped fairway near G1 without clearly visible mowing stripes.",
+    "review": {
+      "issues": [
+        {
+          "code": "style",
+          "hole": 1,
+          "detail": "The small fairway patch beside G1 appears uniformly green rather than showing clear alternating stripes across its footprint.",
+          "region": {
+            "x": 0.27,
+            "y": 0.59,
+            "width": 0.06,
+            "height": 0.05
+          },
+          "consequence": "In the overview, this mapped fairway section may read as unstriped turf or another green-like patch instead of fairway."
+        },
+        {
+          "code": "invented-connection",
+          "hole": 1,
+          "detail": "A beige walking path branches from the G1-to-T2 connector toward T1; that branch is not mapped.",
+          "region": {
+            "x": 0.39,
+            "y": 0.51,
+            "width": 0.04,
+            "height": 0.05
+          },
+          "consequence": "The overview depicts an extra walking connection that is not part of the approved diagram."
+        },
+        {
+          "code": "geometry-mismatch",
+          "hole": 2,
+          "detail": "The mapped walking connector from G2 to T3 is not shown continuously; the short path near T3 stops well short of G2.",
+          "region": {
+            "x": 0.59,
+            "y": 0.29,
+            "width": 0.22,
+            "height": 0.09
+          },
+          "consequence": "The overview leaves the mapped transfer between these holes unclear."
+        },
+        {
+          "code": "style",
+          "hole": 1,
+          "detail": "The small detached fairway patch beside G1 lacks clearly visible edge-to-edge alternating mowing stripes at thumbnail scale.",
+          "region": {
+            "x": 0.28,
+            "y": 0.59,
+            "width": 0.04,
+            "height": 0.05
+          },
+          "consequence": "The patch is harder to distinguish as fairway in the course overview."
+        }
+      ],
+      "reason": "The course layout, mapped water, greens, tees, and walking connectors appear faithful, and the greens read as continuous natural surfaces. The small Hole 1 fairway patch lacks clearly visible alternating mowing stripes at thumbnail scale. The putting greens read as single natural surfaces and the overall wooded style is coherent, but the illustration adds a walking-path branch, does not show the mapped G2-to-T3 connector, and leaves the small mapped fairway near G1 without clearly visible mowing stripes.",
+      "reviews": [
+        {
+          "review": {
+            "issues": [
+              {
+                "code": "style",
+                "hole": 1,
+                "detail": "The small fairway patch beside G1 appears uniformly green rather than showing clear alternating stripes across its footprint.",
+                "region": {
+                  "x": 0.27,
+                  "y": 0.59,
+                  "width": 0.06,
+                  "height": 0.05
+                },
+                "consequence": "In the overview, this mapped fairway section may read as unstriped turf or another green-like patch instead of fairway."
+              }
+            ],
+            "reason": "The course layout, mapped water, greens, tees, and walking connectors appear faithful, and the greens read as continuous natural surfaces. The small Hole 1 fairway patch lacks clearly visible alternating mowing stripes at thumbnail scale.",
+            "scores": {
+              "naturalGreens": 5,
+              "visualClarity": 4,
+              "geometryFidelity": 5,
+              "styleConsistency": 3
+            },
+            "approved": false,
+            "candidate": 0,
+            "reviewKind": "artwork-only-v1"
+          },
+          "responseID": "resp_04d30e45281907b2016afd6d06e42887d2a12f999329d836c4"
+        },
+        {
+          "review": {
+            "issues": [
+              {
+                "code": "invented-connection",
+                "hole": 1,
+                "detail": "A beige walking path branches from the G1-to-T2 connector toward T1; that branch is not mapped.",
+                "region": {
+                  "x": 0.39,
+                  "y": 0.51,
+                  "width": 0.04,
+                  "height": 0.05
+                },
+                "consequence": "The overview depicts an extra walking connection that is not part of the approved diagram."
+              },
+              {
+                "code": "geometry-mismatch",
+                "hole": 2,
+                "detail": "The mapped walking connector from G2 to T3 is not shown continuously; the short path near T3 stops well short of G2.",
+                "region": {
+                  "x": 0.59,
+                  "y": 0.29,
+                  "width": 0.22,
+                  "height": 0.09
+                },
+                "consequence": "The overview leaves the mapped transfer between these holes unclear."
+              },
+              {
+                "code": "style",
+                "hole": 1,
+                "detail": "The small detached fairway patch beside G1 lacks clearly visible edge-to-edge alternating mowing stripes at thumbnail scale.",
+                "region": {
+                  "x": 0.28,
+                  "y": 0.59,
+                  "width": 0.04,
+                  "height": 0.05
+                },
+                "consequence": "The patch is harder to distinguish as fairway in the course overview."
+              }
+            ],
+            "reason": "The putting greens read as single natural surfaces and the overall wooded style is coherent, but the illustration adds a walking-path branch, does not show the mapped G2-to-T3 connector, and leaves the small mapped fairway near G1 without clearly visible mowing stripes.",
+            "scores": {
+              "naturalGreens": 5,
+              "visualClarity": 4,
+              "geometryFidelity": 2,
+              "styleConsistency": 3
+            },
+            "approved": false,
+            "candidate": 0,
+            "reviewKind": "artwork-only-v1"
+          },
+          "responseID": "resp_0f8afe4a25434113016afd6d06eccc87d2a982c432ca29996a"
+        }
+      ],
+      "approved": false,
+      "decisionKey": "4605541aea4f171f443837cee1017ced51a2709cdde1484533c277a5566fde78",
+      "artworkSHA256": "4485cfb8ff8c4110d770ef4384934f64e7542c9024227fd082a0c14ec2ea828d",
+      "geometrySHA256": "1169993a15d11a3ad6c206086706ef8287bb51bed92b641c860a7eb22f91270f",
+      "geometryEncoding": "studio-stable-json-v1"
+    },
+    "decisionKey": "4605541aea4f171f443837cee1017ced51a2709cdde1484533c277a5566fde78",
+    "artworkSHA256": "4485cfb8ff8c4110d770ef4384934f64e7542c9024227fd082a0c14ec2ea828d",
+    "geometrySHA256": "574bffe5ddde705825ac62425767369db46d6d84e1c4f88eef0df4b502a992fa",
+    "acceptedFindings": [
+      "4605541aea4f171f443837cee1017ced51a2709cdde1484533c277a5566fde78:0",
+      "4605541aea4f171f443837cee1017ced51a2709cdde1484533c277a5566fde78:1",
+      "4605541aea4f171f443837cee1017ced51a2709cdde1484533c277a5566fde78:2",
+      "4605541aea4f171f443837cee1017ced51a2709cdde1484533c277a5566fde78:3"
+    ],
+    "sourceGeometrySHA256": "1169993a15d11a3ad6c206086706ef8287bb51bed92b641c860a7eb22f91270f",
+    "approvedAt": "2026-11-18T09:19:50.234Z"
+  }
+}
