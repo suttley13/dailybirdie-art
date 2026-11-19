@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "checkedAt": 1795094565,
+  "checkedAt": 1795109151,
   "currentCourse": 157,
   "minimumFutureCourses": 3,
   "readyFutureCourses": 3,
@@ -38,22 +38,22 @@
   "authoring": {
     "available": true,
     "latest": {
-      "runID": 44354144072,
-      "url": "https://github.com/suttley13/dailyBirdie/actions/runs/44354144072",
+      "runID": 44574428623,
+      "url": "https://github.com/suttley13/dailyBirdie/actions/runs/44574428623",
       "status": "completed",
-      "conclusion": "failure",
+      "conclusion": "success",
       "event": "schedule",
       "failedStep": null,
-      "startedAt": 1795021355
+      "startedAt": 1795108277
     },
     "lastCompleted": {
-      "runID": 44354144072,
-      "url": "https://github.com/suttley13/dailyBirdie/actions/runs/44354144072",
+      "runID": 44574428623,
+      "url": "https://github.com/suttley13/dailyBirdie/actions/runs/44574428623",
       "status": "completed",
-      "conclusion": "failure",
+      "conclusion": "success",
       "event": "schedule",
       "failedStep": null,
-      "startedAt": 1795021355
+      "startedAt": 1795108277
     }
   }
 }
