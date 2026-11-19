@@ -1,0 +1,33 @@
+{
+  "responseID": "resp_05214ca555980fcc016aff30281fd887d2824c4df4a33215f9",
+  "model": "gpt-6-luna",
+  "usage": {
+    "input_tokens": 8251,
+    "input_tokens_details": {
+      "cache_write_tokens": 6940,
+      "cache_write_tokens_details": {
+        "ttl_12h_tokens": 0,
+        "ttl_30m_tokens": 6940
+      },
+      "cached_tokens": 1308
+    },
+    "output_tokens": 1957,
+    "output_tokens_details": {
+      "reasoning_tokens": 1833
+    },
+    "total_tokens": 10208
+  },
+  "review": {
+    "reviewKind": "artwork-only-v1",
+    "candidate": 44,
+    "approved": true,
+    "scores": {
+      "geometryFidelity": 5,
+      "naturalGreens": 5,
+      "visualClarity": 5,
+      "styleConsistency": 5
+    },
+    "reason": "The illustration preserves the mapped three-hole layout, fairway directions, property silhouette, lake, bunkers, tees, and greens. All mapped fairway sections have clearly visible edge-to-edge mowing stripes that follow their shapes. Greens read as continuous natural putting surfaces, and the wooded illustration is clear and consistent with the reference style.",
+    "issues": []
+  }
+}

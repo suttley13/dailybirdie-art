@@ -1,0 +1,32 @@
+{
+  "responseID": "resp_0e741f340a46b682016aff2fb866e887d29a3d7047cd347f87",
+  "model": "gpt-6-luna",
+  "usage": {
+    "input_tokens": 66056,
+    "input_tokens_details": {
+      "cache_write_tokens": 66053,
+      "cache_write_tokens_details": {
+        "ttl_12h_tokens": 0,
+        "ttl_30m_tokens": 66053
+      },
+      "cached_tokens": 0
+    },
+    "output_tokens": 1683,
+    "output_tokens_details": {
+      "reasoning_tokens": 1398
+    },
+    "total_tokens": 67739
+  },
+  "review": {
+    "candidate": 44,
+    "approved": true,
+    "scores": {
+      "strategy": 4,
+      "withinRoundVariety": 5,
+      "acrossDaysVariety": 4,
+      "fairDifficulty": 4
+    },
+    "reason": "Candidate 44 passes as supplied. Hole 1 is a dry 570-yard uphill par 5 with a staged route and a notably small green, making it a demanding long-game opener; the broad fairway and 6 of 9 playable tee probes leave room for recoverable misses. Hole 2 is a 424-yard cape par 4 with a substantial lake left and forward of the green. Its broad landing area supports a safer line, while challenging the shoreline offers a positional tradeoff. Hole 3 is a dry 149-yard punchbowl par 3 with bunkers around the target, a clear contrast in club and shot demand. The par-5/4/3 sequence and distinct long-game, risk-reward, and target-hole strategies give the round strong internal variety. Uphill par 5s, capes, and punchbowl greens recur in recent rounds, but this sequence and the changing hazard exposure provide enough freshness. The 3/2/1 simulated shots to green and playable dispersion results support a challenging, fair set; the small par-5 green adds difficulty without making the hole unreasonable. No geometry edits are needed.",
+    "edits": []
+  }
+}

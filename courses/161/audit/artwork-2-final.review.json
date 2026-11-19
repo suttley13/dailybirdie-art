@@ -1,0 +1,33 @@
+{
+  "responseID": "resp_009617289024693a016aff30bd64d087d28bad0f1aef9abe7a",
+  "model": "gpt-6-luna",
+  "usage": {
+    "input_tokens": 8253,
+    "input_tokens_details": {
+      "cache_write_tokens": 6942,
+      "cache_write_tokens_details": {
+        "ttl_12h_tokens": 0,
+        "ttl_30m_tokens": 6942
+      },
+      "cached_tokens": 1308
+    },
+    "output_tokens": 3669,
+    "output_tokens_details": {
+      "reasoning_tokens": 3564
+    },
+    "total_tokens": 11922
+  },
+  "review": {
+    "reviewKind": "artwork-only-v1",
+    "candidate": 44,
+    "approved": true,
+    "scores": {
+      "geometryFidelity": 5,
+      "naturalGreens": 4,
+      "visualClarity": 4,
+      "styleConsistency": 5
+    },
+    "reason": "The illustration preserves the mapped property silhouette, hole routing, fairway patches, greens and hazards. All fairway sections have visible stripes, the putting surfaces read as continuous natural greens, and no paths or obstructing vegetation are apparent.",
+    "issues": []
+  }
+}

@@ -1,0 +1,58 @@
+{
+  "responseID": "resp_00a87d0205a329c5016aff2fe122ec87d29160f8dfea506533",
+  "model": "gpt-6-luna",
+  "usage": {
+    "input_tokens": 8249,
+    "input_tokens_details": {
+      "cache_write_tokens": 8246,
+      "cache_write_tokens_details": {
+        "ttl_12h_tokens": 0,
+        "ttl_30m_tokens": 8246
+      },
+      "cached_tokens": 0
+    },
+    "output_tokens": 3052,
+    "output_tokens_details": {
+      "reasoning_tokens": 2780
+    },
+    "total_tokens": 11301
+  },
+  "review": {
+    "reviewKind": "artwork-only-v1",
+    "candidate": 44,
+    "approved": false,
+    "scores": {
+      "geometryFidelity": 4,
+      "naturalGreens": 4,
+      "visualClarity": 4,
+      "styleConsistency": 2
+    },
+    "reason": "The overall property, water, greens, and main fairways read clearly and largely follow the diagram. However, hole 3's mapped fairway patch is unstriped, and trees crowd hole 2's tee-to-landing corridor. These are visible artwork issues that need correction before publication.",
+    "issues": [
+      {
+        "code": "style",
+        "hole": 3,
+        "detail": "The detached fairway patch between T3 and G3 has uniform turf rather than clearly visible alternating stripes.",
+        "consequence": "At thumbnail size, the patch may be mistaken for rough or another green instead of a fairway.",
+        "region": {
+          "x": 0.74,
+          "y": 0.3,
+          "width": 0.13,
+          "height": 0.17
+        }
+      },
+      {
+        "code": "style",
+        "hole": 2,
+        "detail": "Added tree crowns crowd the corridor from T2 toward the first fairway landing area.",
+        "consequence": "The overview suggests that the tee-to-landing line is obstructed by trees.",
+        "region": {
+          "x": 0.17,
+          "y": 0.26,
+          "width": 0.06,
+          "height": 0.07
+        }
+      }
+    ]
+  }
+}

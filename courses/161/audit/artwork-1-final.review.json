@@ -1,0 +1,46 @@
+{
+  "responseID": "resp_0b6ad419fd739da9016aff30472dfc87d2b120a26867facc6f",
+  "model": "gpt-6-luna",
+  "usage": {
+    "input_tokens": 8251,
+    "input_tokens_details": {
+      "cache_write_tokens": 6940,
+      "cache_write_tokens_details": {
+        "ttl_12h_tokens": 0,
+        "ttl_30m_tokens": 6940
+      },
+      "cached_tokens": 1308
+    },
+    "output_tokens": 3114,
+    "output_tokens_details": {
+      "reasoning_tokens": 2932
+    },
+    "total_tokens": 11365
+  },
+  "review": {
+    "reviewKind": "artwork-only-v1",
+    "candidate": 44,
+    "approved": false,
+    "scores": {
+      "geometryFidelity": 5,
+      "naturalGreens": 4,
+      "visualClarity": 5,
+      "styleConsistency": 3
+    },
+    "reason": "The mapped course layout, hazards, greens, and striped fairways are represented clearly. However, added trees appear in Hole 2\u2019s tee-to-first-landing corridor and visually obstruct the mapped shot line.",
+    "issues": [
+      {
+        "code": "style",
+        "hole": 2,
+        "detail": "A tree crown just beyond T2 overlaps the broad corridor from the tee toward the first fairway landing area.",
+        "consequence": "The overview suggests that the tee shot is obstructed by trees, obscuring the intended open carry.",
+        "region": {
+          "x": 0.17,
+          "y": 0.28,
+          "width": 0.04,
+          "height": 0.06
+        }
+      }
+    ]
+  }
+}
