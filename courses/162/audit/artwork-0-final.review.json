@@ -1,0 +1,33 @@
+{
+  "responseID": "resp_08fd9c6a253f1be5016b007b406c7487d18cb7f99a53268a06",
+  "model": "gpt-6-luna",
+  "usage": {
+    "input_tokens": 8175,
+    "input_tokens_details": {
+      "cache_write_tokens": 6864,
+      "cache_write_tokens_details": {
+        "ttl_12h_tokens": 0,
+        "ttl_30m_tokens": 6864
+      },
+      "cached_tokens": 1308
+    },
+    "output_tokens": 2864,
+    "output_tokens_details": {
+      "reasoning_tokens": 2752
+    },
+    "total_tokens": 11039
+  },
+  "review": {
+    "reviewKind": "artwork-only-v1",
+    "candidate": 15,
+    "approved": true,
+    "scores": {
+      "geometryFidelity": 5,
+      "naturalGreens": 4,
+      "visualClarity": 5,
+      "styleConsistency": 4
+    },
+    "reason": "The illustration preserves the mapped property, tees, greens, fairways, bunkers, and lake. All three greens read as continuous putting surfaces, the fairways have visible transverse mowing stripes, and the wooded rendering is consistent with the reference without adding paths or crossings.",
+    "issues": []
+  }
+}

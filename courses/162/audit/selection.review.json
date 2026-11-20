@@ -1,0 +1,32 @@
+{
+  "responseID": "resp_0fa60c387c3cd4b8016b007ae745d887d1b0ee29ad856ad925",
+  "model": "gpt-6-luna",
+  "usage": {
+    "input_tokens": 65396,
+    "input_tokens_details": {
+      "cache_write_tokens": 65393,
+      "cache_write_tokens_details": {
+        "ttl_12h_tokens": 0,
+        "ttl_30m_tokens": 65393
+      },
+      "cached_tokens": 0
+    },
+    "output_tokens": 3350,
+    "output_tokens_details": {
+      "reasoning_tokens": 3072
+    },
+    "total_tokens": 68746
+  },
+  "review": {
+    "candidate": 15,
+    "approved": true,
+    "scores": {
+      "strategy": 4,
+      "withinRoundVariety": 4,
+      "acrossDaysVariety": 4,
+      "fairDifficulty": 4
+    },
+    "reason": "Candidate 15 passes with its current geometry. Hole 1 is a 219-yard, 3-wood par 3 with greenside bunkers behind the target; five of nine dispersion probes finish safely, making it a demanding but playable opening test. Hole 2 is a 367-yard par 4 whose two-direction route rewards positioning, with a notably small green that makes the approach matter. Hole 3 is a 372-yard par 4 with a more direct corridor and substantial water beside the route; its seven playable probes indicate that misses can be recovered, while the shoreline adds consequence. The two driver par 4s are similar in length, but their actual routes differ: one changes direction twice, while the other emphasizes corridor placement and water-side risk. The long par 3 and single wet hole further distinguish the set. Recent rounds include doglegs and narrow corridors, so the geometry is not wholly novel, but this combination and sequence offer adequate freshness. The landing and dispersion evidence supports a challenging, fair round rather than an exact-shot test. Geometry facts confirm water on Hole 3 only; no edits are needed.",
+    "edits": []
+  }
+}

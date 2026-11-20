@@ -1,0 +1,33 @@
+{
+  "responseID": "resp_01fc2cda31ed4702016b007b1d145087d18acc2958a0ce44cd",
+  "model": "gpt-6-luna",
+  "usage": {
+    "input_tokens": 8175,
+    "input_tokens_details": {
+      "cache_write_tokens": 8172,
+      "cache_write_tokens_details": {
+        "ttl_12h_tokens": 0,
+        "ttl_30m_tokens": 8172
+      },
+      "cached_tokens": 0
+    },
+    "output_tokens": 3350,
+    "output_tokens_details": {
+      "reasoning_tokens": 3234
+    },
+    "total_tokens": 11525
+  },
+  "review": {
+    "reviewKind": "artwork-only-v1",
+    "candidate": 15,
+    "approved": true,
+    "scores": {
+      "geometryFidelity": 4,
+      "naturalGreens": 4,
+      "visualClarity": 4,
+      "styleConsistency": 4
+    },
+    "reason": "The numbered tee-to-green routing, property silhouette, mapped fairway patches, lake and bunkers are represented faithfully. All fairway sections have clear alternating stripes, the greens read as continuous putting surfaces, and the wooded treatment remains consistent with the reference. No actionable artwork issue is apparent.",
+    "issues": []
+  }
+}
