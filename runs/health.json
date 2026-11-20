@@ -1,17 +1,12 @@
 {
   "schemaVersion": 1,
-  "checkedAt": 1795145316,
-  "currentCourse": 157,
+  "checkedAt": 1795179701,
+  "currentCourse": 158,
   "minimumFutureCourses": 3,
-  "readyFutureCourses": 1,
-  "unavailableCourse": 156,
-  "status": "unavailable",
+  "readyFutureCourses": 3,
+  "unavailableCourse": null,
+  "status": "healthy",
   "courses": [
-    {
-      "course": 156,
-      "status": "unavailable",
-      "error": "Could not check public content"
-    },
     {
       "course": 157,
       "status": "ready"
@@ -24,8 +19,7 @@
     },
     {
       "course": 159,
-      "status": "unavailable",
-      "error": "Could not check public content"
+      "status": "ready"
     },
     {
       "course": 160,
@@ -34,6 +28,11 @@
     {
       "course": 161,
       "status": "ready"
+    },
+    {
+      "course": 162,
+      "status": "missing",
+      "error": "No published manifest"
     }
   ],
   "authoring": {
