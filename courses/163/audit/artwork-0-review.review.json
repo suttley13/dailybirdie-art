@@ -1,0 +1,46 @@
+{
+  "responseID": "resp_0b8973f4f1d33e53016b01c08477ac87d1a4b5718c19e7209b",
+  "model": "gpt-6-luna",
+  "usage": {
+    "input_tokens": 8402,
+    "input_tokens_details": {
+      "cache_write_tokens": 8399,
+      "cache_write_tokens_details": {
+        "ttl_12h_tokens": 0,
+        "ttl_30m_tokens": 8399
+      },
+      "cached_tokens": 0
+    },
+    "output_tokens": 1974,
+    "output_tokens_details": {
+      "reasoning_tokens": 1774
+    },
+    "total_tokens": 10376
+  },
+  "review": {
+    "reviewKind": "artwork-only-v1",
+    "candidate": 4,
+    "approved": false,
+    "scores": {
+      "geometryFidelity": 4,
+      "naturalGreens": 5,
+      "visualClarity": 4,
+      "styleConsistency": 3
+    },
+    "reason": "The mapped course layout, natural single-surface greens, and striped fairways are generally clear and consistent with the reference. Trees visibly intrude into Hole 2\u2019s tee-to-landing corridor, so the current illustration does not meet the wooded-corridor requirement.",
+    "issues": [
+      {
+        "code": "style",
+        "hole": 2,
+        "detail": "Tree crowns sit in the broad corridor from T2 toward the first fairway landing area; clear or relocate the obstructing trees so that corridor reads unobstructed.",
+        "consequence": "The overview makes Hole 2\u2019s tee shot appear obstructed by trees.",
+        "region": {
+          "x": 0.24,
+          "y": 0.22,
+          "width": 0.07,
+          "height": 0.11
+        }
+      }
+    ]
+  }
+}

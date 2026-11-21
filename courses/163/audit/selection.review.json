@@ -1,0 +1,32 @@
+{
+  "responseID": "resp_0886f904cd70b284016b01c059be9887d19142ece6ddc2c331",
+  "model": "gpt-6-luna",
+  "usage": {
+    "input_tokens": 67823,
+    "input_tokens_details": {
+      "cache_write_tokens": 67820,
+      "cache_write_tokens_details": {
+        "ttl_12h_tokens": 0,
+        "ttl_30m_tokens": 67820
+      },
+      "cached_tokens": 0
+    },
+    "output_tokens": 2066,
+    "output_tokens_details": {
+      "reasoning_tokens": 1781
+    },
+    "total_tokens": 69889
+  },
+  "review": {
+    "candidate": 4,
+    "approved": true,
+    "scores": {
+      "strategy": 4,
+      "withinRoundVariety": 4,
+      "acrossDaysVariety": 4,
+      "fairDifficulty": 4
+    },
+    "reason": "Candidate 4 passes with its current geometry. Hole 1 is a 445-yard cape par 4 with a substantial lake left and forward of the green. The lake makes the aggressive line consequential, while the playable route and 9/9 safe tee-dispersion samples support a genuine safer option. Hole 2 is a 209-yard punchbowl par 3 with water right and forward of the target; its 9/9 playable samples, including 5/9 safe, make it a demanding but credible target hole. Hole 3 is a dry 359-yard straight par 4. Its bunkers and only 3/9 safe tee-dispersion samples make it the positional test, while all nine samples remain playable. The cape, water-influenced target, and dry bunker-shaped finish provide solid variety in strategy and hazard exposure, though the two driver par 4s temper the contrast. Recent rounds include similar par sequences and water hazards, but this combination of a substantial cape lake, punchbowl target, and dry finish is sufficiently distinct. The simulation and dispersion evidence support challenge with recoverable misses rather than an exact-shot trap.",
+    "edits": []
+  }
+}

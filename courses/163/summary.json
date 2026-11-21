@@ -1,0 +1,140 @@
+{
+  "course": 163,
+  "geometrySHA256": "eccfe7c77135797aafc024a55bd102c12c2af11d5cabada9e11764c076d4e619",
+  "artworkSHA256": "3df75c9b56373c19ffdcf9576d44c109a4af2236d3c119c720bc67070874b418",
+  "holes": [
+    {
+      "bunkerCount": 3,
+      "fairwayArea": 23266.119581898864,
+      "greenArea": 2096.418378856717,
+      "par": 4,
+      "route": [
+        [
+          200,
+          40
+        ],
+        [
+          151.88453382152815,
+          393.60652202860393
+        ],
+        [
+          184.72106000074112,
+          572.7133636461409
+        ]
+      ],
+      "simulatedShotsToGreen": 2,
+      "teeAdvancingOptions": 18,
+      "teeClub": "driver",
+      "teeDispersionPlayable": 9,
+      "teeDispersionSafe": 9,
+      "teeDispersionSamples": 9,
+      "teeSafeOptions": 49,
+      "teeShotSamples": 216,
+      "type": "capeHole",
+      "waterArea": 35819.45143097745,
+      "yards": 445
+    },
+    {
+      "bunkerCount": 3,
+      "fairwayArea": 7959.393136202125,
+      "greenArea": 1669.0105368394616,
+      "par": 3,
+      "route": [
+        [
+          200,
+          40
+        ],
+        [
+          191.60416662048513,
+          286.4579134283733
+        ]
+      ],
+      "simulatedShotsToGreen": 1,
+      "teeAdvancingOptions": 13,
+      "teeClub": "3wood",
+      "teeDispersionPlayable": 9,
+      "teeDispersionSafe": 5,
+      "teeDispersionSamples": 9,
+      "teeSafeOptions": 47,
+      "teeShotSamples": 216,
+      "type": "punchbowlGreen",
+      "waterArea": 9472.46794260867,
+      "yards": 209
+    },
+    {
+      "bunkerCount": 5,
+      "fairwayArea": 20695.56983078803,
+      "greenArea": 3319.0778878778,
+      "par": 4,
+      "route": [
+        [
+          200,
+          40
+        ],
+        [
+          217.18886538954797,
+          411.65449446379927
+        ],
+        [
+          212.18978934252547,
+          465.1832175985356
+        ]
+      ],
+      "simulatedShotsToGreen": 2,
+      "teeAdvancingOptions": 21,
+      "teeClub": "driver",
+      "teeDispersionPlayable": 9,
+      "teeDispersionSafe": 3,
+      "teeDispersionSamples": 9,
+      "teeSafeOptions": 59,
+      "teeShotSamples": 216,
+      "type": "straight",
+      "waterArea": 0,
+      "yards": 359
+    }
+  ],
+  "review": {
+    "candidate": 4,
+    "approved": true,
+    "scores": {
+      "strategy": 4,
+      "withinRoundVariety": 4,
+      "acrossDaysVariety": 4,
+      "fairDifficulty": 4
+    },
+    "reason": "Candidate 4 passes with its current geometry. Hole 1 is a 445-yard cape par 4 with a substantial lake left and forward of the green. The lake makes the aggressive line consequential, while the playable route and 9/9 safe tee-dispersion samples support a genuine safer option. Hole 2 is a 209-yard punchbowl par 3 with water right and forward of the target; its 9/9 playable samples, including 5/9 safe, make it a demanding but credible target hole. Hole 3 is a dry 359-yard straight par 4. Its bunkers and only 3/9 safe tee-dispersion samples make it the positional test, while all nine samples remain playable. The cape, water-influenced target, and dry bunker-shaped finish provide solid variety in strategy and hazard exposure, though the two driver par 4s temper the contrast. Recent rounds include similar par sequences and water hazards, but this combination of a substantial cape lake, punchbowl target, and dry finish is sufficiently distinct. The simulation and dispersion evidence support challenge with recoverable misses rather than an exact-shot trap.",
+    "edits": []
+  },
+  "playingProfile": {
+    "routingFamilies": [
+      "open",
+      "target",
+      "water-carry"
+    ],
+    "teeClubs": [
+      "3wood",
+      "driver"
+    ],
+    "greenSizes": [
+      "large",
+      "medium",
+      "small"
+    ],
+    "regulationHoles": 3,
+    "underRegulationHoles": 0
+  },
+  "artworkStatus": "approved",
+  "artworkReview": {
+    "reviewKind": "artwork-only-v1",
+    "candidate": 4,
+    "approved": true,
+    "scores": {
+      "geometryFidelity": 5,
+      "naturalGreens": 4,
+      "visualClarity": 5,
+      "styleConsistency": 5
+    },
+    "reason": "The illustration preserves the numbered tee-to-green routing, mapped fairway and water footprints, property silhouette, and visible tees. All mapped fairways have clearly visible stripes, the greens read as continuous natural putting surfaces, and the wooded treatment does not visibly obstruct the shot corridors. Framing and white margins are suitable.",
+    "issues": []
+  }
+}

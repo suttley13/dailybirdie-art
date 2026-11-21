@@ -1,0 +1,33 @@
+{
+  "responseID": "resp_0f54cd95c64fc2b7016b01c0b2503c87d19ba33d890d1b8cea",
+  "model": "gpt-6-luna",
+  "usage": {
+    "input_tokens": 8397,
+    "input_tokens_details": {
+      "cache_write_tokens": 7086,
+      "cache_write_tokens_details": {
+        "ttl_12h_tokens": 0,
+        "ttl_30m_tokens": 7086
+      },
+      "cached_tokens": 1308
+    },
+    "output_tokens": 2421,
+    "output_tokens_details": {
+      "reasoning_tokens": 2312
+    },
+    "total_tokens": 10818
+  },
+  "review": {
+    "reviewKind": "artwork-only-v1",
+    "candidate": 4,
+    "approved": true,
+    "scores": {
+      "geometryFidelity": 5,
+      "naturalGreens": 4,
+      "visualClarity": 4,
+      "styleConsistency": 4
+    },
+    "reason": "The illustration preserves the numbered tee-to-green directions, mapped water and bunker placements, and course silhouette. All mapped fairway sections have visible transverse mowing stripes, the greens read as continuous putting surfaces, and no paths or unmapped water crossings are shown.",
+    "issues": []
+  }
+}
