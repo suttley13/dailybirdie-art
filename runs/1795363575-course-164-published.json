@@ -1,0 +1,268 @@
+{
+  "schemaVersion": 1,
+  "course": 164,
+  "outcome": "published",
+  "error": null,
+  "startedAt": 1795363575,
+  "seconds": 183.69,
+  "reviewModel": "gpt-6-luna",
+  "reviewEffort": "medium",
+  "imageModel": "gpt-image-2.5-sunburst",
+  "candidatesRequested": 50,
+  "calls": [
+    {
+      "phase": "selection",
+      "kind": "review",
+      "model": "gpt-6-luna",
+      "effort": "medium",
+      "responseID": "resp_043944062560a1c8016b03130893f887d1bbb8be21ae032515",
+      "usage": {
+        "input_tokens": 69214,
+        "input_tokens_details": {
+          "cache_write_tokens": 69211,
+          "cache_write_tokens_details": {
+            "ttl_12h_tokens": 0,
+            "ttl_30m_tokens": 69211
+          },
+          "cached_tokens": 0
+        },
+        "output_tokens": 1913,
+        "output_tokens_details": {
+          "reasoning_tokens": 1552
+        },
+        "total_tokens": 71127
+      },
+      "seconds": 20.76,
+      "imageCount": 8,
+      "approved": true,
+      "reviewKind": "course-design",
+      "reason": "Candidate 38 passes with its current geometry. Hole 1 is a dry 321-yard split-fairway par 4. The tree-lined division gives the tee shot a placement choice, though its exceptionally broad fairway and 9/9 safe dispersion make this the forgiving setup hole. Hole 2 is a 229-yard long par 3 with water left and forward of the target and greenside bunkers; the 3-wood demand makes it a substantial target test, while all nine dispersion samples remain playable. Hole 3 is a dry 439-yard dogleg-left par 4 with water to the right/front of play. The turn and hazard give the tee shot consequence, and 7/9 safe samples indicate a challenge with alternatives. The par-4/3/4 sequence and contrast between a broad placement hole, a long water-influenced target, and a turning finish provide good variety, even though the two par 4s temper it. Recent rounds feature many doglegs and water, but this set\u2019s long par 3 between a generous split fairway and a water-side dogleg gives it sufficient freshness. The easy opener is balanced by the demanding par 3 and longer, turning par 4; the dispersion evidence supports recoverable difficulty rather than an exact-shot trap. Geometry facts confirm water on holes 2 and 3, and none on hole 1.",
+      "issues": [],
+      "edits": [],
+      "scores": {
+        "strategy": 4,
+        "withinRoundVariety": 4,
+        "acrossDaysVariety": 4,
+        "fairDifficulty": 4
+      }
+    },
+    {
+      "phase": "artwork-0",
+      "kind": "image",
+      "model": "gpt-image-2.5-sunburst",
+      "usage": {
+        "input_tokens": 4471,
+        "input_tokens_details": {
+          "image_tokens": 2863,
+          "text_tokens": 1608
+        },
+        "output_tokens": 343,
+        "output_tokens_details": {
+          "image_tokens": 343,
+          "text_tokens": 0
+        },
+        "total_tokens": 4814
+      },
+      "seconds": 19.92
+    },
+    {
+      "phase": "artwork-0-review",
+      "kind": "review",
+      "model": "gpt-6-luna",
+      "effort": "medium",
+      "responseID": "resp_0bdcc829bd934683016b0313316a7887d1949130fd018ca7ee",
+      "usage": {
+        "input_tokens": 8633,
+        "input_tokens_details": {
+          "cache_write_tokens": 8630,
+          "cache_write_tokens_details": {
+            "ttl_12h_tokens": 0,
+            "ttl_30m_tokens": 8630
+          },
+          "cached_tokens": 0
+        },
+        "output_tokens": 2870,
+        "output_tokens_details": {
+          "reasoning_tokens": 2492
+        },
+        "total_tokens": 11503
+      },
+      "seconds": 30.35,
+      "imageCount": 3,
+      "approved": false,
+      "reviewKind": "artwork-only-v1",
+      "reason": "The mapped course layout, hazards, tees, and greens are well preserved, and the greens read as single natural putting surfaces. The broad Hole 1 and bent Hole 3 fairways show checkerboard-like crosshatching rather than clear, smoothly fanning transverse mowing bands.",
+      "issues": [
+        {
+          "code": "style",
+          "hole": 1,
+          "detail": "The large fairway reads as a checkerboard grid, with secondary crosswise divisions interrupting the transverse mowing bands.",
+          "consequence": "At overview scale, the fairway will read as tiled or crosshatched turf rather than striped mowing.",
+          "region": {
+            "x": 0.275,
+            "y": 0.098,
+            "width": 0.3,
+            "height": 0.322
+          }
+        },
+        {
+          "code": "style",
+          "hole": 3,
+          "detail": "The bent fairway has a fixed checkerboard-like pattern instead of bands that rotate and fan with the curve.",
+          "consequence": "The mowing pattern will visually conflict with the fairway's changing direction and make it read as a grid.",
+          "region": {
+            "x": 0.327,
+            "y": 0.527,
+            "width": 0.3,
+            "height": 0.234
+          }
+        }
+      ],
+      "edits": [],
+      "scores": {
+        "geometryFidelity": 5,
+        "naturalGreens": 5,
+        "visualClarity": 4,
+        "styleConsistency": 3
+      }
+    },
+    {
+      "phase": "artwork-1",
+      "kind": "image",
+      "model": "gpt-image-2.5-sunburst",
+      "usage": {
+        "input_tokens": 6343,
+        "input_tokens_details": {
+          "image_tokens": 4363,
+          "text_tokens": 1980
+        },
+        "output_tokens": 343,
+        "output_tokens_details": {
+          "image_tokens": 343,
+          "text_tokens": 0
+        },
+        "total_tokens": 6686
+      },
+      "seconds": 17.51
+    },
+    {
+      "phase": "artwork-1-review",
+      "kind": "review",
+      "model": "gpt-6-luna",
+      "effort": "medium",
+      "responseID": "resp_01433a2da53f4217016b0313620bd087d18f4adb0fe5b8b0fa",
+      "usage": {
+        "input_tokens": 8622,
+        "input_tokens_details": {
+          "cache_write_tokens": 7311,
+          "cache_write_tokens_details": {
+            "ttl_12h_tokens": 0,
+            "ttl_30m_tokens": 7311
+          },
+          "cached_tokens": 1308
+        },
+        "output_tokens": 2411,
+        "output_tokens_details": {
+          "reasoning_tokens": 2216
+        },
+        "total_tokens": 11033
+      },
+      "seconds": 25.91,
+      "imageCount": 3,
+      "approved": false,
+      "reviewKind": "artwork-only-v1",
+      "reason": "The course layout, greens, water, and striped fairways are generally faithful, but added trees visibly cover Hole 3\u2019s fairway and approach area.",
+      "issues": [
+        {
+          "code": "style",
+          "hole": 3,
+          "detail": "Several tree crowns overlap the striped Hole 3 fairway and its route toward G3, especially along the lower-middle portion of the course. Keep the fairway and approach clear of added vegetation.",
+          "consequence": "The trees obscure the mapped fairway footprint and make Hole 3\u2019s intended route to its green harder to read in the overview.",
+          "region": {
+            "x": 0.39,
+            "y": 0.68,
+            "width": 0.22,
+            "height": 0.17
+          }
+        }
+      ],
+      "edits": [],
+      "scores": {
+        "geometryFidelity": 4,
+        "naturalGreens": 4,
+        "visualClarity": 3,
+        "styleConsistency": 3
+      }
+    },
+    {
+      "phase": "artwork-2",
+      "kind": "image",
+      "model": "gpt-image-2.5-sunburst",
+      "usage": {
+        "input_tokens": 6343,
+        "input_tokens_details": {
+          "image_tokens": 4363,
+          "text_tokens": 1980
+        },
+        "output_tokens": 343,
+        "output_tokens_details": {
+          "image_tokens": 343,
+          "text_tokens": 0
+        },
+        "total_tokens": 6686
+      },
+      "seconds": 18.65
+    },
+    {
+      "phase": "artwork-2-review",
+      "kind": "review",
+      "model": "gpt-6-luna",
+      "effort": "medium",
+      "responseID": "resp_0fadb4672bb11117016b03138f3c8487d1a722c1fd8205149b",
+      "usage": {
+        "input_tokens": 8621,
+        "input_tokens_details": {
+          "cache_write_tokens": 7310,
+          "cache_write_tokens_details": {
+            "ttl_12h_tokens": 0,
+            "ttl_30m_tokens": 7310
+          },
+          "cached_tokens": 1308
+        },
+        "output_tokens": 3159,
+        "output_tokens_details": {
+          "reasoning_tokens": 2971
+        },
+        "total_tokens": 11780
+      },
+      "seconds": 31.0,
+      "imageCount": 3,
+      "approved": false,
+      "reviewKind": "artwork-only-v1",
+      "reason": "The mapped course layout, hazards, tees, and greens are represented clearly, but Hole 1's fairway uses a checkerboard pattern instead of clearly defined edge-to-edge mowing bands.",
+      "issues": [
+        {
+          "code": "style",
+          "hole": 1,
+          "detail": "The broad Hole 1 fairway is patterned as checkerboard squares rather than distinct alternating bands crossing the fairway perpendicular to its local edges and direction of play.",
+          "consequence": "At overview scale, the fairway reads as a checkerboard instead of the required striped mowing pattern.",
+          "region": {
+            "x": 0.28,
+            "y": 0.12,
+            "width": 0.3,
+            "height": 0.3
+          }
+        }
+      ],
+      "edits": [],
+      "scores": {
+        "geometryFidelity": 5,
+        "naturalGreens": 4,
+        "visualClarity": 4,
+        "styleConsistency": 3
+      }
+    }
+  ],
+  "artworkStatus": "geometry-preview",
+  "artworkFailure": "The mapped course layout, hazards, tees, and greens are represented clearly, but Hole 1's fairway uses a checkerboard pattern instead of clearly defined edge-to-edge mowing bands.; Repeated style without improvement (3 reviews)"
+}

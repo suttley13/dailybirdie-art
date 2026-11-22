@@ -1,0 +1,127 @@
+{
+  "course": 164,
+  "geometrySHA256": "93a99818e49694b102e2a3ef3f5748517ae7d035334a2b98a98bdbb145be3d1f",
+  "artworkSHA256": "4416954a7d89d11e7c083ff139c8d971422a9e97911114372b9db7f34d4d6622",
+  "holes": [
+    {
+      "bunkerCount": 5,
+      "fairwayArea": 68883.69092386826,
+      "greenArea": 1606.9822292601166,
+      "par": 4,
+      "route": [
+        [
+          200,
+          40
+        ],
+        [
+          214.41434543209832,
+          390.4565257521321
+        ],
+        [
+          205.13662283694663,
+          426.64378709804265
+        ]
+      ],
+      "simulatedShotsToGreen": 2,
+      "teeAdvancingOptions": 38,
+      "teeClub": "driver",
+      "teeDispersionPlayable": 9,
+      "teeDispersionSafe": 9,
+      "teeDispersionSamples": 9,
+      "teeSafeOptions": 164,
+      "teeShotSamples": 216,
+      "type": "splitFairway",
+      "waterArea": 0,
+      "yards": 321
+    },
+    {
+      "bunkerCount": 6,
+      "fairwayArea": 10662.410524476032,
+      "greenArea": 1224.3179716679515,
+      "par": 3,
+      "route": [
+        [
+          200,
+          40
+        ],
+        [
+          192.94162836995952,
+          300.68324250264885
+        ]
+      ],
+      "simulatedShotsToGreen": 1,
+      "teeAdvancingOptions": 16,
+      "teeClub": "3wood",
+      "teeDispersionPlayable": 9,
+      "teeDispersionSafe": 6,
+      "teeDispersionSamples": 9,
+      "teeSafeOptions": 51,
+      "teeShotSamples": 216,
+      "type": "longPar3",
+      "waterArea": 8846.943806422078,
+      "yards": 229
+    },
+    {
+      "bunkerCount": 3,
+      "fairwayArea": 19337.2389749715,
+      "greenArea": 2059.646674228914,
+      "par": 4,
+      "route": [
+        [
+          280,
+          40
+        ],
+        [
+          172.18813231345098,
+          379.69662733442243
+        ],
+        [
+          101.70196313395391,
+          399.5057352428717
+        ]
+      ],
+      "simulatedShotsToGreen": 2,
+      "teeAdvancingOptions": 14,
+      "teeClub": "driver",
+      "teeDispersionPlayable": 9,
+      "teeDispersionSafe": 7,
+      "teeDispersionSamples": 9,
+      "teeSafeOptions": 47,
+      "teeShotSamples": 216,
+      "type": "doglegLeft",
+      "waterArea": 10194.224749409997,
+      "yards": 439
+    }
+  ],
+  "review": {
+    "candidate": 38,
+    "approved": true,
+    "scores": {
+      "strategy": 4,
+      "withinRoundVariety": 4,
+      "acrossDaysVariety": 4,
+      "fairDifficulty": 4
+    },
+    "reason": "Candidate 38 passes with its current geometry. Hole 1 is a dry 321-yard split-fairway par 4. The tree-lined division gives the tee shot a placement choice, though its exceptionally broad fairway and 9/9 safe dispersion make this the forgiving setup hole. Hole 2 is a 229-yard long par 3 with water left and forward of the target and greenside bunkers; the 3-wood demand makes it a substantial target test, while all nine dispersion samples remain playable. Hole 3 is a dry 439-yard dogleg-left par 4 with water to the right/front of play. The turn and hazard give the tee shot consequence, and 7/9 safe samples indicate a challenge with alternatives. The par-4/3/4 sequence and contrast between a broad placement hole, a long water-influenced target, and a turning finish provide good variety, even though the two par 4s temper it. Recent rounds feature many doglegs and water, but this set\u2019s long par 3 between a generous split fairway and a water-side dogleg gives it sufficient freshness. The easy opener is balanced by the demanding par 3 and longer, turning par 4; the dispersion evidence supports recoverable difficulty rather than an exact-shot trap. Geometry facts confirm water on holes 2 and 3, and none on hole 1.",
+    "edits": []
+  },
+  "playingProfile": {
+    "routingFamilies": [
+      "placement",
+      "target",
+      "turning"
+    ],
+    "teeClubs": [
+      "3wood",
+      "driver"
+    ],
+    "greenSizes": [
+      "medium",
+      "small"
+    ],
+    "regulationHoles": 3,
+    "underRegulationHoles": 0
+  },
+  "artworkStatus": "geometry-preview",
+  "artworkReview": null
+}

@@ -1,0 +1,46 @@
+{
+  "responseID": "resp_01433a2da53f4217016b0313620bd087d18f4adb0fe5b8b0fa",
+  "model": "gpt-6-luna",
+  "usage": {
+    "input_tokens": 8622,
+    "input_tokens_details": {
+      "cache_write_tokens": 7311,
+      "cache_write_tokens_details": {
+        "ttl_12h_tokens": 0,
+        "ttl_30m_tokens": 7311
+      },
+      "cached_tokens": 1308
+    },
+    "output_tokens": 2411,
+    "output_tokens_details": {
+      "reasoning_tokens": 2216
+    },
+    "total_tokens": 11033
+  },
+  "review": {
+    "reviewKind": "artwork-only-v1",
+    "candidate": 38,
+    "approved": false,
+    "scores": {
+      "geometryFidelity": 4,
+      "naturalGreens": 4,
+      "visualClarity": 3,
+      "styleConsistency": 3
+    },
+    "reason": "The course layout, greens, water, and striped fairways are generally faithful, but added trees visibly cover Hole 3\u2019s fairway and approach area.",
+    "issues": [
+      {
+        "code": "style",
+        "hole": 3,
+        "detail": "Several tree crowns overlap the striped Hole 3 fairway and its route toward G3, especially along the lower-middle portion of the course. Keep the fairway and approach clear of added vegetation.",
+        "consequence": "The trees obscure the mapped fairway footprint and make Hole 3\u2019s intended route to its green harder to read in the overview.",
+        "region": {
+          "x": 0.39,
+          "y": 0.68,
+          "width": 0.22,
+          "height": 0.17
+        }
+      }
+    ]
+  }
+}

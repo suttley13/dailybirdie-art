@@ -1,0 +1,13 @@
+{
+  "failures": [
+    "The mapped course layout, hazards, tees, and greens are well preserved, and the greens read as single natural putting surfaces. The broad Hole 1 and bent Hole 3 fairways show checkerboard-like crosshatching rather than clear, smoothly fanning transverse mowing bands.",
+    "The course layout, greens, water, and striped fairways are generally faithful, but added trees visibly cover Hole 3\u2019s fairway and approach area.",
+    "The mapped course layout, hazards, tees, and greens are represented clearly, but Hole 1's fairway uses a checkerboard pattern instead of clearly defined edge-to-edge mowing bands.",
+    "Repeated style without improvement (3 reviews)"
+  ],
+  "attempts": 3,
+  "maxAttempts": 5,
+  "repeatedIssueLimit": 3,
+  "bestFile": "artwork-0.jpg",
+  "stopReason": "Repeated style without improvement (3 reviews)"
+}

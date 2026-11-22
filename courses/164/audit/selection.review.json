@@ -1,0 +1,32 @@
+{
+  "responseID": "resp_043944062560a1c8016b03130893f887d1bbb8be21ae032515",
+  "model": "gpt-6-luna",
+  "usage": {
+    "input_tokens": 69214,
+    "input_tokens_details": {
+      "cache_write_tokens": 69211,
+      "cache_write_tokens_details": {
+        "ttl_12h_tokens": 0,
+        "ttl_30m_tokens": 69211
+      },
+      "cached_tokens": 0
+    },
+    "output_tokens": 1913,
+    "output_tokens_details": {
+      "reasoning_tokens": 1552
+    },
+    "total_tokens": 71127
+  },
+  "review": {
+    "candidate": 38,
+    "approved": true,
+    "scores": {
+      "strategy": 4,
+      "withinRoundVariety": 4,
+      "acrossDaysVariety": 4,
+      "fairDifficulty": 4
+    },
+    "reason": "Candidate 38 passes with its current geometry. Hole 1 is a dry 321-yard split-fairway par 4. The tree-lined division gives the tee shot a placement choice, though its exceptionally broad fairway and 9/9 safe dispersion make this the forgiving setup hole. Hole 2 is a 229-yard long par 3 with water left and forward of the target and greenside bunkers; the 3-wood demand makes it a substantial target test, while all nine dispersion samples remain playable. Hole 3 is a dry 439-yard dogleg-left par 4 with water to the right/front of play. The turn and hazard give the tee shot consequence, and 7/9 safe samples indicate a challenge with alternatives. The par-4/3/4 sequence and contrast between a broad placement hole, a long water-influenced target, and a turning finish provide good variety, even though the two par 4s temper it. Recent rounds feature many doglegs and water, but this set\u2019s long par 3 between a generous split fairway and a water-side dogleg gives it sufficient freshness. The easy opener is balanced by the demanding par 3 and longer, turning par 4; the dispersion evidence supports recoverable difficulty rather than an exact-shot trap. Geometry facts confirm water on holes 2 and 3, and none on hole 1.",
+    "edits": []
+  }
+}
