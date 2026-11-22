@@ -1,18 +1,12 @@
 {
   "schemaVersion": 1,
-  "checkedAt": 1795330758,
-  "currentCourse": 159,
+  "checkedAt": 1795361211,
+  "currentCourse": 160,
   "minimumFutureCourses": 3,
-  "readyFutureCourses": 4,
+  "readyFutureCourses": 3,
   "unavailableCourse": null,
   "status": "healthy",
   "courses": [
-    {
-      "course": 158,
-      "status": "ready",
-      "paired": true,
-      "matchupID": "daily-pair-v1-158-b1267020877b8ab9b14c696db47eb6051f95b0817820e799a93a93423f11cca4"
-    },
     {
       "course": 159,
       "status": "ready"
@@ -32,6 +26,11 @@
     {
       "course": 163,
       "status": "ready"
+    },
+    {
+      "course": 164,
+      "status": "missing",
+      "error": "No published manifest"
     }
   ],
   "authoring": {
