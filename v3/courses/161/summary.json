@@ -1,0 +1,253 @@
+{
+  "course": 161,
+  "date": "2026-11-24",
+  "name": "Mirror Weir Golf Club",
+  "studioJob": "4f825485-7cc2-413a-86e3-d1540c5dd561",
+  "draftFingerprint": "a6dfc5464c49fd3f5fda7fa663409270ecc23c2db17f26427a82af32cd0f58cf",
+  "approval": {
+    "approvedAt": "2026-11-23T03:18:56.900Z",
+    "playtested": true,
+    "humanApproved": true,
+    "retainedOlder": {
+      "legacy": {
+        "course": 161,
+        "artworkSHA256": "b82d5d5ffae2f582220b66205536f1676120957f4d7e177ba5cacd8a8a729e33",
+        "schemaVersion": 1,
+        "geometrySHA256": "f9b50667a12963cea595e6bd77628922a26d34a6f48137b35386d45ace7fdfea",
+        "artRulesVersion": "fairway-stripes-v4"
+      },
+      "pairMatchupID": null
+    },
+    "artworkOverrides": [
+      {
+        "policy": "studio-human-artwork-v1",
+        "reason": "The illustration closely preserves the numbered tee-to-green layouts, mapped fairway footprints, property silhouette, and water and bunker placement. All mapped fairway sections have visible transverse mowing stripes, and the greens read as continuous natural putting surfaces. The tees and hazards remain clear in the overview. The property, fairways, hazards, and continuous natural putting surfaces read clearly and are generally faithful. The mapped flag positions are not visibly marked on any of the three greens.",
+        "review": {
+          "issues": [
+            {
+              "code": "geometry-mismatch",
+              "hole": 1,
+              "detail": "The mapped flag position on G1 is missing; no flag or equivalent pin marker is visible.",
+              "region": {
+                "x": 0.637,
+                "y": 0.601,
+                "width": 0.034,
+                "height": 0.052
+              },
+              "consequence": "The overview omits the mapped pin location on this green."
+            },
+            {
+              "code": "geometry-mismatch",
+              "hole": 2,
+              "detail": "The mapped flag position on G2 is missing; no flag or equivalent pin marker is visible.",
+              "region": {
+                "x": 0.166,
+                "y": 0.302,
+                "width": 0.036,
+                "height": 0.052
+              },
+              "consequence": "The overview omits the mapped pin location on this green."
+            },
+            {
+              "code": "geometry-mismatch",
+              "hole": 3,
+              "detail": "The mapped flag position on G3 is missing; no flag or equivalent pin marker is visible.",
+              "region": {
+                "x": 0.804,
+                "y": 0.298,
+                "width": 0.035,
+                "height": 0.052
+              },
+              "consequence": "The overview omits the mapped pin location on this green."
+            }
+          ],
+          "reason": "The illustration closely preserves the numbered tee-to-green layouts, mapped fairway footprints, property silhouette, and water and bunker placement. All mapped fairway sections have visible transverse mowing stripes, and the greens read as continuous natural putting surfaces. The tees and hazards remain clear in the overview. The property, fairways, hazards, and continuous natural putting surfaces read clearly and are generally faithful. The mapped flag positions are not visibly marked on any of the three greens.",
+          "reviews": [
+            {
+              "review": {
+                "issues": [],
+                "reason": "The illustration closely preserves the numbered tee-to-green layouts, mapped fairway footprints, property silhouette, and water and bunker placement. All mapped fairway sections have visible transverse mowing stripes, and the greens read as continuous natural putting surfaces. The tees and hazards remain clear in the overview.",
+                "scores": {
+                  "naturalGreens": 4,
+                  "visualClarity": 4,
+                  "geometryFidelity": 5,
+                  "styleConsistency": 5
+                },
+                "approved": true,
+                "candidate": 0,
+                "reviewKind": "artwork-only-v1"
+              },
+              "responseID": "resp_01d9e89931f2cc13016b03b01acc5487d1b8aeec1096fbb49a"
+            },
+            {
+              "review": {
+                "issues": [
+                  {
+                    "code": "geometry-mismatch",
+                    "hole": 1,
+                    "detail": "The mapped flag position on G1 is missing; no flag or equivalent pin marker is visible.",
+                    "region": {
+                      "x": 0.637,
+                      "y": 0.601,
+                      "width": 0.034,
+                      "height": 0.052
+                    },
+                    "consequence": "The overview omits the mapped pin location on this green."
+                  },
+                  {
+                    "code": "geometry-mismatch",
+                    "hole": 2,
+                    "detail": "The mapped flag position on G2 is missing; no flag or equivalent pin marker is visible.",
+                    "region": {
+                      "x": 0.166,
+                      "y": 0.302,
+                      "width": 0.036,
+                      "height": 0.052
+                    },
+                    "consequence": "The overview omits the mapped pin location on this green."
+                  },
+                  {
+                    "code": "geometry-mismatch",
+                    "hole": 3,
+                    "detail": "The mapped flag position on G3 is missing; no flag or equivalent pin marker is visible.",
+                    "region": {
+                      "x": 0.804,
+                      "y": 0.298,
+                      "width": 0.035,
+                      "height": 0.052
+                    },
+                    "consequence": "The overview omits the mapped pin location on this green."
+                  }
+                ],
+                "reason": "The property, fairways, hazards, and continuous natural putting surfaces read clearly and are generally faithful. The mapped flag positions are not visibly marked on any of the three greens.",
+                "scores": {
+                  "naturalGreens": 4,
+                  "visualClarity": 4,
+                  "geometryFidelity": 3,
+                  "styleConsistency": 5
+                },
+                "approved": false,
+                "candidate": 0,
+                "reviewKind": "artwork-only-v1"
+              },
+              "responseID": "resp_0622953d2d7bc5a5016b03b01adeac87d1953bac7e70039745"
+            }
+          ],
+          "approved": false,
+          "decisionKey": "9e6278f3db5018623cba44371b7142e7e51bc08e51e5545d4e52c27f8f3c90a9",
+          "artworkSHA256": "3ac431d6bc93a99925762f4dbcfaefec5cf67f116c0c49320378739ad39d4be7",
+          "geometrySHA256": "3dab8ef88c5c6f72832b9541890eee22251e359b7cedc6215c38afe686db1b0c",
+          "geometryEncoding": "studio-stable-json-v1"
+        },
+        "decisionKey": "9e6278f3db5018623cba44371b7142e7e51bc08e51e5545d4e52c27f8f3c90a9",
+        "artworkSHA256": "3ac431d6bc93a99925762f4dbcfaefec5cf67f116c0c49320378739ad39d4be7",
+        "geometrySHA256": "3dab8ef88c5c6f72832b9541890eee22251e359b7cedc6215c38afe686db1b0c",
+        "acceptedFindings": [
+          "9e6278f3db5018623cba44371b7142e7e51bc08e51e5545d4e52c27f8f3c90a9:0",
+          "9e6278f3db5018623cba44371b7142e7e51bc08e51e5545d4e52c27f8f3c90a9:1",
+          "9e6278f3db5018623cba44371b7142e7e51bc08e51e5545d4e52c27f8f3c90a9:2"
+        ]
+      }
+    ],
+    "compatibilityApproved": true
+  },
+  "artworkStatus": "approved",
+  "geometrySHA256": "676ac0bc6429839160a8166bca5808bd2dee36782a139b32963e11fd516980ec",
+  "artworkSHA256": "f38d49483cc8dbc6fd53a50c5772b485750b192aba4eb41dcdbfff8b036c9c6f",
+  "artworkReview": {
+    "issues": [],
+    "reason": "The illustration preserves the numbered hole directions, mapped fairways, water, bunkers, property silhouette and stone bridge. Greens read as continuous natural putting surfaces, and the fairway stripes are visible and run lengthwise with play. Tees and greens are identifiable, the woodland remains clear of the mapped playing surfaces, and the framing is usable. The illustration follows the mapped property silhouette and the T1-to-G1, T2-to-G2, and T3-to-G3 layouts. The mapped fairways are visibly striped lengthwise, the greens read as continuous natural putting surfaces, and the stone bridge is shown at the mapped crossing. The overview is clear and consistent with the supplied wooded-course style.",
+    "reviews": [
+      {
+        "review": {
+          "issues": [],
+          "reason": "The illustration preserves the numbered hole directions, mapped fairways, water, bunkers, property silhouette and stone bridge. Greens read as continuous natural putting surfaces, and the fairway stripes are visible and run lengthwise with play. Tees and greens are identifiable, the woodland remains clear of the mapped playing surfaces, and the framing is usable.",
+          "scores": {
+            "naturalGreens": 4,
+            "visualClarity": 5,
+            "geometryFidelity": 5,
+            "styleConsistency": 5
+          },
+          "approved": true,
+          "candidate": 0,
+          "reviewKind": "artwork-only-v1"
+        },
+        "responseID": "resp_052c6bd53b425864016b03b0182f5087d1b6b931077c48209b"
+      },
+      {
+        "review": {
+          "issues": [],
+          "reason": "The illustration follows the mapped property silhouette and the T1-to-G1, T2-to-G2, and T3-to-G3 layouts. The mapped fairways are visibly striped lengthwise, the greens read as continuous natural putting surfaces, and the stone bridge is shown at the mapped crossing. The overview is clear and consistent with the supplied wooded-course style.",
+          "scores": {
+            "naturalGreens": 4,
+            "visualClarity": 4,
+            "geometryFidelity": 4,
+            "styleConsistency": 5
+          },
+          "approved": true,
+          "candidate": 0,
+          "reviewKind": "artwork-only-v1"
+        },
+        "responseID": "resp_087c025ed76cdc0c016b03b01836cc87d1bced83d241e29bb6"
+      }
+    ],
+    "approved": true,
+    "artworkSHA256": "f38d49483cc8dbc6fd53a50c5772b485750b192aba4eb41dcdbfff8b036c9c6f",
+    "geometrySHA256": "b3415fd2a8e6de0ee5987fae83e613f2dd55c70b804b75596bbc82313be2b152",
+    "geometryEncoding": "studio-stable-json-v1",
+    "decisionKey": "6bb68dc4f37982eaa1cd7cb49bc5d8fcc7df74f5c113cd48218ba2e38d3289ad"
+  },
+  "compatibility": {
+    "policy": "studio-compatible-v1",
+    "holes": [
+      {
+        "sections": 1,
+        "addedFairwayYards": 0,
+        "addedFairwayPercent": 0,
+        "waterReshaped": false,
+        "addedFairway": []
+      },
+      {
+        "sections": 1,
+        "addedFairwayYards": 0,
+        "addedFairwayPercent": 0,
+        "waterReshaped": false,
+        "addedFairway": []
+      },
+      {
+        "sections": 1,
+        "addedFairwayYards": 0,
+        "addedFairwayPercent": 0,
+        "waterReshaped": false,
+        "addedFairway": []
+      }
+    ]
+  },
+  "holes": [
+    {
+      "par": 5,
+      "lengthYards": 560,
+      "type": "straight"
+    },
+    {
+      "par": 4,
+      "lengthYards": 461,
+      "type": "straight"
+    },
+    {
+      "par": 3,
+      "lengthYards": 237,
+      "type": "straight"
+    }
+  ],
+  "retainedOlder": {
+    "legacy": {
+      "course": 161,
+      "artworkSHA256": "b82d5d5ffae2f582220b66205536f1676120957f4d7e177ba5cacd8a8a729e33",
+      "schemaVersion": 1,
+      "geometrySHA256": "f9b50667a12963cea595e6bd77628922a26d34a6f48137b35386d45ace7fdfea",
+      "artRulesVersion": "fairway-stripes-v4"
+    },
+    "pairMatchupID": null
+  }
+}
