@@ -1,0 +1,33 @@
+{
+  "responseID": "resp_0564bf95b1c06952016b049bd74bb087d28995389348ab4098",
+  "model": "gpt-6-luna",
+  "usage": {
+    "input_tokens": 8307,
+    "input_tokens_details": {
+      "cache_write_tokens": 6996,
+      "cache_write_tokens_details": {
+        "ttl_12h_tokens": 0,
+        "ttl_30m_tokens": 6996
+      },
+      "cached_tokens": 1308
+    },
+    "output_tokens": 2692,
+    "output_tokens_details": {
+      "reasoning_tokens": 2557
+    },
+    "total_tokens": 10999
+  },
+  "review": {
+    "reviewKind": "artwork-only-v1",
+    "candidate": 46,
+    "approved": true,
+    "scores": {
+      "geometryFidelity": 5,
+      "naturalGreens": 4,
+      "visualClarity": 4,
+      "styleConsistency": 5
+    },
+    "reason": "The numbered tee-to-green routing, fairway footprints, mapped bunkers, island lake and property silhouette are faithfully represented. All tees and fairway sections are visible, the fairways have clear transverse mowing stripes, and the greens read as continuous putting surfaces with natural edge transitions. The wooded, painterly treatment is consistent with the reference without adding paths or apparent route-blocking vegetation.",
+    "issues": []
+  }
+}

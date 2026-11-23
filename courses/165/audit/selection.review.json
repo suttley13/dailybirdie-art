@@ -1,0 +1,32 @@
+{
+  "responseID": "resp_0fed7ad28a1847f2016b049b9136b087d28bf66e569d5c173a",
+  "model": "gpt-6-luna",
+  "usage": {
+    "input_tokens": 68958,
+    "input_tokens_details": {
+      "cache_write_tokens": 68955,
+      "cache_write_tokens_details": {
+        "ttl_12h_tokens": 0,
+        "ttl_30m_tokens": 68955
+      },
+      "cached_tokens": 0
+    },
+    "output_tokens": 2780,
+    "output_tokens_details": {
+      "reasoning_tokens": 2467
+    },
+    "total_tokens": 71738
+  },
+  "review": {
+    "candidate": 46,
+    "approved": true,
+    "scores": {
+      "strategy": 4,
+      "withinRoundVariety": 5,
+      "acrossDaysVariety": 4,
+      "fairDifficulty": 4
+    },
+    "reason": "Candidate 46 passes as supplied. Hole 1 is a dry 360-yard double dogleg par 4: the changing line and fairway bunkers make placement meaningful, and only 2 of 9 tee-dispersion samples finish safely, while all 8 playable outcomes suggest misses remain recoverable. Hole 2 is a dry 577-yard three-shot par 5 with a broad staged route and fairway bunkers; its 9 of 9 safe tee probes make it the forgiving long-game contrast, but the length and three-shot simulation keep it from being a routine driver-and-wedge hole. Hole 3 is a 210-yard island-green par 3 with a substantial surrounding lake and a 3-wood tee shot. The large target and 9 of 9 safe probes make the carry playable rather than an exact-shot trap, while water still gives the shot consequence. The par-4/5/3 sequence and shift from bending placement to staged long play to a water carry make this a varied round. Recent rounds include island greens and par-4/5/3 sequences, so freshness is good rather than exceptional; the dry double dogleg and dry staged par 5 distinguish this combination. Geometry facts confirm water on Hole 3 only. No geometry edits are needed.",
+    "edits": []
+  }
+}

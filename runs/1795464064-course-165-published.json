@@ -1,0 +1,143 @@
+{
+  "schemaVersion": 1,
+  "course": 165,
+  "outcome": "published",
+  "error": null,
+  "startedAt": 1795464064,
+  "seconds": 106.54,
+  "reviewModel": "gpt-6-luna",
+  "reviewEffort": "medium",
+  "imageModel": "gpt-image-2.5-sunburst",
+  "candidatesRequested": 50,
+  "calls": [
+    {
+      "phase": "selection",
+      "kind": "review",
+      "model": "gpt-6-luna",
+      "effort": "medium",
+      "responseID": "resp_0fed7ad28a1847f2016b049b9136b087d28bf66e569d5c173a",
+      "usage": {
+        "input_tokens": 68958,
+        "input_tokens_details": {
+          "cache_write_tokens": 68955,
+          "cache_write_tokens_details": {
+            "ttl_12h_tokens": 0,
+            "ttl_30m_tokens": 68955
+          },
+          "cached_tokens": 0
+        },
+        "output_tokens": 2780,
+        "output_tokens_details": {
+          "reasoning_tokens": 2467
+        },
+        "total_tokens": 71738
+      },
+      "seconds": 28.65,
+      "imageCount": 8,
+      "approved": true,
+      "reviewKind": "course-design",
+      "reason": "Candidate 46 passes as supplied. Hole 1 is a dry 360-yard double dogleg par 4: the changing line and fairway bunkers make placement meaningful, and only 2 of 9 tee-dispersion samples finish safely, while all 8 playable outcomes suggest misses remain recoverable. Hole 2 is a dry 577-yard three-shot par 5 with a broad staged route and fairway bunkers; its 9 of 9 safe tee probes make it the forgiving long-game contrast, but the length and three-shot simulation keep it from being a routine driver-and-wedge hole. Hole 3 is a 210-yard island-green par 3 with a substantial surrounding lake and a 3-wood tee shot. The large target and 9 of 9 safe probes make the carry playable rather than an exact-shot trap, while water still gives the shot consequence. The par-4/5/3 sequence and shift from bending placement to staged long play to a water carry make this a varied round. Recent rounds include island greens and par-4/5/3 sequences, so freshness is good rather than exceptional; the dry double dogleg and dry staged par 5 distinguish this combination. Geometry facts confirm water on Hole 3 only. No geometry edits are needed.",
+      "issues": [],
+      "edits": [],
+      "scores": {
+        "strategy": 4,
+        "withinRoundVariety": 5,
+        "acrossDaysVariety": 4,
+        "fairDifficulty": 4
+      }
+    },
+    {
+      "phase": "artwork-0",
+      "kind": "image",
+      "model": "gpt-image-2.5-sunburst",
+      "usage": {
+        "input_tokens": 4427,
+        "input_tokens_details": {
+          "image_tokens": 2863,
+          "text_tokens": 1564
+        },
+        "output_tokens": 343,
+        "output_tokens_details": {
+          "image_tokens": 343,
+          "text_tokens": 0
+        },
+        "total_tokens": 4770
+      },
+      "seconds": 24.37
+    },
+    {
+      "phase": "artwork-0-review",
+      "kind": "review",
+      "model": "gpt-6-luna",
+      "effort": "medium",
+      "responseID": "resp_06114e6e220177d7016b049bc6da1487d2b64cd49fc296a07a",
+      "usage": {
+        "input_tokens": 8307,
+        "input_tokens_details": {
+          "cache_write_tokens": 8304,
+          "cache_write_tokens_details": {
+            "ttl_12h_tokens": 0,
+            "ttl_30m_tokens": 8304
+          },
+          "cached_tokens": 0
+        },
+        "output_tokens": 2308,
+        "output_tokens_details": {
+          "reasoning_tokens": 2189
+        },
+        "total_tokens": 10615
+      },
+      "seconds": 16.68,
+      "imageCount": 3,
+      "approved": true,
+      "reviewKind": "artwork-only-v1",
+      "reason": "The illustration preserves the numbered tee-to-green routing, mapped fairways, bunkers, island water, and property silhouette. All mapped fairway sections have visible transverse mowing stripes, the tees are visible, and the greens read as continuous natural putting surfaces. No paths or unmapped water crossings are shown.",
+      "issues": [],
+      "edits": [],
+      "scores": {
+        "geometryFidelity": 5,
+        "naturalGreens": 4,
+        "visualClarity": 5,
+        "styleConsistency": 5
+      }
+    },
+    {
+      "phase": "artwork-0-final",
+      "kind": "review",
+      "model": "gpt-6-luna",
+      "effort": "medium",
+      "responseID": "resp_0564bf95b1c06952016b049bd74bb087d28995389348ab4098",
+      "usage": {
+        "input_tokens": 8307,
+        "input_tokens_details": {
+          "cache_write_tokens": 6996,
+          "cache_write_tokens_details": {
+            "ttl_12h_tokens": 0,
+            "ttl_30m_tokens": 6996
+          },
+          "cached_tokens": 1308
+        },
+        "output_tokens": 2692,
+        "output_tokens_details": {
+          "reasoning_tokens": 2557
+        },
+        "total_tokens": 10999
+      },
+      "seconds": 19.23,
+      "imageCount": 3,
+      "approved": true,
+      "reviewKind": "artwork-only-v1",
+      "reason": "The numbered tee-to-green routing, fairway footprints, mapped bunkers, island lake and property silhouette are faithfully represented. All tees and fairway sections are visible, the fairways have clear transverse mowing stripes, and the greens read as continuous putting surfaces with natural edge transitions. The wooded, painterly treatment is consistent with the reference without adding paths or apparent route-blocking vegetation.",
+      "issues": [],
+      "edits": [],
+      "scores": {
+        "geometryFidelity": 5,
+        "naturalGreens": 4,
+        "visualClarity": 4,
+        "styleConsistency": 5
+      }
+    }
+  ],
+  "artworkStatus": "approved",
+  "artworkFailure": null
+}
