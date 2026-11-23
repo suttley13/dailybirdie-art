@@ -1,0 +1,11 @@
+{
+  "schemaVersion": 3,
+  "course": 162,
+  "gameplayRules": "studio-v1",
+  "geometrySHA256": "15264b8ec5aa22cf61aab9498d798d624617ab232cb23f1709b13c49a9417c70",
+  "artworkSHA256": "e41d21a952a3ef6832e650561b77410cff7dd3a36681987b9713d71457f49319",
+  "artRulesVersion": "course-studio-artwork-1",
+  "minimumAppVersion": "1.8",
+  "mowing": "checkerboard",
+  "forest": "birchAspen"
+}

@@ -1,0 +1,507 @@
+{
+  "course": 162,
+  "date": "2026-11-25",
+  "name": "Muir Ridge Golf Club",
+  "studioJob": "b1c0f0e0-7f9b-4f12-83df-9bddee4fd134",
+  "draftFingerprint": "00cab6e796f4c8f1f01d15a53cd7e5f69df9a255c63ab4b60a986b636a081e83",
+  "approval": {
+    "approvedAt": "2026-11-23T04:02:31.106Z",
+    "playtested": true,
+    "humanApproved": true,
+    "retainedOlder": {
+      "legacy": {
+        "course": 162,
+        "artworkSHA256": "6c121fdaa7a4c32bb7c4b52138f471c59f3e9939df100d40005aac82d6e01ccd",
+        "schemaVersion": 1,
+        "geometrySHA256": "32129aa920b047adfb064e4fdf701eb1827a78dd77495f72cf370e041fa0cc97",
+        "artRulesVersion": "fairway-stripes-v4"
+      },
+      "pairMatchupID": null
+    },
+    "artworkOverrides": [
+      {
+        "policy": "studio-human-artwork-v1",
+        "reason": "The property silhouette, mapped water and bridge, fairway placement, and diamond mowing pattern are well represented. However, the yellow pin markers shown on the diagram are missing from all three greens. The illustration preserves the mapped property silhouette, hole directions, fairway patches, water, bunkers, tees, and the mapped bridge. The fairway sections show visible diamond mowing, the putting greens read as continuous surfaces, and the artwork is clear and consistent with the supplied wooded style.",
+        "review": {
+          "issues": [
+            {
+              "code": "geometry-mismatch",
+              "hole": 1,
+              "detail": "The mapped yellow pin marker is missing from the green.",
+              "region": {
+                "x": 0.672,
+                "y": 0.77,
+                "width": 0.055,
+                "height": 0.06
+              },
+              "consequence": "The overview does not show the mapped pin location for Hole 1."
+            },
+            {
+              "code": "geometry-mismatch",
+              "hole": 2,
+              "detail": "The mapped yellow pin marker is missing from the green.",
+              "region": {
+                "x": 0.433,
+                "y": 0.25,
+                "width": 0.05,
+                "height": 0.06
+              },
+              "consequence": "The overview does not show the mapped pin location for Hole 2."
+            },
+            {
+              "code": "geometry-mismatch",
+              "hole": 3,
+              "detail": "The mapped yellow pin marker is missing from the green.",
+              "region": {
+                "x": 0.29,
+                "y": 0.66,
+                "width": 0.05,
+                "height": 0.06
+              },
+              "consequence": "The overview does not show the mapped pin location for Hole 3."
+            }
+          ],
+          "reason": "The property silhouette, mapped water and bridge, fairway placement, and diamond mowing pattern are well represented. However, the yellow pin markers shown on the diagram are missing from all three greens. The illustration preserves the mapped property silhouette, hole directions, fairway patches, water, bunkers, tees, and the mapped bridge. The fairway sections show visible diamond mowing, the putting greens read as continuous surfaces, and the artwork is clear and consistent with the supplied wooded style.",
+          "reviews": [
+            {
+              "review": {
+                "issues": [
+                  {
+                    "code": "geometry-mismatch",
+                    "hole": 1,
+                    "detail": "The mapped yellow pin marker is missing from the green.",
+                    "region": {
+                      "x": 0.672,
+                      "y": 0.77,
+                      "width": 0.055,
+                      "height": 0.06
+                    },
+                    "consequence": "The overview does not show the mapped pin location for Hole 1."
+                  },
+                  {
+                    "code": "geometry-mismatch",
+                    "hole": 2,
+                    "detail": "The mapped yellow pin marker is missing from the green.",
+                    "region": {
+                      "x": 0.433,
+                      "y": 0.25,
+                      "width": 0.05,
+                      "height": 0.06
+                    },
+                    "consequence": "The overview does not show the mapped pin location for Hole 2."
+                  },
+                  {
+                    "code": "geometry-mismatch",
+                    "hole": 3,
+                    "detail": "The mapped yellow pin marker is missing from the green.",
+                    "region": {
+                      "x": 0.29,
+                      "y": 0.66,
+                      "width": 0.05,
+                      "height": 0.06
+                    },
+                    "consequence": "The overview does not show the mapped pin location for Hole 3."
+                  }
+                ],
+                "reason": "The property silhouette, mapped water and bridge, fairway placement, and diamond mowing pattern are well represented. However, the yellow pin markers shown on the diagram are missing from all three greens.",
+                "scores": {
+                  "naturalGreens": 5,
+                  "visualClarity": 5,
+                  "geometryFidelity": 3,
+                  "styleConsistency": 5
+                },
+                "approved": false,
+                "candidate": 0,
+                "reviewKind": "artwork-only-v1"
+              },
+              "responseID": "resp_060d2f0c963cd981016b03ba50f69087d1b21bf7c7733dbc94"
+            },
+            {
+              "review": {
+                "issues": [],
+                "reason": "The illustration preserves the mapped property silhouette, hole directions, fairway patches, water, bunkers, tees, and the mapped bridge. The fairway sections show visible diamond mowing, the putting greens read as continuous surfaces, and the artwork is clear and consistent with the supplied wooded style.",
+                "scores": {
+                  "naturalGreens": 4,
+                  "visualClarity": 4,
+                  "geometryFidelity": 4,
+                  "styleConsistency": 4
+                },
+                "approved": true,
+                "candidate": 0,
+                "reviewKind": "artwork-only-v1"
+              },
+              "responseID": "resp_075b8e6efd9d61e6016b03ba51008887d18bcd7ea2b9b6ca11"
+            }
+          ],
+          "approved": false,
+          "decisionKey": "93d3a76dccad75012578d801c20144dc012394cdbff3c957a77f283986d576f4",
+          "artworkSHA256": "e41d21a952a3ef6832e650561b77410cff7dd3a36681987b9713d71457f49319",
+          "geometrySHA256": "62b523d2a603cea94c906d3ed6287b91591049c8809c789b5fc17bd6f5ce5d80",
+          "geometryEncoding": "studio-stable-json-v1"
+        },
+        "decisionKey": "93d3a76dccad75012578d801c20144dc012394cdbff3c957a77f283986d576f4",
+        "artworkSHA256": "e41d21a952a3ef6832e650561b77410cff7dd3a36681987b9713d71457f49319",
+        "geometrySHA256": "62b523d2a603cea94c906d3ed6287b91591049c8809c789b5fc17bd6f5ce5d80",
+        "acceptedFindings": [
+          "93d3a76dccad75012578d801c20144dc012394cdbff3c957a77f283986d576f4:0",
+          "93d3a76dccad75012578d801c20144dc012394cdbff3c957a77f283986d576f4:1",
+          "93d3a76dccad75012578d801c20144dc012394cdbff3c957a77f283986d576f4:2"
+        ]
+      },
+      {
+        "policy": "studio-human-artwork-v1",
+        "reason": "The property silhouette, mapped hazards, fairway patches, and their visible stripes are closely matched. However, all three mapped flag locations are missing from the illustration. The illustration broadly preserves the course layout and uses clear striped fairways and natural-looking greens, but it adds a visible crossing from the shore to Hole 3\u2019s island green that is not mapped as a bridge or path.",
+        "review": {
+          "issues": [
+            {
+              "code": "geometry-mismatch",
+              "hole": 1,
+              "detail": "The mapped flag at G1 is not shown on the putting green.",
+              "region": {
+                "x": 0.697,
+                "y": 0.763,
+                "width": 0.035,
+                "height": 0.043
+              },
+              "consequence": "The overview omits the mapped flag location for this hole."
+            },
+            {
+              "code": "geometry-mismatch",
+              "hole": 2,
+              "detail": "The mapped flag at G2 is not shown on the putting green.",
+              "region": {
+                "x": 0.438,
+                "y": 0.25,
+                "width": 0.035,
+                "height": 0.043
+              },
+              "consequence": "The overview omits the mapped flag location for this hole."
+            },
+            {
+              "code": "geometry-mismatch",
+              "hole": 3,
+              "detail": "The mapped flag at G3 is not shown on the putting green.",
+              "region": {
+                "x": 0.29,
+                "y": 0.675,
+                "width": 0.035,
+                "height": 0.043
+              },
+              "consequence": "The overview omits the mapped flag location for this hole."
+            },
+            {
+              "code": "invented-connection",
+              "hole": 3,
+              "detail": "A narrow crossing connects the left shore to the island green across the lake; no bridge is mapped for this hole.",
+              "region": {
+                "x": 0.26,
+                "y": 0.68,
+                "width": 0.05,
+                "height": 0.025
+              },
+              "consequence": "The overview misleadingly suggests dry access to the island green."
+            },
+            {
+              "code": "style",
+              "hole": 3,
+              "detail": "The crossing reads as a drawn path or bridge, although the diagram maps no walking path and the hole has no mapped bridge.",
+              "region": {
+                "x": 0.26,
+                "y": 0.68,
+                "width": 0.05,
+                "height": 0.025
+              },
+              "consequence": "It adds an unsupported route across the water and conflicts with the required map and illustration treatment."
+            }
+          ],
+          "reason": "The property silhouette, mapped hazards, fairway patches, and their visible stripes are closely matched. However, all three mapped flag locations are missing from the illustration. The illustration broadly preserves the course layout and uses clear striped fairways and natural-looking greens, but it adds a visible crossing from the shore to Hole 3\u2019s island green that is not mapped as a bridge or path.",
+          "reviews": [
+            {
+              "review": {
+                "issues": [
+                  {
+                    "code": "geometry-mismatch",
+                    "hole": 1,
+                    "detail": "The mapped flag at G1 is not shown on the putting green.",
+                    "region": {
+                      "x": 0.697,
+                      "y": 0.763,
+                      "width": 0.035,
+                      "height": 0.043
+                    },
+                    "consequence": "The overview omits the mapped flag location for this hole."
+                  },
+                  {
+                    "code": "geometry-mismatch",
+                    "hole": 2,
+                    "detail": "The mapped flag at G2 is not shown on the putting green.",
+                    "region": {
+                      "x": 0.438,
+                      "y": 0.25,
+                      "width": 0.035,
+                      "height": 0.043
+                    },
+                    "consequence": "The overview omits the mapped flag location for this hole."
+                  },
+                  {
+                    "code": "geometry-mismatch",
+                    "hole": 3,
+                    "detail": "The mapped flag at G3 is not shown on the putting green.",
+                    "region": {
+                      "x": 0.29,
+                      "y": 0.675,
+                      "width": 0.035,
+                      "height": 0.043
+                    },
+                    "consequence": "The overview omits the mapped flag location for this hole."
+                  }
+                ],
+                "reason": "The property silhouette, mapped hazards, fairway patches, and their visible stripes are closely matched. However, all three mapped flag locations are missing from the illustration.",
+                "scores": {
+                  "naturalGreens": 4,
+                  "visualClarity": 4,
+                  "geometryFidelity": 3,
+                  "styleConsistency": 5
+                },
+                "approved": false,
+                "candidate": 0,
+                "reviewKind": "artwork-only-v1"
+              },
+              "responseID": "resp_009bae9fe1131bac016b03ba5156ac87d1ae9e8f601cd7aa81"
+            },
+            {
+              "review": {
+                "issues": [
+                  {
+                    "code": "invented-connection",
+                    "hole": 3,
+                    "detail": "A narrow crossing connects the left shore to the island green across the lake; no bridge is mapped for this hole.",
+                    "region": {
+                      "x": 0.26,
+                      "y": 0.68,
+                      "width": 0.05,
+                      "height": 0.025
+                    },
+                    "consequence": "The overview misleadingly suggests dry access to the island green."
+                  },
+                  {
+                    "code": "style",
+                    "hole": 3,
+                    "detail": "The crossing reads as a drawn path or bridge, although the diagram maps no walking path and the hole has no mapped bridge.",
+                    "region": {
+                      "x": 0.26,
+                      "y": 0.68,
+                      "width": 0.05,
+                      "height": 0.025
+                    },
+                    "consequence": "It adds an unsupported route across the water and conflicts with the required map and illustration treatment."
+                  }
+                ],
+                "reason": "The illustration broadly preserves the course layout and uses clear striped fairways and natural-looking greens, but it adds a visible crossing from the shore to Hole 3\u2019s island green that is not mapped as a bridge or path.",
+                "scores": {
+                  "naturalGreens": 4,
+                  "visualClarity": 4,
+                  "geometryFidelity": 3,
+                  "styleConsistency": 3
+                },
+                "approved": false,
+                "candidate": 0,
+                "reviewKind": "artwork-only-v1"
+              },
+              "responseID": "resp_0bf1d138a688024c016b03ba51567c87d1b13cdfbe6e84c452"
+            }
+          ],
+          "approved": false,
+          "decisionKey": "62a18d53225d1ef939061c9a09db2f8bff1261d5c70313447bcfbbed0552aaf0",
+          "artworkSHA256": "22dbf6740a439318774e7450f07d92ba5b4ad16f00d2daffc9fd437dc928d3a4",
+          "geometrySHA256": "71f94ba7eed0591869730228e583a82ffe03abde3c41bae464466e5c0154a074",
+          "geometryEncoding": "studio-stable-json-v1"
+        },
+        "decisionKey": "62a18d53225d1ef939061c9a09db2f8bff1261d5c70313447bcfbbed0552aaf0",
+        "artworkSHA256": "22dbf6740a439318774e7450f07d92ba5b4ad16f00d2daffc9fd437dc928d3a4",
+        "geometrySHA256": "71f94ba7eed0591869730228e583a82ffe03abde3c41bae464466e5c0154a074",
+        "acceptedFindings": [
+          "62a18d53225d1ef939061c9a09db2f8bff1261d5c70313447bcfbbed0552aaf0:0",
+          "62a18d53225d1ef939061c9a09db2f8bff1261d5c70313447bcfbbed0552aaf0:1",
+          "62a18d53225d1ef939061c9a09db2f8bff1261d5c70313447bcfbbed0552aaf0:2",
+          "62a18d53225d1ef939061c9a09db2f8bff1261d5c70313447bcfbbed0552aaf0:3",
+          "62a18d53225d1ef939061c9a09db2f8bff1261d5c70313447bcfbbed0552aaf0:4"
+        ]
+      }
+    ],
+    "compatibilityApproved": true
+  },
+  "artworkStatus": "approved",
+  "geometrySHA256": "15264b8ec5aa22cf61aab9498d798d624617ab232cb23f1709b13c49a9417c70",
+  "artworkSHA256": "e41d21a952a3ef6832e650561b77410cff7dd3a36681987b9713d71457f49319",
+  "artworkReview": {
+    "issues": [
+      {
+        "code": "geometry-mismatch",
+        "hole": 1,
+        "detail": "The mapped yellow pin marker is missing from the green.",
+        "region": {
+          "x": 0.672,
+          "y": 0.77,
+          "width": 0.055,
+          "height": 0.06
+        },
+        "consequence": "The overview does not show the mapped pin location for Hole 1."
+      },
+      {
+        "code": "geometry-mismatch",
+        "hole": 2,
+        "detail": "The mapped yellow pin marker is missing from the green.",
+        "region": {
+          "x": 0.433,
+          "y": 0.25,
+          "width": 0.05,
+          "height": 0.06
+        },
+        "consequence": "The overview does not show the mapped pin location for Hole 2."
+      },
+      {
+        "code": "geometry-mismatch",
+        "hole": 3,
+        "detail": "The mapped yellow pin marker is missing from the green.",
+        "region": {
+          "x": 0.29,
+          "y": 0.66,
+          "width": 0.05,
+          "height": 0.06
+        },
+        "consequence": "The overview does not show the mapped pin location for Hole 3."
+      }
+    ],
+    "reason": "The property silhouette, mapped water and bridge, fairway placement, and diamond mowing pattern are well represented. However, the yellow pin markers shown on the diagram are missing from all three greens. The illustration preserves the mapped property silhouette, hole directions, fairway patches, water, bunkers, tees, and the mapped bridge. The fairway sections show visible diamond mowing, the putting greens read as continuous surfaces, and the artwork is clear and consistent with the supplied wooded style.",
+    "reviews": [
+      {
+        "review": {
+          "issues": [
+            {
+              "code": "geometry-mismatch",
+              "hole": 1,
+              "detail": "The mapped yellow pin marker is missing from the green.",
+              "region": {
+                "x": 0.672,
+                "y": 0.77,
+                "width": 0.055,
+                "height": 0.06
+              },
+              "consequence": "The overview does not show the mapped pin location for Hole 1."
+            },
+            {
+              "code": "geometry-mismatch",
+              "hole": 2,
+              "detail": "The mapped yellow pin marker is missing from the green.",
+              "region": {
+                "x": 0.433,
+                "y": 0.25,
+                "width": 0.05,
+                "height": 0.06
+              },
+              "consequence": "The overview does not show the mapped pin location for Hole 2."
+            },
+            {
+              "code": "geometry-mismatch",
+              "hole": 3,
+              "detail": "The mapped yellow pin marker is missing from the green.",
+              "region": {
+                "x": 0.29,
+                "y": 0.66,
+                "width": 0.05,
+                "height": 0.06
+              },
+              "consequence": "The overview does not show the mapped pin location for Hole 3."
+            }
+          ],
+          "reason": "The property silhouette, mapped water and bridge, fairway placement, and diamond mowing pattern are well represented. However, the yellow pin markers shown on the diagram are missing from all three greens.",
+          "scores": {
+            "naturalGreens": 5,
+            "visualClarity": 5,
+            "geometryFidelity": 3,
+            "styleConsistency": 5
+          },
+          "approved": false,
+          "candidate": 0,
+          "reviewKind": "artwork-only-v1"
+        },
+        "responseID": "resp_060d2f0c963cd981016b03ba50f69087d1b21bf7c7733dbc94"
+      },
+      {
+        "review": {
+          "issues": [],
+          "reason": "The illustration preserves the mapped property silhouette, hole directions, fairway patches, water, bunkers, tees, and the mapped bridge. The fairway sections show visible diamond mowing, the putting greens read as continuous surfaces, and the artwork is clear and consistent with the supplied wooded style.",
+          "scores": {
+            "naturalGreens": 4,
+            "visualClarity": 4,
+            "geometryFidelity": 4,
+            "styleConsistency": 4
+          },
+          "approved": true,
+          "candidate": 0,
+          "reviewKind": "artwork-only-v1"
+        },
+        "responseID": "resp_075b8e6efd9d61e6016b03ba51008887d18bcd7ea2b9b6ca11"
+      }
+    ],
+    "approved": false,
+    "artworkSHA256": "e41d21a952a3ef6832e650561b77410cff7dd3a36681987b9713d71457f49319",
+    "geometrySHA256": "62b523d2a603cea94c906d3ed6287b91591049c8809c789b5fc17bd6f5ce5d80",
+    "geometryEncoding": "studio-stable-json-v1",
+    "decisionKey": "93d3a76dccad75012578d801c20144dc012394cdbff3c957a77f283986d576f4"
+  },
+  "compatibility": {
+    "policy": "studio-compatible-v1",
+    "holes": [
+      {
+        "sections": 1,
+        "addedFairwayYards": 0,
+        "addedFairwayPercent": 0,
+        "waterReshaped": false,
+        "addedFairway": []
+      },
+      {
+        "sections": 1,
+        "addedFairwayYards": 0,
+        "addedFairwayPercent": 0,
+        "waterReshaped": false,
+        "addedFairway": []
+      },
+      {
+        "sections": 1,
+        "addedFairwayYards": 0,
+        "addedFairwayPercent": 0,
+        "waterReshaped": true,
+        "addedFairway": []
+      }
+    ]
+  },
+  "holes": [
+    {
+      "par": 3,
+      "lengthYards": 225,
+      "type": "straight"
+    },
+    {
+      "par": 3,
+      "lengthYards": 164,
+      "type": "straight"
+    },
+    {
+      "par": 3,
+      "lengthYards": 134,
+      "type": "straight"
+    }
+  ],
+  "retainedOlder": {
+    "legacy": {
+      "course": 162,
+      "artworkSHA256": "6c121fdaa7a4c32bb7c4b52138f471c59f3e9939df100d40005aac82d6e01ccd",
+      "schemaVersion": 1,
+      "geometrySHA256": "32129aa920b047adfb064e4fdf701eb1827a78dd77495f72cf370e041fa0cc97",
+      "artRulesVersion": "fairway-stripes-v4"
+    },
+    "pairMatchupID": null
+  }
+}
