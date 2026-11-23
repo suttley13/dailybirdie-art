@@ -1,9 +1,9 @@
 {
   "geometrySHA256": "93a99818e49694b102e2a3ef3f5748517ae7d035334a2b98a98bdbb145be3d1f",
-  "artworkSHA256": "0e629b847eb780168e4ed6f31a8f1eb71c5f7fda8a044b485e1dd4d5c6c0a9f8",
+  "artworkSHA256": "cc3b4750f7039dc58ed852d61805d45f5f4f7ddc6f170274839a84ac52912e00",
   "review": {
     "reviewKind": "artwork-only-v1",
-    "candidate": 38,
+    "candidate": 0,
     "approved": false,
     "scores": {
       "geometryFidelity": 5,
@@ -11,30 +11,18 @@
       "visualClarity": 4,
       "styleConsistency": 3
     },
-    "reason": "The mapped course layout, hazards, tees, and greens are well preserved, and the greens read as single natural putting surfaces. The broad Hole 1 and bent Hole 3 fairways show checkerboard-like crosshatching rather than clear, smoothly fanning transverse mowing bands.",
+    "reason": "The mapped tees, greens, fairways, bunkers, and water are represented clearly, and the greens read as continuous natural putting surfaces. Hole 1\u2019s fairway stripes run lengthwise rather than across the fairway, so the illustration does not meet the stripe-direction requirement.",
     "issues": [
       {
         "code": "style",
         "hole": 1,
-        "detail": "The large fairway reads as a checkerboard grid, with secondary crosswise divisions interrupting the transverse mowing bands.",
-        "consequence": "At overview scale, the fairway will read as tiled or crosshatched turf rather than striped mowing.",
+        "detail": "The broad upper fairway has horizontal bands running along its left-to-right direction of play. Reorient them so the bands cross the fairway edge-to-edge, perpendicular to play.",
+        "consequence": "At overview scale, the fairway reads as lengthwise-striped rather than as a fairway with the required transverse mowing pattern.",
         "region": {
-          "x": 0.275,
-          "y": 0.098,
+          "x": 0.28,
+          "y": 0.12,
           "width": 0.3,
-          "height": 0.322
-        }
-      },
-      {
-        "code": "style",
-        "hole": 3,
-        "detail": "The bent fairway has a fixed checkerboard-like pattern instead of bands that rotate and fan with the curve.",
-        "consequence": "The mowing pattern will visually conflict with the fairway's changing direction and make it read as a grid.",
-        "region": {
-          "x": 0.327,
-          "y": 0.527,
-          "width": 0.3,
-          "height": 0.234
+          "height": 0.28
         }
       }
     ]
