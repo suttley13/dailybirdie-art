@@ -1,0 +1,11 @@
+{
+  "schemaVersion": 3,
+  "course": 163,
+  "gameplayRules": "studio-v1",
+  "geometrySHA256": "8fd9ea8b60522ce428f6c1cd15889acea1883ed259ee2b585dd865b00810c14a",
+  "artworkSHA256": "1cf9ef6a9796bd3b5f31465d708f3ad54006eeacd2b75da7334c9dfdad38c615",
+  "artRulesVersion": "course-studio-artwork-1",
+  "minimumAppVersion": "1.8",
+  "mowing": "diagonal",
+  "forest": "northwoods"
+}

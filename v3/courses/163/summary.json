@@ -1,0 +1,691 @@
+{
+  "course": 163,
+  "date": "2026-11-26",
+  "name": "Glacial Cut Golf Club",
+  "studioJob": "2a37ab2d-0820-4df8-9f27-a103ce635419",
+  "draftFingerprint": "db5af5726a4167113f119a8d0c29f91368db4c0a7d6192bf368c7f32be490520",
+  "approval": {
+    "approvedAt": "2026-11-23T03:50:22.061Z",
+    "playtested": true,
+    "humanApproved": true,
+    "retainedOlder": {
+      "legacy": {
+        "course": 163,
+        "artworkSHA256": "3df75c9b56373c19ffdcf9576d44c109a4af2236d3c119c720bc67070874b418",
+        "schemaVersion": 1,
+        "geometrySHA256": "eccfe7c77135797aafc024a55bd102c12c2af11d5cabada9e11764c076d4e619",
+        "artRulesVersion": "fairway-stripes-v4"
+      },
+      "pairMatchupID": null
+    },
+    "artworkOverrides": [
+      {
+        "policy": "studio-human-artwork-v1",
+        "reason": "The illustration is clear and stylistically coherent, but the water around hole 2 does not preserve the two separate mapped water bodies. The course layout, mapped water and bridges, natural single-surface greens, and diagonal fairway stripes are otherwise clearly represented. The mapped flag markers are missing from all three greens.",
+        "review": {
+          "issues": [
+            {
+              "code": "geometry-mismatch",
+              "hole": 2,
+              "detail": "The two mapped water bodies around the island green are drawn as one continuous lagoon enclosing the green.",
+              "region": {
+                "x": 0.63,
+                "y": 0.35,
+                "width": 0.09,
+                "height": 0.13
+              },
+              "consequence": "The overview misrepresents the mapped water layout and makes the island appear fully surrounded by a single connected hazard."
+            },
+            {
+              "code": "geometry-mismatch",
+              "hole": 1,
+              "detail": "The mapped flag marker is absent from the G1 putting green.",
+              "region": {
+                "x": 0.625,
+                "y": 0.585,
+                "width": 0.05,
+                "height": 0.06
+              },
+              "consequence": "The overview omits the green\u2019s marked flag location."
+            },
+            {
+              "code": "geometry-mismatch",
+              "hole": 2,
+              "detail": "The mapped flag marker is absent from the G2 putting green.",
+              "region": {
+                "x": 0.655,
+                "y": 0.41,
+                "width": 0.05,
+                "height": 0.06
+              },
+              "consequence": "The overview omits the green\u2019s marked flag location."
+            },
+            {
+              "code": "geometry-mismatch",
+              "hole": 3,
+              "detail": "The mapped flag marker is absent from the G3 putting green.",
+              "region": {
+                "x": 0.19,
+                "y": 0.28,
+                "width": 0.05,
+                "height": 0.06
+              },
+              "consequence": "The overview omits the green\u2019s marked flag location."
+            }
+          ],
+          "reason": "The illustration is clear and stylistically coherent, but the water around hole 2 does not preserve the two separate mapped water bodies. The course layout, mapped water and bridges, natural single-surface greens, and diagonal fairway stripes are otherwise clearly represented. The mapped flag markers are missing from all three greens.",
+          "reviews": [
+            {
+              "review": {
+                "issues": [
+                  {
+                    "code": "geometry-mismatch",
+                    "hole": 2,
+                    "detail": "The two mapped water bodies around the island green are drawn as one continuous lagoon enclosing the green.",
+                    "region": {
+                      "x": 0.63,
+                      "y": 0.35,
+                      "width": 0.09,
+                      "height": 0.13
+                    },
+                    "consequence": "The overview misrepresents the mapped water layout and makes the island appear fully surrounded by a single connected hazard."
+                  }
+                ],
+                "reason": "The illustration is clear and stylistically coherent, but the water around hole 2 does not preserve the two separate mapped water bodies.",
+                "scores": {
+                  "naturalGreens": 4,
+                  "visualClarity": 4,
+                  "geometryFidelity": 3,
+                  "styleConsistency": 4
+                },
+                "approved": false,
+                "candidate": 0,
+                "reviewKind": "artwork-only-v1"
+              },
+              "responseID": "resp_0ce3c5ea372d2c97016b03b6ca716087d1be405c2f0a60ed2d"
+            },
+            {
+              "review": {
+                "issues": [
+                  {
+                    "code": "geometry-mismatch",
+                    "hole": 1,
+                    "detail": "The mapped flag marker is absent from the G1 putting green.",
+                    "region": {
+                      "x": 0.625,
+                      "y": 0.585,
+                      "width": 0.05,
+                      "height": 0.06
+                    },
+                    "consequence": "The overview omits the green\u2019s marked flag location."
+                  },
+                  {
+                    "code": "geometry-mismatch",
+                    "hole": 2,
+                    "detail": "The mapped flag marker is absent from the G2 putting green.",
+                    "region": {
+                      "x": 0.655,
+                      "y": 0.41,
+                      "width": 0.05,
+                      "height": 0.06
+                    },
+                    "consequence": "The overview omits the green\u2019s marked flag location."
+                  },
+                  {
+                    "code": "geometry-mismatch",
+                    "hole": 3,
+                    "detail": "The mapped flag marker is absent from the G3 putting green.",
+                    "region": {
+                      "x": 0.19,
+                      "y": 0.28,
+                      "width": 0.05,
+                      "height": 0.06
+                    },
+                    "consequence": "The overview omits the green\u2019s marked flag location."
+                  }
+                ],
+                "reason": "The course layout, mapped water and bridges, natural single-surface greens, and diagonal fairway stripes are otherwise clearly represented. The mapped flag markers are missing from all three greens.",
+                "scores": {
+                  "naturalGreens": 5,
+                  "visualClarity": 4,
+                  "geometryFidelity": 3,
+                  "styleConsistency": 5
+                },
+                "approved": false,
+                "candidate": 0,
+                "reviewKind": "artwork-only-v1"
+              },
+              "responseID": "resp_0606af358577c5bb016b03b6ca722c87d1b67a430e3a340638"
+            }
+          ],
+          "approved": false,
+          "decisionKey": "b1964391f89a857b01d3c8fc34b87ba233933badd82ce604081c918139744f17",
+          "artworkSHA256": "1cf9ef6a9796bd3b5f31465d708f3ad54006eeacd2b75da7334c9dfdad38c615",
+          "geometrySHA256": "efd0110c55f5ed72dea8bff31e3e7147f860fa4a70813d38400b67dcf9534916",
+          "geometryEncoding": "studio-stable-json-v1"
+        },
+        "decisionKey": "b1964391f89a857b01d3c8fc34b87ba233933badd82ce604081c918139744f17",
+        "artworkSHA256": "1cf9ef6a9796bd3b5f31465d708f3ad54006eeacd2b75da7334c9dfdad38c615",
+        "geometrySHA256": "efd0110c55f5ed72dea8bff31e3e7147f860fa4a70813d38400b67dcf9534916",
+        "acceptedFindings": [
+          "b1964391f89a857b01d3c8fc34b87ba233933badd82ce604081c918139744f17:0",
+          "b1964391f89a857b01d3c8fc34b87ba233933badd82ce604081c918139744f17:1",
+          "b1964391f89a857b01d3c8fc34b87ba233933badd82ce604081c918139744f17:2",
+          "b1964391f89a857b01d3c8fc34b87ba233933badd82ce604081c918139744f17:3"
+        ]
+      },
+      {
+        "policy": "studio-human-artwork-v1",
+        "reason": "The illustration otherwise preserves the course layout and uses natural-looking greens, but Hole 2 has an unshown crossing from its island green to the eastern fairway patch. The illustration is generally clear and preserves the mapped layout, but a thin tan crossing at hole 2 appears to connect the island green to the east-side fairway despite no mapped bridge or path. The fairways and greens otherwise read well.",
+        "review": {
+          "issues": [
+            {
+              "code": "invented-connection",
+              "hole": 2,
+              "detail": "A narrow tan crossing connects the island green to the eastern fairway patch across the surrounding water; no bridge or causeway is mapped.",
+              "region": {
+                "x": 0.68,
+                "y": 0.43,
+                "width": 0.09,
+                "height": 0.07
+              },
+              "consequence": "The overview depicts a land connection across water that is absent from the approved diagram."
+            },
+            {
+              "code": "style",
+              "hole": 2,
+              "detail": "The crossing is drawn as a path-like tan strip, but no paths are mapped and paths must not appear in the illustration.",
+              "region": {
+                "x": 0.68,
+                "y": 0.43,
+                "width": 0.09,
+                "height": 0.07
+              },
+              "consequence": "Viewers may read an unmapped walkway or track connecting the island to the fairway."
+            },
+            {
+              "code": "invented-connection",
+              "hole": 2,
+              "detail": "A thin tan line appears to cross the water from the island green toward the fairway on its east side; no bridge or crossing is mapped there.",
+              "region": {
+                "x": 0.67,
+                "y": 0.42,
+                "width": 0.06,
+                "height": 0.07
+              },
+              "consequence": "Viewers may read the overview as showing a traversable connection across the lake that is absent from the approved diagram."
+            },
+            {
+              "code": "style",
+              "hole": 2,
+              "detail": "The same thin tan crossing reads as a path or track, which is not mapped; no paths are mapped anywhere on this course.",
+              "region": {
+                "x": 0.67,
+                "y": 0.42,
+                "width": 0.06,
+                "height": 0.07
+              },
+              "consequence": "The added path-like mark conflicts with the course overview's mapped features and the supplied illustration style."
+            }
+          ],
+          "reason": "The illustration otherwise preserves the course layout and uses natural-looking greens, but Hole 2 has an unshown crossing from its island green to the eastern fairway patch. The illustration is generally clear and preserves the mapped layout, but a thin tan crossing at hole 2 appears to connect the island green to the east-side fairway despite no mapped bridge or path. The fairways and greens otherwise read well.",
+          "reviews": [
+            {
+              "review": {
+                "issues": [
+                  {
+                    "code": "invented-connection",
+                    "hole": 2,
+                    "detail": "A narrow tan crossing connects the island green to the eastern fairway patch across the surrounding water; no bridge or causeway is mapped.",
+                    "region": {
+                      "x": 0.68,
+                      "y": 0.43,
+                      "width": 0.09,
+                      "height": 0.07
+                    },
+                    "consequence": "The overview depicts a land connection across water that is absent from the approved diagram."
+                  },
+                  {
+                    "code": "style",
+                    "hole": 2,
+                    "detail": "The crossing is drawn as a path-like tan strip, but no paths are mapped and paths must not appear in the illustration.",
+                    "region": {
+                      "x": 0.68,
+                      "y": 0.43,
+                      "width": 0.09,
+                      "height": 0.07
+                    },
+                    "consequence": "Viewers may read an unmapped walkway or track connecting the island to the fairway."
+                  }
+                ],
+                "reason": "The illustration otherwise preserves the course layout and uses natural-looking greens, but Hole 2 has an unshown crossing from its island green to the eastern fairway patch.",
+                "scores": {
+                  "naturalGreens": 4,
+                  "visualClarity": 4,
+                  "geometryFidelity": 3,
+                  "styleConsistency": 2
+                },
+                "approved": false,
+                "candidate": 0,
+                "reviewKind": "artwork-only-v1"
+              },
+              "responseID": "resp_06c9f074822ccaa6016b03b6c7ac4087d1b370510adaf3ad7a"
+            },
+            {
+              "review": {
+                "issues": [
+                  {
+                    "code": "invented-connection",
+                    "hole": 2,
+                    "detail": "A thin tan line appears to cross the water from the island green toward the fairway on its east side; no bridge or crossing is mapped there.",
+                    "region": {
+                      "x": 0.67,
+                      "y": 0.42,
+                      "width": 0.06,
+                      "height": 0.07
+                    },
+                    "consequence": "Viewers may read the overview as showing a traversable connection across the lake that is absent from the approved diagram."
+                  },
+                  {
+                    "code": "style",
+                    "hole": 2,
+                    "detail": "The same thin tan crossing reads as a path or track, which is not mapped; no paths are mapped anywhere on this course.",
+                    "region": {
+                      "x": 0.67,
+                      "y": 0.42,
+                      "width": 0.06,
+                      "height": 0.07
+                    },
+                    "consequence": "The added path-like mark conflicts with the course overview's mapped features and the supplied illustration style."
+                  }
+                ],
+                "reason": "The illustration is generally clear and preserves the mapped layout, but a thin tan crossing at hole 2 appears to connect the island green to the east-side fairway despite no mapped bridge or path. The fairways and greens otherwise read well.",
+                "scores": {
+                  "naturalGreens": 4,
+                  "visualClarity": 4,
+                  "geometryFidelity": 3,
+                  "styleConsistency": 3
+                },
+                "approved": false,
+                "candidate": 0,
+                "reviewKind": "artwork-only-v1"
+              },
+              "responseID": "resp_0d8fdc76a0cdf880016b03b6c7a25087d18abdad66c184480e"
+            }
+          ],
+          "approved": false,
+          "decisionKey": "f81e14d7c4fc73d7228ef17fe88516b5b2554f4e44e6b6547c5fc4c5c0538c5d",
+          "artworkSHA256": "5929072d2d3e413c7c99a45728b9441dc0933890e3afdb1bded0526d42fcef43",
+          "geometrySHA256": "fa3a627c921a62ba1b37426cbe9ce3ade6ce7cd3b4ee19bd62cdb918b915e461",
+          "geometryEncoding": "studio-stable-json-v1"
+        },
+        "decisionKey": "f81e14d7c4fc73d7228ef17fe88516b5b2554f4e44e6b6547c5fc4c5c0538c5d",
+        "artworkSHA256": "5929072d2d3e413c7c99a45728b9441dc0933890e3afdb1bded0526d42fcef43",
+        "geometrySHA256": "fa3a627c921a62ba1b37426cbe9ce3ade6ce7cd3b4ee19bd62cdb918b915e461",
+        "acceptedFindings": [
+          "f81e14d7c4fc73d7228ef17fe88516b5b2554f4e44e6b6547c5fc4c5c0538c5d:0",
+          "f81e14d7c4fc73d7228ef17fe88516b5b2554f4e44e6b6547c5fc4c5c0538c5d:1",
+          "f81e14d7c4fc73d7228ef17fe88516b5b2554f4e44e6b6547c5fc4c5c0538c5d:2",
+          "f81e14d7c4fc73d7228ef17fe88516b5b2554f4e44e6b6547c5fc4c5c0538c5d:3"
+        ]
+      }
+    ],
+    "compatibilityApproved": true
+  },
+  "artworkStatus": "approved",
+  "geometrySHA256": "8fd9ea8b60522ce428f6c1cd15889acea1883ed259ee2b585dd865b00810c14a",
+  "artworkSHA256": "1cf9ef6a9796bd3b5f31465d708f3ad54006eeacd2b75da7334c9dfdad38c615",
+  "artworkReview": {
+    "issues": [
+      {
+        "code": "geometry-mismatch",
+        "hole": 2,
+        "detail": "The two mapped water bodies around the island green are drawn as one continuous lagoon enclosing the green.",
+        "region": {
+          "x": 0.63,
+          "y": 0.35,
+          "width": 0.09,
+          "height": 0.13
+        },
+        "consequence": "The overview misrepresents the mapped water layout and makes the island appear fully surrounded by a single connected hazard."
+      },
+      {
+        "code": "geometry-mismatch",
+        "hole": 1,
+        "detail": "The mapped flag marker is absent from the G1 putting green.",
+        "region": {
+          "x": 0.625,
+          "y": 0.585,
+          "width": 0.05,
+          "height": 0.06
+        },
+        "consequence": "The overview omits the green\u2019s marked flag location."
+      },
+      {
+        "code": "geometry-mismatch",
+        "hole": 2,
+        "detail": "The mapped flag marker is absent from the G2 putting green.",
+        "region": {
+          "x": 0.655,
+          "y": 0.41,
+          "width": 0.05,
+          "height": 0.06
+        },
+        "consequence": "The overview omits the green\u2019s marked flag location."
+      },
+      {
+        "code": "geometry-mismatch",
+        "hole": 3,
+        "detail": "The mapped flag marker is absent from the G3 putting green.",
+        "region": {
+          "x": 0.19,
+          "y": 0.28,
+          "width": 0.05,
+          "height": 0.06
+        },
+        "consequence": "The overview omits the green\u2019s marked flag location."
+      }
+    ],
+    "reason": "The illustration is clear and stylistically coherent, but the water around hole 2 does not preserve the two separate mapped water bodies. The course layout, mapped water and bridges, natural single-surface greens, and diagonal fairway stripes are otherwise clearly represented. The mapped flag markers are missing from all three greens.",
+    "reviews": [
+      {
+        "review": {
+          "issues": [
+            {
+              "code": "geometry-mismatch",
+              "hole": 2,
+              "detail": "The two mapped water bodies around the island green are drawn as one continuous lagoon enclosing the green.",
+              "region": {
+                "x": 0.63,
+                "y": 0.35,
+                "width": 0.09,
+                "height": 0.13
+              },
+              "consequence": "The overview misrepresents the mapped water layout and makes the island appear fully surrounded by a single connected hazard."
+            }
+          ],
+          "reason": "The illustration is clear and stylistically coherent, but the water around hole 2 does not preserve the two separate mapped water bodies.",
+          "scores": {
+            "naturalGreens": 4,
+            "visualClarity": 4,
+            "geometryFidelity": 3,
+            "styleConsistency": 4
+          },
+          "approved": false,
+          "candidate": 0,
+          "reviewKind": "artwork-only-v1"
+        },
+        "responseID": "resp_0ce3c5ea372d2c97016b03b6ca716087d1be405c2f0a60ed2d"
+      },
+      {
+        "review": {
+          "issues": [
+            {
+              "code": "geometry-mismatch",
+              "hole": 1,
+              "detail": "The mapped flag marker is absent from the G1 putting green.",
+              "region": {
+                "x": 0.625,
+                "y": 0.585,
+                "width": 0.05,
+                "height": 0.06
+              },
+              "consequence": "The overview omits the green\u2019s marked flag location."
+            },
+            {
+              "code": "geometry-mismatch",
+              "hole": 2,
+              "detail": "The mapped flag marker is absent from the G2 putting green.",
+              "region": {
+                "x": 0.655,
+                "y": 0.41,
+                "width": 0.05,
+                "height": 0.06
+              },
+              "consequence": "The overview omits the green\u2019s marked flag location."
+            },
+            {
+              "code": "geometry-mismatch",
+              "hole": 3,
+              "detail": "The mapped flag marker is absent from the G3 putting green.",
+              "region": {
+                "x": 0.19,
+                "y": 0.28,
+                "width": 0.05,
+                "height": 0.06
+              },
+              "consequence": "The overview omits the green\u2019s marked flag location."
+            }
+          ],
+          "reason": "The course layout, mapped water and bridges, natural single-surface greens, and diagonal fairway stripes are otherwise clearly represented. The mapped flag markers are missing from all three greens.",
+          "scores": {
+            "naturalGreens": 5,
+            "visualClarity": 4,
+            "geometryFidelity": 3,
+            "styleConsistency": 5
+          },
+          "approved": false,
+          "candidate": 0,
+          "reviewKind": "artwork-only-v1"
+        },
+        "responseID": "resp_0606af358577c5bb016b03b6ca722c87d1b67a430e3a340638"
+      }
+    ],
+    "approved": false,
+    "artworkSHA256": "1cf9ef6a9796bd3b5f31465d708f3ad54006eeacd2b75da7334c9dfdad38c615",
+    "geometrySHA256": "efd0110c55f5ed72dea8bff31e3e7147f860fa4a70813d38400b67dcf9534916",
+    "geometryEncoding": "studio-stable-json-v1",
+    "decisionKey": "b1964391f89a857b01d3c8fc34b87ba233933badd82ce604081c918139744f17"
+  },
+  "compatibility": {
+    "policy": "studio-compatible-v1",
+    "holes": [
+      {
+        "sections": 2,
+        "addedFairwayYards": 42.892631436911365,
+        "addedFairwayPercent": 0.5765550242572457,
+        "waterReshaped": false,
+        "addedFairway": [
+          [
+            [
+              [
+                200.86275162326942,
+                413.23497165610036
+              ],
+              [
+                200.8708821971924,
+                413.1732138157859
+              ],
+              [
+                201.26133456426774,
+                401.6188459358095
+              ],
+              [
+                202.79847745024642,
+                400.54504123869464
+              ],
+              [
+                202.3708858743855,
+                413.19844223324634
+              ],
+              [
+                202.37569506413965,
+                413.23497165610036
+              ],
+              [
+                202.3681204280921,
+                413.2925067290108
+              ],
+              [
+                201.61922334370453,
+                413.23497165610036
+              ],
+              [
+                200.86951937020825,
+                413.2863777977449
+              ]
+            ]
+          ],
+          [
+            [
+              [
+                201.9720282333854,
+                380.58781425206087
+              ],
+              [
+                202.9978104584608,
+                350.23260016527985
+              ],
+              [
+                202.99300126870665,
+                350.19607074242583
+              ],
+              [
+                202.9963518165889,
+                350.17062080456924
+              ],
+              [
+                204.50259416169462,
+                350.2215206802824
+              ],
+              [
+                204.4978141356539,
+                350.2578285827402
+              ],
+              [
+                203.5733639947595,
+                377.61439730993015
+              ],
+              [
+                202.7522705861066,
+                379.2656028782618
+              ]
+            ]
+          ]
+        ]
+      },
+      {
+        "sections": 1,
+        "addedFairwayYards": 0,
+        "addedFairwayPercent": 0,
+        "waterReshaped": false,
+        "addedFairway": []
+      },
+      {
+        "sections": 2,
+        "addedFairwayYards": 35.28346730426064,
+        "addedFairwayPercent": 0.2711420535980209,
+        "waterReshaped": false,
+        "addedFairway": [
+          [
+            [
+              [
+                222.42655614975325,
+                397.2935353786622
+              ],
+              [
+                222.44635160535583,
+                397.2457449212731
+              ],
+              [
+                222.46224435651968,
+                397.22503308471215
+              ],
+              [
+                226.36823031672628,
+                389.3692325239993
+              ],
+              [
+                227.6946453110303,
+                390.07068375702653
+              ],
+              [
+                223.7845201544065,
+                397.93480915604306
+              ],
+              [
+                223.7565990596385,
+                398.00221664170823
+              ],
+              [
+                223.72119767914464,
+                398.04835261900143
+              ],
+              [
+                223.10147533249716,
+                397.6239807814907
+              ]
+            ]
+          ],
+          [
+            [
+              [
+                231.6408027459223,
+                378.7649247083393
+              ],
+              [
+                242.73909478838846,
+                356.44380790495256
+              ],
+              [
+                242.7618928175069,
+                356.3887685938595
+              ],
+              [
+                243.4221396102978,
+                356.7546362795049
+              ],
+              [
+                244.12346209737797,
+                357.0213384669133
+              ],
+              [
+                244.07726333743912,
+                357.13287213972245
+              ],
+              [
+                244.06137058627527,
+                357.1535839762834
+              ],
+              [
+                232.96397334635972,
+                379.47290113408764
+              ],
+              [
+                232.534,
+                379.27500000000003
+              ]
+            ]
+          ]
+        ]
+      }
+    ]
+  },
+  "holes": [
+    {
+      "par": 4,
+      "lengthYards": 486,
+      "type": "straight"
+    },
+    {
+      "par": 3,
+      "lengthYards": 172,
+      "type": "straight"
+    },
+    {
+      "par": 5,
+      "lengthYards": 622,
+      "type": "straight"
+    }
+  ],
+  "retainedOlder": {
+    "legacy": {
+      "course": 163,
+      "artworkSHA256": "3df75c9b56373c19ffdcf9576d44c109a4af2236d3c119c720bc67070874b418",
+      "schemaVersion": 1,
+      "geometrySHA256": "eccfe7c77135797aafc024a55bd102c12c2af11d5cabada9e11764c076d4e619",
+      "artRulesVersion": "fairway-stripes-v4"
+    },
+    "pairMatchupID": null
+  }
+}
