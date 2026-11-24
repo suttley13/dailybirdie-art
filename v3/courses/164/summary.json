@@ -1,0 +1,381 @@
+{
+  "course": 164,
+  "date": "2026-11-27",
+  "name": "Twin Channels Golf Club",
+  "studioJob": "77cb04b1-32d7-404b-af8d-788df0ed0b6e",
+  "draftFingerprint": "1b03dfc3a6c1aea0d412b21d8f8d71fa2a1d61ba6e0b72ea5c03d8e81af89d0f",
+  "approval": {
+    "approvedAt": "2026-11-24T04:24:42.037Z",
+    "playtested": true,
+    "humanApproved": true,
+    "retainedOlder": {
+      "legacy": {
+        "course": 164,
+        "artworkSHA256": "4416954a7d89d11e7c083ff139c8d971422a9e97911114372b9db7f34d4d6622",
+        "schemaVersion": 1,
+        "geometrySHA256": "93a99818e49694b102e2a3ef3f5748517ae7d035334a2b98a98bdbb145be3d1f",
+        "artRulesVersion": "geometry-preview"
+      },
+      "pairMatchupID": null
+    },
+    "artworkOverrides": [
+      {
+        "policy": "studio-human-artwork-v1",
+        "reason": "The illustration preserves the mapped property shape, fairway sections, water, bunkers, tees, greens, and stone bridges. The mapped fairways have visible diagonal alternating stripes, and the greens read as continuous natural putting surfaces. No unmapped paths or obstructing added vegetation are apparent. The mapped layout, fairway patches, greens, water and bridges are clearly represented. A conspicuous unmapped path extends from Hole 3\u2019s green toward the property edge and must be removed from the illustration.",
+        "review": {
+          "issues": [
+            {
+              "code": "style",
+              "hole": 3,
+              "detail": "A tan path runs southeast from G3 toward the property edge; no cart path, footpath or trail is mapped.",
+              "region": {
+                "x": 0.8,
+                "y": 0.43,
+                "width": 0.18,
+                "height": 0.27
+              },
+              "consequence": "It makes the overview appear to show a route that is not part of the approved course layout."
+            }
+          ],
+          "reason": "The illustration preserves the mapped property shape, fairway sections, water, bunkers, tees, greens, and stone bridges. The mapped fairways have visible diagonal alternating stripes, and the greens read as continuous natural putting surfaces. No unmapped paths or obstructing added vegetation are apparent. The mapped layout, fairway patches, greens, water and bridges are clearly represented. A conspicuous unmapped path extends from Hole 3\u2019s green toward the property edge and must be removed from the illustration.",
+          "reviews": [
+            {
+              "review": {
+                "issues": [],
+                "reason": "The illustration preserves the mapped property shape, fairway sections, water, bunkers, tees, greens, and stone bridges. The mapped fairways have visible diagonal alternating stripes, and the greens read as continuous natural putting surfaces. No unmapped paths or obstructing added vegetation are apparent.",
+                "scores": {
+                  "naturalGreens": 4,
+                  "visualClarity": 5,
+                  "geometryFidelity": 5,
+                  "styleConsistency": 5
+                },
+                "approved": true,
+                "candidate": 0,
+                "reviewKind": "artwork-only-v1"
+              },
+              "responseID": "resp_0a28a2aba505ce00016b0511129f1487d1bdc51598f59d92ce"
+            },
+            {
+              "review": {
+                "issues": [
+                  {
+                    "code": "style",
+                    "hole": 3,
+                    "detail": "A tan path runs southeast from G3 toward the property edge; no cart path, footpath or trail is mapped.",
+                    "region": {
+                      "x": 0.8,
+                      "y": 0.43,
+                      "width": 0.18,
+                      "height": 0.27
+                    },
+                    "consequence": "It makes the overview appear to show a route that is not part of the approved course layout."
+                  }
+                ],
+                "reason": "The mapped layout, fairway patches, greens, water and bridges are clearly represented. A conspicuous unmapped path extends from Hole 3\u2019s green toward the property edge and must be removed from the illustration.",
+                "scores": {
+                  "naturalGreens": 4,
+                  "visualClarity": 5,
+                  "geometryFidelity": 5,
+                  "styleConsistency": 3
+                },
+                "approved": false,
+                "candidate": 0,
+                "reviewKind": "artwork-only-v1"
+              },
+              "responseID": "resp_055b7c6c514262f3016b0511129ce487d1a766c676c290fefd"
+            }
+          ],
+          "approved": false,
+          "decisionKey": "6cd4dd5b43a21ce65464a4a4d7a2f8260df39dcf79ccde5d5d489359c053eb92",
+          "artworkSHA256": "3b90ebd3cd5ab8cae11487fbd2100c9a16172209b747c313ffd2fdf7b29a4098",
+          "geometrySHA256": "ad9cb60cf854bff5b68b1ce67248175566952c7c11f2f7871f544a16ec852dcb",
+          "geometryEncoding": "studio-stable-json-v1"
+        },
+        "decisionKey": "6cd4dd5b43a21ce65464a4a4d7a2f8260df39dcf79ccde5d5d489359c053eb92",
+        "artworkSHA256": "3b90ebd3cd5ab8cae11487fbd2100c9a16172209b747c313ffd2fdf7b29a4098",
+        "geometrySHA256": "ad9cb60cf854bff5b68b1ce67248175566952c7c11f2f7871f544a16ec852dcb",
+        "acceptedFindings": [
+          "6cd4dd5b43a21ce65464a4a4d7a2f8260df39dcf79ccde5d5d489359c053eb92:0"
+        ]
+      },
+      {
+        "policy": "studio-human-artwork-v1",
+        "reason": "The illustration preserves the numbered tee-to-green layouts, property silhouette, split fairway shapes and gaps, mapped water and bunkers, and all three tees. Mapped fairway sections show visible transverse mowing stripes, and the putting greens read as continuous natural surfaces with restrained edge transitions. The rendered wooded style remains clear and consistent with the reference. The illustration is clear and the greens and fairway striping read well, but the upper and central course geometry does not align with the numbered diagram.",
+        "review": {
+          "issues": [
+            {
+              "code": "geometry-mismatch",
+              "hole": 0,
+              "detail": "The upper property boundary and several upper/central landmarks\u2014including T2/G2, G1, and T3\u2014sit noticeably higher (and somewhat left) than in the diagram, while the southern boundary and T1 remain much closer to their mapped positions. This changes the mapped silhouette and relative placement of course features.",
+              "region": {
+                "x": 0.07,
+                "y": 0.07,
+                "width": 0.86,
+                "height": 0.51
+              },
+              "consequence": "The overview visibly misrepresents the locations and spacing of these features relative to the property boundary and the rest of the course."
+            }
+          ],
+          "reason": "The illustration preserves the numbered tee-to-green layouts, property silhouette, split fairway shapes and gaps, mapped water and bunkers, and all three tees. Mapped fairway sections show visible transverse mowing stripes, and the putting greens read as continuous natural surfaces with restrained edge transitions. The rendered wooded style remains clear and consistent with the reference. The illustration is clear and the greens and fairway striping read well, but the upper and central course geometry does not align with the numbered diagram.",
+          "reviews": [
+            {
+              "review": {
+                "issues": [],
+                "reason": "The illustration preserves the numbered tee-to-green layouts, property silhouette, split fairway shapes and gaps, mapped water and bunkers, and all three tees. Mapped fairway sections show visible transverse mowing stripes, and the putting greens read as continuous natural surfaces with restrained edge transitions. The rendered wooded style remains clear and consistent with the reference.",
+                "scores": {
+                  "naturalGreens": 4,
+                  "visualClarity": 4,
+                  "geometryFidelity": 5,
+                  "styleConsistency": 4
+                },
+                "approved": true,
+                "candidate": 0,
+                "reviewKind": "artwork-only-v1"
+              },
+              "responseID": "resp_059133557a0b4082016b051112a44487d190bbc00b6b860064"
+            },
+            {
+              "review": {
+                "issues": [
+                  {
+                    "code": "geometry-mismatch",
+                    "hole": 0,
+                    "detail": "The upper property boundary and several upper/central landmarks\u2014including T2/G2, G1, and T3\u2014sit noticeably higher (and somewhat left) than in the diagram, while the southern boundary and T1 remain much closer to their mapped positions. This changes the mapped silhouette and relative placement of course features.",
+                    "region": {
+                      "x": 0.07,
+                      "y": 0.07,
+                      "width": 0.86,
+                      "height": 0.51
+                    },
+                    "consequence": "The overview visibly misrepresents the locations and spacing of these features relative to the property boundary and the rest of the course."
+                  }
+                ],
+                "reason": "The illustration is clear and the greens and fairway striping read well, but the upper and central course geometry does not align with the numbered diagram.",
+                "scores": {
+                  "naturalGreens": 4,
+                  "visualClarity": 5,
+                  "geometryFidelity": 3,
+                  "styleConsistency": 4
+                },
+                "approved": false,
+                "candidate": 0,
+                "reviewKind": "artwork-only-v1"
+              },
+              "responseID": "resp_027f0285c909f993016b051112a59887d1b302df9a1bcb58c6"
+            }
+          ],
+          "approved": false,
+          "decisionKey": "5b8acee5fabd2d299386f2dfe175008935a95590b3c92d6f17daaf45c05da3a0",
+          "artworkSHA256": "f52eea1c897eba3a75cda652b45b7399a252da206ac7f2d37d04c2e893fa1c25",
+          "geometrySHA256": "19ed0862cc011423b29967e842dd514fa071f5a541339b7a83010aad2d1e4916",
+          "geometryEncoding": "studio-stable-json-v1"
+        },
+        "decisionKey": "5b8acee5fabd2d299386f2dfe175008935a95590b3c92d6f17daaf45c05da3a0",
+        "artworkSHA256": "f52eea1c897eba3a75cda652b45b7399a252da206ac7f2d37d04c2e893fa1c25",
+        "geometrySHA256": "19ed0862cc011423b29967e842dd514fa071f5a541339b7a83010aad2d1e4916",
+        "acceptedFindings": [
+          "5b8acee5fabd2d299386f2dfe175008935a95590b3c92d6f17daaf45c05da3a0:0"
+        ]
+      }
+    ],
+    "compatibilityApproved": true
+  },
+  "artworkStatus": "approved",
+  "geometrySHA256": "7a6c991efe13e9f6d8a289ccad674d3f4a619e996582cac1a96dbe7b2585f4a8",
+  "artworkSHA256": "3b90ebd3cd5ab8cae11487fbd2100c9a16172209b747c313ffd2fdf7b29a4098",
+  "artworkReview": {
+    "issues": [
+      {
+        "code": "style",
+        "hole": 3,
+        "detail": "A tan path runs southeast from G3 toward the property edge; no cart path, footpath or trail is mapped.",
+        "region": {
+          "x": 0.8,
+          "y": 0.43,
+          "width": 0.18,
+          "height": 0.27
+        },
+        "consequence": "It makes the overview appear to show a route that is not part of the approved course layout."
+      }
+    ],
+    "reason": "The illustration preserves the mapped property shape, fairway sections, water, bunkers, tees, greens, and stone bridges. The mapped fairways have visible diagonal alternating stripes, and the greens read as continuous natural putting surfaces. No unmapped paths or obstructing added vegetation are apparent. The mapped layout, fairway patches, greens, water and bridges are clearly represented. A conspicuous unmapped path extends from Hole 3\u2019s green toward the property edge and must be removed from the illustration.",
+    "reviews": [
+      {
+        "review": {
+          "issues": [],
+          "reason": "The illustration preserves the mapped property shape, fairway sections, water, bunkers, tees, greens, and stone bridges. The mapped fairways have visible diagonal alternating stripes, and the greens read as continuous natural putting surfaces. No unmapped paths or obstructing added vegetation are apparent.",
+          "scores": {
+            "naturalGreens": 4,
+            "visualClarity": 5,
+            "geometryFidelity": 5,
+            "styleConsistency": 5
+          },
+          "approved": true,
+          "candidate": 0,
+          "reviewKind": "artwork-only-v1"
+        },
+        "responseID": "resp_0a28a2aba505ce00016b0511129f1487d1bdc51598f59d92ce"
+      },
+      {
+        "review": {
+          "issues": [
+            {
+              "code": "style",
+              "hole": 3,
+              "detail": "A tan path runs southeast from G3 toward the property edge; no cart path, footpath or trail is mapped.",
+              "region": {
+                "x": 0.8,
+                "y": 0.43,
+                "width": 0.18,
+                "height": 0.27
+              },
+              "consequence": "It makes the overview appear to show a route that is not part of the approved course layout."
+            }
+          ],
+          "reason": "The mapped layout, fairway patches, greens, water and bridges are clearly represented. A conspicuous unmapped path extends from Hole 3\u2019s green toward the property edge and must be removed from the illustration.",
+          "scores": {
+            "naturalGreens": 4,
+            "visualClarity": 5,
+            "geometryFidelity": 5,
+            "styleConsistency": 3
+          },
+          "approved": false,
+          "candidate": 0,
+          "reviewKind": "artwork-only-v1"
+        },
+        "responseID": "resp_055b7c6c514262f3016b0511129ce487d1a766c676c290fefd"
+      }
+    ],
+    "approved": false,
+    "artworkSHA256": "3b90ebd3cd5ab8cae11487fbd2100c9a16172209b747c313ffd2fdf7b29a4098",
+    "geometrySHA256": "ad9cb60cf854bff5b68b1ce67248175566952c7c11f2f7871f544a16ec852dcb",
+    "geometryEncoding": "studio-stable-json-v1",
+    "decisionKey": "6cd4dd5b43a21ce65464a4a4d7a2f8260df39dcf79ccde5d5d489359c053eb92"
+  },
+  "compatibility": {
+    "policy": "studio-compatible-v1",
+    "holes": [
+      {
+        "sections": 2,
+        "addedFairwayYards": 17.425607784841507,
+        "addedFairwayPercent": 0.11576593027466944,
+        "waterReshaped": false,
+        "addedFairway": [
+          [
+            [
+              [
+                112.10909257446008,
+                366.568467231341
+              ],
+              [
+                112.85215440554622,
+                372.01027136620144
+              ],
+              [
+                112.85394200330789,
+                372.01003602449146
+              ],
+              [
+                121.27712702196987,
+                370.8598756864063
+              ],
+              [
+                121.4645158992537,
+                372.348207527559
+              ],
+              [
+                113.15110760493182,
+                373.48337818726225
+              ],
+              [
+                113.14941351289924,
+                373.48407990315803
+              ],
+              [
+                113.05509404359213,
+                373.4964972968634
+              ]
+            ]
+          ],
+          [
+            [
+              [
+                153.63477014928057,
+                366.44153776832763
+              ],
+              [
+                161.66292861793954,
+                365.34531710618427
+              ],
+              [
+                161.66462270997212,
+                365.3446153902885
+              ],
+              [
+                161.79986068314406,
+                365.3268109733517
+              ],
+              [
+                161.8604119983022,
+                366.07531096191406
+              ],
+              [
+                161.96526819971402,
+                366.81797810154575
+              ],
+              [
+                161.96009421956302,
+                366.8186592689551
+              ],
+              [
+                153.7930910316893,
+                367.93383875591826
+              ]
+            ]
+          ]
+        ]
+      },
+      {
+        "sections": 1,
+        "addedFairwayYards": 0,
+        "addedFairwayPercent": 0,
+        "waterReshaped": true,
+        "addedFairway": []
+      },
+      {
+        "sections": 1,
+        "addedFairwayYards": 0,
+        "addedFairwayPercent": 0,
+        "waterReshaped": false,
+        "addedFairway": []
+      }
+    ]
+  },
+  "holes": [
+    {
+      "par": 5,
+      "lengthYards": 537,
+      "type": "straight"
+    },
+    {
+      "par": 3,
+      "lengthYards": 186,
+      "type": "straight"
+    },
+    {
+      "par": 4,
+      "lengthYards": 431,
+      "type": "straight"
+    }
+  ],
+  "retainedOlder": {
+    "legacy": {
+      "course": 164,
+      "artworkSHA256": "4416954a7d89d11e7c083ff139c8d971422a9e97911114372b9db7f34d4d6622",
+      "schemaVersion": 1,
+      "geometrySHA256": "93a99818e49694b102e2a3ef3f5748517ae7d035334a2b98a98bdbb145be3d1f",
+      "artRulesVersion": "geometry-preview"
+    },
+    "pairMatchupID": null
+  }
+}
