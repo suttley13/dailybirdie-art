@@ -1,0 +1,70 @@
+{
+  "responseID": "resp_0362442d7bfee977016b05af3c7b7487d18621c61b0d52efb0",
+  "model": "gpt-6-luna",
+  "usage": {
+    "input_tokens": 8623,
+    "input_tokens_details": {
+      "cache_write_tokens": 7312,
+      "cache_write_tokens_details": {
+        "ttl_12h_tokens": 0,
+        "ttl_30m_tokens": 7312
+      },
+      "cached_tokens": 1308
+    },
+    "output_tokens": 3258,
+    "output_tokens_details": {
+      "reasoning_tokens": 2827
+    },
+    "total_tokens": 11881
+  },
+  "review": {
+    "reviewKind": "artwork-only-v1",
+    "candidate": 0,
+    "approved": false,
+    "scores": {
+      "geometryFidelity": 4,
+      "naturalGreens": 2,
+      "visualClarity": 4,
+      "styleConsistency": 4
+    },
+    "reason": "The numbered layout, mapped hazards, and striped fairways are broadly faithful and clear. The three greens, however, read as inset discs with prominent dark, beveled rings rather than single continuous natural putting surfaces.",
+    "issues": [
+      {
+        "code": "green-treatment",
+        "hole": 1,
+        "detail": "The putting surface is set off by a pronounced dark annular edge, giving the green a ringed, raised-platform appearance. Remove the strong ring/bevel and render one continuous natural sage/apple-green close-mown surface with only a narrow edge transition.",
+        "consequence": "The overview makes the mapped green look tiered or nested rather than like one continuous putting surface.",
+        "region": {
+          "x": 0.56,
+          "y": 0.2,
+          "width": 0.06,
+          "height": 0.09
+        }
+      },
+      {
+        "code": "green-treatment",
+        "hole": 2,
+        "detail": "The putting surface is set off by a pronounced dark annular edge, giving the green a ringed, raised-platform appearance. Remove the strong ring/bevel and render one continuous natural sage/apple-green close-mown surface with only a narrow edge transition.",
+        "consequence": "The overview makes the mapped green look tiered or nested rather than like one continuous putting surface.",
+        "region": {
+          "x": 0.61,
+          "y": 0.49,
+          "width": 0.06,
+          "height": 0.09
+        }
+      },
+      {
+        "code": "green-treatment",
+        "hole": 3,
+        "detail": "The putting surface is set off by a pronounced dark annular edge, giving the green a ringed, raised-platform appearance. Remove the strong ring/bevel and render one continuous natural sage/apple-green close-mown surface with only a narrow edge transition.",
+        "consequence": "The overview makes the mapped green look tiered or nested rather than like one continuous putting surface.",
+        "region": {
+          "x": 0.27,
+          "y": 0.71,
+          "width": 0.06,
+          "height": 0.09
+        }
+      }
+    ]
+  }
+}

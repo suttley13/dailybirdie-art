@@ -1,0 +1,46 @@
+{
+  "responseID": "resp_048ab34d23cdb118016b05af09d44487d19c71e0bdecba1521",
+  "model": "gpt-6-luna",
+  "usage": {
+    "input_tokens": 8625,
+    "input_tokens_details": {
+      "cache_write_tokens": 8622,
+      "cache_write_tokens_details": {
+        "ttl_12h_tokens": 0,
+        "ttl_30m_tokens": 8622
+      },
+      "cached_tokens": 0
+    },
+    "output_tokens": 3012,
+    "output_tokens_details": {
+      "reasoning_tokens": 2792
+    },
+    "total_tokens": 11637
+  },
+  "review": {
+    "reviewKind": "artwork-only-v1",
+    "candidate": 0,
+    "approved": false,
+    "scores": {
+      "geometryFidelity": 5,
+      "naturalGreens": 4,
+      "visualClarity": 4,
+      "styleConsistency": 3
+    },
+    "reason": "The course layout, mapped hazards, tees, greens, and water appear faithful, and each green reads as a continuous putting surface. The Hole 1 fairway stripes run lengthwise along the tee-to-green direction rather than crossing the fairway, so the current artwork does not meet the required stripe treatment.",
+    "issues": [
+      {
+        "code": "style",
+        "hole": 1,
+        "detail": "The upper Hole 1 fairway has predominantly horizontal mowing bands, parallel to the T1-to-G1 route, instead of bands crossing the fairway perpendicular to play.",
+        "consequence": "At overview scale, the fairway reads as having the wrong mowing orientation and does not clearly show the required crosswise striping.",
+        "region": {
+          "x": 0.275,
+          "y": 0.117,
+          "width": 0.29,
+          "height": 0.31
+        }
+      }
+    ]
+  }
+}

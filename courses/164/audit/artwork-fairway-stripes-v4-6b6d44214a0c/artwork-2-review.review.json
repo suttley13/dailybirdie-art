@@ -1,0 +1,46 @@
+{
+  "responseID": "resp_0aaff60e84285e8c016b05af77629087d19e3bae4d45387c56",
+  "model": "gpt-6-luna",
+  "usage": {
+    "input_tokens": 8626,
+    "input_tokens_details": {
+      "cache_write_tokens": 7315,
+      "cache_write_tokens_details": {
+        "ttl_12h_tokens": 0,
+        "ttl_30m_tokens": 7315
+      },
+      "cached_tokens": 1308
+    },
+    "output_tokens": 3096,
+    "output_tokens_details": {
+      "reasoning_tokens": 2914
+    },
+    "total_tokens": 11722
+  },
+  "review": {
+    "reviewKind": "artwork-only-v1",
+    "candidate": 0,
+    "approved": false,
+    "scores": {
+      "geometryFidelity": 4,
+      "naturalGreens": 4,
+      "visualClarity": 4,
+      "styleConsistency": 3
+    },
+    "reason": "The course layout and mapped features are broadly represented, but added trees crowd the approach from Hole 3\u2019s dogleg fairway to G3, obscuring that route in the overview.",
+    "issues": [
+      {
+        "code": "style",
+        "hole": 3,
+        "detail": "Tree crowns and shadows sit in the gap between the end of the striped fairway and G3, intruding into the approach corridor.",
+        "consequence": "The Hole 3 fairway-to-green approach reads as obstructed or unclear in the overview.",
+        "region": {
+          "x": 0.26,
+          "y": 0.62,
+          "width": 0.09,
+          "height": 0.12
+        }
+      }
+    ]
+  }
+}

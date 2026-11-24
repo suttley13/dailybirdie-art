@@ -1,7 +1,7 @@
 {
   "course": 164,
   "geometrySHA256": "93a99818e49694b102e2a3ef3f5748517ae7d035334a2b98a98bdbb145be3d1f",
-  "artworkSHA256": "4416954a7d89d11e7c083ff139c8d971422a9e97911114372b9db7f34d4d6622",
+  "artworkSHA256": "6b6d44214a0c38d1554fe1a6b0719e0191b84d02faf761738707e66c87d0fdd1",
   "holes": [
     {
       "bunkerCount": 5,
@@ -122,6 +122,19 @@
     "regulationHoles": 3,
     "underRegulationHoles": 0
   },
-  "artworkStatus": "geometry-preview",
-  "artworkReview": null
+  "artworkStatus": "approved",
+  "artworkReview": {
+    "reviewKind": "artwork-only-v1",
+    "candidate": 0,
+    "approved": true,
+    "scores": {
+      "geometryFidelity": 5,
+      "naturalGreens": 4,
+      "visualClarity": 5,
+      "styleConsistency": 5
+    },
+    "reason": "The illustration preserves the numbered tee-to-green routing, fairway footprints, mapped bunkers and water, and the property silhouette. All mapped tees are visible; fairway stripes are clear, including on the narrow and curved sections. Greens read as continuous putting surfaces, and no paths or unmapped water crossings are shown.",
+    "issues": []
+  },
+  "artRulesVersion": "fairway-stripes-v4"
 }

@@ -1,0 +1,13 @@
+{
+  "reviewKind": "artwork-only-v1",
+  "candidate": 0,
+  "approved": true,
+  "scores": {
+    "geometryFidelity": 5,
+    "naturalGreens": 4,
+    "visualClarity": 5,
+    "styleConsistency": 5
+  },
+  "reason": "The illustration preserves the numbered tee-to-green routing, fairway footprints, mapped bunkers and water, and the property silhouette. All mapped tees are visible; fairway stripes are clear, including on the narrow and curved sections. Greens read as continuous putting surfaces, and no paths or unmapped water crossings are shown.",
+  "issues": []
+}

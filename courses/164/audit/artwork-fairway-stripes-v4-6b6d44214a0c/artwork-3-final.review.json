@@ -1,0 +1,33 @@
+{
+  "responseID": "resp_02cfb5e140a9549c016b05afc1edec87d19286793b7235a430",
+  "model": "gpt-6-luna",
+  "usage": {
+    "input_tokens": 8628,
+    "input_tokens_details": {
+      "cache_write_tokens": 7317,
+      "cache_write_tokens_details": {
+        "ttl_12h_tokens": 0,
+        "ttl_30m_tokens": 7317
+      },
+      "cached_tokens": 1308
+    },
+    "output_tokens": 2547,
+    "output_tokens_details": {
+      "reasoning_tokens": 2425
+    },
+    "total_tokens": 11175
+  },
+  "review": {
+    "reviewKind": "artwork-only-v1",
+    "candidate": 0,
+    "approved": true,
+    "scores": {
+      "geometryFidelity": 5,
+      "naturalGreens": 4,
+      "visualClarity": 5,
+      "styleConsistency": 5
+    },
+    "reason": "The illustration preserves the numbered tee-to-green routing, fairway footprints, mapped bunkers and water, and the property silhouette. All mapped tees are visible; fairway stripes are clear, including on the narrow and curved sections. Greens read as continuous putting surfaces, and no paths or unmapped water crossings are shown.",
+    "issues": []
+  }
+}
