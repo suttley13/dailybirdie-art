@@ -1,0 +1,624 @@
+{
+  "course": 165,
+  "date": "2026-11-28",
+  "name": "Untitled course",
+  "studioJob": "88cf5077-3aae-4f9a-aabc-307ee89407cf",
+  "draftFingerprint": "a6663423f91e2d714fcbd434e56989cf90a2d62ef7e444f1ab3b545d392caea1",
+  "approval": {
+    "approvedAt": "2026-11-25T21:57:36.055Z",
+    "playtested": true,
+    "humanApproved": true,
+    "retainedOlder": {
+      "legacy": {
+        "course": 165,
+        "artworkSHA256": "dd9ed356c57778da8d89e94178c005f387cd562b49a82f1821586bfe97b946ab",
+        "schemaVersion": 1,
+        "geometrySHA256": "52f0baf9db346f079ed9e8c9c17fb525932079444d7524da9a8e20b83b44ef50",
+        "artRulesVersion": "fairway-stripes-v4"
+      },
+      "pairMatchupID": null
+    },
+    "artworkOverrides": [
+      {
+        "policy": "studio-human-artwork-v1",
+        "reason": "The illustration follows the numbered diagram\u2019s property outline, hole directions, mapped water, fairway sections, tees, greens and hazards. Fairway stripes are visible, including on the smaller patches, and the greens read as continuous putting surfaces with ordinary edge transitions. The overview is clear and consistent with the supplied style. The overview is clear and closely follows the mapped property and hazard layout. However, an unmapped path is drawn from the Hole 1 green toward the southeast edge, which violates the no-path requirement.",
+        "review": {
+          "issues": [
+            {
+              "code": "style",
+              "hole": 1,
+              "detail": "A pale, continuous path extends from the Hole 1 green toward the southeast property edge; no path is mapped in the diagram.",
+              "region": {
+                "x": 0.87,
+                "y": 0.54,
+                "width": 0.1,
+                "height": 0.16
+              },
+              "consequence": "The overview would misleadingly suggest a walking or cart route that is not part of the mapped course."
+            }
+          ],
+          "reason": "The illustration follows the numbered diagram\u2019s property outline, hole directions, mapped water, fairway sections, tees, greens and hazards. Fairway stripes are visible, including on the smaller patches, and the greens read as continuous putting surfaces with ordinary edge transitions. The overview is clear and consistent with the supplied style. The overview is clear and closely follows the mapped property and hazard layout. However, an unmapped path is drawn from the Hole 1 green toward the southeast edge, which violates the no-path requirement.",
+          "reviews": [
+            {
+              "review": {
+                "issues": [],
+                "reason": "The illustration follows the numbered diagram\u2019s property outline, hole directions, mapped water, fairway sections, tees, greens and hazards. Fairway stripes are visible, including on the smaller patches, and the greens read as continuous putting surfaces with ordinary edge transitions. The overview is clear and consistent with the supplied style.",
+                "scores": {
+                  "naturalGreens": 4,
+                  "visualClarity": 5,
+                  "geometryFidelity": 5,
+                  "styleConsistency": 5
+                },
+                "approved": true,
+                "candidate": 0,
+                "reviewKind": "artwork-only-v1"
+              },
+              "responseID": "resp_01a78b1cedc3ae5b016b07593c577887d2a6b11daa4638f34b"
+            },
+            {
+              "review": {
+                "issues": [
+                  {
+                    "code": "style",
+                    "hole": 1,
+                    "detail": "A pale, continuous path extends from the Hole 1 green toward the southeast property edge; no path is mapped in the diagram.",
+                    "region": {
+                      "x": 0.87,
+                      "y": 0.54,
+                      "width": 0.1,
+                      "height": 0.16
+                    },
+                    "consequence": "The overview would misleadingly suggest a walking or cart route that is not part of the mapped course."
+                  }
+                ],
+                "reason": "The overview is clear and closely follows the mapped property and hazard layout. However, an unmapped path is drawn from the Hole 1 green toward the southeast edge, which violates the no-path requirement.",
+                "scores": {
+                  "naturalGreens": 4,
+                  "visualClarity": 5,
+                  "geometryFidelity": 4,
+                  "styleConsistency": 3
+                },
+                "approved": false,
+                "candidate": 0,
+                "reviewKind": "artwork-only-v1"
+              },
+              "responseID": "resp_098b7535e0bad610016b07593c611c87d2bf233483a630f21c"
+            }
+          ],
+          "approved": false,
+          "decisionKey": "428c0da317cc11436e302427ec83a0d33c168561ac16761c348db0c1afdecf9a",
+          "artworkSHA256": "48c6b6da430605302f108e0184851a6133562f359bca8ddaba3b9f034e4905ad",
+          "geometrySHA256": "03f3ef0f993da82f3530b3958f72370682e54cc2b9e3ed6570ea8df117b89d48",
+          "geometryEncoding": "studio-stable-json-v1"
+        },
+        "decisionKey": "428c0da317cc11436e302427ec83a0d33c168561ac16761c348db0c1afdecf9a",
+        "artworkSHA256": "48c6b6da430605302f108e0184851a6133562f359bca8ddaba3b9f034e4905ad",
+        "geometrySHA256": "03f3ef0f993da82f3530b3958f72370682e54cc2b9e3ed6570ea8df117b89d48",
+        "acceptedFindings": [
+          "428c0da317cc11436e302427ec83a0d33c168561ac16761c348db0c1afdecf9a:0"
+        ]
+      },
+      {
+        "policy": "studio-human-artwork-v1",
+        "reason": "The overall property, water, and hole layout are broadly faithful, and the greens read as continuous natural putting surfaces. The illustration needs artwork-only corrections: a mapped fairway patch lacks the required mowing stripes, and an unmapped path is visible. The course layout and greens are generally clear and faithful, but the illustration includes an unmapped path and leaves small mapped fairway patches visibly unstriped.",
+        "review": {
+          "issues": [
+            {
+              "code": "style",
+              "hole": 3,
+              "detail": "The small mapped fairway patch between T3 and the lake is unstriped; it reads as uniform turf rather than striped fairway at thumbnail scale.",
+              "region": {
+                "x": 0.28,
+                "y": 0.64,
+                "width": 0.1,
+                "height": 0.06
+              },
+              "consequence": "The overview does not clearly distinguish this mapped fairway section from surrounding grass."
+            },
+            {
+              "code": "style",
+              "hole": 1,
+              "detail": "A narrow tan path or trail runs from the right-side green area toward the property edge, but no path is mapped.",
+              "region": {
+                "x": 0.83,
+                "y": 0.57,
+                "width": 0.1,
+                "height": 0.16
+              },
+              "consequence": "The overview depicts an unmapped route across the course."
+            },
+            {
+              "code": "style",
+              "hole": 1,
+              "detail": "A pale path extends from the green toward the lower-right edge; no cart or walking path is mapped.",
+              "region": {
+                "x": 0.82,
+                "y": 0.54,
+                "width": 0.16,
+                "height": 0.17
+              },
+              "consequence": "Viewers may read it as a course path that is not part of the approved diagram."
+            },
+            {
+              "code": "style",
+              "hole": 1,
+              "detail": "The small fairway patch by T1 is smooth and unstriped, unlike the clearly striped main fairway.",
+              "region": {
+                "x": 0.45,
+                "y": 0.68,
+                "width": 0.12,
+                "height": 0.07
+              },
+              "consequence": "At thumbnail scale, this mapped patch may not read as fairway."
+            },
+            {
+              "code": "style",
+              "hole": 3,
+              "detail": "The detached fairway patch between T3 and the small lake appears uniformly green rather than striped.",
+              "region": {
+                "x": 0.29,
+                "y": 0.64,
+                "width": 0.09,
+                "height": 0.06
+              },
+              "consequence": "The patch may be mistaken for rough or another green surface in the overview."
+            }
+          ],
+          "reason": "The overall property, water, and hole layout are broadly faithful, and the greens read as continuous natural putting surfaces. The illustration needs artwork-only corrections: a mapped fairway patch lacks the required mowing stripes, and an unmapped path is visible. The course layout and greens are generally clear and faithful, but the illustration includes an unmapped path and leaves small mapped fairway patches visibly unstriped.",
+          "reviews": [
+            {
+              "review": {
+                "issues": [
+                  {
+                    "code": "style",
+                    "hole": 3,
+                    "detail": "The small mapped fairway patch between T3 and the lake is unstriped; it reads as uniform turf rather than striped fairway at thumbnail scale.",
+                    "region": {
+                      "x": 0.28,
+                      "y": 0.64,
+                      "width": 0.1,
+                      "height": 0.06
+                    },
+                    "consequence": "The overview does not clearly distinguish this mapped fairway section from surrounding grass."
+                  },
+                  {
+                    "code": "style",
+                    "hole": 1,
+                    "detail": "A narrow tan path or trail runs from the right-side green area toward the property edge, but no path is mapped.",
+                    "region": {
+                      "x": 0.83,
+                      "y": 0.57,
+                      "width": 0.1,
+                      "height": 0.16
+                    },
+                    "consequence": "The overview depicts an unmapped route across the course."
+                  }
+                ],
+                "reason": "The overall property, water, and hole layout are broadly faithful, and the greens read as continuous natural putting surfaces. The illustration needs artwork-only corrections: a mapped fairway patch lacks the required mowing stripes, and an unmapped path is visible.",
+                "scores": {
+                  "naturalGreens": 5,
+                  "visualClarity": 4,
+                  "geometryFidelity": 4,
+                  "styleConsistency": 2
+                },
+                "approved": false,
+                "candidate": 0,
+                "reviewKind": "artwork-only-v1"
+              },
+              "responseID": "resp_0ea11e63cb2a4751016b075939941087d282ad5a0d7096873e"
+            },
+            {
+              "review": {
+                "issues": [
+                  {
+                    "code": "style",
+                    "hole": 1,
+                    "detail": "A pale path extends from the green toward the lower-right edge; no cart or walking path is mapped.",
+                    "region": {
+                      "x": 0.82,
+                      "y": 0.54,
+                      "width": 0.16,
+                      "height": 0.17
+                    },
+                    "consequence": "Viewers may read it as a course path that is not part of the approved diagram."
+                  },
+                  {
+                    "code": "style",
+                    "hole": 1,
+                    "detail": "The small fairway patch by T1 is smooth and unstriped, unlike the clearly striped main fairway.",
+                    "region": {
+                      "x": 0.45,
+                      "y": 0.68,
+                      "width": 0.12,
+                      "height": 0.07
+                    },
+                    "consequence": "At thumbnail scale, this mapped patch may not read as fairway."
+                  },
+                  {
+                    "code": "style",
+                    "hole": 3,
+                    "detail": "The detached fairway patch between T3 and the small lake appears uniformly green rather than striped.",
+                    "region": {
+                      "x": 0.29,
+                      "y": 0.64,
+                      "width": 0.09,
+                      "height": 0.06
+                    },
+                    "consequence": "The patch may be mistaken for rough or another green surface in the overview."
+                  }
+                ],
+                "reason": "The course layout and greens are generally clear and faithful, but the illustration includes an unmapped path and leaves small mapped fairway patches visibly unstriped.",
+                "scores": {
+                  "naturalGreens": 4,
+                  "visualClarity": 4,
+                  "geometryFidelity": 4,
+                  "styleConsistency": 2
+                },
+                "approved": false,
+                "candidate": 0,
+                "reviewKind": "artwork-only-v1"
+              },
+              "responseID": "resp_053944e5afda7b5b016b07593972c487d2baa65813e8cab8d1"
+            }
+          ],
+          "approved": false,
+          "decisionKey": "da45cc77e304cf3e1e0cb31f8f3f75d9b08dc863ee66d1ddeb8215e311460dcb",
+          "artworkSHA256": "7d33794bbf1bca51c272954f9ea77f1be0f62ea15d4cd4ab8832e960073b4a99",
+          "geometrySHA256": "acb64d6874cab85d7fff7825a009e610ac4abb5e49200f9ef660e4ba2538b865",
+          "geometryEncoding": "studio-stable-json-v1"
+        },
+        "decisionKey": "da45cc77e304cf3e1e0cb31f8f3f75d9b08dc863ee66d1ddeb8215e311460dcb",
+        "artworkSHA256": "7d33794bbf1bca51c272954f9ea77f1be0f62ea15d4cd4ab8832e960073b4a99",
+        "geometrySHA256": "acb64d6874cab85d7fff7825a009e610ac4abb5e49200f9ef660e4ba2538b865",
+        "acceptedFindings": [
+          "da45cc77e304cf3e1e0cb31f8f3f75d9b08dc863ee66d1ddeb8215e311460dcb:0",
+          "da45cc77e304cf3e1e0cb31f8f3f75d9b08dc863ee66d1ddeb8215e311460dcb:1",
+          "da45cc77e304cf3e1e0cb31f8f3f75d9b08dc863ee66d1ddeb8215e311460dcb:2",
+          "da45cc77e304cf3e1e0cb31f8f3f75d9b08dc863ee66d1ddeb8215e311460dcb:3",
+          "da45cc77e304cf3e1e0cb31f8f3f75d9b08dc863ee66d1ddeb8215e311460dcb:4"
+        ]
+      }
+    ],
+    "compatibilityApproved": true
+  },
+  "artworkStatus": "approved",
+  "geometrySHA256": "2d78b7bfb1f0c74e856a2731de824b506c966e7c61beec21d1ee56ca0f532c1b",
+  "artworkSHA256": "48c6b6da430605302f108e0184851a6133562f359bca8ddaba3b9f034e4905ad",
+  "artworkReview": {
+    "issues": [
+      {
+        "code": "style",
+        "hole": 1,
+        "detail": "A pale, continuous path extends from the Hole 1 green toward the southeast property edge; no path is mapped in the diagram.",
+        "region": {
+          "x": 0.87,
+          "y": 0.54,
+          "width": 0.1,
+          "height": 0.16
+        },
+        "consequence": "The overview would misleadingly suggest a walking or cart route that is not part of the mapped course."
+      }
+    ],
+    "reason": "The illustration follows the numbered diagram\u2019s property outline, hole directions, mapped water, fairway sections, tees, greens and hazards. Fairway stripes are visible, including on the smaller patches, and the greens read as continuous putting surfaces with ordinary edge transitions. The overview is clear and consistent with the supplied style. The overview is clear and closely follows the mapped property and hazard layout. However, an unmapped path is drawn from the Hole 1 green toward the southeast edge, which violates the no-path requirement.",
+    "reviews": [
+      {
+        "review": {
+          "issues": [],
+          "reason": "The illustration follows the numbered diagram\u2019s property outline, hole directions, mapped water, fairway sections, tees, greens and hazards. Fairway stripes are visible, including on the smaller patches, and the greens read as continuous putting surfaces with ordinary edge transitions. The overview is clear and consistent with the supplied style.",
+          "scores": {
+            "naturalGreens": 4,
+            "visualClarity": 5,
+            "geometryFidelity": 5,
+            "styleConsistency": 5
+          },
+          "approved": true,
+          "candidate": 0,
+          "reviewKind": "artwork-only-v1"
+        },
+        "responseID": "resp_01a78b1cedc3ae5b016b07593c577887d2a6b11daa4638f34b"
+      },
+      {
+        "review": {
+          "issues": [
+            {
+              "code": "style",
+              "hole": 1,
+              "detail": "A pale, continuous path extends from the Hole 1 green toward the southeast property edge; no path is mapped in the diagram.",
+              "region": {
+                "x": 0.87,
+                "y": 0.54,
+                "width": 0.1,
+                "height": 0.16
+              },
+              "consequence": "The overview would misleadingly suggest a walking or cart route that is not part of the mapped course."
+            }
+          ],
+          "reason": "The overview is clear and closely follows the mapped property and hazard layout. However, an unmapped path is drawn from the Hole 1 green toward the southeast edge, which violates the no-path requirement.",
+          "scores": {
+            "naturalGreens": 4,
+            "visualClarity": 5,
+            "geometryFidelity": 4,
+            "styleConsistency": 3
+          },
+          "approved": false,
+          "candidate": 0,
+          "reviewKind": "artwork-only-v1"
+        },
+        "responseID": "resp_098b7535e0bad610016b07593c611c87d2bf233483a630f21c"
+      }
+    ],
+    "approved": false,
+    "artworkSHA256": "48c6b6da430605302f108e0184851a6133562f359bca8ddaba3b9f034e4905ad",
+    "geometrySHA256": "03f3ef0f993da82f3530b3958f72370682e54cc2b9e3ed6570ea8df117b89d48",
+    "geometryEncoding": "studio-stable-json-v1",
+    "decisionKey": "428c0da317cc11436e302427ec83a0d33c168561ac16761c348db0c1afdecf9a"
+  },
+  "compatibility": {
+    "policy": "studio-compatible-v1",
+    "holes": [
+      {
+        "sections": 2,
+        "addedFairwayYards": 11.70326549206493,
+        "addedFairwayPercent": 0.1488427697481745,
+        "waterReshaped": false,
+        "addedFairway": [
+          [
+            [
+              [
+                209.49573955762267,
+                173.89816962151818
+              ],
+              [
+                209.49852305701037,
+                173.87702684459626
+              ],
+              [
+                210.32015893348554,
+                162.81500969250988
+              ],
+              [
+                210.3173422765566,
+                162.79361505905752
+              ],
+              [
+                210.34073488180437,
+                162.61593058153935
+              ],
+              [
+                211.0738139969917,
+                162.79361505905752
+              ],
+              [
+                211.82981698077447,
+                162.7971754674125
+              ],
+              [
+                211.82017665975036,
+                162.87040097547927
+              ],
+              [
+                210.9985407832752,
+                173.93241812756565
+              ],
+              [
+                211.00135744020415,
+                173.953812761018
+              ],
+              [
+                210.9940318819154,
+                174.00945590051785
+              ]
+            ]
+          ]
+        ]
+      },
+      {
+        "sections": 2,
+        "addedFairwayYards": 71.94191465797972,
+        "addedFairwayPercent": 0.4207160034745967,
+        "waterReshaped": false,
+        "addedFairway": [
+          [
+            [
+              [
+                208.23862566274056,
+                57.86108712244831
+              ],
+              [
+                208.93839082393185,
+                57.59062521775799
+              ],
+              [
+                209.15781025106034,
+                56.86971757010345
+              ],
+              [
+                209.3166266841494,
+                56.93550149061666
+              ],
+              [
+                209.47329710722738,
+                57.05571893446246
+              ],
+              [
+                209.5204097154338,
+                57.1171172808578
+              ],
+              [
+                254.29585426997994,
+                109.06155058209947
+              ],
+              [
+                254.3130203624769,
+                109.07472258815052
+              ],
+              [
+                254.4332378063227,
+                109.23139301122849
+              ],
+              [
+                254.50880965080697,
+                109.41383958311597
+              ],
+              [
+                254.5238307812433,
+                109.5279363964056
+              ],
+              [
+                253.77811407918136,
+                109.60962887144605
+              ],
+              [
+                253.54344147058717,
+                110.32421844446816
+              ],
+              [
+                253.3998782189638,
+                110.26475259858738
+              ],
+              [
+                253.24320779588584,
+                110.14453515474158
+              ],
+              [
+                253.1960951876794,
+                110.08313680834621
+              ],
+              [
+                208.42065063313325,
+                58.138703507104545
+              ],
+              [
+                208.40348454063633,
+                58.125531501053516
+              ],
+              [
+                208.28326709679052,
+                57.968861077975546
+              ]
+            ]
+          ]
+        ]
+      },
+      {
+        "sections": 2,
+        "addedFairwayYards": 68.73212333996435,
+        "addedFairwayPercent": 7.852029801660911,
+        "waterReshaped": false,
+        "addedFairway": [
+          [
+            [
+              [
+                218.57364644884302,
+                207.48220963624226
+              ],
+              [
+                218.5951843535082,
+                207.31861300830244
+              ],
+              [
+                218.60361582830114,
+                207.29825762750647
+              ],
+              [
+                219.4836485852807,
+                202.69398676579806
+              ],
+              [
+                220.47633049163966,
+                201.80288655920333
+              ],
+              [
+                221.5938185640328,
+                197.41115004827049
+              ],
+              [
+                221.93055675773877,
+                192.01823149502437
+              ],
+              [
+                221.8999033764609,
+                190.0523078723009
+              ],
+              [
+                232.0726153205265,
+                136.82937859251876
+              ],
+              [
+                232.0791185894876,
+                136.77998136056135
+              ],
+              [
+                232.81336135557717,
+                136.948827031953
+              ],
+              [
+                233.5591734172917,
+                136.86785888538589
+              ],
+              [
+                233.5698330760123,
+                136.948827031953
+              ],
+              [
+                233.54405692720277,
+                137.14461632028306
+              ],
+              [
+                233.53562545240982,
+                137.16497170107903
+              ],
+              [
+                220.06662596018447,
+                207.63385073606673
+              ],
+              [
+                220.0565754967594,
+                207.7101915849626
+              ],
+              [
+                219.98100365227512,
+                207.89263815685007
+              ],
+              [
+                219.9319716366996,
+                207.95653792362967
+              ],
+              [
+                219.3258799251338,
+                207.5144022966325
+              ]
+            ]
+          ]
+        ]
+      }
+    ]
+  },
+  "holes": [
+    {
+      "par": 4,
+      "lengthYards": 332,
+      "type": "straight"
+    },
+    {
+      "par": 5,
+      "lengthYards": 543,
+      "type": "straight"
+    },
+    {
+      "par": 3,
+      "lengthYards": 171,
+      "type": "straight"
+    }
+  ],
+  "retainedOlder": {
+    "legacy": {
+      "course": 165,
+      "artworkSHA256": "dd9ed356c57778da8d89e94178c005f387cd562b49a82f1821586bfe97b946ab",
+      "schemaVersion": 1,
+      "geometrySHA256": "52f0baf9db346f079ed9e8c9c17fb525932079444d7524da9a8e20b83b44ef50",
+      "artRulesVersion": "fairway-stripes-v4"
+    },
+    "pairMatchupID": null
+  }
+}
