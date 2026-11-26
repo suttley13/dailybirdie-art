@@ -1,0 +1,33 @@
+{
+  "responseID": "resp_01b57c2d027ddb77016b08879eba8487d1bc8ba20f8ca12880",
+  "model": "gpt-6-luna",
+  "usage": {
+    "input_tokens": 8695,
+    "input_tokens_details": {
+      "cache_write_tokens": 7384,
+      "cache_write_tokens_details": {
+        "ttl_12h_tokens": 0,
+        "ttl_30m_tokens": 7384
+      },
+      "cached_tokens": 1308
+    },
+    "output_tokens": 3671,
+    "output_tokens_details": {
+      "reasoning_tokens": 3545
+    },
+    "total_tokens": 12366
+  },
+  "review": {
+    "reviewKind": "artwork-only-v1",
+    "candidate": 14,
+    "approved": true,
+    "scores": {
+      "geometryFidelity": 4,
+      "naturalGreens": 5,
+      "visualClarity": 4,
+      "styleConsistency": 4
+    },
+    "reason": "The illustration preserves the mapped property, tee-to-green directions, fairway sections, lake, and bunkers. All mapped tees are visible, greens read as continuous natural putting surfaces, and fairway stripes remain visible on the curved and smaller sections. The wooded rendering is consistent with the reference without adding paths or blocking the mapped play corridors.",
+    "issues": []
+  }
+}

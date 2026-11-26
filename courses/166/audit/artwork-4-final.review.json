@@ -1,0 +1,33 @@
+{
+  "responseID": "resp_073a3c966b6fba7d016b0887be094087d18ce03c7660f0bfdb",
+  "model": "gpt-6-luna",
+  "usage": {
+    "input_tokens": 8695,
+    "input_tokens_details": {
+      "cache_write_tokens": 7384,
+      "cache_write_tokens_details": {
+        "ttl_12h_tokens": 0,
+        "ttl_30m_tokens": 7384
+      },
+      "cached_tokens": 1308
+    },
+    "output_tokens": 2770,
+    "output_tokens_details": {
+      "reasoning_tokens": 2663
+    },
+    "total_tokens": 11465
+  },
+  "review": {
+    "reviewKind": "artwork-only-v1",
+    "candidate": 14,
+    "approved": true,
+    "scores": {
+      "geometryFidelity": 5,
+      "naturalGreens": 4,
+      "visualClarity": 4,
+      "styleConsistency": 4
+    },
+    "reason": "The illustration preserves the numbered tee-to-green routing, mapped fairways and hazards, and property silhouette. All fairway sections have visible transverse mowing stripes, the greens read as continuous putting surfaces, and no paths or unmapped crossings are drawn.",
+    "issues": []
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "responseID": "resp_0fa32162f9f888ed016b0886b193f887d19ce3479220ceff9a",
+  "model": "gpt-6-luna",
+  "usage": {
+    "input_tokens": 70296,
+    "input_tokens_details": {
+      "cache_write_tokens": 70293,
+      "cache_write_tokens_details": {
+        "ttl_12h_tokens": 0,
+        "ttl_30m_tokens": 70293
+      },
+      "cached_tokens": 0
+    },
+    "output_tokens": 2543,
+    "output_tokens_details": {
+      "reasoning_tokens": 2223
+    },
+    "total_tokens": 72839
+  },
+  "review": {
+    "candidate": 14,
+    "approved": true,
+    "scores": {
+      "strategy": 4,
+      "withinRoundVariety": 4,
+      "acrossDaysVariety": 4,
+      "fairDifficulty": 4
+    },
+    "reason": "Candidate 14 passes as supplied. Hole 1 is a dry 405-yard narrow-corridor par 4. The straight corridor and fairway bunkers make placement matter, while 8 of 9 tee-dispersion samples remain playable. Hole 2 is a 576-yard uphill par 5 with a substantial lake to the right of play. Its broad landing area supports a safer route away from the shoreline, while pressing closer to the water creates a meaningful risk-reward choice; 6 of 9 tee probes are playable. Hole 3 is a dry 142-yard, 7-iron par 3 with bunkers around the target. Its 9 of 9 safe probes make it the scoring opportunity, contrasting with the demanding long hole. The par-4/5/3 sequence, different tee clubs, and change from corridor placement to shoreline management to a short target shot give the round solid internal variety. Recent rounds feature frequent water hazards and longer target carries; limiting water to the par 5 and finishing with a dry short par 3 gives this set sufficient freshness. The challenging par 5 is balanced by recoverable misses on the opener and an accessible but bunkered target finish, so the round is fair without being uniformly easy. Geometry facts confirm water on Hole 2 only. No edits are needed.",
+    "edits": []
+  }
+}

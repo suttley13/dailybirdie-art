@@ -1,0 +1,46 @@
+{
+  "responseID": "resp_0234025233139160016b0887765a5c87d195831c59f3a174cf",
+  "model": "gpt-6-luna",
+  "usage": {
+    "input_tokens": 8700,
+    "input_tokens_details": {
+      "cache_write_tokens": 7389,
+      "cache_write_tokens_details": {
+        "ttl_12h_tokens": 0,
+        "ttl_30m_tokens": 7389
+      },
+      "cached_tokens": 1308
+    },
+    "output_tokens": 2122,
+    "output_tokens_details": {
+      "reasoning_tokens": 1926
+    },
+    "total_tokens": 10822
+  },
+  "review": {
+    "reviewKind": "artwork-only-v1",
+    "candidate": 14,
+    "approved": false,
+    "scores": {
+      "geometryFidelity": 4,
+      "naturalGreens": 5,
+      "visualClarity": 4,
+      "styleConsistency": 3
+    },
+    "reason": "The mapped layout, water, tees, greens, and main fairways are generally represented clearly, and the greens read as single natural putting surfaces. However, the short Hole 3 fairway patch lacks the required visible alternating mowing stripes.",
+    "issues": [
+      {
+        "code": "style",
+        "hole": 3,
+        "detail": "The short curved fairway patch between T3 and G3 is uniformly pale green without clearly visible edge-to-edge alternating stripes.",
+        "consequence": "At thumbnail scale, this mapped fairway may read as an extra putting green or an unmarked patch rather than fairway.",
+        "region": {
+          "x": 0.19,
+          "y": 0.44,
+          "width": 0.07,
+          "height": 0.12
+        }
+      }
+    ]
+  }
+}

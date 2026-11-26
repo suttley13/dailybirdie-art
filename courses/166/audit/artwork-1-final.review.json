@@ -1,0 +1,46 @@
+{
+  "responseID": "resp_067231755b897758016b08871ffed887d1b5712411f4752032",
+  "model": "gpt-6-luna",
+  "usage": {
+    "input_tokens": 8704,
+    "input_tokens_details": {
+      "cache_write_tokens": 7393,
+      "cache_write_tokens_details": {
+        "ttl_12h_tokens": 0,
+        "ttl_30m_tokens": 7393
+      },
+      "cached_tokens": 1308
+    },
+    "output_tokens": 2479,
+    "output_tokens_details": {
+      "reasoning_tokens": 2289
+    },
+    "total_tokens": 11183
+  },
+  "review": {
+    "reviewKind": "artwork-only-v1",
+    "candidate": 14,
+    "approved": false,
+    "scores": {
+      "geometryFidelity": 5,
+      "naturalGreens": 4,
+      "visualClarity": 4,
+      "styleConsistency": 3
+    },
+    "reason": "The mapped layout, hazards, tees, and continuous natural-looking greens are clearly represented. The detached Hole 3 fairway patch lacks clearly visible alternating stripes at thumbnail scale, so it does not read consistently as fairway.",
+    "issues": [
+      {
+        "code": "style",
+        "hole": 3,
+        "detail": "The small detached fairway patch between T3 and G3 has no clearly visible edge-to-edge alternating mowing stripes.",
+        "consequence": "In the overview, the patch may read as uniform turf or an additional green-like area rather than a fairway section.",
+        "region": {
+          "x": 0.18,
+          "y": 0.45,
+          "width": 0.06,
+          "height": 0.11
+        }
+      }
+    ]
+  }
+}

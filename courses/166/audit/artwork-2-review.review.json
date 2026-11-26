@@ -1,0 +1,46 @@
+{
+  "responseID": "resp_02f08be6312ca5b5016b08874a957087d18f0de740e71a4430",
+  "model": "gpt-6-luna",
+  "usage": {
+    "input_tokens": 8703,
+    "input_tokens_details": {
+      "cache_write_tokens": 7392,
+      "cache_write_tokens_details": {
+        "ttl_12h_tokens": 0,
+        "ttl_30m_tokens": 7392
+      },
+      "cached_tokens": 1308
+    },
+    "output_tokens": 2877,
+    "output_tokens_details": {
+      "reasoning_tokens": 2671
+    },
+    "total_tokens": 11580
+  },
+  "review": {
+    "reviewKind": "artwork-only-v1",
+    "candidate": 14,
+    "approved": false,
+    "scores": {
+      "geometryFidelity": 5,
+      "naturalGreens": 5,
+      "visualClarity": 4,
+      "styleConsistency": 3
+    },
+    "reason": "The course layout, mapped hazards, tees, greens, and property silhouette are faithfully illustrated. The mapped short fairway patch for hole 3 lacks clearly readable alternating mowing stripes at thumbnail scale, so the illustration does not meet the fairway-stripe requirement.",
+    "issues": [
+      {
+        "code": "style",
+        "hole": 3,
+        "detail": "The short fairway patch between T3 and G3 has no clearly distinguishable alternating light and dark bands; its turf reads mostly as uniform, mottled grass.",
+        "consequence": "At overview scale, this mapped landing area can blend into the surrounding rough and be less legible as fairway.",
+        "region": {
+          "x": 0.18,
+          "y": 0.45,
+          "width": 0.06,
+          "height": 0.09
+        }
+      }
+    ]
+  }
+}

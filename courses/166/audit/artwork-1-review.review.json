@@ -1,0 +1,33 @@
+{
+  "responseID": "resp_08656bd12e61cbcd016b088707767887d1910ea1925f163d43",
+  "model": "gpt-6-luna",
+  "usage": {
+    "input_tokens": 8704,
+    "input_tokens_details": {
+      "cache_write_tokens": 7393,
+      "cache_write_tokens_details": {
+        "ttl_12h_tokens": 0,
+        "ttl_30m_tokens": 7393
+      },
+      "cached_tokens": 1308
+    },
+    "output_tokens": 2307,
+    "output_tokens_details": {
+      "reasoning_tokens": 2185
+    },
+    "total_tokens": 11011
+  },
+  "review": {
+    "reviewKind": "artwork-only-v1",
+    "candidate": 14,
+    "approved": true,
+    "scores": {
+      "geometryFidelity": 5,
+      "naturalGreens": 4,
+      "visualClarity": 4,
+      "styleConsistency": 4
+    },
+    "reason": "The illustration preserves the mapped course silhouette, numbered tee-to-green routing, fairway footprints, lake and bunker placement. All three greens read as continuous putting surfaces, the fairways have visible crosswise mowing stripes, and the wooded rendering is consistent with the reference. No cart paths or other unmapped crossings are shown.",
+    "issues": []
+  }
+}
