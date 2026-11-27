@@ -1,0 +1,378 @@
+{
+  "course": 166,
+  "date": "2026-11-29",
+  "name": "Contraflow Golf Club",
+  "studioJob": "de1f1983-1bbb-435c-b733-8bbfa0106848",
+  "draftFingerprint": "6bca371b346d99079f5617004147d60579244181a3201ed5db0ff5c2270df4ee",
+  "approval": {
+    "approvedAt": "2026-11-27T22:43:59.013Z",
+    "playtested": true,
+    "humanApproved": true,
+    "retainedOlder": {
+      "legacy": {
+        "course": 166,
+        "artworkSHA256": "940555eee8c4f9f923caf6454932259878adfc74b496becc263bac9db5577545",
+        "schemaVersion": 1,
+        "geometrySHA256": "85acda184869bdb025ec2486b178b8d5afd89dddbb864c302bd4ada79cf8023c",
+        "artRulesVersion": "fairway-stripes-v4"
+      },
+      "pairMatchupID": null
+    },
+    "artworkOverrides": [
+      {
+        "policy": "studio-human-artwork-v1",
+        "reason": "The course layout and illustration treatment are clear, but the mapped flag markers are missing from the greens. The fairways, water, and greens generally follow the diagram, and the greens read as natural continuous surfaces. The three mapped flag markers are missing from the illustration.",
+        "review": {
+          "issues": [
+            {
+              "code": "geometry-mismatch",
+              "hole": 0,
+              "detail": "The diagram marks a flag position on each of the three greens; the illustration shows no flags or visible flag markers on G1, G2, or G3.",
+              "region": {
+                "x": 0.3,
+                "y": 0.25,
+                "width": 0.42,
+                "height": 0.4
+              },
+              "consequence": "Without the mapped markers, the overview omits the intended targets on all three holes."
+            },
+            {
+              "code": "geometry-mismatch",
+              "hole": 1,
+              "detail": "The mapped flag marker is absent from the G1 putting green.",
+              "region": {
+                "x": 0.29,
+                "y": 0.58,
+                "width": 0.04,
+                "height": 0.06
+              },
+              "consequence": "G1\u2019s intended flag location will not be represented in the course overview."
+            },
+            {
+              "code": "geometry-mismatch",
+              "hole": 2,
+              "detail": "The mapped flag marker is absent from the G2 putting green.",
+              "region": {
+                "x": 0.4,
+                "y": 0.33,
+                "width": 0.04,
+                "height": 0.06
+              },
+              "consequence": "G2\u2019s intended flag location will not be represented in the course overview."
+            },
+            {
+              "code": "geometry-mismatch",
+              "hole": 3,
+              "detail": "The mapped flag marker is absent from the G3 putting green.",
+              "region": {
+                "x": 0.69,
+                "y": 0.26,
+                "width": 0.04,
+                "height": 0.06
+              },
+              "consequence": "G3\u2019s intended flag location will not be represented in the course overview."
+            }
+          ],
+          "reason": "The course layout and illustration treatment are clear, but the mapped flag markers are missing from the greens. The fairways, water, and greens generally follow the diagram, and the greens read as natural continuous surfaces. The three mapped flag markers are missing from the illustration.",
+          "reviews": [
+            {
+              "review": {
+                "issues": [
+                  {
+                    "code": "geometry-mismatch",
+                    "hole": 0,
+                    "detail": "The diagram marks a flag position on each of the three greens; the illustration shows no flags or visible flag markers on G1, G2, or G3.",
+                    "region": {
+                      "x": 0.3,
+                      "y": 0.25,
+                      "width": 0.42,
+                      "height": 0.4
+                    },
+                    "consequence": "Without the mapped markers, the overview omits the intended targets on all three holes."
+                  }
+                ],
+                "reason": "The course layout and illustration treatment are clear, but the mapped flag markers are missing from the greens.",
+                "scores": {
+                  "naturalGreens": 5,
+                  "visualClarity": 5,
+                  "geometryFidelity": 3,
+                  "styleConsistency": 5
+                },
+                "approved": false,
+                "candidate": 0,
+                "reviewKind": "artwork-only-v1"
+              },
+              "responseID": "resp_0e9847a826f10339016b0a07411efc87d2ac7cd8527eea3fd7"
+            },
+            {
+              "review": {
+                "issues": [
+                  {
+                    "code": "geometry-mismatch",
+                    "hole": 1,
+                    "detail": "The mapped flag marker is absent from the G1 putting green.",
+                    "region": {
+                      "x": 0.29,
+                      "y": 0.58,
+                      "width": 0.04,
+                      "height": 0.06
+                    },
+                    "consequence": "G1\u2019s intended flag location will not be represented in the course overview."
+                  },
+                  {
+                    "code": "geometry-mismatch",
+                    "hole": 2,
+                    "detail": "The mapped flag marker is absent from the G2 putting green.",
+                    "region": {
+                      "x": 0.4,
+                      "y": 0.33,
+                      "width": 0.04,
+                      "height": 0.06
+                    },
+                    "consequence": "G2\u2019s intended flag location will not be represented in the course overview."
+                  },
+                  {
+                    "code": "geometry-mismatch",
+                    "hole": 3,
+                    "detail": "The mapped flag marker is absent from the G3 putting green.",
+                    "region": {
+                      "x": 0.69,
+                      "y": 0.26,
+                      "width": 0.04,
+                      "height": 0.06
+                    },
+                    "consequence": "G3\u2019s intended flag location will not be represented in the course overview."
+                  }
+                ],
+                "reason": "The fairways, water, and greens generally follow the diagram, and the greens read as natural continuous surfaces. The three mapped flag markers are missing from the illustration.",
+                "scores": {
+                  "naturalGreens": 5,
+                  "visualClarity": 4,
+                  "geometryFidelity": 3,
+                  "styleConsistency": 5
+                },
+                "approved": false,
+                "candidate": 0,
+                "reviewKind": "artwork-only-v1"
+              },
+              "responseID": "resp_0cda8c40a8a97024016b0a07411b5c87d2bfaa114f5f9a0404"
+            }
+          ],
+          "approved": false,
+          "decisionKey": "c81460d8e179d0a2c6e1efa5eae4bd5f3a6bf84d5b8a75003f4556e3060a1d93",
+          "artworkSHA256": "a257a404e1b489c20b1ae380229540f0dcc57027eddbc12461faef5f7db212a3",
+          "geometrySHA256": "7492050cfd8de4cc5a1d080b156eddcb86722cbadb091bfa453887c76b1540d5",
+          "geometryEncoding": "studio-stable-json-v1"
+        },
+        "decisionKey": "c81460d8e179d0a2c6e1efa5eae4bd5f3a6bf84d5b8a75003f4556e3060a1d93",
+        "artworkSHA256": "a257a404e1b489c20b1ae380229540f0dcc57027eddbc12461faef5f7db212a3",
+        "geometrySHA256": "7492050cfd8de4cc5a1d080b156eddcb86722cbadb091bfa453887c76b1540d5",
+        "acceptedFindings": [
+          "c81460d8e179d0a2c6e1efa5eae4bd5f3a6bf84d5b8a75003f4556e3060a1d93:0",
+          "c81460d8e179d0a2c6e1efa5eae4bd5f3a6bf84d5b8a75003f4556e3060a1d93:1",
+          "c81460d8e179d0a2c6e1efa5eae4bd5f3a6bf84d5b8a75003f4556e3060a1d93:2",
+          "c81460d8e179d0a2c6e1efa5eae4bd5f3a6bf84d5b8a75003f4556e3060a1d93:3"
+        ]
+      }
+    ],
+    "compatibilityApproved": true
+  },
+  "artworkStatus": "approved",
+  "geometrySHA256": "74affb16925f4524f3e31bfb5437a537e64fb86453f5cdeaf1b77d0ad234295e",
+  "artworkSHA256": "a257a404e1b489c20b1ae380229540f0dcc57027eddbc12461faef5f7db212a3",
+  "artworkReview": {
+    "issues": [
+      {
+        "code": "geometry-mismatch",
+        "hole": 0,
+        "detail": "The diagram marks a flag position on each of the three greens; the illustration shows no flags or visible flag markers on G1, G2, or G3.",
+        "region": {
+          "x": 0.3,
+          "y": 0.25,
+          "width": 0.42,
+          "height": 0.4
+        },
+        "consequence": "Without the mapped markers, the overview omits the intended targets on all three holes."
+      },
+      {
+        "code": "geometry-mismatch",
+        "hole": 1,
+        "detail": "The mapped flag marker is absent from the G1 putting green.",
+        "region": {
+          "x": 0.29,
+          "y": 0.58,
+          "width": 0.04,
+          "height": 0.06
+        },
+        "consequence": "G1\u2019s intended flag location will not be represented in the course overview."
+      },
+      {
+        "code": "geometry-mismatch",
+        "hole": 2,
+        "detail": "The mapped flag marker is absent from the G2 putting green.",
+        "region": {
+          "x": 0.4,
+          "y": 0.33,
+          "width": 0.04,
+          "height": 0.06
+        },
+        "consequence": "G2\u2019s intended flag location will not be represented in the course overview."
+      },
+      {
+        "code": "geometry-mismatch",
+        "hole": 3,
+        "detail": "The mapped flag marker is absent from the G3 putting green.",
+        "region": {
+          "x": 0.69,
+          "y": 0.26,
+          "width": 0.04,
+          "height": 0.06
+        },
+        "consequence": "G3\u2019s intended flag location will not be represented in the course overview."
+      }
+    ],
+    "reason": "The course layout and illustration treatment are clear, but the mapped flag markers are missing from the greens. The fairways, water, and greens generally follow the diagram, and the greens read as natural continuous surfaces. The three mapped flag markers are missing from the illustration.",
+    "reviews": [
+      {
+        "review": {
+          "issues": [
+            {
+              "code": "geometry-mismatch",
+              "hole": 0,
+              "detail": "The diagram marks a flag position on each of the three greens; the illustration shows no flags or visible flag markers on G1, G2, or G3.",
+              "region": {
+                "x": 0.3,
+                "y": 0.25,
+                "width": 0.42,
+                "height": 0.4
+              },
+              "consequence": "Without the mapped markers, the overview omits the intended targets on all three holes."
+            }
+          ],
+          "reason": "The course layout and illustration treatment are clear, but the mapped flag markers are missing from the greens.",
+          "scores": {
+            "naturalGreens": 5,
+            "visualClarity": 5,
+            "geometryFidelity": 3,
+            "styleConsistency": 5
+          },
+          "approved": false,
+          "candidate": 0,
+          "reviewKind": "artwork-only-v1"
+        },
+        "responseID": "resp_0e9847a826f10339016b0a07411efc87d2ac7cd8527eea3fd7"
+      },
+      {
+        "review": {
+          "issues": [
+            {
+              "code": "geometry-mismatch",
+              "hole": 1,
+              "detail": "The mapped flag marker is absent from the G1 putting green.",
+              "region": {
+                "x": 0.29,
+                "y": 0.58,
+                "width": 0.04,
+                "height": 0.06
+              },
+              "consequence": "G1\u2019s intended flag location will not be represented in the course overview."
+            },
+            {
+              "code": "geometry-mismatch",
+              "hole": 2,
+              "detail": "The mapped flag marker is absent from the G2 putting green.",
+              "region": {
+                "x": 0.4,
+                "y": 0.33,
+                "width": 0.04,
+                "height": 0.06
+              },
+              "consequence": "G2\u2019s intended flag location will not be represented in the course overview."
+            },
+            {
+              "code": "geometry-mismatch",
+              "hole": 3,
+              "detail": "The mapped flag marker is absent from the G3 putting green.",
+              "region": {
+                "x": 0.69,
+                "y": 0.26,
+                "width": 0.04,
+                "height": 0.06
+              },
+              "consequence": "G3\u2019s intended flag location will not be represented in the course overview."
+            }
+          ],
+          "reason": "The fairways, water, and greens generally follow the diagram, and the greens read as natural continuous surfaces. The three mapped flag markers are missing from the illustration.",
+          "scores": {
+            "naturalGreens": 5,
+            "visualClarity": 4,
+            "geometryFidelity": 3,
+            "styleConsistency": 5
+          },
+          "approved": false,
+          "candidate": 0,
+          "reviewKind": "artwork-only-v1"
+        },
+        "responseID": "resp_0cda8c40a8a97024016b0a07411b5c87d2bfaa114f5f9a0404"
+      }
+    ],
+    "approved": false,
+    "artworkSHA256": "a257a404e1b489c20b1ae380229540f0dcc57027eddbc12461faef5f7db212a3",
+    "geometrySHA256": "7492050cfd8de4cc5a1d080b156eddcb86722cbadb091bfa453887c76b1540d5",
+    "geometryEncoding": "studio-stable-json-v1",
+    "decisionKey": "c81460d8e179d0a2c6e1efa5eae4bd5f3a6bf84d5b8a75003f4556e3060a1d93"
+  },
+  "compatibility": {
+    "policy": "studio-compatible-v1",
+    "holes": [
+      {
+        "sections": 1,
+        "addedFairwayYards": 0,
+        "addedFairwayPercent": 0,
+        "waterReshaped": false,
+        "addedFairway": []
+      },
+      {
+        "sections": 1,
+        "addedFairwayYards": 0,
+        "addedFairwayPercent": 0,
+        "waterReshaped": false,
+        "addedFairway": []
+      },
+      {
+        "sections": 1,
+        "addedFairwayYards": 0,
+        "addedFairwayPercent": 0,
+        "waterReshaped": false,
+        "addedFairway": []
+      }
+    ]
+  },
+  "holes": [
+    {
+      "par": 5,
+      "lengthYards": 586,
+      "type": "straight"
+    },
+    {
+      "par": 4,
+      "lengthYards": 532,
+      "type": "straight"
+    },
+    {
+      "par": 3,
+      "lengthYards": 158,
+      "type": "straight"
+    }
+  ],
+  "retainedOlder": {
+    "legacy": {
+      "course": 166,
+      "artworkSHA256": "940555eee8c4f9f923caf6454932259878adfc74b496becc263bac9db5577545",
+      "schemaVersion": 1,
+      "geometrySHA256": "85acda184869bdb025ec2486b178b8d5afd89dddbb864c302bd4ada79cf8023c",
+      "artRulesVersion": "fairway-stripes-v4"
+    },
+    "pairMatchupID": null
+  }
+}
