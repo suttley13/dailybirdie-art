@@ -1,0 +1,903 @@
+[
+  {
+    "candidate": 6,
+    "metrics": [
+      {
+        "bunkerCount": 4,
+        "fairwayArea": 19602.355572777793,
+        "greenArea": 3421.7510386497524,
+        "par": 4,
+        "route": [
+          [
+            120,
+            40
+          ],
+          [
+            281.85866919443004,
+            354.2209671334848
+          ],
+          [
+            333.62338073472216,
+            403.68581826312754
+          ]
+        ],
+        "simulatedShotsToGreen": 2,
+        "teeAdvancingOptions": 10,
+        "teeClub": "driver",
+        "teeDispersionPlayable": 6,
+        "teeDispersionSafe": 0,
+        "teeDispersionSamples": 9,
+        "teeSafeOptions": 45,
+        "teeShotSamples": 216,
+        "type": "doglegRight",
+        "waterArea": 22778.500358799505,
+        "yards": 428
+      },
+      {
+        "bunkerCount": 4,
+        "fairwayArea": 8977.915563515562,
+        "greenArea": 1625.3812049405678,
+        "par": 3,
+        "route": [
+          [
+            200,
+            40
+          ],
+          [
+            218.40661489138625,
+            286.24571776327423
+          ]
+        ],
+        "simulatedShotsToGreen": 1,
+        "teeAdvancingOptions": 13,
+        "teeClub": "3wood",
+        "teeDispersionPlayable": 9,
+        "teeDispersionSafe": 6,
+        "teeDispersionSamples": 9,
+        "teeSafeOptions": 46,
+        "teeShotSamples": 216,
+        "type": "longPar3",
+        "waterArea": 0,
+        "yards": 207
+      },
+      {
+        "bunkerCount": 3,
+        "fairwayArea": 31559.52602679511,
+        "greenArea": 6964.486018150652,
+        "par": 4,
+        "route": [
+          [
+            200,
+            40
+          ],
+          [
+            178.935955315684,
+            383.36670684774396
+          ],
+          [
+            185.01938913129143,
+            531.4528473564322
+          ]
+        ],
+        "simulatedShotsToGreen": 2,
+        "teeAdvancingOptions": 27,
+        "teeClub": "driver",
+        "teeDispersionPlayable": 9,
+        "teeDispersionSafe": 6,
+        "teeDispersionSamples": 9,
+        "teeSafeOptions": 75,
+        "teeShotSamples": 216,
+        "type": "straight",
+        "waterArea": 14925.069786405245,
+        "yards": 409
+      }
+    ],
+    "playingProfile": {
+      "routingFamilies": [
+        "open",
+        "target",
+        "turning"
+      ],
+      "teeClubs": [
+        "3wood",
+        "driver"
+      ],
+      "greenSizes": [
+        "large",
+        "small"
+      ],
+      "regulationHoles": 3,
+      "underRegulationHoles": 0
+    },
+    "qualityScore": 14.750316113171912
+  },
+  {
+    "candidate": 15,
+    "metrics": [
+      {
+        "bunkerCount": 1,
+        "fairwayArea": 8899.112801885876,
+        "greenArea": 3042.4324357824153,
+        "par": 3,
+        "route": [
+          [
+            200,
+            40
+          ],
+          [
+            198.2171022825457,
+            298.61108511281947
+          ]
+        ],
+        "simulatedShotsToGreen": 1,
+        "teeAdvancingOptions": 11,
+        "teeClub": "3wood",
+        "teeDispersionPlayable": 7,
+        "teeDispersionSafe": 7,
+        "teeDispersionSamples": 9,
+        "teeSafeOptions": 56,
+        "teeShotSamples": 216,
+        "type": "islandGreen",
+        "waterArea": 27832.6930912541,
+        "yards": 223
+      },
+      {
+        "bunkerCount": 5,
+        "fairwayArea": 22491.557309460746,
+        "greenArea": 2584.638471549435,
+        "par": 4,
+        "route": [
+          [
+            120,
+            40
+          ],
+          [
+            209.9389387637133,
+            358.155599937606
+          ],
+          [
+            312.09687576300075,
+            419.4161533141134
+          ]
+        ],
+        "simulatedShotsToGreen": 2,
+        "teeAdvancingOptions": 13,
+        "teeClub": "driver",
+        "teeDispersionPlayable": 6,
+        "teeDispersionSafe": 2,
+        "teeDispersionSamples": 9,
+        "teeSafeOptions": 49,
+        "teeShotSamples": 216,
+        "type": "doglegRight",
+        "waterArea": 16138.610058477207,
+        "yards": 428
+      },
+      {
+        "bunkerCount": 2,
+        "fairwayArea": 48321.65754496129,
+        "greenArea": 1452.1797300124817,
+        "par": 4,
+        "route": [
+          [
+            200,
+            40
+          ],
+          [
+            224.55176956205926,
+            386.7293320824039
+          ],
+          [
+            221.42259380542836,
+            544.9211634865825
+          ]
+        ],
+        "simulatedShotsToGreen": 2,
+        "teeAdvancingOptions": 29,
+        "teeClub": "driver",
+        "teeDispersionPlayable": 9,
+        "teeDispersionSafe": 7,
+        "teeDispersionSamples": 9,
+        "teeSafeOptions": 108,
+        "teeShotSamples": 216,
+        "type": "splitFairway",
+        "waterArea": 18587.215192515454,
+        "yards": 431
+      }
+    ],
+    "playingProfile": {
+      "routingFamilies": [
+        "placement",
+        "turning",
+        "water-carry"
+      ],
+      "teeClubs": [
+        "3wood",
+        "driver"
+      ],
+      "greenSizes": [
+        "large",
+        "medium",
+        "small"
+      ],
+      "regulationHoles": 3,
+      "underRegulationHoles": 0
+    },
+    "qualityScore": 14.617614070672584
+  },
+  {
+    "candidate": 44,
+    "metrics": [
+      {
+        "bunkerCount": 6,
+        "fairwayArea": 2159.2699656643035,
+        "greenArea": 2509.094104637552,
+        "par": 3,
+        "route": [
+          [
+            200,
+            40
+          ],
+          [
+            198.38355868523143,
+            200.10268028556254
+          ]
+        ],
+        "simulatedShotsToGreen": 1,
+        "teeAdvancingOptions": 10,
+        "teeClub": "7iron",
+        "teeDispersionPlayable": 9,
+        "teeDispersionSafe": 9,
+        "teeDispersionSamples": 9,
+        "teeSafeOptions": 22,
+        "teeShotSamples": 216,
+        "type": "straight",
+        "waterArea": 7686.3046759855315,
+        "yards": 139
+      },
+      {
+        "bunkerCount": 3,
+        "fairwayArea": 13475.662575166,
+        "greenArea": 2005.5172822155,
+        "par": 4,
+        "route": [
+          [
+            200,
+            40
+          ],
+          [
+            203.2435369365309,
+            394.9996418908541
+          ],
+          [
+            203.513489782328,
+            542.0093847166219
+          ]
+        ],
+        "simulatedShotsToGreen": 2,
+        "teeAdvancingOptions": 9,
+        "teeClub": "driver",
+        "teeDispersionPlayable": 9,
+        "teeDispersionSafe": 3,
+        "teeDispersionSamples": 9,
+        "teeSafeOptions": 26,
+        "teeShotSamples": 216,
+        "type": "narrowCorridor",
+        "waterArea": 0,
+        "yards": 417
+      },
+      {
+        "bunkerCount": 3,
+        "fairwayArea": 17567.476669692343,
+        "greenArea": 1494.7565425380672,
+        "par": 4,
+        "route": [
+          [
+            200,
+            40
+          ],
+          [
+            270.02295002173537,
+            360.8688594372341
+          ],
+          [
+            205.32206797902566,
+            558.252720828066
+          ]
+        ],
+        "simulatedShotsToGreen": 2,
+        "teeAdvancingOptions": 10,
+        "teeClub": "driver",
+        "teeDispersionPlayable": 9,
+        "teeDispersionSafe": 7,
+        "teeDispersionSamples": 9,
+        "teeSafeOptions": 34,
+        "teeShotSamples": 216,
+        "type": "doubleDogleg",
+        "waterArea": 15654.890232560174,
+        "yards": 432
+      }
+    ],
+    "playingProfile": {
+      "routingFamilies": [
+        "open",
+        "placement",
+        "turning"
+      ],
+      "teeClubs": [
+        "7iron",
+        "driver"
+      ],
+      "greenSizes": [
+        "medium",
+        "small"
+      ],
+      "regulationHoles": 3,
+      "underRegulationHoles": 0
+    },
+    "qualityScore": 14.085626648872942
+  },
+  {
+    "candidate": 2,
+    "metrics": [
+      {
+        "bunkerCount": 5,
+        "fairwayArea": 33555.094509472496,
+        "greenArea": 3870.8676495808177,
+        "par": 5,
+        "route": [
+          [
+            200,
+            40
+          ],
+          [
+            211.53384212703313,
+            385.75220176879776
+          ],
+          [
+            210.88484635242304,
+            638.764466360289
+          ],
+          [
+            184.96235894404305,
+            721.8000415535516
+          ]
+        ],
+        "simulatedShotsToGreen": 3,
+        "teeAdvancingOptions": 15,
+        "teeClub": "driver",
+        "teeDispersionPlayable": 9,
+        "teeDispersionSafe": 9,
+        "teeDispersionSamples": 9,
+        "teeSafeOptions": 51,
+        "teeShotSamples": 216,
+        "type": "threeShotPar5",
+        "waterArea": 9692.596469596152,
+        "yards": 574
+      },
+      {
+        "bunkerCount": 3,
+        "fairwayArea": 19289.28906553542,
+        "greenArea": 1629.7541632625944,
+        "par": 4,
+        "route": [
+          [
+            200,
+            40
+          ],
+          [
+            256.7550835324816,
+            391.23127332599034
+          ],
+          [
+            225.0364605498159,
+            527.2054977789153
+          ]
+        ],
+        "simulatedShotsToGreen": 2,
+        "teeAdvancingOptions": 16,
+        "teeClub": "driver",
+        "teeDispersionPlayable": 9,
+        "teeDispersionSafe": 8,
+        "teeDispersionSamples": 9,
+        "teeSafeOptions": 47,
+        "teeShotSamples": 216,
+        "type": "capeHole",
+        "waterArea": 16151.872799647259,
+        "yards": 405
+      },
+      {
+        "bunkerCount": 3,
+        "fairwayArea": 11845.262756224074,
+        "greenArea": 2637.0571361541224,
+        "par": 3,
+        "route": [
+          [
+            200,
+            40
+          ],
+          [
+            194.03802502114465,
+            304.66382526617286
+          ]
+        ],
+        "simulatedShotsToGreen": 1,
+        "teeAdvancingOptions": 16,
+        "teeClub": "driver",
+        "teeDispersionPlayable": 9,
+        "teeDispersionSafe": 8,
+        "teeDispersionSamples": 9,
+        "teeSafeOptions": 62,
+        "teeShotSamples": 216,
+        "type": "longPar3",
+        "waterArea": 0,
+        "yards": 212
+      }
+    ],
+    "playingProfile": {
+      "routingFamilies": [
+        "long-game",
+        "target",
+        "water-carry"
+      ],
+      "teeClubs": [
+        "driver"
+      ],
+      "greenSizes": [
+        "large",
+        "medium",
+        "small"
+      ],
+      "regulationHoles": 3,
+      "underRegulationHoles": 0
+    },
+    "qualityScore": 13.592419163702603
+  },
+  {
+    "candidate": 3,
+    "metrics": [
+      {
+        "bunkerCount": 4,
+        "fairwayArea": 15016.27884484663,
+        "greenArea": 2906.3735654100674,
+        "par": 4,
+        "route": [
+          [
+            200,
+            40
+          ],
+          [
+            204.03699055817907,
+            397.1449150468784
+          ],
+          [
+            229.0458834738471,
+            453.39483968286123
+          ]
+        ],
+        "simulatedShotsToGreen": 2,
+        "teeAdvancingOptions": 14,
+        "teeClub": "driver",
+        "teeDispersionPlayable": 9,
+        "teeDispersionSafe": 2,
+        "teeDispersionSamples": 9,
+        "teeSafeOptions": 46,
+        "teeShotSamples": 216,
+        "type": "doubleDogleg",
+        "waterArea": 0,
+        "yards": 340
+      },
+      {
+        "bunkerCount": 1,
+        "fairwayArea": 6192.2929560881885,
+        "greenArea": 1642.9080868080237,
+        "par": 3,
+        "route": [
+          [
+            200,
+            40
+          ],
+          [
+            190.28756590409944,
+            305.3234576745245
+          ]
+        ],
+        "simulatedShotsToGreen": 1,
+        "teeAdvancingOptions": 3,
+        "teeClub": "driver",
+        "teeDispersionPlayable": 4,
+        "teeDispersionSafe": 4,
+        "teeDispersionSamples": 9,
+        "teeSafeOptions": 41,
+        "teeShotSamples": 216,
+        "type": "islandGreen",
+        "waterArea": 13471.350629452405,
+        "yards": 207
+      },
+      {
+        "bunkerCount": 3,
+        "fairwayArea": 9380.207902303444,
+        "greenArea": 2827.909810862511,
+        "par": 3,
+        "route": [
+          [
+            200,
+            40
+          ],
+          [
+            204.8170341932579,
+            288.0215424076191
+          ]
+        ],
+        "simulatedShotsToGreen": 1,
+        "teeAdvancingOptions": 14,
+        "teeClub": "3wood",
+        "teeDispersionPlayable": 9,
+        "teeDispersionSafe": 8,
+        "teeDispersionSamples": 9,
+        "teeSafeOptions": 46,
+        "teeShotSamples": 216,
+        "type": "straight",
+        "waterArea": 12702.583485799933,
+        "yards": 219
+      }
+    ],
+    "playingProfile": {
+      "routingFamilies": [
+        "open",
+        "turning",
+        "water-carry"
+      ],
+      "teeClubs": [
+        "3wood",
+        "driver"
+      ],
+      "greenSizes": [
+        "medium",
+        "small"
+      ],
+      "regulationHoles": 3,
+      "underRegulationHoles": 0
+    },
+    "qualityScore": 14.056216404898109
+  },
+  {
+    "candidate": 13,
+    "metrics": [
+      {
+        "bunkerCount": 3,
+        "fairwayArea": 8110.830253258278,
+        "greenArea": 4957.540235691802,
+        "par": 3,
+        "route": [
+          [
+            200,
+            40
+          ],
+          [
+            174.85493654463022,
+            292.1331202434554
+          ]
+        ],
+        "simulatedShotsToGreen": 1,
+        "teeAdvancingOptions": 14,
+        "teeClub": "3wood",
+        "teeDispersionPlayable": 9,
+        "teeDispersionSafe": 6,
+        "teeDispersionSamples": 9,
+        "teeSafeOptions": 42,
+        "teeShotSamples": 216,
+        "type": "punchbowlGreen",
+        "waterArea": 15450.783059993892,
+        "yards": 225
+      },
+      {
+        "bunkerCount": 4,
+        "fairwayArea": 22393.10556603926,
+        "greenArea": 3021.8849439364203,
+        "par": 5,
+        "route": [
+          [
+            200,
+            40
+          ],
+          [
+            170.46319164940624,
+            388.999620915608
+          ],
+          [
+            171.78847390285236,
+            631.3026297734502
+          ]
+        ],
+        "simulatedShotsToGreen": 2,
+        "teeAdvancingOptions": 14,
+        "teeClub": "driver",
+        "teeDispersionPlayable": 9,
+        "teeDispersionSafe": 4,
+        "teeDispersionSamples": 9,
+        "teeSafeOptions": 42,
+        "teeShotSamples": 216,
+        "type": "reachablePar5",
+        "waterArea": 21625.9687318869,
+        "yards": 496
+      },
+      {
+        "bunkerCount": 4,
+        "fairwayArea": 27851.68661638682,
+        "greenArea": 1613.3946133347927,
+        "par": 5,
+        "route": [
+          [
+            200,
+            40
+          ],
+          [
+            253.48541290368243,
+            390.05586005152924
+          ],
+          [
+            210.1589924640586,
+            594.2351871864074
+          ],
+          [
+            201.59215831427574,
+            703.9665157064858
+          ]
+        ],
+        "simulatedShotsToGreen": 3,
+        "teeAdvancingOptions": 17,
+        "teeClub": "driver",
+        "teeDispersionPlayable": 9,
+        "teeDispersionSafe": 3,
+        "teeDispersionSamples": 9,
+        "teeSafeOptions": 46,
+        "teeShotSamples": 216,
+        "type": "uphillGrinder",
+        "waterArea": 0,
+        "yards": 555
+      }
+    ],
+    "playingProfile": {
+      "routingFamilies": [
+        "attack-or-lay-up",
+        "long-game",
+        "target"
+      ],
+      "teeClubs": [
+        "3wood",
+        "driver"
+      ],
+      "greenSizes": [
+        "large",
+        "small"
+      ],
+      "regulationHoles": 2,
+      "underRegulationHoles": 1
+    },
+    "qualityScore": 12.833369280350592
+  },
+  {
+    "candidate": 8,
+    "metrics": [
+      {
+        "bunkerCount": 4,
+        "fairwayArea": 27181.248161463267,
+        "greenArea": 2819.1450254709343,
+        "par": 4,
+        "route": [
+          [
+            200,
+            40
+          ],
+          [
+            229.9103312111195,
+            396.89763661475706
+          ],
+          [
+            245.169222085516,
+            587.3289165025814
+          ]
+        ],
+        "simulatedShotsToGreen": 2,
+        "teeAdvancingOptions": 16,
+        "teeClub": "driver",
+        "teeDispersionPlayable": 6,
+        "teeDispersionSafe": 4,
+        "teeDispersionSamples": 9,
+        "teeSafeOptions": 53,
+        "teeShotSamples": 216,
+        "type": "capeHole",
+        "waterArea": 13232.648583692822,
+        "yards": 448
+      },
+      {
+        "bunkerCount": 2,
+        "fairwayArea": 9892.69474182244,
+        "greenArea": 2171.5086568789957,
+        "par": 3,
+        "route": [
+          [
+            200,
+            40
+          ],
+          [
+            205.36180211613382,
+            285.89195749614004
+          ]
+        ],
+        "simulatedShotsToGreen": 1,
+        "teeAdvancingOptions": 11,
+        "teeClub": "3wood",
+        "teeDispersionPlayable": 9,
+        "teeDispersionSafe": 9,
+        "teeDispersionSamples": 9,
+        "teeSafeOptions": 52,
+        "teeShotSamples": 216,
+        "type": "punchbowlGreen",
+        "waterArea": 15924.74843760248,
+        "yards": 205
+      },
+      {
+        "bunkerCount": 4,
+        "fairwayArea": 29482.81775755014,
+        "greenArea": 1686.6821506368142,
+        "par": 5,
+        "route": [
+          [
+            280,
+            40
+          ],
+          [
+            294.7264825385025,
+            367.56928356568255
+          ],
+          [
+            147.30272732340686,
+            559.4382420733522
+          ],
+          [
+            75.26276991870677,
+            575.879078714443
+          ]
+        ],
+        "simulatedShotsToGreen": 3,
+        "teeAdvancingOptions": 9,
+        "teeClub": "driver",
+        "teeDispersionPlayable": 9,
+        "teeDispersionSafe": 9,
+        "teeDispersionSamples": 9,
+        "teeSafeOptions": 42,
+        "teeShotSamples": 216,
+        "type": "doglegLeft",
+        "waterArea": 9393.227858704005,
+        "yards": 591
+      }
+    ],
+    "playingProfile": {
+      "routingFamilies": [
+        "target",
+        "turning",
+        "water-carry"
+      ],
+      "teeClubs": [
+        "3wood",
+        "driver"
+      ],
+      "greenSizes": [
+        "medium",
+        "small"
+      ],
+      "regulationHoles": 3,
+      "underRegulationHoles": 0
+    },
+    "qualityScore": 13.326736503616633
+  },
+  {
+    "candidate": 42,
+    "metrics": [
+      {
+        "bunkerCount": 3,
+        "fairwayArea": 5439.72005367716,
+        "greenArea": 1262.1141305425517,
+        "par": 3,
+        "route": [
+          [
+            200,
+            40
+          ],
+          [
+            218.37871176836168,
+            253.35989506483764
+          ]
+        ],
+        "simulatedShotsToGreen": 1,
+        "teeAdvancingOptions": 8,
+        "teeClub": "3wood",
+        "teeDispersionPlayable": 9,
+        "teeDispersionSafe": 6,
+        "teeDispersionSamples": 9,
+        "teeSafeOptions": 35,
+        "teeShotSamples": 216,
+        "type": "straight",
+        "waterArea": 0,
+        "yards": 170
+      },
+      {
+        "bunkerCount": 5,
+        "fairwayArea": 11987.609404439105,
+        "greenArea": 2036.0134819163504,
+        "par": 4,
+        "route": [
+          [
+            200,
+            40
+          ],
+          [
+            356.0263967745849,
+            316.48586546299157
+          ]
+        ],
+        "simulatedShotsToGreen": 1,
+        "teeAdvancingOptions": 11,
+        "teeClub": "driver",
+        "teeDispersionPlayable": 9,
+        "teeDispersionSafe": 8,
+        "teeDispersionSamples": 9,
+        "teeSafeOptions": 44,
+        "teeShotSamples": 216,
+        "type": "riskRewardPar4",
+        "waterArea": 12906.563717513744,
+        "yards": 315
+      },
+      {
+        "bunkerCount": 5,
+        "fairwayArea": 16477.50148804635,
+        "greenArea": 1851.4457595156782,
+        "par": 4,
+        "route": [
+          [
+            280,
+            40
+          ],
+          [
+            175.33673755923002,
+            373.0713189023966
+          ],
+          [
+            64.72923886769715,
+            405.44602877077233
+          ]
+        ],
+        "simulatedShotsToGreen": 2,
+        "teeAdvancingOptions": 9,
+        "teeClub": "driver",
+        "teeDispersionPlayable": 9,
+        "teeDispersionSafe": 5,
+        "teeDispersionSamples": 9,
+        "teeSafeOptions": 39,
+        "teeShotSamples": 216,
+        "type": "doglegLeft",
+        "waterArea": 11950.586358766523,
+        "yards": 403
+      }
+    ],
+    "playingProfile": {
+      "routingFamilies": [
+        "attack-or-lay-up",
+        "open",
+        "turning"
+      ],
+      "teeClubs": [
+        "3wood",
+        "driver"
+      ],
+      "greenSizes": [
+        "medium",
+        "small"
+      ],
+      "regulationHoles": 2,
+      "underRegulationHoles": 1
+    },
+    "qualityScore": 13.59674998280032
+  }
+]

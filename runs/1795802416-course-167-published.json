@@ -1,0 +1,211 @@
+{
+  "schemaVersion": 1,
+  "course": 167,
+  "outcome": "published",
+  "error": null,
+  "startedAt": 1795802416,
+  "seconds": 144.91,
+  "reviewModel": "gpt-6-luna",
+  "reviewEffort": "medium",
+  "imageModel": "gpt-image-2.5-sunburst",
+  "candidatesRequested": 50,
+  "calls": [
+    {
+      "phase": "selection",
+      "kind": "review",
+      "model": "gpt-6-luna",
+      "effort": "medium",
+      "responseID": "resp_0c555c8d8b0b6679016b09c53a1c9487d1a269decec034e355",
+      "usage": {
+        "input_tokens": 68987,
+        "input_tokens_details": {
+          "cache_write_tokens": 68984,
+          "cache_write_tokens_details": {
+            "ttl_12h_tokens": 0,
+            "ttl_30m_tokens": 68984
+          },
+          "cached_tokens": 0
+        },
+        "output_tokens": 2598,
+        "output_tokens_details": {
+          "reasoning_tokens": 2324
+        },
+        "total_tokens": 71585
+      },
+      "seconds": 21.76,
+      "imageCount": 8,
+      "approved": true,
+      "reviewKind": "course-design",
+      "reason": "Candidate 13 passes as supplied. Hole 1 is a 225-yard punchbowl par 3 with water left and forward of the target; its 3-wood demand is meaningful, while all nine tee-dispersion samples remain playable. Hole 2 is a 496-yard reachable par 5 with water right and forward of play. The two-shot simulation creates a genuine scoring opportunity, but only four of nine tee probes are safe, so pressing forward carries risk rather than making the eagle chance automatic. Hole 3 is a dry 555-yard uphill par 5 with a staged, turning route; only three of nine probes are safe, but all remain playable, providing a demanding counterpoint. The target opener, reachable attack-or-lay-up hole, and uphill grinder give the round distinct decisions despite two par 5s. Recent rounds often feature water and par 5s, but this particular contrast between a reachable and a demanding par 5 gives the set adequate freshness. Geometry facts confirm water on Holes 1 and 2 and none on Hole 3. No edits are needed.",
+      "issues": [],
+      "edits": [],
+      "scores": {
+        "strategy": 4,
+        "withinRoundVariety": 4,
+        "acrossDaysVariety": 4,
+        "fairDifficulty": 4
+      }
+    },
+    {
+      "phase": "artwork-0",
+      "kind": "image",
+      "model": "gpt-image-2.5-sunburst",
+      "usage": {
+        "input_tokens": 4453,
+        "input_tokens_details": {
+          "image_tokens": 2863,
+          "text_tokens": 1590
+        },
+        "output_tokens": 343,
+        "output_tokens_details": {
+          "image_tokens": 343,
+          "text_tokens": 0
+        },
+        "total_tokens": 4796
+      },
+      "seconds": 19.03
+    },
+    {
+      "phase": "artwork-0-review",
+      "kind": "review",
+      "model": "gpt-6-luna",
+      "effort": "medium",
+      "responseID": "resp_047a38b740fcfab8016b09c562866487d1a8c4002a79bf5bf4",
+      "usage": {
+        "input_tokens": 8399,
+        "input_tokens_details": {
+          "cache_write_tokens": 8396,
+          "cache_write_tokens_details": {
+            "ttl_12h_tokens": 0,
+            "ttl_30m_tokens": 8396
+          },
+          "cached_tokens": 0
+        },
+        "output_tokens": 3050,
+        "output_tokens_details": {
+          "reasoning_tokens": 2870
+        },
+        "total_tokens": 11449
+      },
+      "seconds": 27.4,
+      "imageCount": 3,
+      "approved": false,
+      "reviewKind": "artwork-only-v1",
+      "reason": "The fairways are visibly striped, the greens read as continuous natural putting surfaces, and the overall illustration is clear and consistent with the reference. One apparent extra bunker does not match the approved hole 1 geometry.",
+      "issues": [
+        {
+          "code": "geometry-mismatch",
+          "hole": 1,
+          "detail": "Two separate small bunkers appear above and to the right of the green, where the diagram maps one fairway bunker.",
+          "consequence": "The overview depicts an additional hazard not present in the approved geometry.",
+          "region": {
+            "x": 0.73,
+            "y": 0.15,
+            "width": 0.06,
+            "height": 0.04
+          }
+        }
+      ],
+      "edits": [],
+      "scores": {
+        "geometryFidelity": 3,
+        "naturalGreens": 4,
+        "visualClarity": 4,
+        "styleConsistency": 5
+      }
+    },
+    {
+      "phase": "artwork-1",
+      "kind": "image",
+      "model": "gpt-image-2.5-sunburst",
+      "usage": {
+        "input_tokens": 6208,
+        "input_tokens_details": {
+          "image_tokens": 4363,
+          "text_tokens": 1845
+        },
+        "output_tokens": 343,
+        "output_tokens_details": {
+          "image_tokens": 343,
+          "text_tokens": 0
+        },
+        "total_tokens": 6551
+      },
+      "seconds": 21.51
+    },
+    {
+      "phase": "artwork-1-review",
+      "kind": "review",
+      "model": "gpt-6-luna",
+      "effort": "medium",
+      "responseID": "resp_025d7d58042ca21b016b09c595e0b087d18f9b44095f9116e5",
+      "usage": {
+        "input_tokens": 8398,
+        "input_tokens_details": {
+          "cache_write_tokens": 7087,
+          "cache_write_tokens_details": {
+            "ttl_12h_tokens": 0,
+            "ttl_30m_tokens": 7087
+          },
+          "cached_tokens": 1308
+        },
+        "output_tokens": 2173,
+        "output_tokens_details": {
+          "reasoning_tokens": 2053
+        },
+        "total_tokens": 10571
+      },
+      "seconds": 22.39,
+      "imageCount": 3,
+      "approved": true,
+      "reviewKind": "artwork-only-v1",
+      "reason": "The numbered tee-to-green routes, mapped lakes, bunkers, tees, and property silhouette are faithfully represented. Each green reads as one continuous natural putting surface, and all fairway sections have clear stripes that follow their direction and bends. The wooded treatment is consistent with the reference without blocking the visible routes.",
+      "issues": [],
+      "edits": [],
+      "scores": {
+        "geometryFidelity": 5,
+        "naturalGreens": 5,
+        "visualClarity": 4,
+        "styleConsistency": 5
+      }
+    },
+    {
+      "phase": "artwork-1-final",
+      "kind": "review",
+      "model": "gpt-6-luna",
+      "effort": "medium",
+      "responseID": "resp_04997109f4b2167a016b09c5acaa8887d1a7f9637ec69fb16c",
+      "usage": {
+        "input_tokens": 8398,
+        "input_tokens_details": {
+          "cache_write_tokens": 7087,
+          "cache_write_tokens_details": {
+            "ttl_12h_tokens": 0,
+            "ttl_30m_tokens": 7087
+          },
+          "cached_tokens": 1308
+        },
+        "output_tokens": 2398,
+        "output_tokens_details": {
+          "reasoning_tokens": 2270
+        },
+        "total_tokens": 10796
+      },
+      "seconds": 22.27,
+      "imageCount": 3,
+      "approved": true,
+      "reviewKind": "artwork-only-v1",
+      "reason": "The illustration preserves the numbered tee-to-green routing, mapped fairway footprints, water and bunker placement, and overall property silhouette. All fairway sections have visible transverse mowing stripes, the greens read as continuous putting surfaces, and no cart paths or footpaths are drawn. The wooded rendering is consistent with the reference while keeping the mapped playing corridors clear.",
+      "issues": [],
+      "edits": [],
+      "scores": {
+        "geometryFidelity": 4,
+        "naturalGreens": 4,
+        "visualClarity": 4,
+        "styleConsistency": 5
+      }
+    }
+  ],
+  "artworkStatus": "approved",
+  "artworkFailure": null
+}

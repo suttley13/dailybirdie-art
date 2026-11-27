@@ -1,0 +1,46 @@
+{
+  "responseID": "resp_047a38b740fcfab8016b09c562866487d1a8c4002a79bf5bf4",
+  "model": "gpt-6-luna",
+  "usage": {
+    "input_tokens": 8399,
+    "input_tokens_details": {
+      "cache_write_tokens": 8396,
+      "cache_write_tokens_details": {
+        "ttl_12h_tokens": 0,
+        "ttl_30m_tokens": 8396
+      },
+      "cached_tokens": 0
+    },
+    "output_tokens": 3050,
+    "output_tokens_details": {
+      "reasoning_tokens": 2870
+    },
+    "total_tokens": 11449
+  },
+  "review": {
+    "reviewKind": "artwork-only-v1",
+    "candidate": 13,
+    "approved": false,
+    "scores": {
+      "geometryFidelity": 3,
+      "naturalGreens": 4,
+      "visualClarity": 4,
+      "styleConsistency": 5
+    },
+    "reason": "The fairways are visibly striped, the greens read as continuous natural putting surfaces, and the overall illustration is clear and consistent with the reference. One apparent extra bunker does not match the approved hole 1 geometry.",
+    "issues": [
+      {
+        "code": "geometry-mismatch",
+        "hole": 1,
+        "detail": "Two separate small bunkers appear above and to the right of the green, where the diagram maps one fairway bunker.",
+        "consequence": "The overview depicts an additional hazard not present in the approved geometry.",
+        "region": {
+          "x": 0.73,
+          "y": 0.15,
+          "width": 0.06,
+          "height": 0.04
+        }
+      }
+    ]
+  }
+}
