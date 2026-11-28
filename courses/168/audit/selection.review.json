@@ -1,0 +1,32 @@
+{
+  "responseID": "resp_0a3f7480e3652237016b0b0697fdc487d1be58f277be3c3949",
+  "model": "gpt-6-luna",
+  "usage": {
+    "input_tokens": 70087,
+    "input_tokens_details": {
+      "cache_write_tokens": 70084,
+      "cache_write_tokens_details": {
+        "ttl_12h_tokens": 0,
+        "ttl_30m_tokens": 70084
+      },
+      "cached_tokens": 0
+    },
+    "output_tokens": 3167,
+    "output_tokens_details": {
+      "reasoning_tokens": 2874
+    },
+    "total_tokens": 73254
+  },
+  "review": {
+    "candidate": 20,
+    "approved": true,
+    "scores": {
+      "strategy": 4,
+      "withinRoundVariety": 5,
+      "acrossDaysVariety": 4,
+      "fairDifficulty": 4
+    },
+    "reason": "Candidate 20 passes as supplied. Hole 1 is a 572-yard three-shot par 5 with a substantial lake left/front of play. Its broad staged route allows a safer line away from the water, while pressing forward creates added risk. Hole 2 is a 408-yard double-dogleg par 4 with a substantial lake right/front; the changing route makes positioning matter, and all nine tee-dispersion probes remain playable. Hole 3 is a dry 227-yard long par 3 with bunkers shaping the target. Its 3-wood demand and only 4 of 9 safe probes make it a demanding finish, while all nine playable probes suggest recoverable misses. The par-5/4/3 sequence shifts from staged long play to a water-influenced positional hole and then a long target shot. That makes for strong within-round variety. Recent rounds include similar par sequences, but this combination\u2019s two substantial lakes on different sides and dry par-3 finish give it adequate freshness. Geometry facts confirm water on holes 1 and 2, and none on hole 3. The landing and dispersion evidence supports a challenging, fair round; no geometry edits are needed.",
+    "edits": []
+  }
+}
